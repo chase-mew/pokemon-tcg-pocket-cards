@@ -225,5 +225,16 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b2b-booster.png"
       }
     ]
+  },
+  {
+    "id": "b3",
+    "name": "Pulsing Aura",
+    "packs": [
+      {
+        "id": "b3-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3-booster.png"
+      }
+    ]
   }
 ]
