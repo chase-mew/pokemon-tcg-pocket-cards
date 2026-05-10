@@ -246,7 +246,7 @@ def transform_cards(raw_cards, set_code, expansion_name):
                     promo_volume_count = 1
                 pack = f"Promo V{promo_volume}"
         elif is_promo:
-            pack = f"Shared({expansion_name})"
+            pack = expansion_name
         elif pack == "Every pack":
             pack = (
                 f"Shared({expansion_name})"
