@@ -236,5 +236,16 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3-booster.png"
       }
     ]
+  },
+  {
+    "id": "b3a",
+    "name": "Paradox Drive",
+    "packs": [
+      {
+        "id": "b3a-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3a-booster.png"
+      }
+    ]
   }
 ]
