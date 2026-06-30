@@ -247,5 +247,16 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3a-booster.png"
       }
     ]
+  },
+  {
+    "id": "b3b",
+    "name": "Everyday Wonders",
+    "packs": [
+      {
+        "id": "b3b-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3b-booster.png"
+      }
+    ]
   }
 ]
