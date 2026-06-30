@@ -42142,5 +42142,101 @@
     "ex": "No",
     "artist": "Toyste Beach",
     "type": "Trainer"
+  },
+  {
+    "id": "pb-071",
+    "name": "Psyduck",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "70",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-071.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Natsumi Yoshida",
+    "type": "Water"
+  },
+  {
+    "id": "pb-072",
+    "name": "Feebas",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "30",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-072.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Tetsu Kayama",
+    "type": "Water"
+  },
+  {
+    "id": "pb-073",
+    "name": "Froslass",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "100",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-073.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Kagemaru Himeno",
+    "type": "Water"
+  },
+  {
+    "id": "pb-074",
+    "name": "Raichu",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "110",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-074.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Midori Harada",
+    "type": "Lightning"
+  },
+  {
+    "id": "pb-075",
+    "name": "Quagsire",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "120",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-075.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Naoyo Kimura",
+    "type": "Fighting"
+  },
+  {
+    "id": "pb-076",
+    "name": "Hisuian Zorua",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "60",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-076.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Teeziro",
+    "type": "Colorless"
+  },
+  {
+    "id": "pb-077",
+    "name": "Growlithe",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "80",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-077.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "sowsow",
+    "type": "Fire"
+  },
+  {
+    "id": "pb-078",
+    "name": "Emolga",
+    "rarity": "Promo",
+    "pack": "Promo-B",
+    "health": "70",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/cards/pb-078.png",
+    "fullart": "No",
+    "ex": "No",
+    "artist": "Akira Komayama",
+    "type": "Lightning"
   }
 ]
