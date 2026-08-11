@@ -258,5 +258,16 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3b-booster.png"
       }
     ]
+  },
+  {
+    "id": "b4",
+    "name": "Ruler of the Skies",
+    "packs": [
+      {
+        "id": "b4-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b4-booster.png"
+      }
+    ]
   }
 ]
