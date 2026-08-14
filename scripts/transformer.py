@@ -1,3 +1,4 @@
+# QR encoding logic ported from [Nirostar/ptcgp-deck-qr/](https://github.com/Nirostar/ptcgp-deck-qr) (MIT License) @ 2026 Nirostar
 # Copyright (C) 2024 Chase Manning <chase@manning.dev>
 # Copyright (C) 2026 Leonid Dalin <infoLeonid@protonmail.com> & Chase Manning <chase@manning.dev>
 #
@@ -17,10 +18,42 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-from constants import GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS
-from utils import set_code_to_prefix
+import re
+import requests
+from constants import GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS
+from utils import set_code_to_prefix, compile_tag_matchers
+from deck_code import get_deck_builder_nr, create_single_card_code
 
-def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
+def fetch_datamine_lookup():
+    lookup = {}
+    try:
+        resp = requests.get("https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json", timeout=10)
+        if resp.status_code == 200:
+            for card in resp.json():
+                c_set = str(card.get("set", "")).lower().replace("-", "")
+                c_num = card.get("number")
+                if c_set and c_num is not None:
+                    nr = get_deck_builder_nr(card.get("image", ""))
+                    if nr: lookup[(c_set, int(c_num))] = nr
+    except requests.RequestException:
+        pass
+    return lookup
+
+def _to_v4(card):
+    return {
+        "id": card["id"],
+        "name": card["name"],
+        "rarity": card["rarity"],
+        "pack": card["pack"],
+        "health": str(card["health"]) if card["health"] else "",
+        "image": card["image_png"],
+        "fullart": "Yes" if card.get("art_style") in ("Full Art", "Special Illustration Art", "Immersive Art", "Shiny Full Art") else "No",
+        "ex": "Yes" if card["ex"] else "No",
+        "artist": card["artist"],
+        "type": card["subtype"]
+    }
+
+def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date=None):
     prefix = set_code_to_prefix(set_code)
     is_pa = set_code == "P-A"
     is_promo = set_code.startswith("P-")
@@ -29,6 +62,8 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
     seen_three_star, seen_trainer_fa = False, False
     in_fullart, in_sia = False, False
     last_raw_text, prev_rarity = "", ""
+    datamine_lookup = fetch_datamine_lookup()
+    tag_matchers = compile_tag_matchers(TAG_DEFINITIONS)
 
     transformed = []
     for card in raw_cards:
@@ -78,11 +113,21 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
         elif pack == "Every pack": pack = f"Shared({expansion_name})" if specific_packs else expansion_name
         elif pack.endswith(" pack"): pack = pack[:-5].strip()
 
+        try:
+            num_int = int(re.sub(r"\D", "", card["number"]))
+            deck_builder_nr = datamine_lookup.get((prefix.lower(), num_int))
+        except ValueError:
+            deck_builder_nr = None
+        share_code = create_single_card_code(deck_builder_nr)
+        matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
+        special_tags = matched_tags if matched_tags else None
+
         transformed.append({
-            # Identification
+            # Core identifiers
             "id": f"{prefix}-{num_zfill}",
             "name": card["name"],
-            "set": prefix,
+            "set_code": prefix,
+            "set_name": expansion_name,
             "pack": pack,
             "release_date": release_date,
 
@@ -98,23 +143,32 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
             "ex": card["ex"],
             "mega": card["mega"],
             "shiny": shiny,
+            "special_tags": special_tags,
             "art_style": art_style,
-            "points": card["points"],
 
-            # Stats
+            # Gameplay mechanics
             "health": card["hp"],
             "retreat": card["retreat"],
             "weakness": card["weakness"],
-
-            # Abilities & Attacks
             "ability": card["ability"],
             "card_text": card["card_text"],
             "attacks": card["attacks"],
+            "points": card["points"],
 
-            # Metadata
+            # Deck builder references
+            "deckBuilderNr": deck_builder_nr,
+            "share_code": share_code,
+
+            # Media & Metadata
             "artist": card["artist"],
             "source_url": card["image"],
             "image": f"{GITHUB_BASE_URL}/webp/cards/{prefix}/{num_zfill}.webp",
             "image_png": f"{GITHUB_BASE_URL}/png/cards/{prefix}/{num_zfill}.png",
+            "flavour_text": card["flavour_text"],
+            "alternate_versions": card["alternate_versions"],
         })
+
+    if mode == "v4":
+        return [_to_v4(c) for c in transformed]
+
     return transformed

@@ -8,19 +8,18 @@ from constants import PNG_PACKS_DIR, PROMO_PREFIXES, WEBP_PACKS_DIR
 def number(card):
     return int(card["id"].rsplit("-", 1)[1])
 
-
 class TestOrdering:
     def test_sets_are_contiguous_blocks(self, cards):
         """Non-promo sets must not be interleaved (promos are appended over time)."""
         seen, current = [], None
         for card in cards:
-            if card["set"] in PROMO_PREFIXES:
+            if card["set_code"] in PROMO_PREFIXES:
                 continue
-            if card["set"] != current:
-                assert card["set"] not in seen, (
-                    f"Set {card['set']!r} appears in multiple non-contiguous blocks")
-                seen.append(card["set"])
-                current = card["set"]
+            if card["set_code"] != current:
+                assert card["set_code"] not in seen, (
+                    f"Set {card['set_code']!r} appears in multiple non-contiguous blocks")
+                seen.append(card["set_code"])
+                current = card["set_code"]
 
     def test_numbers_ascend_within_set(self, by_set):
         bad = {s: [number(c) for c in group]
@@ -81,7 +80,7 @@ class TestArtStyleBlocks:
         for card in cards:
             if card["art_style"] != "Parallel Foil":
                 continue
-            previous = by_id.get(f"{card['set']}-{str(number(card) - 1).zfill(3)}")
+            previous = by_id.get(f"{card['set_code']}-{str(number(card) - 1).zfill(3)}")
             if previous is None or previous["name"] != card["name"]:
                 fails.append(f"{card['id']} ({card['name']}): previous card is "
                              f"{previous['name'] if previous else 'missing'}")

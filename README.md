@@ -11,35 +11,35 @@ Open a pull request if you find missing cards or errors.
 
 ## 💾 Data Source
 
-Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
+Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).** Deck share codes are derived using game asset mappings from the community database.
 
 ## ⚡ Adding a new expansion
 
-When a new expansion drops, run a single script to scrape card data, download card art, and update the JSON files:
+When a new expansion drops, run the script to scrape card data, download card art, and update the JSON files.
 
 ```bash
 pip install -r requirements.txt
 python3 scripts/add_expansion.py <SET_CODE>
 ```
 
-For example:
+You can also scrape a chronological range of sets by linking them with an arrow.
 ```bash
-python3 scripts/add_expansion.py b4a
+python3 scripts/add_expansion.py a1->b4
 ```
 
-The script handles five tasks:
-1. It detects the expansion name from Limitless TCG.
-2. It scrapes all cards in the set.
-3. It downloads pack and card images.
-4. It appends new card records to **[v5.json](v5.json)**.
-5. It adds the expansion entry to **[expansions.json](expansions.json)**.
+The script handles these tasks:
+1. Detects the expansion name and release date.
+2. Scrapes all cards in the specified set or range.
+3. Maps internal asset IDs to generate deck share codes.
+4. Downloads [pack and card images](images/).
+5. Appends new card records to the target **[JSON](v5.json)** database.
+6. Adds the expansion entry to the **[expansions](expansions.json)** index.
 
 ### 🔄 Updating promo sets
 
 Promo sets like P-A and P-B gain cards over time. Run the same command to pull new cards without duplicating existing ones:
 
 ```bash
-python3 scripts/add_expansion.py PA
 python3 scripts/add_expansion.py PB
 ```
 
@@ -47,22 +47,29 @@ python3 scripts/add_expansion.py PB
 
 - Pass `--name "Custom Name"` to override the expansion name.
 - Pass `--skip-images` to skip downloading images.
+- Pass `--mode v4` to format the output for the legacy schema.
 
 ## 📊 Schema comparison
 
-| **Feature**   | **[💛 V4](v4.json)** | **[💚 V5](v5.json)** (newer)                            |
-|----------------|----------------------|---------------------------------------------------------|
-| Missing values | Empty strings ("")   | null                                                    |
-| Image formats  | PNG only             | WEBP (default) and PNG                                  |
-| Data structure | Flat                 | Mostly flat, with nested `ability` and `attacks` fields |
-| Booleans       | Strings ("Yes"/"No") | Native booleans (true/false)                            |
-| Set mapping    | Pack name            | Set ID and pack name                                    |
-| Combat stats   | Health only          | Health, retreat cost, weakness                          |
-| Attack data    | None                 | Structured (cost, name, damage, effect)                 |
-| Abilities      | None                 | Structured (exists, name, effect)                       |
-| Game metadata  | Rarity string        | Pack points, stage, evolves_from, shiny, points         |
-| Release date   | None                 | ISO release date                                        |
-| Card text      | None                 | Raw text for Trainers                                   |
+| **Feature**                        | **[💛 V4](v4.json)**      | **[💚 V5](v5.json)** (newer)                                                         |
+|------------------------------------|---------------------------|--------------------------------------------------------------------------------------|
+| Missing values                     | Empty strings ("")        | null                                                                                 |
+| Image formats                      | PNG only                  | WEBP (default) and PNG                                                               |
+| Data structure                     | Flat                      | Mostly flat, with nested `ability` and `attacks` fields                              |
+| Booleans                           | Strings (`"Yes"`/`"No"`)  | Native booleans (`true`/`false`)                                                     |
+| Set mapping                        | Pack name                 | Set name, ID and pack name                                                           |
+| Combat stats                       | Health only               | Health, retreat cost, weakness                                                       |
+| Attack data                        | ❌                         | ✅ Structured (cost, name, damage, effect)                                            |
+| Abilities                          | ❌                         | ✅ Structured (exists, name, effect)                                                  |
+| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
+| Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   |
+| Special tags | ❌ | Ancient, future, and ultra beasts                                                    |
+| Deck builder | ❌ | Internal asset ID and deck share code                                                | 
+| Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          |
+| Release date                       | ❌                         | ✅ ISO release date                                                                   |
+| Flavour text                       | ❌                         | ✅ Raw text string                                                                    |               
+| Language support | English only | English only |
+| Pack drop probabilities            | ❌                         | ❌                                                                                    | 
 
 ### 💼 Support schedule
 

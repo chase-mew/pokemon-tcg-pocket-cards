@@ -36,18 +36,36 @@ import sys
 from constants import CURRENT_VERSION
 from database import update_cards, update_expansions
 from downloader import download_images, download_pack_images
-from scraper import discover_set, scrape_cards
+from scraper import discover_set, scrape_cards, get_all_set_codes
 from transformer import transform_cards
 from utils import normalise_set_code, set_code_to_prefix
 
-def main():
-    parser = argparse.ArgumentParser(description="Add a new Pokemon TCG Pocket expansion")
-    parser.add_argument("set_code", help="Set code from Limitless TCG (e.g. B3b, A1, PA, PB)")
-    parser.add_argument("--name", help="Override expansion name (auto-detected if omitted)")
-    parser.add_argument("--skip-images", action="store_true", help="Skip downloading card images")
-    args = parser.parse_args()
 
-    set_code = normalise_set_code(args.set_code)
+def resolve_set_range(range_str):
+    if "->" not in range_str:
+        return [normalise_set_code(range_str)]
+
+    start_raw, end_raw = range_str.split("->")
+    start_code = normalise_set_code(start_raw)
+    end_code = normalise_set_code(end_raw)
+
+    all_codes = [normalise_set_code(c) for c in get_all_set_codes()]
+    all_codes.reverse()
+
+    if start_code not in all_codes or end_code not in all_codes:
+        print(f"Error: Could not find one of the sets in the range {start_code} to {end_code}.")
+        sys.exit(1)
+
+    start_idx = all_codes.index(start_code)
+    end_idx = all_codes.index(end_code)
+
+    if start_idx > end_idx:
+        start_idx, end_idx = end_idx, start_idx
+
+    return all_codes[start_idx:end_idx + 1]
+
+
+def process_single_set(set_code, args):
     prefix = set_code_to_prefix(set_code)
     is_promo = set_code.startswith("P-")
 
@@ -73,7 +91,7 @@ def main():
 
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
-    cards = transform_cards(raw_cards, set_code, expansion_name, release_date)
+    cards = transform_cards(raw_cards, set_code, expansion_name, args.mode, release_date)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
@@ -87,9 +105,11 @@ def main():
 
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
-    added = update_cards(cards, CURRENT_VERSION)
-    if is_promo:
-        print("    Promo set -- expansion entry already exists, skipping")
+    target_version = 4 if args.mode == "v4" else CURRENT_VERSION
+    added = update_cards(cards, target_version)
+
+    if is_promo or args.mode == "v4":
+        print("    Skipping expansion index update")
         expansion_packs = None
     else:
         expansion_packs = update_expansions(set_code, expansion_name, cards)
@@ -103,8 +123,21 @@ def main():
 
     print(f"\n{'=' * 60}")
     print(f"  Done! {expansion_name} ({set_code})")
-    print(f"  {len(cards)} cards scraped, {added} new added to v{CURRENT_VERSION}.json")
+    print(f"  {len(cards)} cards scraped, {added} new added to v{target_version}.json")
     print(f"{'=' * 60}\n")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Add a new Pokemon TCG Pocket expansion")
+    parser.add_argument("set_code", help="Set code or range (e.g. B3b, a1->b4, PA)")
+    parser.add_argument("--name", help="Override expansion name (auto-detected if omitted)")
+    parser.add_argument("--mode", choices=["v4", "v5"], default="v5", help="Target output schema format")
+    parser.add_argument("--skip-images", action="store_true", help="Skip downloading card images")
+    args = parser.parse_args()
+
+    set_codes = resolve_set_range(args.set_code)
+    for code in set_codes:
+        process_single_set(code, args)
 
 
 if __name__ == "__main__":

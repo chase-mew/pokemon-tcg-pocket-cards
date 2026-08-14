@@ -18,21 +18,25 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 import re
+
 from datetime import datetime
-from constants import TRAINER_SUBTYPES
+from constants import TRAINER_SUBTYPES, TAG_DEFINITIONS
+
+def clean_text(text):
+    """Strip newlines, tabs, and duplicate spaces."""
+    if not text:
+        return None
+    cleaned = re.sub(r'\s+', ' ', text).strip()
+    return cleaned if cleaned else None
 
 def normalise_set_code(code):
     """Normalise set code input (e.g. 'PA'/'pa' -> 'P-A', 'PB' -> 'P-B')."""
-    cleaned = code.strip().upper().replace("-", "")
-    if len(cleaned) == 2 and cleaned[0] == 'P':
-        return f"P-{cleaned[1]}"
-    return code.strip()
+    c = code.strip().upper().replace("-", "")
+    return f"P-{c[1]}" if len(c) == 2 and c[0] == 'P' else c
 
 def set_code_to_prefix(set_code):
     """Convert set code to card ID prefix (e.g. 'B2b' -> 'b2b', 'P-A' -> 'pa')."""
-    if set_code.startswith("P-"):
-        return f"p{set_code[2:].lower()}"
-    return set_code.lower()
+    return f"p{set_code[2:].lower()}" if set_code.startswith("P-") else set_code.lower()
 
 def to_int(text, default=None):
     """'40 HP' -> 40, '100+' -> 100, '' -> default."""
@@ -48,11 +52,6 @@ def parse_trainer_subtype(type_text):
     """'Trainer - Pokémon Tool' -> 'Tool'."""
     return next((s for s in TRAINER_SUBTYPES if s in type_text), None)
 
-def clean_text(text):
-    """Strip newlines, tabs, and duplicate spaces."""
-    if not text: return None
-    return re.sub(r'\s+', ' ', text).strip()
-
 def slugify(name):
     """Convert a name to a filesystem-safe slug (lowercase, alphanumeric only)."""
     return re.sub(r"[^a-z0-9]", "", name.lower())
@@ -60,3 +59,6 @@ def slugify(name):
 def serebii_slug(name):
     """Convert a name to a serebii URL slug (lowercase, keep hyphens only)."""
     return re.sub(r"[^a-z0-9-]", "", name.lower())
+
+def compile_tag_matchers(tag_dict):
+    return {tag: re.compile(rf"(?i)(?<![a-z0-9])(?:{'|'.join(map(re.escape, names))})(?![a-z0-9])") for tag, names in tag_dict.items()}

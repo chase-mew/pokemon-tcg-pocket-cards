@@ -29,7 +29,7 @@ def update_cards(new_cards, version):
     try:
         with open(json_path, "r", encoding="utf-8") as f:
             existing = json.load(f)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError):
         existing = []
 
     seen = {c["id"] for c in existing}
@@ -48,8 +48,10 @@ def update_cards(new_cards, version):
 def update_expansions(set_code, expansion_name, cards):
     prefix = set_code_to_prefix(set_code)
     try:
-        with open(EXPANSIONS_JSON_PATH, "r", encoding="utf-8") as f: expansions = json.load(f)
-    except FileNotFoundError: expansions = []
+        with open(EXPANSIONS_JSON_PATH, "r", encoding="utf-8") as f:
+            expansions = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        expansions = []
 
     for exp in expansions:
         if exp["id"] == prefix: return exp["packs"]
@@ -65,5 +67,6 @@ def update_expansions(set_code, expansion_name, cards):
             packs.append({"id": f"{prefix}-{slug}", "name": pack_name, "image": f"{GITHUB_BASE_URL}/webp/packs/{prefix}-{slug}.webp", "image_png": f"{GITHUB_BASE_URL}/png/packs/{prefix}-{slug}.png"})
 
     expansions.append({"id": prefix, "name": expansion_name, "packs": packs})
-    with open(EXPANSIONS_JSON_PATH, "w", encoding="utf-8") as f: json.dump(expansions, f, indent=2, ensure_ascii=False)
+    with open(EXPANSIONS_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(expansions, f, indent=2, ensure_ascii=False)
     return packs

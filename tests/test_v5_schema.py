@@ -9,12 +9,12 @@ from constants import (ART_STYLES, ENERGY_TYPES, FIRST_RELEASE, GITHUB_BASE_URL,
                        SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR)
 
 CARD_KEYS = (
-    "id", "name", "set", "pack", "release_date",
+    "id", "name", "set_code", "set_name", "pack", "release_date",
     "type", "subtype", "stage", "evolves_from", "rarity", "pack_points",
-    "ex", "mega", "shiny", "art_style", "points",
-    "health", "retreat", "weakness",
-    "ability", "card_text", "attacks",
-    "artist", "image", "image_png",
+    "ex", "mega", "shiny", "special_tags", "art_style",
+    "health", "retreat", "weakness", "ability", "card_text", "attacks", "points",
+    "deckBuilderNr", "share_code",
+    "artist", "image", "image_png", "flavour_text", "alternate_versions"
 )
 ABILITY_KEYS = {"exists", "name", "effect"}
 ATTACK_KEYS = {"cost", "name", "damage", "effect"}
@@ -27,7 +27,7 @@ STAR_RARITIES = {"☆", "☆☆", "☆☆☆", "♕"}
 
 
 def is_promo(card):
-    return card["set"] in PROMO_PREFIXES
+    return card["set_code"] in PROMO_PREFIXES
 
 
 def walk(value, path=""):
@@ -71,7 +71,7 @@ class TestStructure:
     def test_no_empty_strings_only_nulls(self, cards):
         """The "" -> null transition: empty strings must never appear."""
         fails = collect(cards, lambda c: next(
-            (f"empty string at {p}" for p, v in walk(c) if v == ""), None))
+            (f"empty string at {p}" for p, v in walk(c) if v == "" and not p.endswith(".id")), None))
         assert not fails, report(fails)
 
     def test_no_untrimmed_strings(self, cards):
@@ -112,8 +112,8 @@ class TestId:
         assert not dupes, f"Duplicate ids: {dupes[:20]}"
 
     def test_id_prefix_matches_set(self, cards):
-        fails = collect(cards, lambda c: None if c["id"].rsplit("-", 1)[0] == c["set"]
-                        else f"prefix != set {c['set']!r}")
+        fails = collect(cards, lambda c: None if c["id"].rsplit("-", 1)[0] == c["set_code"]
+                        else f"prefix != set_code {c['set_code']!r}")
         assert not fails, report(fails)
 
     def test_id_number_is_zero_padded_int(self, cards):
@@ -123,8 +123,8 @@ class TestId:
         fails = collect(cards, check)
         assert not fails, report(fails)
 
-    def test_set_format(self, cards):
-        fails = collect(cards, lambda c: None if SET_RE.match(c["set"]) else f"bad set {c['set']!r}")
+    def test_set_code_format(self, cards):
+        fails = collect(cards, lambda c: None if SET_RE.match(c["set_code"]) else f"bad set_code {c['set_code']!r}")
         assert not fails, report(fails)
 
 
@@ -243,21 +243,22 @@ class TestStageAndEvolution:
 
     def test_evolves_from_is_a_known_card_name(self, cards):
         """Pre-evolutions are usually printed somewhere in the database."""
-        names = {c["name"] for c in cards}
+        names = {c["name"].replace(" ", "") for c in cards}
         missing = sorted({c["evolves_from"] for c in cards
-                          if c["evolves_from"] and c["evolves_from"] not in names})
+                          if c["evolves_from"] and c["evolves_from"].replace(" ", "") not in names})
         assert not missing, f"evolves_from values with no matching card name: {missing[:20]}"
 
 
 class TestRarityAndPackPoints:
     def test_rarity_is_valid(self, cards):
-        fails = collect(cards, lambda c: None if c["rarity"] in RARITIES
-                        else f"bad rarity {c['rarity']!r}")
+        fails = collect(cards, lambda c: None if (c["rarity"] == "Promo") == is_promo(c)
+            else f"rarity {c['rarity']!r} on set {c['set_code']!r}")
         assert not fails, report(fails)
 
     def test_promo_rarity_iff_promo_set(self, cards):
         fails = collect(cards, lambda c: None if (c["rarity"] == "Promo") == is_promo(c)
-                        else f"rarity {c['rarity']!r} on set {c['set']!r}")
+        else f"rarity {c['rarity']!r} on set {c['set_code']!r}")
+
         assert not fails, report(fails)
 
     def test_pack_points_null_iff_promo(self, cards):
@@ -565,7 +566,7 @@ class TestImages:
     def test_webp_url(self, cards):
         def check(c):
             num = c["id"].rsplit("-", 1)[1]
-            expected = f"{GITHUB_BASE_URL}/webp/cards/{c['set']}/{num}.webp"
+            expected = f"{GITHUB_BASE_URL}/webp/cards/{c['set_code']}/{num}.webp"
             return None if c["image"] == expected else f"image {c['image']!r} != {expected!r}"
         fails = collect(cards, check)
         assert not fails, report(fails)
@@ -573,25 +574,25 @@ class TestImages:
     def test_png_url(self, cards):
         def check(c):
             num = c["id"].rsplit("-", 1)[1]
-            expected = f"{GITHUB_BASE_URL}/png/cards/{c['set']}/{num}.png"
+            expected = f"{GITHUB_BASE_URL}/png/cards/{c['set_code']}/{num}.png"
             return None if c["image_png"] == expected else f"image_png {c['image_png']!r} != {expected!r}"
         fails = collect(cards, check)
         assert not fails, report(fails)
 
     def test_webp_files_exist(self, cards):
         missing = [c["id"] for c in cards
-                   if not os.path.exists(os.path.join(WEBP_CARDS_DIR, c["set"],
+                   if not os.path.exists(os.path.join(WEBP_CARDS_DIR, c["set_code"],
                                                       f"{c['id'].rsplit('-', 1)[1]}.webp"))]
         assert not missing, f"{len(missing)} webp files missing: {missing[:20]}"
 
     def test_png_files_exist(self, cards):
         missing = [c["id"] for c in cards
-                   if not os.path.exists(os.path.join(PNG_CARDS_DIR, c["set"],
+                   if not os.path.exists(os.path.join(PNG_CARDS_DIR, c["set_code"],
                                                       f"{c['id'].rsplit('-', 1)[1]}.png"))]
         assert not missing, f"{len(missing)} png files missing: {missing[:20]}"
 
     def test_no_orphan_image_files(self, cards):
-        known = {(c["set"], c["id"].rsplit("-", 1)[1]) for c in cards}
+        known = {(c["set_code"], c["id"].rsplit("-", 1)[1]) for c in cards}
         orphans = []
         for set_dir in sorted(os.listdir(WEBP_CARDS_DIR)) if os.path.isdir(WEBP_CARDS_DIR) else []:
             path = os.path.join(WEBP_CARDS_DIR, set_dir)

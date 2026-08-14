@@ -62,6 +62,25 @@ PACK_POINTS = {"◊": 35, "◊◊": 70, "◊◊◊": 150, "◊◊◊◊": 500,
 SHINY_PACK_POINTS = {"☆": 1000, "☆☆": 1350, "☆☆☆": 1500}
 TRAINER_SUBTYPES = ("Supporter", "Stadium", "Tool", "Item")
 
+TAG_DEFINITIONS = {
+    "ancient": [
+        "Great Tusk", "Scream Tail", "Brute Bonnet", "Flutter Mane",
+        "Slither Wing", "Sandy Shocks", "Roaring Moon", "Koraidon",
+        "Walking Wake", "Gouging Fire", "Raging Bolt", "Sada", "Sada's"
+    ],
+    "future": [
+        "Iron Treads", "Iron Bundle", "Iron Hands", "Iron Jugulis",
+        "Iron Moth", "Iron Thorns", "Iron Valiant", "Miraidon",
+        "Iron Leaves", "Iron Boulder", "Iron Crown", "Turo", "Turo's"
+    ],
+    "ultra_beasts": [
+        "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Celesteela",
+        "Kartana", "Guzzlord", "Poipole", "Naganadel", "Stakataka",
+        "Blacephalon", "Dawn Wings Necrozma", "Dusk Mane Necrozma",
+        "Necrozma", "Ultra Necrozma", "Lusamine", "Lusamine's"
+    ]
+}
+
 MAX_CONSECUTIVE_ERRORS = 5      # missing cards in a row = end of set
 MAX_RETRIES = 3                 # network retries per page
 

@@ -29,6 +29,7 @@ class NotFound(Exception):
     """Page returned 404. the card doesn't exist, don't retry."""
     pass
 
+
 def fetch_page(url):
     for attempt in range(MAX_RETRIES):
         try:
@@ -42,19 +43,23 @@ def fetch_page(url):
                 raise
             time.sleep(1)
 
+
+def get_all_set_codes():
+    return [span.text.strip().upper() for span in fetch_page(BASE_URL).select("table.sets-table span.code")]
+
+
 def discover_set(set_code):
     """(name, release_date) read from the /cards index table."""
-    soup = fetch_page(BASE_URL)
-    for row in soup.select("table.sets-table tr"):
+    for row in fetch_page(BASE_URL).select("table.sets-table tr"):
         code_el = row.find("span", class_="code")
-        if not code_el or code_el.text.strip().lower() != set_code.lower():
-            continue
+        if not code_el or code_el.text.strip().lower() != set_code.lower(): continue
         cells = row.find_all("td")
         code_el.extract()
         return clean_text(cells[0].get_text(" ", strip=True)), parse_release_date(cells[1].get_text())
     # not indexed yet: fall back to the set page title, no date
     title = fetch_page(f"{BASE_URL}{set_code}").find("title").text
-    return clean_text(title.split(" (")[0].split(" – ")[0]), None
+    return clean_text(title.split(" (")[0].split(" - ")[0]), None
+
 
 def extract_card(soup, set_code=""):
     body = soup.find("div", class_="card-text")
@@ -66,9 +71,8 @@ def extract_card(soup, set_code=""):
     title_parts = [p.strip() for p in title_el.get_text(" ", strip=True).split(" - ")]
     energy_type = title_parts[1] if len(title_parts) > 2 else None
 
-    type_el = body.find("p", class_="card-text-type")
-    type_text = type_el.text.strip()
-    type_text_raw = type_el.get_text(" ", strip=True)
+    type_text_raw = body.find("p", class_="card-text-type").get_text(" ", strip=True)
+
     is_trainer = type_text_raw.startswith("Trainer")
     card_type = "Trainer" if is_trainer else "Pokémon"
     subtype = parse_trainer_subtype(type_text_raw) if is_trainer else energy_type
@@ -85,27 +89,47 @@ def extract_card(soup, set_code=""):
         if len(sections) > 1 and sections[1].get("class") == ["card-text-section"]:
             card_text = clean_text(sections[1].get_text(" ", strip=True))
 
+    flavour_div = body.find("div", class_="card-text-flavor")
+    flavour_text = clean_text(flavour_div.text) if flavour_div else None
+
     image_div = soup.find("div", class_="card-image")
     image = image_div.find("img")["src"] if image_div and image_div.find("img") else None
 
     rarity = "Unknown"
+    alt_versions = []
     rarity_table = soup.find("table", class_="card-prints-versions")
     if rarity_table:
         current = rarity_table.find("tr", class_="current")
-        if current: rarity = clean_text(current.find_all("td")[-1].text)
+        if current:
+            rarity = clean_text(current.find_all("td")[-1].text)
+
+        for row in rarity_table.find_all("tr")[1:]:
+            tds = row.find_all("td")
+            if not tds or not tds[0].find("a"): continue
+
+            a_tag = tds[0].find("a")
+
+            href = a_tag.get("href", "")
+            c_set = href.split("/")[2].lower() if href else set_code.lower()
+            c_num = clean_text(a_tag.find("span").text).replace("#", "") if a_tag.find("span") else ""
+
+            alt_versions.append({
+                "set_code": c_set,
+                "set_name": clean_text(a_tag.contents[0]),
+                "id": to_int(c_num) or c_num,
+                "rarity": clean_text(tds[1].text) or "Promo"
+            })
 
     pack = "Every pack"
     set_info = soup.find("div", class_="card-prints-current")
     if set_info:
         if set_code == "P-A":
-            text = set_info.get_text()
-            for keyword in PROMO_A_PACK_KEYWORDS:
-                if keyword in text: pack = keyword
+            for kw in PROMO_A_PACK_KEYWORDS:
+                if kw in set_info.get_text(): pack = kw
         else:
             spans = set_info.find_all("span")
-            if spans:
-                last_segment = spans[-1].text.strip().split("·")[-1].strip()
-                if last_segment.endswith(" pack"): pack = last_segment
+            if spans and spans[-1].text.strip().split("·")[-1].strip().endswith(" pack"):
+                pack = spans[-1].text.strip().split("·")[-1].strip()
     pack = clean_text(pack)
 
     artist_div = body.find("div", class_="card-text-artist")
@@ -149,7 +173,8 @@ def extract_card(soup, set_code=""):
             "cost": cost or None,
             "name": atk_name or None,
             "damage": to_int(dmg_raw),
-            "effect": clean_text(effect_p.text) if effect_p else None,
+            "effect": (clean_text(effect_p.text) if effect_p else None) or None,
+
         }
 
     return {
@@ -159,8 +184,10 @@ def extract_card(soup, set_code=""):
         "type": card_type,
         "subtype": subtype,
         "card_text": card_text,
+        "flavour_text": flavour_text,
         "image": image,
         "rarity": rarity,
+        "alternate_versions": alt_versions,
         "ex": ex,
         "mega": mega,
         "points": points,
@@ -174,6 +201,7 @@ def extract_card(soup, set_code=""):
         "attacks": attacks,
         "raw_text": raw_text,
     }
+
 
 def scrape_cards(set_code):
     """Scrape all cards in a set, stopping after MAX_CONSECUTIVE_ERRORS misses."""

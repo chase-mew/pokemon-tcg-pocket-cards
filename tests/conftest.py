@@ -28,7 +28,7 @@ def by_set(cards):
     """{set: [cards in file order]}"""
     grouped = {}
     for card in cards:
-        grouped.setdefault(card["set"], []).append(card)
+        grouped.setdefault(card["set_code"], []).append(card)
     return grouped
 
 
