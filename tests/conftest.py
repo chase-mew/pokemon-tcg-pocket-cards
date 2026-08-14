@@ -1,21 +1,34 @@
-import json
 import os
+import sys
 import pytest
 
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V4_JSON_PATH = os.path.join(ROOT_DIR, "v4.json")
-EXPANSIONS_JSON_PATH = os.path.join(ROOT_DIR, "expansions.json")
-CARDS_DIR = os.path.join(ROOT_DIR, "images", "cards")
-PACKS_DIR = os.path.join(ROOT_DIR, "images", "packs")
+sys.path.insert(0, os.path.join(ROOT_DIR, "scripts"))  # constants.py, no package needed
 
+from constants import EXPANSIONS_JSON_PATH, V4_JSON_PATH, V5_JSON_PATH, PNG_CARDS_DIR
+from tests.utils import _load
 
 @pytest.fixture(scope="session")
 def cards():
-    with open(V4_JSON_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return _load(V5_JSON_PATH)
+
+
+@pytest.fixture(scope="session")
+def v4_cards():
+    return _load(V4_JSON_PATH)
 
 
 @pytest.fixture(scope="session")
 def expansions():
-    with open(EXPANSIONS_JSON_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return _load(EXPANSIONS_JSON_PATH)
+
+
+@pytest.fixture(scope="session")
+def by_set(cards):
+    """{set: [cards in file order]}"""
+    grouped = {}
+    for card in cards:
+        grouped.setdefault(card["set_code"], []).append(card)
+    return grouped
+
+

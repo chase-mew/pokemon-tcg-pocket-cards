@@ -6,17 +6,20 @@
       {
         "id": "a1-pikachu",
         "name": "Pikachu",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a1-pikachu.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1-pikachu.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1-pikachu.png"
       },
       {
         "id": "a1-mewtwo",
         "name": "Mewtwo",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a1-mewtwo.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1-mewtwo.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1-mewtwo.png"
       },
       {
         "id": "a1-charizard",
         "name": "Charizard",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a1-charizard.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1-charizard.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1-charizard.png"
       }
     ]
   },
@@ -27,7 +30,8 @@
       {
         "id": "a1a-mew",
         "name": "Mew",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a1a-mew.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1a-mew.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1a-mew.png"
       }
     ]
   },
@@ -38,12 +42,14 @@
       {
         "id": "promo-a",
         "name": "Promo A",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/promo-a.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/promo-a.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/promo-a.png"
       },
       {
         "id": "promo-b",
         "name": "Promo B",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/promo-b.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/promo-b.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/promo-b.png"
       }
     ]
   },
@@ -54,12 +60,14 @@
       {
         "id": "a2-dialga",
         "name": "Dialga",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a2-dialga.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2-dialga.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2-dialga.png"
       },
       {
         "id": "a2-palkia",
         "name": "Palkia",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a2-palkia.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2-palkia.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2-palkia.png"
       }
     ]
   },
@@ -70,7 +78,8 @@
       {
         "id": "a2a-arceus",
         "name": "Arceus",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a2a-arceus.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2a-arceus.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2a-arceus.png"
       }
     ]
   },
@@ -81,7 +90,8 @@
       {
         "id": "a2b-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a2b-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2b-booster.png"
       }
     ]
   },
@@ -92,12 +102,14 @@
       {
         "id": "a3-lunala",
         "name": "Lunala",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a3-lunala.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3-lunala.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3-lunala.png"
       },
       {
         "id": "a3-solgaleo",
         "name": "Solgaleo",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a3-solgaleo.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3-solgaleo.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3-solgaleo.png"
       }
     ]
   },
@@ -108,7 +120,8 @@
       {
         "id": "a3a-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a3a-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3a-booster.png"
       }
     ]
   },
@@ -119,7 +132,8 @@
       {
         "id": "a3b-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a3b-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3b-booster.png"
       }
     ]
   },
@@ -130,12 +144,14 @@
       {
         "id": "a4-ho-oh",
         "name": "Ho-Oh",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a4-ho-oh.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4-ho-oh.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4-ho-oh.png"
       },
       {
         "id": "a4-lugia",
         "name": "Lugia",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a4-lugia.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4-lugia.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4-lugia.png"
       }
     ]
   },
@@ -146,7 +162,8 @@
       {
         "id": "a4a-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a4a-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4a-booster.png"
       }
     ]
   },
@@ -157,7 +174,8 @@
       {
         "id": "a4b-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/a4b-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4b-booster.png"
       }
     ]
   },
@@ -168,17 +186,20 @@
       {
         "id": "b1-megaaltaria",
         "name": "Mega Altaria",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b1-megaaltaria.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1-megaaltaria.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1-megaaltaria.png"
       },
       {
         "id": "b1-megablaziken",
         "name": "Mega Blaziken",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b1-megablaziken.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1-megablaziken.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1-megablaziken.png"
       },
       {
         "id": "b1-megagyarados",
         "name": "Mega Gyarados",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b1-megagyarados.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1-megagyarados.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1-megagyarados.png"
       }
     ]
   },
@@ -189,7 +210,8 @@
       {
         "id": "b1a-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b1a-booster.jpg"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1a-booster.png"
       }
     ]
   },
@@ -200,7 +222,8 @@
       {
         "id": "b2-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b2-booster.jpg"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2-booster.png"
       }
     ]
   },
@@ -211,7 +234,8 @@
       {
         "id": "b2a-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b2a-booster.jpg"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2a-booster.png"
       }
     ]
   },
@@ -222,7 +246,8 @@
       {
         "id": "b2b-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b2b-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2b-booster.png"
       }
     ]
   },
@@ -233,8 +258,8 @@
       {
         "id": "b3-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3-booster.png"
-      }
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3-booster.png"      }
     ]
   },
   {
@@ -244,7 +269,8 @@
       {
         "id": "b3a-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3a-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3a-booster.png"
       }
     ]
   },
@@ -255,7 +281,8 @@
       {
         "id": "b3b-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b3b-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3b-booster.png"
       }
     ]
   },
@@ -266,7 +293,8 @@
       {
         "id": "b4-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/packs/b4-booster.png"
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4-booster.png"
       }
     ]
   }
