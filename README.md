@@ -50,19 +50,19 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**   | **[V4](v4.json)**    | **[V5](v5.json)**                                        |
-|----------------|----------------------|----------------------------------------------------------|
-| Missing values | Empty strings ("")   | null                                                     |
-| Image formats  | PNG only             | WEBP (default) and PNG                                   |
-| Data structure | Flat                 | Mostly flat, exception for Abilities and Attack (Nested) |
-| Booleans       | Strings ("Yes"/"No") | Native booleans (true/false)                             |
-| Set mapping    | Pack name            | Set ID and pack name                                     |
-| Combat stats   | Health only          | Health, retreat cost, weakness                           |
-| Attack data    | None                 | Structured (cost, name, damage, effect)                  |
-| Abilities      | None                 | Structured (exists, name, effect)                        |
-| Game metadata  | Rarity string        | Pack points, stage, evolves_from, shiny, points          |
-| Release date   | None                 | ISO release date                                         |
-| Card text      | None                 | Raw text for Trainers                                    |
+| **Feature**   | **[💛 V4](v4.json)** | **[💚 V5](v5.json)** (newer)                            |
+|----------------|----------------------|---------------------------------------------------------|
+| Missing values | Empty strings ("")   | null                                                    |
+| Image formats  | PNG only             | WEBP (default) and PNG                                  |
+| Data structure | Flat                 | Mostly flat, with nested `ability` and `attacks` fields |
+| Booleans       | Strings ("Yes"/"No") | Native booleans (true/false)                            |
+| Set mapping    | Pack name            | Set ID and pack name                                    |
+| Combat stats   | Health only          | Health, retreat cost, weakness                          |
+| Attack data    | None                 | Structured (cost, name, damage, effect)                 |
+| Abilities      | None                 | Structured (exists, name, effect)                       |
+| Game metadata  | Rarity string        | Pack points, stage, evolves_from, shiny, points         |
+| Release date   | None                 | ISO release date                                        |
+| Card text      | None                 | Raw text for Trainers                                   |
 
 ### 💼 Support schedule
 
