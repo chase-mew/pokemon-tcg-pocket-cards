@@ -1,25 +1,21 @@
-# Pokemon TCG Pocket Cards
+# 🎴 Pokemon TCG Pocket Cards
 
-An open source repo for data on the Pokemon TCG Pocket cards.
-Useful for building Pokemon TCG Pocket tools such as websites.
-Feel free to use the data however you like.
+This open source repository holds data on Pokemon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
 
-It might be best to use it as an API like:
+You can pull the raw JSON directly as an API:
 
-- Cards data: `https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/v4.json`
-- Expansions and packs data: `https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/expansions.json`
+- Cards dataset: **[https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/v5.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/v5.json)**
+- Expansions and packs: **[https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/expansions.json)**
 
-So that whenever there are changes and additions you can get them right away.
+Open a pull request if you find missing cards or errors.
 
-If there's anything missing or wrong, feel free to raise a PR.
+## 📊 Data Source
 
-## Data Source
+Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
 
-Card data is scraped from [Limitless TCG](https://pocket.limitlesstcg.com/cards).
+## ⚡ Adding a new expansion
 
-## Adding a New Expansion
-
-When a new expansion is released, run a single command to scrape all card data, download images, and update the database:
+When a new expansion drops, run a single script to scrape card data, download card art, and update the JSON files:
 
 ```bash
 pip install -r requirements.txt
@@ -27,42 +23,44 @@ python3 scripts/add_expansion.py <SET_CODE>
 ```
 
 For example:
-
 ```bash
-python3 scripts/add_expansion.py B2b
+python3 scripts/add_expansion.py B4a
 ```
 
-The script will automatically:
+The script handles five tasks:
+1. It detects the expansion name from Limitless TCG.
+2. It scrapes all cards in the set.
+3. It downloads pack and card images.
+4. It appends new card records to **[v5.json](v5.json)**.
+5. It adds the expansion entry to **[expansions.json](expansions.json)**.
 
-1. Detect the expansion name from Limitless TCG
-2. Scrape all cards in the set
-3. Download card and pack images
-4. Append new cards to `v4.json`
-5. Add the expansion to `expansions.json`
+### 🔄 Updating promo sets
 
-### Updating Promo Sets
-
-Promo sets (P-A, P-B) add cards over time rather than all at once. Run the same command to pick up any new cards:
+Promo sets like P-A and P-B gain cards over time. Run the same command to pull new cards without duplicating existing ones:
 
 ```bash
 python3 scripts/add_expansion.py PA
 python3 scripts/add_expansion.py PB
 ```
 
-The script will scrape all cards in the promo set and only add ones not already in the database.
+### ⚙️ Options
 
-### Options
+- Pass `--name "Custom Name"` to override the expansion name.
+- Pass `--skip-images` to skip downloading images.
 
-- `--name "Custom Name"` to override the auto-detected expansion name
-- `--skip-images` to skip downloading images
+## 🛠️ Projects using this API
 
-## Projects Using This API
+- **[Pocket Decks Top](https://pocketdecks.top/)** A site that ranks top tournament decks every Monday.
+- [Pocket Card Collection](https://github.com/rhuangabrielsantos/pokemon-tcg-pocket-cards) A progress tracker that saves collection data across devices with Google Sign in.
+- [PTCGP Pack Opener](https://github.com/rohannishant/ptcgp-pack-opener) A pack opening simulator.
+- [All Your Poke Cards](https://github.com/manelbrioude/allyourpokecards) A card information viewer.
+- [Pokemon Pocket Card Data](https://github.com/nathanrboyer/PokemonPocketCardData) A notebook that helps you pick packs based on target pulls.
+- [Pokemon TCG Pocket Trade Dex](https://github.com/bitmaybewise/pokemon-tcg-pocket-tradedex) A tool to compare card collections between players.
 
-- [Pocket Decks Top](https://pocketdecks.top/) A website showing a tier list of the best Pokemon TCG Pocket Decks based on tournament results, updated weekly every Monday
-- [Pocket Card Collection](https://github.com/rhuangabrielsantos/pokemon-tcg-pocket-cards) A collection tracker that lets you save your cards across devices using Google Sign-in, showing your progress towards completing each pack's collection
-- [PTCGP Pack Opener](https://github.com/rohannishant/ptcgp-pack-opener) A website for simulating opening Pokemon TCG Pocket Packs
-- [All Your Poke Cards](https://github.com/manelbrioude/allyourpokecards) A site for showing info on all your Poke Cards
-- [Pokemon Pocket Card Data](https://github.com/nathanrboyer/PokemonPocketCardData) A notebook to help decide which pack to open based on the cards you want to pull
-- [Pokemon TCG Pocket Trade Dex](https://github.com/bitmaybewise/pokemon-tcg-pocket-tradedex) A website to facilitate visualization and comparison of cards among players.
+Submit a pull request to list your project here if you build something with this data!
 
-If you've built something using this API, feel free to submit a PR to add it to this list!
+## 📜 License
+
+- **Version 5** (**[v5.json](v5.json)**) and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`). See **[LICENSE](LICENSE)** for the full license text.
+- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original **[MIT License](https://spdx.org/licenses/MIT.html)**. See **[LICENSE-MIT](LICENSE-MIT)** for details.
+- Pokemon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.

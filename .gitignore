@@ -1,5 +1,36 @@
-.DS_Store
-.idea
-.venv
-myenv/
+# testing
+/coverage
+.pytest_cache
+
+# production
 __pycache__/
+/build
+
+# IDEs and editors
+.agents/
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+skills-lock.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# logs and environment
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/analysis/.env
+
+# project specific
+private/
+
