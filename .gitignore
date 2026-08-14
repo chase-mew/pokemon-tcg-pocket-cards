@@ -5,6 +5,7 @@
 # production
 __pycache__/
 /build
+/build
 
 # IDEs and editors
 .agents/
@@ -24,6 +25,8 @@ ehthumbs.db
 
 # logs and environment
 *.log
+.venv/
+myenv/
 .env
 .env.local
 .env.development.local

@@ -1,6 +1,6 @@
-# 🎴 Pokemon TCG Pocket Cards
+# 🎴 Pokémon TCG Pocket Cards
 
-This open source repository holds data on Pokemon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
+This open-source repository holds data on Pokémon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
 
 You can pull the raw JSON directly as an API:
 
@@ -9,7 +9,7 @@ You can pull the raw JSON directly as an API:
 
 Open a pull request if you find missing cards or errors.
 
-## 📊 Data Source
+## 💾 Data Source
 
 Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
 
@@ -24,7 +24,7 @@ python3 scripts/add_expansion.py <SET_CODE>
 
 For example:
 ```bash
-python3 scripts/add_expansion.py B4a
+python3 scripts/add_expansion.py b4a
 ```
 
 The script handles five tasks:
@@ -48,6 +48,28 @@ python3 scripts/add_expansion.py PB
 - Pass `--name "Custom Name"` to override the expansion name.
 - Pass `--skip-images` to skip downloading images.
 
+## 📊 Schema comparison
+
+| **Feature**   | **[V4](v4.json)**    | **[V5](v5.json)**                                        |
+|----------------|----------------------|----------------------------------------------------------|
+| Missing values | Empty strings ("")   | null                                                     |
+| Image formats  | PNG only             | WEBP (default) and PNG                                   |
+| Data structure | Flat                 | Mostly flat, exception for Abilities and Attack (Nested) |
+| Booleans       | Strings ("Yes"/"No") | Native booleans (true/false)                             |
+| Set mapping    | Pack name            | Set ID and pack name                                     |
+| Combat stats   | Health only          | Health, retreat cost, weakness                           |
+| Attack data    | None                 | Structured (cost, name, damage, effect)                  |
+| Abilities      | None                 | Structured (exists, name, effect)                        |
+| Game metadata  | Rarity string        | Pack points, stage, evolves_from, shiny, points          |
+| Release date   | None                 | ISO release date                                         |
+| Card text      | None                 | Raw text for Trainers                                    |
+
+### 💼 Support schedule
+
+**[V5](v5.json) is the actively maintained data model.**   
+[V4](v4.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
+Versions [V3](v3.json) and earlier are fully deprecated and no longer updated.
+
 ## 🛠️ Projects using this API
 
 - **[Pocket Decks Top](https://pocketdecks.top/)** A site that ranks top tournament decks every Monday.
@@ -61,6 +83,8 @@ Submit a pull request to list your project here if you build something with this
 
 ## 📜 License
 
-- **Version 5** (**[v5.json](v5.json)**) and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`). See **[LICENSE](LICENSE)** for the full license text.
-- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original **[MIT License](https://spdx.org/licenses/MIT.html)**. See **[LICENSE-MIT](LICENSE-MIT)** for details.
-- Pokemon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.
+- **Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`).    
+See **[LICENSE](LICENSE)** for the full license text.
+- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original **[MIT License](https://spdx.org/licenses/MIT.html)**.     
+See **[LICENSE-MIT](LICENSE-MIT)** for details.
+- Pokémon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.
