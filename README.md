@@ -66,8 +66,8 @@ python3 scripts/add_expansion.py PB
 
 ### 💼 Support schedule
 
-**[V5](v5.json) is the actively maintained data model.**   
-[V4](v4.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
+**[💚 V5](v5.json) is the actively maintained data model.**   
+[💛 V4](v4.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
 Versions [V3](v3.json) and earlier are fully deprecated and no longer updated.
 
 ## 🛠️ Projects using this API
@@ -83,7 +83,7 @@ Submit a pull request to list your project here if you build something with this
 
 ## 📜 License
 
-- **Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`).    
+- **💚 Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`).    
 See **[LICENSE](LICENSE)** for the full license text.
 - Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original **[MIT License](https://spdx.org/licenses/MIT.html)**.     
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
