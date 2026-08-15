@@ -141,7 +141,8 @@ class TestPackImages:
         missing = []
         for exp in expansions:
             for pack in exp["packs"]:
-                if pack["id"].startswith(("pa-", "pb-")): continue
+                if pack["id"].startswith(("pa-", "pb-")):
+                    continue
                 path = os.path.join(PNG_PACKS_DIR, f"{pack['id']}.png")
                 if not os.path.exists(path):
                     missing.append(pack["id"])

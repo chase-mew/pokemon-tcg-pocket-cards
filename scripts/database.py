@@ -135,7 +135,8 @@ def sync_alternate_versions(all_cards):
     lookup = {c["id"]: c for c in all_cards}
     for group in groups.values():
         alts = sorted([{"set_code": lookup[i]["set_code"], "set_name": lookup[i]["set_name"],
-                        "id": int(lookup[i]["id"].split("-")[1]), "rarity": lookup[i]["rarity"]} for i in group if
+                        "id": int(lookup[i]["id"].split("-")[1]), "rarity": lookup[i]["rarity"] or "Promo"} for i in
+                       group if
                        i in lookup], key=lambda x: (x["set_code"], x["id"]))
         for i in group:
             if i in lookup:

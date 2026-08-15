@@ -30,6 +30,7 @@ import time
 from PIL import Image
 from tqdm import tqdm
 from constants import WEBP_CARDS_DIR, PNG_CARDS_DIR, WEBP_PACKS_DIR, PNG_PACKS_DIR, SEREBII_BASE_URL, SESSION, RATE_LIMIT_DELAY, IMAGE_TIMEOUT, DEFAULT_TIMEOUT
+from urllib.parse import urlsplit
 from utils import serebii_slug
 
 def download_images(cards, prefix):
@@ -85,7 +86,17 @@ def download_images(cards, prefix):
         out_png = os.path.join(png_dir, f"{num}.png")
 
         if not (os.path.exists(out_webp) and os.path.exists(out_png)):
-            if not source_url or "limitlesstcg" not in source_url:
+            parsed_url = urlsplit(source_url) if source_url else None
+            hostname = parsed_url.hostname if parsed_url else None
+            if (
+                    parsed_url is None
+                    or parsed_url.scheme != "https"
+                    or not hostname
+                    or (
+                    hostname != "limitlesstcg.com"
+                    and not hostname.endswith(".limitlesstcg.com")
+            )
+            ):
                 raise RuntimeError(f"Missing or invalid source_url for {card['id']}")
             try:
                 time.sleep(RATE_LIMIT_DELAY)

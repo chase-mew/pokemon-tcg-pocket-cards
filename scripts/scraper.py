@@ -264,7 +264,7 @@ def extract_card(soup, set_code=""):
             a_tag = tds[0].find("a")
 
             href = a_tag.get("href", "")
-            c_set = href.split("/")[2].lower() if href else set_code.lower()
+            c_set = [p for p in href.split("/") if p][-2].lower() if href else set_code.lower()
             c_num = clean_text(a_tag.find("span").text).replace("#", "") if a_tag.find("span") else ""
 
             alt_versions.append({

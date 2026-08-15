@@ -106,8 +106,11 @@ def create_deck_code(nrs, energy_ids=None):
             multiplied by 10 exceeds 3 bytes, or if any segment
             has more than 255 entries
     """
+    nrs = [n for n in (nrs or []) if n]
     if not nrs:
         return None
+    if any(n < 0 for n in nrs):
+        raise ValueError("Card IDs must be non-negative")
     specials = sorted(n for n in nrs if n >= SPECIAL_THRESHOLD)
     normals = sorted(n for n in nrs if n < SPECIAL_THRESHOLD)
 

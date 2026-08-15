@@ -63,11 +63,11 @@ def fetch_datamine_lookup():
             for card in resp.json():
                 c_set = str(card.get("set", "")).lower()
                 c_set = f"p{c_set.split('-')[-1]}" if c_set.startswith("promo-") else c_set.replace("-", "")
-                c_num = card.get("number")
-                if c_set and c_num is not None:
+                c_num = re.sub(r"\D", "", str(card.get("number", "")))
+                if c_set and c_num:
                     nr = get_deck_builder_nr(card.get("image", ""))  # memoize this if dataset gets huge
                     if nr: lookup[(c_set, int(c_num))] = nr
-    except requests.RequestException:
+    except (requests.RequestException, ValueError):
         pass
     return lookup
 
@@ -227,8 +227,7 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
         elif pack.endswith(" pack"): pack = pack[:-5].strip()
 
         try:
-            num_int = int(re.sub(r"\D", "", card["number"]))
-            deck_builder_nr = datamine_lookup.get((prefix.lower(), num_int))
+            deck_builder_nr = datamine_lookup.get((prefix.lower(), int(re.sub(r"\D", "", card["number"]))), 0)
         except ValueError:
             deck_builder_nr = None
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
@@ -245,7 +244,7 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
 
             # Classification
             "type": card["type"],
-            "subtype": card["subtype"],
+            "subtype": card["subtype"] or "Unknown",
             "stage": card["stage"],
             "evolves_from": card["evolves_from"],
             "rarity": rarity,
