@@ -279,12 +279,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 5,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 156,
         "rarity": "☆"
       }
@@ -339,12 +333,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/006.png",
     "flavour_text": "Its eyes can see 360 degrees without moving its head. It won’t miss prey—even those behind it.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 6,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -408,12 +396,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/007.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 7,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -603,12 +585,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/010.png",
     "flavour_text": "It uses its whole body to photosynthesize when exposed to sunlight. Its shell is made from hardened soil.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 10,
-        "rarity": "◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -1011,12 +987,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 17,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 157,
         "rarity": "☆"
       }
@@ -1128,12 +1098,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/019.png",
     "flavour_text": "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 19,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -1308,12 +1272,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 22,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 159,
         "rarity": "☆"
       },
@@ -1386,12 +1344,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/023.png",
     "flavour_text": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 23,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -1621,12 +1573,6 @@
     "flavour_text": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 27,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 91,
@@ -1702,12 +1648,6 @@
     "flavour_text": "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 28,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 92,
@@ -1776,12 +1716,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/029.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 29,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -2031,12 +1965,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 33,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 160,
         "rarity": "☆"
       }
@@ -2148,12 +2076,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/035.png",
     "flavour_text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 35,
-        "rarity": "◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -2496,12 +2418,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/041.png",
     "flavour_text": "They normally inhabit rocky seashores, but in times of continuous rain, they can sometimes be found in the mountains, far from the sea.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 41,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -2961,12 +2877,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 49,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 182,
         "rarity": "☆☆"
       },
@@ -3051,12 +2961,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/050.png",
     "flavour_text": "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 50,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -3253,12 +3157,6 @@
     "flavour_text": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 53,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 137,
@@ -3322,12 +3220,6 @@
     "flavour_text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 54,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 95,
@@ -3384,12 +3276,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/055.png",
     "flavour_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 55,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -3505,12 +3391,6 @@
     "flavour_text": "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 57,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 36,
@@ -3567,12 +3447,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/058.png",
     "flavour_text": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 58,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -3747,12 +3621,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 61,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 183,
         "rarity": "☆☆"
       },
@@ -3828,12 +3696,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 62,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 164,
         "rarity": "☆"
       }
@@ -3888,12 +3750,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/063.png",
     "flavour_text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 63,
-        "rarity": "◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -4066,12 +3922,6 @@
     "flavour_text": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 66,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 220,
@@ -4140,12 +3990,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/067.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 67,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -4222,12 +4066,6 @@
     "flavour_text": "The horns on its head provide a strong power that enables it to sense people’s emotions.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 68,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 97,
@@ -4296,12 +4134,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/069.png",
     "flavour_text": "It has a psychic power that enables it to distort the space around it and see into the future.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 69,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -4545,12 +4377,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 73,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 165,
         "rarity": "☆"
       }
@@ -4722,12 +4548,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 76,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 166,
         "rarity": "☆"
       }
@@ -4842,12 +4662,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 78,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 167,
         "rarity": "☆"
       },
@@ -4914,12 +4728,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/079.png",
     "flavour_text": "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 79,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -5091,12 +4899,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/082.png",
     "flavour_text": "It can load up to three projectiles per arm into the holes in its hands. What launches out of those holes could be either rocks or Roggenrola.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 82,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -5670,12 +5472,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 92,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 170,
         "rarity": "☆"
       },
@@ -5742,12 +5538,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/093.png",
     "flavour_text": "It shuts its nostrils tight, then travels through sand as if walking. They form colonies of around 10.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 93,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -5862,12 +5652,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/095.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 95,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -6058,12 +5842,6 @@
     "flavour_text": "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 98,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 242,
@@ -6126,12 +5904,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/099.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 99,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -6438,12 +6210,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 104,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 172,
         "rarity": "☆"
       }
@@ -6612,12 +6378,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/107.png",
     "flavour_text": "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 107,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -6792,12 +6552,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 110,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 187,
         "rarity": "☆☆"
       },
@@ -6876,12 +6630,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/111.png",
     "flavour_text": "People fashion swords from Skarmory’s shed feathers, so this Pokémon is a popular element in heraldic designs.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 111,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -7341,12 +7089,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 119,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 188,
         "rarity": "☆☆"
       },
@@ -7431,12 +7173,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/120.png",
     "flavour_text": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 120,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -7611,12 +7347,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 123,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 175,
         "rarity": "☆"
       }
@@ -7671,12 +7401,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/124.png",
     "flavour_text": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 124,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
@@ -7746,12 +7470,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/125.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 125,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -8286,12 +8004,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 134,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 176,
         "rarity": "☆"
       }
@@ -8346,12 +8058,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/135.png",
     "flavour_text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 135,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -8589,12 +8295,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 139,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 178,
         "rarity": "☆"
       }
@@ -8823,12 +8523,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 143,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 179,
         "rarity": "☆"
       },
@@ -9004,12 +8698,6 @@
     "flavour_text": null,
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 146,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 316,
@@ -9073,12 +8761,6 @@
     "flavour_text": null,
     "alternate_versions": [
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 147,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 320,
@@ -9141,12 +8823,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/148.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 148,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -9270,12 +8946,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 150,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 190,
         "rarity": "☆☆"
       },
@@ -9345,12 +9015,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 151,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 191,
         "rarity": "☆☆"
       }
@@ -9405,12 +9069,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/152.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 152,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -9471,12 +9129,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 153,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 193,
         "rarity": "☆☆"
       }
@@ -9531,12 +9183,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/154.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 154,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -9606,12 +9252,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/155.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 155,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
@@ -9686,12 +9326,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 5,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 156,
-        "rarity": "☆"
       }
     ]
   },
@@ -9749,12 +9383,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 17,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 157,
-        "rarity": "☆"
       }
     ]
   },
@@ -9812,12 +9440,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 19,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 158,
-        "rarity": "☆"
       }
     ]
   },
@@ -9875,12 +9497,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 22,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 159,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -9956,12 +9572,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 33,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 160,
-        "rarity": "☆"
       }
     ]
   },
@@ -10019,12 +9629,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 41,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 161,
-        "rarity": "☆"
       }
     ]
   },
@@ -10082,12 +9686,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 50,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 162,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -10169,12 +9767,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 58,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 163,
-        "rarity": "☆"
       }
     ]
   },
@@ -10232,12 +9824,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 62,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 164,
-        "rarity": "☆"
       }
     ]
   },
@@ -10295,12 +9881,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 73,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 165,
-        "rarity": "☆"
       }
     ]
   },
@@ -10358,12 +9938,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 76,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 166,
-        "rarity": "☆"
       }
     ]
   },
@@ -10421,12 +9995,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 78,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 167,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -10496,12 +10064,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 79,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 168,
-        "rarity": "☆"
       }
     ]
   },
@@ -10559,12 +10121,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 82,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 169,
-        "rarity": "☆"
       }
     ]
   },
@@ -10622,12 +10178,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 92,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 170,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -10697,12 +10247,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 93,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 171,
-        "rarity": "☆"
       }
     ]
   },
@@ -10760,12 +10304,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 104,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 172,
-        "rarity": "☆"
       }
     ]
   },
@@ -10823,12 +10361,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 107,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 173,
-        "rarity": "☆"
       }
     ]
   },
@@ -10886,12 +10418,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 120,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 174,
-        "rarity": "☆"
       }
     ]
   },
@@ -10949,12 +10475,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 123,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 175,
-        "rarity": "☆"
       }
     ]
   },
@@ -11012,12 +10532,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 134,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 176,
-        "rarity": "☆"
       }
     ]
   },
@@ -11075,12 +10589,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 135,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 177,
-        "rarity": "☆"
       },
       {
         "set_code": "b1",
@@ -11144,12 +10652,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 139,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 178,
-        "rarity": "☆"
       }
     ]
   },
@@ -11207,12 +10709,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 143,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 179,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -11276,12 +10772,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 7,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 180,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2",
@@ -11361,12 +10851,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 181,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 197,
         "rarity": "☆☆"
       },
@@ -11438,12 +10922,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 49,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 182,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2",
@@ -11535,12 +11013,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 198,
         "rarity": "☆☆"
       },
@@ -11612,12 +11084,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 67,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 184,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2",
@@ -11697,12 +11163,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 200,
         "rarity": "☆☆"
       },
@@ -11778,12 +11238,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 186,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 201,
         "rarity": "☆☆"
       },
@@ -11855,12 +11309,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 110,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 187,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2",
@@ -11942,12 +11390,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 119,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 188,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2",
@@ -12039,12 +11481,6 @@
       {
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
-        "id": 189,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
         "id": 203,
         "rarity": "☆☆"
       },
@@ -12118,12 +11554,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 190,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 326,
@@ -12191,12 +11621,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 151,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 191,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12254,12 +11678,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 192,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12317,12 +11735,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 153,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 193,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12380,12 +11792,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 154,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 194,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a4b",
@@ -12455,12 +11861,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 155,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 195,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a4b",
@@ -12535,12 +11935,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 180,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 196,
         "rarity": "☆☆"
       },
       {
@@ -12619,12 +12013,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 197,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 101,
@@ -12697,12 +12085,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 198,
         "rarity": "☆☆"
       },
       {
@@ -12781,12 +12163,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 199,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 237,
@@ -12859,12 +12235,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 200,
         "rarity": "☆☆"
       },
       {
@@ -12943,12 +12313,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 201,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 238,
@@ -13021,12 +12385,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 202,
         "rarity": "☆☆"
       },
       {
@@ -13111,12 +12469,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 203,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 239,
@@ -13190,12 +12542,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 182,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 204,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a2",
@@ -13283,12 +12629,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 188,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 205,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a2",
@@ -13384,12 +12724,6 @@
         "rarity": "☆☆☆"
       },
       {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 206,
-        "rarity": "Crown Rare"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 107,
@@ -13475,12 +12809,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 205,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 207,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",

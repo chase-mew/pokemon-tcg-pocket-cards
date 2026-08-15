@@ -51,12 +51,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 91,
         "rarity": "☆"
       }
@@ -114,12 +108,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 2,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 92,
         "rarity": "☆"
       }
@@ -174,12 +162,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/003.png",
     "flavour_text": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 3,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -468,12 +450,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 8,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 70,
         "rarity": "☆"
       }
@@ -586,12 +562,6 @@
     "flavour_text": "It’s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
     "alternate_versions": [
       {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 10,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 77,
@@ -648,12 +618,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/011.png",
     "flavour_text": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.",
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 11,
-        "rarity": "◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -885,12 +849,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 15,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 78,
         "rarity": "☆☆"
       },
@@ -1009,12 +967,6 @@
     "flavour_text": "It freezes prey by blowing its −58 degree Fahrenheit breath. It is said to then secretly display its prey.",
     "alternate_versions": [
       {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 17,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 73,
@@ -1128,12 +1080,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/019.png",
     "flavour_text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 19,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -1253,12 +1199,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 21,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 72,
         "rarity": "☆"
       }
@@ -1313,12 +1253,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/022.png",
     "flavour_text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 22,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -1377,12 +1311,6 @@
     "flavour_text": "This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can’t fly properly.",
     "alternate_versions": [
       {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 23,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 78,
@@ -1439,12 +1367,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/024.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 24,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -1625,12 +1547,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 27,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 97,
         "rarity": "☆"
       }
@@ -1802,12 +1718,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 30,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 73,
         "rarity": "☆"
       }
@@ -1919,12 +1829,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/032.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 32,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -2449,12 +2353,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 41,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 81,
         "rarity": "☆☆"
       },
@@ -2746,12 +2644,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 46,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 74,
         "rarity": "☆"
       }
@@ -3037,12 +2929,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 51,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 75,
         "rarity": "☆"
       }
@@ -3214,12 +3100,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 54,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 105,
         "rarity": "Crown Rare"
       }
@@ -3274,12 +3154,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/055.png",
     "flavour_text": "Its stomach’s digestive juices can dissolve any kind of poison. Eating things off the ground doesn’t bother it at all.",
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 55,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -3515,12 +3389,6 @@
     "flavour_text": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
     "alternate_versions": [
       {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 59,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 76,
@@ -3577,12 +3445,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/060.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 60,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -3763,12 +3625,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 63,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 77,
         "rarity": "☆"
       }
@@ -3823,12 +3679,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/064.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 64,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -3946,12 +3796,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 66,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 83,
         "rarity": "☆☆"
       }
@@ -4009,12 +3853,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 67,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 84,
         "rarity": "☆☆"
       }
@@ -4069,12 +3907,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/068.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 68,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -4194,12 +4026,6 @@
         "set_name": "Everyday Wonders",
         "id": 8,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 70,
-        "rarity": "☆"
       }
     ]
   },
@@ -4257,12 +4083,6 @@
         "set_name": "Everyday Wonders",
         "id": 19,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 71,
-        "rarity": "☆"
       }
     ]
   },
@@ -4320,12 +4140,6 @@
         "set_name": "Everyday Wonders",
         "id": 21,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 72,
-        "rarity": "☆"
       }
     ]
   },
@@ -4383,12 +4197,6 @@
         "set_name": "Everyday Wonders",
         "id": 30,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 73,
-        "rarity": "☆"
       }
     ]
   },
@@ -4446,12 +4254,6 @@
         "set_name": "Everyday Wonders",
         "id": 46,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 74,
-        "rarity": "☆"
       }
     ]
   },
@@ -4509,12 +4311,6 @@
         "set_name": "Everyday Wonders",
         "id": 51,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 75,
-        "rarity": "☆"
       }
     ]
   },
@@ -4572,12 +4368,6 @@
         "set_name": "Everyday Wonders",
         "id": 55,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 76,
-        "rarity": "☆"
       },
       {
         "set_code": "b3b",
@@ -4641,12 +4431,6 @@
         "set_name": "Everyday Wonders",
         "id": 63,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 77,
-        "rarity": "☆"
       }
     ]
   },
@@ -4704,12 +4488,6 @@
         "set_name": "Everyday Wonders",
         "id": 15,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 78,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3b",
@@ -4777,12 +4555,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 79,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 90,
         "rarity": "☆☆☆"
       }
@@ -4842,12 +4614,6 @@
         "set_name": "Everyday Wonders",
         "id": 32,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 80,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3b",
@@ -4915,12 +4681,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 81,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 88,
         "rarity": "☆☆"
       }
@@ -4984,12 +4744,6 @@
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
-        "id": 82,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
         "id": 89,
         "rarity": "☆☆"
       }
@@ -5049,12 +4803,6 @@
         "set_name": "Everyday Wonders",
         "id": 66,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 83,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5112,12 +4860,6 @@
         "set_name": "Everyday Wonders",
         "id": 67,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 84,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5175,12 +4917,6 @@
         "set_name": "Everyday Wonders",
         "id": 68,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 85,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5243,12 +4979,6 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 78,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 86,
         "rarity": "☆☆"
       }
     ]
@@ -5313,12 +5043,6 @@
         "set_name": "Everyday Wonders",
         "id": 80,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 87,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5381,12 +5105,6 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 81,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 88,
         "rarity": "☆☆"
       }
     ]
@@ -5451,12 +5169,6 @@
         "set_name": "Everyday Wonders",
         "id": 82,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 89,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5520,12 +5232,6 @@
         "set_name": "Everyday Wonders",
         "id": 79,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 90,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -5583,12 +5289,6 @@
         "set_name": "Everyday Wonders",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 91,
-        "rarity": "☆"
       }
     ]
   },
@@ -5646,12 +5346,6 @@
         "set_name": "Everyday Wonders",
         "id": 2,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 92,
-        "rarity": "☆"
       }
     ]
   },
@@ -5709,12 +5403,6 @@
         "set_name": "Everyday Wonders",
         "id": 3,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 93,
-        "rarity": "☆"
       }
     ]
   },
@@ -5772,12 +5460,6 @@
         "set_name": "Mega Rising",
         "id": 82,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 94,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -5841,12 +5523,6 @@
         "set_name": "Mega Rising",
         "id": 83,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 95,
-        "rarity": "☆"
       }
     ]
   },
@@ -5904,12 +5580,6 @@
         "set_name": "Mega Rising",
         "id": 84,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 96,
-        "rarity": "☆"
       }
     ]
   },
@@ -5967,12 +5637,6 @@
         "set_name": "Everyday Wonders",
         "id": 27,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 97,
-        "rarity": "☆"
       }
     ]
   },
@@ -6030,12 +5694,6 @@
         "set_name": "Fantastical Parade",
         "id": 126,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 98,
-        "rarity": "☆"
       }
     ]
   },
@@ -6093,12 +5751,6 @@
         "set_name": "Crimson Blaze",
         "id": 55,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 99,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -6167,12 +5819,6 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 76,
-        "rarity": "☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 100,
         "rarity": "☆"
       }
     ]
@@ -6243,12 +5889,6 @@
         "set_name": "Mega Rising",
         "id": 285,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 101,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6317,12 +5957,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 196,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 102,
         "rarity": "☆☆"
       }
     ]
@@ -6393,12 +6027,6 @@
         "set_name": "Mega Rising",
         "id": 277,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 103,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6468,12 +6096,6 @@
         "set_name": "Mega Rising",
         "id": 278,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 104,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6531,12 +6153,6 @@
         "set_name": "Everyday Wonders",
         "id": 54,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 105,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -6594,12 +6210,6 @@
         "set_name": "Everyday Wonders",
         "id": 64,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3b",
-        "set_name": "Everyday Wonders",
-        "id": 106,
-        "rarity": "Crown Rare"
       }
     ]
   }

@@ -17,39 +17,115 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
+r"""Scrape Pokemon TCG Pocket card data from the Limitless TCG website.
+
+This module fetches and parses individual card pages from
+``https://pocket.limitlesstcg.com/cards/``, extracting name, HP, type,
+attacks, ability, rarity, pack, artist, and alternate print versions.
+It also discovers set metadata (name and release date) from the index
+page and iterates over sequential card numbers to scrape an entire set.
+"""
+
 import re
 import time
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from constants import BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES, PROMO_A_PACK_KEYWORDS, SESSION
+from constants import BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES, PROMO_A_PACK_KEYWORDS, SESSION, DEFAULT_TIMEOUT, RATE_LIMIT_DELAY
 from utils import clean_text, parse_release_date, parse_trainer_subtype, to_int
 
 class NotFound(Exception):
-    """Page returned 404. the card doesn't exist, don't retry."""
+    r"""NotFound
+
+    Raised when a card page returns HTTP 404. The card does not exist,
+    so the scraper should not retry it.
+    """
     pass
 
 
 def fetch_page(url):
+    r"""fetch_page(url) -> BeautifulSoup
+
+    Fetch a URL and return a parsed BeautifulSoup object. Retries on
+    network errors up to ``MAX_RETRIES`` times with ``RATE_LIMIT_DELAY``
+    seconds between attempts. Raises :class:`NotFound` immediately on
+    HTTP 404 since a missing card is not a transient error.
+
+    Args:
+        url (str): the full URL to fetch
+
+    Returns:
+        BeautifulSoup: parsed HTML of the page
+
+    Raises:
+        NotFound: if the server returns HTTP 404
+        requests.RequestException: if all retry attempts fail with a
+            network or server error
+
+    Example::
+
+        >>> soup = fetch_page("https://pocket.limitlesstcg.com/cards/a1/1")
+        >>> soup.find("title").text
+        'Bulbasaur - Genetic Apex (A1) - PTCGP'
+    """
     for attempt in range(MAX_RETRIES):
         try:
-            response = SESSION.get(url, timeout=15)
-            if response.status_code == 404:
+            response = SESSION.get(url, timeout=DEFAULT_TIMEOUT)
+            if response.status_code == requests.codes.not_found:
                 raise NotFound(url)
             response.raise_for_status()
             return BeautifulSoup(response.text, "html.parser")
         except requests.RequestException:
             if attempt == MAX_RETRIES - 1:
                 raise
-            time.sleep(1)
-
+            time.sleep(RATE_LIMIT_DELAY)
+            RATE_LIMIT_DELAY += 0.05
+    raise ValueError("We're experiencing a network or server error. Retry later.")
 
 def get_all_set_codes():
+    r"""get_all_set_codes() -> list of str
+
+    Fetch the card index page and return every set code listed in the
+    sets table, uppercased.
+
+    Returns:
+        list of str: set codes such as ``"A1"``, ``"A2a"``, ``"P-A"``
+
+    Example::
+
+        >>> codes = get_all_set_codes()
+        >>> "A1" in codes
+        True
+    """
     return [span.text.strip().upper() for span in fetch_page(BASE_URL).select("table.sets-table span.code")]
 
 
 def discover_set(set_code):
-    """(name, release_date) read from the /cards index table."""
+    r"""discover_set(set_code) -> tuple
+
+    Look up a set's display name and release date from the card index
+    table. If the set is not listed on the index page yet, falls back
+    to scraping the set page's ``<title>`` tag for the name. The
+    release date is ``None`` in that case because the set page does
+    not show one.
+
+    Args:
+        set_code (str): the set code to look up, case-insensitive
+            (e.g. ``"a1"``, ``"p-a"``)
+
+    Returns:
+        tuple: ``(name, release_date)`` where name is a str and
+        release_date is a str in ``"YYYY-MM-DD"`` format, or None if
+        the set is not yet indexed
+
+    Example::
+
+        >>> name, date = discover_set("a1")
+        >>> name
+        'Genetic Apex'
+        >>> date
+        '2024-10-30'
+    """
     for row in fetch_page(BASE_URL).select("table.sets-table tr"):
         code_el = row.find("span", class_="code")
         if not code_el or code_el.text.strip().lower() != set_code.lower(): continue
@@ -62,12 +138,88 @@ def discover_set(set_code):
 
 
 def extract_card(soup, set_code=""):
+    r"""extract_card(soup, set_code='') -> dict
+
+    Parse a single card page and return a dictionary with every card
+    attribute needed for the output JSON.
+
+    The function reads the ``card-text`` div for name, HP, energy type,
+    attacks, ability, and flavour text. It reads the rarity table for
+    the current print's rarity and any alternate versions. It reads the
+    ``card-prints-current`` div for the pack the card appears in. For
+    Pokemon cards it also extracts stage, evolution source, retreat
+    cost, and weakness from the type line and raw body text.
+
+    For trainer cards, ``hp``, ``stage``, ``evolves_from``, ``retreat``,
+    and ``weakness`` are all None. The ``card_text`` field holds the
+    trainer's effect text; for Pokemon this is None.
+
+    Args:
+        soup (BeautifulSoup): parsed HTML of the card page
+        set_code (str): the set code this card belongs to. Used to
+            resolve pack keywords for promo sets (``"P-A"``).
+            Default: ``""``
+
+    Returns:
+        dict: card data with the following keys:
+
+        - ``number`` (str): card number within the set
+        - ``name`` (str): card name
+        - ``hp`` (int or None): hit points, or None for trainers
+        - ``type`` (str): ``"Pokemon"`` or ``"Trainer"``
+        - ``subtype`` (str or None): energy type for Pokemon,
+          trainer subtype for trainers
+        - ``card_text`` (str or None): trainer effect text,
+          None for Pokemon
+        - ``flavour_text`` (str or None): flavour text if present
+        - ``image`` (str or None): URL of the card image
+        - ``rarity`` (str or None): rarity symbol of the current print
+        - ``alternate_versions`` (list of dict): other prints of this
+          card. Each dict has ``set_code``, ``set_name``, ``id``,
+          and ``rarity``.
+        - ``ex`` (bool): whether the card is a Pokemon ex
+        - ``mega`` (bool): whether the card is a Mega Evolution
+        - ``points`` (int or None): prize points when knocked out
+          (1, 2, or 3). None for trainers.
+        - ``pack`` (str): pack the card appears in
+        - ``artist`` (str or None): illustrator name
+        - ``stage`` (str or None): ``"Basic"``, ``"Stage 1"``,
+          ``"Stage 2"``, or None for trainers
+        - ``evolves_from`` (str or None): name of the pre-evolution
+        - ``retreat`` (int or None): retreat cost, None for trainers
+        - ``weakness`` (str or None): weakness type, None for trainers
+        - ``ability`` (dict): ``{"exists": bool, "name": str or None,
+          "effect": str or None}``
+        - ``attacks`` (dict): keys ``"1"`` and ``"2"``, each mapping
+          to ``{"cost": str or None, "name": str or None,
+          "damage": int or None, "effect": str or None}``
+        - ``raw_text`` (str): full text of the card body. Used later
+          by :func:`transform_cards` to detect parallel foil prints.
+
+    .. note::
+
+        The ``attacks`` dict always has both ``"1"`` and ``"2"`` keys.
+        If a card has only one attack, the second entry stays filled
+        with None values.
+
+    Example::
+
+        >>> soup = fetch_page("https://pocket.limitlesstcg.com/cards/a1/1")
+        >>> card = extract_card(soup, "a1")
+        >>> card["name"]
+        'Bulbasaur'
+        >>> card["hp"]
+        70
+        >>> card["attacks"]["1"]["name"]
+        'Vine Whip'
+    """
     body = soup.find("div", class_="card-text")
     title_el = body.find("p", class_="card-text-title")
     card_number = title_el.find("a")["href"].split("/")[-1]
     name = clean_text(title_el.find("a").text)
 
-    # i.e.: title reads "Caterpie - Grass - 40 HP" (trainers have neither part)
+    # Title format: "Caterpie - Grass - 40 HP". Trainers omit energy and HP,
+    # so len(title_parts) is 2 (name + "Trainer") instead of 3.
     title_parts = [p.strip() for p in title_el.get_text(" ", strip=True).split(" - ")]
     energy_type = title_parts[1] if len(title_parts) > 2 else None
 
@@ -204,16 +356,42 @@ def extract_card(soup, set_code=""):
 
 
 def scrape_cards(set_code):
-    """Scrape all cards in a set, stopping after MAX_CONSECUTIVE_ERRORS misses."""
+    r"""scrape_cards(set_code) -> list of dict
+
+    Scrape every card in a set by requesting sequential card numbers
+    starting at 1. Stops after ``MAX_CONSECUTIVE_ERRORS`` cards in a
+    row return 404, which signals the end of the set. Non-404 errors
+    are logged to stderr via ``tqdm.write`` and also count toward the
+    consecutive error limit.
+
+    Each successfully scraped card is the dict returned by
+    :func:`extract_card`. Cards are returned in card-number order.
+
+    Args:
+        set_code (str): the set code to scrape (e.g. ``"a1"``,
+            ``"p-a"``)
+
+    Returns:
+        list of dict: one card dict per card found, in ascending
+        card-number order
+
+    Example::
+
+        >>> cards = scrape_cards("a1")
+        >>> len(cards)
+        286
+        >>> cards[0]["name"]
+        'Bulbasaur'
+    """
     cards, errors, i = [], 0, 0
-    with tqdm(desc=f"Scraping {set_code}", unit="card") as pbar:
+    with tqdm(desc=f"Scraping {set_code}", unit=" cards") as pbar:
         while errors < MAX_CONSECUTIVE_ERRORS:
             i += 1
             try:
                 cards.append(extract_card(fetch_page(f"{BASE_URL}{set_code}/{i}"), set_code))
                 errors = 0
                 pbar.update(1)
-                time.sleep(0.15)
+                time.sleep(RATE_LIMIT_DELAY)
             except NotFound:
                 errors += 1
             except Exception as e:

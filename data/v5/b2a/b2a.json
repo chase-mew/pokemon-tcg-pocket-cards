@@ -51,12 +51,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 116,
         "rarity": "☆"
       }
@@ -111,12 +105,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/002.png",
     "flavour_text": "The hardness of Floragato’s fur depends on the Pokémon’s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 2,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -180,12 +168,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/003.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 3,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -547,12 +529,6 @@
     "flavour_text": "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 9,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 116,
@@ -838,12 +814,6 @@
     "flavour_text": "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 14,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 94,
@@ -957,12 +927,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/016.png",
     "flavour_text": "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco’s head and flickers to and fro.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 16,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -1135,12 +1099,6 @@
     "flavour_text": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 19,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 95,
@@ -1203,12 +1161,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/020.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 20,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -1335,12 +1287,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/022.png",
     "flavour_text": "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 22,
-        "rarity": "◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -1969,12 +1915,6 @@
     "flavour_text": "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 33,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 36,
@@ -2148,12 +2088,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 36,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 130,
         "rarity": "Crown Rare"
       }
@@ -2208,12 +2142,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/037.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 37,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -2286,12 +2214,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 38,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 119,
         "rarity": "☆"
       },
@@ -2355,12 +2277,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 39,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 120,
         "rarity": "☆"
       }
@@ -2415,12 +2331,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/040.png",
     "flavour_text": "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 40,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -2535,12 +2445,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/042.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 42,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -2955,12 +2859,6 @@
     "flavour_text": "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 49,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 97,
@@ -3134,12 +3032,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 52,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 95,
         "rarity": "☆"
       }
@@ -3251,12 +3143,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/054.png",
     "flavour_text": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 54,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -3663,12 +3549,6 @@
     "flavour_text": "This Pokémon lives on sheer cliffs. It sidesteps opponents’ attacks, then lunges for their weak spots with its claws.",
     "alternate_versions": [
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 61,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 100,
@@ -3844,12 +3724,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 64,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 97,
         "rarity": "☆"
       }
@@ -3904,12 +3778,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/065.png",
     "flavour_text": "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 65,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4312,12 +4180,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 72,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 123,
         "rarity": "☆"
       }
@@ -4375,12 +4237,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 73,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 124,
         "rarity": "☆"
       }
@@ -4435,12 +4291,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/074.png",
     "flavour_text": "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 74,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4615,12 +4465,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 77,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 98,
         "rarity": "☆"
       },
@@ -4681,12 +4525,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/078.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 78,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -4924,12 +4762,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 82,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 99,
         "rarity": "☆"
       }
@@ -5158,12 +4990,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 86,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 131,
         "rarity": "Crown Rare"
       }
@@ -5278,12 +5104,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 88,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 105,
         "rarity": "☆☆"
       }
@@ -5365,12 +5185,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 89,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 106,
         "rarity": "☆☆"
       }
@@ -5428,12 +5242,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 90,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 107,
         "rarity": "☆☆"
       }
@@ -5488,12 +5296,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/091.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 91,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
@@ -5568,12 +5370,6 @@
         "set_name": "Eevee Grove",
         "id": 86,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 92,
-        "rarity": "◊◊"
       },
       {
         "set_code": "b2a",
@@ -5694,12 +5490,6 @@
         "set_name": "Paldean Wonders",
         "id": 16,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 94,
-        "rarity": "☆"
       }
     ]
   },
@@ -5757,12 +5547,6 @@
         "set_name": "Paldean Wonders",
         "id": 52,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 95,
-        "rarity": "☆"
       }
     ]
   },
@@ -5820,12 +5604,6 @@
         "set_name": "Paldean Wonders",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 96,
-        "rarity": "☆"
       },
       {
         "set_code": "b2a",
@@ -5889,12 +5667,6 @@
         "set_name": "Paldean Wonders",
         "id": 64,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 97,
-        "rarity": "☆"
       }
     ]
   },
@@ -5952,12 +5724,6 @@
         "set_name": "Paldean Wonders",
         "id": 77,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 98,
-        "rarity": "☆"
       },
       {
         "set_code": "b3a",
@@ -6021,12 +5787,6 @@
         "set_name": "Paldean Wonders",
         "id": 82,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 99,
-        "rarity": "☆"
       }
     ]
   },
@@ -6084,12 +5844,6 @@
         "set_name": "Paldean Wonders",
         "id": 3,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 100,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2a",
@@ -6169,12 +5923,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 101,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 111,
         "rarity": "☆☆"
       },
@@ -6240,12 +5988,6 @@
         "set_name": "Paldean Wonders",
         "id": 37,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 102,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2a",
@@ -6319,12 +6061,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 103,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 113,
         "rarity": "☆☆"
       },
@@ -6394,12 +6130,6 @@
       {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
-        "id": 104,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
         "id": 114,
         "rarity": "☆☆"
       }
@@ -6459,12 +6189,6 @@
         "set_name": "Paldean Wonders",
         "id": 88,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 105,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6546,12 +6270,6 @@
         "set_name": "Paldean Wonders",
         "id": 89,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 106,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6609,12 +6327,6 @@
         "set_name": "Paldean Wonders",
         "id": 90,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 107,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6672,12 +6384,6 @@
         "set_name": "Paldean Wonders",
         "id": 91,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 108,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2a",
@@ -6753,12 +6459,6 @@
         "set_name": "Paldean Wonders",
         "id": 92,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 109,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6821,12 +6521,6 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 100,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 110,
         "rarity": "☆☆"
       },
       {
@@ -6905,12 +6599,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 111,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 105,
@@ -6977,12 +6665,6 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 102,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 112,
         "rarity": "☆☆"
       },
       {
@@ -7055,12 +6737,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 113,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 106,
@@ -7128,12 +6804,6 @@
         "set_name": "Paldean Wonders",
         "id": 104,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 114,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -7197,12 +6867,6 @@
         "set_name": "Paldean Wonders",
         "id": 108,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 115,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -7260,12 +6924,6 @@
         "set_name": "Paldean Wonders",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 116,
-        "rarity": "☆"
       }
     ]
   },
@@ -7323,12 +6981,6 @@
         "set_name": "Paldean Wonders",
         "id": 2,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 117,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -7410,12 +7062,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 54,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 118,
-        "rarity": "☆"
       }
     ]
   },
@@ -7473,12 +7119,6 @@
         "set_name": "Paldean Wonders",
         "id": 38,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 119,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -7542,12 +7182,6 @@
         "set_name": "Paldean Wonders",
         "id": 39,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 120,
-        "rarity": "☆"
       }
     ]
   },
@@ -7605,12 +7239,6 @@
         "set_name": "Paldean Wonders",
         "id": 40,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 121,
-        "rarity": "☆"
       }
     ]
   },
@@ -7674,12 +7302,6 @@
         "set_name": "Paldean Wonders",
         "id": 96,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 122,
-        "rarity": "☆"
       }
     ]
   },
@@ -7737,12 +7359,6 @@
         "set_name": "Paldean Wonders",
         "id": 72,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 123,
-        "rarity": "☆"
       }
     ]
   },
@@ -7800,12 +7416,6 @@
         "set_name": "Paldean Wonders",
         "id": 73,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 124,
-        "rarity": "☆"
       }
     ]
   },
@@ -7868,12 +7478,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 77,
-        "rarity": "☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 125,
         "rarity": "☆"
       }
     ]
@@ -7943,12 +7547,6 @@
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 87,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 126,
         "rarity": "☆☆"
       },
       {
@@ -8025,12 +7623,6 @@
         "set_name": "Secluded Springs",
         "id": 90,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 127,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -8099,12 +7691,6 @@
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 88,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 128,
         "rarity": "☆☆"
       }
     ]
@@ -8181,12 +7767,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 266,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 129,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -8244,12 +7824,6 @@
         "set_name": "Paldean Wonders",
         "id": 36,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 130,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -8307,12 +7881,6 @@
         "set_name": "Paldean Wonders",
         "id": 86,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 131,
-        "rarity": "Crown Rare"
       }
     ]
   }

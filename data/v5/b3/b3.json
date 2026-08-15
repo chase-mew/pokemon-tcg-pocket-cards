@@ -222,12 +222,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 4,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 233,
         "rarity": "Crown Rare"
       },
@@ -291,12 +285,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 5,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 156,
         "rarity": "☆"
       },
@@ -357,12 +345,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/006.png",
     "flavour_text": "Grovyle leaps from branch to branch in large trees, moving with ease. It propels itself with astounding speed and force.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 6,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -477,12 +459,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/008.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 8,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -663,12 +639,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 11,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 158,
         "rarity": "☆"
       }
@@ -780,12 +750,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/013.png",
     "flavour_text": "This Pokémon is highly sensitive to temperature changes. When its bud starts to open, that means spring is right around the corner.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 13,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -1188,12 +1152,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 20,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 160,
         "rarity": "☆"
       }
@@ -1365,12 +1323,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 23,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 181,
         "rarity": "☆☆"
       },
@@ -1432,12 +1384,6 @@
     "flavour_text": "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!",
     "alternate_versions": [
       {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 24,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 57,
@@ -1495,12 +1441,6 @@
     "flavour_text": "When it shares the infinite energy it creates, that being’s entire body will be overflowing with power.",
     "alternate_versions": [
       {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 25,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 49,
@@ -1557,12 +1497,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/026.png",
     "flavour_text": "This Pokémon is a ravenous glutton. It uses its excellent sense of smell to find food, then cooks it to a crisp before eating.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 26,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -2193,12 +2127,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 37,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 182,
         "rarity": "☆☆"
       },
@@ -2322,12 +2250,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/039.png",
     "flavour_text": "Due to its relaxed and carefree attitude, it often bumps its head on riverbed boulders and boat hulls as it swims.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 39,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -2844,12 +2766,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 48,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 203,
         "rarity": "☆☆☆"
       }
@@ -3192,12 +3108,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 54,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 183,
         "rarity": "☆☆"
       },
@@ -3489,12 +3399,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 59,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 163,
         "rarity": "☆"
       }
@@ -3663,12 +3567,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/062.png",
     "flavour_text": "It has a small stomach. If it isn’t constantly eating the seeds it keeps in its pockets, it will get hungry immediately.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 62,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -3900,12 +3798,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 66,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 165,
         "rarity": "☆"
       }
@@ -4017,12 +3909,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/068.png",
     "flavour_text": "This form of Oricorio has sipped pink nectar. It elevates its mind with the gentle steps of its dance, then unleashes its psychic energy.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 68,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -4311,12 +4197,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 73,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 167,
         "rarity": "☆"
       }
@@ -4602,12 +4482,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 78,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 168,
         "rarity": "☆"
       }
@@ -4662,12 +4536,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/079.png",
     "flavour_text": "It has the peculiar power of being able to see emotions, such as joy and rage, in the form of waves.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 79,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -4782,12 +4650,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/081.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 81,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -4965,12 +4827,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/084.png",
     "flavour_text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 84,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -5202,12 +5058,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 88,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 185,
         "rarity": "☆☆"
       },
@@ -5268,12 +5118,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/089.png",
     "flavour_text": "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 89,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -5505,12 +5349,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 93,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 171,
         "rarity": "☆"
       }
@@ -5739,12 +5577,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 97,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 172,
         "rarity": "☆"
       }
@@ -5799,12 +5631,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/098.png",
     "flavour_text": "Zubat live in caves, down where the sun’s light won’t reach. In the morning, they gather together to keep each other warm as they sleep.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 98,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -5865,12 +5691,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 99,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 213,
         "rarity": "☆"
       }
@@ -5925,12 +5745,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/100.png",
     "flavour_text": "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 100,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -5989,12 +5803,6 @@
     "flavour_text": "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
     "alternate_versions": [
       {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 101,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 216,
@@ -6051,12 +5859,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/102.png",
     "flavour_text": "When it inhales poisonous gases from garbage, its body expands, and its insides smell much worse.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 102,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -6174,12 +5976,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 104,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 173,
         "rarity": "☆"
       }
@@ -6237,12 +6033,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 105,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 174,
         "rarity": "☆"
       }
@@ -6297,12 +6087,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/106.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 106,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -6660,12 +6444,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 112,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 175,
         "rarity": "☆"
       }
@@ -6778,12 +6556,6 @@
     "flavour_text": "Once the vines on Zarude’s body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
     "alternate_versions": [
       {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 114,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 60,
@@ -6840,12 +6612,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/115.png",
     "flavour_text": "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 115,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -7134,12 +6900,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 120,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 176,
         "rarity": "☆"
       }
@@ -7254,12 +7014,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 122,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 177,
         "rarity": "☆"
       }
@@ -7371,12 +7125,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/124.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 124,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -7500,12 +7248,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 126,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 188,
         "rarity": "☆☆"
       },
@@ -7569,12 +7311,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 127,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 220,
         "rarity": "☆"
       }
@@ -7629,12 +7365,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/128.png",
     "flavour_text": "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 128,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -7920,12 +7650,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/133.png",
     "flavour_text": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 133,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -8385,12 +8109,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 141,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 189,
         "rarity": "☆☆"
       },
@@ -8508,12 +8226,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/143.png",
     "flavour_text": "The oil that seeps from its body is really smooth. For people troubled by bad skin, this oil is an effective treatment.",
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 143,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -8859,12 +8571,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 149,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 190,
         "rarity": "☆☆"
       }
@@ -8919,12 +8625,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/150.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 150,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -8985,12 +8685,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 151,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 192,
         "rarity": "☆☆"
       }
@@ -9045,12 +8739,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/152.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 152,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -9286,12 +8974,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 156,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 61,
@@ -9353,12 +9035,6 @@
         "set_name": "Pulsing Aura",
         "id": 6,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 157,
-        "rarity": "☆"
       }
     ]
   },
@@ -9416,12 +9092,6 @@
         "set_name": "Pulsing Aura",
         "id": 11,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 158,
-        "rarity": "☆"
       }
     ]
   },
@@ -9479,12 +9149,6 @@
         "set_name": "Pulsing Aura",
         "id": 13,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 159,
-        "rarity": "☆"
       }
     ]
   },
@@ -9542,12 +9206,6 @@
         "set_name": "Pulsing Aura",
         "id": 20,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 160,
-        "rarity": "☆"
       }
     ]
   },
@@ -9605,12 +9263,6 @@
         "set_name": "Pulsing Aura",
         "id": 26,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 161,
-        "rarity": "☆"
       }
     ]
   },
@@ -9668,12 +9320,6 @@
         "set_name": "Pulsing Aura",
         "id": 39,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 162,
-        "rarity": "☆"
       }
     ]
   },
@@ -9731,12 +9377,6 @@
         "set_name": "Pulsing Aura",
         "id": 59,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 163,
-        "rarity": "☆"
       }
     ]
   },
@@ -9794,12 +9434,6 @@
         "set_name": "Pulsing Aura",
         "id": 62,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 164,
-        "rarity": "☆"
       }
     ]
   },
@@ -9857,12 +9491,6 @@
         "set_name": "Pulsing Aura",
         "id": 66,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 165,
-        "rarity": "☆"
       }
     ]
   },
@@ -9920,12 +9548,6 @@
         "set_name": "Pulsing Aura",
         "id": 68,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 166,
-        "rarity": "☆"
       }
     ]
   },
@@ -9983,12 +9605,6 @@
         "set_name": "Pulsing Aura",
         "id": 73,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 167,
-        "rarity": "☆"
       }
     ]
   },
@@ -10046,12 +9662,6 @@
         "set_name": "Pulsing Aura",
         "id": 78,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 168,
-        "rarity": "☆"
       }
     ]
   },
@@ -10109,12 +9719,6 @@
         "set_name": "Pulsing Aura",
         "id": 79,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 169,
-        "rarity": "☆"
       }
     ]
   },
@@ -10172,12 +9776,6 @@
         "set_name": "Pulsing Aura",
         "id": 89,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 170,
-        "rarity": "☆"
       }
     ]
   },
@@ -10235,12 +9833,6 @@
         "set_name": "Pulsing Aura",
         "id": 93,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 171,
-        "rarity": "☆"
       }
     ]
   },
@@ -10298,12 +9890,6 @@
         "set_name": "Pulsing Aura",
         "id": 97,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 172,
-        "rarity": "☆"
       }
     ]
   },
@@ -10361,12 +9947,6 @@
         "set_name": "Pulsing Aura",
         "id": 104,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 173,
-        "rarity": "☆"
       }
     ]
   },
@@ -10424,12 +10004,6 @@
         "set_name": "Pulsing Aura",
         "id": 105,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 174,
-        "rarity": "☆"
       }
     ]
   },
@@ -10487,12 +10061,6 @@
         "set_name": "Pulsing Aura",
         "id": 112,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 175,
-        "rarity": "☆"
       }
     ]
   },
@@ -10550,12 +10118,6 @@
         "set_name": "Pulsing Aura",
         "id": 120,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 176,
-        "rarity": "☆"
       }
     ]
   },
@@ -10613,12 +10175,6 @@
         "set_name": "Pulsing Aura",
         "id": 122,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 177,
-        "rarity": "☆"
       }
     ]
   },
@@ -10676,12 +10232,6 @@
         "set_name": "Pulsing Aura",
         "id": 133,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 178,
-        "rarity": "☆"
       }
     ]
   },
@@ -10739,12 +10289,6 @@
         "set_name": "Pulsing Aura",
         "id": 143,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 179,
-        "rarity": "☆"
       }
     ]
   },
@@ -10802,12 +10346,6 @@
         "set_name": "Pulsing Aura",
         "id": 8,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 180,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3",
@@ -10875,12 +10413,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 181,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 195,
         "rarity": "☆☆"
       }
@@ -10940,12 +10472,6 @@
         "set_name": "Pulsing Aura",
         "id": 37,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 182,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3",
@@ -11019,12 +10545,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 197,
         "rarity": "☆☆"
       }
@@ -11084,12 +10604,6 @@
         "set_name": "Pulsing Aura",
         "id": 81,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 184,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3",
@@ -11157,12 +10671,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 198,
         "rarity": "☆☆"
       }
@@ -11222,12 +10730,6 @@
         "set_name": "Pulsing Aura",
         "id": 106,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 186,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3",
@@ -11301,12 +10803,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 200,
         "rarity": "☆☆"
       }
@@ -11366,12 +10862,6 @@
         "set_name": "Pulsing Aura",
         "id": 126,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 188,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3",
@@ -11439,12 +10929,6 @@
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
-        "id": 189,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
         "id": 202,
         "rarity": "☆☆"
       }
@@ -11504,12 +10988,6 @@
         "set_name": "Pulsing Aura",
         "id": 149,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 190,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11567,12 +11045,6 @@
         "set_name": "Pulsing Aura",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 191,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11630,12 +11102,6 @@
         "set_name": "Pulsing Aura",
         "id": 151,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 192,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11693,12 +11159,6 @@
         "set_name": "Pulsing Aura",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 193,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11761,12 +11221,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 180,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 194,
         "rarity": "☆☆"
       }
     ]
@@ -11831,12 +11285,6 @@
         "set_name": "Pulsing Aura",
         "id": 181,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 195,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11899,12 +11347,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 182,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 196,
         "rarity": "☆☆"
       },
       {
@@ -11975,12 +11417,6 @@
         "set_name": "Pulsing Aura",
         "id": 183,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 197,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12044,12 +11480,6 @@
         "set_name": "Pulsing Aura",
         "id": 185,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 198,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12112,12 +11542,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 186,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 199,
         "rarity": "☆☆"
       },
       {
@@ -12188,12 +11612,6 @@
         "set_name": "Pulsing Aura",
         "id": 187,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 200,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12256,12 +11674,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 188,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 201,
         "rarity": "☆☆"
       }
     ]
@@ -12326,12 +11738,6 @@
         "set_name": "Pulsing Aura",
         "id": 189,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 202,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12389,12 +11795,6 @@
         "set_name": "Pulsing Aura",
         "id": 48,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 203,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -12458,12 +11858,6 @@
         "set_name": "Pulsing Aura",
         "id": 184,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 204,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -12521,12 +11915,6 @@
         "set_name": "Mega Rising",
         "id": 15,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 205,
-        "rarity": "☆"
       }
     ]
   },
@@ -12584,12 +11972,6 @@
         "set_name": "Mega Rising",
         "id": 33,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 206,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -12653,12 +12035,6 @@
         "set_name": "Mega Rising",
         "id": 34,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 207,
-        "rarity": "☆"
       }
     ]
   },
@@ -12716,12 +12092,6 @@
         "set_name": "Mega Rising",
         "id": 35,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 208,
-        "rarity": "☆"
       }
     ]
   },
@@ -12779,12 +12149,6 @@
         "set_name": "Mega Rising",
         "id": 68,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 209,
-        "rarity": "☆"
       }
     ]
   },
@@ -12848,12 +12212,6 @@
         "set_name": "Mega Rising",
         "id": 234,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 210,
-        "rarity": "☆"
       }
     ]
   },
@@ -12911,12 +12269,6 @@
         "set_name": "Crimson Blaze",
         "id": 38,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 211,
-        "rarity": "☆"
       }
     ]
   },
@@ -12974,12 +12326,6 @@
         "set_name": "Pulsing Aura",
         "id": 98,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 212,
-        "rarity": "☆"
       }
     ]
   },
@@ -13037,12 +12383,6 @@
         "set_name": "Pulsing Aura",
         "id": 99,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 213,
-        "rarity": "☆"
       }
     ]
   },
@@ -13100,12 +12440,6 @@
         "set_name": "Pulsing Aura",
         "id": 100,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 214,
-        "rarity": "☆"
       }
     ]
   },
@@ -13163,12 +12497,6 @@
         "set_name": "Crimson Blaze",
         "id": 45,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 215,
-        "rarity": "☆"
       }
     ]
   },
@@ -13226,12 +12554,6 @@
         "set_name": "Crimson Blaze",
         "id": 46,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 216,
-        "rarity": "☆"
       }
     ]
   },
@@ -13289,12 +12611,6 @@
         "set_name": "Mega Rising",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 217,
-        "rarity": "☆"
       }
     ]
   },
@@ -13352,12 +12668,6 @@
         "set_name": "Mega Rising",
         "id": 159,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 218,
-        "rarity": "☆"
       }
     ]
   },
@@ -13415,12 +12725,6 @@
         "set_name": "Crimson Blaze",
         "id": 51,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 219,
-        "rarity": "☆"
       }
     ]
   },
@@ -13478,12 +12782,6 @@
         "set_name": "Pulsing Aura",
         "id": 127,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 220,
-        "rarity": "☆"
       }
     ]
   },
@@ -13541,12 +12839,6 @@
         "set_name": "Pulsing Aura",
         "id": 128,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 221,
-        "rarity": "☆"
       }
     ]
   },
@@ -13604,12 +12896,6 @@
         "set_name": "Crimson Blaze",
         "id": 56,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 222,
-        "rarity": "☆"
       }
     ]
   },
@@ -13667,12 +12953,6 @@
         "set_name": "Crimson Blaze",
         "id": 57,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 223,
-        "rarity": "☆"
       }
     ]
   },
@@ -13730,12 +13010,6 @@
         "set_name": "Crimson Blaze",
         "id": 58,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 224,
-        "rarity": "☆"
       }
     ]
   },
@@ -13804,12 +13078,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 273,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 225,
         "rarity": "☆☆"
       }
     ]
@@ -13880,12 +13148,6 @@
         "set_name": "Mega Rising",
         "id": 284,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 226,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -13954,12 +13216,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 275,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 227,
         "rarity": "☆☆"
       }
     ]
@@ -14030,12 +13286,6 @@
         "set_name": "Mega Rising",
         "id": 276,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 228,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14105,12 +13355,6 @@
         "set_name": "Mega Rising",
         "id": 279,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 229,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14179,12 +13423,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 280,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 230,
         "rarity": "☆☆"
       },
       {
@@ -14261,12 +13499,6 @@
         "set_name": "Mega Rising",
         "id": 281,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 231,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14336,12 +13568,6 @@
         "set_name": "Crimson Blaze",
         "id": 86,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 232,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14399,12 +13625,6 @@
         "set_name": "Pulsing Aura",
         "id": 4,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 233,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "pb",
@@ -14468,12 +13688,6 @@
         "set_name": "Pulsing Aura",
         "id": 115,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 234,
-        "rarity": "Crown Rare"
       }
     ]
   }

@@ -279,12 +279,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 5,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 157,
         "rarity": "☆"
       }
@@ -339,12 +333,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/006.png",
     "flavour_text": "It lives in arid locations. Its yellow flowers bloom once a year.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 6,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -747,12 +735,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 13,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 158,
         "rarity": "☆"
       }
@@ -809,12 +791,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/014.png",
     "flavour_text": "Buzzwole goes around showing off its abnormally swollen muscles. It is one kind of Ultra Beast.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 14,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -989,12 +965,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 17,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 180,
         "rarity": "☆☆"
       },
@@ -1112,12 +1082,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/019.png",
     "flavour_text": "When Reshiram’s tail flares, the heat energy moves the atmosphere and changes the world’s weather.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 19,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -1292,12 +1256,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 22,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 161,
         "rarity": "☆"
       }
@@ -1354,12 +1312,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/023.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 23,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -1429,12 +1381,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/024.png",
     "flavour_text": "Fire energy gathers in the pads of its feet, raising their temperature. Once hot, Scorbunny’s footpads can deal heavy damage to opponents.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 24,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -1550,12 +1496,6 @@
     "flavour_text": "Using a ball that it made out of flames, Cinderace blinds its opponents and keeps them at bay.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 26,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 31,
@@ -1670,12 +1610,6 @@
     "flavour_text": "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 28,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 204,
@@ -1738,12 +1672,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/029.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 29,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -1985,12 +1913,6 @@
     "flavour_text": "When it uses its large tail fin, it picks up speed rapidly in the water. It is strong in spite of its small size.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 33,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 205,
@@ -2047,12 +1969,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/034.png",
     "flavour_text": "It is at its best when on muddy ground that offers poor footing. It quickly overwhelms opponents that are bogged down and unable to move.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 34,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -2111,12 +2027,6 @@
     "flavour_text": "Swampert’s arms are rock-hard. With one swing, they can batter down Swampert’s foes. This Pokémon makes its nest on beautiful beaches.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 35,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 207,
@@ -2173,12 +2083,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/036.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 36,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -2536,12 +2440,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 42,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 163,
         "rarity": "☆"
       }
@@ -2710,12 +2608,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/045.png",
     "flavour_text": "Cramorant takes advantage of Arrokuda’s frantic thrashing to help spit Arrokuda out at high speed.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 45,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3116,12 +3008,6 @@
     "flavour_text": "This Pokémon absorbs electricity from telephone poles. It shorts out the electricity stored inside its body to create noises.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 52,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 209,
@@ -3184,12 +3070,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/053.png",
     "flavour_text": "Its dislike of water makes it take shelter under the eaves of houses in rain. It uses pom-poms made of sparks for cheering.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 53,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3256,12 +3136,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 54,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 166,
         "rarity": "☆"
       }
@@ -3316,12 +3190,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/055.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 55,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3385,12 +3253,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/056.png",
     "flavour_text": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 56,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -3505,12 +3367,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/058.png",
     "flavour_text": "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 58,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3682,12 +3538,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/061.png",
     "flavour_text": "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 61,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3976,12 +3826,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 66,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 185,
         "rarity": "☆☆"
       },
@@ -4222,12 +4066,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 70,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 233,
         "rarity": "Crown Rare"
       },
@@ -4402,12 +4240,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/073.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 73,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -4588,12 +4420,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 76,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 169,
         "rarity": "☆"
       }
@@ -4648,12 +4474,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/077.png",
     "flavour_text": "No matter how high a place it falls from, this Pokémon can save itself by rolling into a ball and bouncing.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 77,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -5111,12 +4931,6 @@
     "flavour_text": "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 85,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 213,
@@ -5174,12 +4988,6 @@
     "flavour_text": "It relies on sound in order to monitor what’s in its vicinity. When angered, it will attack without ever changing the direction it’s facing.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 86,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 214,
@@ -5236,12 +5044,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/087.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 87,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -5428,12 +5230,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 90,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 171,
         "rarity": "☆"
       }
@@ -5545,12 +5341,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/092.png",
     "flavour_text": "The leader, known as the brass, uses its extendible horn to issue orders to the others when it’s time to change formation.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 92,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -5845,12 +5635,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 97,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 173,
         "rarity": "☆"
       }
@@ -6019,12 +5803,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/100.png",
     "flavour_text": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 100,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -6256,12 +6034,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 104,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 174,
         "rarity": "☆"
       }
@@ -6490,12 +6262,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 108,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 175,
         "rarity": "☆"
       }
@@ -6610,12 +6376,6 @@
     "flavour_text": "These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 110,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 218,
@@ -6672,12 +6432,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/111.png",
     "flavour_text": "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 111,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -6798,12 +6552,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/113.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 113,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -7383,12 +7131,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 123,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 178,
         "rarity": "☆"
       }
@@ -7443,12 +7185,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/124.png",
     "flavour_text": "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 124,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -7564,12 +7300,6 @@
     "flavour_text": "There are records of a lost human child being raised by a childless Kangaskhan.",
     "alternate_versions": [
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 126,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 98,
@@ -7626,12 +7356,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/127.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 127,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -7815,12 +7539,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/130.png",
     "flavour_text": "The color of the mysterious fluid secreted from the tip of the tail is predetermined for each Smeargle.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 130,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -8052,12 +7770,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 134,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 179,
         "rarity": "☆"
       }
@@ -8283,12 +7995,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/138.png",
     "flavour_text": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 138,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -8805,12 +8511,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 147,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 234,
         "rarity": "Crown Rare"
       }
@@ -8865,12 +8565,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/148.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 148,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -8931,12 +8625,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 149,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 190,
         "rarity": "☆☆"
       }
@@ -8991,12 +8679,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/150.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 150,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -9057,12 +8739,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 151,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 192,
         "rarity": "☆☆"
       }
@@ -9117,12 +8793,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/152.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 152,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -9356,12 +9026,6 @@
         "set_name": "Fantastical Parade",
         "id": 6,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 156,
-        "rarity": "☆"
       }
     ]
   },
@@ -9419,12 +9083,6 @@
         "set_name": "Fantastical Parade",
         "id": 5,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 157,
-        "rarity": "☆"
       }
     ]
   },
@@ -9482,12 +9140,6 @@
         "set_name": "Fantastical Parade",
         "id": 13,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 158,
-        "rarity": "☆"
       }
     ]
   },
@@ -9547,12 +9199,6 @@
         "set_name": "Fantastical Parade",
         "id": 14,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 159,
-        "rarity": "☆"
       }
     ]
   },
@@ -9610,12 +9256,6 @@
         "set_name": "Fantastical Parade",
         "id": 19,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 160,
-        "rarity": "☆"
       }
     ]
   },
@@ -9673,12 +9313,6 @@
         "set_name": "Fantastical Parade",
         "id": 22,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 161,
-        "rarity": "☆"
       }
     ]
   },
@@ -9736,12 +9370,6 @@
         "set_name": "Fantastical Parade",
         "id": 24,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 162,
-        "rarity": "☆"
       }
     ]
   },
@@ -9799,12 +9427,6 @@
         "set_name": "Fantastical Parade",
         "id": 42,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 163,
-        "rarity": "☆"
       }
     ]
   },
@@ -9862,12 +9484,6 @@
         "set_name": "Fantastical Parade",
         "id": 45,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 164,
-        "rarity": "☆"
       }
     ]
   },
@@ -9925,12 +9541,6 @@
         "set_name": "Fantastical Parade",
         "id": 53,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 165,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -9994,12 +9604,6 @@
         "set_name": "Fantastical Parade",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 166,
-        "rarity": "☆"
       }
     ]
   },
@@ -10057,12 +9661,6 @@
         "set_name": "Fantastical Parade",
         "id": 58,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 167,
-        "rarity": "☆"
       }
     ]
   },
@@ -10120,12 +9718,6 @@
         "set_name": "Fantastical Parade",
         "id": 61,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 168,
-        "rarity": "☆"
       }
     ]
   },
@@ -10183,12 +9775,6 @@
         "set_name": "Fantastical Parade",
         "id": 76,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 169,
-        "rarity": "☆"
       }
     ]
   },
@@ -10246,12 +9832,6 @@
         "set_name": "Fantastical Parade",
         "id": 77,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 170,
-        "rarity": "☆"
       }
     ]
   },
@@ -10309,12 +9889,6 @@
         "set_name": "Fantastical Parade",
         "id": 90,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 171,
-        "rarity": "☆"
       }
     ]
   },
@@ -10372,12 +9946,6 @@
         "set_name": "Fantastical Parade",
         "id": 92,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 172,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -10441,12 +10009,6 @@
         "set_name": "Fantastical Parade",
         "id": 97,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 173,
-        "rarity": "☆"
       }
     ]
   },
@@ -10504,12 +10066,6 @@
         "set_name": "Fantastical Parade",
         "id": 104,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 174,
-        "rarity": "☆"
       }
     ]
   },
@@ -10567,12 +10123,6 @@
         "set_name": "Fantastical Parade",
         "id": 108,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 175,
-        "rarity": "☆"
       }
     ]
   },
@@ -10630,12 +10180,6 @@
         "set_name": "Fantastical Parade",
         "id": 100,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 176,
-        "rarity": "☆"
       }
     ]
   },
@@ -10693,12 +10237,6 @@
         "set_name": "Fantastical Parade",
         "id": 111,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 177,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -10762,12 +10300,6 @@
         "set_name": "Fantastical Parade",
         "id": 123,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 178,
-        "rarity": "☆"
       }
     ]
   },
@@ -10825,12 +10357,6 @@
         "set_name": "Fantastical Parade",
         "id": 134,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 179,
-        "rarity": "☆"
       }
     ]
   },
@@ -10888,12 +10414,6 @@
         "set_name": "Fantastical Parade",
         "id": 17,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 180,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -10959,12 +10479,6 @@
         "set_name": "Fantastical Parade",
         "id": 23,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 181,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -11038,12 +10552,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 182,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 196,
         "rarity": "☆☆"
       },
@@ -11109,12 +10617,6 @@
         "set_name": "Fantastical Parade",
         "id": 36,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 183,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -11188,12 +10690,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 184,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 198,
         "rarity": "☆☆"
       }
@@ -11253,12 +10749,6 @@
         "set_name": "Fantastical Parade",
         "id": 66,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 185,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -11332,12 +10822,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 186,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 199,
         "rarity": "☆☆"
       }
@@ -11397,12 +10881,6 @@
         "set_name": "Fantastical Parade",
         "id": 87,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 187,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -11476,12 +10954,6 @@
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
-        "id": 188,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
         "id": 201,
         "rarity": "☆☆"
       }
@@ -11541,12 +11013,6 @@
         "set_name": "Fantastical Parade",
         "id": 127,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 189,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -11616,12 +11082,6 @@
         "set_name": "Fantastical Parade",
         "id": 149,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 190,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11679,12 +11139,6 @@
         "set_name": "Fantastical Parade",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 191,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11742,12 +11196,6 @@
         "set_name": "Fantastical Parade",
         "id": 151,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 192,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11805,12 +11253,6 @@
         "set_name": "Fantastical Parade",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 193,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11873,12 +11315,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 180,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 194,
         "rarity": "☆☆"
       }
     ]
@@ -11944,12 +11380,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 181,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 195,
         "rarity": "☆☆"
       },
       {
@@ -12022,12 +11452,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 196,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 225,
@@ -12094,12 +11518,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 197,
         "rarity": "☆☆"
       },
       {
@@ -12170,12 +11588,6 @@
         "set_name": "Fantastical Parade",
         "id": 184,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 198,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12239,12 +11651,6 @@
         "set_name": "Fantastical Parade",
         "id": 186,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 199,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12307,12 +11713,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 200,
         "rarity": "☆☆"
       },
       {
@@ -12383,12 +11783,6 @@
         "set_name": "Fantastical Parade",
         "id": 188,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 201,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12451,12 +11845,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 189,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 202,
         "rarity": "☆☆"
       },
       {
@@ -12529,12 +11917,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 203,
-        "rarity": "☆☆☆"
-      },
-      {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 227,
@@ -12596,12 +11978,6 @@
         "set_name": "Fantastical Parade",
         "id": 124,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 204,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -12659,12 +12035,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 4,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 205,
-        "rarity": "☆"
       }
     ]
   },
@@ -12728,12 +12098,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 166,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 206,
-        "rarity": "☆"
       }
     ]
   },
@@ -12791,12 +12155,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 23,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 207,
-        "rarity": "☆"
       }
     ]
   },
@@ -12866,12 +12224,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 89,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 208,
-        "rarity": "☆"
       }
     ]
   },
@@ -12941,12 +12293,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 91,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 209,
-        "rarity": "☆"
       }
     ]
   },
@@ -13010,12 +12356,6 @@
         "set_name": "Secluded Springs",
         "id": 105,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 210,
-        "rarity": "☆"
       }
     ]
   },
@@ -13073,12 +12413,6 @@
         "set_name": "Genetic Apex",
         "id": 81,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 211,
-        "rarity": "☆"
       }
     ]
   },
@@ -13136,12 +12470,6 @@
         "set_name": "Genetic Apex",
         "id": 82,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 212,
-        "rarity": "☆"
       }
     ]
   },
@@ -13205,12 +12533,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 171,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 213,
-        "rarity": "☆"
       }
     ]
   },
@@ -13268,12 +12590,6 @@
         "set_name": "Genetic Apex",
         "id": 113,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 214,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -13337,12 +12653,6 @@
         "set_name": "Genetic Apex",
         "id": 114,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 215,
-        "rarity": "☆"
       }
     ]
   },
@@ -13400,12 +12710,6 @@
         "set_name": "Secluded Springs",
         "id": 36,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 216,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -13475,12 +12779,6 @@
         "set_name": "Secluded Springs",
         "id": 75,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 217,
-        "rarity": "☆"
       }
     ]
   },
@@ -13538,12 +12836,6 @@
         "set_name": "Genetic Apex",
         "id": 154,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 218,
-        "rarity": "☆"
       }
     ]
   },
@@ -13601,12 +12893,6 @@
         "set_name": "Genetic Apex",
         "id": 155,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 219,
-        "rarity": "☆"
       }
     ]
   },
@@ -13664,12 +12950,6 @@
         "set_name": "Genetic Apex",
         "id": 158,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 220,
-        "rarity": "☆"
       }
     ]
   },
@@ -13727,12 +13007,6 @@
         "set_name": "Genetic Apex",
         "id": 159,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 221,
-        "rarity": "☆"
       }
     ]
   },
@@ -13802,12 +13076,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 201,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 222,
-        "rarity": "☆"
       }
     ]
   },
@@ -13865,12 +13133,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 101,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 223,
-        "rarity": "☆"
       }
     ]
   },
@@ -13928,12 +13190,6 @@
         "set_name": "Mythical Island",
         "id": 60,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 224,
-        "rarity": "☆"
       }
     ]
   },
@@ -14009,12 +13265,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 66,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 225,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14102,12 +13352,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 362,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 226,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14183,12 +13427,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 92,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 227,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14264,12 +13502,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 160,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 228,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14345,12 +13577,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 177,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 229,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14426,12 +13652,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 202,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 230,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14507,12 +13727,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 241,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 231,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14600,12 +13814,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 371,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 232,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14663,12 +13871,6 @@
         "set_name": "Fantastical Parade",
         "id": 70,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 233,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "pb",
@@ -14732,12 +13934,6 @@
         "set_name": "Fantastical Parade",
         "id": 147,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 234,
-        "rarity": "Crown Rare"
       }
     ]
   }

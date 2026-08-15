@@ -49,12 +49,6 @@
     "flavour_text": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 60,
@@ -111,12 +105,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/002.png",
     "flavour_text": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 2,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -180,12 +168,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/003.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 3,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -262,12 +244,6 @@
     "flavour_text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 4,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 32,
@@ -331,12 +307,6 @@
     "flavour_text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 5,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 34,
@@ -399,12 +369,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/006.png",
     "flavour_text": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 6,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -874,12 +838,6 @@
     "flavour_text": "Its burning body causes it to be unpopular in hot parts of the world, but in cold ones, Volcarona is revered as an embodiment of the sun.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 14,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 28,
@@ -936,12 +894,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/015.png",
     "flavour_text": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 15,
-        "rarity": "◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -1057,12 +1009,6 @@
     "flavour_text": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 17,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 214,
@@ -1134,12 +1080,6 @@
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
-        "id": 18,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
         "id": 76,
         "rarity": "☆☆"
       },
@@ -1206,12 +1146,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/019.png",
     "flavour_text": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid’s.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 19,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -1854,12 +1788,6 @@
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
-        "id": 30,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
         "id": 73,
         "rarity": "☆"
       }
@@ -1919,12 +1847,6 @@
         "set_name": "Genetic Apex",
         "id": 283,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 31,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -1977,12 +1899,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/032.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 32,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -2527,12 +2443,6 @@
     "flavour_text": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 41,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 221,
@@ -2704,12 +2614,6 @@
     "flavour_text": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 44,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 308,
@@ -2767,12 +2671,6 @@
     "flavour_text": "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 45,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 309,
@@ -2829,12 +2727,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/046.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 46,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -2910,12 +2802,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/047.png",
     "flavour_text": "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it’s imitating.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 47,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -3499,12 +3385,6 @@
     "flavour_text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 57,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 272,
@@ -3568,12 +3448,6 @@
     "flavour_text": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
     "alternate_versions": [
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 58,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 274,
@@ -3636,12 +3510,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/059.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 59,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -3711,12 +3579,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/060.png",
     "flavour_text": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.",
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 60,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -3892,12 +3754,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 218,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 63,
         "rarity": "◊"
       },
       {
@@ -4080,12 +3936,6 @@
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
-        "id": 66,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
         "id": 80,
         "rarity": "☆☆"
       }
@@ -4143,12 +3993,6 @@
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
-        "id": 67,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
         "id": 81,
         "rarity": "☆☆"
       }
@@ -4203,12 +4047,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/068.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 68,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -4285,12 +4123,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 69,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 214,
@@ -4352,12 +4184,6 @@
         "set_name": "Mythical Island",
         "id": 6,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 70,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -4427,12 +4253,6 @@
         "set_name": "Mythical Island",
         "id": 15,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 71,
-        "rarity": "☆"
       }
     ]
   },
@@ -4490,12 +4310,6 @@
         "set_name": "Mythical Island",
         "id": 19,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 72,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -4565,12 +4379,6 @@
         "set_name": "Mythical Island",
         "id": 30,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 73,
-        "rarity": "☆"
       }
     ]
   },
@@ -4628,12 +4436,6 @@
         "set_name": "Mythical Island",
         "id": 47,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 74,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -4703,12 +4505,6 @@
         "set_name": "Mythical Island",
         "id": 3,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 75,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1a",
@@ -4786,12 +4582,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 76,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 234,
@@ -4859,12 +4649,6 @@
         "set_name": "Mythical Island",
         "id": 32,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 77,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1a",
@@ -4956,12 +4740,6 @@
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
-        "id": 78,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
         "id": 84,
         "rarity": "☆☆"
       },
@@ -5035,12 +4813,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 79,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 102,
@@ -5108,12 +4880,6 @@
         "set_name": "Mythical Island",
         "id": 66,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 80,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5171,12 +4937,6 @@
         "set_name": "Mythical Island",
         "id": 67,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 81,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5234,12 +4994,6 @@
         "set_name": "Mythical Island",
         "id": 68,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 82,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a4b",
@@ -5314,12 +5068,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 77,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 83,
         "rarity": "☆☆"
       },
       {
@@ -5410,12 +5158,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 84,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 101,
@@ -5489,12 +5231,6 @@
         "set_name": "Mythical Island",
         "id": 75,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 85,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a3a",
@@ -5576,12 +5312,6 @@
         "set_name": "Mythical Island",
         "id": 83,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 86,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4a",

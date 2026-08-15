@@ -448,12 +448,6 @@
     "flavour_text": "After absorbing plenty of sunlight, Cherrim takes this form. It’s full of energy while it’s like this, and its liveliness will go on until sundown.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 8,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 43,
@@ -567,12 +561,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/010.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 10,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -708,12 +696,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 12,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 76,
         "rarity": "☆"
       }
@@ -768,12 +750,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/013.png",
     "flavour_text": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 13,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -837,12 +813,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/014.png",
     "flavour_text": "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 14,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -1302,12 +1272,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 22,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 83,
         "rarity": "☆☆"
       },
@@ -1495,12 +1459,6 @@
     "flavour_text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 25,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 1,
@@ -1557,12 +1515,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/026.png",
     "flavour_text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 26,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -1849,12 +1801,6 @@
     "flavour_text": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 31,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 220,
@@ -2028,12 +1974,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 34,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 78,
         "rarity": "☆"
       }
@@ -2145,12 +2085,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/036.png",
     "flavour_text": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 36,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -2506,12 +2440,6 @@
     "flavour_text": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 42,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 203,
@@ -2689,12 +2617,6 @@
     "flavour_text": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 45,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 98,
@@ -2770,12 +2692,6 @@
     "flavour_text": "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 46,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 99,
@@ -2844,12 +2760,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/047.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 47,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -2926,12 +2836,6 @@
     "flavour_text": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 48,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 226,
@@ -2995,12 +2899,6 @@
     "flavour_text": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 49,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 228,
@@ -3063,12 +2961,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/050.png",
     "flavour_text": "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target’s neck.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 50,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -3246,12 +3138,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/053.png",
     "flavour_text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 53,
-        "rarity": "◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -3480,12 +3366,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/057.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 57,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -3841,12 +3721,6 @@
     "flavour_text": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
     "alternate_versions": [
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 63,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 49,
@@ -4191,12 +4065,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 69,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 81,
         "rarity": "☆"
       },
@@ -4323,12 +4191,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 71,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 86,
         "rarity": "☆☆"
       },
@@ -4416,12 +4278,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 72,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 87,
         "rarity": "☆☆"
       },
@@ -4491,12 +4347,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 73,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 88,
         "rarity": "☆☆"
       }
@@ -4554,12 +4404,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 74,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 89,
         "rarity": "☆☆"
       }
@@ -4614,12 +4458,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/075.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 75,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
@@ -4682,12 +4520,6 @@
         "set_name": "Triumphant Light",
         "id": 12,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 76,
-        "rarity": "☆"
       }
     ]
   },
@@ -4745,12 +4577,6 @@
         "set_name": "Triumphant Light",
         "id": 14,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 77,
-        "rarity": "☆"
       }
     ]
   },
@@ -4808,12 +4634,6 @@
         "set_name": "Triumphant Light",
         "id": 34,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 78,
-        "rarity": "☆"
       }
     ]
   },
@@ -4871,12 +4691,6 @@
         "set_name": "Triumphant Light",
         "id": 36,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 79,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -4946,12 +4760,6 @@
         "set_name": "Triumphant Light",
         "id": 53,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 80,
-        "rarity": "☆"
       }
     ]
   },
@@ -5009,12 +4817,6 @@
         "set_name": "Triumphant Light",
         "id": 69,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 81,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -5084,12 +4886,6 @@
         "set_name": "Triumphant Light",
         "id": 10,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 82,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2a",
@@ -5169,12 +4965,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 83,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 92,
         "rarity": "☆☆"
       },
@@ -5246,12 +5036,6 @@
         "set_name": "Triumphant Light",
         "id": 47,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 84,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2a",
@@ -5331,12 +5115,6 @@
       {
         "set_code": "a2a",
         "set_name": "Triumphant Light",
-        "id": 85,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
         "id": 94,
         "rarity": "☆☆"
       },
@@ -5402,12 +5180,6 @@
         "set_name": "Triumphant Light",
         "id": 71,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 86,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a2a",
@@ -5497,12 +5269,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 87,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 330,
@@ -5570,12 +5336,6 @@
         "set_name": "Triumphant Light",
         "id": 73,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 88,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5633,12 +5393,6 @@
         "set_name": "Triumphant Light",
         "id": 74,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 89,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5696,12 +5450,6 @@
         "set_name": "Triumphant Light",
         "id": 75,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 90,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5764,12 +5512,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 82,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 91,
         "rarity": "☆☆"
       },
       {
@@ -5848,12 +5590,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 92,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 235,
@@ -5926,12 +5662,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 84,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 93,
         "rarity": "☆☆"
       },
       {
@@ -6010,12 +5740,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 94,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 253,
@@ -6083,12 +5807,6 @@
         "set_name": "Triumphant Light",
         "id": 86,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 95,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a2a",
@@ -6182,12 +5900,6 @@
         "set_name": "Triumphant Light",
         "id": 95,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 96,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",

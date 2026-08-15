@@ -454,12 +454,6 @@
     "flavour_text": "Its cell composition is similar to water molecules. As a result, it can’t be seen when it melts away into water.",
     "alternate_versions": [
       {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 8,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 65,
@@ -633,12 +627,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 11,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 75,
         "rarity": "☆"
       }
@@ -752,12 +740,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/013.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 13,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -1115,12 +1097,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 19,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 82,
         "rarity": "☆☆"
       },
@@ -1238,12 +1214,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/021.png",
     "flavour_text": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 21,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -1536,12 +1506,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 26,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 83,
         "rarity": "☆☆"
       },
@@ -1604,12 +1568,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/027.png",
     "flavour_text": "It’s possible that this is the object listed as Iron Valiant in a certain expedition journal.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 27,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -1728,12 +1686,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/029.png",
     "flavour_text": "It was named after a mysterious object recorded in an old book. Its body seems to be metallic.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 29,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -2144,12 +2096,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 36,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 84,
         "rarity": "☆☆"
       },
@@ -2381,12 +2327,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/040.png",
     "flavour_text": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 40,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -2675,12 +2615,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 45,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 78,
         "rarity": "☆"
       }
@@ -2796,12 +2730,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/047.png",
     "flavour_text": "According to an article in a dubious magazine, this Pokémon has some connection to a phenomenon that occurs in a certain region.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 47,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -3269,12 +3197,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 55,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 79,
         "rarity": "☆"
       }
@@ -3558,12 +3480,6 @@
     "flavour_text": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
     "alternate_versions": [
       {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 60,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 68,
@@ -3791,12 +3707,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/064.png",
     "flavour_text": "Hawlucha live quietly without flocking together. They fight constantly with their natural enemies: noisy groups of Primeape.",
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 64,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -4028,12 +3938,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 68,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 85,
         "rarity": "☆☆"
       },
@@ -4211,12 +4115,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 71,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 86,
         "rarity": "☆☆"
       }
@@ -4276,12 +4174,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 72,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 87,
         "rarity": "☆☆"
       }
@@ -4338,12 +4230,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/073.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 73,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -4463,12 +4349,6 @@
         "set_name": "Paradox Drive",
         "id": 11,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 75,
-        "rarity": "☆"
       }
     ]
   },
@@ -4526,12 +4406,6 @@
         "set_name": "Paradox Drive",
         "id": 21,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 76,
-        "rarity": "☆"
       }
     ]
   },
@@ -4591,12 +4465,6 @@
         "set_name": "Paradox Drive",
         "id": 29,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 77,
-        "rarity": "☆"
       }
     ]
   },
@@ -4654,12 +4522,6 @@
         "set_name": "Paradox Drive",
         "id": 45,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 78,
-        "rarity": "☆"
       }
     ]
   },
@@ -4719,12 +4581,6 @@
         "set_name": "Paradox Drive",
         "id": 55,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 79,
-        "rarity": "☆"
       }
     ]
   },
@@ -4782,12 +4638,6 @@
         "set_name": "Paradox Drive",
         "id": 64,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 80,
-        "rarity": "☆"
       }
     ]
   },
@@ -4847,12 +4697,6 @@
         "set_name": "Paradox Drive",
         "id": 13,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 81,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3a",
@@ -4922,12 +4766,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 82,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 90,
         "rarity": "☆☆"
       }
@@ -4989,12 +4827,6 @@
         "set_name": "Paradox Drive",
         "id": 26,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 83,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b3a",
@@ -5064,12 +4896,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 84,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 92,
         "rarity": "☆☆"
       }
@@ -5133,12 +4959,6 @@
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
-        "id": 85,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
         "id": 93,
         "rarity": "☆☆☆"
       }
@@ -5198,12 +5018,6 @@
         "set_name": "Paradox Drive",
         "id": 71,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 86,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5263,12 +5077,6 @@
         "set_name": "Paradox Drive",
         "id": 72,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 87,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5328,12 +5136,6 @@
         "set_name": "Paradox Drive",
         "id": 73,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 88,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5398,12 +5200,6 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 81,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 89,
         "rarity": "☆☆"
       }
     ]
@@ -5470,12 +5266,6 @@
         "set_name": "Paradox Drive",
         "id": 82,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 90,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5540,12 +5330,6 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 83,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 91,
         "rarity": "☆☆"
       }
     ]
@@ -5612,12 +5396,6 @@
         "set_name": "Paradox Drive",
         "id": 84,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 92,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5681,12 +5459,6 @@
         "set_name": "Paradox Drive",
         "id": 85,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 93,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -5744,12 +5516,6 @@
         "set_name": "Paldean Wonders",
         "id": 14,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 94,
-        "rarity": "☆"
       }
     ]
   },
@@ -5807,12 +5573,6 @@
         "set_name": "Paldean Wonders",
         "id": 19,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 95,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -5876,12 +5636,6 @@
         "set_name": "Fantastical Parade",
         "id": 56,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 96,
-        "rarity": "☆"
       }
     ]
   },
@@ -5939,12 +5693,6 @@
         "set_name": "Paldean Wonders",
         "id": 49,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 97,
-        "rarity": "☆"
       }
     ]
   },
@@ -6002,12 +5750,6 @@
         "set_name": "Mega Shine",
         "id": 33,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 98,
-        "rarity": "☆"
       }
     ]
   },
@@ -6065,12 +5807,6 @@
         "set_name": "Mega Shine",
         "id": 34,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 99,
-        "rarity": "☆"
       }
     ]
   },
@@ -6128,12 +5864,6 @@
         "set_name": "Paldean Wonders",
         "id": 61,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 100,
-        "rarity": "☆"
       }
     ]
   },
@@ -6197,12 +5927,6 @@
         "set_name": "Paldean Wonders",
         "id": 98,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 101,
-        "rarity": "☆"
       }
     ]
   },
@@ -6260,12 +5984,6 @@
         "set_name": "Mega Rising",
         "id": 196,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 102,
-        "rarity": "☆"
       }
     ]
   },
@@ -6323,12 +6041,6 @@
         "set_name": "Mega Rising",
         "id": 197,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 103,
-        "rarity": "☆"
       }
     ]
   },
@@ -6397,12 +6109,6 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 110,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 104,
         "rarity": "☆☆"
       },
       {
@@ -6479,12 +6185,6 @@
         "set_name": "Paldean Wonders",
         "id": 111,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 105,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6553,12 +6253,6 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 113,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 106,
         "rarity": "☆☆"
       }
     ]
@@ -6629,12 +6323,6 @@
         "set_name": "Mega Rising",
         "id": 286,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 107,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6694,12 +6382,6 @@
         "set_name": "Paradox Drive",
         "id": 27,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 108,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -6759,12 +6441,6 @@
         "set_name": "Paradox Drive",
         "id": 47,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b3a",
-        "set_name": "Paradox Drive",
-        "id": 109,
-        "rarity": "Crown Rare"
       }
     ]
   }

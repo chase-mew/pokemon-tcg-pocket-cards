@@ -222,12 +222,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 4,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 76,
         "rarity": "☆☆"
       },
@@ -348,12 +342,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 6,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 70,
         "rarity": "☆"
       }
@@ -465,12 +453,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/008.png",
     "flavour_text": "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 8,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -700,12 +682,6 @@
     "flavour_text": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 12,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 20,
@@ -765,12 +741,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 13,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 91,
         "rarity": "☆"
       }
@@ -825,12 +795,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/014.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 14,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -1179,12 +1143,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/020.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 20,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -1705,12 +1663,6 @@
     "flavour_text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 29,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 18,
@@ -1998,12 +1950,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 34,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 72,
         "rarity": "☆"
       }
@@ -2175,12 +2121,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 37,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 73,
         "rarity": "☆"
       }
@@ -2235,12 +2175,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/038.png",
     "flavour_text": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 38,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -2472,12 +2406,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 42,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 79,
         "rarity": "☆☆"
       },
@@ -2659,12 +2587,6 @@
     "flavour_text": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 45,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 215,
@@ -2721,12 +2643,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/046.png",
     "flavour_text": "They love to gather in smelly areas where sludge accumulates, making the stench around them worse.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 46,
-        "rarity": "◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -2901,12 +2817,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 49,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 74,
         "rarity": "☆"
       }
@@ -3019,12 +2929,6 @@
     "flavour_text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 51,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 219,
@@ -3081,12 +2985,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/052.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 52,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -3214,12 +3112,6 @@
     "flavour_text": "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 54,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 23,
@@ -3276,12 +3168,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/055.png",
     "flavour_text": "It can freely recombine its own cellular structure to transform into other life-forms.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 55,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
@@ -3346,12 +3232,6 @@
     "flavour_text": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 56,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 222,
@@ -3409,12 +3289,6 @@
     "flavour_text": "This is a Porygon that was updated with special data. Porygon2 develops itself by learning about many different subjects all on its own.",
     "alternate_versions": [
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 57,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 223,
@@ -3471,12 +3345,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/058.png",
     "flavour_text": "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z’s behavior.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 58,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -3705,12 +3573,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/062.png",
     "flavour_text": "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 62,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -4011,12 +3873,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 67,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 103,
         "rarity": "Crown Rare"
       }
@@ -4074,12 +3930,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 68,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 81,
         "rarity": "☆☆"
       }
@@ -4134,12 +3984,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/069.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 69,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -4202,12 +4046,6 @@
         "set_name": "Crimson Blaze",
         "id": 6,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 70,
-        "rarity": "☆"
       }
     ]
   },
@@ -4265,12 +4103,6 @@
         "set_name": "Crimson Blaze",
         "id": 8,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 71,
-        "rarity": "☆"
       }
     ]
   },
@@ -4328,12 +4160,6 @@
         "set_name": "Crimson Blaze",
         "id": 34,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 72,
-        "rarity": "☆"
       }
     ]
   },
@@ -4391,12 +4217,6 @@
         "set_name": "Crimson Blaze",
         "id": 37,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 73,
-        "rarity": "☆"
       }
     ]
   },
@@ -4454,12 +4274,6 @@
         "set_name": "Crimson Blaze",
         "id": 49,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 74,
-        "rarity": "☆"
       }
     ]
   },
@@ -4517,12 +4331,6 @@
         "set_name": "Crimson Blaze",
         "id": 62,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 75,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -4596,12 +4404,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 76,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 83,
         "rarity": "☆☆"
       }
@@ -4661,12 +4463,6 @@
         "set_name": "Crimson Blaze",
         "id": 14,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 77,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1a",
@@ -4734,12 +4530,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 78,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 84,
         "rarity": "☆☆"
       }
@@ -4799,12 +4589,6 @@
         "set_name": "Crimson Blaze",
         "id": 42,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 79,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1a",
@@ -4878,12 +4662,6 @@
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
-        "id": 80,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
         "id": 86,
         "rarity": "☆☆"
       },
@@ -4949,12 +4727,6 @@
         "set_name": "Crimson Blaze",
         "id": 68,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 81,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5012,12 +4784,6 @@
         "set_name": "Crimson Blaze",
         "id": 69,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 82,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5080,12 +4846,6 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 76,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 83,
         "rarity": "☆☆"
       }
     ]
@@ -5150,12 +4910,6 @@
         "set_name": "Crimson Blaze",
         "id": 78,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 84,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5218,12 +4972,6 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 79,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 85,
         "rarity": "☆☆"
       },
       {
@@ -5296,12 +5044,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 86,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 232,
@@ -5369,12 +5111,6 @@
         "set_name": "Crimson Blaze",
         "id": 77,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 87,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -5432,12 +5168,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 88,
-        "rarity": "☆"
       }
     ]
   },
@@ -5495,12 +5225,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 2,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 89,
-        "rarity": "☆"
       }
     ]
   },
@@ -5558,12 +5282,6 @@
         "set_name": "Genetic Apex",
         "id": 13,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 90,
-        "rarity": "☆"
       }
     ]
   },
@@ -5621,12 +5339,6 @@
         "set_name": "Crimson Blaze",
         "id": 13,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 91,
-        "rarity": "☆"
       }
     ]
   },
@@ -5684,12 +5396,6 @@
         "set_name": "Celestial Guardians",
         "id": 42,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 92,
-        "rarity": "☆"
       }
     ]
   },
@@ -5747,12 +5453,6 @@
         "set_name": "Celestial Guardians",
         "id": 43,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 93,
-        "rarity": "☆"
       }
     ]
   },
@@ -5810,12 +5510,6 @@
         "set_name": "Mega Rising",
         "id": 122,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 94,
-        "rarity": "☆"
       }
     ]
   },
@@ -5873,12 +5567,6 @@
         "set_name": "Mega Rising",
         "id": 123,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 95,
-        "rarity": "☆"
       }
     ]
   },
@@ -5948,12 +5636,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 301,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 96,
-        "rarity": "☆"
       }
     ]
   },
@@ -6029,12 +5711,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 303,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 97,
-        "rarity": "☆"
       }
     ]
   },
@@ -6117,12 +5793,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 360,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 98,
         "rarity": "☆☆"
       }
     ]
@@ -6211,12 +5881,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 367,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 99,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6294,12 +5958,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 248,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 100,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6387,12 +6045,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 369,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 101,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -6450,12 +6102,6 @@
         "set_name": "Mega Rising",
         "id": 172,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 102,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -6513,12 +6159,6 @@
         "set_name": "Crimson Blaze",
         "id": 67,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 103,
-        "rarity": "Crown Rare"
       }
     ]
   }

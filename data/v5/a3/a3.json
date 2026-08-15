@@ -51,12 +51,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 213,
         "rarity": "☆"
       }
@@ -111,12 +105,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/002.png",
     "flavour_text": "Blazing sunlight has brought out the true form and powers of this Pokémon.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 2,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -580,12 +568,6 @@
     "flavour_text": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 10,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 38,
@@ -655,12 +637,6 @@
     "flavour_text": "This narcissistic Pokémon is a clean freak. If you don’t groom it diligently, it may stop listening to you.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 11,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 40,
@@ -723,12 +699,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/012.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 12,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -978,12 +948,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 16,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 157,
         "rarity": "☆"
       }
@@ -1212,12 +1176,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 20,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 158,
         "rarity": "☆"
       }
@@ -1389,12 +1347,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 23,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 181,
         "rarity": "☆☆"
       },
@@ -1461,12 +1413,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/024.png",
     "flavour_text": "Although it’s called a guardian deity, it’s violent enough to crush anyone it sees as an enemy.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 24,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -1641,12 +1587,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 27,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 160,
         "rarity": "☆"
       }
@@ -1816,12 +1756,6 @@
     "flavour_text": "If you try too hard to get close to it, it won’t open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 30,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 78,
@@ -1948,12 +1882,6 @@
     "flavour_text": "Torracat will let its Trainer coddle it once they’ve grown close, but it’s a powerful, sharp-clawed Pokémon, so its Trainer gets covered in scratches.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 32,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 80,
@@ -2022,12 +1950,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/033.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 33,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -2277,12 +2199,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 37,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 161,
         "rarity": "☆"
       }
@@ -2454,12 +2370,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 40,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 162,
         "rarity": "☆"
       }
@@ -2514,12 +2424,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/041.png",
     "flavour_text": "A deity resides in the snowy mountains where this Pokémon lives. In ancient times, it was worshiped as that deity’s incarnation.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 41,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -2578,12 +2482,6 @@
     "flavour_text": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 42,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 92,
@@ -2640,12 +2538,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/043.png",
     "flavour_text": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 43,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -2760,12 +2652,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/045.png",
     "flavour_text": "The balloons it inflates with its nose grow larger and larger as it practices day by day.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 45,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -2997,12 +2883,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 49,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 183,
         "rarity": "☆☆"
       },
@@ -3070,12 +2950,6 @@
     "flavour_text": "Individually, they’re incredibly weak. It’s by gathering up into schools that they’re able to confront opponents.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 50,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 122,
@@ -3138,12 +3012,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/051.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 51,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -3330,12 +3198,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 54,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 163,
         "rarity": "☆"
       },
@@ -3456,12 +3318,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 56,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 164,
         "rarity": "☆"
       }
@@ -3573,12 +3429,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/058.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 58,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -4050,12 +3900,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 66,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 165,
         "rarity": "☆"
       },
@@ -4185,12 +4029,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/068.png",
     "flavour_text": "Although it’s called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 68,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -4705,12 +4543,6 @@
     "flavour_text": "This form of Oricorio has sipped purple nectar. It uses ethereal dance steps to call forth the spirits of the dead.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 77,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 178,
@@ -4773,12 +4605,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/078.png",
     "flavour_text": "Nectar and pollen are its favorite fare. In fields of flowers, it gets into skirmishes with Butterfree over food.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 78,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -4896,12 +4722,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 80,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 168,
         "rarity": "☆"
       }
@@ -4956,12 +4776,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/081.png",
     "flavour_text": "If it loses its shovel, it will stick something else—like a branch—in its head to make do until it finds another shovel.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 81,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -5077,12 +4891,6 @@
     "flavour_text": "There was a scientist who peeked under Mimikyu’s old rag in the name of research. The scientist died of a mysterious disease.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 83,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 66,
@@ -5142,12 +4950,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 84,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 170,
         "rarity": "☆"
       }
@@ -5202,12 +5004,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/085.png",
     "flavour_text": "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn’t seem to care.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 85,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -5284,12 +5080,6 @@
     "flavour_text": "The king who ruled Alola in times of antiquity called it the “cocoon of the stars” and built an altar to worship it.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 86,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 182,
@@ -5352,12 +5142,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/087.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 87,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -5733,12 +5517,6 @@
     "flavour_text": "It brings its claws together and whirls around at high speed before rushing toward its prey.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 93,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 216,
@@ -5973,12 +5751,6 @@
     "flavour_text": "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 97,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 218,
@@ -6047,12 +5819,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/098.png",
     "flavour_text": "This Pokémon is very friendly when it’s young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 98,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -6173,12 +5939,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/100.png",
     "flavour_text": "Lycanroc attacks its prey with its sharp claws and fangs. It loyally obeys the instructions of a Trainer it trusts.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 100,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -6353,12 +6113,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 103,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 173,
         "rarity": "☆"
       }
@@ -6413,12 +6167,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/104.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 104,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -6494,12 +6242,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/105.png",
     "flavour_text": "Places where Minior fall from the night sky are few and far between, with Alola being one of the precious few.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 105,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -6786,12 +6528,6 @@
     "flavour_text": "There are a hundred or so of them living in Alola’s waste-disposal site. They’re all hard workers who eat a lot of trash.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 110,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 233,
@@ -6854,12 +6590,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/111.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 111,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -7215,12 +6945,6 @@
     "flavour_text": "The metal-rich geology of this Pokémon’s habitat caused it to develop steel whiskers on its head.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 117,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 311,
@@ -7334,12 +7058,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/119.png",
     "flavour_text": "It’s not uncommon for tunnels that appear to have formed naturally to actually be a result of Excadrill’s rampant digging.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 119,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -7461,12 +7179,6 @@
     "flavour_text": "Once it absorbs a key’s metal ions, it discards the key without a second thought. However, it will hang on to keys it favors for decades.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 121,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 257,
@@ -7529,12 +7241,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/122.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 122,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -7625,12 +7331,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 123,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 175,
         "rarity": "☆"
       },
@@ -7697,12 +7397,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/124.png",
     "flavour_text": "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 124,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -7989,12 +7683,6 @@
     "flavour_text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 129,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 290,
@@ -8057,12 +7745,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/130.png",
     "flavour_text": "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 130,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -8240,12 +7922,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/133.png",
     "flavour_text": "It pecks at trees with its hard beak. You can get some idea of its mood or condition from the rhythm of its pecking.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 133,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -8591,12 +8267,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 139,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 178,
         "rarity": "☆"
       }
@@ -8708,12 +8378,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/141.png",
     "flavour_text": "Komala spends its entire life sleeping. It feeds on leaves that contain a potent poison only Komala can break down.",
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 141,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -8885,12 +8549,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/144.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 144,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -9075,12 +8733,6 @@
     "flavour_text": null,
     "alternate_versions": [
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 147,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 324,
@@ -9146,12 +8798,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 148,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 190,
         "rarity": "☆☆"
       }
@@ -9206,12 +8852,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/149.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 149,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9272,12 +8912,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 150,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 192,
         "rarity": "☆☆"
       }
@@ -9332,12 +8966,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/151.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 151,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9404,12 +9032,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 152,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 194,
         "rarity": "☆☆"
       }
@@ -9464,12 +9086,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/153.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 153,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9530,12 +9146,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 154,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 196,
         "rarity": "☆☆"
       }
@@ -9590,12 +9200,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3/155.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 155,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9684,12 +9288,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 156,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 69,
@@ -9751,12 +9349,6 @@
         "set_name": "Celestial Guardians",
         "id": 16,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 157,
-        "rarity": "☆"
       }
     ]
   },
@@ -9814,12 +9406,6 @@
         "set_name": "Celestial Guardians",
         "id": 20,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 158,
-        "rarity": "☆"
       }
     ]
   },
@@ -9877,12 +9463,6 @@
         "set_name": "Celestial Guardians",
         "id": 24,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 159,
-        "rarity": "☆"
       }
     ]
   },
@@ -9940,12 +9520,6 @@
         "set_name": "Celestial Guardians",
         "id": 27,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 160,
-        "rarity": "☆"
       }
     ]
   },
@@ -10003,12 +9577,6 @@
         "set_name": "Celestial Guardians",
         "id": 37,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 161,
-        "rarity": "☆"
       }
     ]
   },
@@ -10066,12 +9634,6 @@
         "set_name": "Celestial Guardians",
         "id": 40,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 162,
-        "rarity": "☆"
       }
     ]
   },
@@ -10129,12 +9691,6 @@
         "set_name": "Celestial Guardians",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 163,
-        "rarity": "☆"
       },
       {
         "set_code": "a4a",
@@ -10198,12 +9754,6 @@
         "set_name": "Celestial Guardians",
         "id": 56,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 164,
-        "rarity": "☆"
       }
     ]
   },
@@ -10261,12 +9811,6 @@
         "set_name": "Celestial Guardians",
         "id": 66,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 165,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -10342,12 +9886,6 @@
         "set_name": "Celestial Guardians",
         "id": 68,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 166,
-        "rarity": "☆"
       }
     ]
   },
@@ -10405,12 +9943,6 @@
         "set_name": "Celestial Guardians",
         "id": 78,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 167,
-        "rarity": "☆"
       }
     ]
   },
@@ -10468,12 +10000,6 @@
         "set_name": "Celestial Guardians",
         "id": 80,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 168,
-        "rarity": "☆"
       }
     ]
   },
@@ -10531,12 +10057,6 @@
         "set_name": "Celestial Guardians",
         "id": 81,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 169,
-        "rarity": "☆"
       }
     ]
   },
@@ -10594,12 +10114,6 @@
         "set_name": "Celestial Guardians",
         "id": 84,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 170,
-        "rarity": "☆"
       }
     ]
   },
@@ -10657,12 +10171,6 @@
         "set_name": "Celestial Guardians",
         "id": 85,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 171,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -10740,12 +10248,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 172,
-        "rarity": "☆"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 310,
@@ -10807,12 +10309,6 @@
         "set_name": "Celestial Guardians",
         "id": 103,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 173,
-        "rarity": "☆"
       }
     ]
   },
@@ -10870,12 +10366,6 @@
         "set_name": "Celestial Guardians",
         "id": 105,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 174,
-        "rarity": "☆"
       }
     ]
   },
@@ -10933,12 +10423,6 @@
         "set_name": "Celestial Guardians",
         "id": 123,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 175,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -11008,12 +10492,6 @@
         "set_name": "Celestial Guardians",
         "id": 124,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 176,
-        "rarity": "☆"
       }
     ]
   },
@@ -11071,12 +10549,6 @@
         "set_name": "Celestial Guardians",
         "id": 133,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 177,
-        "rarity": "☆"
       }
     ]
   },
@@ -11134,12 +10606,6 @@
         "set_name": "Celestial Guardians",
         "id": 139,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 178,
-        "rarity": "☆"
       }
     ]
   },
@@ -11197,12 +10663,6 @@
         "set_name": "Celestial Guardians",
         "id": 141,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 179,
-        "rarity": "☆"
       }
     ]
   },
@@ -11260,12 +10720,6 @@
         "set_name": "Celestial Guardians",
         "id": 12,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 180,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -11345,12 +10799,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 181,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 199,
         "rarity": "☆☆"
       },
@@ -11416,12 +10864,6 @@
         "set_name": "Celestial Guardians",
         "id": 33,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 182,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -11501,12 +10943,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 201,
         "rarity": "☆☆"
       },
@@ -11572,12 +11008,6 @@
         "set_name": "Celestial Guardians",
         "id": 51,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 184,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -11651,12 +11081,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 203,
         "rarity": "☆☆"
       },
@@ -11722,12 +11146,6 @@
         "set_name": "Celestial Guardians",
         "id": 87,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 186,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -11819,12 +11237,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 205,
         "rarity": "☆☆"
       },
@@ -11900,12 +11312,6 @@
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
-        "id": 188,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
         "id": 206,
         "rarity": "☆☆"
       },
@@ -11971,12 +11377,6 @@
         "set_name": "Celestial Guardians",
         "id": 122,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 189,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -12064,12 +11464,6 @@
         "set_name": "Celestial Guardians",
         "id": 148,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 190,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12127,12 +11521,6 @@
         "set_name": "Celestial Guardians",
         "id": 149,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 191,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12190,12 +11578,6 @@
         "set_name": "Celestial Guardians",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 192,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12253,12 +11635,6 @@
         "set_name": "Celestial Guardians",
         "id": 151,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 193,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -12322,12 +11698,6 @@
         "set_name": "Celestial Guardians",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 194,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12385,12 +11755,6 @@
         "set_name": "Celestial Guardians",
         "id": 153,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 195,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12448,12 +11812,6 @@
         "set_name": "Celestial Guardians",
         "id": 154,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 196,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12511,12 +11869,6 @@
         "set_name": "Celestial Guardians",
         "id": 155,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 197,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -12606,12 +11958,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 198,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 42,
@@ -12687,12 +12033,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 199,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 43,
@@ -12759,12 +12099,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 182,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 200,
         "rarity": "☆☆"
       },
       {
@@ -12843,12 +12177,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 201,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 121,
@@ -12915,12 +12243,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 184,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 202,
         "rarity": "☆☆"
       },
       {
@@ -12993,12 +12315,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 203,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 130,
@@ -13065,12 +12381,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 186,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 204,
         "rarity": "☆☆"
       },
       {
@@ -13161,12 +12471,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 205,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 223,
@@ -13242,12 +12546,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 206,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 235,
@@ -13314,12 +12612,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 189,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 207,
         "rarity": "☆☆"
       },
       {
@@ -13408,12 +12700,6 @@
         "set_name": "Celestial Guardians",
         "id": 193,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 208,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -13477,12 +12763,6 @@
         "set_name": "Celestial Guardians",
         "id": 197,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 209,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a4b",
@@ -13566,12 +12846,6 @@
         "rarity": "☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 210,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 1,
@@ -13647,12 +12921,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 211,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 3,
@@ -13722,12 +12990,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 212,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 18,
@@ -13789,12 +13051,6 @@
         "set_name": "Celestial Guardians",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 213,
-        "rarity": "☆"
       }
     ]
   },
@@ -13858,12 +13114,6 @@
         "set_name": "Mythical Island",
         "id": 69,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 214,
-        "rarity": "☆"
       }
     ]
   },
@@ -13926,12 +13176,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 232,
-        "rarity": "☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 215,
         "rarity": "☆"
       },
       {
@@ -14010,12 +13254,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 216,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 85,
@@ -14085,12 +13323,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 217,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 29,
@@ -14152,12 +13384,6 @@
         "set_name": "Genetic Apex",
         "id": 74,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 218,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -14227,12 +13453,6 @@
         "set_name": "Genetic Apex",
         "id": 75,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 219,
-        "rarity": "☆"
       }
     ]
   },
@@ -14290,12 +13510,6 @@
         "set_name": "Triumphant Light",
         "id": 31,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 220,
-        "rarity": "☆"
       }
     ]
   },
@@ -14353,12 +13567,6 @@
         "set_name": "Genetic Apex",
         "id": 121,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 221,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -14428,12 +13636,6 @@
         "set_name": "Genetic Apex",
         "id": 122,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 222,
-        "rarity": "☆"
       }
     ]
   },
@@ -14491,12 +13693,6 @@
         "set_name": "Genetic Apex",
         "id": 143,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 223,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -14568,12 +13764,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 224,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 191,
@@ -14641,12 +13831,6 @@
         "set_name": "Shining Revelry",
         "id": 39,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 225,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -14718,12 +13902,6 @@
         "rarity": "☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 226,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 194,
@@ -14791,12 +13969,6 @@
         "set_name": "Genetic Apex",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 227,
-        "rarity": "☆"
       }
     ]
   },
@@ -14854,12 +14026,6 @@
         "set_name": "Shining Revelry",
         "id": 60,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 228,
-        "rarity": "☆"
       }
     ]
   },
@@ -14923,12 +14089,6 @@
         "set_name": "Shining Revelry",
         "id": 78,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 229,
-        "rarity": "☆"
       }
     ]
   },
@@ -14991,12 +14151,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 251,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 230,
         "rarity": "☆☆"
       },
       {
@@ -15069,12 +14223,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 231,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 13,
@@ -15144,12 +14292,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 232,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 87,
@@ -15216,12 +14358,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 257,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 233,
         "rarity": "☆☆"
       },
       {
@@ -15300,12 +14436,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 234,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 155,
@@ -15381,12 +14511,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 235,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 193,
@@ -15453,12 +14577,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 264,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 236,
         "rarity": "☆☆"
       },
       {
@@ -15537,12 +14655,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 237,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 279,
@@ -15616,12 +14728,6 @@
         "set_name": "Celestial Guardians",
         "id": 204,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 238,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",
@@ -15709,12 +14815,6 @@
         "set_name": "Celestial Guardians",
         "id": 207,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3",
-        "set_name": "Celestial Guardians",
-        "id": 239,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",

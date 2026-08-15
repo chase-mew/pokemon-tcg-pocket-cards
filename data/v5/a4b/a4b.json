@@ -69,12 +69,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 2,
         "rarity": "◊"
       },
@@ -160,12 +154,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 2,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 23,
@@ -233,12 +221,6 @@
         "set_name": "Celestial Guardians",
         "id": 211,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 3,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -314,12 +296,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 3,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 4,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -389,12 +365,6 @@
         "set_name": "Celestial Guardians",
         "id": 230,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 5,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -458,12 +428,6 @@
         "set_name": "Shining Revelry",
         "id": 97,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 6,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -539,12 +503,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 6,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 7,
-        "rarity": "◊"
       }
     ]
   },
@@ -608,12 +566,6 @@
         "set_name": "Shining Revelry",
         "id": 98,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 8,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -689,12 +641,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 8,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 9,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -764,12 +710,6 @@
         "set_name": "Shining Revelry",
         "id": 107,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 10,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -826,12 +766,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 21,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 11,
         "rarity": "◊"
       },
       {
@@ -902,12 +836,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 11,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 12,
-        "rarity": "◊"
       }
     ]
   },
@@ -977,12 +905,6 @@
         "set_name": "Celestial Guardians",
         "id": 231,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 13,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1039,12 +961,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 13,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 14,
         "rarity": "◊"
       },
       {
@@ -1115,12 +1031,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 14,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 15,
-        "rarity": "◊"
       }
     ]
   },
@@ -1177,12 +1087,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 14,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 16,
         "rarity": "◊◊"
       },
       {
@@ -1253,12 +1157,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 16,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 17,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -1315,12 +1213,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 15,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 18,
         "rarity": "◊◊◊"
       },
       {
@@ -1391,12 +1283,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 18,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 19,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -1453,12 +1339,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 6,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 20,
         "rarity": "◊"
       },
       {
@@ -1528,12 +1408,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 20,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 21,
         "rarity": "◊"
       }
     ]
@@ -1610,12 +1484,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 232,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 22,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1685,12 +1553,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 202,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 23,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1766,12 +1628,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 99,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 24,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1828,12 +1684,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 23,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 25,
         "rarity": "◊"
       },
       {
@@ -1904,12 +1754,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 25,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 26,
-        "rarity": "◊"
       }
     ]
   },
@@ -1966,12 +1810,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 24,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 27,
         "rarity": "◊◊"
       },
       {
@@ -2041,12 +1879,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 27,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 28,
         "rarity": "◊◊"
       }
     ]
@@ -2123,12 +1955,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 233,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 29,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -2192,12 +2018,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 159,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 30,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -2281,12 +2101,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 31,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 116,
@@ -2347,12 +2161,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 4,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 32,
         "rarity": "◊"
       },
       {
@@ -2423,12 +2231,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 32,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 33,
-        "rarity": "◊"
       }
     ]
   },
@@ -2485,12 +2287,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 5,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 34,
         "rarity": "◊◊"
       },
       {
@@ -2561,12 +2357,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 34,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 35,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -2630,12 +2420,6 @@
         "set_name": "Mythical Island",
         "id": 70,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 36,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -2711,12 +2495,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 36,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 37,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -2773,12 +2551,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 10,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 38,
         "rarity": "◊"
       },
       {
@@ -2857,12 +2629,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 39,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 290,
@@ -2923,12 +2689,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 11,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 40,
         "rarity": "◊◊"
       },
       {
@@ -2999,12 +2759,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 40,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 41,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -3074,12 +2828,6 @@
         "set_name": "Celestial Guardians",
         "id": 198,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 42,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "b1",
@@ -3155,12 +2903,6 @@
         "set_name": "Celestial Guardians",
         "id": 199,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 43,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3232,12 +2974,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 88,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 44,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -3319,12 +3055,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 45,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 46,
         "rarity": "◊◊"
       }
@@ -3398,12 +3128,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 45,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 46,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -3462,12 +3186,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 8,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 47,
         "rarity": "◊"
       },
       {
@@ -3548,12 +3266,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 48,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 75,
@@ -3614,12 +3326,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 5,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 49,
         "rarity": "◊"
       },
       {
@@ -3698,12 +3404,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 50,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 52,
@@ -3764,12 +3464,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 6,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 51,
         "rarity": "◊◊"
       },
       {
@@ -3850,12 +3544,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 52,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 354,
         "rarity": "☆"
       }
@@ -3921,12 +3609,6 @@
         "set_name": "Shining Revelry",
         "id": 73,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 53,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -4010,12 +3692,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 54,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 118,
@@ -4083,12 +3759,6 @@
         "set_name": "Genetic Apex",
         "id": 230,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 55,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -4172,12 +3842,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 56,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 32,
@@ -4238,12 +3902,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 34,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 57,
         "rarity": "◊◊"
       },
       {
@@ -4313,12 +3971,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 57,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 58,
         "rarity": "◊◊"
       }
     ]
@@ -4399,12 +4051,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 59,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 361,
         "rarity": "☆☆"
       }
@@ -4476,12 +4122,6 @@
         "set_name": "Shining Revelry",
         "id": 108,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 60,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4545,12 +4185,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 89,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 61,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -4626,12 +4260,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 61,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 62,
-        "rarity": "◊"
       }
     ]
   },
@@ -4701,12 +4329,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 100,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 63,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4776,12 +4398,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 213,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 64,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -4863,12 +4479,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 64,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 65,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -4938,12 +4548,6 @@
         "set_name": "Eevee Grove",
         "id": 87,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 66,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "b2",
@@ -5025,12 +4629,6 @@
         "set_name": "Eevee Grove",
         "id": 103,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 67,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pa",
@@ -5116,12 +4714,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 68,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 362,
         "rarity": "☆☆"
       },
@@ -5186,12 +4778,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 10,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 69,
         "rarity": "◊"
       },
       {
@@ -5262,12 +4848,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 69,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 70,
-        "rarity": "◊"
       }
     ]
   },
@@ -5331,12 +4911,6 @@
         "set_name": "Secluded Springs",
         "id": 91,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 71,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -5420,12 +4994,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 72,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 40,
@@ -5493,12 +5061,6 @@
         "set_name": "Secluded Springs",
         "id": 92,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 73,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -5573,12 +5135,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 73,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 74,
         "rarity": "◊◊"
       }
     ]
@@ -5655,12 +5211,6 @@
         "set_name": "Secluded Springs",
         "id": 101,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 75,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5717,12 +5267,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 13,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 76,
         "rarity": "◊◊◊"
       },
       {
@@ -5793,12 +5337,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 76,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 77,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -5855,12 +5393,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 30,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 78,
         "rarity": "◊"
       },
       {
@@ -5939,12 +5471,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 79,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 293,
@@ -6005,12 +5531,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 32,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 80,
         "rarity": "◊◊"
       },
       {
@@ -6089,12 +5609,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 81,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 294,
@@ -6170,12 +5684,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 82,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 318,
@@ -6249,12 +5757,6 @@
         "set_name": "Celestial Guardians",
         "id": 215,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 83,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -6344,12 +5846,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 84,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 33,
@@ -6417,12 +5913,6 @@
         "set_name": "Celestial Guardians",
         "id": 216,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 85,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -6498,12 +5988,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 85,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 86,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -6573,12 +6057,6 @@
         "set_name": "Celestial Guardians",
         "id": 232,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 87,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6635,12 +6113,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 41,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 88,
         "rarity": "◊"
       },
       {
@@ -6719,12 +6191,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 89,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 208,
@@ -6785,12 +6251,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 42,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 90,
         "rarity": "◊◊"
       },
       {
@@ -6869,12 +6329,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 91,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 209,
@@ -6950,12 +6404,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 92,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 227,
@@ -7023,12 +6471,6 @@
         "set_name": "Celestial Guardians",
         "id": 218,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 93,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -7104,12 +6546,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 93,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 94,
-        "rarity": "◊"
       }
     ]
   },
@@ -7179,12 +6615,6 @@
         "set_name": "Celestial Guardians",
         "id": 233,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 95,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -7248,12 +6678,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 214,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 96,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -7329,12 +6753,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 96,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 97,
-        "rarity": "◊"
       }
     ]
   },
@@ -7404,12 +6822,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 234,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 98,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -7473,12 +6885,6 @@
         "set_name": "Mythical Island",
         "id": 72,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 99,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -7553,12 +6959,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 99,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 100,
         "rarity": "◊◊◊"
       }
     ]
@@ -7635,12 +7035,6 @@
         "set_name": "Eevee Grove",
         "id": 104,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 101,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -7697,12 +7091,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 60,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 102,
         "rarity": "◊"
       },
       {
@@ -7773,12 +7161,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 102,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 103,
-        "rarity": "◊"
       }
     ]
   },
@@ -7835,12 +7217,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 61,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 104,
         "rarity": "◊◊◊"
       },
       {
@@ -7916,12 +7292,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 104,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 105,
         "rarity": "◊◊◊"
       },
       {
@@ -8004,12 +7374,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 235,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 106,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -8089,12 +7453,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 107,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 363,
         "rarity": "☆☆"
       },
@@ -8166,12 +7524,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 162,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 108,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -8261,12 +7613,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 109,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 299,
@@ -8340,12 +7686,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 91,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 110,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -8429,12 +7769,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 111,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 61,
@@ -8502,12 +7836,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 92,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 112,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -8583,12 +7911,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 112,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 113,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -8652,12 +7974,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 93,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 114,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -8749,12 +8065,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 115,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 356,
         "rarity": "☆"
       },
@@ -8819,12 +8129,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 22,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 116,
         "rarity": "◊"
       },
       {
@@ -8895,12 +8199,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 116,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 117,
-        "rarity": "◊"
       }
     ]
   },
@@ -8957,12 +8255,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 23,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 118,
         "rarity": "◊"
       },
       {
@@ -9041,12 +8333,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 119,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 301,
@@ -9122,12 +8408,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 120,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 320,
@@ -9201,12 +8481,6 @@
         "set_name": "Celestial Guardians",
         "id": 201,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 121,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9263,12 +8537,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 50,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 122,
         "rarity": "◊"
       },
       {
@@ -9339,12 +8607,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 122,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 123,
-        "rarity": "◊"
       }
     ]
   },
@@ -9414,12 +8676,6 @@
         "set_name": "Celestial Guardians",
         "id": 202,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 124,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9483,12 +8739,6 @@
         "set_name": "Shining Revelry",
         "id": 101,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 125,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -9564,12 +8814,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 125,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 126,
-        "rarity": "◊"
       }
     ]
   },
@@ -9639,12 +8883,6 @@
         "set_name": "Shining Revelry",
         "id": 109,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 127,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9701,12 +8939,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 94,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 128,
         "rarity": "◊"
       },
       {
@@ -9797,12 +9029,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 129,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 9,
@@ -9888,12 +9114,6 @@
         "set_name": "Celestial Guardians",
         "id": 203,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 130,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9969,12 +9189,6 @@
         "set_name": "Genetic Apex",
         "id": 285,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 131,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -10058,12 +9272,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 132,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 321,
@@ -10131,12 +9339,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 217,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 133,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -10220,12 +9422,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 134,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 24,
@@ -10293,12 +9489,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 218,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 135,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -10374,12 +9564,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 135,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 136,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -10436,12 +9620,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 53,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 137,
         "rarity": "◊◊◊"
       },
       {
@@ -10511,12 +9689,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 137,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 138,
         "rarity": "◊◊◊"
       }
     ]
@@ -10593,12 +9765,6 @@
         "set_name": "Eevee Grove",
         "id": 105,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 139,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10655,12 +9821,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 64,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 140,
         "rarity": "◊"
       },
       {
@@ -10731,12 +9891,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 140,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 141,
-        "rarity": "◊"
       }
     ]
   },
@@ -10806,12 +9960,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 204,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 142,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10875,12 +10023,6 @@
         "set_name": "Shining Revelry",
         "id": 103,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 143,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -10964,12 +10106,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 144,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 58,
@@ -11049,12 +10185,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 236,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 145,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11118,12 +10248,6 @@
         "set_name": "Celestial Guardians",
         "id": 165,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 146,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -11207,12 +10331,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 147,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 303,
@@ -11288,12 +10406,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 148,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 322,
@@ -11360,12 +10472,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 21,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 149,
         "rarity": "◊◊◊"
       },
       {
@@ -11450,12 +10556,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 150,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 304,
@@ -11527,12 +10627,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 151,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 152,
         "rarity": "◊"
       }
@@ -11598,12 +10692,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 151,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 152,
-        "rarity": "◊"
       }
     ]
   },
@@ -11667,12 +10755,6 @@
         "set_name": "Celestial Guardians",
         "id": 221,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 153,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -11747,12 +10829,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 153,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 154,
         "rarity": "◊◊"
       }
     ]
@@ -11829,12 +10905,6 @@
         "set_name": "Celestial Guardians",
         "id": 234,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 155,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11898,12 +10968,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 94,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 156,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -11978,12 +11042,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 156,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 157,
         "rarity": "◊"
       }
     ]
@@ -12060,12 +11118,6 @@
         "set_name": "Genetic Apex",
         "id": 286,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 158,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -12163,12 +11215,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 159,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 366,
         "rarity": "☆☆"
       }
@@ -12242,12 +11288,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 160,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 228,
@@ -12315,12 +11355,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 220,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 161,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -12395,12 +11429,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 161,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 162,
         "rarity": "◊"
       }
     ]
@@ -12477,12 +11505,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 237,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 163,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12546,12 +11568,6 @@
         "set_name": "Eevee Grove",
         "id": 97,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 164,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -12627,12 +11643,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 164,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 165,
-        "rarity": "◊"
       }
     ]
   },
@@ -12696,12 +11706,6 @@
         "set_name": "Eevee Grove",
         "id": 98,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 166,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -12777,12 +11781,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 166,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 167,
-        "rarity": "◊"
       }
     ]
   },
@@ -12846,12 +11844,6 @@
         "set_name": "Eevee Grove",
         "id": 99,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 168,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -12937,12 +11929,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 169,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 357,
         "rarity": "☆"
       }
@@ -13008,12 +11994,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 167,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 170,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -13089,12 +12069,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 170,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 171,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -13168,12 +12142,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 172,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 377,
         "rarity": "☆☆"
       }
@@ -13232,12 +12200,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 31,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 173,
         "rarity": "◊"
       },
       {
@@ -13308,12 +12270,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 173,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 174,
-        "rarity": "◊"
       }
     ]
   },
@@ -13370,12 +12326,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 32,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 175,
         "rarity": "◊◊"
       },
       {
@@ -13456,12 +12406,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 176,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 358,
         "rarity": "☆"
       }
@@ -13535,12 +12479,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 177,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 229,
@@ -13601,12 +12539,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 77,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 178,
         "rarity": "◊◊"
       },
       {
@@ -13677,12 +12609,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 178,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 179,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -13746,12 +12672,6 @@
         "set_name": "Celestial Guardians",
         "id": 171,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 180,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -13835,12 +12755,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 181,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 67,
@@ -13901,12 +12815,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 86,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 182,
         "rarity": "◊◊"
       },
       {
@@ -13976,12 +12884,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 182,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 183,
         "rarity": "◊◊"
       }
     ]
@@ -14062,12 +12964,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 184,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 367,
         "rarity": "☆☆"
       },
@@ -14132,12 +13028,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 36,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 185,
         "rarity": "◊"
       },
       {
@@ -14208,12 +13098,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 185,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 186,
-        "rarity": "◊"
       }
     ]
   },
@@ -14270,12 +13154,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 37,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 187,
         "rarity": "◊◊"
       },
       {
@@ -14354,12 +13232,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 188,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 87,
@@ -14427,12 +13299,6 @@
         "set_name": "Celestial Guardians",
         "id": 223,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 189,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -14508,12 +13374,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 189,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 190,
-        "rarity": "◊"
       }
     ]
   },
@@ -14577,12 +13437,6 @@
         "set_name": "Celestial Guardians",
         "id": 224,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 191,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -14657,12 +13511,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 191,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 192,
         "rarity": "◊◊"
       }
     ]
@@ -14739,12 +13587,6 @@
         "set_name": "Celestial Guardians",
         "id": 235,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 193,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -14814,12 +13656,6 @@
         "set_name": "Celestial Guardians",
         "id": 226,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 194,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -14901,12 +13737,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 194,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 195,
-        "rarity": "◊"
       }
     ]
   },
@@ -14976,12 +13806,6 @@
         "set_name": "Celestial Guardians",
         "id": 236,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 196,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -15057,12 +13881,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 101,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 197,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -15126,12 +13944,6 @@
         "set_name": "Triumphant Light",
         "id": 79,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 198,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -15207,12 +14019,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 198,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 199,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -15269,12 +14075,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 99,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 200,
         "rarity": "◊"
       },
       {
@@ -15353,12 +14153,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 201,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 222,
@@ -15434,12 +14228,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 202,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 230,
@@ -15500,12 +14288,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 42,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 203,
         "rarity": "◊"
       },
       {
@@ -15576,12 +14358,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 203,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 204,
-        "rarity": "◊"
       }
     ]
   },
@@ -15645,12 +14421,6 @@
         "set_name": "Secluded Springs",
         "id": 98,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 205,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -15734,12 +14504,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 206,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 46,
@@ -15807,12 +14571,6 @@
         "set_name": "Secluded Springs",
         "id": 99,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 207,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -15887,12 +14645,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 207,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 208,
         "rarity": "◊"
       }
     ]
@@ -15969,12 +14721,6 @@
         "set_name": "Secluded Springs",
         "id": 103,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 209,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -16038,12 +14784,6 @@
         "set_name": "Shining Revelry",
         "id": 104,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 210,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -16127,12 +14867,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 211,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 59,
@@ -16200,12 +14934,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 170,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 212,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -16281,12 +15009,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 212,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 213,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -16356,12 +15078,6 @@
         "set_name": "Shining Revelry",
         "id": 110,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 214,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -16437,12 +15153,6 @@
         "set_name": "Eevee Grove",
         "id": 106,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 215,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -16499,12 +15209,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 93,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 216,
         "rarity": "◊"
       },
       {
@@ -16575,12 +15279,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 216,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 217,
-        "rarity": "◊"
       }
     ]
   },
@@ -16637,12 +15335,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 97,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 218,
         "rarity": "◊"
       },
       {
@@ -16721,12 +15413,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 219,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 71,
@@ -16787,12 +15473,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 32,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 220,
         "rarity": "◊"
       },
       {
@@ -16863,12 +15543,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 220,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 221,
-        "rarity": "◊"
       }
     ]
   },
@@ -16938,12 +15612,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 85,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 222,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "b1",
@@ -17021,12 +15689,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 223,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 324,
@@ -17094,12 +15756,6 @@
         "set_name": "Mythical Island",
         "id": 74,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 224,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -17175,12 +15831,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 224,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 225,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -17237,12 +15887,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 48,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 226,
         "rarity": "◊"
       },
       {
@@ -17313,12 +15957,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 226,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 227,
-        "rarity": "◊"
       }
     ]
   },
@@ -17375,12 +16013,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 49,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 228,
         "rarity": "◊"
       },
       {
@@ -17451,12 +16083,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 228,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 229,
-        "rarity": "◊"
       }
     ]
   },
@@ -17513,12 +16139,6 @@
         "set_code": "a2a",
         "set_name": "Triumphant Light",
         "id": 50,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 230,
         "rarity": "◊◊◊"
       },
       {
@@ -17589,12 +16209,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 230,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 231,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -17664,12 +16278,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 207,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 232,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -17726,12 +16334,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 110,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 233,
         "rarity": "◊"
       },
       {
@@ -17802,12 +16404,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 233,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 234,
-        "rarity": "◊"
       }
     ]
   },
@@ -17877,12 +16473,6 @@
         "set_name": "Celestial Guardians",
         "id": 206,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 235,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -17946,12 +16536,6 @@
         "set_name": "Secluded Springs",
         "id": 100,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 236,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -18026,12 +16610,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 236,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 237,
         "rarity": "◊"
       }
     ]
@@ -18108,12 +16686,6 @@
         "set_name": "Secluded Springs",
         "id": 104,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 238,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -18177,12 +16749,6 @@
         "set_name": "Eevee Grove",
         "id": 77,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 239,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -18258,12 +16824,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 239,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 240,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -18335,12 +16895,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 241,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 231,
@@ -18401,12 +16955,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 98,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 242,
         "rarity": "◊"
       },
       {
@@ -18476,12 +17024,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 242,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 243,
         "rarity": "◊"
       }
     ]
@@ -18558,12 +17100,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 238,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 244,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -18633,12 +17169,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 202,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 245,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -18720,12 +17250,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 246,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 247,
         "rarity": "◊◊◊"
       }
@@ -18798,12 +17322,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 246,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 247,
         "rarity": "◊◊◊"
       }
     ]
@@ -18878,12 +17396,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 248,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 100,
@@ -18944,12 +17456,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 46,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 249,
         "rarity": "◊"
       },
       {
@@ -19020,12 +17526,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 249,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 250,
-        "rarity": "◊"
       }
     ]
   },
@@ -19095,12 +17595,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 87,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 251,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "b1",
@@ -19176,12 +17670,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 209,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 252,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -19251,12 +17739,6 @@
         "set_name": "Triumphant Light",
         "id": 94,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 253,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -19336,12 +17818,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 254,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 368,
         "rarity": "☆☆"
       },
@@ -19406,12 +17882,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 119,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 255,
         "rarity": "◊◊"
       },
       {
@@ -19482,12 +17952,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 255,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 256,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -19544,12 +18008,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 121,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 257,
         "rarity": "◊◊◊"
       },
       {
@@ -19619,12 +18077,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 257,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 258,
         "rarity": "◊◊◊"
       }
     ]
@@ -19705,12 +18157,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 259,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 369,
         "rarity": "☆☆"
       },
@@ -19786,12 +18232,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 260,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 261,
         "rarity": "◊◊◊"
       }
@@ -19863,12 +18303,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 260,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 261,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -19925,12 +18359,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 52,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 262,
         "rarity": "◊"
       },
       {
@@ -20001,12 +18429,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 262,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 263,
-        "rarity": "◊"
       }
     ]
   },
@@ -20063,12 +18485,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 53,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 264,
         "rarity": "◊◊"
       },
       {
@@ -20138,12 +18554,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 264,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 265,
         "rarity": "◊◊"
       }
     ]
@@ -20216,12 +18626,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 266,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 129,
@@ -20282,12 +18686,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 51,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 267,
         "rarity": "◊"
       },
       {
@@ -20358,12 +18756,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 267,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 268,
-        "rarity": "◊"
       }
     ]
   },
@@ -20420,12 +18812,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 52,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 269,
         "rarity": "◊"
       },
       {
@@ -20496,12 +18882,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 269,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 270,
-        "rarity": "◊"
       }
     ]
   },
@@ -20571,12 +18951,6 @@
         "set_name": "Eevee Grove",
         "id": 90,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 271,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -20633,12 +19007,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 57,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 272,
         "rarity": "◊"
       },
       {
@@ -20709,12 +19077,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 272,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 273,
-        "rarity": "◊"
       }
     ]
   },
@@ -20771,12 +19133,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 58,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 274,
         "rarity": "◊"
       },
       {
@@ -20847,12 +19203,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 274,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 275,
-        "rarity": "◊"
       }
     ]
   },
@@ -20922,12 +19272,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 102,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 276,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -20984,12 +19328,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 193,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 277,
         "rarity": "◊"
       },
       {
@@ -21059,12 +19397,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 277,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 278,
         "rarity": "◊"
       }
     ]
@@ -21141,12 +19473,6 @@
         "set_name": "Celestial Guardians",
         "id": 237,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 279,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -21210,12 +19536,6 @@
         "set_name": "Eevee Grove",
         "id": 102,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 280,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -21307,12 +19627,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 281,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 359,
         "rarity": "☆"
       },
@@ -21388,12 +19702,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 282,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 283,
         "rarity": "◊"
       }
@@ -21464,12 +19772,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 282,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 283,
         "rarity": "◊"
       }
     ]
@@ -21546,12 +19848,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 239,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 284,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -21615,12 +19911,6 @@
         "set_name": "Eevee Grove",
         "id": 78,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 285,
-        "rarity": "◊"
       },
       {
         "set_code": "a4b",
@@ -21696,12 +19986,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 285,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 286,
-        "rarity": "◊"
       }
     ]
   },
@@ -21771,12 +20055,6 @@
         "set_name": "Eevee Grove",
         "id": 92,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 287,
-        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -21858,12 +20136,6 @@
         "set_name": "Eevee Grove",
         "id": 91,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 288,
-        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -21943,12 +20215,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 289,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 371,
         "rarity": "☆☆"
       },
@@ -22013,12 +20279,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 129,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 290,
         "rarity": "◊"
       },
       {
@@ -22089,12 +20349,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 290,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 291,
-        "rarity": "◊"
       }
     ]
   },
@@ -22151,12 +20405,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 130,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 292,
         "rarity": "◊◊"
       },
       {
@@ -22227,12 +20475,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 292,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 293,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -22289,12 +20531,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 64,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 294,
         "rarity": "◊"
       },
       {
@@ -22373,12 +20609,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 295,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 57,
@@ -22454,12 +20684,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 296,
-        "rarity": "◊◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 327,
@@ -22527,12 +20751,6 @@
         "set_name": "Triumphant Light",
         "id": 81,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 297,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -22607,12 +20825,6 @@
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 297,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 298,
         "rarity": "◊◊◊"
       }
     ]
@@ -22693,12 +20905,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 299,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 372,
         "rarity": "☆☆"
       },
@@ -22763,12 +20969,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 60,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 300,
         "rarity": "◊◊"
       },
       {
@@ -22847,12 +21047,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 301,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 96,
@@ -22920,12 +21114,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 74,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 302,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -23009,12 +21197,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 303,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 97,
@@ -23084,12 +21266,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 75,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 304,
-        "rarity": "◊◊◊"
       },
       {
         "set_code": "a4b",
@@ -23167,12 +21343,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 304,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 305,
-        "rarity": "◊◊◊"
       }
     ]
   },
@@ -23229,12 +21399,6 @@
         "set_code": "a2b",
         "set_name": "Shining Revelry",
         "id": 68,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 306,
         "rarity": "◊◊"
       },
       {
@@ -23313,12 +21477,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 307,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 51,
@@ -23386,12 +21544,6 @@
         "set_name": "Eevee Grove",
         "id": 107,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 308,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -23467,12 +21619,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 308,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 309,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -23529,12 +21675,6 @@
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 151,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 310,
         "rarity": "◊◊"
       },
       {
@@ -23605,12 +21745,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 310,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 311,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -23673,12 +21807,6 @@
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 63,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 312,
         "rarity": "◊"
       },
       {
@@ -23755,12 +21883,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 312,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 313,
-        "rarity": "◊"
       }
     ]
   },
@@ -23817,12 +21939,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 144,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 314,
         "rarity": "◊◊"
       },
       {
@@ -23903,12 +22019,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 315,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 379,
         "rarity": "Crown Rare"
       }
@@ -23967,12 +22077,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 146,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 316,
         "rarity": "◊◊"
       },
       {
@@ -24043,12 +22147,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 316,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 317,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24105,12 +22203,6 @@
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 65,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 318,
         "rarity": "◊◊"
       },
       {
@@ -24181,12 +22273,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 318,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 319,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24243,12 +22329,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 147,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 320,
         "rarity": "◊◊"
       },
       {
@@ -24319,12 +22399,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 320,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 321,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24381,12 +22455,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 148,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 322,
         "rarity": "◊◊"
       },
       {
@@ -24457,12 +22525,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 322,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 323,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24519,12 +22581,6 @@
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 147,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 324,
         "rarity": "◊◊"
       },
       {
@@ -24595,12 +22651,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 324,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 325,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24664,12 +22714,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 190,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 326,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -24745,12 +22789,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 326,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 327,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24814,12 +22852,6 @@
         "set_name": "Genetic Apex",
         "id": 266,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 328,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -24895,12 +22927,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 328,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 329,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -24964,12 +22990,6 @@
         "set_name": "Triumphant Light",
         "id": 87,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 330,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25045,12 +23065,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 330,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 331,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -25114,12 +23128,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 197,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 332,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25195,12 +23203,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 332,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 333,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -25264,12 +23266,6 @@
         "set_name": "Genetic Apex",
         "id": 270,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 334,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25345,12 +23341,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 334,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 335,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -25414,12 +23404,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 198,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 336,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25495,12 +23479,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 336,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 337,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -25564,12 +23542,6 @@
         "set_name": "Genetic Apex",
         "id": 272,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 338,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25645,12 +23617,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 338,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 339,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -25714,12 +23680,6 @@
         "set_name": "Shining Revelry",
         "id": 88,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 340,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -25809,12 +23769,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 341,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 89,
@@ -25892,12 +23846,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 342,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 343,
         "rarity": "◊◊"
       }
@@ -25969,12 +23917,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 342,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 343,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -26038,12 +23980,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 195,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 344,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -26119,12 +24055,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 344,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 345,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -26188,12 +24118,6 @@
         "set_name": "Mythical Island",
         "id": 82,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 346,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -26269,12 +24193,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 346,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 347,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -26344,12 +24262,6 @@
         "set_name": "Celestial Guardians",
         "id": 209,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 348,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -26441,12 +24353,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 349,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 374,
         "rarity": "☆☆"
       }
@@ -26514,12 +24420,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 83,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 350,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -26607,12 +24507,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 351,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 375,
         "rarity": "☆☆"
       }
@@ -26678,12 +24572,6 @@
         "set_name": "Shining Revelry",
         "id": 90,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 352,
-        "rarity": "◊◊"
       },
       {
         "set_code": "a4b",
@@ -26759,12 +24647,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 352,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 353,
-        "rarity": "◊◊"
       }
     ]
   },
@@ -26834,12 +24716,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 52,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 354,
-        "rarity": "☆"
       }
     ]
   },
@@ -26909,12 +24785,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 105,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 355,
-        "rarity": "☆"
       }
     ]
   },
@@ -26990,12 +24860,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 115,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 356,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -27077,12 +24941,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 169,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 357,
-        "rarity": "☆"
       }
     ]
   },
@@ -27152,12 +25010,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 176,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 358,
-        "rarity": "☆"
       }
     ]
   },
@@ -27233,12 +25085,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 281,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 359,
-        "rarity": "☆"
       },
       {
         "set_code": "pa",
@@ -27322,12 +25168,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 44,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 360,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1a",
@@ -27415,12 +25255,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 59,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 361,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -27502,12 +25336,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 68,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 362,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2",
@@ -27595,12 +25423,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 107,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 363,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -27692,12 +25514,6 @@
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
-        "id": 364,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
         "id": 376,
         "rarity": "☆☆☆"
       }
@@ -27781,12 +25597,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 158,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 365,
-        "rarity": "☆☆"
       },
       {
         "set_code": "pa",
@@ -27880,12 +25690,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 159,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 366,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -27967,12 +25771,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 184,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 367,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1a",
@@ -28062,12 +25860,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 368,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 326,
@@ -28155,12 +25947,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 369,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 101,
@@ -28240,12 +26026,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 287,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 370,
-        "rarity": "☆☆"
       },
       {
         "set_code": "pa",
@@ -28335,12 +26115,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 371,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 232,
@@ -28428,12 +26202,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 372,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 328,
@@ -28490,12 +26258,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4b/373.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 373,
-        "rarity": "☆☆"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -28582,12 +26344,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 349,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 374,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -28665,12 +26421,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 351,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 375,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -28758,12 +26508,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 364,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 376,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -28839,12 +26583,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 172,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 377,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -28922,12 +26660,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 378,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 42,
@@ -29001,12 +26733,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 315,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a4b",
-        "set_name": "Deluxe Pack: ex",
-        "id": 379,
-        "rarity": "Crown Rare"
       }
     ]
   }

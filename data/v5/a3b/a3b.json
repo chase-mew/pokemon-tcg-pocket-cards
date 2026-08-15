@@ -108,12 +108,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 2,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 70,
         "rarity": "☆"
       }
@@ -456,12 +450,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 8,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 71,
         "rarity": "☆"
       },
@@ -537,12 +525,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 9,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 79,
         "rarity": "☆☆"
       },
@@ -615,12 +597,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/010.png",
     "flavour_text": "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 10,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -972,12 +948,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 16,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 72,
         "rarity": "☆"
       }
@@ -1035,12 +1005,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 17,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 73,
         "rarity": "☆"
       }
@@ -1095,12 +1059,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/018.png",
     "flavour_text": "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 18,
-        "rarity": "◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -1330,12 +1288,6 @@
     "flavour_text": "The balloons it inflates with its nose grow larger and larger as it practices day by day.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 22,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 116,
@@ -1398,12 +1350,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/023.png",
     "flavour_text": "It gets excited when it sees a dance it doesn’t know. This hard worker practices diligently until it can learn that dance.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 23,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -1473,12 +1419,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/024.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 24,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -1554,12 +1494,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/025.png",
     "flavour_text": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 25,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -1746,12 +1680,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 28,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 75,
         "rarity": "☆"
       }
@@ -1921,12 +1849,6 @@
     "flavour_text": "It eats its own weight in sugar every day. If it doesn’t get enough sugar, it becomes incredibly grumpy.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 31,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 173,
@@ -1989,12 +1911,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/032.png",
     "flavour_text": "By taking in a person’s scent, it can sniff out their mental and physical condition. It’s hoped that this skill will have many medical applications.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 32,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -2067,12 +1983,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 33,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 76,
         "rarity": "☆"
       }
@@ -2127,12 +2037,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/034.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 34,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -2209,12 +2113,6 @@
     "flavour_text": "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 35,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 113,
@@ -2271,12 +2169,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/036.png",
     "flavour_text": "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 36,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -2340,12 +2232,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/037.png",
     "flavour_text": "When it trusts a Trainer, it will treat them to berries it’s decorated with cream.",
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 37,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -2703,12 +2589,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 43,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 77,
         "rarity": "☆"
       },
@@ -3004,12 +2884,6 @@
     "flavour_text": "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 48,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 90,
@@ -3181,12 +3055,6 @@
     "flavour_text": "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 51,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 267,
@@ -3250,12 +3118,6 @@
     "flavour_text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 52,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 269,
@@ -3318,12 +3180,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/053.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 53,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -3453,12 +3309,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 55,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 78,
         "rarity": "☆"
       },
@@ -3525,12 +3375,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/056.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 56,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -3612,12 +3456,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/057.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 57,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -4087,12 +3925,6 @@
     "flavour_text": "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
     "alternate_versions": [
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 65,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 91,
@@ -4149,12 +3981,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/066.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 66,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -4284,12 +4110,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 68,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 85,
         "rarity": "☆☆"
       }
@@ -4344,12 +4164,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/069.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 69,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -4424,12 +4238,6 @@
         "set_name": "Eevee Grove",
         "id": 2,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 70,
-        "rarity": "☆"
       }
     ]
   },
@@ -4487,12 +4295,6 @@
         "set_name": "Eevee Grove",
         "id": 8,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 71,
-        "rarity": "☆"
       },
       {
         "set_code": "a4",
@@ -4568,12 +4370,6 @@
         "set_name": "Eevee Grove",
         "id": 16,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 72,
-        "rarity": "☆"
       }
     ]
   },
@@ -4631,12 +4427,6 @@
         "set_name": "Eevee Grove",
         "id": 17,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 73,
-        "rarity": "☆"
       }
     ]
   },
@@ -4694,12 +4484,6 @@
         "set_name": "Eevee Grove",
         "id": 25,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 74,
-        "rarity": "☆"
       },
       {
         "set_code": "a4",
@@ -4769,12 +4553,6 @@
         "set_name": "Eevee Grove",
         "id": 28,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 75,
-        "rarity": "☆"
       }
     ]
   },
@@ -4832,12 +4610,6 @@
         "set_name": "Eevee Grove",
         "id": 33,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 76,
-        "rarity": "☆"
       }
     ]
   },
@@ -4895,12 +4667,6 @@
         "set_name": "Eevee Grove",
         "id": 43,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 77,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -4972,12 +4738,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 78,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 285,
@@ -5045,12 +4805,6 @@
         "set_name": "Eevee Grove",
         "id": 9,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 79,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3b",
@@ -5130,12 +4884,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 80,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 88,
         "rarity": "☆☆"
       },
@@ -5207,12 +4955,6 @@
         "set_name": "Eevee Grove",
         "id": 34,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 81,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3b",
@@ -5292,12 +5034,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 82,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 90,
         "rarity": "☆☆"
       },
@@ -5363,12 +5099,6 @@
         "set_name": "Eevee Grove",
         "id": 56,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 83,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3b",
@@ -5454,12 +5184,6 @@
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
-        "id": 84,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
         "id": 91,
         "rarity": "☆☆"
       },
@@ -5525,12 +5249,6 @@
         "set_name": "Eevee Grove",
         "id": 68,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 85,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5588,12 +5306,6 @@
         "set_name": "Eevee Grove",
         "id": 69,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 86,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2a",
@@ -5668,12 +5380,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 79,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 87,
         "rarity": "☆☆"
       },
       {
@@ -5752,12 +5458,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 88,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 120,
@@ -5830,12 +5530,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 81,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 89,
         "rarity": "☆☆"
       },
       {
@@ -5914,12 +5608,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 90,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 271,
@@ -5986,12 +5674,6 @@
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 84,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 91,
         "rarity": "☆☆"
       },
       {
@@ -6062,12 +5744,6 @@
         "set_name": "Eevee Grove",
         "id": 83,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 92,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a4b",
@@ -6143,12 +5819,6 @@
         "set_name": "Shining Revelry",
         "id": 4,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 93,
-        "rarity": "☆"
       }
     ]
   },
@@ -6212,12 +5882,6 @@
         "set_name": "Genetic Apex",
         "id": 234,
         "rarity": "☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 94,
-        "rarity": "☆"
       }
     ]
   },
@@ -6275,12 +5939,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 95,
-        "rarity": "☆"
       }
     ]
   },
@@ -6338,12 +5996,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 55,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 96,
-        "rarity": "☆"
       }
     ]
   },
@@ -6401,12 +6053,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 68,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 97,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -6478,12 +6124,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 98,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 166,
@@ -6551,12 +6191,6 @@
         "set_name": "Genetic Apex",
         "id": 132,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 99,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -6632,12 +6266,6 @@
         "set_name": "Genetic Apex",
         "id": 164,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 100,
-        "rarity": "☆"
       }
     ]
   },
@@ -6695,12 +6323,6 @@
         "set_name": "Genetic Apex",
         "id": 165,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 101,
-        "rarity": "☆"
       }
     ]
   },
@@ -6758,12 +6380,6 @@
         "set_name": "Genetic Apex",
         "id": 198,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 102,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -6859,12 +6475,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 103,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 67,
@@ -6946,12 +6556,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 104,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 101,
@@ -7024,12 +6628,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 276,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 105,
         "rarity": "☆☆"
       },
       {
@@ -7108,12 +6706,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 106,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 215,
@@ -7175,12 +6767,6 @@
         "set_name": "Eevee Grove",
         "id": 66,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 107,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",

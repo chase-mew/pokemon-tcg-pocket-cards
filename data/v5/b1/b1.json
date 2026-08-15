@@ -108,12 +108,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 2,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 251,
         "rarity": "☆☆"
       },
@@ -288,12 +282,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/005.png",
     "flavour_text": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey’s fluids.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 5,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -865,12 +853,6 @@
     "flavour_text": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 15,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 205,
@@ -927,12 +909,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/016.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 16,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -1059,12 +1035,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/018.png",
     "flavour_text": "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 18,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -1236,12 +1206,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/021.png",
     "flavour_text": "As long as it has sunlight and water, Skiddo can make energy with the leaves on its body, allowing it to live on rocky mountains barren of food.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 21,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -1587,12 +1551,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 27,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 229,
         "rarity": "☆"
       }
@@ -1650,12 +1608,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 28,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 230,
         "rarity": "☆"
       }
@@ -1710,12 +1662,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/029.png",
     "flavour_text": "Its magnificent bark conveys a sense of majesty. Anyone hearing it can’t help but grovel before it.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 29,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -1830,12 +1776,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/031.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 31,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -1957,12 +1897,6 @@
     "flavour_text": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 33,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 206,
@@ -2026,12 +1960,6 @@
     "flavour_text": "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 34,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 207,
@@ -2089,12 +2017,6 @@
     "flavour_text": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 35,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 208,
@@ -2151,12 +2073,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/036.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 36,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -2571,12 +2487,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 43,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 231,
         "rarity": "☆"
       }
@@ -2860,12 +2770,6 @@
     "flavour_text": "If its chronic headache peaks, it may exhibit odd powers. It seems unable to recall such an episode.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 48,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 8,
@@ -2982,12 +2886,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 50,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 232,
         "rarity": "☆"
       }
@@ -3099,12 +2997,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/052.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 52,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -3288,12 +3180,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/055.png",
     "flavour_text": "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 55,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4036,12 +3922,6 @@
     "flavour_text": "Legend has it that the residents of a sunken ancient city changed into these Pokémon.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 68,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 209,
@@ -4098,12 +3978,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/069.png",
     "flavour_text": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 69,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4167,12 +4041,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/070.png",
     "flavour_text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 70,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4344,12 +4212,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/073.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 73,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4764,12 +4626,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 80,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 236,
         "rarity": "☆"
       }
@@ -4824,12 +4680,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/081.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 81,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4900,12 +4750,6 @@
     "flavour_text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 82,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 94,
@@ -4969,12 +4813,6 @@
     "flavour_text": "Because of its rubbery, electricity-resistant skin, it can store lots of electricity in its fur.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 83,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 95,
@@ -5032,12 +4870,6 @@
     "flavour_text": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean’s surface.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 84,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 96,
@@ -5094,12 +4926,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/085.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 85,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -5283,12 +5109,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/088.png",
     "flavour_text": "Luxray’s ability to see through objects comes in handy when it’s scouting for danger.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 88,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -6096,12 +5916,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 102,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 259,
         "rarity": "☆☆"
       },
@@ -6340,12 +6154,6 @@
     "flavour_text": "It is said to have the ability to grant any wish for just one week every thousand years.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 106,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 25,
@@ -6459,12 +6267,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/108.png",
     "flavour_text": "They carry people and Pokémon, but the wind can catch them, so there can’t be a fixed destination.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 108,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -6639,12 +6441,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 111,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 238,
         "rarity": "☆"
       }
@@ -6699,12 +6495,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/112.png",
     "flavour_text": "Beware of touching the ribbon-shaped feelers that control its psychic power. Gothita will begin bawling if you do.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 112,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -7164,12 +6954,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 120,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 330,
         "rarity": "Crown Rare"
       }
@@ -7224,12 +7008,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/121.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 121,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -7300,12 +7078,6 @@
     "flavour_text": "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 122,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 94,
@@ -7363,12 +7135,6 @@
     "flavour_text": "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 123,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 95,
@@ -7425,12 +7191,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/124.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 124,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -7557,12 +7317,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/126.png",
     "flavour_text": "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 126,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -7737,12 +7491,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 129,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 241,
         "rarity": "☆"
       }
@@ -7912,12 +7660,6 @@
     "flavour_text": "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 132,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 16,
@@ -8031,12 +7773,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/134.png",
     "flavour_text": "Though capable of flight, Archeops was apparently better at hunting on the ground.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 134,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -8265,12 +8001,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/138.png",
     "flavour_text": "Wanting to make sure it’s taken seriously, Pancham’s always giving others a glare. But if it’s not focusing, it ends up smiling.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 138,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -8901,12 +8631,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 149,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 244,
         "rarity": "☆"
       }
@@ -8961,12 +8685,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/150.png",
     "flavour_text": "Because of this Pokémon’s ability to detect danger, people mistook Absol as a bringer of doom.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 150,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
@@ -9024,12 +8742,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/151.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 151,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -9393,12 +9105,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 157,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 245,
         "rarity": "☆"
       }
@@ -9511,12 +9217,6 @@
     "flavour_text": "This Pokémon is a poor swimmer. If it’s caught in a fierce storm, it will sometimes get washed far away and become unable to return to its home.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 159,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 218,
@@ -9573,12 +9273,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/160.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 160,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -10276,12 +9970,6 @@
     "flavour_text": "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 172,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 102,
@@ -10398,12 +10086,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 174,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 264,
         "rarity": "☆☆"
       },
@@ -10464,12 +10146,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/175.png",
     "flavour_text": "Although its wings have partly turned to steel and become heavy as a result, this Pokémon flies through the skies with ease.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 175,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -10584,12 +10260,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/177.png",
     "flavour_text": "Goomy’s horns are excellent sensory organs that cover all five of Goomy’s senses. Goomy picks up on danger from the movement of the air.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 177,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -10761,12 +10431,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/180.png",
     "flavour_text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 180,
-        "rarity": "◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -10941,12 +10605,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 183,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 265,
         "rarity": "☆☆"
       },
@@ -11007,12 +10665,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/184.png",
     "flavour_text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 184,
-        "rarity": "◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -11592,12 +11244,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 194,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 248,
         "rarity": "☆"
       }
@@ -11710,12 +11356,6 @@
     "flavour_text": "It can’t relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
     "alternate_versions": [
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 196,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 102,
@@ -11772,12 +11412,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/197.png",
     "flavour_text": "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 197,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -12123,12 +11757,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 203,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 249,
         "rarity": "☆"
       }
@@ -12183,12 +11811,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/204.png",
     "flavour_text": "With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.",
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 204,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -12306,12 +11928,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 206,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 207,
         "rarity": "◊◊"
       },
@@ -12381,12 +11997,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 207,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 208,
         "rarity": "◊◊"
       }
@@ -12451,12 +12061,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 207,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 208,
         "rarity": "◊◊"
       }
     ]
@@ -12969,12 +12573,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 217,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 331,
         "rarity": "Crown Rare"
       }
@@ -13203,12 +12801,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 221,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 266,
         "rarity": "☆☆"
       }
@@ -13263,12 +12855,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/222.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 222,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -13329,12 +12915,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 223,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 268,
         "rarity": "☆☆"
       }
@@ -13389,12 +12969,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/224.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 224,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -13455,12 +13029,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 225,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 270,
         "rarity": "☆☆"
       }
@@ -13515,12 +13083,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/226.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 226,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -13583,12 +13145,6 @@
         "set_name": "Mega Rising",
         "id": 5,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 227,
-        "rarity": "☆"
       }
     ]
   },
@@ -13646,12 +13202,6 @@
         "set_name": "Mega Rising",
         "id": 21,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 228,
-        "rarity": "☆"
       }
     ]
   },
@@ -13709,12 +13259,6 @@
         "set_name": "Mega Rising",
         "id": 27,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 229,
-        "rarity": "☆"
       }
     ]
   },
@@ -13772,12 +13316,6 @@
         "set_name": "Mega Rising",
         "id": 28,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 230,
-        "rarity": "☆"
       }
     ]
   },
@@ -13835,12 +13373,6 @@
         "set_name": "Mega Rising",
         "id": 43,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 231,
-        "rarity": "☆"
       }
     ]
   },
@@ -13898,12 +13430,6 @@
         "set_name": "Mega Rising",
         "id": 50,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 232,
-        "rarity": "☆"
       }
     ]
   },
@@ -13961,12 +13487,6 @@
         "set_name": "Mega Rising",
         "id": 55,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 233,
-        "rarity": "☆"
       }
     ]
   },
@@ -14024,12 +13544,6 @@
         "set_name": "Mega Rising",
         "id": 69,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 234,
-        "rarity": "☆"
       },
       {
         "set_code": "b3",
@@ -14093,12 +13607,6 @@
         "set_name": "Mega Rising",
         "id": 70,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 235,
-        "rarity": "☆"
       }
     ]
   },
@@ -14156,12 +13664,6 @@
         "set_name": "Mega Rising",
         "id": 80,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 236,
-        "rarity": "☆"
       }
     ]
   },
@@ -14219,12 +13721,6 @@
         "set_name": "Mega Rising",
         "id": 88,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 237,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -14288,12 +13784,6 @@
         "set_name": "Mega Rising",
         "id": 111,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 238,
-        "rarity": "☆"
       }
     ]
   },
@@ -14351,12 +13841,6 @@
         "set_name": "Mega Rising",
         "id": 112,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 239,
-        "rarity": "☆"
       }
     ]
   },
@@ -14414,12 +13898,6 @@
         "set_name": "Mega Rising",
         "id": 126,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 240,
-        "rarity": "☆"
       }
     ]
   },
@@ -14477,12 +13955,6 @@
         "set_name": "Mega Rising",
         "id": 129,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 241,
-        "rarity": "☆"
       }
     ]
   },
@@ -14540,12 +14012,6 @@
         "set_name": "Mega Rising",
         "id": 134,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 242,
-        "rarity": "☆"
       }
     ]
   },
@@ -14603,12 +14069,6 @@
         "set_name": "Mega Rising",
         "id": 138,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 243,
-        "rarity": "☆"
       }
     ]
   },
@@ -14666,12 +14126,6 @@
         "set_name": "Mega Rising",
         "id": 149,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 244,
-        "rarity": "☆"
       }
     ]
   },
@@ -14729,12 +14183,6 @@
         "set_name": "Mega Rising",
         "id": 157,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 245,
-        "rarity": "☆"
       }
     ]
   },
@@ -14792,12 +14240,6 @@
         "set_name": "Mega Rising",
         "id": 175,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 246,
-        "rarity": "☆"
       }
     ]
   },
@@ -14855,12 +14297,6 @@
         "set_name": "Mega Rising",
         "id": 177,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 247,
-        "rarity": "☆"
       }
     ]
   },
@@ -14918,12 +14354,6 @@
         "set_name": "Mega Rising",
         "id": 194,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 248,
-        "rarity": "☆"
       }
     ]
   },
@@ -14981,12 +14411,6 @@
         "set_name": "Mega Rising",
         "id": 203,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 249,
-        "rarity": "☆"
       }
     ]
   },
@@ -15044,12 +14468,6 @@
         "set_name": "Mega Rising",
         "id": 204,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 250,
-        "rarity": "☆"
       }
     ]
   },
@@ -15107,12 +14525,6 @@
         "set_name": "Mega Rising",
         "id": 2,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 251,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15176,12 +14588,6 @@
         "set_name": "Mega Rising",
         "id": 16,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 252,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15255,12 +14661,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 253,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 274,
         "rarity": "☆☆"
       }
@@ -15320,12 +14720,6 @@
         "set_name": "Mega Rising",
         "id": 36,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 254,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15399,12 +14793,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 255,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 285,
         "rarity": "☆☆☆"
       },
@@ -15470,12 +14858,6 @@
         "set_name": "Mega Rising",
         "id": 73,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 256,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15549,12 +14931,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 257,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 276,
         "rarity": "☆☆"
       },
@@ -15620,12 +14996,6 @@
         "set_name": "Mega Rising",
         "id": 85,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 258,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15699,12 +15069,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 259,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 286,
         "rarity": "☆☆☆"
       },
@@ -15770,12 +15134,6 @@
         "set_name": "Mega Rising",
         "id": 121,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 260,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -15849,12 +15207,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 261,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 279,
         "rarity": "☆☆"
       },
@@ -15920,12 +15272,6 @@
         "set_name": "Mega Rising",
         "id": 151,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 262,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b1",
@@ -16005,12 +15351,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 263,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 281,
         "rarity": "☆☆"
       },
@@ -16080,12 +15420,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 264,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 282,
         "rarity": "☆☆"
       }
@@ -16149,12 +15483,6 @@
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
-        "id": 265,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
         "id": 283,
         "rarity": "☆☆"
       }
@@ -16214,12 +15542,6 @@
         "set_name": "Mega Rising",
         "id": 221,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 266,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16277,12 +15599,6 @@
         "set_name": "Mega Rising",
         "id": 222,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 267,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16340,12 +15656,6 @@
         "set_name": "Mega Rising",
         "id": 223,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 268,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16403,12 +15713,6 @@
         "set_name": "Mega Rising",
         "id": 224,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 269,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16466,12 +15770,6 @@
         "set_name": "Mega Rising",
         "id": 225,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 270,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16529,12 +15827,6 @@
         "set_name": "Mega Rising",
         "id": 226,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 271,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16598,12 +15890,6 @@
         "set_name": "Mega Rising",
         "id": 251,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 272,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16666,12 +15952,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 252,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 273,
         "rarity": "☆☆"
       },
       {
@@ -16742,12 +16022,6 @@
         "set_name": "Mega Rising",
         "id": 253,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 274,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -16810,12 +16084,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 256,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 275,
         "rarity": "☆☆"
       },
       {
@@ -16888,12 +16156,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 276,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 228,
@@ -16960,12 +16222,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 258,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 277,
         "rarity": "☆☆"
       },
       {
@@ -17038,12 +16294,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 278,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 104,
@@ -17113,12 +16363,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 279,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 229,
@@ -17185,12 +16429,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 262,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 280,
         "rarity": "☆☆"
       },
       {
@@ -17269,12 +16507,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 281,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 231,
@@ -17342,12 +16574,6 @@
         "set_name": "Mega Rising",
         "id": 264,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 282,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17410,12 +16636,6 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 265,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 283,
         "rarity": "☆☆"
       }
     ]
@@ -17480,12 +16700,6 @@
         "set_name": "Mega Rising",
         "id": 254,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 284,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "b3",
@@ -17557,12 +16771,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 285,
-        "rarity": "☆☆☆"
-      },
-      {
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 101,
@@ -17632,12 +16840,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 286,
-        "rarity": "☆☆☆"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 107,
@@ -17699,12 +16901,6 @@
         "set_name": "Genetic Apex",
         "id": 18,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 287,
-        "rarity": "☆"
       }
     ]
   },
@@ -17762,12 +16958,6 @@
         "set_name": "Genetic Apex",
         "id": 19,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 288,
-        "rarity": "☆"
       }
     ]
   },
@@ -17825,12 +17015,6 @@
         "set_name": "Genetic Apex",
         "id": 20,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 289,
-        "rarity": "☆"
       }
     ]
   },
@@ -17900,12 +17084,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 39,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 290,
-        "rarity": "☆"
       }
     ]
   },
@@ -17963,12 +17141,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 4,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 291,
-        "rarity": "☆"
       }
     ]
   },
@@ -18026,12 +17198,6 @@
         "set_name": "Genetic Apex",
         "id": 46,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 292,
-        "rarity": "☆"
       }
     ]
   },
@@ -18101,12 +17267,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 79,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 293,
-        "rarity": "☆"
       }
     ]
   },
@@ -18176,12 +17336,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 81,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 294,
-        "rarity": "☆"
       }
     ]
   },
@@ -18239,12 +17393,6 @@
         "set_name": "Secluded Springs",
         "id": 13,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 295,
-        "rarity": "☆"
       }
     ]
   },
@@ -18302,12 +17450,6 @@
         "set_name": "Genetic Apex",
         "id": 60,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 296,
-        "rarity": "☆"
       }
     ]
   },
@@ -18365,12 +17507,6 @@
         "set_name": "Genetic Apex",
         "id": 61,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 297,
-        "rarity": "☆"
       }
     ]
   },
@@ -18428,12 +17564,6 @@
         "set_name": "Genetic Apex",
         "id": 83,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 298,
-        "rarity": "☆"
       }
     ]
   },
@@ -18511,12 +17641,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 299,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 48,
@@ -18578,12 +17702,6 @@
         "set_name": "Celestial Guardians",
         "id": 45,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 300,
-        "rarity": "☆"
       }
     ]
   },
@@ -18653,12 +17771,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 119,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 301,
-        "rarity": "☆"
       }
     ]
   },
@@ -18716,12 +17828,6 @@
         "set_name": "Genetic Apex",
         "id": 103,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 302,
-        "rarity": "☆"
       }
     ]
   },
@@ -18797,12 +17903,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 147,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 303,
-        "rarity": "☆"
       }
     ]
   },
@@ -18874,12 +17974,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 304,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 74,
@@ -18941,12 +18035,6 @@
         "set_name": "Genetic Apex",
         "id": 124,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 305,
-        "rarity": "☆"
       }
     ]
   },
@@ -19004,12 +18092,6 @@
         "set_name": "Genetic Apex",
         "id": 125,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 306,
-        "rarity": "☆"
       }
     ]
   },
@@ -19067,12 +18149,6 @@
         "set_name": "Genetic Apex",
         "id": 147,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 307,
-        "rarity": "☆"
       }
     ]
   },
@@ -19130,12 +18206,6 @@
         "set_name": "Mythical Island",
         "id": 44,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 308,
-        "rarity": "☆"
       }
     ]
   },
@@ -19193,12 +18263,6 @@
         "set_name": "Mythical Island",
         "id": 45,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 309,
-        "rarity": "☆"
       }
     ]
   },
@@ -19262,12 +18326,6 @@
         "set_name": "Celestial Guardians",
         "id": 172,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 310,
-        "rarity": "☆"
       }
     ]
   },
@@ -19325,12 +18383,6 @@
         "set_name": "Celestial Guardians",
         "id": 117,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 311,
-        "rarity": "☆"
       }
     ]
   },
@@ -19396,12 +18448,6 @@
         "rarity": "☆"
       },
       {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 312,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 12,
@@ -19463,12 +18509,6 @@
         "set_name": "Genetic Apex",
         "id": 197,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 313,
-        "rarity": "☆"
       }
     ]
   },
@@ -19526,12 +18566,6 @@
         "set_name": "Genetic Apex",
         "id": 199,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 314,
-        "rarity": "☆"
       }
     ]
   },
@@ -19589,12 +18623,6 @@
         "set_name": "Genetic Apex",
         "id": 200,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 315,
-        "rarity": "☆"
       }
     ]
   },
@@ -19657,12 +18685,6 @@
         "set_code": "a2",
         "set_name": "Space-Time Smackdown",
         "id": 177,
-        "rarity": "☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 316,
         "rarity": "☆"
       }
     ]
@@ -19739,12 +18761,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 42,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 317,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -19820,12 +18836,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 82,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 318,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -19913,12 +18923,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 363,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 319,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -19994,12 +18998,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 120,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 320,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20075,12 +19073,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 132,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 321,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20156,12 +19148,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 148,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 322,
-        "rarity": "☆☆"
       },
       {
         "set_code": "pa",
@@ -20243,12 +19229,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 222,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 323,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20324,12 +19304,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 223,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 324,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20405,12 +19379,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 251,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 325,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20498,12 +19466,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 368,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 326,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20579,12 +19541,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 296,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 327,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20672,12 +19628,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 372,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 328,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -20735,12 +19685,6 @@
         "set_name": "Mega Rising",
         "id": 18,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 329,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -20798,12 +19742,6 @@
         "set_name": "Mega Rising",
         "id": 120,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 330,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -20861,12 +19799,6 @@
         "set_name": "Mega Rising",
         "id": 217,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b1",
-        "set_name": "Mega Rising",
-        "id": 331,
-        "rarity": "Crown Rare"
       }
     ]
   }

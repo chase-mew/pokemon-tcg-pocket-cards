@@ -51,12 +51,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 156,
         "rarity": "☆"
       }
@@ -342,12 +336,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 6,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 157,
         "rarity": "☆"
       }
@@ -519,12 +507,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 9,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 158,
         "rarity": "☆"
       }
@@ -636,12 +618,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/011.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 11,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -819,12 +795,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/014.png",
     "flavour_text": "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 14,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -1172,12 +1142,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 20,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 160,
         "rarity": "☆"
       }
@@ -1463,12 +1427,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 25,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 161,
         "rarity": "☆"
       }
@@ -1523,12 +1481,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/026.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 26,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -2051,12 +2003,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 35,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 182,
         "rarity": "☆☆"
       },
@@ -2174,12 +2120,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/037.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 37,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -2417,12 +2357,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 41,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 162,
         "rarity": "☆"
       }
@@ -2591,12 +2525,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/044.png",
     "flavour_text": "Samurott leads its group strictly. Those who do not follow its rules receive a merciless thrashing.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 44,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -2883,12 +2811,6 @@
     "flavour_text": "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
     "alternate_versions": [
       {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 49,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 82,
@@ -2945,12 +2867,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/050.png",
     "flavour_text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 50,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -3186,12 +3102,6 @@
     "flavour_text": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
     "alternate_versions": [
       {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 54,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 85,
@@ -3248,12 +3158,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/055.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 55,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -3662,12 +3566,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 62,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 165,
         "rarity": "☆"
       }
@@ -3779,12 +3677,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/064.png",
     "flavour_text": "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 64,
-        "rarity": "◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -4073,12 +3965,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 69,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 211,
         "rarity": "☆"
       }
@@ -4136,12 +4022,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 70,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 212,
         "rarity": "☆"
       }
@@ -4196,12 +4076,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/071.png",
     "flavour_text": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 71,
-        "rarity": "◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -4373,12 +4247,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/074.png",
     "flavour_text": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 74,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -4610,12 +4478,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 78,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 169,
         "rarity": "☆"
       }
@@ -4787,12 +4649,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 81,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 170,
         "rarity": "☆"
       }
@@ -4961,12 +4817,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/084.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 84,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -5489,12 +5339,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 93,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 171,
         "rarity": "☆"
       }
@@ -5780,12 +5624,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 98,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 172,
         "rarity": "☆"
       }
@@ -5957,12 +5795,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 101,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 173,
         "rarity": "☆"
       }
@@ -6074,12 +5906,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/103.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 103,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -6258,12 +6084,6 @@
     "flavour_text": "All its cells are magnets. It communicates with others of its kind by transmitting magnetic forces from its body.",
     "alternate_versions": [
       {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 106,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 86,
@@ -6437,12 +6257,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 109,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 187,
         "rarity": "☆☆"
       },
@@ -6560,12 +6374,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/111.png",
     "flavour_text": "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 111,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -6911,12 +6719,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 117,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 175,
         "rarity": "☆"
       },
@@ -7094,12 +6896,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 120,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 188,
         "rarity": "☆☆"
       },
@@ -7217,12 +7013,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/122.png",
     "flavour_text": "In the dark, even Hydreigon are terrified of this Pokémon. But in the light, Noivern is the one that avoids battle.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 122,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -7574,12 +7364,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 128,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 177,
         "rarity": "☆"
       }
@@ -7637,12 +7421,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 129,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 220,
         "rarity": "☆"
       }
@@ -7697,12 +7475,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/130.png",
     "flavour_text": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 130,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -7823,12 +7595,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/132.png",
     "flavour_text": "Its tail moves with greater dexterity than its hands. Making deft use of this tail, Aipom lives high among the treetops.",
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 132,
-        "rarity": "◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -8342,12 +8108,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/141.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 141,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -8870,12 +8630,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 150,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 190,
         "rarity": "☆☆"
       }
@@ -8930,12 +8684,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/151.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 151,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -8996,12 +8744,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 152,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 192,
         "rarity": "☆☆"
       }
@@ -9056,12 +8798,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/153.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 153,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -9238,12 +8974,6 @@
         "set_name": "Ruler of the Skies",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 156,
-        "rarity": "☆"
       }
     ]
   },
@@ -9301,12 +9031,6 @@
         "set_name": "Ruler of the Skies",
         "id": 6,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 157,
-        "rarity": "☆"
       }
     ]
   },
@@ -9364,12 +9088,6 @@
         "set_name": "Ruler of the Skies",
         "id": 9,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 158,
-        "rarity": "☆"
       }
     ]
   },
@@ -9427,12 +9145,6 @@
         "set_name": "Ruler of the Skies",
         "id": 14,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 159,
-        "rarity": "☆"
       }
     ]
   },
@@ -9490,12 +9202,6 @@
         "set_name": "Ruler of the Skies",
         "id": 20,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 160,
-        "rarity": "☆"
       }
     ]
   },
@@ -9553,12 +9259,6 @@
         "set_name": "Ruler of the Skies",
         "id": 25,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 161,
-        "rarity": "☆"
       }
     ]
   },
@@ -9616,12 +9316,6 @@
         "set_name": "Ruler of the Skies",
         "id": 41,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 162,
-        "rarity": "☆"
       }
     ]
   },
@@ -9679,12 +9373,6 @@
         "set_name": "Ruler of the Skies",
         "id": 44,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 163,
-        "rarity": "☆"
       }
     ]
   },
@@ -9742,12 +9430,6 @@
         "set_name": "Ruler of the Skies",
         "id": 50,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 164,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -9811,12 +9493,6 @@
         "set_name": "Ruler of the Skies",
         "id": 62,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 165,
-        "rarity": "☆"
       }
     ]
   },
@@ -9874,12 +9550,6 @@
         "set_name": "Ruler of the Skies",
         "id": 64,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 166,
-        "rarity": "☆"
       }
     ]
   },
@@ -9937,12 +9607,6 @@
         "set_name": "Ruler of the Skies",
         "id": 71,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 167,
-        "rarity": "☆"
       }
     ]
   },
@@ -10000,12 +9664,6 @@
         "set_name": "Ruler of the Skies",
         "id": 74,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 168,
-        "rarity": "☆"
       }
     ]
   },
@@ -10063,12 +9721,6 @@
         "set_name": "Ruler of the Skies",
         "id": 78,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 169,
-        "rarity": "☆"
       }
     ]
   },
@@ -10126,12 +9778,6 @@
         "set_name": "Ruler of the Skies",
         "id": 81,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 170,
-        "rarity": "☆"
       }
     ]
   },
@@ -10189,12 +9835,6 @@
         "set_name": "Ruler of the Skies",
         "id": 93,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 171,
-        "rarity": "☆"
       }
     ]
   },
@@ -10252,12 +9892,6 @@
         "set_name": "Ruler of the Skies",
         "id": 98,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 172,
-        "rarity": "☆"
       }
     ]
   },
@@ -10315,12 +9949,6 @@
         "set_name": "Ruler of the Skies",
         "id": 101,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 173,
-        "rarity": "☆"
       }
     ]
   },
@@ -10378,12 +10006,6 @@
         "set_name": "Ruler of the Skies",
         "id": 111,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 174,
-        "rarity": "☆"
       }
     ]
   },
@@ -10441,12 +10063,6 @@
         "set_name": "Ruler of the Skies",
         "id": 117,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 175,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -10512,12 +10128,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 176,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 83,
@@ -10579,12 +10189,6 @@
         "set_name": "Ruler of the Skies",
         "id": 128,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 177,
-        "rarity": "☆"
       }
     ]
   },
@@ -10642,12 +10246,6 @@
         "set_name": "Ruler of the Skies",
         "id": 130,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 178,
-        "rarity": "☆"
       },
       {
         "set_code": "b4",
@@ -10711,12 +10309,6 @@
         "set_name": "Ruler of the Skies",
         "id": 132,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 179,
-        "rarity": "☆"
       }
     ]
   },
@@ -10774,12 +10366,6 @@
         "set_name": "Ruler of the Skies",
         "id": 11,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 180,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b4",
@@ -10847,12 +10433,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 181,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 195,
         "rarity": "☆☆"
       }
@@ -10912,12 +10492,6 @@
         "set_name": "Ruler of the Skies",
         "id": 35,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 182,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b4",
@@ -10985,12 +10559,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 183,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 197,
         "rarity": "☆☆"
       }
@@ -11050,12 +10618,6 @@
         "set_name": "Ruler of the Skies",
         "id": 55,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 184,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b4",
@@ -11123,12 +10685,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 198,
         "rarity": "☆☆"
       }
@@ -11188,12 +10744,6 @@
         "set_name": "Ruler of the Skies",
         "id": 103,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 186,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b4",
@@ -11261,12 +10811,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 200,
         "rarity": "☆☆"
       }
@@ -11326,12 +10870,6 @@
         "set_name": "Ruler of the Skies",
         "id": 120,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 188,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b4",
@@ -11399,12 +10937,6 @@
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
-        "id": 189,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
         "id": 201,
         "rarity": "☆☆"
       }
@@ -11464,12 +10996,6 @@
         "set_name": "Ruler of the Skies",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 190,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11527,12 +11053,6 @@
         "set_name": "Ruler of the Skies",
         "id": 151,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 191,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11590,12 +11110,6 @@
         "set_name": "Ruler of the Skies",
         "id": 152,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 192,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11653,12 +11167,6 @@
         "set_name": "Ruler of the Skies",
         "id": 153,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 193,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11721,12 +11229,6 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 180,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 194,
         "rarity": "☆☆"
       }
     ]
@@ -11791,12 +11293,6 @@
         "set_name": "Ruler of the Skies",
         "id": 181,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 195,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11859,12 +11355,6 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 182,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 196,
         "rarity": "☆☆"
       }
     ]
@@ -11929,12 +11419,6 @@
         "set_name": "Ruler of the Skies",
         "id": 183,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 197,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -11997,12 +11481,6 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 185,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 198,
         "rarity": "☆☆"
       }
     ]
@@ -12067,12 +11545,6 @@
         "set_name": "Ruler of the Skies",
         "id": 186,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 199,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12135,12 +11607,6 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 187,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 200,
         "rarity": "☆☆"
       }
     ]
@@ -12205,12 +11671,6 @@
         "set_name": "Ruler of the Skies",
         "id": 189,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 201,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -12274,12 +11734,6 @@
         "set_name": "Ruler of the Skies",
         "id": 184,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 202,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -12343,12 +11797,6 @@
         "set_name": "Ruler of the Skies",
         "id": 188,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 203,
-        "rarity": "☆☆☆"
       }
     ]
   },
@@ -12406,12 +11854,6 @@
         "set_name": "Fantastical Parade",
         "id": 28,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 204,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -12475,12 +11917,6 @@
         "set_name": "Fantastical Parade",
         "id": 33,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 205,
-        "rarity": "☆"
       }
     ]
   },
@@ -12538,12 +11974,6 @@
         "set_name": "Fantastical Parade",
         "id": 34,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 206,
-        "rarity": "☆"
       }
     ]
   },
@@ -12601,12 +12031,6 @@
         "set_name": "Fantastical Parade",
         "id": 35,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 207,
-        "rarity": "☆"
       }
     ]
   },
@@ -12664,12 +12088,6 @@
         "set_name": "Mega Shine",
         "id": 24,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 208,
-        "rarity": "☆"
       }
     ]
   },
@@ -12727,12 +12145,6 @@
         "set_name": "Fantastical Parade",
         "id": 52,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 209,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -12802,12 +12214,6 @@
         "set_name": "Fantastical Parade",
         "id": 165,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 210,
-        "rarity": "☆"
       }
     ]
   },
@@ -12865,12 +12271,6 @@
         "set_name": "Ruler of the Skies",
         "id": 69,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 211,
-        "rarity": "☆"
       }
     ]
   },
@@ -12928,12 +12328,6 @@
         "set_name": "Ruler of the Skies",
         "id": 70,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 212,
-        "rarity": "☆"
       }
     ]
   },
@@ -12991,12 +12385,6 @@
         "set_name": "Fantastical Parade",
         "id": 85,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 213,
-        "rarity": "☆"
       }
     ]
   },
@@ -13054,12 +12442,6 @@
         "set_name": "Fantastical Parade",
         "id": 86,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 214,
-        "rarity": "☆"
       }
     ]
   },
@@ -13123,12 +12505,6 @@
         "set_name": "Fantastical Parade",
         "id": 172,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 215,
-        "rarity": "☆"
       }
     ]
   },
@@ -13186,12 +12562,6 @@
         "set_name": "Pulsing Aura",
         "id": 101,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 216,
-        "rarity": "☆"
       }
     ]
   },
@@ -13249,12 +12619,6 @@
         "set_name": "Pulsing Aura",
         "id": 102,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 217,
-        "rarity": "☆"
       }
     ]
   },
@@ -13312,12 +12676,6 @@
         "set_name": "Fantastical Parade",
         "id": 110,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 218,
-        "rarity": "☆"
       }
     ]
   },
@@ -13381,12 +12739,6 @@
         "set_name": "Fantastical Parade",
         "id": 177,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 219,
-        "rarity": "☆"
       }
     ]
   },
@@ -13444,12 +12796,6 @@
         "set_name": "Ruler of the Skies",
         "id": 129,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 220,
-        "rarity": "☆"
       }
     ]
   },
@@ -13513,12 +12859,6 @@
         "set_name": "Ruler of the Skies",
         "id": 178,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 221,
-        "rarity": "☆"
       }
     ]
   },
@@ -13576,12 +12916,6 @@
         "set_name": "Fantastical Parade",
         "id": 130,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 222,
-        "rarity": "☆"
       }
     ]
   },
@@ -13644,12 +12978,6 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 75,
-        "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 223,
         "rarity": "☆"
       },
       {
@@ -13728,12 +13056,6 @@
         "set_name": "Fantastical Parade",
         "id": 195,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 224,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -13802,12 +13124,6 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 196,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 225,
         "rarity": "☆☆"
       }
     ]
@@ -13878,12 +13194,6 @@
         "set_name": "Fantastical Parade",
         "id": 197,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 226,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -13953,12 +13263,6 @@
         "set_name": "Fantastical Parade",
         "id": 203,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 227,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14027,12 +13331,6 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 85,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 228,
         "rarity": "☆☆"
       }
     ]
@@ -14103,12 +13401,6 @@
         "set_name": "Fantastical Parade",
         "id": 200,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 229,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14177,12 +13469,6 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 199,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 230,
         "rarity": "☆☆"
       }
     ]
@@ -14253,12 +13539,6 @@
         "set_name": "Fantastical Parade",
         "id": 202,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 231,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -14322,12 +13602,6 @@
         "set_name": "Ruler of the Skies",
         "id": 164,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 232,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -14391,12 +13665,6 @@
         "set_name": "Ruler of the Skies",
         "id": 175,
         "rarity": "☆"
-      },
-      {
-        "set_code": "b4",
-        "set_name": "Ruler of the Skies",
-        "id": 233,
-        "rarity": "Crown Rare"
       }
     ]
   }

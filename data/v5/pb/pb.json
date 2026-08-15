@@ -53,12 +53,6 @@
         "set_name": "Triumphant Light",
         "id": 25,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 1,
-        "rarity": "Promo"
       }
     ]
   },
@@ -110,14 +104,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/002.png",
     "flavour_text": "If the leaves on its head are pruned with regularity, this Pokémon can be grown into a fine plump shape.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 2,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-003",
@@ -167,14 +154,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/003.png",
     "flavour_text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 3,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-004",
@@ -236,12 +216,6 @@
         "set_name": "Mega Rising",
         "id": 237,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 4,
-        "rarity": "Promo"
       }
     ]
   },
@@ -299,12 +273,6 @@
         "set_name": "Mega Rising",
         "id": 180,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 5,
-        "rarity": "Promo"
       }
     ]
   },
@@ -356,14 +324,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/006.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 6,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-007",
@@ -425,12 +386,6 @@
         "set_name": "Pulsing Aura",
         "id": 206,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 7,
-        "rarity": "Promo"
       }
     ]
   },
@@ -488,12 +443,6 @@
         "set_name": "Mega Rising",
         "id": 48,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 8,
-        "rarity": "Promo"
       }
     ]
   },
@@ -569,12 +518,6 @@
         "set_name": "Pulsing Aura",
         "id": 230,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 9,
-        "rarity": "Promo"
       }
     ]
   },
@@ -632,12 +575,6 @@
         "set_name": "Mega Rising",
         "id": 108,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 10,
-        "rarity": "Promo"
       }
     ]
   },
@@ -695,12 +632,6 @@
         "set_name": "Mega Rising",
         "id": 184,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 11,
-        "rarity": "Promo"
       },
       {
         "set_code": "pb",
@@ -770,12 +701,6 @@
         "set_name": "Everyday Wonders",
         "id": 99,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 12,
-        "rarity": "Promo"
       }
     ]
   },
@@ -833,12 +758,6 @@
         "set_name": "Mega Rising",
         "id": 29,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 13,
-        "rarity": "Promo"
       }
     ]
   },
@@ -890,14 +809,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/014.png",
     "flavour_text": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 14,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-015",
@@ -959,12 +871,6 @@
         "set_name": "Everyday Wonders",
         "id": 94,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 15,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1022,12 +928,6 @@
         "set_name": "Mega Rising",
         "id": 132,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 16,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1079,14 +979,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/017.png",
     "flavour_text": "It can’t relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 17,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-018",
@@ -1142,12 +1035,6 @@
         "set_name": "Crimson Blaze",
         "id": 29,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 18,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1217,12 +1104,6 @@
         "set_name": "Ruler of the Skies",
         "id": 223,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 19,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1280,12 +1161,6 @@
         "set_name": "Crimson Blaze",
         "id": 12,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 20,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1337,14 +1212,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/021.png",
     "flavour_text": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 21,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-022",
@@ -1394,14 +1262,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/022.png",
     "flavour_text": "Hawlucha live quietly without flocking together. They fight constantly with their natural enemies: noisy groups of Primeape.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 22,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-023",
@@ -1457,12 +1318,6 @@
         "set_name": "Crimson Blaze",
         "id": 54,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 23,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1514,14 +1369,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/024.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 24,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-025",
@@ -1577,12 +1425,6 @@
         "set_name": "Mega Rising",
         "id": 106,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 25,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1634,14 +1476,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/026.png",
     "flavour_text": "When it uses its large tail fin, it picks up speed rapidly in the water. It is strong in spite of its small size.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 26,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-027",
@@ -1703,12 +1538,6 @@
         "set_name": "Ruler of the Skies",
         "id": 209,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 27,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1760,14 +1589,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/028.png",
     "flavour_text": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 28,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-029",
@@ -1817,14 +1639,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/029.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 29,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-030",
@@ -1880,12 +1695,6 @@
         "set_name": "Fantastical Parade",
         "id": 138,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 30,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1943,12 +1752,6 @@
         "set_name": "Fantastical Parade",
         "id": 26,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 31,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2012,12 +1815,6 @@
         "set_name": "Ruler of the Skies",
         "id": 204,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 32,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2075,12 +1872,6 @@
         "set_name": "Paldean Wonders",
         "id": 22,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 33,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2132,14 +1923,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/034.png",
     "flavour_text": "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 34,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-035",
@@ -2201,12 +1985,6 @@
         "set_name": "Paradox Drive",
         "id": 95,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 35,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2264,12 +2042,6 @@
         "set_name": "Paldean Wonders",
         "id": 33,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 36,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2321,14 +2093,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/037.png",
     "flavour_text": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 37,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-038",
@@ -2384,12 +2149,6 @@
         "set_name": "Paldean Wonders",
         "id": 74,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 38,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2453,12 +2212,6 @@
         "set_name": "Paldean Wonders",
         "id": 119,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 39,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2516,12 +2269,6 @@
         "set_name": "Paldean Wonders",
         "id": 65,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 40,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2591,12 +2338,6 @@
         "set_name": "Paldean Wonders",
         "id": 112,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 41,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2660,12 +2401,6 @@
         "set_name": "Mega Shine",
         "id": 95,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 42,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2717,14 +2452,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/043.png",
     "flavour_text": "It stores electricity in its fur. It gives off sparks from all over its body in seasons when the air is dry.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 43,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-044",
@@ -2774,14 +2502,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/044.png",
     "flavour_text": "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 44,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-045",
@@ -2843,12 +2564,6 @@
         "set_name": "Mega Shine",
         "id": 110,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 45,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2906,12 +2621,6 @@
         "set_name": "Mega Shine",
         "id": 61,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 46,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2975,12 +2684,6 @@
         "set_name": "Mega Shine",
         "id": 100,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 47,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3038,12 +2741,6 @@
         "set_name": "Mega Shine",
         "id": 59,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 48,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3101,12 +2798,6 @@
         "set_name": "Pulsing Aura",
         "id": 25,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 49,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3170,12 +2861,6 @@
         "set_name": "Fantastical Parade",
         "id": 233,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 50,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3227,14 +2912,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/051.png",
     "flavour_text": "Born when around 10% of Zygarde’s cells have been gathered from all over, this form is skilled in close-range combat.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 51,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-052",
@@ -3284,14 +2962,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/052.png",
     "flavour_text": "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 52,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-053",
@@ -3342,12 +3013,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/053.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 53,
-        "rarity": "Promo"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -3416,12 +3081,6 @@
         "set_name": "Promo-B",
         "id": 11,
         "rarity": "Promo"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 54,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3479,12 +3138,6 @@
         "set_name": "Promo-B",
         "id": 53,
         "rarity": "Promo"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 55,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3536,14 +3189,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/056.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 56,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-057",
@@ -3599,12 +3245,6 @@
         "set_name": "Pulsing Aura",
         "id": 24,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 57,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3656,14 +3296,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/058.png",
     "flavour_text": "This Pokémon is a ravenous glutton. It uses its excellent sense of smell to find food, then cooks it to a crisp before eating.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 58,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-059",
@@ -3713,14 +3346,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/059.png",
     "flavour_text": "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 59,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-060",
@@ -3776,12 +3402,6 @@
         "set_name": "Pulsing Aura",
         "id": 114,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 60,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3845,12 +3465,6 @@
         "set_name": "Pulsing Aura",
         "id": 156,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 61,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3908,12 +3522,6 @@
         "set_name": "Pulsing Aura",
         "id": 84,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 62,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3989,12 +3597,6 @@
         "set_name": "Paradox Drive",
         "id": 104,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 63,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4046,14 +3648,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/064.png",
     "flavour_text": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 64,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-065",
@@ -4109,12 +3704,6 @@
         "set_name": "Paradox Drive",
         "id": 8,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 65,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4166,14 +3755,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/066.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 66,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-067",
@@ -4223,14 +3805,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/067.png",
     "flavour_text": "Any chips in its blades would prove fatal for it. After each battle, it diligently maintains its blades using its favorite sharpening stone.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 67,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-068",
@@ -4286,12 +3861,6 @@
         "set_name": "Paradox Drive",
         "id": 60,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 68,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4355,12 +3924,6 @@
         "set_name": "Paldean Wonders",
         "id": 117,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 69,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4418,12 +3981,6 @@
         "set_name": "Paradox Drive",
         "id": 40,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 70,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4481,12 +4038,6 @@
         "set_name": "Everyday Wonders",
         "id": 11,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 71,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4538,14 +4089,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/072.png",
     "flavour_text": "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 72,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-073",
@@ -4601,12 +4145,6 @@
         "set_name": "Everyday Wonders",
         "id": 17,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 73,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4664,12 +4202,6 @@
         "set_name": "Everyday Wonders",
         "id": 22,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 74,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4721,14 +4253,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/075.png",
     "flavour_text": "Due to its relaxed and carefree attitude, it often bumps its head on riverbed boulders and boat hulls as it swims.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 75,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-076",
@@ -4784,12 +4309,6 @@
         "set_name": "Everyday Wonders",
         "id": 59,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 76,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4847,12 +4366,6 @@
         "set_name": "Everyday Wonders",
         "id": 10,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 77,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4910,12 +4423,6 @@
         "set_name": "Everyday Wonders",
         "id": 23,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 78,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4979,12 +4486,6 @@
         "set_name": "Pulsing Aura",
         "id": 233,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 79,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5036,14 +4537,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/080.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 80,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-081",
@@ -5093,14 +4587,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/081.png",
     "flavour_text": "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 81,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-082",
@@ -5156,12 +4643,6 @@
         "set_name": "Ruler of the Skies",
         "id": 49,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 82,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5225,12 +4706,6 @@
         "set_name": "Ruler of the Skies",
         "id": 176,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 83,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5282,14 +4757,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/084.png",
     "flavour_text": "It shows its cute side by chasing its own tail until it gets dizzy.",
-    "alternate_versions": [
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 84,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pb-085",
@@ -5345,12 +4813,6 @@
         "set_name": "Ruler of the Skies",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 85,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5408,12 +4870,6 @@
         "set_name": "Ruler of the Skies",
         "id": 106,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pb",
-        "set_name": "Promo-B",
-        "id": 86,
-        "rarity": "Promo"
       }
     ]
   }

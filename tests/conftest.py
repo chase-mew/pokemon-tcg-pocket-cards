@@ -5,12 +5,12 @@ import pytest
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT_DIR, "scripts"))  # constants.py, no package needed
 
-from constants import EXPANSIONS_JSON_PATH, V4_JSON_PATH, V5_JSON_PATH, PNG_CARDS_DIR
+from constants import EXPANSIONS_JSON_PATH, V4_JSON_PATH, V5_DIR, PNG_CARDS_DIR
 from tests.utils import _load
 
 @pytest.fixture(scope="session")
 def cards():
-    return _load(V5_JSON_PATH)
+    return _load(os.path.join(V5_DIR, "cards.json"))
 
 
 @pytest.fixture(scope="session")

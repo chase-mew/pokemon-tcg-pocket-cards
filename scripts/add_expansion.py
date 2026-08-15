@@ -17,18 +17,29 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-"""
-Add a new expansion to the Pokémon TCG Pocket cards database.
+r"""Add a new expansion to the Pokemon TCG Pocket cards database.
 
-Scrapes card data from Limitless TCG, downloads card images, and updates
-both the current card database and expansions.json (expansion index).
+Scrapes card data from Limitless TCG, downloads card images, and
+updates both the current card database and ``expansions.json`` (the
+expansion index). This is the main entry point script for adding or
+updating sets in the repository.
 
-Usage:
+Usage::
+
     python scripts/add_expansion.py B2b
     python scripts/add_expansion.py B1 --name "Mega Rising"
     python scripts/add_expansion.py PA              # update Promo-A with new cards
     python scripts/add_expansion.py PB --skip-images
+    python scripts/add_expansion.py a1->b4           # process a range of sets
+    python scripts/add_expansion.py --all            # scrape every known set
+
+The script runs a six-step pipeline per set: discover metadata,
+scrape raw card data, transform to the output schema, download card
+images, update database files, and download pack images. After all
+sets are processed, the v5 database is recompiled to sync alternate
+version references across sets.
 """
+
 import os
 import jsonschema
 import json
@@ -44,10 +55,29 @@ from utils import normalise_set_code, set_code_to_prefix
 
 
 def validate_schema(cards):
+    r"""validate_schema(cards)
+
+    Validate a list of card dicts against the v5 JSON schema file at
+    ``V5_DIR/cards.schema.json``. Prints a confirmation message on
+    success and raises ``ValueError`` on failure with the JSON path
+    and error message from the validator.
+
+    Args:
+        cards (list of dict): transformed card dicts in v5 format,
+            as produced by :func:`transform_cards.transform_cards`
+
+    Raises:
+        FileNotFoundError: if ``cards.schema.json`` does not exist
+            in ``V5_DIR``
+        ValueError: if one or more cards violate the schema. The
+            error message includes the JSON path to the offending
+            field and the validator's message.
+    """
     schema_path = os.path.join(V5_DIR, "cards.schema.json")
     if not os.path.exists(schema_path):
-        print("    WARNING: cards.schema.json not found, skipping validation.")
-        return
+        raise FileNotFoundError(
+            f"Required V5 schema not found: {schema_path}"
+        )
 
     with open(schema_path, "r", encoding="utf-8") as f:
         schema = json.load(f)
@@ -60,6 +90,36 @@ def validate_schema(cards):
 
 
 def resolve_set_range(range_str):
+    r"""resolve_set_range(range_str) -> list of str
+
+    Parse a set code or range string and return a list of normalised
+    set codes.
+
+    A single code (no ``"->"``) is normalised and returned as a
+    one-element list. A range like ``"a1->b4"`` is expanded to all
+    set codes between the start and end, inclusive, using the set
+    list fetched from the Limitless TCG index page.
+
+    The index lists sets in reverse chronological order (newest
+    first). This function reverses that list so the range is
+    resolved in chronological order (oldest first), matching the
+    order sets should be processed in.
+
+    If the start code sorts after the end code in the reversed list,
+    the two indices are swapped so the range still covers all sets
+    between them.
+
+    Args:
+        range_str (str): a single set code (e.g. ``"B2b"``, ``"PA"``)
+            or a range (e.g. ``"a1->b4"``)
+
+    Returns:
+        list of str: normalised set codes in chronological order
+
+    Raises:
+        SystemExit: if either the start or end code is not found in
+            the index. Prints an error message before exiting.
+    """
     if "->" not in range_str:
         return [normalise_set_code(range_str)]
 
@@ -84,6 +144,40 @@ def resolve_set_range(range_str):
 
 
 def process_single_set(set_code, args):
+    r"""process_single_set(set_code, args)
+
+    Run the full six-step pipeline for a single set:
+
+    1. **Discover**: fetch the expansion name and release date from
+       the Limitless TCG index page. If ``args.name`` is set, the
+       provided name overrides the auto-detected one.
+    2. **Scrape**: download every card page for the set from
+       Limitless TCG and parse the raw card data.
+    3. **Transform**: convert raw card dicts to the output schema
+       (v5 or v4). In v5 mode, validate against the JSON schema
+       before proceeding.
+    4. **Download images**: fetch card artwork from Limitless TCG
+       and save in WebP and PNG format. Skipped if
+       ``args.skip_images`` is set, in which case ``source_url`` is
+       popped from each card dict without downloading.
+    5. **Update database**: merge the transformed cards into the
+       appropriate JSON file (per-set for v5, single file for v4)
+       and update the expansions index (v5 only).
+    6. **Download pack images**: fetch pack artwork from Serebii.
+       Skipped if ``args.skip_images`` is set or if no packs were
+       produced (v4 mode).
+
+    Progress messages are printed to stdout at each step. The
+    function does not return a value; side effects are the downloaded
+    images and updated JSON files on disk.
+
+    Args:
+        set_code (str): the set code to process, already normalised
+            (e.g. ``"A1"``, ``"P-A"``, ``"B2b"``)
+        args (argparse.Namespace): parsed CLI arguments. Must have
+            ``name`` (str or None), ``mode`` (``"v4"`` or ``"v5"``),
+            and ``skip_images`` (bool) attributes.
+    """
     prefix = set_code_to_prefix(set_code)
     is_promo = set_code.startswith("P-")
 
@@ -148,6 +242,32 @@ def process_single_set(set_code, args):
 
 
 def main():
+    r"""main()
+
+    Parse command-line arguments and process one or more sets.
+
+    Accepts a single set code, a range (``"a1->b4"``), or the
+    ``--all`` flag to scrape every set listed on the Limitless TCG
+    index page. Each set is processed via
+    :func:`process_single_set`. After all sets are done, the v5
+    database is recompiled via :func:`compile_v5_database` to sync
+    alternate version references across sets.
+
+    CLI arguments:
+
+    - ``set_code`` (positional, optional): a set code or range.
+      Required unless ``--all`` is given.
+    - ``--all``: scrape all sets from the index, newest first.
+    - ``--name``: override the auto-detected expansion name. Cannot
+      be used with ``--all``.
+    - ``--mode``: output schema, ``"v4"`` or ``"v5"``. Default:
+      ``"v5"``.
+    - ``--skip-images``: skip downloading card and pack images.
+
+    Raises:
+        SystemExit: if no set code and no ``--all`` flag are
+            provided, or if ``--all`` is combined with ``--name``.
+    """
     parser = argparse.ArgumentParser(description="Add a new Pokemon TCG Pocket expansion")
     parser.add_argument("set_code", nargs="?", help="Set code or range (e.g. B3b, a1->b4, PA)")
     parser.add_argument("--all", action="store_true", help="Scrape all discoverable sets from Limitless")
@@ -158,7 +278,7 @@ def main():
     set_codes = []
 
     if args.all and args.name:
-        arser.error("--name cannot be used with --all")
+        parser.error("--name cannot be used with --all")
     elif args.all:
         set_codes = get_all_set_codes()
         set_codes.reverse()

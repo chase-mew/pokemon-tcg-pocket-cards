@@ -42,19 +42,12 @@
     },
     "points": null,
     "deckBuilderNr": 1000001,
-    "share_code": "AQ9CQQAA",
+    "share_code": "AZiWigAA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/001.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 1,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-002",
@@ -99,19 +92,12 @@
     },
     "points": null,
     "deckBuilderNr": 1000002,
-    "share_code": "AQ9CQgAA",
+    "share_code": "AZiWlAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/002.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 2,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-003",
@@ -156,19 +142,12 @@
     },
     "points": null,
     "deckBuilderNr": 1000005,
-    "share_code": "AQ9CRQAA",
+    "share_code": "AZiWsgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/003.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 3,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-004",
@@ -213,18 +192,12 @@
     },
     "points": null,
     "deckBuilderNr": 1000006,
-    "share_code": "AQ9CRgAA",
+    "share_code": "AZiWvAAA",
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/004.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 4,
-        "rarity": "Promo"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -276,7 +249,7 @@
     },
     "points": null,
     "deckBuilderNr": 1000003,
-    "share_code": "AQ9CQwAA",
+    "share_code": "AZiWngAA",
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/005.png",
@@ -287,12 +260,6 @@
         "set_name": "Shining Revelry",
         "id": 111,
         "rarity": "Crown Rare"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 5,
-        "rarity": "Promo"
       }
     ]
   },
@@ -339,19 +306,12 @@
     },
     "points": null,
     "deckBuilderNr": 1000007,
-    "share_code": "AQ9CRwAA",
+    "share_code": "AZiWxgAA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/006.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 6,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-007",
@@ -396,7 +356,7 @@
     },
     "points": null,
     "deckBuilderNr": 1000004,
-    "share_code": "AQ9CRAAA",
+    "share_code": "AZiWqAAA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/007.png",
@@ -407,12 +367,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 373,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 7,
-        "rarity": "Promo"
       }
     ]
   },
@@ -459,7 +413,7 @@
     },
     "points": null,
     "deckBuilderNr": 1000006,
-    "share_code": "AQ9CRgAA",
+    "share_code": "AZiWvAAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/008.png",
@@ -469,12 +423,6 @@
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 4,
-        "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 8,
         "rarity": "Promo"
       }
     ]
@@ -549,12 +497,6 @@
       {
         "set_code": "pa",
         "set_name": "Promo-A",
-        "id": 9,
-        "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
         "id": 15,
         "rarity": "Promo"
       },
@@ -620,12 +562,6 @@
         "set_name": "Genetic Apex",
         "id": 128,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 10,
-        "rarity": "Promo"
       }
     ]
   },
@@ -683,12 +619,6 @@
         "set_name": "Genetic Apex",
         "id": 202,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 11,
-        "rarity": "Promo"
       }
     ]
   },
@@ -758,12 +688,6 @@
         "set_name": "Mega Rising",
         "id": 312,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 12,
-        "rarity": "Promo"
       }
     ]
   },
@@ -821,12 +745,6 @@
         "set_name": "Genetic Apex",
         "id": 7,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 13,
-        "rarity": "Promo"
       }
     ]
   },
@@ -878,14 +796,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/014.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 14,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-015",
@@ -963,12 +874,6 @@
       {
         "set_code": "pa",
         "set_name": "Promo-A",
-        "id": 15,
-        "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
         "id": 26,
         "rarity": "Promo"
       }
@@ -1034,12 +939,6 @@
         "set_name": "Fantastical Parade",
         "id": 214,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 16,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1091,14 +990,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/017.png",
     "flavour_text": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 17,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-018",
@@ -1160,12 +1052,6 @@
         "set_name": "Celestial Guardians",
         "id": 212,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 18,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1247,12 +1133,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 356,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 19,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1304,14 +1184,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/020.png",
     "flavour_text": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 20,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-021",
@@ -1367,12 +1240,6 @@
         "set_name": "Genetic Apex",
         "id": 150,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 21,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1424,14 +1291,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/022.png",
     "flavour_text": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 22,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-023",
@@ -1511,12 +1371,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 2,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 23,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1592,12 +1446,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 134,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 24,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1679,12 +1527,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 67,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 25,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1766,12 +1608,6 @@
         "set_name": "Promo-A",
         "id": 15,
         "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 26,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1823,14 +1659,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/027.png",
     "flavour_text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 27,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-028",
@@ -1886,12 +1715,6 @@
         "set_name": "Mythical Island",
         "id": 14,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 28,
-        "rarity": "Promo"
       }
     ]
   },
@@ -1955,12 +1778,6 @@
         "set_name": "Celestial Guardians",
         "id": 217,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 29,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2012,14 +1829,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/030.png",
     "flavour_text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 30,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-031",
@@ -2075,12 +1885,6 @@
         "set_name": "Genetic Apex",
         "id": 213,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 31,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2156,12 +1960,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 56,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 32,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2243,12 +2041,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 84,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 33,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2306,12 +2098,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 35,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 34,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2369,12 +2155,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 10,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 35,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2432,12 +2212,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 57,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 36,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2489,14 +2263,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/037.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 37,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-038",
@@ -2546,14 +2313,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/038.png",
     "flavour_text": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 38,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-039",
@@ -2609,12 +2369,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 111,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 39,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2690,12 +2444,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 72,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 40,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2753,12 +2501,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 63,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 41,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2840,12 +2582,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 378,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 42,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2903,12 +2639,6 @@
         "set_name": "Triumphant Light",
         "id": 8,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 43,
-        "rarity": "Promo"
       }
     ]
   },
@@ -2966,12 +2696,6 @@
         "set_name": "Triumphant Light",
         "id": 26,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 44,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3023,14 +2747,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/045.png",
     "flavour_text": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 45,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-046",
@@ -3104,12 +2821,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 206,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 46,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3161,14 +2872,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/047.png",
     "flavour_text": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 47,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-048",
@@ -3248,12 +2952,6 @@
         "set_name": "Mega Rising",
         "id": 299,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 48,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3311,12 +3009,6 @@
         "set_name": "Triumphant Light",
         "id": 63,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 49,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3404,12 +3096,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 365,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 50,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3479,12 +3165,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 307,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 51,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3554,12 +3234,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 50,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 52,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3611,14 +3285,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/053.png",
     "flavour_text": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 53,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-054",
@@ -3674,12 +3341,6 @@
         "set_name": "Shining Revelry",
         "id": 28,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 54,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3743,12 +3404,6 @@
         "set_name": "Celestial Guardians",
         "id": 225,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 55,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3800,14 +3455,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/056.png",
     "flavour_text": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 56,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-057",
@@ -3875,12 +3523,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 295,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 57,
-        "rarity": "Promo"
       }
     ]
   },
@@ -3956,12 +3598,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 144,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 58,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4037,12 +3673,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 211,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 59,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4100,12 +3730,6 @@
         "set_name": "Mythical Island",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 60,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4181,12 +3805,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 111,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 61,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4268,12 +3886,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 359,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 62,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4325,14 +3937,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/063.png",
     "flavour_text": "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 63,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-064",
@@ -4386,12 +3991,6 @@
       {
         "set_code": "pa",
         "set_name": "Promo-A",
-        "id": 64,
-        "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
         "id": 65,
         "rarity": "Promo"
       }
@@ -4414,7 +4013,7 @@
     "mega": false,
     "shiny": false,
     "special_tags": null,
-    "art_style": "Parallel Foil",
+    "art_style": null,
     "health": 140,
     "retreat": 2,
     "weakness": "Lightning",
@@ -4450,12 +4049,6 @@
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 64,
-        "rarity": "Promo"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 65,
         "rarity": "Promo"
       }
     ]
@@ -4514,12 +4107,6 @@
         "set_name": "Celestial Guardians",
         "id": 83,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 66,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4595,12 +4182,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 181,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 67,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4658,12 +4239,6 @@
         "set_name": "Celestial Guardians",
         "id": 100,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 68,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4727,12 +4302,6 @@
         "set_name": "Celestial Guardians",
         "id": 156,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 69,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4790,12 +4359,6 @@
         "set_name": "Celestial Guardians",
         "id": 41,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 70,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4865,12 +4428,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 219,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 71,
-        "rarity": "Promo"
       }
     ]
   },
@@ -4922,14 +4479,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/072.png",
     "flavour_text": "There are a hundred or so of them living in Alola’s waste-disposal site. They’re all hard workers who eat a lot of trash.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 72,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-073",
@@ -4979,14 +4529,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/073.png",
     "flavour_text": "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 73,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-074",
@@ -5060,12 +4603,6 @@
         "set_name": "Mega Rising",
         "id": 304,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 74,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5137,12 +4674,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 48,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 75,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5208,12 +4739,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 72,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 76,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5273,12 +4798,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 20,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 77,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5332,14 +4851,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/078.png",
     "flavour_text": "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 78,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-079",
@@ -5391,14 +4903,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/079.png",
     "flavour_text": "This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 79,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-080",
@@ -5456,12 +4961,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 53,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 80,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5515,14 +5014,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/081.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 81,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-082",
@@ -5580,12 +5072,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 44,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 82,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5643,12 +5129,6 @@
         "set_name": "Extradimensional Crisis",
         "id": 57,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 83,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5730,12 +5210,6 @@
         "set_name": "Mega Rising",
         "id": 322,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 84,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5793,12 +5267,6 @@
         "set_name": "Eevee Grove",
         "id": 18,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 85,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5868,12 +5336,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 219,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 86,
-        "rarity": "Promo"
       }
     ]
   },
@@ -5943,12 +5405,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 188,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 87,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6000,14 +5456,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/088.png",
     "flavour_text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 88,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-089",
@@ -6057,14 +5506,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/089.png",
     "flavour_text": "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures’ feelings and physical conditions.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 89,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-090",
@@ -6120,12 +5562,6 @@
         "set_name": "Eevee Grove",
         "id": 48,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 90,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6183,12 +5619,6 @@
         "set_name": "Eevee Grove",
         "id": 65,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 91,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6264,12 +5694,6 @@
         "set_name": "Genetic Apex",
         "id": 248,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 92,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6327,12 +5751,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 77,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 93,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6384,14 +5802,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/094.png",
     "flavour_text": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 94,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-095",
@@ -6441,14 +5852,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/095.png",
     "flavour_text": "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 95,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-096",
@@ -6504,12 +5908,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 118,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 96,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6567,12 +5965,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 133,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 97,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6624,14 +6016,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/098.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 98,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-099",
@@ -6687,12 +6072,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 49,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 99,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6750,12 +6129,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 116,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 100,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6819,12 +6192,6 @@
         "set_name": "Fantastical Parade",
         "id": 216,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 101,
-        "rarity": "Promo"
       }
     ]
   },
@@ -6876,14 +6243,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/102.png",
     "flavour_text": "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 102,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-103",
@@ -6933,14 +6293,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/103.png",
     "flavour_text": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 103,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-104",
@@ -7002,12 +6355,6 @@
         "set_name": "Secluded Springs",
         "id": 72,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 104,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7065,12 +6412,6 @@
         "set_name": "Secluded Springs",
         "id": 49,
         "rarity": "◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 105,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7128,12 +6469,6 @@
         "set_name": "Secluded Springs",
         "id": 50,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 106,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7191,12 +6526,6 @@
         "set_name": "Secluded Springs",
         "id": 62,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 107,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7260,12 +6589,6 @@
         "set_name": "Secluded Springs",
         "id": 76,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 108,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7347,12 +6670,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 370,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 109,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7428,12 +6745,6 @@
         "set_name": "Paldean Wonders",
         "id": 126,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 110,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7485,14 +6796,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/111.png",
     "flavour_text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 111,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-112",
@@ -7542,14 +6846,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/112.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 112,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-113",
@@ -7605,12 +6902,6 @@
         "set_name": "Eevee Grove",
         "id": 35,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 113,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7662,14 +6953,7 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pa/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pa/114.png",
     "flavour_text": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
-    "alternate_versions": [
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 114,
-        "rarity": "Promo"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "pa-115",
@@ -7731,12 +7015,6 @@
         "set_name": "Space-Time Smackdown",
         "id": 179,
         "rarity": "☆"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 115,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7812,12 +7090,6 @@
         "set_name": "Deluxe Pack: ex",
         "id": 31,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 116,
-        "rarity": "Promo"
       }
     ]
   },
@@ -7875,12 +7147,6 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 120,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "pa",
-        "set_name": "Promo-A",
-        "id": 117,
-        "rarity": "Promo"
       }
     ]
   }

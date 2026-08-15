@@ -51,12 +51,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 227,
         "rarity": "☆"
       },
@@ -136,12 +130,6 @@
     "flavour_text": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 2,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 211,
@@ -211,12 +199,6 @@
     "flavour_text": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 3,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 212,
@@ -279,12 +261,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/004.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 4,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -468,12 +444,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/007.png",
     "flavour_text": "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 7,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -762,12 +732,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 12,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 228,
         "rarity": "☆"
       }
@@ -822,12 +786,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/013.png",
     "flavour_text": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 13,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
@@ -1114,12 +1072,6 @@
     "flavour_text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 18,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 287,
@@ -1176,12 +1128,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/019.png",
     "flavour_text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 19,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -1240,12 +1186,6 @@
     "flavour_text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 20,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 289,
@@ -1302,12 +1242,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/021.png",
     "flavour_text": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 21,
-        "rarity": "◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -1428,12 +1362,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/023.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 23,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -1617,12 +1545,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/026.png",
     "flavour_text": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 26,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -2025,12 +1947,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 33,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 230,
         "rarity": "☆"
       },
@@ -2103,12 +2019,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/034.png",
     "flavour_text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 34,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
@@ -2229,12 +2139,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/036.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 36,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -2431,12 +2335,6 @@
     "flavour_text": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 39,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 89,
@@ -2506,12 +2404,6 @@
     "flavour_text": "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 40,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 90,
@@ -2568,12 +2460,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/041.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 41,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -2700,12 +2586,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/043.png",
     "flavour_text": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 43,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -2878,12 +2758,6 @@
     "flavour_text": "It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 46,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 292,
@@ -2940,12 +2814,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/047.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 47,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -3315,12 +3183,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 53,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 232,
         "rarity": "☆"
       },
@@ -3400,12 +3262,6 @@
     "flavour_text": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 54,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 216,
@@ -3475,12 +3331,6 @@
     "flavour_text": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 55,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 217,
@@ -3543,12 +3393,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/056.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 56,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -3619,12 +3463,6 @@
     "flavour_text": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 57,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 93,
@@ -3681,12 +3519,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/058.png",
     "flavour_text": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 58,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
@@ -3802,12 +3634,6 @@
     "flavour_text": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 60,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 296,
@@ -3864,12 +3690,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/061.png",
     "flavour_text": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 61,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -4270,12 +4090,6 @@
     "flavour_text": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 68,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
         "id": 95,
@@ -4332,12 +4146,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/069.png",
     "flavour_text": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 69,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a4a",
         "set_name": "Secluded Springs",
@@ -4624,12 +4432,6 @@
     "flavour_text": "If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 74,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 218,
@@ -4699,12 +4501,6 @@
     "flavour_text": "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 75,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 219,
@@ -4761,12 +4557,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/076.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 76,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -4896,12 +4686,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 78,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 233,
         "rarity": "☆"
       }
@@ -4956,12 +4740,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/079.png",
     "flavour_text": "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 79,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -5026,12 +4804,6 @@
     "flavour_text": "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid’s.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 80,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 216,
@@ -5088,12 +4860,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/081.png",
     "flavour_text": "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 81,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -5152,12 +4918,6 @@
     "flavour_text": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 82,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 212,
@@ -5215,12 +4975,6 @@
     "flavour_text": "It’s said that this Pokémon’s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 83,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 298,
@@ -5277,12 +5031,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/084.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 84,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -5473,12 +5221,6 @@
     "flavour_text": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 87,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 91,
@@ -5554,12 +5296,6 @@
     "flavour_text": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 88,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 92,
@@ -5628,12 +5364,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/089.png",
     "flavour_text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 89,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
@@ -5944,12 +5674,6 @@
     "flavour_text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 94,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 128,
@@ -6090,12 +5814,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 96,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 259,
         "rarity": "☆☆"
       },
@@ -6181,12 +5899,6 @@
     "flavour_text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 97,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 217,
@@ -6261,12 +5973,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/098.png",
     "flavour_text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 98,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
@@ -6393,12 +6099,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/100.png",
     "flavour_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 100,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -6571,12 +6271,6 @@
     "flavour_text": "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 103,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 302,
@@ -6633,12 +6327,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/104.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 104,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -7171,12 +6859,6 @@
     "flavour_text": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 113,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 214,
@@ -7239,12 +6921,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/114.png",
     "flavour_text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 114,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -7419,12 +7095,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 117,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 236,
         "rarity": "☆"
       }
@@ -7479,12 +7149,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/118.png",
     "flavour_text": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 118,
-        "rarity": "◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -7600,12 +7264,6 @@
     "flavour_text": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 120,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 151,
@@ -7668,12 +7326,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/121.png",
     "flavour_text": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 121,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -7744,12 +7396,6 @@
     "flavour_text": "To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 122,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 222,
@@ -7806,12 +7452,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/123.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 123,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -7888,12 +7528,6 @@
     "flavour_text": "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 124,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 305,
@@ -7950,12 +7584,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/125.png",
     "flavour_text": "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 125,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -8071,12 +7699,6 @@
     "flavour_text": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 127,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 94,
@@ -8146,12 +7768,6 @@
     "flavour_text": "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 128,
-        "rarity": "◊◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 10,
@@ -8208,12 +7824,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/129.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 129,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -8415,12 +8025,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/132.png",
     "flavour_text": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 132,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -8841,12 +8445,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 139,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 238,
         "rarity": "☆"
       }
@@ -9016,12 +8614,6 @@
     "flavour_text": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 142,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 222,
@@ -9078,12 +8670,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/143.png",
     "flavour_text": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 143,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9153,12 +8739,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/144.png",
     "flavour_text": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 144,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
@@ -9288,12 +8868,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 146,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 263,
         "rarity": "☆☆"
       },
@@ -9366,12 +8940,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/147.png",
     "flavour_text": "Geodude that have lived a long life have had all their edges smoothed out until they’re totally round. They also have a calm, quiet disposition.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 147,
-        "rarity": "◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -9544,12 +9112,6 @@
     "flavour_text": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 150,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 21,
@@ -9606,12 +9168,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/151.png",
     "flavour_text": "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 151,
-        "rarity": "◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -9688,12 +9244,6 @@
     "flavour_text": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 152,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 227,
@@ -9750,12 +9300,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/153.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 153,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -9826,12 +9370,6 @@
     "flavour_text": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 154,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 218,
@@ -9888,12 +9426,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/155.png",
     "flavour_text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 155,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -10066,12 +9598,6 @@
     "flavour_text": "This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 158,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 220,
@@ -10128,12 +9654,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/159.png",
     "flavour_text": "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 159,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2",
         "set_name": "Fantastical Parade",
@@ -10420,12 +9940,6 @@
     "flavour_text": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 164,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 100,
@@ -10482,12 +9996,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/165.png",
     "flavour_text": "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 165,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -10546,12 +10054,6 @@
     "flavour_text": "Females are more sensitive to smells than males. While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 166,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 223,
@@ -10609,12 +10111,6 @@
     "flavour_text": "The horn on its head has atrophied. It’s thought that this happens so Nidorina’s children won’t get poked while their mother is feeding them.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 167,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 224,
@@ -10671,12 +10167,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/168.png",
     "flavour_text": "Nidoqueen is better at defense than offense. With scales like armor, this Pokémon will shield its children from any kind of attack.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 168,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -10741,12 +10231,6 @@
     "flavour_text": "The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 169,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 226,
@@ -10804,12 +10288,6 @@
     "flavour_text": "With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 170,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 227,
@@ -10866,12 +10344,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/171.png",
     "flavour_text": "When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 171,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -10992,12 +10464,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/173.png",
     "flavour_text": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 173,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -11226,12 +10692,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/177.png",
     "flavour_text": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 177,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -11691,12 +11151,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 185,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 244,
         "rarity": "☆"
       }
@@ -11751,12 +11205,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/186.png",
     "flavour_text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 186,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
@@ -11815,12 +11263,6 @@
     "flavour_text": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 187,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 96,
@@ -11877,12 +11319,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/188.png",
     "flavour_text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 188,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -12175,12 +11611,6 @@
     "flavour_text": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 193,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 277,
@@ -12303,12 +11733,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 195,
-        "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 265,
         "rarity": "☆☆"
       },
@@ -12384,12 +11808,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 196,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 246,
         "rarity": "☆"
       },
@@ -12457,12 +11875,6 @@
     "flavour_text": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 197,
-        "rarity": "◊◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 313,
@@ -12519,12 +11931,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/198.png",
     "flavour_text": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 198,
-        "rarity": "◊"
-      },
       {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
@@ -12607,12 +12013,6 @@
     "flavour_text": "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 199,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 314,
@@ -12669,12 +12069,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/200.png",
     "flavour_text": "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 200,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b1",
         "set_name": "Mega Rising",
@@ -12789,12 +12183,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/202.png",
     "flavour_text": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 202,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -12969,12 +12357,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 205,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 247,
         "rarity": "☆"
       }
@@ -13029,12 +12411,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/206.png",
     "flavour_text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 206,
-        "rarity": "◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -13114,12 +12490,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 206,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 207,
         "rarity": "◊"
       },
       {
@@ -13206,12 +12576,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 208,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 248,
         "rarity": "☆"
       },
@@ -13275,12 +12639,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 209,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 249,
         "rarity": "☆"
       }
@@ -13335,12 +12693,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/210.png",
     "flavour_text": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 210,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
@@ -13398,12 +12750,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/211.png",
     "flavour_text": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 211,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -13518,12 +12864,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/213.png",
     "flavour_text": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 213,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "pa",
         "set_name": "Promo-A",
@@ -13810,12 +13150,6 @@
     "flavour_text": null,
     "alternate_versions": [
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 218,
-        "rarity": "◊"
-      },
-      {
         "set_code": "a1a",
         "set_name": "Mythical Island",
         "id": 63,
@@ -13884,12 +13218,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/219.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 219,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -13962,12 +13290,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 220,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 267,
         "rarity": "☆☆"
       }
@@ -14022,12 +13344,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/221.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 221,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -14088,12 +13404,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 222,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 269,
         "rarity": "☆☆"
       }
@@ -14148,12 +13458,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/223.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 223,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -14226,12 +13530,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 224,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 271,
         "rarity": "☆☆"
       }
@@ -14286,12 +13584,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/225.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 225,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
@@ -14364,12 +13656,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 226,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 273,
         "rarity": "☆☆"
       }
@@ -14429,12 +13715,6 @@
         "set_name": "Genetic Apex",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 227,
-        "rarity": "☆"
       },
       {
         "set_code": "a3",
@@ -14516,12 +13796,6 @@
         "set_name": "Genetic Apex",
         "id": 12,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 228,
-        "rarity": "☆"
       }
     ]
   },
@@ -14579,12 +13853,6 @@
         "set_name": "Genetic Apex",
         "id": 26,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 229,
-        "rarity": "☆"
       }
     ]
   },
@@ -14642,12 +13910,6 @@
         "set_name": "Genetic Apex",
         "id": 33,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 230,
-        "rarity": "☆"
       },
       {
         "set_code": "a4b",
@@ -14723,12 +13985,6 @@
         "set_name": "Genetic Apex",
         "id": 43,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 231,
-        "rarity": "☆"
       }
     ]
   },
@@ -14786,12 +14042,6 @@
         "set_name": "Genetic Apex",
         "id": 53,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 232,
-        "rarity": "☆"
       },
       {
         "set_code": "a3",
@@ -14873,12 +14123,6 @@
         "set_name": "Genetic Apex",
         "id": 78,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 233,
-        "rarity": "☆"
       }
     ]
   },
@@ -14936,12 +14180,6 @@
         "set_name": "Genetic Apex",
         "id": 79,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 234,
-        "rarity": "☆"
       },
       {
         "set_code": "a3b",
@@ -15005,12 +14243,6 @@
         "set_name": "Genetic Apex",
         "id": 100,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 235,
-        "rarity": "☆"
       }
     ]
   },
@@ -15068,12 +14300,6 @@
         "set_name": "Genetic Apex",
         "id": 117,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 236,
-        "rarity": "☆"
       }
     ]
   },
@@ -15131,12 +14357,6 @@
         "set_name": "Genetic Apex",
         "id": 118,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 237,
-        "rarity": "☆"
       }
     ]
   },
@@ -15194,12 +14414,6 @@
         "set_name": "Genetic Apex",
         "id": 139,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 238,
-        "rarity": "☆"
       }
     ]
   },
@@ -15257,12 +14471,6 @@
         "set_name": "Genetic Apex",
         "id": 151,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 239,
-        "rarity": "☆"
       },
       {
         "set_code": "a3",
@@ -15340,12 +14548,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 240,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 225,
@@ -15409,12 +14611,6 @@
         "rarity": "◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 241,
-        "rarity": "☆"
-      },
-      {
         "set_code": "a4",
         "set_name": "Wisdom of Sea and Sky",
         "id": 228,
@@ -15476,12 +14672,6 @@
         "set_name": "Genetic Apex",
         "id": 173,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 242,
-        "rarity": "☆"
       }
     ]
   },
@@ -15539,12 +14729,6 @@
         "set_name": "Genetic Apex",
         "id": 177,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 243,
-        "rarity": "☆"
       }
     ]
   },
@@ -15602,12 +14786,6 @@
         "set_name": "Genetic Apex",
         "id": 185,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 244,
-        "rarity": "☆"
       }
     ]
   },
@@ -15665,12 +14843,6 @@
         "set_name": "Genetic Apex",
         "id": 188,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 245,
-        "rarity": "☆"
       },
       {
         "set_code": "a3a",
@@ -15734,12 +14906,6 @@
         "set_name": "Genetic Apex",
         "id": 196,
         "rarity": "◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 246,
-        "rarity": "☆"
       },
       {
         "set_code": "b1",
@@ -15809,12 +14975,6 @@
         "set_name": "Genetic Apex",
         "id": 205,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 247,
-        "rarity": "☆"
       }
     ]
   },
@@ -15886,12 +15046,6 @@
         "rarity": "◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 248,
-        "rarity": "☆"
-      },
-      {
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 92,
@@ -15953,12 +15107,6 @@
         "set_name": "Genetic Apex",
         "id": 209,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 249,
-        "rarity": "☆"
       }
     ]
   },
@@ -16016,12 +15164,6 @@
         "set_name": "Genetic Apex",
         "id": 211,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 250,
-        "rarity": "☆"
       }
     ]
   },
@@ -16079,12 +15221,6 @@
         "set_name": "Genetic Apex",
         "id": 4,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 251,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a3",
@@ -16156,12 +15292,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 252,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 231,
@@ -16229,12 +15359,6 @@
         "set_name": "Genetic Apex",
         "id": 36,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 253,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -16318,12 +15442,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 254,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3a",
         "set_name": "Extradimensional Crisis",
         "id": 100,
@@ -16391,12 +15509,6 @@
         "set_name": "Genetic Apex",
         "id": 47,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 255,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -16480,12 +15592,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 256,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 232,
@@ -16555,12 +15661,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 257,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 233,
@@ -16628,12 +15728,6 @@
         "set_name": "Genetic Apex",
         "id": 84,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 258,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -16709,12 +15803,6 @@
         "set_name": "Genetic Apex",
         "id": 96,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 259,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -16806,12 +15894,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 260,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 276,
         "rarity": "☆☆"
       },
@@ -16887,12 +15969,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 261,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 277,
         "rarity": "☆☆"
       },
@@ -16964,12 +16040,6 @@
         "set_name": "Genetic Apex",
         "id": 129,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 262,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -17061,12 +16131,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 263,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 278,
         "rarity": "☆☆"
       },
@@ -17140,12 +16204,6 @@
         "rarity": "◊◊◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 264,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 236,
@@ -17213,12 +16271,6 @@
         "set_name": "Genetic Apex",
         "id": 195,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 265,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a1",
@@ -17296,12 +16348,6 @@
         "rarity": "◊◊"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 266,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a4b",
         "set_name": "Deluxe Pack: ex",
         "id": 328,
@@ -17369,12 +16415,6 @@
         "set_name": "Genetic Apex",
         "id": 220,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 267,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17432,12 +16472,6 @@
         "set_name": "Genetic Apex",
         "id": 221,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 268,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17495,12 +16529,6 @@
         "set_name": "Genetic Apex",
         "id": 222,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 269,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17558,12 +16586,6 @@
         "set_name": "Genetic Apex",
         "id": 223,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 270,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a4b",
@@ -17633,12 +16655,6 @@
         "set_name": "Genetic Apex",
         "id": 224,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 271,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17696,12 +16712,6 @@
         "set_name": "Genetic Apex",
         "id": 225,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 272,
-        "rarity": "☆☆"
       },
       {
         "set_code": "a4b",
@@ -17771,12 +16781,6 @@
         "set_name": "Genetic Apex",
         "id": 226,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 273,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -17839,12 +16843,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 255,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 274,
         "rarity": "☆☆"
       },
       {
@@ -17929,12 +16927,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 275,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3b",
         "set_name": "Eevee Grove",
         "id": 104,
@@ -18007,12 +16999,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 260,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 276,
         "rarity": "☆☆"
       },
       {
@@ -18091,12 +17077,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 277,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 234,
@@ -18169,12 +17149,6 @@
         "set_code": "a1",
         "set_name": "Genetic Apex",
         "id": 263,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 278,
         "rarity": "☆☆"
       },
       {
@@ -18253,12 +17227,6 @@
         "rarity": "☆☆"
       },
       {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 279,
-        "rarity": "☆☆"
-      },
-      {
         "set_code": "a3",
         "set_name": "Celestial Guardians",
         "id": 237,
@@ -18332,12 +17300,6 @@
         "set_name": "Genetic Apex",
         "id": 253,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 280,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a1",
@@ -18419,12 +17381,6 @@
         "set_name": "Genetic Apex",
         "id": 259,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 281,
-        "rarity": "☆☆☆"
       },
       {
         "set_code": "a1",
@@ -18516,12 +17472,6 @@
       {
         "set_code": "a1",
         "set_name": "Genetic Apex",
-        "id": 282,
-        "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
         "id": 286,
         "rarity": "Crown Rare"
       },
@@ -18594,12 +17544,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/283.png",
     "flavour_text": "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
     "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 283,
-        "rarity": "☆☆☆"
-      },
       {
         "set_code": "a1a",
         "set_name": "Mythical Island",
@@ -18674,12 +17618,6 @@
         "set_name": "Genetic Apex",
         "id": 280,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 284,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",
@@ -18761,12 +17699,6 @@
         "set_name": "Genetic Apex",
         "id": 281,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 285,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",
@@ -18854,12 +17786,6 @@
         "set_name": "Genetic Apex",
         "id": 282,
         "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 286,
-        "rarity": "Crown Rare"
       },
       {
         "set_code": "a4b",

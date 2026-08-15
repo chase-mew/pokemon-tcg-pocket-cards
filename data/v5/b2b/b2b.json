@@ -51,12 +51,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 1,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 87,
         "rarity": "☆"
       }
@@ -111,12 +105,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/002.png",
     "flavour_text": "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 2,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -291,12 +279,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 5,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 89,
         "rarity": "☆"
       }
@@ -351,12 +333,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/006.png",
     "flavour_text": "Trevenant is very kind to Pokémon living in the forest. It doesn’t even care if these Pokémon take up residence in the greenery on its head.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 6,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -417,12 +393,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 7,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 91,
         "rarity": "☆"
       }
@@ -480,12 +450,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 8,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 92,
         "rarity": "☆"
       }
@@ -540,12 +504,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/009.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 9,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -612,12 +570,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 10,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 93,
         "rarity": "☆"
       }
@@ -672,12 +624,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/011.png",
     "flavour_text": "The fastest runner becomes the leader, and it decides the herd’s pace and direction of travel.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 11,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -909,12 +855,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 15,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 95,
         "rarity": "☆"
       },
@@ -975,12 +915,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/016.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 16,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -1050,12 +984,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/017.png",
     "flavour_text": "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 17,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -1230,12 +1158,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 20,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 71,
         "rarity": "☆"
       }
@@ -1350,12 +1272,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 22,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 96,
         "rarity": "☆"
       }
@@ -1413,12 +1329,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 23,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 97,
         "rarity": "☆"
       }
@@ -1473,12 +1383,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/024.png",
     "flavour_text": "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 24,
-        "rarity": "◊"
-      },
       {
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
@@ -1596,12 +1500,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 26,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 98,
         "rarity": "☆"
       }
@@ -1656,12 +1554,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/027.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 27,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -1848,12 +1740,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 30,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 85,
         "rarity": "☆☆☆"
       },
@@ -2029,12 +1915,6 @@
     "flavour_text": "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
     "alternate_versions": [
       {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 33,
-        "rarity": "◊"
-      },
-      {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 98,
@@ -2091,12 +1971,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/034.png",
     "flavour_text": "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 34,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b3a",
         "set_name": "Paradox Drive",
@@ -2157,12 +2031,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 35,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 72,
         "rarity": "☆"
       }
@@ -2220,12 +2088,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 36,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 99,
         "rarity": "☆"
       }
@@ -2280,12 +2142,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/037.png",
     "flavour_text": "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 37,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -2352,12 +2208,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 38,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 101,
         "rarity": "☆"
       }
@@ -2412,12 +2262,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/039.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 39,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -2655,12 +2499,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 43,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 102,
         "rarity": "☆"
       }
@@ -2715,12 +2553,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/044.png",
     "flavour_text": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 44,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -2781,12 +2613,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 45,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 73,
         "rarity": "☆"
       }
@@ -2844,12 +2670,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 46,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 104,
         "rarity": "☆"
       }
@@ -2904,12 +2724,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/047.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 47,
-        "rarity": "◊◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -3092,12 +2906,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 50,
-        "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 74,
         "rarity": "☆"
       }
@@ -3152,12 +2960,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/051.png",
     "flavour_text": "It is born large to start with. It repeatedly sheds its skin as it steadily grows longer.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 51,
-        "rarity": "◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -3218,12 +3020,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 52,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 106,
         "rarity": "☆"
       }
@@ -3278,12 +3074,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/053.png",
     "flavour_text": "It can fly in spite of its big and bulky physique. It circles the globe in just 16 hours.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 53,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -3344,12 +3134,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 54,
-        "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 108,
         "rarity": "☆"
       }
@@ -3407,12 +3191,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 55,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 109,
         "rarity": "☆"
       }
@@ -3467,12 +3245,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/056.png",
     "flavour_text": "It overwhelms enemies with its prized tusks, which are sharp enough to cut through a metal transmission tower in one strike.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 56,
-        "rarity": "◊◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -3651,12 +3423,6 @@
     "flavour_text": "The rich, fluffy fur that covers its body feels so good that anyone who feels it can’t stop touching it.",
     "alternate_versions": [
       {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 59,
-        "rarity": "◊"
-      },
-      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 48,
@@ -3716,12 +3482,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 60,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 75,
         "rarity": "☆"
       }
@@ -3776,12 +3536,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/061.png",
     "flavour_text": "It can learn and speak human words. If they gather, they all learn the same saying.",
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 61,
-        "rarity": "◊"
-      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4127,12 +3881,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 67,
-        "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 81,
         "rarity": "☆☆"
       }
@@ -4187,12 +3935,6 @@
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/068.png",
     "flavour_text": null,
     "alternate_versions": [
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 68,
-        "rarity": "◊◊"
-      },
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
@@ -4312,12 +4054,6 @@
         "set_name": "Mega Shine",
         "id": 17,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 70,
-        "rarity": "☆"
       }
     ]
   },
@@ -4375,12 +4111,6 @@
         "set_name": "Mega Shine",
         "id": 20,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 71,
-        "rarity": "☆"
       }
     ]
   },
@@ -4438,12 +4168,6 @@
         "set_name": "Mega Shine",
         "id": 35,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 72,
-        "rarity": "☆"
       }
     ]
   },
@@ -4501,12 +4225,6 @@
         "set_name": "Mega Shine",
         "id": 45,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 73,
-        "rarity": "☆"
       }
     ]
   },
@@ -4564,12 +4282,6 @@
         "set_name": "Mega Shine",
         "id": 50,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 74,
-        "rarity": "☆"
       }
     ]
   },
@@ -4627,12 +4339,6 @@
         "set_name": "Mega Shine",
         "id": 60,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 75,
-        "rarity": "☆"
       }
     ]
   },
@@ -4690,12 +4396,6 @@
         "set_name": "Mega Shine",
         "id": 9,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 76,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2b",
@@ -4759,12 +4459,6 @@
         "set_name": "Mega Shine",
         "id": 16,
         "rarity": "◊◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 77,
-        "rarity": "☆☆"
       },
       {
         "set_code": "b2b",
@@ -4838,12 +4532,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 78,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 84,
         "rarity": "☆☆"
       },
@@ -4913,12 +4601,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 79,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 114,
         "rarity": "☆☆"
       }
@@ -4982,12 +4664,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 80,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 115,
         "rarity": "☆☆"
       }
@@ -5047,12 +4723,6 @@
         "set_name": "Mega Shine",
         "id": 67,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 81,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5110,12 +4780,6 @@
         "set_name": "Mega Shine",
         "id": 68,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 82,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -5178,12 +4842,6 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 77,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 83,
         "rarity": "☆☆"
       },
       {
@@ -5258,12 +4916,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 84,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 113,
         "rarity": "☆☆"
       }
@@ -5327,12 +4979,6 @@
       {
         "set_code": "b2b",
         "set_name": "Mega Shine",
-        "id": 85,
-        "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
         "id": 86,
         "rarity": "☆☆☆"
       }
@@ -5355,7 +5001,7 @@
     "mega": false,
     "shiny": false,
     "special_tags": null,
-    "art_style": "Parallel Foil",
+    "art_style": "Immersive Art",
     "health": 50,
     "retreat": 1,
     "weakness": "Darkness",
@@ -5397,12 +5043,6 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 85,
-        "rarity": "☆☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 86,
         "rarity": "☆☆☆"
       }
     ]
@@ -5461,12 +5101,6 @@
         "set_name": "Mega Shine",
         "id": 1,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 87,
-        "rarity": "☆"
       }
     ]
   },
@@ -5524,12 +5158,6 @@
         "set_name": "Mega Shine",
         "id": 2,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 88,
-        "rarity": "☆"
       }
     ]
   },
@@ -5587,12 +5215,6 @@
         "set_name": "Mega Shine",
         "id": 5,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 89,
-        "rarity": "☆"
       }
     ]
   },
@@ -5650,12 +5272,6 @@
         "set_name": "Mega Shine",
         "id": 6,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 90,
-        "rarity": "☆"
       }
     ]
   },
@@ -5713,12 +5329,6 @@
         "set_name": "Mega Shine",
         "id": 7,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 91,
-        "rarity": "☆"
       }
     ]
   },
@@ -5776,12 +5386,6 @@
         "set_name": "Mega Shine",
         "id": 8,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 92,
-        "rarity": "☆"
       }
     ]
   },
@@ -5839,12 +5443,6 @@
         "set_name": "Mega Shine",
         "id": 10,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 93,
-        "rarity": "☆"
       }
     ]
   },
@@ -5902,12 +5500,6 @@
         "set_name": "Mega Shine",
         "id": 11,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 94,
-        "rarity": "☆"
       }
     ]
   },
@@ -5965,12 +5557,6 @@
         "set_name": "Mega Shine",
         "id": 15,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 95,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -6034,12 +5620,6 @@
         "set_name": "Mega Shine",
         "id": 22,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 96,
-        "rarity": "☆"
       }
     ]
   },
@@ -6097,12 +5677,6 @@
         "set_name": "Mega Shine",
         "id": 23,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 97,
-        "rarity": "☆"
       }
     ]
   },
@@ -6160,12 +5734,6 @@
         "set_name": "Mega Shine",
         "id": 26,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 98,
-        "rarity": "☆"
       }
     ]
   },
@@ -6223,12 +5791,6 @@
         "set_name": "Mega Shine",
         "id": 36,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 99,
-        "rarity": "☆"
       }
     ]
   },
@@ -6286,12 +5848,6 @@
         "set_name": "Mega Shine",
         "id": 37,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 100,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -6355,12 +5911,6 @@
         "set_name": "Mega Shine",
         "id": 38,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 101,
-        "rarity": "☆"
       }
     ]
   },
@@ -6418,12 +5968,6 @@
         "set_name": "Mega Shine",
         "id": 43,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 102,
-        "rarity": "☆"
       }
     ]
   },
@@ -6481,12 +6025,6 @@
         "set_name": "Mega Shine",
         "id": 44,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 103,
-        "rarity": "☆"
       }
     ]
   },
@@ -6544,12 +6082,6 @@
         "set_name": "Mega Shine",
         "id": 46,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 104,
-        "rarity": "☆"
       }
     ]
   },
@@ -6607,12 +6139,6 @@
         "set_name": "Mega Shine",
         "id": 51,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 105,
-        "rarity": "☆"
       }
     ]
   },
@@ -6670,12 +6196,6 @@
         "set_name": "Mega Shine",
         "id": 52,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 106,
-        "rarity": "☆"
       }
     ]
   },
@@ -6733,12 +6253,6 @@
         "set_name": "Mega Shine",
         "id": 53,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 107,
-        "rarity": "☆"
       }
     ]
   },
@@ -6796,12 +6310,6 @@
         "set_name": "Mega Shine",
         "id": 54,
         "rarity": "◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 108,
-        "rarity": "☆"
       }
     ]
   },
@@ -6859,12 +6367,6 @@
         "set_name": "Mega Shine",
         "id": 55,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 109,
-        "rarity": "☆"
       }
     ]
   },
@@ -6922,12 +6424,6 @@
         "set_name": "Mega Shine",
         "id": 56,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 110,
-        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -6996,12 +6492,6 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 76,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 111,
         "rarity": "☆☆"
       }
     ]
@@ -7072,12 +6562,6 @@
         "set_name": "Mega Shine",
         "id": 83,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 112,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -7147,12 +6631,6 @@
         "set_name": "Mega Shine",
         "id": 84,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 113,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -7215,12 +6693,6 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 79,
-        "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 114,
         "rarity": "☆☆"
       }
     ]
@@ -7285,12 +6757,6 @@
         "set_name": "Mega Shine",
         "id": 80,
         "rarity": "☆☆"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 115,
-        "rarity": "☆☆"
       }
     ]
   },
@@ -7348,12 +6814,6 @@
         "set_name": "Paldean Wonders",
         "id": 9,
         "rarity": "◊◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 116,
-        "rarity": "Crown Rare"
       }
     ]
   },
@@ -7411,12 +6871,6 @@
         "set_name": "Fantastical Parade",
         "id": 148,
         "rarity": "◊◊"
-      },
-      {
-        "set_code": "b2b",
-        "set_name": "Mega Shine",
-        "id": 117,
-        "rarity": "Crown Rare"
       }
     ]
   }
