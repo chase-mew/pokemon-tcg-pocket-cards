@@ -14,7 +14,7 @@ async function loadCardData() {
 
 ## Set up the local environment
 
-To run the scraper yourself, you need Python installed on your machine.
+To run the scraper yourself, you need Python 3.9+ installed on your machine.
 
 1. Clone the repository to your local machine.
 2. Open a terminal and navigate to the project directory.

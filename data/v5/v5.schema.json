@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pokemon TCG Pocket Card V5 Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string" },
+      "name": { "type": "string" },
+      "set_code": { "type": "string" },
+      "set_name": { "type": "string" },
+      "pack": { "type": "string" },
+      "release_date": { "type": ["string", "null"], "format": "date" },
+      "type": { "type": "string" },
+      "subtype": { "type": "string" },
+      "stage": { "type": ["string", "null"] },
+      "evolves_from": { "type": ["string", "null"] },
+      "rarity": { "type": ["string", "null"] },
+      "pack_points": { "type": ["integer", "null"] },
+      "ex": { "type": "boolean" },
+      "mega": { "type": "boolean" },
+      "shiny": { "type": "boolean" },
+      "special_tags": {
+        "type": ["array", "null"],
+        "items": { "type": "string" }
+      },
+      "art_style": { "type": ["string", "null"] },
+      "health": { "type": ["integer", "null"] },
+      "retreat": { "type": ["integer", "null"] },
+      "weakness": { "type": ["string", "null"] },
+      "ability": {
+        "type": "object",
+        "properties": {
+          "exists": { "type": "boolean" },
+          "name": { "type": ["string", "null"] },
+          "effect": { "type": ["string", "null"] }
+        },
+        "required": ["exists", "name", "effect"]
+      },
+      "card_text": { "type": ["string", "null"] },
+      "attacks": {
+        "type": "object",
+        "properties": {
+          "1": { "$ref": "#/definitions/attack" },
+          "2": { "$ref": "#/definitions/attack" }
+        },
+        "required": ["1", "2"]
+      },
+      "points": { "type": ["integer", "null"] },
+      "deckBuilderNr": { "type": "integer" },
+      "share_code": { "type": "string" },
+      "artist": { "type": ["string", "null"] },
+      "image": { "type": "string", "format": "uri" },
+      "image_png": { "type": "string", "format": "uri" },
+      "flavour_text": { "type": ["string", "null"] },
+      "alternate_versions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "set_code": { "type": "string" },
+            "set_name": { "type": "string" },
+            "id": { "type": "integer" },
+            "rarity": { "type": "string" }
+          },
+          "required": ["set_code", "set_name", "id", "rarity"]
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "set_name",
+      "pack",
+      "release_date",
+      "type",
+      "subtype",
+      "stage",
+      "evolves_from",
+      "rarity",
+      "pack_points",
+      "ex",
+      "mega",
+      "shiny",
+      "special_tags",
+      "art_style",
+      "health",
+      "retreat",
+      "weakness",
+      "ability",
+      "card_text",
+      "attacks",
+      "points",
+      "deckBuilderNr",
+      "share_code",
+      "artist",
+      "image",
+      "image_png",
+      "flavour_text",
+      "alternate_versions"
+    ]
+  },
+  "definitions": {
+    "attack": {
+      "type": "object",
+      "properties": {
+        "cost": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "damage": { "type": ["integer", "null"] },
+        "effect": { "type": ["string", "null"] }
+      },
+      "required": ["cost", "name", "damage", "effect"]
+    }
+  }
+}

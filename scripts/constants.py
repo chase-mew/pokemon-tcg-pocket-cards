@@ -19,6 +19,8 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import os
 
 BASE_URL = "https://pocket.limitlesstcg.com/cards/"
@@ -32,6 +34,13 @@ SESSION = requests.Session()
 SESSION.headers["User-Agent"] = (
     "pokemon-tcg-pocket-cards/1.0 (+https://github.com/chase-manning/pokemon-tcg-pocket-cards)"
 )
+retries = Retry(
+    total=5,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504]
+)
+SESSION.mount("https://", HTTPAdapter(max_retries=retries))
+SESSION.mount("http://", HTTPAdapter(max_retries=retries))
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
@@ -40,8 +49,8 @@ V1_JSON_PATH = os.path.join(ROOT_DIR, "v1.json")
 V2_JSON_PATH = os.path.join(ROOT_DIR, "v2.json")
 V3_JSON_PATH = os.path.join(ROOT_DIR, "v3.json")
 V4_JSON_PATH = os.path.join(ROOT_DIR, "v4.json")
-V5_JSON_PATH = os.path.join(ROOT_DIR, "v5.json")
-EXPANSIONS_JSON_PATH = os.path.join(ROOT_DIR, "expansions.json")
+V5_DIR = os.path.join(ROOT_DIR, "data", "v5")
+EXPANSIONS_JSON_PATH = os.path.join(V5_DIR, "expansions.json")
 IMAGES_DIR = os.path.join(ROOT_DIR, "images")
 WEBP_CARDS_DIR = os.path.join(IMAGES_DIR, "webp", "cards")
 PNG_CARDS_DIR = os.path.join(IMAGES_DIR, "png", "cards")

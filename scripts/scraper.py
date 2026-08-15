@@ -21,7 +21,7 @@ import re
 import time
 import requests
 from bs4 import BeautifulSoup
-
+from tqdm import tqdm
 from constants import BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES, PROMO_A_PACK_KEYWORDS, SESSION
 from utils import clean_text, parse_release_date, parse_trainer_subtype, to_int
 
@@ -206,17 +206,17 @@ def extract_card(soup, set_code=""):
 def scrape_cards(set_code):
     """Scrape all cards in a set, stopping after MAX_CONSECUTIVE_ERRORS misses."""
     cards, errors, i = [], 0, 0
-    while errors < MAX_CONSECUTIVE_ERRORS:
-        i += 1
-        try:
-            cards.append(extract_card(fetch_page(f"{BASE_URL}{set_code}/{i}"), set_code))
-            errors = 0
-            if len(cards) % 10 == 0:
-                print(f"    ...scraped {len(cards)} cards")
-            time.sleep(0.15)
-        except NotFound:
-            errors += 1
-        except Exception as e:
-            errors += 1
-            print(f"    WARNING: card {i} failed: {type(e).__name__}: {e}")
+    with tqdm(desc=f"Scraping {set_code}", unit="card") as pbar:
+        while errors < MAX_CONSECUTIVE_ERRORS:
+            i += 1
+            try:
+                cards.append(extract_card(fetch_page(f"{BASE_URL}{set_code}/{i}"), set_code))
+                errors = 0
+                pbar.update(1)
+                time.sleep(0.15)
+            except NotFound:
+                errors += 1
+            except Exception as e:
+                errors += 1
+                tqdm.write(f"WARNING: card {i} failed: {type(e).__name__}: {e}")
     return cards

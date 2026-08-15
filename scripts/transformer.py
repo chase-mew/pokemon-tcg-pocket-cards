@@ -27,13 +27,15 @@ from deck_code import get_deck_builder_nr, create_single_card_code
 def fetch_datamine_lookup():
     lookup = {}
     try:
-        resp = requests.get("https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json", timeout=10)
+        resp = requests.get("https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json",
+                            timeout=10)
         if resp.status_code == 200:
             for card in resp.json():
-                c_set = str(card.get("set", "")).lower().replace("-", "")
+                c_set = str(card.get("set", "")).lower()
+                c_set = f"p{c_set.split('-')[-1]}" if c_set.startswith("promo-") else c_set.replace("-", "")
                 c_num = card.get("number")
                 if c_set and c_num is not None:
-                    nr = get_deck_builder_nr(card.get("image", ""))
+                    nr = get_deck_builder_nr(card.get("image", ""))  # ponytail: memoize this if dataset gets huge
                     if nr: lookup[(c_set, int(c_num))] = nr
     except requests.RequestException:
         pass

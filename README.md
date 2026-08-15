@@ -92,9 +92,10 @@ Submit a pull request to list your project here if you build something with this
 
 ## 📜 License
 
-- **💚 Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`).    
+- **💚 Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).    
 See **[LICENSE](LICENSE)** for the full license text.
-- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original **[MIT License](https://spdx.org/licenses/MIT.html)**.     
+- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
-- **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**. It was ported to Python under **[GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text)** (`AGPL-3.0-or-later`), Copyright (C) 2026 Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>.
+- **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.    
+It was ported to Python under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`), Copyright (C) 2026 **Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>**.
 - Pokémon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.

@@ -18,7 +18,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 import re
-
+import json
 from datetime import datetime
 from constants import TRAINER_SUBTYPES, TAG_DEFINITIONS
 
@@ -33,6 +33,13 @@ def normalise_set_code(code):
     """Normalise set code input (e.g. 'PA'/'pa' -> 'P-A', 'PB' -> 'P-B')."""
     c = code.strip().upper().replace("-", "")
     return f"P-{c[1]}" if len(c) == 2 and c[0] == 'P' else c
+
+def _load_existing_json(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
 
 def set_code_to_prefix(set_code):
     """Convert set code to card ID prefix (e.g. 'B2b' -> 'b2b', 'P-A' -> 'pa')."""

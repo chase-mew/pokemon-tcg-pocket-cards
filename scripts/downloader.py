@@ -21,7 +21,7 @@ import io
 import os
 import time
 from PIL import Image
-
+from tqdm import tqdm
 from constants import ROOT_DIR, SEREBII_BASE_URL, SESSION
 from utils import serebii_slug
 
@@ -29,27 +29,24 @@ def download_images(cards, prefix):
     webp_dir, png_dir = os.path.join(ROOT_DIR, "images", "webp", "cards", prefix), os.path.join(ROOT_DIR, "images", "png", "cards", prefix)
     os.makedirs(webp_dir, exist_ok=True); os.makedirs(png_dir, exist_ok=True)
 
-    total = len(cards)
-    processed = 0
-
-    for card in cards:
+    for card in tqdm(cards, desc=f"Downloading {prefix} images", unit="img"):
         source_url = card.pop("source_url", None)
-        processed += 1
 
         if source_url and "limitlesstcg" in source_url:
             num = card["id"].split("-")[-1]
-            out_webp, out_png = os.path.join(webp_dir, f"{num}.webp"), os.path.join(png_dir, f"{num}.png")
+            out_webp = os.path.join(webp_dir, f"{num}.webp")
+            out_png = os.path.join(png_dir, f"{num}.png")
 
             if not (os.path.exists(out_webp) and os.path.exists(out_png)):
                 try:
                     time.sleep(0.15)
-                    img = Image.open(io.BytesIO(SESSION.get(source_url, timeout=30).content)).convert("RGBA")
-                    img.save(out_webp, "WEBP"); img.save(out_png, "PNG")
+                    resp = SESSION.get(source_url, timeout=30)
+                    resp.raise_for_status()
+                    img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
+                    img.save(out_webp, "WEBP")
+                    img.save(out_png, "PNG")
                 except Exception as e:
-                    print(f"    Failed {card['id']}: {e}")
-
-        if processed % 10 == 0 or processed == total:
-            print(f"    ...processed {processed}/{total} images")
+                    raise RuntimeError(f"Critical failure downloading image for {card['id']}: {e}")
 
 def download_pack_images(expansion_name, packs):
     webp_dir, png_dir = os.path.join(ROOT_DIR, "images", "webp", "packs"), os.path.join(ROOT_DIR, "images", "png", "packs")

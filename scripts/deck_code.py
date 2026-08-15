@@ -39,17 +39,14 @@ def create_single_card_code(nr):
         return None
 
     is_special = nr >= SPECIAL_THRESHOLD
-    specials = [nr] if is_special else []
-    normals = [] if is_special else [nr]
+    specials, normals = ([nr], []) if is_special else ([], [nr])
 
     bytes_arr = bytearray()
-    for group in [specials, normals]:
+    for is_normal, group in enumerate([specials, normals]):
         bytes_arr.append(len(group) & 0xff)
         for n in group:
-            v = n * 10
-            bytes_arr.append((v >> 16) & 0xff)
-            bytes_arr.append((v >> 8) & 0xff)
-            bytes_arr.append(v & 0xff)
+            v = n * 10 if is_normal else n  # ponytail: trainers use absolute id, pokemon get *10
+            bytes_arr.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
 
     bytes_arr.append(0)
-    return base64.b64encode(bytes_arr).decode("utf-8")
+    return base64.b64encode(bytes_arr).decode("utf-8").replace("=", "")

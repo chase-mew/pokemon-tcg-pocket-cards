@@ -18,7 +18,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 """
-Add a new expansion to the Pokemon TCG Pocket cards database.
+Add a new expansion to the Pokémon TCG Pocket cards database.
 
 Scrapes card data from Limitless TCG, downloads card images, and updates
 both the current card database and expansions.json (expansion index).
@@ -29,16 +29,34 @@ Usage:
     python scripts/add_expansion.py PA              # update Promo-A with new cards
     python scripts/add_expansion.py PB --skip-images
 """
-
+import os
+import jsonschema
+import json
 import argparse
 import sys
 
-from constants import CURRENT_VERSION
-from database import update_cards, update_expansions
+from constants import CURRENT_VERSION, V5_DIR
+from database import update_cards, update_expansions, compile_v5_database
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
 from transformer import transform_cards
 from utils import normalise_set_code, set_code_to_prefix
+
+
+def validate_schema(cards):
+    schema_path = os.path.join(V5_DIR, "v5.schema.json")
+    if not os.path.exists(schema_path):
+        print("    WARNING: v5.schema.json not found, skipping validation.")
+        return
+
+    with open(schema_path, "r", encoding="utf-8") as f:
+        schema = json.load(f)
+
+    try:
+        jsonschema.validate(instance=cards, schema=schema)
+        print("    Schema validation passed.")
+    except jsonschema.exceptions.ValidationError as e:
+        raise ValueError(f"Schema violation in {e.json_path}: {e.message}")
 
 
 def resolve_set_range(range_str):
@@ -92,6 +110,8 @@ def process_single_set(set_code, args):
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
     cards = transform_cards(raw_cards, set_code, expansion_name, args.mode, release_date)
+    if args.mode == "v5":
+        validate_schema(cards)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
@@ -108,7 +128,7 @@ def process_single_set(set_code, args):
     target_version = 4 if args.mode == "v4" else CURRENT_VERSION
     added = update_cards(cards, target_version)
 
-    if is_promo or args.mode == "v4":
+    if args.mode == "v4":
         print("    Skipping expansion index update")
         expansion_packs = None
     else:
@@ -123,21 +143,36 @@ def process_single_set(set_code, args):
 
     print(f"\n{'=' * 60}")
     print(f"  Done! {expansion_name} ({set_code})")
-    print(f"  {len(cards)} cards scraped, {added} new added to v{target_version}.json")
+    print(f"  {len(cards)} cards scraped, {added} new added")
     print(f"{'=' * 60}\n")
 
 
 def main():
     parser = argparse.ArgumentParser(description="Add a new Pokemon TCG Pocket expansion")
-    parser.add_argument("set_code", help="Set code or range (e.g. B3b, a1->b4, PA)")
+    parser.add_argument("set_code", nargs="?", help="Set code or range (e.g. B3b, a1->b4, PA)")
+    parser.add_argument("--all", action="store_true", help="Scrape all discoverable sets from Limitless")
     parser.add_argument("--name", help="Override expansion name (auto-detected if omitted)")
     parser.add_argument("--mode", choices=["v4", "v5"], default="v5", help="Target output schema format")
     parser.add_argument("--skip-images", action="store_true", help="Skip downloading card images")
     args = parser.parse_args()
+    set_codes = []
+    if args.all:
+        set_codes = get_all_set_codes()
+        set_codes.reverse()
+    elif args.set_code:
+        set_codes = resolve_set_range(args.set_code)
+    else:
+        print("Error: You must provide a set_code or use the --all flag.")
+        sys.exit(1)
 
-    set_codes = resolve_set_range(args.set_code)
     for code in set_codes:
         process_single_set(code, args)
+
+    if args.mode == "v5":
+        print("\nCompiling v5 database and syncing alternate versions...")
+        compile_v5_database()
+        print("Compilation complete. Main v5 files generated.")
+
 
 
 if __name__ == "__main__":
