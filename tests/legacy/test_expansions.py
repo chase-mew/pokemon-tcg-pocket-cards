@@ -8,7 +8,10 @@ PNG_PACKS_DIR = os.path.join(ROOT_DIR, "images", "png", "packs")
 IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/"
 
 
-EXPANSION_REQUIRED_FIELDS = ["id", "name", "packs"]
+EXPANSION_REQUIRED_FIELDS = [
+    "id", "name", "release_date", "total_cards",
+    "cards_url", "cards_url_min", "packs"
+]
 PACK_REQUIRED_FIELDS = ["id", "name", "image", "image_png"]
 
 EXPANSION_ID_PATTERN = re.compile(r"^[a-z][a-z0-9]*$")
@@ -111,33 +114,34 @@ class TestExpansionPacks:
         for exp in expansions:
             for pack in exp["packs"]:
                 for field in PACK_REQUIRED_FIELDS:
-                    assert isinstance(pack[field], str), (
-                        f"Pack {pack['id']} field '{field}' is not a string"
-                    )
-
+                    if field in ("image", "image_png") and exp["id"].startswith(("pa", "pb")):
+                        assert pack[field] is None, f"Promo pack {pack['id']} field '{field}' should be None"
+                    else:
+                        assert isinstance(pack[field], str), f"Pack {pack['id']} field '{field}' is not a string"
 
 class TestPackImages:
     def test_pack_image_url_format(self, expansions):
         for exp in expansions:
             for pack in exp["packs"]:
-                assert pack["image_png"].startswith(IMAGE_URL_PREFIX)
+                if pack["image_png"] is not None:
+                    assert pack["image_png"].startswith(IMAGE_URL_PREFIX)
 
 
     def test_pack_image_url_matches_id(self, expansions):
         for exp in expansions:
             for pack in exp["packs"]:
-                filename = pack["image"].split("/")[-1]
-                name_without_ext = filename.rsplit(".", 1)[0]
-                assert name_without_ext == pack["id"], (
-                    f"Pack {pack['id']} image filename '{filename}' "
-                    f"doesn't match pack ID"
-                )
+                if pack["image"] is not None:
+                    filename = pack["image"].split("/")[-1]
+                    name_without_ext = filename.rsplit(".", 1)[0]
+                    assert name_without_ext == pack["id"], (
+                        f"Pack {pack['id']} image filename '{filename}' doesn't match pack ID"
+                    )
 
     def test_pack_image_file_exists(self, expansions):
         missing = []
         for exp in expansions:
             for pack in exp["packs"]:
-                if pack["id"].startswith("promo"): continue
+                if pack["id"].startswith(("pa-", "pb-")): continue
                 path = os.path.join(PNG_PACKS_DIR, f"{pack['id']}.png")
                 if not os.path.exists(path):
                     missing.append(pack["id"])

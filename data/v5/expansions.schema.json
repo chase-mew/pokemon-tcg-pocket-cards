@@ -48,12 +48,12 @@
               "description": "Display name of the pack."
             },
             "image": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri",
               "description": "URL to the WebP pack image."
             },
             "image_png": {
-              "type": "string",
+              "type": ["string", "null"],
               "format": "uri",
               "description": "URL to the PNG pack image."
             }

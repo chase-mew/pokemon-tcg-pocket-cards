@@ -3,7 +3,7 @@ import os
 
 from tests.utils import report
 from constants import PNG_PACKS_DIR, PROMO_PREFIXES, WEBP_PACKS_DIR
-from deck_code import create_single_card_code, create_deck_code
+from deck_code import create_deck_code
 
 def number(card):
     return int(card["id"].rsplit("-", 1)[1])
@@ -143,7 +143,7 @@ class TestExpansionsCrossFile:
         missing = []
         for exp in expansions:
             for pack in exp["packs"]:
-                if pack["id"].startswith("promo"):
+                if pack["id"].startswith(("pa-", "pb-")):
                     continue
                 for directory, ext in ((WEBP_PACKS_DIR, "webp"), (PNG_PACKS_DIR, "png")):
                     if not os.path.exists(os.path.join(directory, f"{pack['id']}.{ext}")):
@@ -162,14 +162,9 @@ class TestDatabaseSanity:
 
 
 class TestDeckCodeBinaryParity:
-    def test_official_trainer_encoding(self):
+    def test_official_deck_encoding(self):
         # Potion (ID: 1) + Trainer Offset (1,000,000) = 1,000,001
-        assert create_single_card_code(1000001) == "AQ9CQQA="
         assert create_deck_code([1000001]) == "AQ9CQQA="
-
-    def test_official_pokemon_encoding(self):
-        # Bulbasaur (ID: 1) * 10 = 10
-        assert create_single_card_code(1) == "AQAACgEA"
 
         # 20 Pokemon cards (no energy)
         assert create_deck_code(list(
@@ -178,8 +173,3 @@ class TestDeckCodeBinaryParity:
         # 20 Pokemon cards + Grass Energy (id: 1)
         assert create_deck_code(list(range(1, 21)),
                                 [1]) == "ABQAAAoAABQAAB4AACgAADIAADwAAEYAAFAAAFoAAGQAAG4AAHgAAIIAAIwAAJYAAKAAAKoAALQAAL4AAMgBAQ=="
-
-    def test_pokemon_multiplier_is_isolated(self):
-        # Ensures the *10 multiplier doesn't leak to trainers
-        trainer_code = create_single_card_code(1000001)
-        assert "AZiWigAA" not in trainer_code

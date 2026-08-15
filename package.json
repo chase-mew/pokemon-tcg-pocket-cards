@@ -1,9 +1,36 @@
 {
   "name": "pokemon-tcg-pocket-cards",
   "version": "5.0.0",
-  "license": "(AGPL-3.0-or-later AND MIT)",
+  "description": "JSON database and TypeScript definitions for Pokémon TCG Pocket cards",
+  "author": "Leonid Dalin & Chase Manning",
+  "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chase-mew/pokemon-tcg-pocket-cards.git"
-  }
+    "url": "git+https://github.com/chase-manning/pokemon-tcg-pocket-cards.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./data/v5/cards.d.ts",
+      "default": "./data/v5/cards.min.json"
+    },
+    "./expansions": {
+      "types": "./data/v5/expansions.d.ts",
+      "default": "./data/v5/expansions.min.json"
+    },
+    "./v3": "./data/v3/v3.min.json",
+    "./v4": "./data/v4/v4.min.json",
+    "./data/*": "./data/*",
+    "./package.json": "./package.json"
+  },
+  "types": "./data/v5/cards.d.ts",
+  "files": ["data"],
+  "keywords": [
+    "pokemon",
+    "tcg",
+    "pocket",
+    "ptcgp",
+    "database",
+    "json",
+    "api"
+  ]
 }

@@ -128,10 +128,6 @@
         "type": "integer",
         "description": "The internal integer used by the game client for deck rendering."
       },
-      "share_code": {
-        "type": "string",
-        "description": "The base64 encoded binary string for sharing the card in-game."
-      },
       "artist": {
         "type": "string",
         "description": "The credited illustrator."
@@ -203,7 +199,6 @@
       "attacks",
       "points",
       "deckBuilderNr",
-      "share_code",
       "artist",
       "image",
       "flavour_text",

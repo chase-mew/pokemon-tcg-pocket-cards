@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1367,
-    "share_code": "AAEANWYA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/001.png",
     "flavour_text": "These very cowardly Pokémon join together and use Reflect to protect their nest.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 1,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1368,
-    "share_code": "AAEANXAA",
     "artist": "mashu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/002.png",
     "flavour_text": "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 2,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-003",
@@ -156,19 +140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1369,
-    "share_code": "AAEANXoA",
     "artist": "Yuriko Akase",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/003.png",
     "flavour_text": "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 3,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-004",
@@ -213,19 +189,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1370,
-    "share_code": "AAEANYQA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/004.png",
     "flavour_text": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 4,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-005",
@@ -270,7 +238,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1371,
-    "share_code": "AAEANY4A",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/005.png",
@@ -327,7 +294,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1372,
-    "share_code": "AAEANZgA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/006.png",
@@ -384,19 +350,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1373,
-    "share_code": "AAEANaIA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/007.png",
     "flavour_text": "It lives in deserts. It becomes active at night when it hunts for prey exhausted from the desert’s heat.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 7,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-008",
@@ -441,19 +399,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1374,
-    "share_code": "AAEANawA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/008.png",
     "flavour_text": "Eating lots of berries makes the bark shell that covers Chespin’s head and body grow sturdier.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 8,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-009",
@@ -498,19 +448,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1375,
-    "share_code": "AAEANbYA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/009.png",
     "flavour_text": "It can send a trailer flying with a tackle. It’s numb to pain, so even violent collisions don’t faze it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 9,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-010",
@@ -555,19 +497,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1376,
-    "share_code": "AAEANcAA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/010.png",
     "flavour_text": "Its gentle disposition would have it avoid conflict, but it gives opponents a thrashing with its thorned fists when the situation calls for it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 10,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-011",
@@ -612,19 +546,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1377,
-    "share_code": "AAEANcoA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/011.png",
     "flavour_text": "This Pokémon scatters poisonous powder to repel enemies. It will eat different plants depending on where it lives.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-012",
@@ -669,19 +595,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1378,
-    "share_code": "AAEANdQA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/012.png",
     "flavour_text": "Spewpa doesn’t live in a fixed location. It roams where it pleases across the fields and mountains, building up the energy it needs to evolve.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 12,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-013",
@@ -726,7 +644,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1379,
-    "share_code": "AAEANd4A",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/013.png",
@@ -785,7 +702,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1380,
-    "share_code": "AAEANegA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/014.png",
@@ -842,19 +758,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1381,
-    "share_code": "AAEANfIA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/015.png",
     "flavour_text": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 15,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-016",
@@ -899,19 +807,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1382,
-    "share_code": "AAEANfwA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/016.png",
     "flavour_text": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 16,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-017",
@@ -956,7 +856,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1383,
-    "share_code": "AAEANgYA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/017.png",
@@ -1019,19 +918,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1384,
-    "share_code": "AAEANhAA",
     "artist": "Dsuke",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/018.png",
     "flavour_text": "The cursed flames that light up the bone carried by this Pokémon are said to cause both mental and physical pain that will never fade.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 18,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-019",
@@ -1076,7 +967,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1385,
-    "share_code": "AAEANhoA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/019.png",
@@ -1133,19 +1023,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1386,
-    "share_code": "AAEANiQA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/020.png",
     "flavour_text": "The more a Litleo trains its body and spirit by battling mighty enemies, the hotter its mane will grow.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 20,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-021",
@@ -1190,19 +1072,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1387,
-    "share_code": "AAEANi4A",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/021.png",
     "flavour_text": "The females of a pride work together to bring down prey. It’s thanks to them that their pride doesn’t starve.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 21,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-022",
@@ -1247,7 +1121,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1388,
-    "share_code": "AAEANjgA",
     "artist": "GOTO minori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/022.png",
@@ -1306,7 +1179,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1389,
-    "share_code": "AAEANkIA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/023.png",
@@ -1375,7 +1247,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1390,
-    "share_code": "AAEANkwA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/024.png",
@@ -1432,19 +1303,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1391,
-    "share_code": "AAEANlYA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/025.png",
     "flavour_text": "While it prides itself on its varied kicking moves, it can also deliver powerful headbutts once its flames have heated up its forehead.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 25,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-026",
@@ -1489,7 +1352,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1392,
-    "share_code": "AAEANmAA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/026.png",
@@ -1546,19 +1408,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1393,
-    "share_code": "AAEANmoA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/027.png",
     "flavour_text": "In this form, it draws on the power of fire. It spears its enemies with thorn-covered ivy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 27,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-028",
@@ -1603,7 +1457,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1394,
-    "share_code": "AAEANnQA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/028.png",
@@ -1666,7 +1519,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1395,
-    "share_code": "AAEANn4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/029.png",
@@ -1735,19 +1587,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1396,
-    "share_code": "AAEANogA",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/030.png",
     "flavour_text": "It can radiate chilliness from the bottoms of its feet. It’ll spend the whole day tap-dancing on a frozen floor.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 30,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-031",
@@ -1792,19 +1636,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1397,
-    "share_code": "AAEANpIA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/031.png",
     "flavour_text": "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 31,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-032",
@@ -1849,19 +1685,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1398,
-    "share_code": "AAEANpwA",
     "artist": "USGMEN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/032.png",
     "flavour_text": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 32,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-033",
@@ -1906,7 +1734,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1399,
-    "share_code": "AAEANqYA",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/033.png",
@@ -1963,7 +1790,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1400,
-    "share_code": "AAEANrAA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/034.png",
@@ -2020,7 +1846,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1401,
-    "share_code": "AAEANroA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/035.png",
@@ -2077,7 +1902,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1402,
-    "share_code": "AAEANsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/036.png",
@@ -2146,19 +1970,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1403,
-    "share_code": "AAEANs4A",
     "artist": "Orca",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/037.png",
     "flavour_text": "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 37,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-038",
@@ -2203,19 +2019,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1404,
-    "share_code": "AAEANtgA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/038.png",
     "flavour_text": "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it’s a kind Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 38,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-039",
@@ -2260,19 +2068,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1405,
-    "share_code": "AAEANuIA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/039.png",
     "flavour_text": "People believe this Pokémon formed when two Vanillish stuck together. Its body temperature is roughly 21 degrees Fahrenheit.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 39,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-040",
@@ -2317,19 +2117,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1406,
-    "share_code": "AAEANuwA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/040.png",
     "flavour_text": "Cryogonal uses its chains of ice to constrict its opponents and then flash-freezes them where they stand.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-041",
@@ -2374,19 +2166,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1407,
-    "share_code": "AAEANvYA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/041.png",
     "flavour_text": "Amaura is an ancient Pokémon that has gone extinct. Specimens of this species can sometimes be found frozen in ice.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 41,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-042",
@@ -2431,7 +2215,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1408,
-    "share_code": "AAEANwAA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/042.png",
@@ -2488,19 +2271,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1409,
-    "share_code": "AAEANwoA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/043.png",
     "flavour_text": "A popular game among children is to lift up sticks that Chewtle have bitten onto to see whose Chewtle can hang on the longest.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 43,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-044",
@@ -2545,19 +2320,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1410,
-    "share_code": "AAEANxQA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/044.png",
     "flavour_text": "Drednaw lurks along the shoreline. When prey come to drink water, Drednaw stretches its neck out and chomps down on them.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 44,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-045",
@@ -2602,7 +2369,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1411,
-    "share_code": "AAEANx4A",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/045.png",
@@ -2659,19 +2425,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1412,
-    "share_code": "AAEANygA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/046.png",
     "flavour_text": "After it’s eaten its fill, its movements become extremely sluggish. That’s when Cramorant swallows it up.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 46,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-047",
@@ -2716,19 +2474,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1413,
-    "share_code": "AAEANzIA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/047.png",
     "flavour_text": "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 47,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-048",
@@ -2773,19 +2523,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1414,
-    "share_code": "AAEANzwA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/048.png",
     "flavour_text": "In this form, it draws on the power of water. It attacks unrelentingly with kicks and ivy strikes.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 48,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-049",
@@ -2830,19 +2572,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1415,
-    "share_code": "AAEAN0YA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/049.png",
     "flavour_text": "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 49,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-050",
@@ -2887,19 +2621,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1416,
-    "share_code": "AAEAN1AA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/050.png",
     "flavour_text": "This Pokémon rides on its tail while it uses its psychic powers to levitate. It attacks with star-shaped thunderbolts.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 50,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-051",
@@ -2944,19 +2670,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1417,
-    "share_code": "AAEAN1oA",
     "artist": "Ken Sugimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/051.png",
     "flavour_text": "Zapdos is a legendary bird Pokémon. It’s said that when Zapdos rubs its feathers together, lightning will fall immediately after.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 51,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-052",
@@ -3001,7 +2719,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1418,
-    "share_code": "AAEAN2QA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/052.png",
@@ -3064,7 +2781,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1419,
-    "share_code": "AAEAN24A",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/053.png",
@@ -3127,7 +2843,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1420,
-    "share_code": "AAEAN3gA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/054.png",
@@ -3184,7 +2899,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1421,
-    "share_code": "AAEAN4IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/055.png",
@@ -3247,7 +2961,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1422,
-    "share_code": "AAEAN4wA",
     "artist": "okayamatakatoshi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/056.png",
@@ -3304,19 +3017,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1423,
-    "share_code": "AAEAN5YA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/057.png",
     "flavour_text": "What appear to be eyeballs are actually organs for discharging the electricity generated by Bellibolt’s belly-button dynamo.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 57,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-058",
@@ -3361,7 +3066,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1424,
-    "share_code": "AAEAN6AA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/058.png",
@@ -3418,19 +3122,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1425,
-    "share_code": "AAEAN6oA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/059.png",
     "flavour_text": "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 59,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-060",
@@ -3475,19 +3171,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1426,
-    "share_code": "AAEAN7QA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/060.png",
     "flavour_text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 60,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-061",
@@ -3532,7 +3220,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1427,
-    "share_code": "AAEAN74A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/061.png",
@@ -3589,19 +3276,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1428,
-    "share_code": "AAEAN8gA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/062.png",
     "flavour_text": "It can make most any Pokémon run away by opening its big mouth to reveal its thick fangs.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 62,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-063",
@@ -3646,19 +3325,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1429,
-    "share_code": "AAEAN9IA",
     "artist": "mingo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/063.png",
     "flavour_text": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 63,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-064",
@@ -3703,19 +3374,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1430,
-    "share_code": "AAEAN9wA",
     "artist": "mingo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/064.png",
     "flavour_text": "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-065",
@@ -3760,19 +3423,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1431,
-    "share_code": "AAEAN+YA",
     "artist": "mingo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/065.png",
     "flavour_text": "It unleashes psychokinetic energy at full power when protecting a Trainer it has bonded closely with.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 65,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-066",
@@ -3817,7 +3472,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1432,
-    "share_code": "AAEAN/AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/066.png",
@@ -3886,19 +3540,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1433,
-    "share_code": "AAEAN/oA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/067.png",
     "flavour_text": "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 67,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-068",
@@ -3943,19 +3589,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1434,
-    "share_code": "AAEAOAQA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/068.png",
     "flavour_text": "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 68,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-069",
@@ -4000,19 +3638,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1435,
-    "share_code": "AAEAOA4A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/069.png",
     "flavour_text": "It absorbs spirits, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 69,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-070",
@@ -4057,7 +3687,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1436,
-    "share_code": "AAEAOBgA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/070.png",
@@ -4120,19 +3749,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1437,
-    "share_code": "AAEAOCIA",
     "artist": "Mousho",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/071.png",
     "flavour_text": "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 71,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-072",
@@ -4177,19 +3798,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1438,
-    "share_code": "AAEAOCwA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/072.png",
     "flavour_text": "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 72,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-073",
@@ -4234,7 +3847,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1439,
-    "share_code": "AAEAODYA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/073.png",
@@ -4297,19 +3909,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1440,
-    "share_code": "AAEAOEAA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/074.png",
     "flavour_text": "Sinistea gets into your body when you drink it, and then it steals your vitality from within. It also tastes awful.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 74,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-075",
@@ -4354,19 +3958,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1441,
-    "share_code": "AAEAOEoA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/075.png",
     "flavour_text": "These Pokémon multiply by creeping into teapots and pouring themselves into leftover tea.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 75,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-076",
@@ -4411,7 +4007,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1442,
-    "share_code": "AAEAOFQA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/076.png",
@@ -4468,7 +4063,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1443,
-    "share_code": "AAEAOF4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/077.png",
@@ -4525,19 +4119,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1444,
-    "share_code": "AAEAOGgA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/078.png",
     "flavour_text": "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 78,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-079",
@@ -4582,19 +4168,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1445,
-    "share_code": "AAEAOHIA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/079.png",
     "flavour_text": "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 79,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-080",
@@ -4639,19 +4217,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1446,
-    "share_code": "AAEAOHwA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/080.png",
     "flavour_text": "Its formidable body never gets tired. It helps people by doing work such as the moving of heavy goods.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 80,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-081",
@@ -4696,19 +4266,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1447,
-    "share_code": "AAEAOIYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/081.png",
     "flavour_text": "With four arms that react more quickly than it can think, it can execute many punches at once.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 81,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-082",
@@ -4753,19 +4315,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1448,
-    "share_code": "AAEAOJAA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/082.png",
     "flavour_text": "This Pokémon wears the skull of its deceased mother. Sometimes Cubone’s dreams make it cry, but each tear Cubone sheds makes it stronger.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 82,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-083",
@@ -4810,19 +4364,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1449,
-    "share_code": "AAEAOJoA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/083.png",
     "flavour_text": "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 83,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-084",
@@ -4867,19 +4413,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1450,
-    "share_code": "AAEAOKQA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/084.png",
     "flavour_text": "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 84,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-085",
@@ -4924,7 +4462,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1451,
-    "share_code": "AAEAOK4A",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/085.png",
@@ -4981,7 +4518,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1452,
-    "share_code": "AAEAOLgA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/086.png",
@@ -5038,7 +4574,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1453,
-    "share_code": "AAEAOMIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/087.png",
@@ -5107,19 +4642,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1454,
-    "share_code": "AAEAOMwA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/088.png",
     "flavour_text": "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 88,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-089",
@@ -5164,19 +4691,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1455,
-    "share_code": "AAEAONYA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/089.png",
     "flavour_text": "This Pokémon is selfish and likes to be pampered. It can also inflict grievous wounds on its Trainer just by playing around.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 89,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-090",
@@ -5221,7 +4740,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1456,
-    "share_code": "AAEAOOAA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/090.png",
@@ -5278,19 +4796,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1457,
-    "share_code": "AAEAOOoA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/091.png",
     "flavour_text": "The boss chooses 10 members of the group to go out hunting. The hunting party will evenly split the food they find with the rest of the group.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 91,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-092",
@@ -5335,7 +4845,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1458,
-    "share_code": "AAEAOPQA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/092.png",
@@ -5398,19 +4907,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1459,
-    "share_code": "AAEAOP4A",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/093.png",
     "flavour_text": "In this form, it draws on the power of stone. Its body is rock-solid, protecting it from all manner of attacks.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 93,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-094",
@@ -5455,19 +4956,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1460,
-    "share_code": "AAEAOQgA",
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/094.png",
     "flavour_text": "Deeply proud and keenly smart, this Pokémon moves with cunning during battle and relentlessly attacks enemies’ weak points.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 94,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-095",
@@ -5512,19 +5005,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1461,
-    "share_code": "AAEAORIA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/095.png",
     "flavour_text": "This Pokémon is one tough opponent. Not only does it have formidable physical abilities, but it’s also not above fighting dirty.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 95,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-096",
@@ -5569,19 +5054,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1462,
-    "share_code": "AAEAORwA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/096.png",
     "flavour_text": "Alolan Grimer will gladly gobble up any kind of trash, making it a widely used and popular Pokémon at garbage disposal facilities.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 96,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-097",
@@ -5626,7 +5103,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1463,
-    "share_code": "AAEAOSYA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/097.png",
@@ -5683,19 +5159,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1464,
-    "share_code": "AAEAOTAA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/098.png",
     "flavour_text": "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 98,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-099",
@@ -5740,19 +5208,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1465,
-    "share_code": "AAEAOToA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/099.png",
     "flavour_text": "This very aggressive Pokémon will recklessly challenge opponents stronger than itself.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 99,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-100",
@@ -5797,7 +5257,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1466,
-    "share_code": "AAEAOUQA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/100.png",
@@ -5854,19 +5313,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1467,
-    "share_code": "AAEAOU4A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/101.png",
     "flavour_text": "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 101,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-102",
@@ -5911,19 +5362,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1468,
-    "share_code": "AAEAOVgA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/102.png",
     "flavour_text": "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 102,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-103",
@@ -5968,19 +5411,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1469,
-    "share_code": "AAEAOWIA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/103.png",
     "flavour_text": "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 103,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-104",
@@ -6025,7 +5460,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1470,
-    "share_code": "AAEAOWwA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/104.png",
@@ -6082,19 +5516,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1471,
-    "share_code": "AAEAOXYA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/105.png",
     "flavour_text": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 105,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-106",
@@ -6139,19 +5565,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1472,
-    "share_code": "AAEAOYAA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/106.png",
     "flavour_text": "It will abruptly headbutt anyone that makes eye contact with it. Its skull is extremely hard.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 106,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-107",
@@ -6196,19 +5614,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1473,
-    "share_code": "AAEAOYoA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/107.png",
     "flavour_text": "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 107,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-108",
@@ -6253,7 +5663,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1474,
-    "share_code": "AAEAOZQA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/108.png",
@@ -6312,19 +5721,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1475,
-    "share_code": "AAEAOZ4A",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/109.png",
     "flavour_text": "An unknown life-form called a UB. It may be constantly hungry—it is certainly always devouring something.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 109,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-110",
@@ -6369,7 +5770,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1476,
-    "share_code": "AAEAOagA",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/110.png",
@@ -6426,7 +5826,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1477,
-    "share_code": "AAEAObIA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/111.png",
@@ -6489,19 +5888,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1478,
-    "share_code": "AAEAObwA",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/112.png",
     "flavour_text": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 112,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-113",
@@ -6546,7 +5937,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1479,
-    "share_code": "AAEAOcYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/113.png",
@@ -6609,19 +5999,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1480,
-    "share_code": "AAEAOdAA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/114.png",
     "flavour_text": "Its drill, which has evolved into steel, is strong enough to bore through iron plates. This Pokémon is a great help in tunnel construction.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 114,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-115",
@@ -6666,19 +6048,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1481,
-    "share_code": "AAEAOdoA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/115.png",
     "flavour_text": "Mossy caves are their preferred dwellings. Enzymes contained in mosses help Ferroseed’s spikes grow big and strong.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 115,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-116",
@@ -6723,19 +6097,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1482,
-    "share_code": "AAEAOeQA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/116.png",
     "flavour_text": "Its spikes are harder than steel. This Pokémon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 116,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-117",
@@ -6780,19 +6146,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1483,
-    "share_code": "AAEAOe4A",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/117.png",
     "flavour_text": "Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 117,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-118",
@@ -6837,19 +6195,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1484,
-    "share_code": "AAEAOfgA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/118.png",
     "flavour_text": "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 118,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-119",
@@ -6894,19 +6244,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1485,
-    "share_code": "AAEAOgIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/119.png",
     "flavour_text": "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 119,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-120",
@@ -6951,19 +6293,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1486,
-    "share_code": "AAEAOgwA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/120.png",
     "flavour_text": "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 120,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-121",
@@ -7008,19 +6342,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1487,
-    "share_code": "AAEAOhYA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/121.png",
     "flavour_text": "Its belief that it will be able to fly one day is apparently the influence of information carried in its genes.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 121,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-122",
@@ -7065,19 +6391,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1488,
-    "share_code": "AAEAOiAA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/122.png",
     "flavour_text": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 122,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-123",
@@ -7122,7 +6440,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1489,
-    "share_code": "AAEAOioA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/123.png",
@@ -7179,7 +6496,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1490,
-    "share_code": "AAEAOjQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/124.png",
@@ -7236,19 +6552,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1491,
-    "share_code": "AAEAOj4A",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/125.png",
     "flavour_text": "It has a vicious temperament. Beware if it raises its tail straight up. This is a signal that it is about to pounce and bite.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 125,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-126",
@@ -7293,7 +6601,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1492,
-    "share_code": "AAEAOkgA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/126.png",
@@ -7350,7 +6657,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1493,
-    "share_code": "AAEAOlIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/127.png",
@@ -7419,19 +6725,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1494,
-    "share_code": "AAEAOlwA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/128.png",
     "flavour_text": "If it encounters a foe, it will stand up on its tail, making itself look bigger than usual to intimidate them.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 128,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-129",
@@ -7476,19 +6774,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1495,
-    "share_code": "AAEAOmYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/129.png",
     "flavour_text": "It is nimble and has a very flexible body. Even if you get ahold of it, it’ll slip right out of your arms.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 129,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-130",
@@ -7533,7 +6823,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1496,
-    "share_code": "AAEAOnAA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/130.png",
@@ -7590,19 +6879,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1497,
-    "share_code": "AAEAOnoA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/131.png",
     "flavour_text": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 131,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-132",
@@ -7647,19 +6928,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1498,
-    "share_code": "AAEAOoQA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/132.png",
     "flavour_text": "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 132,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-133",
@@ -7704,19 +6977,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1499,
-    "share_code": "AAEAOo4A",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/133.png",
     "flavour_text": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 133,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-134",
@@ -7761,7 +7026,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1500,
-    "share_code": "AAEAOpgA",
     "artist": "okayamatakatoshi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/134.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/134.png",
@@ -7818,19 +7082,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1501,
-    "share_code": "AAEAOqIA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/135.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/135.png",
     "flavour_text": "It is always hungry because it won’t stop rampaging. Even while it is eating, it can’t keep still.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 135,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-136",
@@ -7875,19 +7131,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1502,
-    "share_code": "AAEAOqwA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/136.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/136.png",
     "flavour_text": "This Pokémon lives lying on its side. It only rolls over and moves when there is no more grass to eat.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 136,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-137",
@@ -7932,19 +7180,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1503,
-    "share_code": "AAEAOrYA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/137.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/137.png",
     "flavour_text": "Each Spinda’s spot pattern is different. With its stumbling movements, it evades opponents’ attacks brilliantly!",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 137,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-138",
@@ -7989,7 +7229,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1504,
-    "share_code": "AAEAOsAA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/138.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/138.png",
@@ -8046,19 +7285,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1505,
-    "share_code": "AAEAOsoA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/139.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/139.png",
     "flavour_text": "It’s very sensitive to danger. The sound of Corviknight’s flapping will have Bunnelby digging a hole to hide underground in moments.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 139,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-140",
@@ -8103,19 +7334,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1506,
-    "share_code": "AAEAOtQA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/140.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/140.png",
     "flavour_text": "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 140,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-141",
@@ -8160,19 +7383,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1507,
-    "share_code": "AAEAOt4A",
     "artist": "Kariya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/141.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/141.png",
     "flavour_text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 141,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-142",
@@ -8217,19 +7432,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1508,
-    "share_code": "AAEAOugA",
     "artist": "Shimaris Yukichi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/142.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/142.png",
     "flavour_text": "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 142,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-143",
@@ -8274,19 +7481,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1509,
-    "share_code": "AAEAOvIA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/143.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/143.png",
     "flavour_text": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 143,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-144",
@@ -8331,19 +7530,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000105,
-    "share_code": "AZiamgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/144.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/144.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 144,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-145",
@@ -8388,19 +7579,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000106,
-    "share_code": "AZiapAAA",
     "artist": "inose yukie",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/145.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/145.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 145,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-146",
@@ -8445,19 +7628,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000107,
-    "share_code": "AZiargAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/146.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/146.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 146,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-147",
@@ -8502,7 +7677,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000108,
-    "share_code": "AZiauAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/147.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/147.png",
@@ -8559,7 +7733,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000109,
-    "share_code": "AZiawgAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/148.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/148.png",
@@ -8616,7 +7789,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000110,
-    "share_code": "AZiazAAA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/149.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/149.png",
@@ -8673,7 +7845,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000111,
-    "share_code": "AZia1gAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/150.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/150.png",
@@ -8730,7 +7901,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000112,
-    "share_code": "AZia4AAA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/151.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/151.png",
@@ -8787,7 +7957,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000113,
-    "share_code": "AZia6gAA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/152.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/152.png",
@@ -8844,19 +8013,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000114,
-    "share_code": "AZia9AAA",
     "artist": "MARINA Chikazawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/153.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/153.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 153,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-154",
@@ -8901,19 +8062,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000115,
-    "share_code": "AZia/gAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/154.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/154.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 154,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-155",
@@ -8958,19 +8111,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000116,
-    "share_code": "AZibCAAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/155.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/155.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2",
-        "set_name": "Fantastical Parade",
-        "id": 155,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2-156",
@@ -9015,7 +8160,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1372,
-    "share_code": "AAEANZgA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/156.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/156.png",
@@ -9072,7 +8216,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1371,
-    "share_code": "AAEANY4A",
     "artist": "tono",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/157.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/157.png",
@@ -9129,7 +8272,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1379,
-    "share_code": "AAEANd4A",
     "artist": "mingo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/158.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/158.png",
@@ -9188,7 +8330,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1380,
-    "share_code": "AAEANegA",
     "artist": "Dsuke",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/159.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/159.png",
@@ -9245,7 +8386,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1385,
-    "share_code": "AAEANhoA",
     "artist": "toriyufu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/160.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/160.png",
@@ -9302,7 +8442,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1388,
-    "share_code": "AAEANjgA",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/161.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/161.png",
@@ -9359,7 +8498,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1390,
-    "share_code": "AAEANkwA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/162.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/162.png",
@@ -9416,7 +8554,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1408,
-    "share_code": "AAEANwAA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/163.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/163.png",
@@ -9473,7 +8610,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1411,
-    "share_code": "AAEANx4A",
     "artist": "osare",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/164.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/164.png",
@@ -9530,7 +8666,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1419,
-    "share_code": "AAEAN24A",
     "artist": "Kariya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/165.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/165.png",
@@ -9593,7 +8728,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1420,
-    "share_code": "AAEAN3gA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/166.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/166.png",
@@ -9650,7 +8784,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1424,
-    "share_code": "AAEAN6AA",
     "artist": "Orca",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/167.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/167.png",
@@ -9707,7 +8840,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1427,
-    "share_code": "AAEAN74A",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/168.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/168.png",
@@ -9764,7 +8896,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1442,
-    "share_code": "AAEAOFQA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/169.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/169.png",
@@ -9821,7 +8952,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1443,
-    "share_code": "AAEAOF4A",
     "artist": "Uninori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/170.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/170.png",
@@ -9878,7 +9008,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1456,
-    "share_code": "AAEAOOAA",
     "artist": "Yuriko Akase",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/171.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/171.png",
@@ -9935,7 +9064,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1458,
-    "share_code": "AAEAOPQA",
     "artist": "okayamatakatoshi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/172.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/172.png",
@@ -9998,7 +9126,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1463,
-    "share_code": "AAEAOSYA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/173.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/173.png",
@@ -10055,7 +9182,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1470,
-    "share_code": "AAEAOWwA",
     "artist": "Yoriyuki Ikegami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/174.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/174.png",
@@ -10112,7 +9238,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1474,
-    "share_code": "AAEAOZQA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/175.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/175.png",
@@ -10169,7 +9294,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1466,
-    "share_code": "AAEAOUQA",
     "artist": "Mousho",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/176.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/176.png",
@@ -10226,7 +9350,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1477,
-    "share_code": "AAEAObIA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/177.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/177.png",
@@ -10289,7 +9412,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1489,
-    "share_code": "AAEAOioA",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/178.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/178.png",
@@ -10346,7 +9468,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1500,
-    "share_code": "AAEAOpgA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/179.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/179.png",
@@ -10403,7 +9524,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1383,
-    "share_code": "AAEANgYA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/180.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/180.png",
@@ -10468,7 +9588,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1389,
-    "share_code": "AAEANkIA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/181.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/181.png",
@@ -10537,7 +9656,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1395,
-    "share_code": "AAEANn4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/182.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/182.png",
@@ -10606,7 +9724,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1402,
-    "share_code": "AAEANsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/183.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/183.png",
@@ -10675,7 +9792,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1421,
-    "share_code": "AAEAN4IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/184.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/184.png",
@@ -10738,7 +9854,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1432,
-    "share_code": "AAEAN/AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/185.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/185.png",
@@ -10807,7 +9922,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1439,
-    "share_code": "AAEAODYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/186.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/186.png",
@@ -10870,7 +9984,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1453,
-    "share_code": "AAEAOMIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/187.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/187.png",
@@ -10939,7 +10052,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1479,
-    "share_code": "AAEAOcYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/188.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/188.png",
@@ -11002,7 +10114,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1493,
-    "share_code": "AAEAOlIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/189.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/189.png",
@@ -11071,7 +10182,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000110,
-    "share_code": "AZiazAAA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/190.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/190.png",
@@ -11128,7 +10238,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000111,
-    "share_code": "AZia1gAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/191.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/191.png",
@@ -11185,7 +10294,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000112,
-    "share_code": "AZia4AAA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/192.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/192.png",
@@ -11242,7 +10350,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000113,
-    "share_code": "AZia6gAA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/193.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/193.png",
@@ -11299,7 +10406,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1383,
-    "share_code": "AAEANgYA",
     "artist": "imoniii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/194.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/194.png",
@@ -11364,7 +10470,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1389,
-    "share_code": "AAEANkIA",
     "artist": "YASHIRO Nanaco",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/195.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/195.png",
@@ -11433,7 +10538,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1395,
-    "share_code": "AAEANn4A",
     "artist": "mashu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/196.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/196.png",
@@ -11502,7 +10606,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1402,
-    "share_code": "AAEANsQA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/197.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/197.png",
@@ -11571,7 +10674,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1421,
-    "share_code": "AAEAN4IA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/198.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/198.png",
@@ -11634,7 +10736,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1439,
-    "share_code": "AAEAODYA",
     "artist": "Mori Yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/199.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/199.png",
@@ -11697,7 +10798,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1453,
-    "share_code": "AAEAOMIA",
     "artist": "Takumi Wada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/200.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/200.png",
@@ -11766,7 +10866,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1479,
-    "share_code": "AAEAOcYA",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/201.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/201.png",
@@ -11829,7 +10928,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1493,
-    "share_code": "AAEAOlIA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/202.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/202.png",
@@ -11898,7 +10996,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1432,
-    "share_code": "AAEAN/AA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/203.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/203.png",
@@ -11967,7 +11064,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1490,
-    "share_code": "AAEAOjQA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/204.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/204.png",
@@ -12024,7 +11120,6 @@
     },
     "points": 1,
     "deckBuilderNr": 860,
-    "share_code": "AAEAIZgA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/205.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/205.png",
@@ -12081,7 +11176,6 @@
     },
     "points": 1,
     "deckBuilderNr": 888,
-    "share_code": "AAEAIrAA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/206.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/206.png",
@@ -12144,7 +11238,6 @@
     },
     "points": 1,
     "deckBuilderNr": 304,
-    "share_code": "AAEAC+AA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/207.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/207.png",
@@ -12201,7 +11294,6 @@
     },
     "points": 1,
     "deckBuilderNr": 897,
-    "share_code": "AAEAIwoA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/208.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/208.png",
@@ -12270,7 +11362,6 @@
     },
     "points": 1,
     "deckBuilderNr": 898,
-    "share_code": "AAEAIxQA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/209.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/209.png",
@@ -12339,7 +11430,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1042,
-    "share_code": "AAEAKLQA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/210.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/210.png",
@@ -12402,7 +11492,6 @@
     },
     "points": 1,
     "deckBuilderNr": 81,
-    "share_code": "AAEAAyoA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/211.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/211.png",
@@ -12459,7 +11548,6 @@
     },
     "points": 1,
     "deckBuilderNr": 82,
-    "share_code": "AAEAAzQA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/212.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/212.png",
@@ -12516,7 +11604,6 @@
     },
     "points": 1,
     "deckBuilderNr": 922,
-    "share_code": "AAEAJAQA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/213.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/213.png",
@@ -12579,7 +11666,6 @@
     },
     "points": 1,
     "deckBuilderNr": 113,
-    "share_code": "AAEABGoA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/214.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/214.png",
@@ -12642,7 +11728,6 @@
     },
     "points": 1,
     "deckBuilderNr": 114,
-    "share_code": "AAEABHQA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/215.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/215.png",
@@ -12699,7 +11784,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1020,
-    "share_code": "AAEAJ9gA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/216.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/216.png",
@@ -12762,7 +11846,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1055,
-    "share_code": "AAEAKTYA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/217.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/217.png",
@@ -12825,7 +11908,6 @@
     },
     "points": 1,
     "deckBuilderNr": 154,
-    "share_code": "AAEABgQA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/218.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/218.png",
@@ -12882,7 +11964,6 @@
     },
     "points": 1,
     "deckBuilderNr": 155,
-    "share_code": "AAEABg4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/219.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/219.png",
@@ -12939,7 +12020,6 @@
     },
     "points": 1,
     "deckBuilderNr": 158,
-    "share_code": "AAEABiwA",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/220.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/220.png",
@@ -12996,7 +12076,6 @@
     },
     "points": 1,
     "deckBuilderNr": 159,
-    "share_code": "AAEABjYA",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/221.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/221.png",
@@ -13053,7 +12132,6 @@
     },
     "points": 1,
     "deckBuilderNr": 955,
-    "share_code": "AAEAJU4A",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/222.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/222.png",
@@ -13122,7 +12200,6 @@
     },
     "points": 1,
     "deckBuilderNr": 957,
-    "share_code": "AAEAJWIA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/223.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/223.png",
@@ -13179,7 +12256,6 @@
     },
     "points": 1,
     "deckBuilderNr": 273,
-    "share_code": "AAEACqoA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/224.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/224.png",
@@ -13236,7 +12312,6 @@
     },
     "points": 2,
     "deckBuilderNr": 805,
-    "share_code": "AAEAH3IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/225.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/225.png",
@@ -13311,7 +12386,6 @@
     },
     "points": 2,
     "deckBuilderNr": 890,
-    "share_code": "AAEAIsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/226.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/226.png",
@@ -13398,7 +12472,6 @@
     },
     "points": 2,
     "deckBuilderNr": 899,
-    "share_code": "AAEAIx4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/227.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/227.png",
@@ -13473,7 +12546,6 @@
     },
     "points": 2,
     "deckBuilderNr": 939,
-    "share_code": "AAEAJK4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/228.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/228.png",
@@ -13548,7 +12620,6 @@
     },
     "points": 2,
     "deckBuilderNr": 828,
-    "share_code": "AAEAIFgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/229.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/229.png",
@@ -13623,7 +12694,6 @@
     },
     "points": 2,
     "deckBuilderNr": 956,
-    "share_code": "AAEAJVgA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/230.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/230.png",
@@ -13698,7 +12768,6 @@
     },
     "points": 2,
     "deckBuilderNr": 968,
-    "share_code": "AAEAJdAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/231.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/231.png",
@@ -13773,7 +12842,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1005,
-    "share_code": "AAEAJ0IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/232.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/232.png",
@@ -13860,7 +12928,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1436,
-    "share_code": "AAEAOBgA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/233.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/233.png",
@@ -13923,7 +12990,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000108,
-    "share_code": "AZiauAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/234.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/234.png",

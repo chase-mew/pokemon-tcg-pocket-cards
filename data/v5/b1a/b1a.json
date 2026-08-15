@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1307,
-    "share_code": "AAEAMw4A",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/001.png",
     "flavour_text": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 1,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1308,
-    "share_code": "AAEAMxgA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/002.png",
     "flavour_text": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 2,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-003",
@@ -156,19 +140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1309,
-    "share_code": "AAEAMyIA",
     "artist": "Eske Yoshinob",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/003.png",
     "flavour_text": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 3,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-004",
@@ -213,7 +189,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1310,
-    "share_code": "AAEAMywA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/004.png",
@@ -276,19 +251,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1311,
-    "share_code": "AAEAMzYA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/005.png",
     "flavour_text": "Although the poison from its fangs isn’t that strong, it’s potent enough to weaken prey that gets caught in its web.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 5,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-006",
@@ -333,7 +300,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1312,
-    "share_code": "AAEAM0AA",
     "artist": "Tika Matsuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/006.png",
@@ -390,19 +356,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1313,
-    "share_code": "AAEAM0oA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/007.png",
     "flavour_text": "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 7,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-008",
@@ -447,7 +405,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1314,
-    "share_code": "AAEAM1QA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/008.png",
@@ -504,19 +461,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1315,
-    "share_code": "AAEAM14A",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/009.png",
     "flavour_text": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 9,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-010",
@@ -561,19 +510,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1316,
-    "share_code": "AAEAM2gA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/010.png",
     "flavour_text": "It flutters around at night and steals honey from the Combee hive.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 10,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-011",
@@ -618,19 +559,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1317,
-    "share_code": "AAEAM3IA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/011.png",
     "flavour_text": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-012",
@@ -675,7 +608,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1298,
-    "share_code": "AAEAMrQA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/012.png",
@@ -732,7 +664,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1318,
-    "share_code": "AAEAM3wA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/013.png",
@@ -789,7 +720,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1319,
-    "share_code": "AAEAM4YA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/014.png",
@@ -852,19 +782,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1320,
-    "share_code": "AAEAM5AA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/015.png",
     "flavour_text": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 15,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-016",
@@ -909,19 +831,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1321,
-    "share_code": "AAEAM5oA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/016.png",
     "flavour_text": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-017",
@@ -966,19 +880,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1322,
-    "share_code": "AAEAM6QA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/017.png",
     "flavour_text": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 17,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-018",
@@ -1023,19 +929,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1323,
-    "share_code": "AAEAM64A",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/018.png",
     "flavour_text": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 18,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-019",
@@ -1080,19 +978,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1324,
-    "share_code": "AAEAM7gA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/019.png",
     "flavour_text": "The rocket cannons on its shell fire jets of water capable of punching holes through thick steel.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 19,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-020",
@@ -1137,7 +1027,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1325,
-    "share_code": "AAEAM8IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/020.png",
@@ -1200,19 +1089,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1326,
-    "share_code": "AAEAM8wA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/021.png",
     "flavour_text": "Anglers love the fight this Pokémon puts up on the hook. And there are always more to catch— many people release them into lakes illicitly.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 21,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-022",
@@ -1257,19 +1138,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1327,
-    "share_code": "AAEAM9YA",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/022.png",
     "flavour_text": "Clauncher’s claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn’t appeal to all tastes.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 22,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-023",
@@ -1314,19 +1187,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1328,
-    "share_code": "AAEAM+AA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/023.png",
     "flavour_text": "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 23,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-024",
@@ -1371,19 +1236,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1329,
-    "share_code": "AAEAM+oA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/024.png",
     "flavour_text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 24,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-025",
@@ -1428,19 +1285,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1330,
-    "share_code": "AAEAM/QA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/025.png",
     "flavour_text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 25,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-026",
@@ -1485,19 +1334,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1331,
-    "share_code": "AAEAM/4A",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/026.png",
     "flavour_text": "Exposure to a special magnetic field changed Magneton’s molecular structure, turning it into Magnezone.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 26,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-027",
@@ -1542,19 +1383,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1332,
-    "share_code": "AAEANAgA",
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/027.png",
     "flavour_text": "This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can’t fly properly.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 27,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-028",
@@ -1599,19 +1432,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1333,
-    "share_code": "AAEANBIA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/028.png",
     "flavour_text": "The sun powers this Pokémon’s electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 28,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-029",
@@ -1656,7 +1481,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1303,
-    "share_code": "AAEAMuYA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/029.png",
@@ -1713,19 +1537,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1334,
-    "share_code": "AAEANBwA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/030.png",
     "flavour_text": "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 30,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-031",
@@ -1770,19 +1586,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1335,
-    "share_code": "AAEANCYA",
     "artist": "Ligton",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/031.png",
     "flavour_text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 31,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-032",
@@ -1827,19 +1635,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1336,
-    "share_code": "AAEANDAA",
     "artist": "osare",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/032.png",
     "flavour_text": "Many say that the special liquid covering this Pokémon’s body would allow it to survive in the vacuum of space.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 32,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-033",
@@ -1884,19 +1684,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1337,
-    "share_code": "AAEANDoA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/033.png",
     "flavour_text": "Its brain has split into two, and the two halves rarely think alike. Its actions are utterly unpredictable.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 33,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-034",
@@ -1941,7 +1733,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1338,
-    "share_code": "AAEANEQA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/034.png",
@@ -1998,19 +1789,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1339,
-    "share_code": "AAEANE4A",
     "artist": "Tika Matsuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/035.png",
     "flavour_text": "The scent its body gives off enraptures those who smell it. Noble ladies had no shortage of love for Spritzee.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 35,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-036",
@@ -2055,19 +1838,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1340,
-    "share_code": "AAEANFgA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/036.png",
     "flavour_text": "The scents Aromatisse can produce range from sweet smells that bolster allies to foul smells that sap an opponent’s will to fight.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 36,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-037",
@@ -2112,7 +1887,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1341,
-    "share_code": "AAEANGIA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/037.png",
@@ -2169,7 +1943,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1342,
-    "share_code": "AAEANGwA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/038.png",
@@ -2226,19 +1999,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1343,
-    "share_code": "AAEANHYA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/039.png",
     "flavour_text": "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 39,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-040",
@@ -2283,19 +2048,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1344,
-    "share_code": "AAEANIAA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/040.png",
     "flavour_text": "It stomps on the ground to build power. It can send a 10-ton truck flying with a straight-arm punch.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 40,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-041",
@@ -2340,19 +2097,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1345,
-    "share_code": "AAEANIoA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/041.png",
     "flavour_text": "The magnet in Nosepass’s nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 41,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-042",
@@ -2397,7 +2146,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1346,
-    "share_code": "AAEANJQA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/042.png",
@@ -2466,19 +2214,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1347,
-    "share_code": "AAEANJ4A",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/043.png",
     "flavour_text": "Though small, Mienfoo’s temperament is fierce. Any creature that approaches Mienfoo carelessly will be greeted with a flurry of graceful attacks.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 43,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-044",
@@ -2523,19 +2263,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1348,
-    "share_code": "AAEANKgA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/044.png",
     "flavour_text": "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 44,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-045",
@@ -2580,7 +2312,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1349,
-    "share_code": "AAEANLIA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/045.png",
@@ -2637,7 +2368,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1350,
-    "share_code": "AAEANLwA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/046.png",
@@ -2694,19 +2424,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1351,
-    "share_code": "AAEANMYA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/047.png",
     "flavour_text": "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 47,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-048",
@@ -2751,19 +2473,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1352,
-    "share_code": "AAEANNAA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/048.png",
     "flavour_text": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 48,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-049",
@@ -2808,7 +2522,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1353,
-    "share_code": "AAEANNoA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/049.png",
@@ -2865,19 +2578,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1354,
-    "share_code": "AAEANOQA",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/050.png",
     "flavour_text": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 50,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-051",
@@ -2922,7 +2627,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1355,
-    "share_code": "AAEANO4A",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/051.png",
@@ -2979,7 +2683,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1356,
-    "share_code": "AAEANPgA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/052.png",
@@ -3048,19 +2751,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1357,
-    "share_code": "AAEANQIA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/053.png",
     "flavour_text": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 53,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-054",
@@ -3105,7 +2800,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1301,
-    "share_code": "AAEAMtIA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/054.png",
@@ -3162,7 +2856,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1306,
-    "share_code": "AAEAMwQA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/055.png",
@@ -3225,7 +2918,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1358,
-    "share_code": "AAEANQwA",
     "artist": "Hisao Nakamura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/056.png",
@@ -3282,7 +2974,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1359,
-    "share_code": "AAEANRYA",
     "artist": "Kent Kanetsuna",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/057.png",
@@ -3339,7 +3030,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1360,
-    "share_code": "AAEANSAA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/058.png",
@@ -3396,19 +3086,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1361,
-    "share_code": "AAEANSoA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/059.png",
     "flavour_text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 59,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-060",
@@ -3453,19 +3135,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1362,
-    "share_code": "AAEANTQA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/060.png",
     "flavour_text": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 60,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-061",
@@ -3510,19 +3184,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1363,
-    "share_code": "AAEANT4A",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/061.png",
     "flavour_text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 61,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-062",
@@ -3567,7 +3233,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1304,
-    "share_code": "AAEAMvAA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/062.png",
@@ -3636,19 +3301,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1364,
-    "share_code": "AAEANUgA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/063.png",
     "flavour_text": "Once hot seasons are over, Lopunny’s coat will be replaced with fur that holds a lot of insulating air in preparation for colder weather.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 63,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-064",
@@ -3693,19 +3350,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1365,
-    "share_code": "AAEANVIA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/064.png",
     "flavour_text": "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-065",
@@ -3750,19 +3399,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1366,
-    "share_code": "AAEANVwA",
     "artist": "Kazumasa Yasukuni",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/065.png",
     "flavour_text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 65,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-066",
@@ -3807,19 +3448,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000101,
-    "share_code": "AZiacgAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/066.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b1a",
-        "set_name": "Crimson Blaze",
-        "id": 66,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b1a-067",
@@ -3864,7 +3497,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000102,
-    "share_code": "AZiafAAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/067.png",
@@ -3921,7 +3553,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000103,
-    "share_code": "AZiahgAA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/068.png",
@@ -3978,7 +3609,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000104,
-    "share_code": "AZiakAAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/069.png",
@@ -4035,7 +3665,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1312,
-    "share_code": "AAEAM0AA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/070.png",
@@ -4092,7 +3721,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1314,
-    "share_code": "AAEAM1QA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/071.png",
@@ -4149,7 +3777,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1338,
-    "share_code": "AAEANEQA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/072.png",
@@ -4206,7 +3833,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1341,
-    "share_code": "AAEANGIA",
     "artist": "mashu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/073.png",
@@ -4263,7 +3889,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1353,
-    "share_code": "AAEANNoA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/074.png",
@@ -4320,7 +3945,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1304,
-    "share_code": "AAEAMvAA",
     "artist": "Terada Tera",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/075.png",
@@ -4389,7 +4013,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1310,
-    "share_code": "AAEAMywA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/076.png",
@@ -4452,7 +4075,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1319,
-    "share_code": "AAEAM4YA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/077.png",
@@ -4515,7 +4137,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1325,
-    "share_code": "AAEAM8IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/078.png",
@@ -4578,7 +4199,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1346,
-    "share_code": "AAEANJQA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/079.png",
@@ -4647,7 +4267,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1356,
-    "share_code": "AAEANPgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/080.png",
@@ -4716,7 +4335,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000103,
-    "share_code": "AZiahgAA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/081.png",
@@ -4773,7 +4391,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000104,
-    "share_code": "AZiakAAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/082.png",
@@ -4830,7 +4447,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1310,
-    "share_code": "AAEAMywA",
     "artist": "Mori Yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/083.png",
@@ -4893,7 +4509,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1325,
-    "share_code": "AAEAM8IA",
     "artist": "Kazumasa Yasukuni",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/084.png",
@@ -4956,7 +4571,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1346,
-    "share_code": "AAEANJQA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/085.png",
@@ -5025,7 +4639,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1356,
-    "share_code": "AAEANPgA",
     "artist": "matazo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/086.png",
@@ -5094,7 +4707,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1319,
-    "share_code": "AAEAM4YA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/087.png",
@@ -5157,7 +4769,6 @@
     },
     "points": 1,
     "deckBuilderNr": 857,
-    "share_code": "AAEAIXoA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/088.png",
@@ -5214,7 +4825,6 @@
     },
     "points": 1,
     "deckBuilderNr": 858,
-    "share_code": "AAEAIYQA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/089.png",
@@ -5271,7 +4881,6 @@
     },
     "points": 1,
     "deckBuilderNr": 13,
-    "share_code": "AAEAAIIA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/090.png",
@@ -5328,7 +4937,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1318,
-    "share_code": "AAEAM3wA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/091.png",
@@ -5385,7 +4993,6 @@
     },
     "points": 1,
     "deckBuilderNr": 623,
-    "share_code": "AAEAGFYA",
     "artist": "whomor Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/092.png",
@@ -5442,7 +5049,6 @@
     },
     "points": 1,
     "deckBuilderNr": 624,
-    "share_code": "AAEAGGAA",
     "artist": "whomor Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/093.png",
@@ -5499,7 +5105,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1204,
-    "share_code": "AAEALwgA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/094.png",
@@ -5556,7 +5161,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1205,
-    "share_code": "AAEALxIA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/095.png",
@@ -5613,7 +5217,6 @@
     },
     "points": 1,
     "deckBuilderNr": 794,
-    "share_code": "AAEAHwQA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/096.png",
@@ -5682,7 +5285,6 @@
     },
     "points": 1,
     "deckBuilderNr": 795,
-    "share_code": "AAEAHw4A",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/097.png",
@@ -5759,7 +5361,6 @@
     },
     "points": 2,
     "deckBuilderNr": 748,
-    "share_code": "AAEAHTgA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/098.png",
@@ -5840,7 +5441,6 @@
     },
     "points": 2,
     "deckBuilderNr": 668,
-    "share_code": "AAEAGhgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/099.png",
@@ -5929,7 +5529,6 @@
     },
     "points": 2,
     "deckBuilderNr": 780,
-    "share_code": "AAEAHngA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/100.png",
@@ -6004,7 +5603,6 @@
     },
     "points": 2,
     "deckBuilderNr": 703,
-    "share_code": "AAEAG3YA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/101.png",
@@ -6091,7 +5689,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1254,
-    "share_code": "AAEAMPwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/102.png",
@@ -6148,7 +5745,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000102,
-    "share_code": "AZiafAAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/103.png",

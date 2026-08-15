@@ -13,8 +13,7 @@ CARD_KEYS = (
     "type", "subtype", "stage", "evolves_from", "rarity", "pack_points",
     "ex", "mega", "shiny", "special_tags", "art_style",
     "health", "retreat", "weakness", "ability", "card_text", "attacks", "points",
-    "deckBuilderNr", "share_code",
-    "artist", "image", "image_png", "flavour_text", "alternate_versions"
+    "deckBuilderNr", "artist", "image", "image_png", "flavour_text", "alternate_versions"
 )
 ABILITY_KEYS = {"exists", "name", "effect"}
 ATTACK_KEYS = {"cost", "name", "damage", "effect"}

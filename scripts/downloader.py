@@ -80,22 +80,22 @@ def download_images(cards, prefix):
 
     for card in tqdm(cards, desc=f"Downloading {prefix} images", unit="img"):
         source_url = card.pop("source_url", None)
+        num = card["id"].split("-")[-1]
+        out_webp = os.path.join(webp_dir, f"{num}.webp")
+        out_png = os.path.join(png_dir, f"{num}.png")
 
-        if source_url and "limitlesstcg" in source_url:
-            num = card["id"].split("-")[-1]
-            out_webp = os.path.join(webp_dir, f"{num}.webp")
-            out_png = os.path.join(png_dir, f"{num}.png")
-
-            if not (os.path.exists(out_webp) and os.path.exists(out_png)):
-                try:
-                    time.sleep(RATE_LIMIT_DELAY)
-                    resp = SESSION.get(source_url, timeout=IMAGE_TIMEOUT)
-                    resp.raise_for_status()
-                    img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
-                    img.save(out_webp, "WEBP")
-                    img.save(out_png, "PNG")
-                except Exception as e:
-                    raise RuntimeError(f"Critical failure downloading image for {card['id']}: {e}")
+        if not (os.path.exists(out_webp) and os.path.exists(out_png)):
+            if not source_url or "limitlesstcg" not in source_url:
+                raise RuntimeError(f"Missing or invalid source_url for {card['id']}")
+            try:
+                time.sleep(RATE_LIMIT_DELAY)
+                resp = SESSION.get(source_url, timeout=IMAGE_TIMEOUT)
+                resp.raise_for_status()
+                img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
+                img.save(out_webp, "WEBP")
+                img.save(out_png, "PNG")
+            except Exception as e:
+                raise RuntimeError(f"Critical failure downloading image for {card['id']}: {e}")
 
 def download_pack_images(expansion_name, packs):
     r"""download_pack_images(expansion_name, packs)
@@ -131,8 +131,8 @@ def download_pack_images(expansion_name, packs):
 
     for pack in packs:
         out_webp, out_png = os.path.join(WEBP_PACKS_DIR, f"{pack['id']}.webp"), os.path.join(PNG_PACKS_DIR, f"{pack['id']}.png")
-        if os.path.exists(out_webp) and os.path.exists(out_png): continue
-
+        if os.path.exists(out_webp) and os.path.exists(out_png):
+            continue
         for ext in ("jpg", "png"):
             try:
                 resp = SESSION.get(f"{SEREBII_BASE_URL}{exp_slug}/{serebii_slug(pack['name'])}.{ext}",

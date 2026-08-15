@@ -1,4 +1,3 @@
-# QR encoding logic ported from [Nirostar/ptcgp-deck-qr/](https://github.com/Nirostar/ptcgp-deck-qr) (MIT License) @ 2026 Nirostar
 # Copyright (C) 2024 Chase Manning <chase@manning.dev>
 # Copyright (C) 2026 Leonid Dalin <infoLeonid@protonmail.com> & Chase Manning <chase@manning.dev>
 #
@@ -18,14 +17,13 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
-r"""Encode card numbers into the base64 format used by the in-game
-deck builder.
+r"""Encode card numbers into the base64 deck-code format used by the
+in-game deck builder.
 
-The encoding logic was ported from Nirostar's ptcgp-deck-qr project
-(MIT Licence). Each card has a deck-builder number: a small integer
-for Pokemon cards, and the same integer plus a large offset for
-trainer cards. These numbers are packed into a binary format and
-base64-encoded to produce the share codes seen in the game.
+Each card has a deck-builder number: a small integer for Pokemon
+cards, and the same integer plus a large offset for trainer cards.
+These numbers are packed into a binary format and base64-encoded to
+produce the share codes seen in the game.
 """
 
 import base64
@@ -39,7 +37,7 @@ def get_deck_builder_nr(image_filename):
     r"""get_deck_builder_nr(image_filename) -> int or None
 
     Parse a deck-builder number from an image filename in the
-    Flibustier's datamine database. The filename contains a card type
+    Flibustier datamine database. The filename contains a card type
     code (uppercase letters) and a 6-digit number. The 6-digit number
     must end in 0 to be valid; the deck-builder number is that value
     divided by 10.
@@ -57,21 +55,14 @@ def get_deck_builder_nr(image_filename):
         int or None: the deck-builder number, or ``None`` if the
         filename does not match the expected pattern or the 6-digit
         number does not end in 0
-
-    Example::
-
-        >>> get_deck_builder_nr("cPKMN_001_000100_img.png")
-        10
-        >>> get_deck_builder_nr("cTR_001_000200_img.png")
-        1000020
-        >>> get_deck_builder_nr(None)
-        None
-        >>> get_deck_builder_nr("invalid")
-        None
     """
     match = re.search(r"c([A-Z]+)_\d+_(\d{6})_", str(image_filename or ""))
-    if not match or int(match.group(2)) % 10 != 0: return None
-    nr = int(match.group(2)) // 10
+    if not match:
+        return None
+    raw = int(match.group(2))
+    if raw % 10 != 0:
+        return None
+    nr = raw // 10
     return TRAINER_OFFSET + nr if match.group(1) == "TR" else nr
 
 
@@ -79,22 +70,23 @@ def create_deck_code(nrs, energy_ids=None):
     r"""create_deck_code(nrs, energy_ids=None) -> str or None
 
     Encode a list of deck-builder numbers into the base64 deck code
-    used by the in-game deck builder. This is the general version
-    that handles full decks; :func:`create_single_card_code` wraps it
-    for single-card codes.
+    used by the in-game deck builder.
 
     The binary format has three sections, written sequentially:
 
-    1. **Special cards** (trainers, numbers at or above
+    1. **Trainer segment** (numbers at or above
+       ``SPECIAL_THRESHOLD``): 1-byte count, then one 3-byte
+       big-endian integer per card. Values are written as-is.
+    2. **Pokemon segment** (numbers below
        ``SPECIAL_THRESHOLD``): 1-byte count, then one 3-byte
        big-endian integer per card. Each value is the card number
        multiplied by 10.
-    2. **Normal cards** (Pokemon, numbers below
-       ``SPECIAL_THRESHOLD``): same layout as special cards.
-    3. **Energy IDs**: 1-byte count, then one byte per energy ID.
+    3. **Energy segment**: 1-byte count, then one byte per energy
+       ID. This segment is omitted entirely when both the Pokemon
+       segment and ``energy_ids`` are empty.
 
-    The entire byte array is base64-encoded with standard padding.
     Card numbers within each section are sorted before encoding.
+    The entire byte array is base64-encoded with standard padding.
 
     Args:
         nrs (list of int): deck-builder numbers, as returned by
@@ -109,63 +101,43 @@ def create_deck_code(nrs, energy_ids=None):
         ``nrs`` is empty
 
     Raises:
-        ValueError: if any card number multiplied by 10 exceeds
-            3 bytes (``0xFFFFFF`` = 16,777,215)
-
-    Example::
-
-        >>> create_deck_code([10, 20])
-        'AAIAAGQAAMgA'
-        >>> create_deck_code([10])
-        'AAEAAGQA'
-        >>> create_deck_code([])
-        None
+        ValueError: if any trainer card number exceeds 3 bytes
+            (``0xFFFFFF`` = 16,777,215), if any Pokemon number
+            multiplied by 10 exceeds 3 bytes, or if any segment
+            has more than 255 entries
     """
-    if not nrs: return None
-    specials, normals = sorted(n for n in nrs if n >= SPECIAL_THRESHOLD), sorted(
-        n for n in nrs if n < SPECIAL_THRESHOLD)
+    if not nrs:
+        return None
+    specials = sorted(n for n in nrs if n >= SPECIAL_THRESHOLD)
+    normals = sorted(n for n in nrs if n < SPECIAL_THRESHOLD)
+
+    if len(specials) > 255 or len(normals) > 255:
+        raise ValueError("Card segment count exceeds 255")
+
     b = bytearray()
 
-    for group in (specials, normals):
-        b.append(len(group) & 0xff)
-        for n in group:
-            v = n * 10
-            if v > 0xFFFFFF: raise ValueError("ID exceeds 3 bytes")
-            b.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
+    # 1. Trainer
+    b.append(len(specials))
+    for n in specials:
+        if n > 0xFFFFFF:
+            raise ValueError("ID exceeds 3 bytes")
+        b.extend([(n >> 16) & 0xff, (n >> 8) & 0xff, n & 0xff])
+
+    # 2. Pokémon
+    b.append(len(normals))
+    for n in normals:
+        v = n * 10
+        if v > 0xFFFFFF:
+            raise ValueError("ID exceeds 3 bytes")
+        b.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
 
     energy_ids = energy_ids or []
-    b.extend([len(energy_ids) & 0xff, *energy_ids])
+    if len(energy_ids) > 255:
+        raise ValueError("Energy count exceeds 255")
+
+    # 3. Energy
+    if energy_ids or normals:
+        b.append(len(energy_ids))
+        b.extend(energy_ids)
+
     return base64.b64encode(b).decode("utf-8")
-
-
-def create_single_card_code(nr):
-    r"""create_single_card_code(nr) -> str or None
-
-    Encode a single card's deck-builder number into a base64 share
-    code. This is a thin wrapper around :func:`create_deck_code`
-    that passes the number as a one-element list.
-
-    Args:
-        nr (int): the deck-builder number, as returned by
-            :func:`get_deck_builder_nr`
-
-    Returns:
-        str or None: base64 share code, or ``None`` if ``nr`` is
-        not a positive integer
-
-    Raises:
-        ValueError: if the card number multiplied by 10 exceeds
-            3 bytes (``0xFFFFFF`` = 16,777,215)
-
-    Example::
-
-        >>> create_single_card_code(10)
-        'AAEAAGQA'
-        >>> create_single_card_code(1000020)
-        'AZiXSAAA'
-        >>> create_single_card_code(0)
-        None
-        >>> create_single_card_code(None)
-        None
-    """
-    return create_deck_code([nr]) if isinstance(nr, int) and nr > 0 else None

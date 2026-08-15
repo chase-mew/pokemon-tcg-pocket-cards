@@ -372,116 +372,116 @@
       {
         "id": "pa-campaign",
         "name": "Campaign",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-campaign.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-campaign.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-everypack",
         "name": "Every pack",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-everypack.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-everypack.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-missions",
         "name": "Missions",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-missions.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-missions.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov1",
         "name": "Promo V1",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov1.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov1.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov10",
         "name": "Promo V10",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov10.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov10.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov11",
         "name": "Promo V11",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov11.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov11.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov12",
         "name": "Promo V12",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov12.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov12.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov13",
         "name": "Promo V13",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov13.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov13.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov14",
         "name": "Promo V14",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov14.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov14.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov2",
         "name": "Promo V2",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov2.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov2.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov3",
         "name": "Promo V3",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov3.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov3.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov4",
         "name": "Promo V4",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov4.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov4.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov5",
         "name": "Promo V5",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov5.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov5.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov6",
         "name": "Promo V6",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov6.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov6.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov7",
         "name": "Promo V7",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov7.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov7.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov8",
         "name": "Promo V8",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov8.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov8.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-promov9",
         "name": "Promo V9",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-promov9.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-promov9.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-shop",
         "name": "Shop",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-shop.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-shop.png"
+        "image": null,
+        "image_png": null
       },
       {
         "id": "pa-wonderpick",
         "name": "Wonder Pick",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pa-wonderpick.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pa-wonderpick.png"
+        "image": null,
+        "image_png": null
       }
     ]
   },
@@ -496,8 +496,8 @@
       {
         "id": "pb-booster",
         "name": "Booster",
-        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/pb-booster.webp",
-        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/pb-booster.png"
+        "image": null,
+        "image_png": null
       }
     ]
   }

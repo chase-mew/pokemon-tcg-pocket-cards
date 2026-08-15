@@ -269,7 +269,7 @@ def main():
             provided, or if ``--all`` is combined with ``--name``.
     """
     parser = argparse.ArgumentParser(description="Add a new Pokemon TCG Pocket expansion")
-    parser.add_argument("set_code", nargs="?", help="Set code or range (e.g. B3b, a1->b4, PA)")
+    parser.add_argument("set_code", nargs="?", help="Set code or range (e.g. B3b, 'a1->b4', PA)")
     parser.add_argument("--all", action="store_true", help="Scrape all discoverable sets from Limitless")
     parser.add_argument("--name", help="Override expansion name (auto-detected if omitted)")
     parser.add_argument("--mode", choices=["v4", "v5"], default="v5", help="Target output schema format")

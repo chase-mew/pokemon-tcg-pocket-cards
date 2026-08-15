@@ -125,10 +125,6 @@ export type PokemonTCGPocketCardsV5Schema = {
    */
   deckBuilderNr: number;
   /**
-   * The base64 encoded binary string for sharing the card in-game.
-   */
-  share_code: string;
-  /**
    * The credited illustrator.
    */
   artist: string;

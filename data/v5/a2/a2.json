@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 282,
-    "share_code": "AAEACwQA",
     "artist": "Asako Ito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/001.png",
     "flavour_text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 1,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 283,
-    "share_code": "AAEACw4A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/002.png",
     "flavour_text": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 2,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-003",
@@ -156,19 +140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 284,
-    "share_code": "AAEACxgA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/003.png",
     "flavour_text": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 3,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-004",
@@ -213,19 +189,11 @@
     },
     "points": 1,
     "deckBuilderNr": 285,
-    "share_code": "AAEACyIA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/004.png",
     "flavour_text": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 4,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-005",
@@ -270,7 +238,6 @@
     },
     "points": 1,
     "deckBuilderNr": 286,
-    "share_code": "AAEACywA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/005.png",
@@ -327,7 +294,6 @@
     },
     "points": 1,
     "deckBuilderNr": 287,
-    "share_code": "AAEACzYA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/006.png",
@@ -390,7 +356,6 @@
     },
     "points": 2,
     "deckBuilderNr": 288,
-    "share_code": "AAEAC0AA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/007.png",
@@ -465,19 +430,11 @@
     },
     "points": 1,
     "deckBuilderNr": 289,
-    "share_code": "AAEAC0oA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/008.png",
     "flavour_text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 8,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-009",
@@ -522,19 +479,11 @@
     },
     "points": 1,
     "deckBuilderNr": 290,
-    "share_code": "AAEAC1QA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/009.png",
     "flavour_text": "After captivating opponents with its sweet scent, it lashes them with its thorny whips.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 9,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-010",
@@ -579,7 +528,6 @@
     },
     "points": 1,
     "deckBuilderNr": 291,
-    "share_code": "AAEAC14A",
     "artist": "OOYAMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/010.png",
@@ -636,19 +584,11 @@
     },
     "points": 1,
     "deckBuilderNr": 292,
-    "share_code": "AAEAC2gA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/011.png",
     "flavour_text": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 11,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-012",
@@ -693,19 +633,11 @@
     },
     "points": 1,
     "deckBuilderNr": 293,
-    "share_code": "AAEAC3IA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/012.png",
     "flavour_text": "Ancient people imagined that beneath the ground dwelt a gigantic Torterra.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 12,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-013",
@@ -750,19 +682,11 @@
     },
     "points": 1,
     "deckBuilderNr": 294,
-    "share_code": "AAEAC3wA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/013.png",
     "flavour_text": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 13,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-014",
@@ -807,19 +731,11 @@
     },
     "points": 1,
     "deckBuilderNr": 295,
-    "share_code": "AAEAC4YA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/014.png",
     "flavour_text": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 14,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-015",
@@ -864,19 +780,11 @@
     },
     "points": 1,
     "deckBuilderNr": 296,
-    "share_code": "AAEAC5AA",
     "artist": "Mugi Hamada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/015.png",
     "flavour_text": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 15,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-016",
@@ -921,19 +829,11 @@
     },
     "points": 1,
     "deckBuilderNr": 297,
-    "share_code": "AAEAC5oA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/016.png",
     "flavour_text": "Its appearance changes depending on where it evolved. The materials on hand become a part of its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-017",
@@ -978,7 +878,6 @@
     },
     "points": 1,
     "deckBuilderNr": 298,
-    "share_code": "AAEAC6QA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/017.png",
@@ -1035,19 +934,11 @@
     },
     "points": 1,
     "deckBuilderNr": 299,
-    "share_code": "AAEAC64A",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/018.png",
     "flavour_text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 18,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-019",
@@ -1092,7 +983,6 @@
     },
     "points": 1,
     "deckBuilderNr": 300,
-    "share_code": "AAEAC7gA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/019.png",
@@ -1149,19 +1039,11 @@
     },
     "points": 1,
     "deckBuilderNr": 301,
-    "share_code": "AAEAC8IA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/020.png",
     "flavour_text": "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 20,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-021",
@@ -1206,19 +1088,11 @@
     },
     "points": 1,
     "deckBuilderNr": 302,
-    "share_code": "AAEAC8wA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/021.png",
     "flavour_text": "The lawn mower is one of the household appliances that led to the development of the Rotom Dex.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 21,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-022",
@@ -1263,7 +1137,6 @@
     },
     "points": 1,
     "deckBuilderNr": 303,
-    "share_code": "AAEAC9YA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/022.png",
@@ -1338,7 +1211,6 @@
     },
     "points": 1,
     "deckBuilderNr": 304,
-    "share_code": "AAEAC+AA",
     "artist": "Hiroki Asanuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/023.png",
@@ -1395,19 +1267,11 @@
     },
     "points": 1,
     "deckBuilderNr": 305,
-    "share_code": "AAEAC+oA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/024.png",
     "flavour_text": "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 24,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-025",
@@ -1452,19 +1316,11 @@
     },
     "points": 1,
     "deckBuilderNr": 306,
-    "share_code": "AAEAC/QA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/025.png",
     "flavour_text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-026",
@@ -1509,19 +1365,11 @@
     },
     "points": 1,
     "deckBuilderNr": 307,
-    "share_code": "AAEAC/4A",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/026.png",
     "flavour_text": "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 26,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-027",
@@ -1566,7 +1414,6 @@
     },
     "points": 1,
     "deckBuilderNr": 308,
-    "share_code": "AAEADAgA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/027.png",
@@ -1641,7 +1488,6 @@
     },
     "points": 1,
     "deckBuilderNr": 309,
-    "share_code": "AAEADBIA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/028.png",
@@ -1710,7 +1556,6 @@
     },
     "points": 2,
     "deckBuilderNr": 310,
-    "share_code": "AAEADBwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/029.png",
@@ -1785,19 +1630,11 @@
     },
     "points": 1,
     "deckBuilderNr": 311,
-    "share_code": "AAEADCYA",
     "artist": "Kedamahadaitai Yawarakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/030.png",
     "flavour_text": "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 30,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-031",
@@ -1842,19 +1679,11 @@
     },
     "points": 1,
     "deckBuilderNr": 312,
-    "share_code": "AAEADDAA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/031.png",
     "flavour_text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 31,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-032",
@@ -1899,19 +1728,11 @@
     },
     "points": 1,
     "deckBuilderNr": 313,
-    "share_code": "AAEADDoA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/032.png",
     "flavour_text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 32,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-033",
@@ -1956,7 +1777,6 @@
     },
     "points": 1,
     "deckBuilderNr": 314,
-    "share_code": "AAEADEQA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/033.png",
@@ -2013,19 +1833,11 @@
     },
     "points": 1,
     "deckBuilderNr": 315,
-    "share_code": "AAEADE4A",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/034.png",
     "flavour_text": "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 34,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-035",
@@ -2070,7 +1882,6 @@
     },
     "points": 1,
     "deckBuilderNr": 316,
-    "share_code": "AAEADFgA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/035.png",
@@ -2127,19 +1938,11 @@
     },
     "points": 1,
     "deckBuilderNr": 317,
-    "share_code": "AAEADGIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/036.png",
     "flavour_text": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 36,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-037",
@@ -2184,19 +1987,11 @@
     },
     "points": 1,
     "deckBuilderNr": 318,
-    "share_code": "AAEADGwA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/037.png",
     "flavour_text": "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 37,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-038",
@@ -2241,19 +2036,11 @@
     },
     "points": 1,
     "deckBuilderNr": 319,
-    "share_code": "AAEADHYA",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/038.png",
     "flavour_text": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 38,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-039",
@@ -2298,19 +2085,11 @@
     },
     "points": 1,
     "deckBuilderNr": 320,
-    "share_code": "AAEADIAA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/039.png",
     "flavour_text": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 39,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-040",
@@ -2355,19 +2134,11 @@
     },
     "points": 1,
     "deckBuilderNr": 321,
-    "share_code": "AAEADIoA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/040.png",
     "flavour_text": "It used to have a shell on its back long ago. This species is closely related to Pokémon like Shellder.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-041",
@@ -2412,7 +2183,6 @@
     },
     "points": 1,
     "deckBuilderNr": 322,
-    "share_code": "AAEADJQA",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/041.png",
@@ -2469,19 +2239,11 @@
     },
     "points": 1,
     "deckBuilderNr": 323,
-    "share_code": "AAEADJ4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/042.png",
     "flavour_text": "The line running down its side can store sunlight. It shines vividly at night.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 42,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-043",
@@ -2526,19 +2288,11 @@
     },
     "points": 1,
     "deckBuilderNr": 324,
-    "share_code": "AAEADKgA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/043.png",
     "flavour_text": "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 43,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-044",
@@ -2583,19 +2337,11 @@
     },
     "points": 1,
     "deckBuilderNr": 325,
-    "share_code": "AAEADLIA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/044.png",
     "flavour_text": "During cold seasons, it migrates to the mountain’s lower reaches. It returns to the snow-covered summit in the spring.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 44,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-045",
@@ -2640,19 +2386,11 @@
     },
     "points": 1,
     "deckBuilderNr": 326,
-    "share_code": "AAEADLwA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/045.png",
     "flavour_text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 45,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-046",
@@ -2697,19 +2435,11 @@
     },
     "points": 1,
     "deckBuilderNr": 327,
-    "share_code": "AAEADMYA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/046.png",
     "flavour_text": "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 46,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-047",
@@ -2754,19 +2484,11 @@
     },
     "points": 1,
     "deckBuilderNr": 328,
-    "share_code": "AAEADNAA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/047.png",
     "flavour_text": "This Rotom has entered a washing machine. It nods with satisfaction after it floods the surrounding area.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 47,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-048",
@@ -2811,19 +2533,11 @@
     },
     "points": 1,
     "deckBuilderNr": 329,
-    "share_code": "AAEADNoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/048.png",
     "flavour_text": "This Rotom has entered a refrigerator. It leaps around gleefully after it uses cold air to freeze the area around it.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 48,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-049",
@@ -2868,7 +2582,6 @@
     },
     "points": 2,
     "deckBuilderNr": 330,
-    "share_code": "AAEADOQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/049.png",
@@ -2955,7 +2668,6 @@
     },
     "points": 1,
     "deckBuilderNr": 331,
-    "share_code": "AAEADO4A",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/050.png",
@@ -3036,19 +2748,11 @@
     },
     "points": 1,
     "deckBuilderNr": 332,
-    "share_code": "AAEADPgA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/051.png",
     "flavour_text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-052",
@@ -3093,19 +2797,11 @@
     },
     "points": 1,
     "deckBuilderNr": 333,
-    "share_code": "AAEADQIA",
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/052.png",
     "flavour_text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 52,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-053",
@@ -3150,7 +2846,6 @@
     },
     "points": 1,
     "deckBuilderNr": 334,
-    "share_code": "AAEADQwA",
     "artist": "Yoshinobu Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/053.png",
@@ -3213,7 +2908,6 @@
     },
     "points": 1,
     "deckBuilderNr": 335,
-    "share_code": "AAEADRYA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/054.png",
@@ -3270,7 +2964,6 @@
     },
     "points": 1,
     "deckBuilderNr": 336,
-    "share_code": "AAEADSAA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/055.png",
@@ -3327,19 +3020,11 @@
     },
     "points": 1,
     "deckBuilderNr": 337,
-    "share_code": "AAEADSoA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/056.png",
     "flavour_text": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 56,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-057",
@@ -3384,7 +3069,6 @@
     },
     "points": 1,
     "deckBuilderNr": 338,
-    "share_code": "AAEADTQA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/057.png",
@@ -3441,7 +3125,6 @@
     },
     "points": 1,
     "deckBuilderNr": 339,
-    "share_code": "AAEADT4A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/058.png",
@@ -3498,19 +3181,11 @@
     },
     "points": 1,
     "deckBuilderNr": 340,
-    "share_code": "AAEADUgA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/059.png",
     "flavour_text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 59,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-060",
@@ -3555,19 +3230,11 @@
     },
     "points": 1,
     "deckBuilderNr": 341,
-    "share_code": "AAEADVIA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/060.png",
     "flavour_text": "It can see clearly through walls to track down its prey and seek its lost young.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 60,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-061",
@@ -3612,7 +3279,6 @@
     },
     "points": 2,
     "deckBuilderNr": 342,
-    "share_code": "AAEADVwA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/061.png",
@@ -3687,7 +3353,6 @@
     },
     "points": 1,
     "deckBuilderNr": 343,
-    "share_code": "AAEADWYA",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/062.png",
@@ -3744,7 +3409,6 @@
     },
     "points": 1,
     "deckBuilderNr": 344,
-    "share_code": "AAEADXAA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/063.png",
@@ -3801,19 +3465,11 @@
     },
     "points": 1,
     "deckBuilderNr": 345,
-    "share_code": "AAEADXoA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/064.png",
     "flavour_text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-065",
@@ -3858,19 +3514,11 @@
     },
     "points": 1,
     "deckBuilderNr": 346,
-    "share_code": "AAEADYQA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/065.png",
     "flavour_text": "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they’ve hardly been seen at all.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 65,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-066",
@@ -3915,7 +3563,6 @@
     },
     "points": 1,
     "deckBuilderNr": 347,
-    "share_code": "AAEADY4A",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/066.png",
@@ -3984,7 +3631,6 @@
     },
     "points": 2,
     "deckBuilderNr": 348,
-    "share_code": "AAEADZgA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/067.png",
@@ -4059,7 +3705,6 @@
     },
     "points": 1,
     "deckBuilderNr": 349,
-    "share_code": "AAEADaIA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/068.png",
@@ -4128,7 +3773,6 @@
     },
     "points": 1,
     "deckBuilderNr": 350,
-    "share_code": "AAEADawA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/069.png",
@@ -4197,19 +3841,11 @@
     },
     "points": 1,
     "deckBuilderNr": 351,
-    "share_code": "AAEADbYA",
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/070.png",
     "flavour_text": "If it finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 70,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-071",
@@ -4254,19 +3890,11 @@
     },
     "points": 1,
     "deckBuilderNr": 352,
-    "share_code": "AAEADcAA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/071.png",
     "flavour_text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 71,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-072",
@@ -4311,19 +3939,11 @@
     },
     "points": 1,
     "deckBuilderNr": 353,
-    "share_code": "AAEADcoA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/072.png",
     "flavour_text": "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 72,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-073",
@@ -4368,7 +3988,6 @@
     },
     "points": 1,
     "deckBuilderNr": 354,
-    "share_code": "AAEADdQA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/073.png",
@@ -4425,19 +4044,11 @@
     },
     "points": 1,
     "deckBuilderNr": 355,
-    "share_code": "AAEADd4A",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/074.png",
     "flavour_text": "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 74,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-075",
@@ -4482,19 +4093,11 @@
     },
     "points": 1,
     "deckBuilderNr": 356,
-    "share_code": "AAEADegA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/075.png",
     "flavour_text": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 75,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-076",
@@ -4539,7 +4142,6 @@
     },
     "points": 1,
     "deckBuilderNr": 357,
-    "share_code": "AAEADfIA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/076.png",
@@ -4596,19 +4198,11 @@
     },
     "points": 1,
     "deckBuilderNr": 358,
-    "share_code": "AAEADfwA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/077.png",
     "flavour_text": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 77,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-078",
@@ -4653,7 +4247,6 @@
     },
     "points": 1,
     "deckBuilderNr": 359,
-    "share_code": "AAEADgYA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/078.png",
@@ -4722,7 +4315,6 @@
     },
     "points": 1,
     "deckBuilderNr": 360,
-    "share_code": "AAEADhAA",
     "artist": "Masako Tomii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/079.png",
@@ -4779,19 +4371,11 @@
     },
     "points": 1,
     "deckBuilderNr": 361,
-    "share_code": "AAEADhoA",
     "artist": "otumami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/080.png",
     "flavour_text": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 80,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-081",
@@ -4836,19 +4420,11 @@
     },
     "points": 1,
     "deckBuilderNr": 362,
-    "share_code": "AAEADiQA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/081.png",
     "flavour_text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 81,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-082",
@@ -4893,7 +4469,6 @@
     },
     "points": 1,
     "deckBuilderNr": 363,
-    "share_code": "AAEADi4A",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/082.png",
@@ -4950,19 +4525,11 @@
     },
     "points": 1,
     "deckBuilderNr": 364,
-    "share_code": "AAEADjgA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/083.png",
     "flavour_text": "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 83,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-084",
@@ -5007,19 +4574,11 @@
     },
     "points": 1,
     "deckBuilderNr": 365,
-    "share_code": "AAEADkIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/084.png",
     "flavour_text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 84,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-085",
@@ -5064,19 +4623,11 @@
     },
     "points": 1,
     "deckBuilderNr": 366,
-    "share_code": "AAEADkwA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/085.png",
     "flavour_text": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 85,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-086",
@@ -5121,19 +4672,11 @@
     },
     "points": 1,
     "deckBuilderNr": 367,
-    "share_code": "AAEADlYA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/086.png",
     "flavour_text": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 86,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-087",
@@ -5178,19 +4721,11 @@
     },
     "points": 1,
     "deckBuilderNr": 368,
-    "share_code": "AAEADmAA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/087.png",
     "flavour_text": "Every bit of Regirock’s body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what’s been lost.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 87,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-088",
@@ -5235,19 +4770,11 @@
     },
     "points": 1,
     "deckBuilderNr": 369,
-    "share_code": "AAEADmoA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/088.png",
     "flavour_text": "A primeval Pokémon, it possesses a hard and sturdy skull, lacking any intelligence within.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 88,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-089",
@@ -5292,19 +4819,11 @@
     },
     "points": 1,
     "deckBuilderNr": 370,
-    "share_code": "AAEADnQA",
     "artist": "Yoshinobu Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/089.png",
     "flavour_text": "In ancient times, people would dig up fossils of this Pokémon and use its skull, which is harder than steel, to make helmets.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 89,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-090",
@@ -5349,19 +4868,11 @@
     },
     "points": 1,
     "deckBuilderNr": 371,
-    "share_code": "AAEADn4A",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/090.png",
     "flavour_text": "Its appearance changes depending on where it evolved. The materials on hand become a part of its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 90,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-091",
@@ -5406,19 +4917,11 @@
     },
     "points": 1,
     "deckBuilderNr": 372,
-    "share_code": "AAEADogA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/091.png",
     "flavour_text": "They communicate with one another using their auras. They are able to run all through the night.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 91,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-092",
@@ -5463,7 +4966,6 @@
     },
     "points": 1,
     "deckBuilderNr": 373,
-    "share_code": "AAEADpIA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/092.png",
@@ -5532,7 +5034,6 @@
     },
     "points": 1,
     "deckBuilderNr": 374,
-    "share_code": "AAEADpwA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/093.png",
@@ -5589,19 +5090,11 @@
     },
     "points": 1,
     "deckBuilderNr": 375,
-    "share_code": "AAEADqYA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/094.png",
     "flavour_text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 94,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-095",
@@ -5646,7 +5139,6 @@
     },
     "points": 2,
     "deckBuilderNr": 376,
-    "share_code": "AAEADrAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/095.png",
@@ -5721,19 +5213,11 @@
     },
     "points": 1,
     "deckBuilderNr": 377,
-    "share_code": "AAEADroA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/096.png",
     "flavour_text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 96,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-097",
@@ -5778,19 +5262,11 @@
     },
     "points": 1,
     "deckBuilderNr": 378,
-    "share_code": "AAEADsQA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/097.png",
     "flavour_text": "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 97,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-098",
@@ -5835,7 +5311,6 @@
     },
     "points": 1,
     "deckBuilderNr": 379,
-    "share_code": "AAEADs4A",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/098.png",
@@ -5898,7 +5373,6 @@
     },
     "points": 2,
     "deckBuilderNr": 380,
-    "share_code": "AAEADtgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/099.png",
@@ -5973,19 +5447,11 @@
     },
     "points": 1,
     "deckBuilderNr": 381,
-    "share_code": "AAEADuIA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/100.png",
     "flavour_text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 100,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-101",
@@ -6030,19 +5496,11 @@
     },
     "points": 1,
     "deckBuilderNr": 382,
-    "share_code": "AAEADuwA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/101.png",
     "flavour_text": "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 101,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-102",
@@ -6087,19 +5545,11 @@
     },
     "points": 1,
     "deckBuilderNr": 383,
-    "share_code": "AAEADvYA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/102.png",
     "flavour_text": "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 102,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-103",
@@ -6144,19 +5594,11 @@
     },
     "points": 1,
     "deckBuilderNr": 384,
-    "share_code": "AAEADwAA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/103.png",
     "flavour_text": "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 103,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-104",
@@ -6201,7 +5643,6 @@
     },
     "points": 1,
     "deckBuilderNr": 385,
-    "share_code": "AAEADwoA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/104.png",
@@ -6258,19 +5699,11 @@
     },
     "points": 1,
     "deckBuilderNr": 386,
-    "share_code": "AAEADxQA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/105.png",
     "flavour_text": "After burrowing into the sand, it waits patiently for prey to come near. This Pokémon and Sizzlipede share common descent.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 105,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-106",
@@ -6315,19 +5748,11 @@
     },
     "points": 1,
     "deckBuilderNr": 387,
-    "share_code": "AAEADx4A",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/106.png",
     "flavour_text": "Its poison is potent, but it rarely sees use. This Pokémon prefers to use physical force instead, going on rampages with its car-crushing strength.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 106,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-107",
@@ -6372,7 +5797,6 @@
     },
     "points": 1,
     "deckBuilderNr": 388,
-    "share_code": "AAEADygA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/107.png",
@@ -6429,19 +5853,11 @@
     },
     "points": 1,
     "deckBuilderNr": 389,
-    "share_code": "AAEADzIA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/108.png",
     "flavour_text": "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 108,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-109",
@@ -6486,19 +5902,11 @@
     },
     "points": 1,
     "deckBuilderNr": 390,
-    "share_code": "AAEADzwA",
     "artist": "Masako Tomii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/109.png",
     "flavour_text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 109,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-110",
@@ -6543,7 +5951,6 @@
     },
     "points": 2,
     "deckBuilderNr": 391,
-    "share_code": "AAEAD0YA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/110.png",
@@ -6624,7 +6031,6 @@
     },
     "points": 1,
     "deckBuilderNr": 392,
-    "share_code": "AAEAD1AA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/111.png",
@@ -6681,19 +6087,11 @@
     },
     "points": 1,
     "deckBuilderNr": 393,
-    "share_code": "AAEAD1oA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/112.png",
     "flavour_text": "Registeel’s body is made of a strange material that is flexible enough to stretch and shrink but also more durable than any metal.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 112,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-113",
@@ -6738,19 +6136,11 @@
     },
     "points": 1,
     "deckBuilderNr": 394,
-    "share_code": "AAEAD2QA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/113.png",
     "flavour_text": "A mild-mannered, herbivorous Pokémon, it used its face to dig up tree roots to eat. The skin on its face was plenty tough.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 113,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-114",
@@ -6795,19 +6185,11 @@
     },
     "points": 1,
     "deckBuilderNr": 395,
-    "share_code": "AAEAD24A",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/114.png",
     "flavour_text": "The bones of its face are huge and hard, so they were mistaken for its spine until after this Pokémon was successfully restored.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 114,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-115",
@@ -6852,19 +6234,11 @@
     },
     "points": 1,
     "deckBuilderNr": 396,
-    "share_code": "AAEAD3gA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/115.png",
     "flavour_text": "Its appearance changes depending on where it evolved. The materials on hand become a part of its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 115,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-116",
@@ -6909,19 +6283,11 @@
     },
     "points": 1,
     "deckBuilderNr": 397,
-    "share_code": "AAEAD4IA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/116.png",
     "flavour_text": "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 116,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-117",
@@ -6966,19 +6332,11 @@
     },
     "points": 1,
     "deckBuilderNr": 398,
-    "share_code": "AAEAD4wA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/117.png",
     "flavour_text": "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 117,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-118",
@@ -7023,19 +6381,11 @@
     },
     "points": 1,
     "deckBuilderNr": 399,
-    "share_code": "AAEAD5YA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/118.png",
     "flavour_text": "Although it can control its units known as Mini-Noses, they sometimes get lost and don’t come back.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 118,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-119",
@@ -7080,7 +6430,6 @@
     },
     "points": 2,
     "deckBuilderNr": 400,
-    "share_code": "AAEAD6AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/119.png",
@@ -7167,7 +6516,6 @@
     },
     "points": 1,
     "deckBuilderNr": 401,
-    "share_code": "AAEAD6oA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/120.png",
@@ -7224,19 +6572,11 @@
     },
     "points": 1,
     "deckBuilderNr": 402,
-    "share_code": "AAEAD7QA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/121.png",
     "flavour_text": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 121,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-122",
@@ -7281,19 +6621,11 @@
     },
     "points": 1,
     "deckBuilderNr": 403,
-    "share_code": "AAEAD74A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/122.png",
     "flavour_text": "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 122,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-123",
@@ -7338,7 +6670,6 @@
     },
     "points": 1,
     "deckBuilderNr": 404,
-    "share_code": "AAEAD8gA",
     "artist": "Atsushi Furusawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/123.png",
@@ -7395,7 +6726,6 @@
     },
     "points": 1,
     "deckBuilderNr": 405,
-    "share_code": "AAEAD9IA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/124.png",
@@ -7464,7 +6794,6 @@
     },
     "points": 2,
     "deckBuilderNr": 406,
-    "share_code": "AAEAD9wA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/125.png",
@@ -7539,19 +6868,11 @@
     },
     "points": 1,
     "deckBuilderNr": 407,
-    "share_code": "AAEAD+YA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/126.png",
     "flavour_text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 126,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-127",
@@ -7596,19 +6917,11 @@
     },
     "points": 1,
     "deckBuilderNr": 408,
-    "share_code": "AAEAD/AA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/127.png",
     "flavour_text": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 127,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-128",
@@ -7653,19 +6966,11 @@
     },
     "points": 1,
     "deckBuilderNr": 409,
-    "share_code": "AAEAD/oA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/128.png",
     "flavour_text": "This is a Porygon that was updated with special data. Porygon2 develops itself by learning about many different subjects all on its own.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 128,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-129",
@@ -7710,19 +7015,11 @@
     },
     "points": 1,
     "deckBuilderNr": 410,
-    "share_code": "AAEAEAQA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/129.png",
     "flavour_text": "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z’s behavior.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 129,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-130",
@@ -7767,19 +7064,11 @@
     },
     "points": 1,
     "deckBuilderNr": 411,
-    "share_code": "AAEAEA4A",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/130.png",
     "flavour_text": "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 130,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-131",
@@ -7824,19 +7113,11 @@
     },
     "points": 1,
     "deckBuilderNr": 412,
-    "share_code": "AAEAEBgA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/131.png",
     "flavour_text": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that’s proof it really likes you.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 131,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-132",
@@ -7881,19 +7162,11 @@
     },
     "points": 1,
     "deckBuilderNr": 413,
-    "share_code": "AAEAECIA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/132.png",
     "flavour_text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 132,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-133",
@@ -7938,19 +7211,11 @@
     },
     "points": 1,
     "deckBuilderNr": 414,
-    "share_code": "AAEAECwA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/133.png",
     "flavour_text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 133,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-134",
@@ -7995,7 +7260,6 @@
     },
     "points": 1,
     "deckBuilderNr": 415,
-    "share_code": "AAEAEDYA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/134.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/134.png",
@@ -8052,7 +7316,6 @@
     },
     "points": 1,
     "deckBuilderNr": 416,
-    "share_code": "AAEAEEAA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/135.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/135.png",
@@ -8115,19 +7378,11 @@
     },
     "points": 1,
     "deckBuilderNr": 417,
-    "share_code": "AAEAEEoA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/136.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/136.png",
     "flavour_text": "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 136,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-137",
@@ -8172,19 +7427,11 @@
     },
     "points": 1,
     "deckBuilderNr": 418,
-    "share_code": "AAEAEFQA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/137.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/137.png",
     "flavour_text": "If both of Buneary’s ears are rolled up, something is wrong with its body or mind. It’s a sure sign the Pokémon is in need of care.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 137,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-138",
@@ -8229,19 +7476,11 @@
     },
     "points": 1,
     "deckBuilderNr": 419,
-    "share_code": "AAEAEF4A",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/138.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/138.png",
     "flavour_text": "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 138,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-139",
@@ -8286,7 +7525,6 @@
     },
     "points": 1,
     "deckBuilderNr": 420,
-    "share_code": "AAEAEGgA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/139.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/139.png",
@@ -8343,19 +7581,11 @@
     },
     "points": 1,
     "deckBuilderNr": 421,
-    "share_code": "AAEAEHIA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/140.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/140.png",
     "flavour_text": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 140,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-141",
@@ -8400,19 +7630,11 @@
     },
     "points": 1,
     "deckBuilderNr": 422,
-    "share_code": "AAEAEHwA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/141.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/141.png",
     "flavour_text": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 141,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-142",
@@ -8457,19 +7679,11 @@
     },
     "points": 1,
     "deckBuilderNr": 423,
-    "share_code": "AAEAEIYA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/142.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/142.png",
     "flavour_text": "This Rotom has entered an electric fan. It smirks with satisfaction over a prank well pulled after it blows away everything around it.",
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 142,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-143",
@@ -8514,7 +7728,6 @@
     },
     "points": 1,
     "deckBuilderNr": 424,
-    "share_code": "AAEAEJAA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/143.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/143.png",
@@ -8577,19 +7790,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000026,
-    "share_code": "AZiXhAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/144.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/144.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 144,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-145",
@@ -8634,19 +7839,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000027,
-    "share_code": "AZiXjgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/145.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/145.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 145,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-146",
@@ -8691,7 +7888,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000028,
-    "share_code": "AZiXmAAA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/146.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/146.png",
@@ -8754,7 +7950,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000029,
-    "share_code": "AZiXogAA",
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/147.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/147.png",
@@ -8817,7 +8012,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000030,
-    "share_code": "AZiXrAAA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/148.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/148.png",
@@ -8880,19 +8074,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000031,
-    "share_code": "AZiXtgAA",
     "artist": "Yoshinobu Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/149.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/149.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a2",
-        "set_name": "Space-Time Smackdown",
-        "id": 149,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2-150",
@@ -8937,7 +8123,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000032,
-    "share_code": "AZiXwAAA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/150.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/150.png",
@@ -9006,7 +8191,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000033,
-    "share_code": "AZiXygAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/151.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/151.png",
@@ -9063,7 +8247,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000034,
-    "share_code": "AZiX1AAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/152.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/152.png",
@@ -9120,7 +8303,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000035,
-    "share_code": "AZiX3gAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/153.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/153.png",
@@ -9177,7 +8359,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000036,
-    "share_code": "AZiX6AAA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/154.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/154.png",
@@ -9246,7 +8427,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000037,
-    "share_code": "AZiX8gAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/155.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/155.png",
@@ -9315,7 +8495,6 @@
     },
     "points": 1,
     "deckBuilderNr": 286,
-    "share_code": "AAEACywA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/156.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/156.png",
@@ -9372,7 +8551,6 @@
     },
     "points": 1,
     "deckBuilderNr": 298,
-    "share_code": "AAEAC6QA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/157.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/157.png",
@@ -9429,7 +8607,6 @@
     },
     "points": 1,
     "deckBuilderNr": 300,
-    "share_code": "AAEAC7gA",
     "artist": "Yoriyuki Ikegami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/158.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/158.png",
@@ -9486,7 +8663,6 @@
     },
     "points": 1,
     "deckBuilderNr": 303,
-    "share_code": "AAEAC9YA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/159.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/159.png",
@@ -9561,7 +8737,6 @@
     },
     "points": 1,
     "deckBuilderNr": 314,
-    "share_code": "AAEADEQA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/160.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/160.png",
@@ -9618,7 +8793,6 @@
     },
     "points": 1,
     "deckBuilderNr": 322,
-    "share_code": "AAEADJQA",
     "artist": "takashi shiraishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/161.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/161.png",
@@ -9675,7 +8849,6 @@
     },
     "points": 1,
     "deckBuilderNr": 331,
-    "share_code": "AAEADO4A",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/162.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/162.png",
@@ -9756,7 +8929,6 @@
     },
     "points": 1,
     "deckBuilderNr": 339,
-    "share_code": "AAEADT4A",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/163.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/163.png",
@@ -9813,7 +8985,6 @@
     },
     "points": 1,
     "deckBuilderNr": 343,
-    "share_code": "AAEADWYA",
     "artist": "Shimaris Yukichi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/164.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/164.png",
@@ -9870,7 +9041,6 @@
     },
     "points": 1,
     "deckBuilderNr": 354,
-    "share_code": "AAEADdQA",
     "artist": "Orca",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/165.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/165.png",
@@ -9927,7 +9097,6 @@
     },
     "points": 1,
     "deckBuilderNr": 357,
-    "share_code": "AAEADfIA",
     "artist": "Orca",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/166.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/166.png",
@@ -9984,7 +9153,6 @@
     },
     "points": 1,
     "deckBuilderNr": 359,
-    "share_code": "AAEADgYA",
     "artist": "Rond",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/167.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/167.png",
@@ -10053,7 +9221,6 @@
     },
     "points": 1,
     "deckBuilderNr": 360,
-    "share_code": "AAEADhAA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/168.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/168.png",
@@ -10110,7 +9277,6 @@
     },
     "points": 1,
     "deckBuilderNr": 363,
-    "share_code": "AAEADi4A",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/169.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/169.png",
@@ -10167,7 +9333,6 @@
     },
     "points": 1,
     "deckBuilderNr": 373,
-    "share_code": "AAEADpIA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/170.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/170.png",
@@ -10236,7 +9401,6 @@
     },
     "points": 1,
     "deckBuilderNr": 374,
-    "share_code": "AAEADpwA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/171.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/171.png",
@@ -10293,7 +9457,6 @@
     },
     "points": 1,
     "deckBuilderNr": 385,
-    "share_code": "AAEADwoA",
     "artist": "Shinji Kanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/172.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/172.png",
@@ -10350,7 +9513,6 @@
     },
     "points": 1,
     "deckBuilderNr": 388,
-    "share_code": "AAEADygA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/173.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/173.png",
@@ -10407,7 +9569,6 @@
     },
     "points": 1,
     "deckBuilderNr": 401,
-    "share_code": "AAEAD6oA",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/174.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/174.png",
@@ -10464,7 +9625,6 @@
     },
     "points": 1,
     "deckBuilderNr": 404,
-    "share_code": "AAEAD8gA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/175.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/175.png",
@@ -10521,7 +9681,6 @@
     },
     "points": 1,
     "deckBuilderNr": 415,
-    "share_code": "AAEAEDYA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/176.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/176.png",
@@ -10578,7 +9737,6 @@
     },
     "points": 1,
     "deckBuilderNr": 416,
-    "share_code": "AAEAEEAA",
     "artist": "Shinya Komatsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/177.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/177.png",
@@ -10641,7 +9799,6 @@
     },
     "points": 1,
     "deckBuilderNr": 420,
-    "share_code": "AAEAEGgA",
     "artist": "matazo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/178.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/178.png",
@@ -10698,7 +9855,6 @@
     },
     "points": 1,
     "deckBuilderNr": 424,
-    "share_code": "AAEAEJAA",
     "artist": "Tetsu Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/179.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/179.png",
@@ -10761,7 +9917,6 @@
     },
     "points": 2,
     "deckBuilderNr": 288,
-    "share_code": "AAEAC0AA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/180.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/180.png",
@@ -10836,7 +9991,6 @@
     },
     "points": 2,
     "deckBuilderNr": 310,
-    "share_code": "AAEADBwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/181.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/181.png",
@@ -10911,7 +10065,6 @@
     },
     "points": 2,
     "deckBuilderNr": 330,
-    "share_code": "AAEADOQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/182.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/182.png",
@@ -10998,7 +10151,6 @@
     },
     "points": 2,
     "deckBuilderNr": 342,
-    "share_code": "AAEADVwA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/183.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/183.png",
@@ -11073,7 +10225,6 @@
     },
     "points": 2,
     "deckBuilderNr": 348,
-    "share_code": "AAEADZgA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/184.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/184.png",
@@ -11148,7 +10299,6 @@
     },
     "points": 2,
     "deckBuilderNr": 376,
-    "share_code": "AAEADrAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/185.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/185.png",
@@ -11223,7 +10373,6 @@
     },
     "points": 2,
     "deckBuilderNr": 380,
-    "share_code": "AAEADtgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/186.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/186.png",
@@ -11298,7 +10447,6 @@
     },
     "points": 2,
     "deckBuilderNr": 391,
-    "share_code": "AAEAD0YA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/187.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/187.png",
@@ -11379,7 +10527,6 @@
     },
     "points": 2,
     "deckBuilderNr": 400,
-    "share_code": "AAEAD6AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/188.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/188.png",
@@ -11466,7 +10613,6 @@
     },
     "points": 2,
     "deckBuilderNr": 406,
-    "share_code": "AAEAD9wA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/189.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/189.png",
@@ -11541,7 +10687,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000032,
-    "share_code": "AZiXwAAA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/190.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/190.png",
@@ -11610,7 +10755,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000033,
-    "share_code": "AZiXygAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/191.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/191.png",
@@ -11667,7 +10811,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000034,
-    "share_code": "AZiX1AAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/192.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/192.png",
@@ -11724,7 +10867,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000035,
-    "share_code": "AZiX3gAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/193.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/193.png",
@@ -11781,7 +10923,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000036,
-    "share_code": "AZiX6AAA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/194.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/194.png",
@@ -11850,7 +10991,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000037,
-    "share_code": "AZiX8gAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/195.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/195.png",
@@ -11919,7 +11059,6 @@
     },
     "points": 2,
     "deckBuilderNr": 288,
-    "share_code": "AAEAC0AA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/196.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/196.png",
@@ -11994,7 +11133,6 @@
     },
     "points": 2,
     "deckBuilderNr": 310,
-    "share_code": "AAEADBwA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/197.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/197.png",
@@ -12069,7 +11207,6 @@
     },
     "points": 2,
     "deckBuilderNr": 342,
-    "share_code": "AAEADVwA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/198.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/198.png",
@@ -12144,7 +11281,6 @@
     },
     "points": 2,
     "deckBuilderNr": 348,
-    "share_code": "AAEADZgA",
     "artist": "Kuroimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/199.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/199.png",
@@ -12219,7 +11355,6 @@
     },
     "points": 2,
     "deckBuilderNr": 376,
-    "share_code": "AAEADrAA",
     "artist": "Takumi Wada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/200.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/200.png",
@@ -12294,7 +11429,6 @@
     },
     "points": 2,
     "deckBuilderNr": 380,
-    "share_code": "AAEADtgA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/201.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/201.png",
@@ -12369,7 +11503,6 @@
     },
     "points": 2,
     "deckBuilderNr": 391,
-    "share_code": "AAEAD0YA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/202.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/202.png",
@@ -12450,7 +11583,6 @@
     },
     "points": 2,
     "deckBuilderNr": 406,
-    "share_code": "AAEAD9wA",
     "artist": "Jerky",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/203.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/203.png",
@@ -12525,7 +11657,6 @@
     },
     "points": 2,
     "deckBuilderNr": 330,
-    "share_code": "AAEADOQA",
     "artist": "N-DESIGN Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/204.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/204.png",
@@ -12612,7 +11743,6 @@
     },
     "points": 2,
     "deckBuilderNr": 400,
-    "share_code": "AAEAD6AA",
     "artist": "N-DESIGN Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/205.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/205.png",
@@ -12699,7 +11829,6 @@
     },
     "points": 2,
     "deckBuilderNr": 330,
-    "share_code": "AAEADOQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/206.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/206.png",
@@ -12786,7 +11915,6 @@
     },
     "points": 2,
     "deckBuilderNr": 400,
-    "share_code": "AAEAD6AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/207.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2/207.png",

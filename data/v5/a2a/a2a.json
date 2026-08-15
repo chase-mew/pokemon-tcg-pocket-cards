@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 425,
-    "share_code": "AAEAEJoA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/001.png",
     "flavour_text": "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 1,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 426,
-    "share_code": "AAEAEKQA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/002.png",
     "flavour_text": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 2,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-003",
@@ -156,19 +140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 427,
-    "share_code": "AAEAEK4A",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/003.png",
     "flavour_text": "It loves the honey of flowers and steals honey collected by Combee.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 3,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-004",
@@ -213,19 +189,11 @@
     },
     "points": 1,
     "deckBuilderNr": 428,
-    "share_code": "AAEAELgA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/004.png",
     "flavour_text": "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 4,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-005",
@@ -270,19 +238,11 @@
     },
     "points": 1,
     "deckBuilderNr": 429,
-    "share_code": "AAEAEMIA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/005.png",
     "flavour_text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 5,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-006",
@@ -327,19 +287,11 @@
     },
     "points": 1,
     "deckBuilderNr": 430,
-    "share_code": "AAEAEMwA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/006.png",
     "flavour_text": "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 6,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-007",
@@ -384,19 +336,11 @@
     },
     "points": 1,
     "deckBuilderNr": 431,
-    "share_code": "AAEAENYA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/007.png",
     "flavour_text": "As a bud, it barely moves. It sits still, placidly waiting for sunlight to appear.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 7,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-008",
@@ -441,7 +385,6 @@
     },
     "points": 1,
     "deckBuilderNr": 432,
-    "share_code": "AAEAEOAA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/008.png",
@@ -498,19 +441,11 @@
     },
     "points": 1,
     "deckBuilderNr": 433,
-    "share_code": "AAEAEOoA",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/009.png",
     "flavour_text": "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 9,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-010",
@@ -555,7 +490,6 @@
     },
     "points": 2,
     "deckBuilderNr": 434,
-    "share_code": "AAEAEPQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/010.png",
@@ -630,19 +564,11 @@
     },
     "points": 1,
     "deckBuilderNr": 435,
-    "share_code": "AAEAEP4A",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/011.png",
     "flavour_text": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-012",
@@ -687,7 +613,6 @@
     },
     "points": 1,
     "deckBuilderNr": 436,
-    "share_code": "AAEAEQgA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/012.png",
@@ -744,7 +669,6 @@
     },
     "points": 1,
     "deckBuilderNr": 437,
-    "share_code": "AAEAERIA",
     "artist": "Kazumasa Yasukuni",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/013.png",
@@ -807,7 +731,6 @@
     },
     "points": 1,
     "deckBuilderNr": 438,
-    "share_code": "AAEAERwA",
     "artist": "Tika Matsuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/014.png",
@@ -864,19 +787,11 @@
     },
     "points": 1,
     "deckBuilderNr": 439,
-    "share_code": "AAEAESYA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/015.png",
     "flavour_text": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 15,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-016",
@@ -921,19 +836,11 @@
     },
     "points": 1,
     "deckBuilderNr": 440,
-    "share_code": "AAEAETAA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/016.png",
     "flavour_text": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey’s location.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-017",
@@ -978,19 +885,11 @@
     },
     "points": 1,
     "deckBuilderNr": 441,
-    "share_code": "AAEAEToA",
     "artist": "Shinya Komatsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/017.png",
     "flavour_text": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 17,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-018",
@@ -1035,19 +934,11 @@
     },
     "points": 1,
     "deckBuilderNr": 442,
-    "share_code": "AAEAEUQA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/018.png",
     "flavour_text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 18,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-019",
@@ -1092,19 +983,11 @@
     },
     "points": 1,
     "deckBuilderNr": 443,
-    "share_code": "AAEAEU4A",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/019.png",
     "flavour_text": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 19,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-020",
@@ -1149,19 +1032,11 @@
     },
     "points": 1,
     "deckBuilderNr": 444,
-    "share_code": "AAEAEVgA",
     "artist": "otumami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/020.png",
     "flavour_text": "During cold seasons, it migrates to the mountain’s lower reaches. It returns to the snow-covered summit in the spring.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 20,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-021",
@@ -1206,19 +1081,11 @@
     },
     "points": 1,
     "deckBuilderNr": 445,
-    "share_code": "AAEAEWIA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/021.png",
     "flavour_text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 21,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-022",
@@ -1263,7 +1130,6 @@
     },
     "points": 2,
     "deckBuilderNr": 446,
-    "share_code": "AAEAEWwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/022.png",
@@ -1338,19 +1204,11 @@
     },
     "points": 1,
     "deckBuilderNr": 447,
-    "share_code": "AAEAEXYA",
     "artist": "toriyufu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/023.png",
     "flavour_text": "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia’s strategy for gaining Arceus’s powers.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 23,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-024",
@@ -1395,19 +1253,11 @@
     },
     "points": 1,
     "deckBuilderNr": 448,
-    "share_code": "AAEAEYAA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/024.png",
     "flavour_text": "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 24,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-025",
@@ -1452,7 +1302,6 @@
     },
     "points": 1,
     "deckBuilderNr": 449,
-    "share_code": "AAEAEYoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/025.png",
@@ -1509,7 +1358,6 @@
     },
     "points": 1,
     "deckBuilderNr": 450,
-    "share_code": "AAEAEZQA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/026.png",
@@ -1566,19 +1414,11 @@
     },
     "points": 1,
     "deckBuilderNr": 451,
-    "share_code": "AAEAEZ4A",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/027.png",
     "flavour_text": "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 27,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-028",
@@ -1623,19 +1463,11 @@
     },
     "points": 1,
     "deckBuilderNr": 452,
-    "share_code": "AAEAEagA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/028.png",
     "flavour_text": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 28,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-029",
@@ -1680,19 +1512,11 @@
     },
     "points": 1,
     "deckBuilderNr": 453,
-    "share_code": "AAEAEbIA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/029.png",
     "flavour_text": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 29,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-030",
@@ -1737,19 +1561,11 @@
     },
     "points": 1,
     "deckBuilderNr": 454,
-    "share_code": "AAEAEbwA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/030.png",
     "flavour_text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 30,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-031",
@@ -1794,7 +1610,6 @@
     },
     "points": 1,
     "deckBuilderNr": 455,
-    "share_code": "AAEAEcYA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/031.png",
@@ -1851,19 +1666,11 @@
     },
     "points": 1,
     "deckBuilderNr": 456,
-    "share_code": "AAEAEdAA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/032.png",
     "flavour_text": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 32,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-033",
@@ -1908,19 +1715,11 @@
     },
     "points": 1,
     "deckBuilderNr": 457,
-    "share_code": "AAEAEdoA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/033.png",
     "flavour_text": "To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 33,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-034",
@@ -1965,7 +1764,6 @@
     },
     "points": 1,
     "deckBuilderNr": 458,
-    "share_code": "AAEAEeQA",
     "artist": "Tetsu Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/034.png",
@@ -2022,19 +1820,11 @@
     },
     "points": 1,
     "deckBuilderNr": 459,
-    "share_code": "AAEAEe4A",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/035.png",
     "flavour_text": "Its electricity-like body can enter some kinds of machines and take control in order to make mischief.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 35,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-036",
@@ -2079,7 +1869,6 @@
     },
     "points": 1,
     "deckBuilderNr": 460,
-    "share_code": "AAEAEfgA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/036.png",
@@ -2148,19 +1937,11 @@
     },
     "points": 1,
     "deckBuilderNr": 461,
-    "share_code": "AAEAEgIA",
     "artist": "Asako Ito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/037.png",
     "flavour_text": "This Pokémon lives and nests on a riverbank. After playing in the mud, it won’t be able to settle down unless it washes its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 37,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-038",
@@ -2205,19 +1986,11 @@
     },
     "points": 1,
     "deckBuilderNr": 462,
-    "share_code": "AAEAEgwA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/038.png",
     "flavour_text": "Donphan is covered in tough hide, so even being hit by a car won’t faze this Pokémon. However, it is extremely susceptible to rain.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 38,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-039",
@@ -2262,19 +2035,11 @@
     },
     "points": 1,
     "deckBuilderNr": 463,
-    "share_code": "AAEAEhYA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/039.png",
     "flavour_text": "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 39,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-040",
@@ -2319,19 +2084,11 @@
     },
     "points": 1,
     "deckBuilderNr": 464,
-    "share_code": "AAEAEiAA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/040.png",
     "flavour_text": "Its shell is as hard as bedrock, and it is also very strong. Its thrashing can topple a mountain.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 40,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-041",
@@ -2376,19 +2133,11 @@
     },
     "points": 1,
     "deckBuilderNr": 465,
-    "share_code": "AAEAEioA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/041.png",
     "flavour_text": "Extremely strong, it can change the landscape. It is so insolent that it doesn’t care about others.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 41,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-042",
@@ -2433,7 +2182,6 @@
     },
     "points": 1,
     "deckBuilderNr": 466,
-    "share_code": "AAEAEjQA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/042.png",
@@ -2496,19 +2244,11 @@
     },
     "points": 1,
     "deckBuilderNr": 467,
-    "share_code": "AAEAEj4A",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/043.png",
     "flavour_text": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 43,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-044",
@@ -2553,19 +2293,11 @@
     },
     "points": 1,
     "deckBuilderNr": 468,
-    "share_code": "AAEAEkgA",
     "artist": "Tetsu Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/044.png",
     "flavour_text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 44,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-045",
@@ -2610,7 +2342,6 @@
     },
     "points": 1,
     "deckBuilderNr": 469,
-    "share_code": "AAEAElIA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/045.png",
@@ -2685,7 +2416,6 @@
     },
     "points": 1,
     "deckBuilderNr": 470,
-    "share_code": "AAEAElwA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/046.png",
@@ -2754,7 +2484,6 @@
     },
     "points": 2,
     "deckBuilderNr": 471,
-    "share_code": "AAEAEmYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/047.png",
@@ -2829,7 +2558,6 @@
     },
     "points": 1,
     "deckBuilderNr": 472,
-    "share_code": "AAEAEnAA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/048.png",
@@ -2892,7 +2620,6 @@
     },
     "points": 1,
     "deckBuilderNr": 473,
-    "share_code": "AAEAEnoA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/049.png",
@@ -2955,7 +2682,6 @@
     },
     "points": 1,
     "deckBuilderNr": 474,
-    "share_code": "AAEAEoQA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/050.png",
@@ -3018,19 +2744,11 @@
     },
     "points": 1,
     "deckBuilderNr": 475,
-    "share_code": "AAEAEo4A",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/051.png",
     "flavour_text": "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-052",
@@ -3075,19 +2793,11 @@
     },
     "points": 1,
     "deckBuilderNr": 476,
-    "share_code": "AAEAEpgA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/052.png",
     "flavour_text": "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 52,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-053",
@@ -3132,7 +2842,6 @@
     },
     "points": 1,
     "deckBuilderNr": 477,
-    "share_code": "AAEAEqIA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/053.png",
@@ -3189,19 +2898,11 @@
     },
     "points": 1,
     "deckBuilderNr": 478,
-    "share_code": "AAEAEqwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/054.png",
     "flavour_text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 54,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-055",
@@ -3246,19 +2947,11 @@
     },
     "points": 1,
     "deckBuilderNr": 479,
-    "share_code": "AAEAErYA",
     "artist": "toriyufu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/055.png",
     "flavour_text": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 55,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-056",
@@ -3303,19 +2996,11 @@
     },
     "points": 1,
     "deckBuilderNr": 480,
-    "share_code": "AAEAEsAA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/056.png",
     "flavour_text": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 56,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-057",
@@ -3360,7 +3045,6 @@
     },
     "points": 2,
     "deckBuilderNr": 481,
-    "share_code": "AAEAEsoA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/057.png",
@@ -3429,19 +3113,11 @@
     },
     "points": 1,
     "deckBuilderNr": 482,
-    "share_code": "AAEAEtQA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/058.png",
     "flavour_text": "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 58,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-059",
@@ -3486,19 +3162,11 @@
     },
     "points": 1,
     "deckBuilderNr": 483,
-    "share_code": "AAEAEt4A",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/059.png",
     "flavour_text": "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 59,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-060",
@@ -3543,19 +3211,11 @@
     },
     "points": 1,
     "deckBuilderNr": 484,
-    "share_code": "AAEAEugA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/060.png",
     "flavour_text": "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 60,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-061",
@@ -3600,19 +3260,11 @@
     },
     "points": 1,
     "deckBuilderNr": 485,
-    "share_code": "AAEAEvIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/061.png",
     "flavour_text": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 61,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-062",
@@ -3657,19 +3309,11 @@
     },
     "points": 1,
     "deckBuilderNr": 486,
-    "share_code": "AAEAEvwA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/062.png",
     "flavour_text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 62,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-063",
@@ -3714,7 +3358,6 @@
     },
     "points": 1,
     "deckBuilderNr": 487,
-    "share_code": "AAEAEwYA",
     "artist": "burari",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/063.png",
@@ -3771,19 +3414,11 @@
     },
     "points": 1,
     "deckBuilderNr": 488,
-    "share_code": "AAEAExAA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/064.png",
     "flavour_text": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 64,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-065",
@@ -3828,19 +3463,11 @@
     },
     "points": 1,
     "deckBuilderNr": 489,
-    "share_code": "AAEAExoA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/065.png",
     "flavour_text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 65,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-066",
@@ -3885,19 +3512,11 @@
     },
     "points": 1,
     "deckBuilderNr": 490,
-    "share_code": "AAEAEyQA",
     "artist": "Apios",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/066.png",
     "flavour_text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 66,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-067",
@@ -3942,19 +3561,11 @@
     },
     "points": 1,
     "deckBuilderNr": 491,
-    "share_code": "AAEAEy4A",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/067.png",
     "flavour_text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 67,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-068",
@@ -3999,19 +3610,11 @@
     },
     "points": 1,
     "deckBuilderNr": 492,
-    "share_code": "AAEAEzgA",
     "artist": "Minahamu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/068.png",
     "flavour_text": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 68,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-069",
@@ -4056,7 +3659,6 @@
     },
     "points": 1,
     "deckBuilderNr": 493,
-    "share_code": "AAEAE0IA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/069.png",
@@ -4125,19 +3727,11 @@
     },
     "points": 1,
     "deckBuilderNr": 494,
-    "share_code": "AAEAE0wA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/070.png",
     "flavour_text": "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
-    "alternate_versions": [
-      {
-        "set_code": "a2a",
-        "set_name": "Triumphant Light",
-        "id": 70,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a2a-071",
@@ -4182,7 +3776,6 @@
     },
     "points": 2,
     "deckBuilderNr": 495,
-    "share_code": "AAEAE1YA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/071.png",
@@ -4269,7 +3862,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000038,
-    "share_code": "AZiX/AAA",
     "artist": "Atsushi Furusawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/072.png",
@@ -4338,7 +3930,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000039,
-    "share_code": "AZiYBgAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/073.png",
@@ -4395,7 +3986,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000040,
-    "share_code": "AZiYEAAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/074.png",
@@ -4452,7 +4042,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000041,
-    "share_code": "AZiYGgAA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/075.png",
@@ -4509,7 +4098,6 @@
     },
     "points": 1,
     "deckBuilderNr": 436,
-    "share_code": "AAEAEQgA",
     "artist": "matazo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/076.png",
@@ -4566,7 +4154,6 @@
     },
     "points": 1,
     "deckBuilderNr": 438,
-    "share_code": "AAEAERwA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/077.png",
@@ -4623,7 +4210,6 @@
     },
     "points": 1,
     "deckBuilderNr": 458,
-    "share_code": "AAEAEeQA",
     "artist": "IKEDA Saki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/078.png",
@@ -4680,7 +4266,6 @@
     },
     "points": 1,
     "deckBuilderNr": 460,
-    "share_code": "AAEAEfgA",
     "artist": "Yuriko Akase",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/079.png",
@@ -4749,7 +4334,6 @@
     },
     "points": 1,
     "deckBuilderNr": 477,
-    "share_code": "AAEAEqIA",
     "artist": "Yukihiro Tada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/080.png",
@@ -4806,7 +4390,6 @@
     },
     "points": 1,
     "deckBuilderNr": 493,
-    "share_code": "AAEAE0IA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/081.png",
@@ -4875,7 +4458,6 @@
     },
     "points": 2,
     "deckBuilderNr": 434,
-    "share_code": "AAEAEPQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/082.png",
@@ -4950,7 +4532,6 @@
     },
     "points": 2,
     "deckBuilderNr": 446,
-    "share_code": "AAEAEWwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/083.png",
@@ -5025,7 +4606,6 @@
     },
     "points": 2,
     "deckBuilderNr": 471,
-    "share_code": "AAEAEmYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/084.png",
@@ -5100,7 +4680,6 @@
     },
     "points": 2,
     "deckBuilderNr": 481,
-    "share_code": "AAEAEsoA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/085.png",
@@ -5169,7 +4748,6 @@
     },
     "points": 2,
     "deckBuilderNr": 495,
-    "share_code": "AAEAE1YA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/086.png",
@@ -5256,7 +4834,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000038,
-    "share_code": "AZiX/AAA",
     "artist": "Atsushi Furusawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/087.png",
@@ -5325,7 +4902,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000039,
-    "share_code": "AZiYBgAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/088.png",
@@ -5382,7 +4958,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000040,
-    "share_code": "AZiYEAAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/089.png",
@@ -5439,7 +5014,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000041,
-    "share_code": "AZiYGgAA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/090.png",
@@ -5496,7 +5070,6 @@
     },
     "points": 2,
     "deckBuilderNr": 434,
-    "share_code": "AAEAEPQA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/091.png",
@@ -5571,7 +5144,6 @@
     },
     "points": 2,
     "deckBuilderNr": 446,
-    "share_code": "AAEAEWwA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/092.png",
@@ -5646,7 +5218,6 @@
     },
     "points": 2,
     "deckBuilderNr": 471,
-    "share_code": "AAEAEmYA",
     "artist": "toriyufu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/093.png",
@@ -5721,7 +5292,6 @@
     },
     "points": 2,
     "deckBuilderNr": 481,
-    "share_code": "AAEAEsoA",
     "artist": "Masa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/094.png",
@@ -5790,7 +5360,6 @@
     },
     "points": 2,
     "deckBuilderNr": 495,
-    "share_code": "AAEAE1YA",
     "artist": "Takumi Wada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/095.png",
@@ -5877,7 +5446,6 @@
     },
     "points": 2,
     "deckBuilderNr": 495,
-    "share_code": "AAEAE1YA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2a/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a2a/096.png",

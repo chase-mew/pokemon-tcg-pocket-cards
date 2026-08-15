@@ -134,8 +134,6 @@ def sync_alternate_versions(all_cards):
 
     lookup = {c["id"]: c for c in all_cards}
     for group in groups.values():
-        if len(group) < 2:
-            continue
         alts = sorted([{"set_code": lookup[i]["set_code"], "set_name": lookup[i]["set_name"],
                         "id": int(lookup[i]["id"].split("-")[1]), "rarity": lookup[i]["rarity"]} for i in group if
                        i in lookup], key=lambda x: (x["set_code"], x["id"]))
@@ -286,6 +284,7 @@ def update_expansions(set_code, expansion_name, cards):
         image URLs point to the GitHub raw content CDN.
     """
     prefix = set_code_to_prefix(set_code)
+    is_promo = prefix.startswith("p")
     expansions = _load_existing_json(EXPANSIONS_JSON_PATH)
 
     exp_obj = next((e for e in expansions if e["id"] == prefix), None)
@@ -301,8 +300,8 @@ def update_expansions(set_code, expansion_name, cards):
         packs.append({
             "id": f"{prefix}-booster",
             "name": "Booster",
-            "image": f"{GITHUB_BASE_URL}/webp/packs/{prefix}-booster.webp",
-            "image_png": f"{GITHUB_BASE_URL}/png/packs/{prefix}-booster.png"
+            "image": None if is_promo else f"{GITHUB_BASE_URL}/webp/packs/{prefix}-booster.webp",
+            "image_png": None if is_promo else f"{GITHUB_BASE_URL}/png/packs/{prefix}-booster.png"
         })
     else:
         for pack_name in unique_packs:
@@ -310,8 +309,8 @@ def update_expansions(set_code, expansion_name, cards):
             packs.append({
                 "id": f"{prefix}-{slug}",
                 "name": pack_name,
-                "image": f"{GITHUB_BASE_URL}/webp/packs/{prefix}-{slug}.webp",
-                "image_png": f"{GITHUB_BASE_URL}/png/packs/{prefix}-{slug}.png"
+                "image": None if is_promo else f"{GITHUB_BASE_URL}/webp/packs/{prefix}-{slug}.webp",
+                "image_png": None if is_promo else f"{GITHUB_BASE_URL}/png/packs/{prefix}-{slug}.png"
             })
 
     dates = [c["release_date"] for c in cards if c.get("release_date")]

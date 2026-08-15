@@ -29,9 +29,9 @@ supports two output formats: ``v5`` (the full enriched schema) and
 
 import re
 import requests
-from constants import FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, PARALLEL_FOIL_RARITIES, DEFAULT_TIMEOUT
+from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, PARALLEL_FOIL_RARITIES, DEFAULT_TIMEOUT
 from utils import set_code_to_prefix, compile_tag_matchers
-from deck_code import get_deck_builder_nr, create_single_card_code
+from deck_code import get_deck_builder_nr
 
 def fetch_datamine_lookup():
     r"""fetch_datamine_lookup() -> dict
@@ -58,7 +58,7 @@ def fetch_datamine_lookup():
     """
     lookup = {}
     try:
-        resp = requests.get(FLIBUSTIER_PTCGP_DB_URL, timeout=DEFAULT_TIMEOUT)
+        resp = SESSION.get(FLIBUSTIER_PTCGP_DB_URL, timeout=DEFAULT_TIMEOUT)
         if resp.status_code == 200:
             for card in resp.json():
                 c_set = str(card.get("set", "")).lower()
@@ -231,7 +231,6 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
             deck_builder_nr = datamine_lookup.get((prefix.lower(), num_int))
         except ValueError:
             deck_builder_nr = None
-        share_code = create_single_card_code(deck_builder_nr)
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
         special_tags = matched_tags if matched_tags else None
 
@@ -268,9 +267,8 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
             "attacks": card["attacks"],
             "points": card["points"],
 
-            # Deck builder references
+            # Deck builder reference
             "deckBuilderNr": deck_builder_nr,
-            "share_code": share_code,
 
             # Media & Metadata
             "artist": card["artist"],
@@ -278,7 +276,11 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
             "image": f"{GITHUB_BASE_URL}/webp/cards/{prefix}/{num_zfill}.webp",
             "image_png": f"{GITHUB_BASE_URL}/png/cards/{prefix}/{num_zfill}.png",
             "flavour_text": card["flavour_text"],
-            "alternate_versions": card["alternate_versions"],
+            "alternate_versions": [
+                {**alt, "set_code": set_code_to_prefix(alt["set_code"].upper())}
+                for alt in card["alternate_versions"]
+                if f"{set_code_to_prefix(alt['set_code'].upper())}-{str(alt['id']).zfill(3)}" != f"{prefix}-{num_zfill}"
+            ],
         })
 
     if mode == "v4":

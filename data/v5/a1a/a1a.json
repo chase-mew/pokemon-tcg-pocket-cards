@@ -42,7 +42,6 @@
     },
     "points": 1,
     "deckBuilderNr": 215,
-    "share_code": "AAEACGYA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/001.png",
@@ -99,7 +98,6 @@
     },
     "points": 1,
     "deckBuilderNr": 216,
-    "share_code": "AAEACHAA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/002.png",
@@ -162,7 +160,6 @@
     },
     "points": 2,
     "deckBuilderNr": 217,
-    "share_code": "AAEACHoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/003.png",
@@ -237,7 +234,6 @@
     },
     "points": 1,
     "deckBuilderNr": 218,
-    "share_code": "AAEACIQA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/004.png",
@@ -300,7 +296,6 @@
     },
     "points": 1,
     "deckBuilderNr": 219,
-    "share_code": "AAEACI4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/005.png",
@@ -363,7 +358,6 @@
     },
     "points": 1,
     "deckBuilderNr": 220,
-    "share_code": "AAEACJgA",
     "artist": "Yoshioka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/006.png",
@@ -432,19 +426,11 @@
     },
     "points": 1,
     "deckBuilderNr": 221,
-    "share_code": "AAEACKIA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/007.png",
     "flavour_text": "Pokémon living in the forest eat the delicious caps on Morelull’s head. The caps regrow overnight.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 7,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-008",
@@ -489,19 +475,11 @@
     },
     "points": 1,
     "deckBuilderNr": 222,
-    "share_code": "AAEACKwA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/008.png",
     "flavour_text": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 8,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-009",
@@ -546,19 +524,11 @@
     },
     "points": 1,
     "deckBuilderNr": 223,
-    "share_code": "AAEACLYA",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/009.png",
     "flavour_text": "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 9,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-010",
@@ -603,19 +573,11 @@
     },
     "points": 1,
     "deckBuilderNr": 224,
-    "share_code": "AAEACMAA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/010.png",
     "flavour_text": "It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 10,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-011",
@@ -660,19 +622,11 @@
     },
     "points": 1,
     "deckBuilderNr": 225,
-    "share_code": "AAEACMoA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/011.png",
     "flavour_text": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 11,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-012",
@@ -717,19 +671,11 @@
     },
     "points": 1,
     "deckBuilderNr": 226,
-    "share_code": "AAEACNQA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/012.png",
     "flavour_text": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 12,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-013",
@@ -774,19 +720,11 @@
     },
     "points": 1,
     "deckBuilderNr": 227,
-    "share_code": "AAEACN4A",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/013.png",
     "flavour_text": "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 13,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-014",
@@ -831,7 +769,6 @@
     },
     "points": 1,
     "deckBuilderNr": 228,
-    "share_code": "AAEACOgA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/014.png",
@@ -888,7 +825,6 @@
     },
     "points": 1,
     "deckBuilderNr": 229,
-    "share_code": "AAEACPIA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/015.png",
@@ -945,19 +881,11 @@
     },
     "points": 1,
     "deckBuilderNr": 230,
-    "share_code": "AAEACPwA",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/016.png",
     "flavour_text": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-017",
@@ -1002,7 +930,6 @@
     },
     "points": 1,
     "deckBuilderNr": 231,
-    "share_code": "AAEACQYA",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/017.png",
@@ -1071,7 +998,6 @@
     },
     "points": 2,
     "deckBuilderNr": 232,
-    "share_code": "AAEACRAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/018.png",
@@ -1140,7 +1066,6 @@
     },
     "points": 1,
     "deckBuilderNr": 233,
-    "share_code": "AAEACRoA",
     "artist": "LINNE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/019.png",
@@ -1209,19 +1134,11 @@
     },
     "points": 1,
     "deckBuilderNr": 234,
-    "share_code": "AAEACSQA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/020.png",
     "flavour_text": "The line running down its side can store sunlight. It shines vividly at night.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 20,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-021",
@@ -1266,19 +1183,11 @@
     },
     "points": 1,
     "deckBuilderNr": 235,
-    "share_code": "AAEACS4A",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/021.png",
     "flavour_text": "With its shining light, it lures its prey close. However, the light also happens to attract ferocious fish Pokémon—its natural predators.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 21,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-022",
@@ -1323,19 +1232,11 @@
     },
     "points": 1,
     "deckBuilderNr": 236,
-    "share_code": "AAEACTgA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/022.png",
     "flavour_text": "Its large front tooth is still growing in. When the tooth itches, this Pokémon will bite another Chewtle’s horn, and the two Pokémon will tussle.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 22,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-023",
@@ -1380,19 +1281,11 @@
     },
     "points": 1,
     "deckBuilderNr": 237,
-    "share_code": "AAEACUIA",
     "artist": "nisimono",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/023.png",
     "flavour_text": "Its massive, jagged teeth can crush a boulder in a single bite. This Pokémon has an extremely vicious disposition.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 23,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-024",
@@ -1437,19 +1330,11 @@
     },
     "points": 1,
     "deckBuilderNr": 238,
-    "share_code": "AAEACUwA",
     "artist": "Jerky",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/024.png",
     "flavour_text": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 24,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-025",
@@ -1494,19 +1379,11 @@
     },
     "points": 1,
     "deckBuilderNr": 239,
-    "share_code": "AAEACVYA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/025.png",
     "flavour_text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-026",
@@ -1551,19 +1428,11 @@
     },
     "points": 1,
     "deckBuilderNr": 240,
-    "share_code": "AAEACWAA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/026.png",
     "flavour_text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 26,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-027",
@@ -1608,19 +1477,11 @@
     },
     "points": 1,
     "deckBuilderNr": 241,
-    "share_code": "AAEACWoA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/027.png",
     "flavour_text": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 27,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-028",
@@ -1665,19 +1526,11 @@
     },
     "points": 1,
     "deckBuilderNr": 242,
-    "share_code": "AAEACXQA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/028.png",
     "flavour_text": "Joltik can be found clinging to other Pokémon. It’s soaking up static electricity because it can’t produce a charge on its own.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 28,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-029",
@@ -1722,19 +1575,11 @@
     },
     "points": 1,
     "deckBuilderNr": 243,
-    "share_code": "AAEACX4A",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/029.png",
     "flavour_text": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 29,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-030",
@@ -1779,7 +1624,6 @@
     },
     "points": 1,
     "deckBuilderNr": 244,
-    "share_code": "AAEACYgA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/030.png",
@@ -1836,7 +1680,6 @@
     },
     "points": 1,
     "deckBuilderNr": 214,
-    "share_code": "AAEACFwA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/031.png",
@@ -1893,7 +1736,6 @@
     },
     "points": 2,
     "deckBuilderNr": 245,
-    "share_code": "AAEACZIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/032.png",
@@ -1980,19 +1822,11 @@
     },
     "points": 1,
     "deckBuilderNr": 246,
-    "share_code": "AAEACZwA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/033.png",
     "flavour_text": "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians’ emissaries.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 33,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-034",
@@ -2037,19 +1871,11 @@
     },
     "points": 1,
     "deckBuilderNr": 247,
-    "share_code": "AAEACaYA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/034.png",
     "flavour_text": "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 34,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-035",
@@ -2094,19 +1920,11 @@
     },
     "points": 1,
     "deckBuilderNr": 250,
-    "share_code": "AAEACcQA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/035.png",
     "flavour_text": "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 35,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-036",
@@ -2151,19 +1969,11 @@
     },
     "points": 1,
     "deckBuilderNr": 251,
-    "share_code": "AAEACc4A",
     "artist": "Cona Nitanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/036.png",
     "flavour_text": "This Pokémon can draw forth the power hidden within blooming wild flowers. It is particularly fond of red flowers.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 36,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-037",
@@ -2208,19 +2018,11 @@
     },
     "points": 1,
     "deckBuilderNr": 252,
-    "share_code": "AAEACdgA",
     "artist": "Cona Nitanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/037.png",
     "flavour_text": "This Pokémon draws forth what power is left in withered flowers to make them healthy again. It holds a red flower.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 37,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-038",
@@ -2265,19 +2067,11 @@
     },
     "points": 1,
     "deckBuilderNr": 248,
-    "share_code": "AAEACbAA",
     "artist": "Cona Nitanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/038.png",
     "flavour_text": "This Pokémon creates an impressive flower garden in its territory. It draws forth the power of the red flowers around its neck.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 38,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-039",
@@ -2322,19 +2116,11 @@
     },
     "points": 1,
     "deckBuilderNr": 249,
-    "share_code": "AAEACboA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/039.png",
     "flavour_text": "It eats its own weight in sugar every day. If it doesn’t get enough sugar, it becomes incredibly grumpy.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 39,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-040",
@@ -2379,19 +2165,11 @@
     },
     "points": 1,
     "deckBuilderNr": 253,
-    "share_code": "AAEACeIA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/040.png",
     "flavour_text": "By taking in a person’s scent, it can sniff out their mental and physical condition. It’s hoped that this skill will have many medical applications.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-041",
@@ -2436,7 +2214,6 @@
     },
     "points": 1,
     "deckBuilderNr": 254,
-    "share_code": "AAEACewA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/041.png",
@@ -2493,19 +2270,11 @@
     },
     "points": 1,
     "deckBuilderNr": 255,
-    "share_code": "AAEACfYA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/042.png",
     "flavour_text": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 42,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-043",
@@ -2550,19 +2319,11 @@
     },
     "points": 1,
     "deckBuilderNr": 256,
-    "share_code": "AAEACgAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/043.png",
     "flavour_text": "Geodude that have lived a long life have had all their edges smoothed out until they’re totally round. They also have a calm, quiet disposition.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 43,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-044",
@@ -2607,7 +2368,6 @@
     },
     "points": 1,
     "deckBuilderNr": 257,
-    "share_code": "AAEACgoA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/044.png",
@@ -2664,7 +2424,6 @@
     },
     "points": 1,
     "deckBuilderNr": 258,
-    "share_code": "AAEAChQA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/045.png",
@@ -2721,7 +2480,6 @@
     },
     "points": 2,
     "deckBuilderNr": 259,
-    "share_code": "AAEACh4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/046.png",
@@ -2796,7 +2554,6 @@
     },
     "points": 1,
     "deckBuilderNr": 260,
-    "share_code": "AAEACigA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/047.png",
@@ -2865,19 +2622,11 @@
     },
     "points": 1,
     "deckBuilderNr": 261,
-    "share_code": "AAEACjIA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/048.png",
     "flavour_text": "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon’s habitat.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 48,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-049",
@@ -2922,19 +2671,11 @@
     },
     "points": 1,
     "deckBuilderNr": 262,
-    "share_code": "AAEACjwA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/049.png",
     "flavour_text": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 49,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-050",
@@ -2979,19 +2720,11 @@
     },
     "points": 1,
     "deckBuilderNr": 263,
-    "share_code": "AAEACkYA",
     "artist": "Mousho",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/050.png",
     "flavour_text": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 50,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-051",
@@ -3036,19 +2769,11 @@
     },
     "points": 1,
     "deckBuilderNr": 264,
-    "share_code": "AAEAClAA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/051.png",
     "flavour_text": "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-052",
@@ -3093,19 +2818,11 @@
     },
     "points": 1,
     "deckBuilderNr": 265,
-    "share_code": "AAEACloA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/052.png",
     "flavour_text": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 52,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-053",
@@ -3150,19 +2867,11 @@
     },
     "points": 1,
     "deckBuilderNr": 266,
-    "share_code": "AAEACmQA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/053.png",
     "flavour_text": "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 53,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-054",
@@ -3207,19 +2916,11 @@
     },
     "points": 1,
     "deckBuilderNr": 267,
-    "share_code": "AAEACm4A",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/054.png",
     "flavour_text": "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 54,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-055",
@@ -3264,19 +2965,11 @@
     },
     "points": 1,
     "deckBuilderNr": 268,
-    "share_code": "AAEACngA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/055.png",
     "flavour_text": "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws’ toxic spikes.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 55,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-056",
@@ -3321,19 +3014,11 @@
     },
     "points": 1,
     "deckBuilderNr": 269,
-    "share_code": "AAEACoIA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/056.png",
     "flavour_text": "Druddigon lives in caves, but it never skips sunbathing—it won’t be able to move if its body gets too cold.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 56,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-057",
@@ -3378,7 +3063,6 @@
     },
     "points": 1,
     "deckBuilderNr": 270,
-    "share_code": "AAEACowA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/057.png",
@@ -3441,7 +3125,6 @@
     },
     "points": 1,
     "deckBuilderNr": 271,
-    "share_code": "AAEACpYA",
     "artist": "Taiga Kayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/058.png",
@@ -3504,7 +3187,6 @@
     },
     "points": 2,
     "deckBuilderNr": 272,
-    "share_code": "AAEACqAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/059.png",
@@ -3573,7 +3255,6 @@
     },
     "points": 1,
     "deckBuilderNr": 273,
-    "share_code": "AAEACqoA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/060.png",
@@ -3630,19 +3311,11 @@
     },
     "points": 1,
     "deckBuilderNr": 274,
-    "share_code": "AAEACrQA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/061.png",
     "flavour_text": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 61,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-062",
@@ -3687,19 +3360,11 @@
     },
     "points": 1,
     "deckBuilderNr": 275,
-    "share_code": "AAEACr4A",
     "artist": "Masako Tomii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/062.png",
     "flavour_text": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it.",
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 62,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-063",
@@ -3744,7 +3409,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000010,
-    "share_code": "AZiW5AAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/063.png",
@@ -3813,19 +3477,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000020,
-    "share_code": "AZiXSAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/064.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-065",
@@ -3870,19 +3526,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000019,
-    "share_code": "AZiXPgAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/065.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a1a",
-        "set_name": "Mythical Island",
-        "id": 65,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1a-066",
@@ -3927,7 +3575,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000022,
-    "share_code": "AZiXXAAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/066.png",
@@ -3984,7 +3631,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000021,
-    "share_code": "AZiXUgAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/067.png",
@@ -4041,7 +3687,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000023,
-    "share_code": "AZiXZgAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/068.png",
@@ -4110,7 +3755,6 @@
     },
     "points": 1,
     "deckBuilderNr": 216,
-    "share_code": "AAEACHAA",
     "artist": "Gapao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/069.png",
@@ -4173,7 +3817,6 @@
     },
     "points": 1,
     "deckBuilderNr": 220,
-    "share_code": "AAEACJgA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/070.png",
@@ -4242,7 +3885,6 @@
     },
     "points": 1,
     "deckBuilderNr": 229,
-    "share_code": "AAEACPIA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/071.png",
@@ -4299,7 +3941,6 @@
     },
     "points": 1,
     "deckBuilderNr": 233,
-    "share_code": "AAEACRoA",
     "artist": "aspara",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/072.png",
@@ -4368,7 +4009,6 @@
     },
     "points": 1,
     "deckBuilderNr": 244,
-    "share_code": "AAEACYgA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/073.png",
@@ -4425,7 +4065,6 @@
     },
     "points": 1,
     "deckBuilderNr": 260,
-    "share_code": "AAEACigA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/074.png",
@@ -4494,7 +4133,6 @@
     },
     "points": 2,
     "deckBuilderNr": 217,
-    "share_code": "AAEACHoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/075.png",
@@ -4569,7 +4207,6 @@
     },
     "points": 2,
     "deckBuilderNr": 232,
-    "share_code": "AAEACRAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/076.png",
@@ -4638,7 +4275,6 @@
     },
     "points": 2,
     "deckBuilderNr": 245,
-    "share_code": "AAEACZIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/077.png",
@@ -4725,7 +4361,6 @@
     },
     "points": 2,
     "deckBuilderNr": 259,
-    "share_code": "AAEACh4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/078.png",
@@ -4800,7 +4435,6 @@
     },
     "points": 2,
     "deckBuilderNr": 272,
-    "share_code": "AAEACqAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/079.png",
@@ -4869,7 +4503,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000022,
-    "share_code": "AZiXXAAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/080.png",
@@ -4926,7 +4559,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000021,
-    "share_code": "AZiXUgAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/081.png",
@@ -4983,7 +4615,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000023,
-    "share_code": "AZiXZgAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/082.png",
@@ -5052,7 +4683,6 @@
     },
     "points": 2,
     "deckBuilderNr": 245,
-    "share_code": "AAEACZIA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/083.png",
@@ -5139,7 +4769,6 @@
     },
     "points": 2,
     "deckBuilderNr": 259,
-    "share_code": "AAEACh4A",
     "artist": "danciao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/084.png",
@@ -5214,7 +4843,6 @@
     },
     "points": 2,
     "deckBuilderNr": 217,
-    "share_code": "AAEACHoA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/085.png",
@@ -5289,7 +4917,6 @@
     },
     "points": 2,
     "deckBuilderNr": 245,
-    "share_code": "AAEACZIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1a/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1a/086.png",

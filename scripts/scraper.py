@@ -68,6 +68,7 @@ def fetch_page(url):
         >>> soup.find("title").text
         'Bulbasaur - Genetic Apex (A1) - PTCGP'
     """
+    retry_delay = RATE_LIMIT_DELAY
     for attempt in range(MAX_RETRIES):
         try:
             response = SESSION.get(url, timeout=DEFAULT_TIMEOUT)
@@ -78,9 +79,10 @@ def fetch_page(url):
         except requests.RequestException:
             if attempt == MAX_RETRIES - 1:
                 raise
-            time.sleep(RATE_LIMIT_DELAY)
-            RATE_LIMIT_DELAY += 0.05
+            time.sleep(retry_delay)
+            retry_delay += RATE_LIMIT_DELAY
     raise ValueError("We're experiencing a network or server error. Retry later.")
+
 
 def get_all_set_codes():
     r"""get_all_set_codes() -> list of str

@@ -42,7 +42,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1510,
-    "share_code": "AAEAOvwA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/001.png",
@@ -99,7 +98,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1511,
-    "share_code": "AAEAOwYA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/002.png",
@@ -162,7 +160,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1512,
-    "share_code": "AAEAOxAA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/003.png",
@@ -237,19 +234,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1513,
-    "share_code": "AAEAOxoA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/004.png",
     "flavour_text": "The thread it secretes from its rear is as strong as wire. The secret behind the thread’s strength is the topic of ongoing research.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 4,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-005",
@@ -294,19 +283,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1514,
-    "share_code": "AAEAOyQA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/005.png",
     "flavour_text": "Spidops covers its territory in tough, sticky threads to set up traps for intruders.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 5,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-006",
@@ -351,19 +332,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1515,
-    "share_code": "AAEAOy4A",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/006.png",
     "flavour_text": "It’s highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 6,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-007",
@@ -408,19 +381,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1516,
-    "share_code": "AAEAOzgA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/007.png",
     "flavour_text": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 7,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-008",
@@ -465,19 +430,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1517,
-    "share_code": "AAEAO0IA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/008.png",
     "flavour_text": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 8,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-009",
@@ -522,7 +479,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1518,
-    "share_code": "AAEAO0wA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/009.png",
@@ -579,19 +535,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1519,
-    "share_code": "AAEAO1YA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/010.png",
     "flavour_text": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 10,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-011",
@@ -636,19 +584,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1520,
-    "share_code": "AAEAO2AA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/011.png",
     "flavour_text": "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 11,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-012",
@@ -693,19 +633,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1521,
-    "share_code": "AAEAO2oA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/012.png",
     "flavour_text": "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 12,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-013",
@@ -750,19 +682,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1522,
-    "share_code": "AAEAO3QA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/013.png",
     "flavour_text": "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 13,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-014",
@@ -807,7 +731,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1523,
-    "share_code": "AAEAO34A",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/014.png",
@@ -864,19 +787,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1524,
-    "share_code": "AAEAO4gA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/015.png",
     "flavour_text": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 15,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-016",
@@ -921,7 +836,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1525,
-    "share_code": "AAEAO5IA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/016.png",
@@ -978,19 +892,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1526,
-    "share_code": "AAEAO5wA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/017.png",
     "flavour_text": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 17,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-018",
@@ -1035,19 +941,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1527,
-    "share_code": "AAEAO6YA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/018.png",
     "flavour_text": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 18,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-019",
@@ -1092,7 +990,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1528,
-    "share_code": "AAEAO7AA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/019.png",
@@ -1155,7 +1052,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1529,
-    "share_code": "AAEAO7oA",
     "artist": "takuyoa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/020.png",
@@ -1224,19 +1120,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1530,
-    "share_code": "AAEAO8QA",
     "artist": "Dsuke",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/021.png",
     "flavour_text": "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 21,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-022",
@@ -1281,7 +1169,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1531,
-    "share_code": "AAEAO84A",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/022.png",
@@ -1338,19 +1225,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1532,
-    "share_code": "AAEAO9gA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/023.png",
     "flavour_text": "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 23,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-024",
@@ -1395,19 +1274,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1533,
-    "share_code": "AAEAO+IA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/024.png",
     "flavour_text": "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 24,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-025",
@@ -1452,19 +1323,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1534,
-    "share_code": "AAEAO+wA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/025.png",
     "flavour_text": "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-026",
@@ -1509,19 +1372,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1535,
-    "share_code": "AAEAO/YA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/026.png",
     "flavour_text": "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 26,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-027",
@@ -1566,19 +1421,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1536,
-    "share_code": "AAEAPAAA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/027.png",
     "flavour_text": "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 27,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-028",
@@ -1623,19 +1470,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1537,
-    "share_code": "AAEAPAoA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/028.png",
     "flavour_text": "This hero of the ocean swims at a speed of 50 knots and saves drowning people and Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 28,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-029",
@@ -1680,19 +1519,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1538,
-    "share_code": "AAEAPBQA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/029.png",
     "flavour_text": "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 29,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-030",
@@ -1737,19 +1568,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1539,
-    "share_code": "AAEAPB4A",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/030.png",
     "flavour_text": "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 30,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-031",
@@ -1794,19 +1617,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1540,
-    "share_code": "AAEAPCgA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/031.png",
     "flavour_text": "Veluza has excellent regenerative capabilities. It sheds spare flesh from its body to boost its agility, then charges at its prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 31,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-032",
@@ -1851,19 +1666,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1541,
-    "share_code": "AAEAPDIA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/032.png",
     "flavour_text": "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 32,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-033",
@@ -1908,7 +1715,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1542,
-    "share_code": "AAEAPDwA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/033.png",
@@ -1965,19 +1771,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1543,
-    "share_code": "AAEAPEYA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/034.png",
     "flavour_text": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 34,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-035",
@@ -2022,19 +1820,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1544,
-    "share_code": "AAEAPFAA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/035.png",
     "flavour_text": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 35,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-036",
@@ -2079,7 +1869,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1545,
-    "share_code": "AAEAPFoA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/036.png",
@@ -2136,7 +1925,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1546,
-    "share_code": "AAEAPGQA",
     "artist": "aky CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/037.png",
@@ -2205,7 +1993,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1547,
-    "share_code": "AAEAPG4A",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/038.png",
@@ -2268,7 +2055,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1548,
-    "share_code": "AAEAPHgA",
     "artist": "Kanami Ogata",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/039.png",
@@ -2325,7 +2111,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1549,
-    "share_code": "AAEAPIIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/040.png",
@@ -2382,19 +2167,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1550,
-    "share_code": "AAEAPIwA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/041.png",
     "flavour_text": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 41,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-042",
@@ -2439,7 +2216,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1551,
-    "share_code": "AAEAPJYA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/042.png",
@@ -2508,19 +2284,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1552,
-    "share_code": "AAEAPKAA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/043.png",
     "flavour_text": "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they’re a popular delicacy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 43,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-044",
@@ -2565,19 +2333,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1553,
-    "share_code": "AAEAPKoA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/044.png",
     "flavour_text": "It uses its throat sac to store electricity generated by its wings. There’s hardly any oil in its feathers, so it is a poor swimmer.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 44,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-045",
@@ -2624,19 +2384,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1554,
-    "share_code": "AAEAPLQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/045.png",
     "flavour_text": "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 45,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-046",
@@ -2681,19 +2433,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1555,
-    "share_code": "AAEAPL4A",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/046.png",
     "flavour_text": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 46,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-047",
@@ -2738,19 +2482,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1556,
-    "share_code": "AAEAPMgA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/047.png",
     "flavour_text": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 47,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-048",
@@ -2795,19 +2531,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1557,
-    "share_code": "AAEAPNIA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/048.png",
     "flavour_text": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 48,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-049",
@@ -2852,7 +2580,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1558,
-    "share_code": "AAEAPNwA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/049.png",
@@ -2909,19 +2636,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1559,
-    "share_code": "AAEAPOYA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/050.png",
     "flavour_text": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 50,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-051",
@@ -2966,19 +2685,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1560,
-    "share_code": "AAEAPPAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/051.png",
     "flavour_text": "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 51,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-052",
@@ -3023,7 +2734,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1561,
-    "share_code": "AAEAPPoA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/052.png",
@@ -3080,19 +2790,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1562,
-    "share_code": "AAEAPQQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/053.png",
     "flavour_text": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 53,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-054",
@@ -3137,7 +2839,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1563,
-    "share_code": "AAEAPQ4A",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/054.png",
@@ -3200,19 +2901,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1564,
-    "share_code": "AAEAPRgA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/055.png",
     "flavour_text": "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 55,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-056",
@@ -3257,19 +2950,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1565,
-    "share_code": "AAEAPSIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/056.png",
     "flavour_text": "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 56,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-057",
@@ -3314,19 +2999,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1566,
-    "share_code": "AAEAPSwA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/057.png",
     "flavour_text": "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 57,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-058",
@@ -3371,19 +3048,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1567,
-    "share_code": "AAEAPTYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/058.png",
     "flavour_text": "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 58,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-059",
@@ -3428,19 +3097,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1568,
-    "share_code": "AAEAPUAA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/059.png",
     "flavour_text": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 59,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-060",
@@ -3485,19 +3146,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1569,
-    "share_code": "AAEAPUoA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/060.png",
     "flavour_text": "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 60,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-061",
@@ -3542,7 +3195,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1570,
-    "share_code": "AAEAPVQA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/061.png",
@@ -3599,19 +3251,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1571,
-    "share_code": "AAEAPV4A",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/062.png",
     "flavour_text": "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 62,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-063",
@@ -3658,19 +3302,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1572,
-    "share_code": "AAEAPWgA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/063.png",
     "flavour_text": "This Pokémon resembles Cyclizar, but it is far burlier and more ferocious. Nothing is known about its ecology or other features.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 63,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-064",
@@ -3715,7 +3351,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1573,
-    "share_code": "AAEAPXIA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/064.png",
@@ -3772,7 +3407,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1574,
-    "share_code": "AAEAPXwA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/065.png",
@@ -3829,19 +3463,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1575,
-    "share_code": "AAEAPYYA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/066.png",
     "flavour_text": "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can’t stay in this mode for long.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 66,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-067",
@@ -3886,19 +3512,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1576,
-    "share_code": "AAEAPZAA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/067.png",
     "flavour_text": "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 67,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-068",
@@ -3943,19 +3561,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1577,
-    "share_code": "AAEAPZoA",
     "artist": "KIYOTAKA OSHIYAMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/068.png",
     "flavour_text": "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 68,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-069",
@@ -4000,19 +3610,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1578,
-    "share_code": "AAEAPaQA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/069.png",
     "flavour_text": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 69,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-070",
@@ -4057,19 +3659,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1579,
-    "share_code": "AAEAPa4A",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/070.png",
     "flavour_text": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 70,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-071",
@@ -4114,19 +3708,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1580,
-    "share_code": "AAEAPbgA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/071.png",
     "flavour_text": "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 71,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-072",
@@ -4171,7 +3757,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1581,
-    "share_code": "AAEAPcIA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/072.png",
@@ -4228,7 +3813,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1582,
-    "share_code": "AAEAPcwA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/073.png",
@@ -4285,7 +3869,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1583,
-    "share_code": "AAEAPdYA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/074.png",
@@ -4342,19 +3925,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1584,
-    "share_code": "AAEAPeAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/075.png",
     "flavour_text": "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 75,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-076",
@@ -4399,19 +3974,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1585,
-    "share_code": "AAEAPeoA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/076.png",
     "flavour_text": "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 76,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-077",
@@ -4456,7 +4023,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1586,
-    "share_code": "AAEAPfQA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/077.png",
@@ -4519,7 +4085,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1587,
-    "share_code": "AAEAPf4A",
     "artist": "takuyoa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/078.png",
@@ -4582,19 +4147,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1588,
-    "share_code": "AAEAPggA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/079.png",
     "flavour_text": "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 79,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-080",
@@ -4639,19 +4196,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1589,
-    "share_code": "AAEAPhIA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/080.png",
     "flavour_text": "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 80,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-081",
@@ -4696,19 +4245,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1590,
-    "share_code": "AAEAPhwA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/081.png",
     "flavour_text": "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 81,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-082",
@@ -4753,7 +4294,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1591,
-    "share_code": "AAEAPiYA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/082.png",
@@ -4810,19 +4350,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1592,
-    "share_code": "AAEAPjAA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/083.png",
     "flavour_text": "Green-feathered flocks hold the most sway. When they’re out searching for food in the mornings and evenings, it gets very noisy.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 83,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-084",
@@ -4867,19 +4399,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1593,
-    "share_code": "AAEAPjoA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/084.png",
     "flavour_text": "It can sprint at over 70 mph while carrying a human. The rider’s body heat warms Cyclizar’s back and lifts the Pokémon’s spirit.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 84,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-085",
@@ -4924,19 +4448,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1594,
-    "share_code": "AAEAPkQA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/085.png",
     "flavour_text": "Thanks to a behavior of theirs known as “synchronizing,” an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 85,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-086",
@@ -4981,7 +4497,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000117,
-    "share_code": "AZibEgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/086.png",
@@ -5038,19 +4553,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000118,
-    "share_code": "AZibHAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/087.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 87,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-088",
@@ -5095,7 +4602,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000119,
-    "share_code": "AZibJgAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/088.png",
@@ -5152,7 +4658,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000042,
-    "share_code": "AZiYJAAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/089.png",
@@ -5233,7 +4738,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000120,
-    "share_code": "AZibMAAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/090.png",
@@ -5290,7 +4794,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000121,
-    "share_code": "AZibOgAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/091.png",
@@ -5353,7 +4856,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000070,
-    "share_code": "AZiZPAAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/092.png",
@@ -5422,19 +4924,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000122,
-    "share_code": "AZibRAAA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/093.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b2a",
-        "set_name": "Paldean Wonders",
-        "id": 93,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b2a-094",
@@ -5479,7 +4973,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1525,
-    "share_code": "AAEAO5IA",
     "artist": "Shimaris Yukichi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/094.png",
@@ -5536,7 +5029,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1561,
-    "share_code": "AAEAPPoA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/095.png",
@@ -5593,7 +5085,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1563,
-    "share_code": "AAEAPQ4A",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/096.png",
@@ -5656,7 +5147,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1573,
-    "share_code": "AAEAPXIA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/097.png",
@@ -5713,7 +5203,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1586,
-    "share_code": "AAEAPfQA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/098.png",
@@ -5776,7 +5265,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1591,
-    "share_code": "AAEAPiYA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/099.png",
@@ -5833,7 +5321,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1512,
-    "share_code": "AAEAOxAA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/100.png",
@@ -5908,7 +5395,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1529,
-    "share_code": "AAEAO7oA",
     "artist": "takuyoa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/101.png",
@@ -5977,7 +5463,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1546,
-    "share_code": "AAEAPGQA",
     "artist": "aky CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/102.png",
@@ -6046,7 +5531,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1551,
-    "share_code": "AAEAPJYA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/103.png",
@@ -6115,7 +5599,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1587,
-    "share_code": "AAEAPf4A",
     "artist": "takuyoa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/104.png",
@@ -6178,7 +5661,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000119,
-    "share_code": "AZibJgAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/105.png",
@@ -6235,7 +5717,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000042,
-    "share_code": "AZiYJAAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/106.png",
@@ -6316,7 +5797,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000120,
-    "share_code": "AZibMAAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/107.png",
@@ -6373,7 +5853,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000121,
-    "share_code": "AZibOgAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/108.png",
@@ -6436,7 +5915,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000070,
-    "share_code": "AZiZPAAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/109.png",
@@ -6505,7 +5983,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1512,
-    "share_code": "AAEAOxAA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/110.png",
@@ -6580,7 +6057,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1529,
-    "share_code": "AAEAO7oA",
     "artist": "Raita Kazama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/111.png",
@@ -6649,7 +6125,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1546,
-    "share_code": "AAEAPGQA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/112.png",
@@ -6718,7 +6193,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1551,
-    "share_code": "AAEAPJYA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/113.png",
@@ -6787,7 +6261,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1587,
-    "share_code": "AAEAPf4A",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/114.png",
@@ -6850,7 +6323,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000121,
-    "share_code": "AZibOgAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/115.png",
@@ -6913,7 +6385,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1510,
-    "share_code": "AAEAOvwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/116.png",
@@ -6970,7 +6441,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1511,
-    "share_code": "AAEAOwYA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/117.png",
@@ -7033,7 +6503,6 @@
     },
     "points": 1,
     "deckBuilderNr": 526,
-    "share_code": "AAEAFIwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/118.png",
@@ -7108,7 +6577,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1547,
-    "share_code": "AAEAPG4A",
     "artist": "whomor Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/119.png",
@@ -7171,7 +6639,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1548,
-    "share_code": "AAEAPHgA",
     "artist": "whomor Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/120.png",
@@ -7228,7 +6695,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1549,
-    "share_code": "AAEAPIIA",
     "artist": "whomor Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/121.png",
@@ -7285,7 +6751,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1563,
-    "share_code": "AAEAPQ4A",
     "artist": "Tomowaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/122.png",
@@ -7348,7 +6813,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1581,
-    "share_code": "AAEAPcIA",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/123.png",
@@ -7405,7 +6869,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1582,
-    "share_code": "AAEAPcwA",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/124.png",
@@ -7462,7 +6925,6 @@
     },
     "points": 1,
     "deckBuilderNr": 572,
-    "share_code": "AAEAFlgA",
     "artist": "Tomowaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/125.png",
@@ -7525,7 +6987,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1021,
-    "share_code": "AAEAJ+IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/126.png",
@@ -7600,7 +7061,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1040,
-    "share_code": "AAEAKKAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/127.png",
@@ -7669,7 +7129,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1044,
-    "share_code": "AAEAKMgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/128.png",
@@ -7738,7 +7197,6 @@
     },
     "points": 2,
     "deckBuilderNr": 569,
-    "share_code": "AAEAFjoA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/129.png",
@@ -7813,7 +7271,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1545,
-    "share_code": "AAEAPFoA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/130.png",
@@ -7870,7 +7327,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000117,
-    "share_code": "AZibEgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/131.png",

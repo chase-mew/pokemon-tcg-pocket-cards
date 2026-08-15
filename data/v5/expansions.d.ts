@@ -46,11 +46,11 @@ export type PokemonTCGPocketExpansionsV5Schema = {
       /**
        * URL to the WebP pack image.
        */
-      image: string;
+      image: string | null;
       /**
        * URL to the PNG pack image.
        */
-      image_png: string;
+      image_png: string | null;
     },
     ...{
       /**
@@ -64,11 +64,11 @@ export type PokemonTCGPocketExpansionsV5Schema = {
       /**
        * URL to the WebP pack image.
        */
-      image: string;
+      image: string | null;
       /**
        * URL to the PNG pack image.
        */
-      image_png: string;
+      image_png: string | null;
     }[]
   ];
 }[];

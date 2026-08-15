@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1666,
-    "share_code": "AAEAQRQA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/001.png",
     "flavour_text": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 1,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1667,
-    "share_code": "AAEAQR4A",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/002.png",
     "flavour_text": "Vine growth is accelerated for Tangrowth living in warm climates. If the vines grow long, Tangrowth shortens them by tearing parts of them off.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 2,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-003",
@@ -156,19 +140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1668,
-    "share_code": "AAEAQSgA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/003.png",
     "flavour_text": "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 3,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-004",
@@ -213,7 +189,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1669,
-    "share_code": "AAEAQTIA",
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/004.png",
@@ -276,7 +251,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1670,
-    "share_code": "AAEAQTwA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/005.png",
@@ -339,7 +313,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1671,
-    "share_code": "AAEAQUYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/006.png",
@@ -396,19 +369,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1672,
-    "share_code": "AAEAQVAA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/007.png",
     "flavour_text": "It agilely flits through the jungle and uses the sharp-edged leaves on its arms to cut down its prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 7,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-008",
@@ -453,7 +418,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1673,
-    "share_code": "AAEAQVoA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/008.png",
@@ -516,19 +480,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1674,
-    "share_code": "AAEAQWQA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/009.png",
     "flavour_text": "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 9,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-010",
@@ -573,19 +529,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1675,
-    "share_code": "AAEAQW4A",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/010.png",
     "flavour_text": "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 10,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-011",
@@ -630,7 +578,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1676,
-    "share_code": "AAEAQXgA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/011.png",
@@ -687,19 +634,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1677,
-    "share_code": "AAEAQYIA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/012.png",
     "flavour_text": "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 12,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-013",
@@ -744,7 +683,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1678,
-    "share_code": "AAEAQYwA",
     "artist": "Kazuhisa Uragami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/013.png",
@@ -801,19 +739,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1679,
-    "share_code": "AAEAQZYA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/014.png",
     "flavour_text": "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 14,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-015",
@@ -858,19 +788,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1680,
-    "share_code": "AAEAQaAA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/015.png",
     "flavour_text": "The bumps on their heads are sensory organs. When Sewaddle meet, they greet each other by rubbing these bumps together.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 15,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-016",
@@ -915,19 +837,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1681,
-    "share_code": "AAEAQaoA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/016.png",
     "flavour_text": "Swadloon wraps itself in leaves for protection. It uses the two leaves atop its head to detect air movements and feel out its surroundings.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-017",
@@ -972,19 +886,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1682,
-    "share_code": "AAEAQbQA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/017.png",
     "flavour_text": "This gentle Pokémon has strong protective instincts. The leaves on its arms are sharp enough to slice a thick tree in half with one stroke.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 17,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-018",
@@ -1029,19 +935,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1683,
-    "share_code": "AAEAQb4A",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/018.png",
     "flavour_text": "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 18,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-019",
@@ -1086,19 +984,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1684,
-    "share_code": "AAEAQcgA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/019.png",
     "flavour_text": "Applin lives inside an apple. When an Applin is separated from its apple, its body loses moisture and the Pokémon grows weak.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 19,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-020",
@@ -1143,7 +1033,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1685,
-    "share_code": "AAEAQdIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/020.png",
@@ -1200,19 +1089,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1686,
-    "share_code": "AAEAQdwA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/021.png",
     "flavour_text": "The flaming magma it stores in the hump on its back is the source of its tremendous power.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 21,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-022",
@@ -1257,19 +1138,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1687,
-    "share_code": "AAEAQeYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/022.png",
     "flavour_text": "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 22,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-023",
@@ -1314,7 +1187,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1688,
-    "share_code": "AAEAQfAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/023.png",
@@ -1377,7 +1249,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1689,
-    "share_code": "AAEAQfoA",
     "artist": "Lee HyunJung",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/024.png",
@@ -1434,7 +1305,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1690,
-    "share_code": "AAEAQgQA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/025.png",
@@ -1491,7 +1361,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1691,
-    "share_code": "AAEAQg4A",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/026.png",
@@ -1548,19 +1417,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1692,
-    "share_code": "AAEAQhgA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/027.png",
     "flavour_text": "When defending its friends, Pignite will stand up to any opponent, no matter how strong. But it’s powerless when faced with an empty stomach.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 27,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-028",
@@ -1605,19 +1466,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1693,
-    "share_code": "AAEAQiIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/028.png",
     "flavour_text": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 28,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-029",
@@ -1662,19 +1515,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1694,
-    "share_code": "AAEAQiwA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/029.png",
     "flavour_text": "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 29,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-030",
@@ -1719,19 +1564,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1695,
-    "share_code": "AAEAQjYA",
     "artist": "Yuya Oka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/030.png",
     "flavour_text": "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 30,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-031",
@@ -1776,19 +1613,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1696,
-    "share_code": "AAEAQkAA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/031.png",
     "flavour_text": "In ancient times, Larvesta was worshiped as the emissary of the sun. However, it was also viewed as a burden since it often caused forest fires.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 31,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-032",
@@ -1833,19 +1662,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1697,
-    "share_code": "AAEAQkoA",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/032.png",
     "flavour_text": "This Pokémon scatters burning scales. Most of the danger of these scales is not in their heat—it’s in the way they rob the surrounding air of oxygen.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 32,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-033",
@@ -1890,19 +1711,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1698,
-    "share_code": "AAEAQlQA",
     "artist": "Kurata So",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/033.png",
     "flavour_text": "Its legs are newly grown, and it can’t walk very well. It seems to prefer swimming through the water instead.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 33,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-034",
@@ -1947,19 +1760,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1699,
-    "share_code": "AAEAQl4A",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/034.png",
     "flavour_text": "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 34,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-035",
@@ -2004,19 +1809,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1700,
-    "share_code": "AAEAQmgA",
     "artist": "okayamatakatoshi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/035.png",
     "flavour_text": "It’s the leader of Poliwag and Poliwhirl. When Politoed roars, they all cower in fear.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 35,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-036",
@@ -2061,19 +1858,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1701,
-    "share_code": "AAEAQnIA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/036.png",
     "flavour_text": "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 36,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-037",
@@ -2118,7 +1907,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1702,
-    "share_code": "AAEAQnwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/037.png",
@@ -2187,19 +1975,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1703,
-    "share_code": "AAEAQoYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/038.png",
     "flavour_text": "When it walks around on land, it coats its body with a slimy, poisonous film.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 38,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-039",
@@ -2244,7 +2024,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1704,
-    "share_code": "AAEAQpAA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/039.png",
@@ -2301,19 +2080,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1705,
-    "share_code": "AAEAQpoA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/040.png",
     "flavour_text": "This is Castform’s form when pelted by rain. In an experiment where it was placed in a shower, this Pokémon didn’t change to this form.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-041",
@@ -2358,19 +2129,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1706,
-    "share_code": "AAEAQqQA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/041.png",
     "flavour_text": "This is Castform’s form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 41,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-042",
@@ -2415,19 +2178,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1707,
-    "share_code": "AAEAQq4A",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/042.png",
     "flavour_text": "Clamperl’s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder’s pearls.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 42,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-043",
@@ -2472,19 +2227,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1708,
-    "share_code": "AAEAQrgA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/043.png",
     "flavour_text": "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 43,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-044",
@@ -2529,19 +2276,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1709,
-    "share_code": "AAEAQsIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/044.png",
     "flavour_text": "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 44,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-045",
@@ -2586,19 +2325,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1710,
-    "share_code": "AAEAQswA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/045.png",
     "flavour_text": "This Pokémon’s body is made of solid ice. It’s said that Regice was born beneath thick ice in the ice age.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 45,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-046",
@@ -2643,19 +2374,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1711,
-    "share_code": "AAEAQtYA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/046.png",
     "flavour_text": "When Cubchoo starts sneezing, watch out! If it spatters you with its frosty snot, you’ll get frostbite.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 46,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-047",
@@ -2700,19 +2423,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1712,
-    "share_code": "AAEAQuAA",
     "artist": "Rianti Hidayat",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/047.png",
     "flavour_text": "Feared as the Snow-White Demon in northern lands, Beartic uses its frosty claws and fangs to attack prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 47,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-048",
@@ -2757,7 +2472,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1713,
-    "share_code": "AAEAQuoA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/048.png",
@@ -2814,19 +2528,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1714,
-    "share_code": "AAEAQvQA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/049.png",
     "flavour_text": "Highly intelligent but also very lazy, it defends its home by laying traps.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 49,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-050",
@@ -2871,19 +2577,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1715,
-    "share_code": "AAEAQv4A",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/050.png",
     "flavour_text": "It may present itself as being well-mannered, but deep down, it still has a lazy side. It will slack off when its Trainer isn’t looking.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 50,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-051",
@@ -2928,19 +2626,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1716,
-    "share_code": "AAEAQwgA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/051.png",
     "flavour_text": "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 51,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-052",
@@ -2985,19 +2675,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1717,
-    "share_code": "AAEAQxIA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/052.png",
     "flavour_text": "It moves while constantly hovering. It discharges electromagnetic waves and so on from the units at its sides.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 52,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-053",
@@ -3042,19 +2724,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1718,
-    "share_code": "AAEAQxwA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/053.png",
     "flavour_text": "They’re formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 53,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-054",
@@ -3099,7 +2773,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1719,
-    "share_code": "AAEAQyYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/054.png",
@@ -3162,19 +2835,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1720,
-    "share_code": "AAEAQzAA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/055.png",
     "flavour_text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 55,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-056",
@@ -3219,19 +2884,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1721,
-    "share_code": "AAEAQzoA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/056.png",
     "flavour_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 56,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-057",
@@ -3276,19 +2933,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1722,
-    "share_code": "AAEAQ0QA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/057.png",
     "flavour_text": "It shoots positively and negatively charged electricity from the tips of its two antennae and stuns its opponents.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 57,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-058",
@@ -3333,19 +2982,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1723,
-    "share_code": "AAEAQ04A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/058.png",
     "flavour_text": "It blinds prey with an intense burst of light. With the prey incapacitated, the Pokémon swallows it in a single gulp.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 58,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-059",
@@ -3390,7 +3031,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1724,
-    "share_code": "AAEAQ1gA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/059.png",
@@ -3447,19 +3087,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1725,
-    "share_code": "AAEAQ2IA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/060.png",
     "flavour_text": "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 60,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-061",
@@ -3504,19 +3136,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1726,
-    "share_code": "AAEAQ2wA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/061.png",
     "flavour_text": "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 61,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-062",
@@ -3561,7 +3185,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1727,
-    "share_code": "AAEAQ3YA",
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/062.png",
@@ -3618,19 +3241,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1728,
-    "share_code": "AAEAQ4AA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/063.png",
     "flavour_text": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 63,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-064",
@@ -3675,19 +3290,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1729,
-    "share_code": "AAEAQ4oA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/064.png",
     "flavour_text": "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-065",
@@ -3732,19 +3339,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1730,
-    "share_code": "AAEAQ5QA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/065.png",
     "flavour_text": "Behind an Espurr’s expressionless face is a frantic struggle to contain psychic power.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 65,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-066",
@@ -3789,7 +3388,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1731,
-    "share_code": "AAEAQ54A",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/066.png",
@@ -3846,19 +3444,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1732,
-    "share_code": "AAEAQ6gA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/067.png",
     "flavour_text": "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 67,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-068",
@@ -3903,7 +3493,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1733,
-    "share_code": "AAEAQ7IA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/068.png",
@@ -3960,19 +3549,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1734,
-    "share_code": "AAEAQ7wA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/069.png",
     "flavour_text": "It senses the feelings of other living creatures. Be careful not to expose it to strong emotions for too long, or it will end up exhausted.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 69,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-070",
@@ -4017,19 +3598,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1735,
-    "share_code": "AAEAQ8YA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/070.png",
     "flavour_text": "The moment this Pokémon finds someone who’s emitting strong emotions, it will pummel them senseless with its braids to silence them.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 70,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-071",
@@ -4074,19 +3647,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1736,
-    "share_code": "AAEAQ9AA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/071.png",
     "flavour_text": "Beware of forests that show no signs of living creatures within. You may have wandered into Hatterene’s territory.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 71,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-072",
@@ -4131,19 +3696,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1737,
-    "share_code": "AAEAQ9oA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/072.png",
     "flavour_text": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 72,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-073",
@@ -4188,7 +3745,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1738,
-    "share_code": "AAEAQ+QA",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/073.png",
@@ -4245,19 +3801,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1739,
-    "share_code": "AAEAQ+4A",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/074.png",
     "flavour_text": "It glides as if sliding. It startles foes by clamping on to their faces, then jabs with its poison stinger.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 74,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-075",
@@ -4302,19 +3850,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1740,
-    "share_code": "AAEAQ/gA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/075.png",
     "flavour_text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 75,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-076",
@@ -4359,19 +3899,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1741,
-    "share_code": "AAEARAIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/076.png",
     "flavour_text": "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 76,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-077",
@@ -4416,19 +3948,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1742,
-    "share_code": "AAEARAwA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/077.png",
     "flavour_text": "Cutting-edge technology was used to study the internals of this Pokémon’s rock body, but nothing was found—not even a brain or a heart.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 77,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-078",
@@ -4473,7 +3997,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1743,
-    "share_code": "AAEARBYA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/078.png",
@@ -4530,7 +4053,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1744,
-    "share_code": "AAEARCAA",
     "artist": "Krgc",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/079.png",
@@ -4587,19 +4109,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1745,
-    "share_code": "AAEARCoA",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/080.png",
     "flavour_text": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 80,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-081",
@@ -4644,7 +4158,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1746,
-    "share_code": "AAEARDQA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/081.png",
@@ -4707,19 +4220,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1747,
-    "share_code": "AAEARD4A",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/082.png",
     "flavour_text": "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 82,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-083",
@@ -4764,19 +4269,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1748,
-    "share_code": "AAEAREgA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/083.png",
     "flavour_text": "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 83,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-084",
@@ -4821,7 +4318,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1749,
-    "share_code": "AAEARFIA",
     "artist": "Kazumasa Yasukuni",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/084.png",
@@ -4878,19 +4374,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1750,
-    "share_code": "AAEARFwA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/085.png",
     "flavour_text": "It performs throwing moves with first-rate skill. Over the course of many battles, Throh’s belt grows darker as it absorbs its wearer’s sweat.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 85,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-086",
@@ -4935,19 +4423,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1751,
-    "share_code": "AAEARGYA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/086.png",
     "flavour_text": "The karate chops of a Sawk that’s trained itself to the limit can cleave the ocean itself.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 86,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-087",
@@ -4992,19 +4472,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1752,
-    "share_code": "AAEARHAA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/087.png",
     "flavour_text": "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 87,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-088",
@@ -5049,7 +4521,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1753,
-    "share_code": "AAEARHoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/088.png",
@@ -5112,7 +4583,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1754,
-    "share_code": "AAEARIQA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/089.png",
@@ -5169,19 +4639,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1755,
-    "share_code": "AAEARI4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/090.png",
     "flavour_text": "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 90,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-091",
@@ -5226,19 +4688,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1756,
-    "share_code": "AAEARJgA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/091.png",
     "flavour_text": "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 91,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-092",
@@ -5283,19 +4737,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1757,
-    "share_code": "AAEARKIA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/092.png",
     "flavour_text": "Chunks of the surface of this Pokémon’s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 92,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-093",
@@ -5340,7 +4786,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1758,
-    "share_code": "AAEARKwA",
     "artist": "takashi shiraishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/093.png",
@@ -5397,19 +4842,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1759,
-    "share_code": "AAEARLYA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/094.png",
     "flavour_text": "To intimidate its opponents, Coalossal will vigorously shake its body, scattering coal from its smoldering back.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 94,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-095",
@@ -5454,19 +4891,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1760,
-    "share_code": "AAEARMAA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/095.png",
     "flavour_text": "Silicobra’s large nostrils are specialized for spraying sand, so this Pokémon is not very good at telling apart different smells.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 95,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-096",
@@ -5511,19 +4940,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1761,
-    "share_code": "AAEARMoA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/096.png",
     "flavour_text": "The sand it spews contains sharp, pointy gravel, which is actually just sand that Sandaconda’s saliva has hardened into irregular shapes.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 96,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-097",
@@ -5568,7 +4989,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1762,
-    "share_code": "AAEARNQA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/097.png",
@@ -5625,7 +5045,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1763,
-    "share_code": "AAEARN4A",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/098.png",
@@ -5682,7 +5101,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1764,
-    "share_code": "AAEAROgA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/099.png",
@@ -5739,7 +5157,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1765,
-    "share_code": "AAEARPIA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/100.png",
@@ -5796,7 +5213,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1766,
-    "share_code": "AAEARPwA",
     "artist": "Lee HyunJung",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/101.png",
@@ -5853,7 +5269,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1767,
-    "share_code": "AAEARQYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/102.png",
@@ -5910,19 +5325,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1768,
-    "share_code": "AAEARRAA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/103.png",
     "flavour_text": "Experienced fishers say they try to catch Qwilfish in the brief moment that these Pokémon become defenseless just after launching poisonous spikes.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 103,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-104",
@@ -5967,7 +5374,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1769,
-    "share_code": "AAEARRoA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/104.png",
@@ -6024,7 +5430,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1770,
-    "share_code": "AAEARSQA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/105.png",
@@ -6081,7 +5486,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1771,
-    "share_code": "AAEARS4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/106.png",
@@ -6150,19 +5554,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1772,
-    "share_code": "AAEARTgA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/107.png",
     "flavour_text": "This Pokémon prefers damp places. It spurts out poison spores to repel approaching enemies.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 107,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-108",
@@ -6207,19 +5603,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1773,
-    "share_code": "AAEARUIA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/108.png",
     "flavour_text": "Amoonguss mimics Poké Balls. It is not yet clear whether this mimicry is effective against other Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 108,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-109",
@@ -6264,19 +5652,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1774,
-    "share_code": "AAEARUwA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/109.png",
     "flavour_text": "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 109,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-110",
@@ -6321,19 +5701,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1775,
-    "share_code": "AAEARVYA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/110.png",
     "flavour_text": "Watching from the sky, they attack weakened prey on the ground. They have a habit of decorating themselves with bones.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 110,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-111",
@@ -6378,19 +5750,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1776,
-    "share_code": "AAEARWAA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/111.png",
     "flavour_text": "Being upside-down improves its blood flow and clears its mind, causing the power of its psychic moves to increase dramatically.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 111,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-112",
@@ -6435,7 +5799,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1777,
-    "share_code": "AAEARWoA",
     "artist": "Nelnal",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/112.png",
@@ -6492,19 +5855,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1778,
-    "share_code": "AAEARXQA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/113.png",
     "flavour_text": "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 113,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-114",
@@ -6549,7 +5904,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1779,
-    "share_code": "AAEARX4A",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/114.png",
@@ -6606,7 +5960,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1780,
-    "share_code": "AAEARYgA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/115.png",
@@ -6663,19 +6016,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1781,
-    "share_code": "AAEARZIA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/116.png",
     "flavour_text": "It’s rumored that this Pokémon was born deep underground in the planet’s mantle and that it emerged onto the surface 10,000 years ago.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 116,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-117",
@@ -6720,19 +6065,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1782,
-    "share_code": "AAEARZwA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/117.png",
     "flavour_text": "They are found in ancient tombs. The patterns on their backs are said to be imbued with mysterious power.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 117,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-118",
@@ -6777,19 +6114,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1783,
-    "share_code": "AAEARaYA",
     "artist": "Shinji Kanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/118.png",
     "flavour_text": "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 118,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-119",
@@ -6834,19 +6163,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1784,
-    "share_code": "AAEARbAA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/119.png",
     "flavour_text": "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 119,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-120",
@@ -6891,7 +6212,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1785,
-    "share_code": "AAEARboA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/120.png",
@@ -6948,19 +6268,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1786,
-    "share_code": "AAEARcQA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/121.png",
     "flavour_text": "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 121,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-122",
@@ -7005,7 +6317,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1787,
-    "share_code": "AAEARc4A",
     "artist": "Nobuhiro Imagawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/122.png",
@@ -7062,19 +6373,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1788,
-    "share_code": "AAEARdgA",
     "artist": "Jerky",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/123.png",
     "flavour_text": "Centrifugal force is behind the punches of Melmetal’s heavy hex-nut arms. Melmetal is said to deliver the strongest punches of all Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 123,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-124",
@@ -7119,7 +6422,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1789,
-    "share_code": "AAEAReIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/124.png",
@@ -7182,19 +6484,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1790,
-    "share_code": "AAEARewA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/125.png",
     "flavour_text": "It generates ultrasonic waves by vigorously vibrating its wings. After making its prey faint, it dissolves the prey with its digestive juices.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 125,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-126",
@@ -7239,7 +6533,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1791,
-    "share_code": "AAEARfYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/126.png",
@@ -7302,7 +6595,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1792,
-    "share_code": "AAEARgAA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/127.png",
@@ -7359,7 +6651,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1793,
-    "share_code": "AAEARgoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/128.png",
@@ -7416,19 +6707,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1794,
-    "share_code": "AAEARhQA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/129.png",
     "flavour_text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 129,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-130",
@@ -7473,19 +6756,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1795,
-    "share_code": "AAEARh4A",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/130.png",
     "flavour_text": "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 130,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-131",
@@ -7530,19 +6805,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1796,
-    "share_code": "AAEARigA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/131.png",
     "flavour_text": "Its paws are soaked in oodles of honey. When nervous, Teddiursa will lick its paws and soon have a smile back on its face.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 131,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-132",
@@ -7587,19 +6854,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1797,
-    "share_code": "AAEARjIA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/132.png",
     "flavour_text": "It is quite skilled at climbing trees. If it comes across a Primeape while searching for berries in the treetops, trouble will surely ensue.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 132,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-133",
@@ -7644,7 +6903,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1798,
-    "share_code": "AAEARjwA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/133.png",
@@ -7701,19 +6959,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1799,
-    "share_code": "AAEARkYA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/134.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/134.png",
     "flavour_text": "There is an enduring legend that states this Pokémon towed continents with ropes.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 134,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-135",
@@ -7758,19 +7008,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1800,
-    "share_code": "AAEARlAA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/135.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/135.png",
     "flavour_text": "Extremely cautious, one of them will always be on the lookout, but it won’t notice a foe coming from behind.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 135,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-136",
@@ -7815,19 +7057,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1801,
-    "share_code": "AAEARloA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/136.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/136.png",
     "flavour_text": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 136,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-137",
@@ -7872,19 +7106,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1802,
-    "share_code": "AAEARmQA",
     "artist": "Natsumi Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/137.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/137.png",
     "flavour_text": "This Pokémon is far brighter than the average child, and Lillipup won’t forget the love it receives or any abuse it suffers.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 137,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-138",
@@ -7929,19 +7155,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1803,
-    "share_code": "AAEARm4A",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/138.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/138.png",
     "flavour_text": "The black fur that covers this Pokémon’s body is dense and springy. Even sharp fangs bounce right off.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 138,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-139",
@@ -7986,19 +7204,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1804,
-    "share_code": "AAEARngA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/139.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/139.png",
     "flavour_text": "Stoutland is immensely proud of its impressive moustache. It’s said that moustache length is what determines social standing among this species.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 139,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-140",
@@ -8043,19 +7253,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1805,
-    "share_code": "AAEARoIA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/140.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/140.png",
     "flavour_text": "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures’ feelings and physical conditions.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 140,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-141",
@@ -8100,7 +7302,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1806,
-    "share_code": "AAEARowA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/141.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/141.png",
@@ -8163,19 +7364,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1807,
-    "share_code": "AAEARpYA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/142.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/142.png",
     "flavour_text": "These Pokémon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 142,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-143",
@@ -8220,7 +7413,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1808,
-    "share_code": "AAEARqAA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/143.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/143.png",
@@ -8277,19 +7469,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1809,
-    "share_code": "AAEARqoA",
     "artist": "Yukihiro Tada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/144.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/144.png",
     "flavour_text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 144,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-145",
@@ -8334,19 +7518,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1810,
-    "share_code": "AAEARrQA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/145.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/145.png",
     "flavour_text": "The females are fussier than the males. If another creature dirties a female Rookidee’s wings, it’ll peck the offender relentlessly in a burning rage.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 145,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-146",
@@ -8391,19 +7567,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1811,
-    "share_code": "AAEARr4A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/146.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/146.png",
     "flavour_text": "This intelligent Pokémon will quickly learn how to use any tool it can hold in its beak or its talons.",
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 146,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-147",
@@ -8448,19 +7616,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000128,
-    "share_code": "AZibgAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/147.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/147.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 147,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-148",
@@ -8505,19 +7665,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000129,
-    "share_code": "AZibigAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/148.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/148.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 148,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-149",
@@ -8562,7 +7714,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000130,
-    "share_code": "AZiblAAA",
     "artist": "Kannnu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/149.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/149.png",
@@ -8619,7 +7770,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000131,
-    "share_code": "AZibngAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/150.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/150.png",
@@ -8676,7 +7826,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000132,
-    "share_code": "AZibqAAA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/151.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/151.png",
@@ -8733,7 +7882,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000133,
-    "share_code": "AZibsgAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/152.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/152.png",
@@ -8790,19 +7938,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000134,
-    "share_code": "AZibvAAA",
     "artist": "Kenichi Yamaguchi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/153.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/153.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 153,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-154",
@@ -8847,19 +7987,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000135,
-    "share_code": "AZibxgAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/154.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/154.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 154,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-155",
@@ -8904,19 +8036,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000136,
-    "share_code": "AZib0AAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/155.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/155.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "b3",
-        "set_name": "Pulsing Aura",
-        "id": 155,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "b3-156",
@@ -8961,7 +8085,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1670,
-    "share_code": "AAEAQTwA",
     "artist": "danciao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/156.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/156.png",
@@ -9024,7 +8147,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1671,
-    "share_code": "AAEAQUYA",
     "artist": "danciao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/157.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/157.png",
@@ -9081,7 +8203,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1676,
-    "share_code": "AAEAQXgA",
     "artist": "Natsumi Miyanose",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/158.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/158.png",
@@ -9138,7 +8259,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1678,
-    "share_code": "AAEAQYwA",
     "artist": "Yuka Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/159.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/159.png",
@@ -9195,7 +8315,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1685,
-    "share_code": "AAEAQdIA",
     "artist": "Makura Tami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/160.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/160.png",
@@ -9252,7 +8371,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1691,
-    "share_code": "AAEAQg4A",
     "artist": "Iori Suzuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/161.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/161.png",
@@ -9309,7 +8427,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1704,
-    "share_code": "AAEAQpAA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/162.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/162.png",
@@ -9366,7 +8483,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1724,
-    "share_code": "AAEAQ1gA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/163.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/163.png",
@@ -9423,7 +8539,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1727,
-    "share_code": "AAEAQ3YA",
     "artist": "Shimaris Yukichi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/164.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/164.png",
@@ -9480,7 +8595,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1731,
-    "share_code": "AAEAQ54A",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/165.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/165.png",
@@ -9537,7 +8651,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1733,
-    "share_code": "AAEAQ7IA",
     "artist": "Yoko Hishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/166.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/166.png",
@@ -9594,7 +8707,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1738,
-    "share_code": "AAEAQ+QA",
     "artist": "Takeshi Nakamura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/167.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/167.png",
@@ -9651,7 +8763,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1743,
-    "share_code": "AAEARBYA",
     "artist": "Jerky",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/168.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/168.png",
@@ -9708,7 +8819,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1744,
-    "share_code": "AAEARCAA",
     "artist": "Rianti Hidayat",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/169.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/169.png",
@@ -9765,7 +8875,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1754,
-    "share_code": "AAEARIQA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/170.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/170.png",
@@ -9822,7 +8931,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1758,
-    "share_code": "AAEARKwA",
     "artist": "Katsunori Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/171.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/171.png",
@@ -9879,7 +8987,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1762,
-    "share_code": "AAEARNQA",
     "artist": "Uninori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/172.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/172.png",
@@ -9936,7 +9043,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1769,
-    "share_code": "AAEARRoA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/173.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/173.png",
@@ -9993,7 +9099,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1770,
-    "share_code": "AAEARSQA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/174.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/174.png",
@@ -10050,7 +9155,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1777,
-    "share_code": "AAEARWoA",
     "artist": "Masako Tomii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/175.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/175.png",
@@ -10107,7 +9211,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1785,
-    "share_code": "AAEARboA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/176.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/176.png",
@@ -10164,7 +9267,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1787,
-    "share_code": "AAEARc4A",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/177.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/177.png",
@@ -10221,7 +9323,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1798,
-    "share_code": "AAEARjwA",
     "artist": "Kazuhisa Uragami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/178.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/178.png",
@@ -10278,7 +9379,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1808,
-    "share_code": "AAEARqAA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/179.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/179.png",
@@ -10335,7 +9435,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1673,
-    "share_code": "AAEAQVoA",
     "artist": "PLANETA Mamiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/180.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/180.png",
@@ -10398,7 +9497,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1688,
-    "share_code": "AAEAQfAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/181.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/181.png",
@@ -10461,7 +9559,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1702,
-    "share_code": "AAEAQnwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/182.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/182.png",
@@ -10530,7 +9627,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1719,
-    "share_code": "AAEAQyYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/183.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/183.png",
@@ -10593,7 +9689,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1746,
-    "share_code": "AAEARDQA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/184.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/184.png",
@@ -10656,7 +9751,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1753,
-    "share_code": "AAEARHoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/185.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/185.png",
@@ -10719,7 +9813,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1771,
-    "share_code": "AAEARS4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/186.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/186.png",
@@ -10788,7 +9881,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1789,
-    "share_code": "AAEAReIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/187.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/187.png",
@@ -10851,7 +9943,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1791,
-    "share_code": "AAEARfYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/188.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/188.png",
@@ -10914,7 +10005,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1806,
-    "share_code": "AAEARowA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/189.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/189.png",
@@ -10977,7 +10067,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000130,
-    "share_code": "AZiblAAA",
     "artist": "Kannnu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/190.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/190.png",
@@ -11034,7 +10123,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000131,
-    "share_code": "AZibngAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/191.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/191.png",
@@ -11091,7 +10179,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000132,
-    "share_code": "AZibqAAA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/192.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/192.png",
@@ -11148,7 +10235,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000133,
-    "share_code": "AZibsgAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/193.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/193.png",
@@ -11205,7 +10291,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1673,
-    "share_code": "AAEAQVoA",
     "artist": "danciao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/194.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/194.png",
@@ -11268,7 +10353,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1688,
-    "share_code": "AAEAQfAA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/195.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/195.png",
@@ -11331,7 +10415,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1702,
-    "share_code": "AAEAQnwA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/196.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/196.png",
@@ -11400,7 +10483,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1719,
-    "share_code": "AAEAQyYA",
     "artist": "osare",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/197.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/197.png",
@@ -11463,7 +10545,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1753,
-    "share_code": "AAEARHoA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/198.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/198.png",
@@ -11526,7 +10607,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1771,
-    "share_code": "AAEARS4A",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/199.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/199.png",
@@ -11595,7 +10675,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1789,
-    "share_code": "AAEAReIA",
     "artist": "Narano",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/200.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/200.png",
@@ -11658,7 +10737,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1791,
-    "share_code": "AAEARfYA",
     "artist": "Fujimoto Gold",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/201.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/201.png",
@@ -11721,7 +10799,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1806,
-    "share_code": "AAEARowA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/202.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/202.png",
@@ -11784,7 +10861,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1713,
-    "share_code": "AAEAQuoA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/203.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/203.png",
@@ -11841,7 +10917,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1746,
-    "share_code": "AAEARDQA",
     "artist": "Raita Kazama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/204.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/204.png",
@@ -11904,7 +10979,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1097,
-    "share_code": "AAEAKtoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/205.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/205.png",
@@ -11961,7 +11035,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1115,
-    "share_code": "AAEAK44A",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/206.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/206.png",
@@ -12024,7 +11097,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1116,
-    "share_code": "AAEAK5gA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/207.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/207.png",
@@ -12081,7 +11153,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1117,
-    "share_code": "AAEAK6IA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/208.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/208.png",
@@ -12138,7 +11209,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1150,
-    "share_code": "AAEALOwA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/209.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/209.png",
@@ -12195,7 +11265,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1151,
-    "share_code": "AAEALPYA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/210.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/210.png",
@@ -12258,7 +11327,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1342,
-    "share_code": "AAEANGwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/211.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/211.png",
@@ -12315,7 +11383,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1763,
-    "share_code": "AAEARN4A",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/212.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/212.png",
@@ -12372,7 +11439,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1764,
-    "share_code": "AAEAROgA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/213.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/213.png",
@@ -12429,7 +11495,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1765,
-    "share_code": "AAEARPIA",
     "artist": "Taiga Kasai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/214.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/214.png",
@@ -12486,7 +11551,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1349,
-    "share_code": "AAEANLIA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/215.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/215.png",
@@ -12543,7 +11607,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1350,
-    "share_code": "AAEANLwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/216.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/216.png",
@@ -12600,7 +11663,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1232,
-    "share_code": "AAEAMCAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/217.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/217.png",
@@ -12657,7 +11719,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1241,
-    "share_code": "AAEAMHoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/218.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/218.png",
@@ -12714,7 +11775,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1355,
-    "share_code": "AAEANO4A",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/219.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/219.png",
@@ -12771,7 +11831,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1792,
-    "share_code": "AAEARgAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/220.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/220.png",
@@ -12828,7 +11887,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1793,
-    "share_code": "AAEARgoA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/221.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/221.png",
@@ -12885,7 +11943,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1358,
-    "share_code": "AAEANQwA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/222.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/222.png",
@@ -12942,7 +11999,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1359,
-    "share_code": "AAEANRYA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/223.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/223.png",
@@ -12999,7 +12055,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1360,
-    "share_code": "AAEANSAA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/224.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/224.png",
@@ -13056,7 +12111,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1098,
-    "share_code": "AAEAKuQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/225.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/225.png",
@@ -13125,7 +12179,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1118,
-    "share_code": "AAEAK6wA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/226.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/226.png",
@@ -13194,7 +12247,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1155,
-    "share_code": "AAEALR4A",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/227.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/227.png",
@@ -13263,7 +12315,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1163,
-    "share_code": "AAEALW4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/228.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/228.png",
@@ -13332,7 +12383,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1206,
-    "share_code": "AAEALxwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/229.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/229.png",
@@ -13401,7 +12451,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1233,
-    "share_code": "AAEAMCoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/230.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/230.png",
@@ -13476,7 +12525,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1242,
-    "share_code": "AAEAMIQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/231.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/231.png",
@@ -13545,7 +12593,6 @@
     },
     "points": 3,
     "deckBuilderNr": 1356,
-    "share_code": "AAEANPgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/232.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/232.png",
@@ -13614,7 +12661,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1669,
-    "share_code": "AAEAQTIA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/233.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/233.png",
@@ -13677,7 +12723,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1780,
-    "share_code": "AAEARYgA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/234.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3/234.png",

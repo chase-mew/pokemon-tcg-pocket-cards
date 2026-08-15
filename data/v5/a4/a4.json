@@ -42,7 +42,6 @@
     },
     "points": 1,
     "deckBuilderNr": 857,
-    "share_code": "AAEAIXoA",
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/001.png",
@@ -99,7 +98,6 @@
     },
     "points": 1,
     "deckBuilderNr": 858,
-    "share_code": "AAEAIYQA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/002.png",
@@ -156,7 +154,6 @@
     },
     "points": 1,
     "deckBuilderNr": 859,
-    "share_code": "AAEAIY4A",
     "artist": "Nagomi Nijo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/003.png",
@@ -213,7 +210,6 @@
     },
     "points": 1,
     "deckBuilderNr": 860,
-    "share_code": "AAEAIZgA",
     "artist": "OOYAMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/004.png",
@@ -270,19 +266,11 @@
     },
     "points": 1,
     "deckBuilderNr": 861,
-    "share_code": "AAEAIaIA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/005.png",
     "flavour_text": "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 5,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-006",
@@ -327,19 +315,11 @@
     },
     "points": 1,
     "deckBuilderNr": 862,
-    "share_code": "AAEAIawA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/006.png",
     "flavour_text": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 6,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-007",
@@ -384,19 +364,11 @@
     },
     "points": 1,
     "deckBuilderNr": 863,
-    "share_code": "AAEAIbYA",
     "artist": "Toshinao Aoki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/007.png",
     "flavour_text": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 7,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-008",
@@ -441,7 +413,6 @@
     },
     "points": 1,
     "deckBuilderNr": 864,
-    "share_code": "AAEAIcAA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/008.png",
@@ -498,19 +469,11 @@
     },
     "points": 1,
     "deckBuilderNr": 865,
-    "share_code": "AAEAIcoA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/009.png",
     "flavour_text": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 9,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-010",
@@ -555,19 +518,11 @@
     },
     "points": 1,
     "deckBuilderNr": 866,
-    "share_code": "AAEAIdQA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/010.png",
     "flavour_text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 10,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-011",
@@ -612,19 +567,11 @@
     },
     "points": 1,
     "deckBuilderNr": 867,
-    "share_code": "AAEAId4A",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/011.png",
     "flavour_text": "These very cowardly Pokémon join together and use Reflect to protect their nest.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-012",
@@ -669,19 +616,11 @@
     },
     "points": 1,
     "deckBuilderNr": 868,
-    "share_code": "AAEAIegA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/012.png",
     "flavour_text": "It’s said that the patterns on its back are related to the stars in the night sky, but the details of that relationship remain unclear.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 12,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-013",
@@ -726,7 +665,6 @@
     },
     "points": 1,
     "deckBuilderNr": 869,
-    "share_code": "AAEAIfIA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/013.png",
@@ -789,7 +727,6 @@
     },
     "points": 1,
     "deckBuilderNr": 870,
-    "share_code": "AAEAIfwA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/014.png",
@@ -852,7 +789,6 @@
     },
     "points": 1,
     "deckBuilderNr": 871,
-    "share_code": "AAEAIgYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/015.png",
@@ -915,19 +851,11 @@
     },
     "points": 1,
     "deckBuilderNr": 872,
-    "share_code": "AAEAIhAA",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/016.png",
     "flavour_text": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-017",
@@ -972,19 +900,11 @@
     },
     "points": 1,
     "deckBuilderNr": 873,
-    "share_code": "AAEAIhoA",
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/017.png",
     "flavour_text": "In the daytime, it rushes about in a hectic manner, but it comes to a complete stop when the sun sets.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 17,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-018",
@@ -1029,7 +949,6 @@
     },
     "points": 1,
     "deckBuilderNr": 874,
-    "share_code": "AAEAIiQA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/018.png",
@@ -1086,19 +1005,11 @@
     },
     "points": 1,
     "deckBuilderNr": 875,
-    "share_code": "AAEAIi4A",
     "artist": "Uta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/019.png",
     "flavour_text": "It prefers to battle by biting apart foes’ heads instantly while flying by at high speed.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 19,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-020",
@@ -1143,19 +1054,11 @@
     },
     "points": 1,
     "deckBuilderNr": 876,
-    "share_code": "AAEAIjgA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/020.png",
     "flavour_text": "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 20,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-021",
@@ -1200,7 +1103,6 @@
     },
     "points": 2,
     "deckBuilderNr": 877,
-    "share_code": "AAEAIkIA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/021.png",
@@ -1269,7 +1171,6 @@
     },
     "points": 1,
     "deckBuilderNr": 878,
-    "share_code": "AAEAIkwA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/022.png",
@@ -1326,7 +1227,6 @@
     },
     "points": 1,
     "deckBuilderNr": 879,
-    "share_code": "AAEAIlYA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/023.png",
@@ -1389,7 +1289,6 @@
     },
     "points": 1,
     "deckBuilderNr": 880,
-    "share_code": "AAEAImAA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/024.png",
@@ -1452,19 +1351,11 @@
     },
     "points": 1,
     "deckBuilderNr": 881,
-    "share_code": "AAEAImoA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/025.png",
     "flavour_text": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-026",
@@ -1509,19 +1400,11 @@
     },
     "points": 1,
     "deckBuilderNr": 882,
-    "share_code": "AAEAInQA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/026.png",
     "flavour_text": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 26,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-027",
@@ -1566,7 +1449,6 @@
     },
     "points": 1,
     "deckBuilderNr": 883,
-    "share_code": "AAEAIn4A",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/027.png",
@@ -1623,19 +1505,11 @@
     },
     "points": 1,
     "deckBuilderNr": 884,
-    "share_code": "AAEAIogA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/028.png",
     "flavour_text": "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 28,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-029",
@@ -1680,19 +1554,11 @@
     },
     "points": 1,
     "deckBuilderNr": 885,
-    "share_code": "AAEAIpIA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/029.png",
     "flavour_text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 29,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-030",
@@ -1737,19 +1603,11 @@
     },
     "points": 1,
     "deckBuilderNr": 886,
-    "share_code": "AAEAIpwA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/030.png",
     "flavour_text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 30,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-031",
@@ -1794,19 +1652,11 @@
     },
     "points": 1,
     "deckBuilderNr": 887,
-    "share_code": "AAEAIqYA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/031.png",
     "flavour_text": "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 31,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-032",
@@ -1851,7 +1701,6 @@
     },
     "points": 1,
     "deckBuilderNr": 888,
-    "share_code": "AAEAIrAA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/032.png",
@@ -1914,19 +1763,11 @@
     },
     "points": 1,
     "deckBuilderNr": 889,
-    "share_code": "AAEAIroA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/033.png",
     "flavour_text": "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 33,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-034",
@@ -1971,7 +1812,6 @@
     },
     "points": 2,
     "deckBuilderNr": 890,
-    "share_code": "AAEAIsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/034.png",
@@ -2058,19 +1898,11 @@
     },
     "points": 1,
     "deckBuilderNr": 891,
-    "share_code": "AAEAIs4A",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/035.png",
     "flavour_text": "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 35,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-036",
@@ -2115,19 +1947,11 @@
     },
     "points": 1,
     "deckBuilderNr": 892,
-    "share_code": "AAEAItgA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/036.png",
     "flavour_text": "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 36,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-037",
@@ -2172,19 +1996,11 @@
     },
     "points": 1,
     "deckBuilderNr": 893,
-    "share_code": "AAEAIuIA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/037.png",
     "flavour_text": "There’s a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 37,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-038",
@@ -2229,19 +2045,11 @@
     },
     "points": 1,
     "deckBuilderNr": 894,
-    "share_code": "AAEAIuwA",
     "artist": "Asako Ito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/038.png",
     "flavour_text": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 38,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-039",
@@ -2286,19 +2094,11 @@
     },
     "points": 1,
     "deckBuilderNr": 895,
-    "share_code": "AAEAIvYA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/039.png",
     "flavour_text": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 39,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-040",
@@ -2343,19 +2143,11 @@
     },
     "points": 1,
     "deckBuilderNr": 896,
-    "share_code": "AAEAIwAA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/040.png",
     "flavour_text": "At nightfall, these Pokémon appear on the shores of lakes. They announce their territorial claims by letting out cries that sound like shouting.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 40,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-041",
@@ -2400,7 +2192,6 @@
     },
     "points": 1,
     "deckBuilderNr": 897,
-    "share_code": "AAEAIwoA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/041.png",
@@ -2469,7 +2260,6 @@
     },
     "points": 1,
     "deckBuilderNr": 898,
-    "share_code": "AAEAIxQA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/042.png",
@@ -2538,7 +2328,6 @@
     },
     "points": 2,
     "deckBuilderNr": 899,
-    "share_code": "AAEAIx4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/043.png",
@@ -2613,19 +2402,11 @@
     },
     "points": 1,
     "deckBuilderNr": 900,
-    "share_code": "AAEAIygA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/044.png",
     "flavour_text": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 44,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-045",
@@ -2670,7 +2451,6 @@
     },
     "points": 1,
     "deckBuilderNr": 901,
-    "share_code": "AAEAIzIA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/045.png",
@@ -2727,7 +2507,6 @@
     },
     "points": 1,
     "deckBuilderNr": 902,
-    "share_code": "AAEAIzwA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/046.png",
@@ -2784,19 +2563,11 @@
     },
     "points": 1,
     "deckBuilderNr": 903,
-    "share_code": "AAEAI0YA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/047.png",
     "flavour_text": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 47,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-048",
@@ -2841,19 +2612,11 @@
     },
     "points": 1,
     "deckBuilderNr": 904,
-    "share_code": "AAEAI1AA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/048.png",
     "flavour_text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 48,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-049",
@@ -2898,7 +2661,6 @@
     },
     "points": 1,
     "deckBuilderNr": 905,
-    "share_code": "AAEAI1oA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/049.png",
@@ -2955,19 +2717,11 @@
     },
     "points": 1,
     "deckBuilderNr": 906,
-    "share_code": "AAEAI2QA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/050.png",
     "flavour_text": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 50,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-051",
@@ -3012,19 +2766,11 @@
     },
     "points": 1,
     "deckBuilderNr": 907,
-    "share_code": "AAEAI24A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/051.png",
     "flavour_text": "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-052",
@@ -3069,19 +2815,11 @@
     },
     "points": 1,
     "deckBuilderNr": 908,
-    "share_code": "AAEAI3gA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/052.png",
     "flavour_text": "It has an easygoing nature. It doesn’t care if it bumps its head on boats and boulders while swimming.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 52,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-053",
@@ -3126,7 +2864,6 @@
     },
     "points": 1,
     "deckBuilderNr": 909,
-    "share_code": "AAEAI4IA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/053.png",
@@ -3183,19 +2920,11 @@
     },
     "points": 1,
     "deckBuilderNr": 910,
-    "share_code": "AAEAI4wA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/054.png",
     "flavour_text": "It will regrow any branches that break off its head. People keep particularly beautiful Corsola branches as charms to promote safe childbirth.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 54,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-055",
@@ -3240,19 +2969,11 @@
     },
     "points": 1,
     "deckBuilderNr": 911,
-    "share_code": "AAEAI5YA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/055.png",
     "flavour_text": "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 55,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-056",
@@ -3297,7 +3018,6 @@
     },
     "points": 1,
     "deckBuilderNr": 912,
-    "share_code": "AAEAI6AA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/056.png",
@@ -3354,7 +3074,6 @@
     },
     "points": 1,
     "deckBuilderNr": 913,
-    "share_code": "AAEAI6oA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/057.png",
@@ -3411,19 +3130,11 @@
     },
     "points": 1,
     "deckBuilderNr": 914,
-    "share_code": "AAEAI7QA",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/058.png",
     "flavour_text": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 58,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-059",
@@ -3468,19 +3179,11 @@
     },
     "points": 1,
     "deckBuilderNr": 915,
-    "share_code": "AAEAI74A",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/059.png",
     "flavour_text": "It races around the world to purify fouled water. It dashes away with the north wind.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 59,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-060",
@@ -3525,7 +3228,6 @@
     },
     "points": 1,
     "deckBuilderNr": 916,
-    "share_code": "AAEAI8gA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/060.png",
@@ -3588,7 +3290,6 @@
     },
     "points": 1,
     "deckBuilderNr": 917,
-    "share_code": "AAEAI9IA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/061.png",
@@ -3657,19 +3358,11 @@
     },
     "points": 1,
     "deckBuilderNr": 918,
-    "share_code": "AAEAI9wA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/062.png",
     "flavour_text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 62,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-063",
@@ -3714,19 +3407,11 @@
     },
     "points": 1,
     "deckBuilderNr": 919,
-    "share_code": "AAEAI+YA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/063.png",
     "flavour_text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 63,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-064",
@@ -3771,7 +3456,6 @@
     },
     "points": 1,
     "deckBuilderNr": 920,
-    "share_code": "AAEAI/AA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/064.png",
@@ -3834,7 +3518,6 @@
     },
     "points": 2,
     "deckBuilderNr": 921,
-    "share_code": "AAEAI/oA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/065.png",
@@ -3903,7 +3586,6 @@
     },
     "points": 1,
     "deckBuilderNr": 922,
-    "share_code": "AAEAJAQA",
     "artist": "Kariya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/066.png",
@@ -3966,19 +3648,11 @@
     },
     "points": 1,
     "deckBuilderNr": 923,
-    "share_code": "AAEAJA4A",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/067.png",
     "flavour_text": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 67,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-068",
@@ -4023,19 +3697,11 @@
     },
     "points": 1,
     "deckBuilderNr": 924,
-    "share_code": "AAEAJBgA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/068.png",
     "flavour_text": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 68,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-069",
@@ -4080,7 +3746,6 @@
     },
     "points": 1,
     "deckBuilderNr": 925,
-    "share_code": "AAEAJCIA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/069.png",
@@ -4137,19 +3802,11 @@
     },
     "points": 1,
     "deckBuilderNr": 926,
-    "share_code": "AAEAJCwA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/070.png",
     "flavour_text": "When a storm approaches, this Pokémon gets restless. Once Elekid hears the sound of thunder, it gets full-on rowdy.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 70,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-071",
@@ -4194,19 +3851,11 @@
     },
     "points": 1,
     "deckBuilderNr": 927,
-    "share_code": "AAEAJDYA",
     "artist": "Kazumasa Yasukuni",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/071.png",
     "flavour_text": "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 71,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-072",
@@ -4251,19 +3900,11 @@
     },
     "points": 1,
     "deckBuilderNr": 928,
-    "share_code": "AAEAJEAA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/072.png",
     "flavour_text": "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 72,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-073",
@@ -4308,19 +3949,11 @@
     },
     "points": 1,
     "deckBuilderNr": 929,
-    "share_code": "AAEAJEoA",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/073.png",
     "flavour_text": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 73,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-074",
@@ -4365,19 +3998,11 @@
     },
     "points": 1,
     "deckBuilderNr": 930,
-    "share_code": "AAEAJFQA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/074.png",
     "flavour_text": "When its head was bitten, toxins entered Slowpoke’s head and unlocked an extraordinary power.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 74,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-075",
@@ -4422,19 +4047,11 @@
     },
     "points": 1,
     "deckBuilderNr": 931,
-    "share_code": "AAEAJF4A",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/075.png",
     "flavour_text": "If its face gets even slightly dirty, Smoochum will bathe immediately. But if its body gets dirty, Smoochum doesn’t really seem to care.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 75,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-076",
@@ -4479,19 +4096,11 @@
     },
     "points": 1,
     "deckBuilderNr": 932,
-    "share_code": "AAEAJGgA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/076.png",
     "flavour_text": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 76,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-077",
@@ -4536,7 +4145,6 @@
     },
     "points": 1,
     "deckBuilderNr": 933,
-    "share_code": "AAEAJHIA",
     "artist": "Orca",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/077.png",
@@ -4593,7 +4201,6 @@
     },
     "points": 1,
     "deckBuilderNr": 934,
-    "share_code": "AAEAJHwA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/078.png",
@@ -4650,19 +4257,11 @@
     },
     "points": 1,
     "deckBuilderNr": 935,
-    "share_code": "AAEAJIYA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/079.png",
     "flavour_text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 79,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-080",
@@ -4707,19 +4306,11 @@
     },
     "points": 1,
     "deckBuilderNr": 936,
-    "share_code": "AAEAJJAA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/080.png",
     "flavour_text": "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they’ve hardly been seen at all.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 80,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-081",
@@ -4764,19 +4355,11 @@
     },
     "points": 1,
     "deckBuilderNr": 937,
-    "share_code": "AAEAJJoA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/081.png",
     "flavour_text": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 81,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-082",
@@ -4821,7 +4404,6 @@
     },
     "points": 1,
     "deckBuilderNr": 938,
-    "share_code": "AAEAJKQA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/082.png",
@@ -4878,7 +4460,6 @@
     },
     "points": 2,
     "deckBuilderNr": 939,
-    "share_code": "AAEAJK4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/083.png",
@@ -4953,19 +4534,11 @@
     },
     "points": 1,
     "deckBuilderNr": 940,
-    "share_code": "AAEAJLgA",
     "artist": "OKUBO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/084.png",
     "flavour_text": "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 84,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-085",
@@ -5010,19 +4583,11 @@
     },
     "points": 1,
     "deckBuilderNr": 941,
-    "share_code": "AAEAJMIA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/085.png",
     "flavour_text": "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 85,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-086",
@@ -5067,7 +4632,6 @@
     },
     "points": 1,
     "deckBuilderNr": 942,
-    "share_code": "AAEAJMwA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/086.png",
@@ -5124,19 +4688,11 @@
     },
     "points": 1,
     "deckBuilderNr": 943,
-    "share_code": "AAEAJNYA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/087.png",
     "flavour_text": "Girafarig’s tail has a small head. It instinctively bites at any foe that approaches the Pokémon from behind.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 87,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-088",
@@ -5181,19 +4737,11 @@
     },
     "points": 1,
     "deckBuilderNr": 944,
-    "share_code": "AAEAJOAA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/088.png",
     "flavour_text": "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 88,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-089",
@@ -5238,19 +4786,11 @@
     },
     "points": 1,
     "deckBuilderNr": 945,
-    "share_code": "AAEAJOoA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/089.png",
     "flavour_text": "While it has powerful jaws, it doesn’t care for disputes, so it rarely has a chance to display their might.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 89,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-090",
@@ -5295,19 +4835,11 @@
     },
     "points": 1,
     "deckBuilderNr": 946,
-    "share_code": "AAEAJPQA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/090.png",
     "flavour_text": "Late at night, it appears beside people’s pillows. As it feeds on dreams, the patterns on its body give off a faint glow.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 90,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-091",
@@ -5352,19 +4884,11 @@
     },
     "points": 1,
     "deckBuilderNr": 947,
-    "share_code": "AAEAJP4A",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/091.png",
     "flavour_text": "When dark mists emanate from its body, don’t get too near. If you do, your nightmares will become reality.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 91,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-092",
@@ -5409,19 +4933,11 @@
     },
     "points": 1,
     "deckBuilderNr": 948,
-    "share_code": "AAEAJQgA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/092.png",
     "flavour_text": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 92,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-093",
@@ -5466,19 +4982,11 @@
     },
     "points": 1,
     "deckBuilderNr": 949,
-    "share_code": "AAEAJRIA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/093.png",
     "flavour_text": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 93,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-094",
@@ -5523,7 +5031,6 @@
     },
     "points": 1,
     "deckBuilderNr": 950,
-    "share_code": "AAEAJRwA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/094.png",
@@ -5580,19 +5087,11 @@
     },
     "points": 1,
     "deckBuilderNr": 951,
-    "share_code": "AAEAJSYA",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/095.png",
     "flavour_text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 95,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-096",
@@ -5637,19 +5136,11 @@
     },
     "points": 1,
     "deckBuilderNr": 952,
-    "share_code": "AAEAJTAA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/096.png",
     "flavour_text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 96,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-097",
@@ -5694,19 +5185,11 @@
     },
     "points": 1,
     "deckBuilderNr": 953,
-    "share_code": "AAEAJToA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/097.png",
     "flavour_text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 97,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-098",
@@ -5751,19 +5234,11 @@
     },
     "points": 1,
     "deckBuilderNr": 954,
-    "share_code": "AAEAJUQA",
     "artist": "Uta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/098.png",
     "flavour_text": "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 98,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-099",
@@ -5808,7 +5283,6 @@
     },
     "points": 1,
     "deckBuilderNr": 955,
-    "share_code": "AAEAJU4A",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/099.png",
@@ -5877,7 +5351,6 @@
     },
     "points": 2,
     "deckBuilderNr": 956,
-    "share_code": "AAEAJVgA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/100.png",
@@ -5952,7 +5425,6 @@
     },
     "points": 1,
     "deckBuilderNr": 957,
-    "share_code": "AAEAJWIA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/101.png",
@@ -6009,19 +5481,11 @@
     },
     "points": 1,
     "deckBuilderNr": 958,
-    "share_code": "AAEAJWwA",
     "artist": "Hisao Nakamura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/102.png",
     "flavour_text": "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 102,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-103",
@@ -6066,19 +5530,11 @@
     },
     "points": 1,
     "deckBuilderNr": 959,
-    "share_code": "AAEAJXYA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/103.png",
     "flavour_text": "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 103,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-104",
@@ -6123,19 +5579,11 @@
     },
     "points": 1,
     "deckBuilderNr": 960,
-    "share_code": "AAEAJYAA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/104.png",
     "flavour_text": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 104,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-105",
@@ -6180,19 +5628,11 @@
     },
     "points": 1,
     "deckBuilderNr": 961,
-    "share_code": "AAEAJYoA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/105.png",
     "flavour_text": "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 105,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-106",
@@ -6237,19 +5677,11 @@
     },
     "points": 1,
     "deckBuilderNr": 962,
-    "share_code": "AAEAJZQA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/106.png",
     "flavour_text": "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 106,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-107",
@@ -6294,19 +5726,11 @@
     },
     "points": 1,
     "deckBuilderNr": 963,
-    "share_code": "AAEAJZ4A",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/107.png",
     "flavour_text": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 107,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-108",
@@ -6351,19 +5775,11 @@
     },
     "points": 1,
     "deckBuilderNr": 964,
-    "share_code": "AAEAJagA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/108.png",
     "flavour_text": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 108,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-109",
@@ -6408,7 +5824,6 @@
     },
     "points": 2,
     "deckBuilderNr": 965,
-    "share_code": "AAEAJbIA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/109.png",
@@ -6477,7 +5892,6 @@
     },
     "points": 1,
     "deckBuilderNr": 966,
-    "share_code": "AAEAJbwA",
     "artist": "Sachiko Adachi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/110.png",
@@ -6534,19 +5948,11 @@
     },
     "points": 1,
     "deckBuilderNr": 967,
-    "share_code": "AAEAJcYA",
     "artist": "Shinji Kanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/111.png",
     "flavour_text": "Every night, it wanders around in search of prey, whose movements it restrains by spewing threads before it bites into them with its fangs.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 111,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-112",
@@ -6591,7 +5997,6 @@
     },
     "points": 2,
     "deckBuilderNr": 968,
-    "share_code": "AAEAJdAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/112.png",
@@ -6666,7 +6071,6 @@
     },
     "points": 1,
     "deckBuilderNr": 969,
-    "share_code": "AAEAJdoA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/113.png",
@@ -6723,19 +6127,11 @@
     },
     "points": 1,
     "deckBuilderNr": 970,
-    "share_code": "AAEAJeQA",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/114.png",
     "flavour_text": "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 114,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-115",
@@ -6780,7 +6176,6 @@
     },
     "points": 1,
     "deckBuilderNr": 971,
-    "share_code": "AAEAJe4A",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/115.png",
@@ -6837,7 +6232,6 @@
     },
     "points": 1,
     "deckBuilderNr": 972,
-    "share_code": "AAEAJfgA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/116.png",
@@ -6894,19 +6288,11 @@
     },
     "points": 1,
     "deckBuilderNr": 973,
-    "share_code": "AAEAJgIA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/117.png",
     "flavour_text": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 117,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-118",
@@ -6951,7 +6337,6 @@
     },
     "points": 1,
     "deckBuilderNr": 974,
-    "share_code": "AAEAJgwA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/118.png",
@@ -7008,7 +6393,6 @@
     },
     "points": 1,
     "deckBuilderNr": 975,
-    "share_code": "AAEAJhYA",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/119.png",
@@ -7065,7 +6449,6 @@
     },
     "points": 1,
     "deckBuilderNr": 976,
-    "share_code": "AAEAJiAA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/120.png",
@@ -7122,19 +6505,11 @@
     },
     "points": 1,
     "deckBuilderNr": 977,
-    "share_code": "AAEAJioA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/121.png",
     "flavour_text": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 121,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-122",
@@ -7179,19 +6554,11 @@
     },
     "points": 1,
     "deckBuilderNr": 978,
-    "share_code": "AAEAJjQA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/122.png",
     "flavour_text": "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 122,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-123",
@@ -7236,7 +6603,6 @@
     },
     "points": 1,
     "deckBuilderNr": 979,
-    "share_code": "AAEAJj4A",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/123.png",
@@ -7293,7 +6659,6 @@
     },
     "points": 2,
     "deckBuilderNr": 980,
-    "share_code": "AAEAJkgA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/124.png",
@@ -7362,19 +6727,11 @@
     },
     "points": 1,
     "deckBuilderNr": 981,
-    "share_code": "AAEAJlIA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/125.png",
     "flavour_text": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 125,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-126",
@@ -7419,19 +6776,11 @@
     },
     "points": 1,
     "deckBuilderNr": 982,
-    "share_code": "AAEAJlwA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/126.png",
     "flavour_text": "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 126,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-127",
@@ -7476,19 +6825,11 @@
     },
     "points": 1,
     "deckBuilderNr": 983,
-    "share_code": "AAEAJmYA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/127.png",
     "flavour_text": "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon’s rotation speed increases sharply.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 127,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-128",
@@ -7533,19 +6874,11 @@
     },
     "points": 1,
     "deckBuilderNr": 984,
-    "share_code": "AAEAJnAA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/128.png",
     "flavour_text": "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 128,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-129",
@@ -7590,19 +6923,11 @@
     },
     "points": 1,
     "deckBuilderNr": 985,
-    "share_code": "AAEAJnoA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/129.png",
     "flavour_text": "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 129,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-130",
@@ -7647,19 +6972,11 @@
     },
     "points": 1,
     "deckBuilderNr": 986,
-    "share_code": "AAEAJoQA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/130.png",
     "flavour_text": "Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 130,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-131",
@@ -7704,19 +7021,11 @@
     },
     "points": 1,
     "deckBuilderNr": 987,
-    "share_code": "AAEAJo4A",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/131.png",
     "flavour_text": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 131,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-132",
@@ -7761,7 +7070,6 @@
     },
     "points": 1,
     "deckBuilderNr": 988,
-    "share_code": "AAEAJpgA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/132.png",
@@ -7818,7 +7126,6 @@
     },
     "points": 1,
     "deckBuilderNr": 989,
-    "share_code": "AAEAJqIA",
     "artist": "Toshinao Aoki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/133.png",
@@ -7875,7 +7182,6 @@
     },
     "points": 1,
     "deckBuilderNr": 990,
-    "share_code": "AAEAJqwA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/134.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/134.png",
@@ -7932,19 +7238,11 @@
     },
     "points": 1,
     "deckBuilderNr": 991,
-    "share_code": "AAEAJrYA",
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/135.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/135.png",
     "flavour_text": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 135,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-136",
@@ -7989,19 +7287,11 @@
     },
     "points": 1,
     "deckBuilderNr": 992,
-    "share_code": "AAEAJsAA",
     "artist": "Nagomi Nijo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/136.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/136.png",
     "flavour_text": "This is a Porygon that was updated with special data. Porygon2 develops itself by learning about many different subjects all on its own.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 136,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-137",
@@ -8046,19 +7336,11 @@
     },
     "points": 1,
     "deckBuilderNr": 993,
-    "share_code": "AAEAJsoA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/137.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/137.png",
     "flavour_text": "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z’s behavior.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 137,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-138",
@@ -8103,7 +7385,6 @@
     },
     "points": 1,
     "deckBuilderNr": 994,
-    "share_code": "AAEAJtQA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/138.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/138.png",
@@ -8160,19 +7441,11 @@
     },
     "points": 1,
     "deckBuilderNr": 995,
-    "share_code": "AAEAJt4A",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/139.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/139.png",
     "flavour_text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 139,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-140",
@@ -8217,7 +7490,6 @@
     },
     "points": 1,
     "deckBuilderNr": 996,
-    "share_code": "AAEAJugA",
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/140.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/140.png",
@@ -8274,19 +7546,11 @@
     },
     "points": 1,
     "deckBuilderNr": 997,
-    "share_code": "AAEAJvIA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/141.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/141.png",
     "flavour_text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 141,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-142",
@@ -8331,19 +7595,11 @@
     },
     "points": 1,
     "deckBuilderNr": 998,
-    "share_code": "AAEAJvwA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/142.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/142.png",
     "flavour_text": "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 142,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-143",
@@ -8388,19 +7644,11 @@
     },
     "points": 1,
     "deckBuilderNr": 999,
-    "share_code": "AAEAJwYA",
     "artist": "Atsushi Furusawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/143.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/143.png",
     "flavour_text": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that’s proof it really likes you.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 143,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-144",
@@ -8445,19 +7693,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1000,
-    "share_code": "AAEAJxAA",
     "artist": "Kazuma Koda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/144.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/144.png",
     "flavour_text": "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 144,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-145",
@@ -8502,19 +7742,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1001,
-    "share_code": "AAEAJxoA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/145.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/145.png",
     "flavour_text": "Its paws are soaked in oodles of honey. When nervous, Teddiursa will lick its paws and soon have a smile back on its face.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 145,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-146",
@@ -8559,19 +7791,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1002,
-    "share_code": "AAEAJyQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/146.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/146.png",
     "flavour_text": "It usually wears a hardened expression, but when it’s licking up honey—which it loves—the joy it feels will cause it to break into a wide grin.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 146,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-147",
@@ -8616,7 +7840,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1003,
-    "share_code": "AAEAJy4A",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/147.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/147.png",
@@ -8673,7 +7896,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1004,
-    "share_code": "AAEAJzgA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/148.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/148.png",
@@ -8730,7 +7952,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1005,
-    "share_code": "AAEAJ0IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/149.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/149.png",
@@ -8817,19 +8038,11 @@
     },
     "points": 1,
     "deckBuilderNr": 1006,
-    "share_code": "AAEAJ0wA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/150.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/150.png",
     "flavour_text": "These Pokémon can crush a car with no more than a headbutt. Bouffalant with more hair on their heads hold higher positions within the herd.",
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 150,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-151",
@@ -8874,7 +8087,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000071,
-    "share_code": "AZiZRgAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/151.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/151.png",
@@ -8937,19 +8149,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000072,
-    "share_code": "AZiZUAAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/152.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/152.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 152,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-153",
@@ -8994,19 +8198,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000073,
-    "share_code": "AZiZWgAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/153.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/153.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 153,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-154",
@@ -9051,19 +8247,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000074,
-    "share_code": "AZiZZAAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/154.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/154.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 154,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-155",
@@ -9108,19 +8296,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000075,
-    "share_code": "AZiZbgAA",
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/155.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/155.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a4",
-        "set_name": "Wisdom of Sea and Sky",
-        "id": 155,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a4-156",
@@ -9165,7 +8345,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000076,
-    "share_code": "AZiZeAAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/156.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/156.png",
@@ -9222,7 +8401,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000077,
-    "share_code": "AZiZggAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/157.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/157.png",
@@ -9291,7 +8469,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000078,
-    "share_code": "AZiZjAAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/158.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/158.png",
@@ -9360,7 +8537,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000079,
-    "share_code": "AZiZlgAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/159.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/159.png",
@@ -9417,7 +8593,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000080,
-    "share_code": "AZiZoAAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/160.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/160.png",
@@ -9474,7 +8649,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000081,
-    "share_code": "AZiZqgAA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/161.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/161.png",
@@ -9531,7 +8705,6 @@
     },
     "points": 1,
     "deckBuilderNr": 864,
-    "share_code": "AAEAIcAA",
     "artist": "Keisin",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/162.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/162.png",
@@ -9588,7 +8761,6 @@
     },
     "points": 1,
     "deckBuilderNr": 859,
-    "share_code": "AAEAIY4A",
     "artist": "Yuka Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/163.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/163.png",
@@ -9645,7 +8817,6 @@
     },
     "points": 1,
     "deckBuilderNr": 878,
-    "share_code": "AAEAIkwA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/164.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/164.png",
@@ -9702,7 +8873,6 @@
     },
     "points": 1,
     "deckBuilderNr": 883,
-    "share_code": "AAEAIn4A",
     "artist": "buchi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/165.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/165.png",
@@ -9759,7 +8929,6 @@
     },
     "points": 1,
     "deckBuilderNr": 888,
-    "share_code": "AAEAIrAA",
     "artist": "Makura Tami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/166.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/166.png",
@@ -9822,7 +8991,6 @@
     },
     "points": 1,
     "deckBuilderNr": 902,
-    "share_code": "AAEAIzwA",
     "artist": "Ayako Ozaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/167.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/167.png",
@@ -9879,7 +9047,6 @@
     },
     "points": 1,
     "deckBuilderNr": 909,
-    "share_code": "AAEAI4IA",
     "artist": "June",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/168.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/168.png",
@@ -9936,7 +9103,6 @@
     },
     "points": 1,
     "deckBuilderNr": 912,
-    "share_code": "AAEAI6AA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/169.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/169.png",
@@ -9993,7 +9159,6 @@
     },
     "points": 1,
     "deckBuilderNr": 913,
-    "share_code": "AAEAI6oA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/170.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/170.png",
@@ -10050,7 +9215,6 @@
     },
     "points": 1,
     "deckBuilderNr": 922,
-    "share_code": "AAEAJAQA",
     "artist": "Kanami Ogata",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/171.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/171.png",
@@ -10113,7 +9277,6 @@
     },
     "points": 1,
     "deckBuilderNr": 925,
-    "share_code": "AAEAJCIA",
     "artist": "Whisker",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/172.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/172.png",
@@ -10170,7 +9333,6 @@
     },
     "points": 1,
     "deckBuilderNr": 934,
-    "share_code": "AAEAJHwA",
     "artist": "Terada Tera",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/173.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/173.png",
@@ -10227,7 +9389,6 @@
     },
     "points": 1,
     "deckBuilderNr": 938,
-    "share_code": "AAEAJKQA",
     "artist": "Masako Tomii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/174.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/174.png",
@@ -10284,7 +9445,6 @@
     },
     "points": 1,
     "deckBuilderNr": 942,
-    "share_code": "AAEAJMwA",
     "artist": "GOTO minori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/175.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/175.png",
@@ -10341,7 +9501,6 @@
     },
     "points": 1,
     "deckBuilderNr": 950,
-    "share_code": "AAEAJRwA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/176.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/176.png",
@@ -10398,7 +9557,6 @@
     },
     "points": 1,
     "deckBuilderNr": 966,
-    "share_code": "AAEAJbwA",
     "artist": "IKEDA Saki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/177.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/177.png",
@@ -10455,7 +9613,6 @@
     },
     "points": 1,
     "deckBuilderNr": 969,
-    "share_code": "AAEAJdoA",
     "artist": "kamonabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/178.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/178.png",
@@ -10512,7 +9669,6 @@
     },
     "points": 1,
     "deckBuilderNr": 975,
-    "share_code": "AAEAJhYA",
     "artist": "Saboteri",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/179.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/179.png",
@@ -10569,7 +9725,6 @@
     },
     "points": 1,
     "deckBuilderNr": 979,
-    "share_code": "AAEAJj4A",
     "artist": "danciao",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/180.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/180.png",
@@ -10626,7 +9781,6 @@
     },
     "points": 1,
     "deckBuilderNr": 994,
-    "share_code": "AAEAJtQA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/181.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/181.png",
@@ -10683,7 +9837,6 @@
     },
     "points": 1,
     "deckBuilderNr": 996,
-    "share_code": "AAEAJugA",
     "artist": "Uninori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/182.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/182.png",
@@ -10740,7 +9893,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1003,
-    "share_code": "AAEAJy4A",
     "artist": "Noriaki Tanimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/183.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/183.png",
@@ -10797,7 +9949,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1004,
-    "share_code": "AAEAJzgA",
     "artist": "MINAMINAMI Take",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/184.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/184.png",
@@ -10854,7 +10005,6 @@
     },
     "points": 1,
     "deckBuilderNr": 988,
-    "share_code": "AAEAJpgA",
     "artist": "Natsumi Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/185.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/185.png",
@@ -10911,7 +10061,6 @@
     },
     "points": 2,
     "deckBuilderNr": 877,
-    "share_code": "AAEAIkIA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/186.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/186.png",
@@ -10980,7 +10129,6 @@
     },
     "points": 2,
     "deckBuilderNr": 890,
-    "share_code": "AAEAIsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/187.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/187.png",
@@ -11067,7 +10215,6 @@
     },
     "points": 2,
     "deckBuilderNr": 899,
-    "share_code": "AAEAIx4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/188.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/188.png",
@@ -11142,7 +10289,6 @@
     },
     "points": 2,
     "deckBuilderNr": 921,
-    "share_code": "AAEAI/oA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/189.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/189.png",
@@ -11211,7 +10357,6 @@
     },
     "points": 2,
     "deckBuilderNr": 939,
-    "share_code": "AAEAJK4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/190.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/190.png",
@@ -11286,7 +10431,6 @@
     },
     "points": 2,
     "deckBuilderNr": 956,
-    "share_code": "AAEAJVgA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/191.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/191.png",
@@ -11361,7 +10505,6 @@
     },
     "points": 2,
     "deckBuilderNr": 965,
-    "share_code": "AAEAJbIA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/192.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/192.png",
@@ -11430,7 +10573,6 @@
     },
     "points": 2,
     "deckBuilderNr": 968,
-    "share_code": "AAEAJdAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/193.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/193.png",
@@ -11505,7 +10647,6 @@
     },
     "points": 2,
     "deckBuilderNr": 980,
-    "share_code": "AAEAJkgA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/194.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/194.png",
@@ -11574,7 +10715,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1005,
-    "share_code": "AAEAJ0IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/195.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/195.png",
@@ -11661,7 +10801,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000076,
-    "share_code": "AZiZeAAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/196.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/196.png",
@@ -11718,7 +10857,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000077,
-    "share_code": "AZiZggAA",
     "artist": "yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/197.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/197.png",
@@ -11787,7 +10925,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000078,
-    "share_code": "AZiZjAAA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/198.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/198.png",
@@ -11856,7 +10993,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000079,
-    "share_code": "AZiZlgAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/199.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/199.png",
@@ -11913,7 +11049,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000080,
-    "share_code": "AZiZoAAA",
     "artist": "En Morikura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/200.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/200.png",
@@ -11970,7 +11105,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000081,
-    "share_code": "AZiZqgAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/201.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/201.png",
@@ -12027,7 +11161,6 @@
     },
     "points": 2,
     "deckBuilderNr": 877,
-    "share_code": "AAEAIkIA",
     "artist": "Yoshimi Miyoshi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/202.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/202.png",
@@ -12096,7 +11229,6 @@
     },
     "points": 2,
     "deckBuilderNr": 899,
-    "share_code": "AAEAIx4A",
     "artist": "Takumi Wada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/203.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/203.png",
@@ -12171,7 +11303,6 @@
     },
     "points": 2,
     "deckBuilderNr": 921,
-    "share_code": "AAEAI/oA",
     "artist": "Fujimoto Gold",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/204.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/204.png",
@@ -12240,7 +11371,6 @@
     },
     "points": 2,
     "deckBuilderNr": 939,
-    "share_code": "AAEAJK4A",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/205.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/205.png",
@@ -12315,7 +11445,6 @@
     },
     "points": 2,
     "deckBuilderNr": 956,
-    "share_code": "AAEAJVgA",
     "artist": "Yuriko Akase",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/206.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/206.png",
@@ -12390,7 +11519,6 @@
     },
     "points": 2,
     "deckBuilderNr": 965,
-    "share_code": "AAEAJbIA",
     "artist": "Shinji Kanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/207.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/207.png",
@@ -12459,7 +11587,6 @@
     },
     "points": 2,
     "deckBuilderNr": 968,
-    "share_code": "AAEAJdAA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/208.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/208.png",
@@ -12534,7 +11661,6 @@
     },
     "points": 2,
     "deckBuilderNr": 980,
-    "share_code": "AAEAJkgA",
     "artist": "toriyufu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/209.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/209.png",
@@ -12603,7 +11729,6 @@
     },
     "points": 2,
     "deckBuilderNr": 890,
-    "share_code": "AAEAIsQA",
     "artist": "SIE NANAHARA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/210.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/210.png",
@@ -12690,7 +11815,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1005,
-    "share_code": "AAEAJ0IA",
     "artist": "SIE NANAHARA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/211.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/211.png",
@@ -12777,7 +11901,6 @@
     },
     "points": 1,
     "deckBuilderNr": 874,
-    "share_code": "AAEAIiQA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/212.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/212.png",
@@ -12834,7 +11957,6 @@
     },
     "points": 1,
     "deckBuilderNr": 804,
-    "share_code": "AAEAH2gA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/213.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/213.png",
@@ -12909,7 +12031,6 @@
     },
     "points": 1,
     "deckBuilderNr": 231,
-    "share_code": "AAEACQYA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/214.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/214.png",
@@ -12978,7 +12099,6 @@
     },
     "points": 1,
     "deckBuilderNr": 901,
-    "share_code": "AAEAIzIA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/215.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/215.png",
@@ -13035,7 +12155,6 @@
     },
     "points": 1,
     "deckBuilderNr": 80,
-    "share_code": "AAEAAyAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/216.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/216.png",
@@ -13092,7 +12211,6 @@
     },
     "points": 1,
     "deckBuilderNr": 97,
-    "share_code": "AAEAA8oA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/217.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/217.png",
@@ -13167,7 +12285,6 @@
     },
     "points": 1,
     "deckBuilderNr": 98,
-    "share_code": "AAEAA9QA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/218.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/218.png",
@@ -13236,7 +12353,6 @@
     },
     "points": 1,
     "deckBuilderNr": 733,
-    "share_code": "AAEAHKIA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/219.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/219.png",
@@ -13305,7 +12421,6 @@
     },
     "points": 1,
     "deckBuilderNr": 347,
-    "share_code": "AAEADY4A",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/220.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/220.png",
@@ -13374,7 +12489,6 @@
     },
     "points": 1,
     "deckBuilderNr": 254,
-    "share_code": "AAEACewA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/221.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/221.png",
@@ -13431,7 +12545,6 @@
     },
     "points": 1,
     "deckBuilderNr": 142,
-    "share_code": "AAEABYwA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/222.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/222.png",
@@ -13488,7 +12601,6 @@
     },
     "points": 1,
     "deckBuilderNr": 166,
-    "share_code": "AAEABnwA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/223.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/223.png",
@@ -13545,7 +12657,6 @@
     },
     "points": 1,
     "deckBuilderNr": 167,
-    "share_code": "AAEABoYA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/224.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/224.png",
@@ -13602,7 +12713,6 @@
     },
     "points": 1,
     "deckBuilderNr": 168,
-    "share_code": "AAEABpAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/225.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/225.png",
@@ -13665,7 +12775,6 @@
     },
     "points": 1,
     "deckBuilderNr": 169,
-    "share_code": "AAEABpoA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/226.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/226.png",
@@ -13722,7 +12831,6 @@
     },
     "points": 1,
     "deckBuilderNr": 170,
-    "share_code": "AAEABqQA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/227.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/227.png",
@@ -13779,7 +12887,6 @@
     },
     "points": 1,
     "deckBuilderNr": 171,
-    "share_code": "AAEABq4A",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/228.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/228.png",
@@ -13842,7 +12949,6 @@
     },
     "points": 1,
     "deckBuilderNr": 971,
-    "share_code": "AAEAJe4A",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/229.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/229.png",
@@ -13899,7 +13005,6 @@
     },
     "points": 1,
     "deckBuilderNr": 405,
-    "share_code": "AAEAD9IA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/230.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/230.png",
@@ -13968,7 +13073,6 @@
     },
     "points": 1,
     "deckBuilderNr": 990,
-    "share_code": "AAEAJqwA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/231.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/231.png",
@@ -14025,7 +13129,6 @@
     },
     "points": 2,
     "deckBuilderNr": 288,
-    "share_code": "AAEAC0AA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/232.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/232.png",
@@ -14100,7 +13203,6 @@
     },
     "points": 2,
     "deckBuilderNr": 434,
-    "share_code": "AAEAEPQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/233.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/233.png",
@@ -14175,7 +13277,6 @@
     },
     "points": 2,
     "deckBuilderNr": 232,
-    "share_code": "AAEACRAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/234.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/234.png",
@@ -14244,7 +13345,6 @@
     },
     "points": 2,
     "deckBuilderNr": 446,
-    "share_code": "AAEAEWwA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/235.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/235.png",
@@ -14319,7 +13419,6 @@
     },
     "points": 2,
     "deckBuilderNr": 342,
-    "share_code": "AAEADVwA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/236.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/236.png",
@@ -14394,7 +13493,6 @@
     },
     "points": 2,
     "deckBuilderNr": 348,
-    "share_code": "AAEADZgA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/237.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/237.png",
@@ -14469,7 +13567,6 @@
     },
     "points": 2,
     "deckBuilderNr": 380,
-    "share_code": "AAEADtgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/238.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/238.png",
@@ -14544,7 +13641,6 @@
     },
     "points": 2,
     "deckBuilderNr": 406,
-    "share_code": "AAEAD9wA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/239.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/239.png",
@@ -14619,7 +13715,6 @@
     },
     "points": 2,
     "deckBuilderNr": 890,
-    "share_code": "AAEAIsQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/240.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/240.png",
@@ -14706,7 +13801,6 @@
     },
     "points": 2,
     "deckBuilderNr": 1005,
-    "share_code": "AAEAJ0IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4/241.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a4/241.png",

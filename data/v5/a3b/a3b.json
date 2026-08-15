@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 797,
-    "share_code": "AAEAHyIA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/001.png",
     "flavour_text": "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 1,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-002",
@@ -99,7 +91,6 @@
     },
     "points": 1,
     "deckBuilderNr": 798,
-    "share_code": "AAEAHywA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/002.png",
@@ -156,19 +147,11 @@
     },
     "points": 1,
     "deckBuilderNr": 799,
-    "share_code": "AAEAHzYA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/003.png",
     "flavour_text": "Its sweat is sweet, like syrup made from boiled-down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 3,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-004",
@@ -213,19 +196,11 @@
     },
     "points": 1,
     "deckBuilderNr": 800,
-    "share_code": "AAEAH0AA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/004.png",
     "flavour_text": "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 4,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-005",
@@ -270,19 +245,11 @@
     },
     "points": 1,
     "deckBuilderNr": 801,
-    "share_code": "AAEAH0oA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/005.png",
     "flavour_text": "This Pokémon is proud and aggressive. However, it is said that a Tsareena will instantly become calm if someone touches the crown on its calyx.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 5,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-006",
@@ -327,19 +294,11 @@
     },
     "points": 1,
     "deckBuilderNr": 802,
-    "share_code": "AAEAH1QA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/006.png",
     "flavour_text": "It grows by eating the flesh of an apple. Applin uses its own body fluid to strengthen the apple’s skin and prevent it from rotting.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 6,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-007",
@@ -384,19 +343,11 @@
     },
     "points": 1,
     "deckBuilderNr": 803,
-    "share_code": "AAEAH14A",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/007.png",
     "flavour_text": "It feeds mainly on sweet apples. It will also eat small bug Pokémon that are attracted by its sweet nectar.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 7,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-008",
@@ -441,7 +392,6 @@
     },
     "points": 1,
     "deckBuilderNr": 804,
-    "share_code": "AAEAH2gA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/008.png",
@@ -516,7 +466,6 @@
     },
     "points": 2,
     "deckBuilderNr": 805,
-    "share_code": "AAEAH3IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/009.png",
@@ -591,7 +540,6 @@
     },
     "points": 1,
     "deckBuilderNr": 806,
-    "share_code": "AAEAH3wA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/010.png",
@@ -654,19 +602,11 @@
     },
     "points": 1,
     "deckBuilderNr": 807,
-    "share_code": "AAEAH4YA",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/011.png",
     "flavour_text": "If you try too hard to get close to it, it won’t open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-012",
@@ -711,19 +651,11 @@
     },
     "points": 1,
     "deckBuilderNr": 808,
-    "share_code": "AAEAH5AA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/012.png",
     "flavour_text": "Torracat will let its Trainer coddle it once they’ve grown close, but it’s a powerful, sharp-clawed Pokémon, so its Trainer gets covered in scratches.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 12,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-013",
@@ -768,19 +700,11 @@
     },
     "points": 1,
     "deckBuilderNr": 809,
-    "share_code": "AAEAH5oA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/013.png",
     "flavour_text": "Although it’s rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 13,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-014",
@@ -825,19 +749,11 @@
     },
     "points": 1,
     "deckBuilderNr": 810,
-    "share_code": "AAEAH6QA",
     "artist": "tetsuya koizumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/014.png",
     "flavour_text": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 14,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-015",
@@ -882,19 +798,11 @@
     },
     "points": 1,
     "deckBuilderNr": 811,
-    "share_code": "AAEAH64A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/015.png",
     "flavour_text": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 15,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-016",
@@ -939,7 +847,6 @@
     },
     "points": 1,
     "deckBuilderNr": 812,
-    "share_code": "AAEAH7gA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/016.png",
@@ -996,7 +903,6 @@
     },
     "points": 1,
     "deckBuilderNr": 813,
-    "share_code": "AAEAH8IA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/017.png",
@@ -1053,7 +959,6 @@
     },
     "points": 1,
     "deckBuilderNr": 732,
-    "share_code": "AAEAHJgA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/018.png",
@@ -1110,19 +1015,11 @@
     },
     "points": 1,
     "deckBuilderNr": 814,
-    "share_code": "AAEAH8wA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/019.png",
     "flavour_text": "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 19,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-020",
@@ -1167,19 +1064,11 @@
     },
     "points": 1,
     "deckBuilderNr": 815,
-    "share_code": "AAEAH9YA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/020.png",
     "flavour_text": "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 20,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-021",
@@ -1224,19 +1113,11 @@
     },
     "points": 1,
     "deckBuilderNr": 816,
-    "share_code": "AAEAH+AA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/021.png",
     "flavour_text": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 21,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-022",
@@ -1281,7 +1162,6 @@
     },
     "points": 1,
     "deckBuilderNr": 817,
-    "share_code": "AAEAH+oA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/022.png",
@@ -1344,7 +1224,6 @@
     },
     "points": 1,
     "deckBuilderNr": 818,
-    "share_code": "AAEAH/QA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/023.png",
@@ -1413,7 +1292,6 @@
     },
     "points": 2,
     "deckBuilderNr": 819,
-    "share_code": "AAEAH/4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/024.png",
@@ -1488,7 +1366,6 @@
     },
     "points": 1,
     "deckBuilderNr": 733,
-    "share_code": "AAEAHKIA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/025.png",
@@ -1557,19 +1434,11 @@
     },
     "points": 1,
     "deckBuilderNr": 820,
-    "share_code": "AAEAIAgA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/026.png",
     "flavour_text": "Joltik can be found clinging to other Pokémon. It’s soaking up static electricity because it can’t produce a charge on its own.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 26,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-027",
@@ -1614,19 +1483,11 @@
     },
     "points": 1,
     "deckBuilderNr": 821,
-    "share_code": "AAEAIBIA",
     "artist": "otumami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/027.png",
     "flavour_text": "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 27,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-028",
@@ -1671,7 +1532,6 @@
     },
     "points": 1,
     "deckBuilderNr": 822,
-    "share_code": "AAEAIBwA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/028.png",
@@ -1728,19 +1588,11 @@
     },
     "points": 1,
     "deckBuilderNr": 823,
-    "share_code": "AAEAICYA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/029.png",
     "flavour_text": "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it’s evidence that Woobat live there.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 29,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-030",
@@ -1785,19 +1637,11 @@
     },
     "points": 1,
     "deckBuilderNr": 824,
-    "share_code": "AAEAIDAA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/030.png",
     "flavour_text": "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 30,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-031",
@@ -1842,7 +1686,6 @@
     },
     "points": 1,
     "deckBuilderNr": 825,
-    "share_code": "AAEAIDoA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/031.png",
@@ -1905,7 +1748,6 @@
     },
     "points": 1,
     "deckBuilderNr": 826,
-    "share_code": "AAEAIEQA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/032.png",
@@ -1974,7 +1816,6 @@
     },
     "points": 1,
     "deckBuilderNr": 827,
-    "share_code": "AAEAIE4A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/033.png",
@@ -2031,7 +1872,6 @@
     },
     "points": 2,
     "deckBuilderNr": 828,
-    "share_code": "AAEAIFgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/034.png",
@@ -2106,7 +1946,6 @@
     },
     "points": 1,
     "deckBuilderNr": 829,
-    "share_code": "AAEAIGIA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/035.png",
@@ -2163,7 +2002,6 @@
     },
     "points": 1,
     "deckBuilderNr": 830,
-    "share_code": "AAEAIGwA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/036.png",
@@ -2226,7 +2064,6 @@
     },
     "points": 1,
     "deckBuilderNr": 734,
-    "share_code": "AAEAHKwA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/037.png",
@@ -2295,19 +2132,11 @@
     },
     "points": 1,
     "deckBuilderNr": 831,
-    "share_code": "AAEAIHYA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/038.png",
     "flavour_text": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey’s location.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 38,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-039",
@@ -2352,19 +2181,11 @@
     },
     "points": 1,
     "deckBuilderNr": 832,
-    "share_code": "AAEAIIAA",
     "artist": "Shinji Kanda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/039.png",
     "flavour_text": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 39,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-040",
@@ -2409,19 +2230,11 @@
     },
     "points": 1,
     "deckBuilderNr": 833,
-    "share_code": "AAEAIIoA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/040.png",
     "flavour_text": "In one minute, a well-trained Mienfoo can chop with its arms more than 100 times.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-041",
@@ -2466,19 +2279,11 @@
     },
     "points": 1,
     "deckBuilderNr": 834,
-    "share_code": "AAEAIJQA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/041.png",
     "flavour_text": "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 41,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-042",
@@ -2523,19 +2328,11 @@
     },
     "points": 1,
     "deckBuilderNr": 835,
-    "share_code": "AAEAIJ4A",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/042.png",
     "flavour_text": "When beset by attackers, Carbink wipes them all out by firing high-energy beams from the gems embedded in its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 42,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-043",
@@ -2580,7 +2377,6 @@
     },
     "points": 1,
     "deckBuilderNr": 836,
-    "share_code": "AAEAIKgA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/043.png",
@@ -2649,19 +2445,11 @@
     },
     "points": 1,
     "deckBuilderNr": 837,
-    "share_code": "AAEAILIA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/044.png",
     "flavour_text": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 44,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-045",
@@ -2706,19 +2494,11 @@
     },
     "points": 1,
     "deckBuilderNr": 838,
-    "share_code": "AAEAILwA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/045.png",
     "flavour_text": "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 45,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-046",
@@ -2763,19 +2543,11 @@
     },
     "points": 1,
     "deckBuilderNr": 839,
-    "share_code": "AAEAIMYA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/046.png",
     "flavour_text": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 46,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-047",
@@ -2820,19 +2592,11 @@
     },
     "points": 1,
     "deckBuilderNr": 840,
-    "share_code": "AAEAINAA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/047.png",
     "flavour_text": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 47,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-048",
@@ -2877,7 +2641,6 @@
     },
     "points": 1,
     "deckBuilderNr": 739,
-    "share_code": "AAEAHN4A",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/048.png",
@@ -2934,19 +2697,11 @@
     },
     "points": 1,
     "deckBuilderNr": 841,
-    "share_code": "AAEAINoA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/049.png",
     "flavour_text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 49,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-050",
@@ -2991,19 +2746,11 @@
     },
     "points": 1,
     "deckBuilderNr": 842,
-    "share_code": "AAEAIOQA",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/050.png",
     "flavour_text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 50,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-051",
@@ -3048,7 +2795,6 @@
     },
     "points": 1,
     "deckBuilderNr": 843,
-    "share_code": "AAEAIO4A",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/051.png",
@@ -3111,7 +2857,6 @@
     },
     "points": 1,
     "deckBuilderNr": 844,
-    "share_code": "AAEAIPgA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/052.png",
@@ -3174,7 +2919,6 @@
     },
     "points": 2,
     "deckBuilderNr": 845,
-    "share_code": "AAEAIQIA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/053.png",
@@ -3243,19 +2987,11 @@
     },
     "points": 1,
     "deckBuilderNr": 846,
-    "share_code": "AAEAIQwA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/054.png",
     "flavour_text": "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 54,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-055",
@@ -3300,7 +3036,6 @@
     },
     "points": 1,
     "deckBuilderNr": 847,
-    "share_code": "AAEAIRYA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/055.png",
@@ -3369,7 +3104,6 @@
     },
     "points": 2,
     "deckBuilderNr": 848,
-    "share_code": "AAEAISAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/056.png",
@@ -3450,7 +3184,6 @@
     },
     "points": 2,
     "deckBuilderNr": 849,
-    "share_code": "AAEAISoA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/057.png",
@@ -3519,19 +3252,11 @@
     },
     "points": 1,
     "deckBuilderNr": 850,
-    "share_code": "AAEAITQA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/058.png",
     "flavour_text": "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 58,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-059",
@@ -3576,19 +3301,11 @@
     },
     "points": 1,
     "deckBuilderNr": 851,
-    "share_code": "AAEAIT4A",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/059.png",
     "flavour_text": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that’s proof it really likes you.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 59,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-060",
@@ -3633,19 +3350,11 @@
     },
     "points": 1,
     "deckBuilderNr": 852,
-    "share_code": "AAEAIUgA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/060.png",
     "flavour_text": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 60,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-061",
@@ -3690,19 +3399,11 @@
     },
     "points": 1,
     "deckBuilderNr": 853,
-    "share_code": "AAEAIVIA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/061.png",
     "flavour_text": "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures’ feelings and physical conditions.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 61,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-062",
@@ -3747,19 +3448,11 @@
     },
     "points": 1,
     "deckBuilderNr": 854,
-    "share_code": "AAEAIVwA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/062.png",
     "flavour_text": "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 62,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-063",
@@ -3804,19 +3497,11 @@
     },
     "points": 1,
     "deckBuilderNr": 855,
-    "share_code": "AAEAIWYA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/063.png",
     "flavour_text": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 63,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-064",
@@ -3861,19 +3546,11 @@
     },
     "points": 1,
     "deckBuilderNr": 856,
-    "share_code": "AAEAIXAA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/064.png",
     "flavour_text": "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 64,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-065",
@@ -3918,7 +3595,6 @@
     },
     "points": 1,
     "deckBuilderNr": 740,
-    "share_code": "AAEAHOgA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/065.png",
@@ -3975,7 +3651,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000067,
-    "share_code": "AZiZHgAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/066.png",
@@ -4044,19 +3719,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000068,
-    "share_code": "AZiZKAAA",
     "artist": "Studio Bora Inc.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/067.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a3b",
-        "set_name": "Eevee Grove",
-        "id": 67,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3b-068",
@@ -4101,7 +3768,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000069,
-    "share_code": "AZiZMgAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/068.png",
@@ -4158,7 +3824,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000070,
-    "share_code": "AZiZPAAA",
     "artist": "Susumu Maeya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/069.png",
@@ -4227,7 +3892,6 @@
     },
     "points": 1,
     "deckBuilderNr": 798,
-    "share_code": "AAEAHywA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/070.png",
@@ -4284,7 +3948,6 @@
     },
     "points": 1,
     "deckBuilderNr": 804,
-    "share_code": "AAEAH2gA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/071.png",
@@ -4359,7 +4022,6 @@
     },
     "points": 1,
     "deckBuilderNr": 812,
-    "share_code": "AAEAH7gA",
     "artist": "chibi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/072.png",
@@ -4416,7 +4078,6 @@
     },
     "points": 1,
     "deckBuilderNr": 813,
-    "share_code": "AAEAH8IA",
     "artist": "Fujimoto Gold",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/073.png",
@@ -4473,7 +4134,6 @@
     },
     "points": 1,
     "deckBuilderNr": 733,
-    "share_code": "AAEAHKIA",
     "artist": "Nisota Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/074.png",
@@ -4542,7 +4202,6 @@
     },
     "points": 1,
     "deckBuilderNr": 822,
-    "share_code": "AAEAIBwA",
     "artist": "rika",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/075.png",
@@ -4599,7 +4258,6 @@
     },
     "points": 1,
     "deckBuilderNr": 827,
-    "share_code": "AAEAIE4A",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/076.png",
@@ -4656,7 +4314,6 @@
     },
     "points": 1,
     "deckBuilderNr": 836,
-    "share_code": "AAEAIKgA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/077.png",
@@ -4725,7 +4382,6 @@
     },
     "points": 1,
     "deckBuilderNr": 847,
-    "share_code": "AAEAIRYA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/078.png",
@@ -4794,7 +4450,6 @@
     },
     "points": 2,
     "deckBuilderNr": 805,
-    "share_code": "AAEAH3IA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/079.png",
@@ -4869,7 +4524,6 @@
     },
     "points": 2,
     "deckBuilderNr": 819,
-    "share_code": "AAEAH/4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/080.png",
@@ -4944,7 +4598,6 @@
     },
     "points": 2,
     "deckBuilderNr": 828,
-    "share_code": "AAEAIFgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/081.png",
@@ -5019,7 +4672,6 @@
     },
     "points": 2,
     "deckBuilderNr": 845,
-    "share_code": "AAEAIQIA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/082.png",
@@ -5088,7 +4740,6 @@
     },
     "points": 2,
     "deckBuilderNr": 848,
-    "share_code": "AAEAISAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/083.png",
@@ -5169,7 +4820,6 @@
     },
     "points": 2,
     "deckBuilderNr": 849,
-    "share_code": "AAEAISoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/084.png",
@@ -5238,7 +4888,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000069,
-    "share_code": "AZiZMgAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/085.png",
@@ -5295,7 +4944,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000070,
-    "share_code": "AZiZPAAA",
     "artist": "Susumu Maeya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/086.png",
@@ -5364,7 +5012,6 @@
     },
     "points": 2,
     "deckBuilderNr": 805,
-    "share_code": "AAEAH3IA",
     "artist": "Kuroimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/087.png",
@@ -5439,7 +5086,6 @@
     },
     "points": 2,
     "deckBuilderNr": 819,
-    "share_code": "AAEAH/4A",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/088.png",
@@ -5514,7 +5160,6 @@
     },
     "points": 2,
     "deckBuilderNr": 828,
-    "share_code": "AAEAIFgA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/089.png",
@@ -5589,7 +5234,6 @@
     },
     "points": 2,
     "deckBuilderNr": 845,
-    "share_code": "AAEAIQIA",
     "artist": "Mori Yuu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/090.png",
@@ -5658,7 +5302,6 @@
     },
     "points": 2,
     "deckBuilderNr": 849,
-    "share_code": "AAEAISoA",
     "artist": "Mékayu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/091.png",
@@ -5727,7 +5370,6 @@
     },
     "points": 2,
     "deckBuilderNr": 848,
-    "share_code": "AAEAISAA",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/092.png",
@@ -5808,7 +5450,6 @@
     },
     "points": 1,
     "deckBuilderNr": 524,
-    "share_code": "AAEAFHgA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/093.png",
@@ -5865,7 +5506,6 @@
     },
     "points": 1,
     "deckBuilderNr": 79,
-    "share_code": "AAEAAxYA",
     "artist": "Nelnal",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/094.png",
@@ -5928,7 +5568,6 @@
     },
     "points": 1,
     "deckBuilderNr": 335,
-    "share_code": "AAEADRYA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/095.png",
@@ -5985,7 +5624,6 @@
     },
     "points": 1,
     "deckBuilderNr": 336,
-    "share_code": "AAEADSAA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/096.png",
@@ -6042,7 +5680,6 @@
     },
     "points": 1,
     "deckBuilderNr": 349,
-    "share_code": "AAEADaIA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/097.png",
@@ -6111,7 +5748,6 @@
     },
     "points": 1,
     "deckBuilderNr": 350,
-    "share_code": "AAEADawA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/098.png",
@@ -6180,7 +5816,6 @@
     },
     "points": 1,
     "deckBuilderNr": 132,
-    "share_code": "AAEABSgA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/099.png",
@@ -6255,7 +5890,6 @@
     },
     "points": 1,
     "deckBuilderNr": 164,
-    "share_code": "AAEABmgA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/100.png",
@@ -6312,7 +5946,6 @@
     },
     "points": 1,
     "deckBuilderNr": 165,
-    "share_code": "AAEABnIA",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/101.png",
@@ -6369,7 +6002,6 @@
     },
     "points": 1,
     "deckBuilderNr": 198,
-    "share_code": "AAEAB7wA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/102.png",
@@ -6450,7 +6082,6 @@
     },
     "points": 2,
     "deckBuilderNr": 47,
-    "share_code": "AAEAAdYA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/103.png",
@@ -6531,7 +6162,6 @@
     },
     "points": 2,
     "deckBuilderNr": 84,
-    "share_code": "AAEAA0gA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/104.png",
@@ -6606,7 +6236,6 @@
     },
     "points": 2,
     "deckBuilderNr": 104,
-    "share_code": "AAEABBAA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/105.png",
@@ -6681,7 +6310,6 @@
     },
     "points": 2,
     "deckBuilderNr": 376,
-    "share_code": "AAEADrAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/106.png",
@@ -6756,7 +6384,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000067,
-    "share_code": "AZiZHgAA",
     "artist": "AYUMI ODASHIMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3b/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3b/107.png",

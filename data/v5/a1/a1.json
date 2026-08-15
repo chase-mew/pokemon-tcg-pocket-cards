@@ -42,7 +42,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1,
-    "share_code": "AAEAAAoA",
     "artist": "Narumi Sato",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/001.png",
@@ -123,7 +122,6 @@
     },
     "points": 1,
     "deckBuilderNr": 2,
-    "share_code": "AAEAABQA",
     "artist": "Kurata So",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/002.png",
@@ -192,7 +190,6 @@
     },
     "points": 1,
     "deckBuilderNr": 3,
-    "share_code": "AAEAAB4A",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/003.png",
@@ -255,7 +252,6 @@
     },
     "points": 2,
     "deckBuilderNr": 4,
-    "share_code": "AAEAACgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/004.png",
@@ -324,19 +320,11 @@
     },
     "points": 1,
     "deckBuilderNr": 5,
-    "share_code": "AAEAADIA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/005.png",
     "flavour_text": "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 5,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-006",
@@ -381,19 +369,11 @@
     },
     "points": 1,
     "deckBuilderNr": 6,
-    "share_code": "AAEAADwA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/006.png",
     "flavour_text": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 6,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-007",
@@ -438,7 +418,6 @@
     },
     "points": 1,
     "deckBuilderNr": 7,
-    "share_code": "AAEAAEYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/007.png",
@@ -495,19 +474,11 @@
     },
     "points": 1,
     "deckBuilderNr": 8,
-    "share_code": "AAEAAFAA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/008.png",
     "flavour_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 8,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-009",
@@ -552,19 +523,11 @@
     },
     "points": 1,
     "deckBuilderNr": 9,
-    "share_code": "AAEAAFoA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/009.png",
     "flavour_text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 9,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-010",
@@ -609,19 +572,11 @@
     },
     "points": 1,
     "deckBuilderNr": 10,
-    "share_code": "AAEAAGQA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/010.png",
     "flavour_text": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 10,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-011",
@@ -666,19 +621,11 @@
     },
     "points": 1,
     "deckBuilderNr": 11,
-    "share_code": "AAEAAG4A",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/011.png",
     "flavour_text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-012",
@@ -723,7 +670,6 @@
     },
     "points": 1,
     "deckBuilderNr": 12,
-    "share_code": "AAEAAHgA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/012.png",
@@ -780,7 +726,6 @@
     },
     "points": 1,
     "deckBuilderNr": 13,
-    "share_code": "AAEAAIIA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/013.png",
@@ -837,19 +782,11 @@
     },
     "points": 1,
     "deckBuilderNr": 14,
-    "share_code": "AAEAAIwA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/014.png",
     "flavour_text": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 14,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-015",
@@ -894,19 +831,11 @@
     },
     "points": 1,
     "deckBuilderNr": 15,
-    "share_code": "AAEAAJYA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/015.png",
     "flavour_text": "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 15,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-016",
@@ -951,19 +880,11 @@
     },
     "points": 1,
     "deckBuilderNr": 16,
-    "share_code": "AAEAAKAA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/016.png",
     "flavour_text": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-017",
@@ -1008,19 +929,11 @@
     },
     "points": 1,
     "deckBuilderNr": 17,
-    "share_code": "AAEAAKoA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/017.png",
     "flavour_text": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 17,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-018",
@@ -1065,7 +978,6 @@
     },
     "points": 1,
     "deckBuilderNr": 18,
-    "share_code": "AAEAALQA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/018.png",
@@ -1122,7 +1034,6 @@
     },
     "points": 1,
     "deckBuilderNr": 19,
-    "share_code": "AAEAAL4A",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/019.png",
@@ -1179,7 +1090,6 @@
     },
     "points": 1,
     "deckBuilderNr": 20,
-    "share_code": "AAEAAMgA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/020.png",
@@ -1236,7 +1146,6 @@
     },
     "points": 1,
     "deckBuilderNr": 21,
-    "share_code": "AAEAANIA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/021.png",
@@ -1299,19 +1208,11 @@
     },
     "points": 1,
     "deckBuilderNr": 22,
-    "share_code": "AAEAANwA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/022.png",
     "flavour_text": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 22,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-023",
@@ -1356,7 +1257,6 @@
     },
     "points": 2,
     "deckBuilderNr": 23,
-    "share_code": "AAEAAOYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/023.png",
@@ -1425,19 +1325,11 @@
     },
     "points": 1,
     "deckBuilderNr": 24,
-    "share_code": "AAEAAPAA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/024.png",
     "flavour_text": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 24,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-025",
@@ -1482,19 +1374,11 @@
     },
     "points": 1,
     "deckBuilderNr": 25,
-    "share_code": "AAEAAPoA",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/025.png",
     "flavour_text": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-026",
@@ -1539,7 +1423,6 @@
     },
     "points": 1,
     "deckBuilderNr": 26,
-    "share_code": "AAEAAQQA",
     "artist": "Eri Yamaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/026.png",
@@ -1596,19 +1479,11 @@
     },
     "points": 1,
     "deckBuilderNr": 27,
-    "share_code": "AAEAAQ4A",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/027.png",
     "flavour_text": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 27,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-028",
@@ -1653,19 +1528,11 @@
     },
     "points": 1,
     "deckBuilderNr": 28,
-    "share_code": "AAEAARgA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/028.png",
     "flavour_text": "It scatters cotton all over the place as a prank. If it gets wet, it’ll become too heavy to move and have no choice but to answer for its mischief.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 28,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-029",
@@ -1710,19 +1577,11 @@
     },
     "points": 1,
     "deckBuilderNr": 29,
-    "share_code": "AAEAASIA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/029.png",
     "flavour_text": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 29,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-030",
@@ -1767,19 +1626,11 @@
     },
     "points": 1,
     "deckBuilderNr": 30,
-    "share_code": "AAEAASwA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/030.png",
     "flavour_text": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 30,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-031",
@@ -1824,19 +1675,11 @@
     },
     "points": 1,
     "deckBuilderNr": 31,
-    "share_code": "AAEAATYA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/031.png",
     "flavour_text": "Until recently, people living in the mountains would ride on the backs of these Pokémon to traverse the mountain paths.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 31,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-032",
@@ -1881,19 +1724,11 @@
     },
     "points": 1,
     "deckBuilderNr": 32,
-    "share_code": "AAEAAUAA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/032.png",
     "flavour_text": "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 32,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-033",
@@ -1938,7 +1773,6 @@
     },
     "points": 1,
     "deckBuilderNr": 33,
-    "share_code": "AAEAAUoA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/033.png",
@@ -2013,7 +1847,6 @@
     },
     "points": 1,
     "deckBuilderNr": 34,
-    "share_code": "AAEAAVQA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/034.png",
@@ -2076,19 +1909,11 @@
     },
     "points": 1,
     "deckBuilderNr": 35,
-    "share_code": "AAEAAV4A",
     "artist": "takuyoa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/035.png",
     "flavour_text": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 35,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-036",
@@ -2133,7 +1958,6 @@
     },
     "points": 2,
     "deckBuilderNr": 36,
-    "share_code": "AAEAAWgA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/036.png",
@@ -2214,19 +2038,11 @@
     },
     "points": 1,
     "deckBuilderNr": 37,
-    "share_code": "AAEAAXIA",
     "artist": "Toshinao Aoki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/037.png",
     "flavour_text": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 37,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-038",
@@ -2271,19 +2087,11 @@
     },
     "points": 1,
     "deckBuilderNr": 38,
-    "share_code": "AAEAAXwA",
     "artist": "You Iribi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/038.png",
     "flavour_text": "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 38,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-039",
@@ -2328,7 +2136,6 @@
     },
     "points": 1,
     "deckBuilderNr": 39,
-    "share_code": "AAEAAYYA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/039.png",
@@ -2397,7 +2204,6 @@
     },
     "points": 1,
     "deckBuilderNr": 40,
-    "share_code": "AAEAAZAA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/040.png",
@@ -2454,7 +2260,6 @@
     },
     "points": 2,
     "deckBuilderNr": 41,
-    "share_code": "AAEAAZoA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/041.png",
@@ -2523,19 +2328,11 @@
     },
     "points": 1,
     "deckBuilderNr": 42,
-    "share_code": "AAEAAaQA",
     "artist": "Uta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/042.png",
     "flavour_text": "It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 42,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-043",
@@ -2580,7 +2377,6 @@
     },
     "points": 1,
     "deckBuilderNr": 43,
-    "share_code": "AAEAAa4A",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/043.png",
@@ -2637,19 +2433,11 @@
     },
     "points": 1,
     "deckBuilderNr": 44,
-    "share_code": "AAEAAbgA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/044.png",
     "flavour_text": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 44,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-045",
@@ -2694,19 +2482,11 @@
     },
     "points": 1,
     "deckBuilderNr": 45,
-    "share_code": "AAEAAcIA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/045.png",
     "flavour_text": "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 45,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-046",
@@ -2751,7 +2531,6 @@
     },
     "points": 1,
     "deckBuilderNr": 46,
-    "share_code": "AAEAAcwA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/046.png",
@@ -2808,7 +2587,6 @@
     },
     "points": 2,
     "deckBuilderNr": 47,
-    "share_code": "AAEAAdYA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/047.png",
@@ -2889,19 +2667,11 @@
     },
     "points": 1,
     "deckBuilderNr": 48,
-    "share_code": "AAEAAeAA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/048.png",
     "flavour_text": "There’s a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 48,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-049",
@@ -2946,19 +2716,11 @@
     },
     "points": 1,
     "deckBuilderNr": 49,
-    "share_code": "AAEAAeoA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/049.png",
     "flavour_text": "It taunts its prey and lures them into narrow, rocky areas where it then sprays them with toxic gas to make them dizzy and take them down.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 49,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-050",
@@ -3003,19 +2765,11 @@
     },
     "points": 1,
     "deckBuilderNr": 50,
-    "share_code": "AAEAAfQA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/050.png",
     "flavour_text": "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 50,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-051",
@@ -3060,19 +2814,11 @@
     },
     "points": 1,
     "deckBuilderNr": 51,
-    "share_code": "AAEAAf4A",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/051.png",
     "flavour_text": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-052",
@@ -3117,19 +2863,11 @@
     },
     "points": 1,
     "deckBuilderNr": 52,
-    "share_code": "AAEAAggA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/052.png",
     "flavour_text": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 52,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-053",
@@ -3174,7 +2912,6 @@
     },
     "points": 1,
     "deckBuilderNr": 53,
-    "share_code": "AAEAAhIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/053.png",
@@ -3255,7 +2992,6 @@
     },
     "points": 1,
     "deckBuilderNr": 54,
-    "share_code": "AAEAAhwA",
     "artist": "Nelnal",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/054.png",
@@ -3324,7 +3060,6 @@
     },
     "points": 1,
     "deckBuilderNr": 55,
-    "share_code": "AAEAAiYA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/055.png",
@@ -3387,7 +3122,6 @@
     },
     "points": 2,
     "deckBuilderNr": 56,
-    "share_code": "AAEAAjAA",
     "artist": "PLANETA Tsuji",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/056.png",
@@ -3456,7 +3190,6 @@
     },
     "points": 1,
     "deckBuilderNr": 57,
-    "share_code": "AAEAAjoA",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/057.png",
@@ -3513,7 +3246,6 @@
     },
     "points": 1,
     "deckBuilderNr": 58,
-    "share_code": "AAEAAkQA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/058.png",
@@ -3570,19 +3302,11 @@
     },
     "points": 1,
     "deckBuilderNr": 59,
-    "share_code": "AAEAAk4A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/059.png",
     "flavour_text": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 59,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-060",
@@ -3627,7 +3351,6 @@
     },
     "points": 1,
     "deckBuilderNr": 60,
-    "share_code": "AAEAAlgA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/060.png",
@@ -3684,7 +3407,6 @@
     },
     "points": 1,
     "deckBuilderNr": 61,
-    "share_code": "AAEAAmIA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/061.png",
@@ -3741,19 +3463,11 @@
     },
     "points": 1,
     "deckBuilderNr": 62,
-    "share_code": "AAEAAmwA",
     "artist": "Shinya Komatsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/062.png",
     "flavour_text": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 62,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-063",
@@ -3798,19 +3512,11 @@
     },
     "points": 1,
     "deckBuilderNr": 63,
-    "share_code": "AAEAAnYA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/063.png",
     "flavour_text": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 63,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-064",
@@ -3855,19 +3561,11 @@
     },
     "points": 1,
     "deckBuilderNr": 64,
-    "share_code": "AAEAAoAA",
     "artist": "Masako Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/064.png",
     "flavour_text": "Thanks to its thick fat, cold seas don’t bother it at all, but it gets tired pretty easily in warm waters.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 64,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-065",
@@ -3912,19 +3610,11 @@
     },
     "points": 1,
     "deckBuilderNr": 65,
-    "share_code": "AAEAAooA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/065.png",
     "flavour_text": "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 65,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-066",
@@ -3969,19 +3659,11 @@
     },
     "points": 1,
     "deckBuilderNr": 66,
-    "share_code": "AAEAApQA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/066.png",
     "flavour_text": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 66,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-067",
@@ -4026,19 +3708,11 @@
     },
     "points": 1,
     "deckBuilderNr": 67,
-    "share_code": "AAEAAp4A",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/067.png",
     "flavour_text": "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 67,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-068",
@@ -4083,7 +3757,6 @@
     },
     "points": 1,
     "deckBuilderNr": 68,
-    "share_code": "AAEAAqgA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/068.png",
@@ -4140,7 +3813,6 @@
     },
     "points": 1,
     "deckBuilderNr": 69,
-    "share_code": "AAEAArIA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/069.png",
@@ -4197,19 +3869,11 @@
     },
     "points": 1,
     "deckBuilderNr": 70,
-    "share_code": "AAEAArwA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/070.png",
     "flavour_text": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 70,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-071",
@@ -4254,19 +3918,11 @@
     },
     "points": 1,
     "deckBuilderNr": 71,
-    "share_code": "AAEAAsYA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/071.png",
     "flavour_text": "It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 71,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-072",
@@ -4311,19 +3967,11 @@
     },
     "points": 1,
     "deckBuilderNr": 72,
-    "share_code": "AAEAAtAA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/072.png",
     "flavour_text": "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 72,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-073",
@@ -4368,19 +4016,11 @@
     },
     "points": 1,
     "deckBuilderNr": 73,
-    "share_code": "AAEAAtoA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/073.png",
     "flavour_text": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 73,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-074",
@@ -4425,7 +4065,6 @@
     },
     "points": 1,
     "deckBuilderNr": 74,
-    "share_code": "AAEAAuQA",
     "artist": "Hiroki Asanuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/074.png",
@@ -4494,7 +4133,6 @@
     },
     "points": 1,
     "deckBuilderNr": 75,
-    "share_code": "AAEAAu4A",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/075.png",
@@ -4551,7 +4189,6 @@
     },
     "points": 2,
     "deckBuilderNr": 76,
-    "share_code": "AAEAAvgA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/076.png",
@@ -4620,19 +4257,11 @@
     },
     "points": 1,
     "deckBuilderNr": 77,
-    "share_code": "AAEAAwIA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/077.png",
     "flavour_text": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 77,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-078",
@@ -4677,7 +4306,6 @@
     },
     "points": 1,
     "deckBuilderNr": 78,
-    "share_code": "AAEAAwwA",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/078.png",
@@ -4734,7 +4362,6 @@
     },
     "points": 1,
     "deckBuilderNr": 79,
-    "share_code": "AAEAAxYA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/079.png",
@@ -4797,7 +4424,6 @@
     },
     "points": 1,
     "deckBuilderNr": 80,
-    "share_code": "AAEAAyAA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/080.png",
@@ -4854,7 +4480,6 @@
     },
     "points": 1,
     "deckBuilderNr": 81,
-    "share_code": "AAEAAyoA",
     "artist": "Suwama Chiaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/081.png",
@@ -4911,7 +4536,6 @@
     },
     "points": 1,
     "deckBuilderNr": 82,
-    "share_code": "AAEAAzQA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/082.png",
@@ -4968,7 +4592,6 @@
     },
     "points": 1,
     "deckBuilderNr": 83,
-    "share_code": "AAEAAz4A",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/083.png",
@@ -5025,7 +4648,6 @@
     },
     "points": 2,
     "deckBuilderNr": 84,
-    "share_code": "AAEAA0gA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/084.png",
@@ -5100,19 +4722,11 @@
     },
     "points": 1,
     "deckBuilderNr": 85,
-    "share_code": "AAEAA1IA",
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/085.png",
     "flavour_text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 85,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-086",
@@ -5157,19 +4771,11 @@
     },
     "points": 1,
     "deckBuilderNr": 86,
-    "share_code": "AAEAA1wA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/086.png",
     "flavour_text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 86,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-087",
@@ -5214,7 +4820,6 @@
     },
     "points": 1,
     "deckBuilderNr": 87,
-    "share_code": "AAEAA2YA",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/087.png",
@@ -5289,7 +4894,6 @@
     },
     "points": 1,
     "deckBuilderNr": 88,
-    "share_code": "AAEAA3AA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/088.png",
@@ -5358,7 +4962,6 @@
     },
     "points": 1,
     "deckBuilderNr": 89,
-    "share_code": "AAEAA3oA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/089.png",
@@ -5439,19 +5042,11 @@
     },
     "points": 1,
     "deckBuilderNr": 90,
-    "share_code": "AAEAA4QA",
     "artist": "OOYAMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/090.png",
     "flavour_text": "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 90,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-091",
@@ -5496,19 +5091,11 @@
     },
     "points": 1,
     "deckBuilderNr": 91,
-    "share_code": "AAEAA44A",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/091.png",
     "flavour_text": "It grinds its teeth with great force to stimulate its brain. It fires the psychic energy created by this process from the protuberance on its head.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 91,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-092",
@@ -5553,19 +5140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 92,
-    "share_code": "AAEAA5gA",
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/092.png",
     "flavour_text": "It eats snow that has accumulated on the ground. It prefers soft, freshly fallen snow, so it will eat its way up a mountain, aiming for the peak.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 92,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-093",
@@ -5610,19 +5189,11 @@
     },
     "points": 1,
     "deckBuilderNr": 93,
-    "share_code": "AAEAA6IA",
     "artist": "aoki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/093.png",
     "flavour_text": "Frosmoth senses air currents with its antennae. It sends its scales drifting on frigid air, making them fall like snow.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 93,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-094",
@@ -5667,7 +5238,6 @@
     },
     "points": 1,
     "deckBuilderNr": 94,
-    "share_code": "AAEAA6wA",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/094.png",
@@ -5748,19 +5318,11 @@
     },
     "points": 1,
     "deckBuilderNr": 95,
-    "share_code": "AAEAA7YA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/095.png",
     "flavour_text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 95,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-096",
@@ -5805,7 +5367,6 @@
     },
     "points": 2,
     "deckBuilderNr": 96,
-    "share_code": "AAEAA8AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/096.png",
@@ -5892,7 +5453,6 @@
     },
     "points": 1,
     "deckBuilderNr": 97,
-    "share_code": "AAEAA8oA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/097.png",
@@ -5967,7 +5527,6 @@
     },
     "points": 1,
     "deckBuilderNr": 98,
-    "share_code": "AAEAA9QA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/098.png",
@@ -6036,19 +5595,11 @@
     },
     "points": 1,
     "deckBuilderNr": 99,
-    "share_code": "AAEAA94A",
     "artist": "SATOSHI NAKAI",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/099.png",
     "flavour_text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 99,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-100",
@@ -6093,7 +5644,6 @@
     },
     "points": 1,
     "deckBuilderNr": 100,
-    "share_code": "AAEAA+gA",
     "artist": "Asako Ito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/100.png",
@@ -6150,19 +5700,11 @@
     },
     "points": 1,
     "deckBuilderNr": 101,
-    "share_code": "AAEAA/IA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/101.png",
     "flavour_text": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 101,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-102",
@@ -6207,19 +5749,11 @@
     },
     "points": 1,
     "deckBuilderNr": 102,
-    "share_code": "AAEAA/wA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/102.png",
     "flavour_text": "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 102,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-103",
@@ -6264,7 +5798,6 @@
     },
     "points": 1,
     "deckBuilderNr": 103,
-    "share_code": "AAEABAYA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/103.png",
@@ -6321,7 +5854,6 @@
     },
     "points": 2,
     "deckBuilderNr": 104,
-    "share_code": "AAEABBAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/104.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/104.png",
@@ -6396,19 +5928,11 @@
     },
     "points": 1,
     "deckBuilderNr": 105,
-    "share_code": "AAEABBoA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/105.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/105.png",
     "flavour_text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 105,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-106",
@@ -6453,19 +5977,11 @@
     },
     "points": 1,
     "deckBuilderNr": 106,
-    "share_code": "AAEABCQA",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/106.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/106.png",
     "flavour_text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 106,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-107",
@@ -6510,19 +6026,11 @@
     },
     "points": 1,
     "deckBuilderNr": 107,
-    "share_code": "AAEABC4A",
     "artist": "Asako Ito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/107.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/107.png",
     "flavour_text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 107,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-108",
@@ -6567,19 +6075,11 @@
     },
     "points": 1,
     "deckBuilderNr": 108,
-    "share_code": "AAEABDgA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/108.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/108.png",
     "flavour_text": "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 108,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-109",
@@ -6624,19 +6124,11 @@
     },
     "points": 1,
     "deckBuilderNr": 109,
-    "share_code": "AAEABEIA",
     "artist": "hatachu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/109.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/109.png",
     "flavour_text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 109,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-110",
@@ -6681,19 +6173,11 @@
     },
     "points": 1,
     "deckBuilderNr": 110,
-    "share_code": "AAEABEwA",
     "artist": "5ban Graphics",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/110.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/110.png",
     "flavour_text": "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon’s electric moves.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 110,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-111",
@@ -6738,19 +6222,11 @@
     },
     "points": 1,
     "deckBuilderNr": 111,
-    "share_code": "AAEABFYA",
     "artist": "otumami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/111.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/111.png",
     "flavour_text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 111,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-112",
@@ -6795,19 +6271,11 @@
     },
     "points": 1,
     "deckBuilderNr": 112,
-    "share_code": "AAEABGAA",
     "artist": "Tika Matsuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/112.png",
     "flavour_text": "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 112,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-113",
@@ -6852,7 +6320,6 @@
     },
     "points": 1,
     "deckBuilderNr": 113,
-    "share_code": "AAEABGoA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/113.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/113.png",
@@ -6915,7 +6382,6 @@
     },
     "points": 1,
     "deckBuilderNr": 114,
-    "share_code": "AAEABHQA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/114.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/114.png",
@@ -6972,19 +6438,11 @@
     },
     "points": 1,
     "deckBuilderNr": 115,
-    "share_code": "AAEABH4A",
     "artist": "Aya Kusube",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/115.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/115.png",
     "flavour_text": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 115,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-116",
@@ -7029,19 +6487,11 @@
     },
     "points": 1,
     "deckBuilderNr": 116,
-    "share_code": "AAEABIgA",
     "artist": "Ken Sugimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/116.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/116.png",
     "flavour_text": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 116,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-117",
@@ -7086,7 +6536,6 @@
     },
     "points": 1,
     "deckBuilderNr": 117,
-    "share_code": "AAEABJIA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/117.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/117.png",
@@ -7143,7 +6592,6 @@
     },
     "points": 1,
     "deckBuilderNr": 118,
-    "share_code": "AAEABJwA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/118.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/118.png",
@@ -7200,19 +6648,11 @@
     },
     "points": 1,
     "deckBuilderNr": 119,
-    "share_code": "AAEABKYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/119.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/119.png",
     "flavour_text": "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 119,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-120",
@@ -7257,7 +6697,6 @@
     },
     "points": 1,
     "deckBuilderNr": 120,
-    "share_code": "AAEABLAA",
     "artist": "Masako Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/120.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/120.png",
@@ -7320,7 +6759,6 @@
     },
     "points": 1,
     "deckBuilderNr": 121,
-    "share_code": "AAEABLoA",
     "artist": "Nisata Niso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/121.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/121.png",
@@ -7389,7 +6827,6 @@
     },
     "points": 1,
     "deckBuilderNr": 122,
-    "share_code": "AAEABMQA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/122.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/122.png",
@@ -7446,7 +6883,6 @@
     },
     "points": 2,
     "deckBuilderNr": 123,
-    "share_code": "AAEABM4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/123.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/123.png",
@@ -7521,7 +6957,6 @@
     },
     "points": 1,
     "deckBuilderNr": 124,
-    "share_code": "AAEABNgA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/124.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/124.png",
@@ -7578,7 +7013,6 @@
     },
     "points": 1,
     "deckBuilderNr": 125,
-    "share_code": "AAEABOIA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/125.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/125.png",
@@ -7635,19 +7069,11 @@
     },
     "points": 1,
     "deckBuilderNr": 126,
-    "share_code": "AAEABOwA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/126.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/126.png",
     "flavour_text": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 126,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-127",
@@ -7692,7 +7118,6 @@
     },
     "points": 1,
     "deckBuilderNr": 127,
-    "share_code": "AAEABPYA",
     "artist": "Oswaldo KATO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/127.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/127.png",
@@ -7761,7 +7186,6 @@
     },
     "points": 1,
     "deckBuilderNr": 128,
-    "share_code": "AAEABQAA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/128.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/128.png",
@@ -7818,7 +7242,6 @@
     },
     "points": 2,
     "deckBuilderNr": 129,
-    "share_code": "AAEABQoA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/129.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/129.png",
@@ -7905,19 +7328,11 @@
     },
     "points": 1,
     "deckBuilderNr": 130,
-    "share_code": "AAEABRQA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/130.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/130.png",
     "flavour_text": "The horns on its head provide a strong power that enables it to sense people’s emotions.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 130,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-131",
@@ -7962,19 +7377,11 @@
     },
     "points": 1,
     "deckBuilderNr": 131,
-    "share_code": "AAEABR4A",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/131.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/131.png",
     "flavour_text": "It has a psychic power that enables it to distort the space around it and see into the future.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 131,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-132",
@@ -8019,7 +7426,6 @@
     },
     "points": 1,
     "deckBuilderNr": 132,
-    "share_code": "AAEABSgA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/132.png",
@@ -8094,19 +7500,11 @@
     },
     "points": 1,
     "deckBuilderNr": 133,
-    "share_code": "AAEABTIA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/133.png",
     "flavour_text": "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it’s evidence that Woobat live there.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 133,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-134",
@@ -8151,19 +7549,11 @@
     },
     "points": 1,
     "deckBuilderNr": 134,
-    "share_code": "AAEABTwA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/134.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/134.png",
     "flavour_text": "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 134,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-135",
@@ -8208,19 +7598,11 @@
     },
     "points": 1,
     "deckBuilderNr": 135,
-    "share_code": "AAEABUYA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/135.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/135.png",
     "flavour_text": "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 135,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-136",
@@ -8265,19 +7647,11 @@
     },
     "points": 1,
     "deckBuilderNr": 136,
-    "share_code": "AAEABVAA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/136.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/136.png",
     "flavour_text": "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 136,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-137",
@@ -8322,19 +7696,11 @@
     },
     "points": 1,
     "deckBuilderNr": 137,
-    "share_code": "AAEABVoA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/137.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/137.png",
     "flavour_text": "It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 137,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-138",
@@ -8379,19 +7745,11 @@
     },
     "points": 1,
     "deckBuilderNr": 138,
-    "share_code": "AAEABWQA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/138.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/138.png",
     "flavour_text": "The drier the area Sandslash lives in, the harder and smoother the Pokémon’s spikes will feel when touched.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 138,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-139",
@@ -8436,7 +7794,6 @@
     },
     "points": 1,
     "deckBuilderNr": 139,
-    "share_code": "AAEABW4A",
     "artist": "Masako Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/139.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/139.png",
@@ -8493,19 +7850,11 @@
     },
     "points": 1,
     "deckBuilderNr": 140,
-    "share_code": "AAEABXgA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/140.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/140.png",
     "flavour_text": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 140,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-141",
@@ -8550,19 +7899,11 @@
     },
     "points": 1,
     "deckBuilderNr": 141,
-    "share_code": "AAEABYIA",
     "artist": "Kanako Eo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/141.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/141.png",
     "flavour_text": "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 141,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-142",
@@ -8607,7 +7948,6 @@
     },
     "points": 1,
     "deckBuilderNr": 142,
-    "share_code": "AAEABYwA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/142.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/142.png",
@@ -8664,7 +8004,6 @@
     },
     "points": 1,
     "deckBuilderNr": 143,
-    "share_code": "AAEABZYA",
     "artist": "Kyoko Umemoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/143.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/143.png",
@@ -8733,7 +8072,6 @@
     },
     "points": 1,
     "deckBuilderNr": 144,
-    "share_code": "AAEABaAA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/144.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/144.png",
@@ -8802,19 +8140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 145,
-    "share_code": "AAEABaoA",
     "artist": "Hitoshi Ariga",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/145.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/145.png",
     "flavour_text": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 145,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-146",
@@ -8859,7 +8189,6 @@
     },
     "points": 2,
     "deckBuilderNr": 146,
-    "share_code": "AAEABbQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/146.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/146.png",
@@ -8934,7 +8263,6 @@
     },
     "points": 1,
     "deckBuilderNr": 147,
-    "share_code": "AAEABb4A",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/147.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/147.png",
@@ -8991,19 +8319,11 @@
     },
     "points": 1,
     "deckBuilderNr": 148,
-    "share_code": "AAEABcgA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/148.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/148.png",
     "flavour_text": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 148,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-149",
@@ -9048,19 +8368,11 @@
     },
     "points": 1,
     "deckBuilderNr": 149,
-    "share_code": "AAEABdIA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/149.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/149.png",
     "flavour_text": "When Golem grow old, they stop shedding their shells. Those that have lived a long, long time have shells green with moss.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 149,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-150",
@@ -9105,7 +8417,6 @@
     },
     "points": 1,
     "deckBuilderNr": 150,
-    "share_code": "AAEABdwA",
     "artist": "otumami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/150.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/150.png",
@@ -9162,7 +8473,6 @@
     },
     "points": 1,
     "deckBuilderNr": 151,
-    "share_code": "AAEABeYA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/151.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/151.png",
@@ -9237,7 +8547,6 @@
     },
     "points": 1,
     "deckBuilderNr": 152,
-    "share_code": "AAEABfAA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/152.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/152.png",
@@ -9294,7 +8603,6 @@
     },
     "points": 2,
     "deckBuilderNr": 153,
-    "share_code": "AAEABfoA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/153.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/153.png",
@@ -9363,7 +8671,6 @@
     },
     "points": 1,
     "deckBuilderNr": 154,
-    "share_code": "AAEABgQA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/154.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/154.png",
@@ -9420,7 +8727,6 @@
     },
     "points": 1,
     "deckBuilderNr": 155,
-    "share_code": "AAEABg4A",
     "artist": "Ken Sugimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/155.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/155.png",
@@ -9477,19 +8783,11 @@
     },
     "points": 1,
     "deckBuilderNr": 156,
-    "share_code": "AAEABhgA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/156.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/156.png",
     "flavour_text": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 156,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-157",
@@ -9534,19 +8832,11 @@
     },
     "points": 1,
     "deckBuilderNr": 157,
-    "share_code": "AAEABiIA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/157.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/157.png",
     "flavour_text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 157,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-158",
@@ -9591,7 +8881,6 @@
     },
     "points": 1,
     "deckBuilderNr": 158,
-    "share_code": "AAEABiwA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/158.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/158.png",
@@ -9648,7 +8937,6 @@
     },
     "points": 1,
     "deckBuilderNr": 159,
-    "share_code": "AAEABjYA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/159.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/159.png",
@@ -9705,19 +8993,11 @@
     },
     "points": 1,
     "deckBuilderNr": 160,
-    "share_code": "AAEABkAA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/160.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/160.png",
     "flavour_text": "In one minute, a well-trained Mienfoo can chop with its arms more than 100 times.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 160,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-161",
@@ -9762,19 +9042,11 @@
     },
     "points": 1,
     "deckBuilderNr": 161,
-    "share_code": "AAEABkoA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/161.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/161.png",
     "flavour_text": "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 161,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-162",
@@ -9819,19 +9091,11 @@
     },
     "points": 1,
     "deckBuilderNr": 162,
-    "share_code": "AAEABlQA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/162.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/162.png",
     "flavour_text": "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 162,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-163",
@@ -9876,19 +9140,11 @@
     },
     "points": 1,
     "deckBuilderNr": 163,
-    "share_code": "AAEABl4A",
     "artist": "kurumitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/163.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/163.png",
     "flavour_text": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 163,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-164",
@@ -9933,7 +9189,6 @@
     },
     "points": 1,
     "deckBuilderNr": 164,
-    "share_code": "AAEABmgA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/164.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/164.png",
@@ -9990,7 +9245,6 @@
     },
     "points": 1,
     "deckBuilderNr": 165,
-    "share_code": "AAEABnIA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/165.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/165.png",
@@ -10047,7 +9301,6 @@
     },
     "points": 1,
     "deckBuilderNr": 166,
-    "share_code": "AAEABnwA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/166.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/166.png",
@@ -10104,7 +9357,6 @@
     },
     "points": 1,
     "deckBuilderNr": 167,
-    "share_code": "AAEABoYA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/167.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/167.png",
@@ -10161,7 +9413,6 @@
     },
     "points": 1,
     "deckBuilderNr": 168,
-    "share_code": "AAEABpAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/168.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/168.png",
@@ -10224,7 +9475,6 @@
     },
     "points": 1,
     "deckBuilderNr": 169,
-    "share_code": "AAEABpoA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/169.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/169.png",
@@ -10281,7 +9531,6 @@
     },
     "points": 1,
     "deckBuilderNr": 170,
-    "share_code": "AAEABqQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/170.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/170.png",
@@ -10338,7 +9587,6 @@
     },
     "points": 1,
     "deckBuilderNr": 171,
-    "share_code": "AAEABq4A",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/171.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/171.png",
@@ -10401,19 +9649,11 @@
     },
     "points": 1,
     "deckBuilderNr": 172,
-    "share_code": "AAEABrgA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/172.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/172.png",
     "flavour_text": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 172,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-173",
@@ -10458,7 +9698,6 @@
     },
     "points": 1,
     "deckBuilderNr": 173,
-    "share_code": "AAEABsIA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/173.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/173.png",
@@ -10515,19 +9754,11 @@
     },
     "points": 1,
     "deckBuilderNr": 174,
-    "share_code": "AAEABswA",
     "artist": "Pani Kobayashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/174.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/174.png",
     "flavour_text": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 174,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-175",
@@ -10572,19 +9803,11 @@
     },
     "points": 1,
     "deckBuilderNr": 175,
-    "share_code": "AAEABtYA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/175.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/175.png",
     "flavour_text": "It’s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 175,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-176",
@@ -10629,19 +9852,11 @@
     },
     "points": 1,
     "deckBuilderNr": 176,
-    "share_code": "AAEABuAA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/176.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/176.png",
     "flavour_text": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 176,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-177",
@@ -10686,7 +9901,6 @@
     },
     "points": 1,
     "deckBuilderNr": 177,
-    "share_code": "AAEABuoA",
     "artist": "OOYAMA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/177.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/177.png",
@@ -10743,19 +9957,11 @@
     },
     "points": 1,
     "deckBuilderNr": 178,
-    "share_code": "AAEABvQA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/178.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/178.png",
     "flavour_text": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 178,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-179",
@@ -10800,19 +10006,11 @@
     },
     "points": 1,
     "deckBuilderNr": 179,
-    "share_code": "AAEABv4A",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/179.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/179.png",
     "flavour_text": "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 179,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-180",
@@ -10857,19 +10055,11 @@
     },
     "points": 1,
     "deckBuilderNr": 180,
-    "share_code": "AAEABwgA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/180.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/180.png",
     "flavour_text": "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 180,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-181",
@@ -10914,19 +10104,11 @@
     },
     "points": 1,
     "deckBuilderNr": 181,
-    "share_code": "AAEABxIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/181.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/181.png",
     "flavour_text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 181,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-182",
@@ -10971,19 +10153,11 @@
     },
     "points": 1,
     "deckBuilderNr": 182,
-    "share_code": "AAEABxwA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/182.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/182.png",
     "flavour_text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 182,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-183",
@@ -11028,19 +10202,11 @@
     },
     "points": 1,
     "deckBuilderNr": 183,
-    "share_code": "AAEAByYA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/183.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/183.png",
     "flavour_text": "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 183,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-184",
@@ -11085,19 +10251,11 @@
     },
     "points": 1,
     "deckBuilderNr": 184,
-    "share_code": "AAEABzAA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/184.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/184.png",
     "flavour_text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 184,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-185",
@@ -11142,7 +10300,6 @@
     },
     "points": 1,
     "deckBuilderNr": 185,
-    "share_code": "AAEABzoA",
     "artist": "Hiroyuki Yamamoto",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/185.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/185.png",
@@ -11199,7 +10356,6 @@
     },
     "points": 1,
     "deckBuilderNr": 186,
-    "share_code": "AAEAB0QA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/186.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/186.png",
@@ -11256,7 +10412,6 @@
     },
     "points": 1,
     "deckBuilderNr": 187,
-    "share_code": "AAEAB04A",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/187.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/187.png",
@@ -11313,7 +10468,6 @@
     },
     "points": 1,
     "deckBuilderNr": 188,
-    "share_code": "AAEAB1gA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/188.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/188.png",
@@ -11376,19 +10530,11 @@
     },
     "points": 1,
     "deckBuilderNr": 189,
-    "share_code": "AAEAB2IA",
     "artist": "Atsushi Furusawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/189.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/189.png",
     "flavour_text": "Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 189,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-190",
@@ -11433,19 +10579,11 @@
     },
     "points": 1,
     "deckBuilderNr": 190,
-    "share_code": "AAEAB2wA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/190.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/190.png",
     "flavour_text": "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 190,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-191",
@@ -11490,19 +10628,11 @@
     },
     "points": 1,
     "deckBuilderNr": 191,
-    "share_code": "AAEAB3YA",
     "artist": "Shiburingaru",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/191.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/191.png",
     "flavour_text": "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 191,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-192",
@@ -11547,19 +10677,11 @@
     },
     "points": 1,
     "deckBuilderNr": 192,
-    "share_code": "AAEAB4AA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/192.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/192.png",
     "flavour_text": "Carrying food through Fearow’s territory is dangerous. It will snatch the food away from you in a flash!",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 192,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-193",
@@ -11604,7 +10726,6 @@
     },
     "points": 1,
     "deckBuilderNr": 193,
-    "share_code": "AAEAB4oA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/193.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/193.png",
@@ -11667,19 +10788,11 @@
     },
     "points": 1,
     "deckBuilderNr": 194,
-    "share_code": "AAEAB5QA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/194.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/194.png",
     "flavour_text": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 194,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-195",
@@ -11724,7 +10837,6 @@
     },
     "points": 2,
     "deckBuilderNr": 195,
-    "share_code": "AAEAB54A",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/195.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/195.png",
@@ -11799,7 +10911,6 @@
     },
     "points": 1,
     "deckBuilderNr": 196,
-    "share_code": "AAEAB6gA",
     "artist": "Mitsuhiro Arita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/196.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/196.png",
@@ -11868,7 +10979,6 @@
     },
     "points": 1,
     "deckBuilderNr": 197,
-    "share_code": "AAEAB7IA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/197.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/197.png",
@@ -11925,7 +11035,6 @@
     },
     "points": 1,
     "deckBuilderNr": 198,
-    "share_code": "AAEAB7wA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/198.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/198.png",
@@ -12006,7 +11115,6 @@
     },
     "points": 1,
     "deckBuilderNr": 199,
-    "share_code": "AAEAB8YA",
     "artist": "Yuya Oka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/199.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/199.png",
@@ -12063,7 +11171,6 @@
     },
     "points": 1,
     "deckBuilderNr": 200,
-    "share_code": "AAEAB9AA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/200.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/200.png",
@@ -12120,19 +11227,11 @@
     },
     "points": 1,
     "deckBuilderNr": 201,
-    "share_code": "AAEAB9oA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/201.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/201.png",
     "flavour_text": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 201,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-202",
@@ -12177,7 +11276,6 @@
     },
     "points": 1,
     "deckBuilderNr": 202,
-    "share_code": "AAEAB+QA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/202.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/202.png",
@@ -12234,19 +11332,11 @@
     },
     "points": 1,
     "deckBuilderNr": 203,
-    "share_code": "AAEAB+4A",
     "artist": "Ken Sugimori",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/203.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/203.png",
     "flavour_text": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 203,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-204",
@@ -12291,19 +11381,11 @@
     },
     "points": 1,
     "deckBuilderNr": 204,
-    "share_code": "AAEAB/gA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/204.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/204.png",
     "flavour_text": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 204,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-205",
@@ -12348,7 +11430,6 @@
     },
     "points": 1,
     "deckBuilderNr": 205,
-    "share_code": "AAEACAIA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/205.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/205.png",
@@ -12405,7 +11486,6 @@
     },
     "points": 1,
     "deckBuilderNr": 206,
-    "share_code": "AAEACAwA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/206.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/206.png",
@@ -12480,7 +11560,6 @@
     },
     "points": 1,
     "deckBuilderNr": 206,
-    "share_code": "AAEACAwA",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/207.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/207.png",
@@ -12555,7 +11634,6 @@
     },
     "points": 1,
     "deckBuilderNr": 206,
-    "share_code": "AAEACAwA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/208.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/208.png",
@@ -12630,7 +11708,6 @@
     },
     "points": 1,
     "deckBuilderNr": 207,
-    "share_code": "AAEACBYA",
     "artist": "Ayaka Yoshida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/209.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/209.png",
@@ -12687,7 +11764,6 @@
     },
     "points": 1,
     "deckBuilderNr": 208,
-    "share_code": "AAEACCAA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/210.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/210.png",
@@ -12744,7 +11820,6 @@
     },
     "points": 1,
     "deckBuilderNr": 209,
-    "share_code": "AAEACCoA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/211.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/211.png",
@@ -12801,19 +11876,11 @@
     },
     "points": 1,
     "deckBuilderNr": 210,
-    "share_code": "AAEACDQA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/212.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/212.png",
     "flavour_text": "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 212,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-213",
@@ -12858,7 +11925,6 @@
     },
     "points": 1,
     "deckBuilderNr": 211,
-    "share_code": "AAEACD4A",
     "artist": "0313",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/213.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/213.png",
@@ -12915,19 +11981,11 @@
     },
     "points": 1,
     "deckBuilderNr": 212,
-    "share_code": "AAEACEgA",
     "artist": "Yoriyuki Ikegami",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/214.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/214.png",
     "flavour_text": "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 214,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-215",
@@ -12972,19 +12030,11 @@
     },
     "points": 1,
     "deckBuilderNr": 213,
-    "share_code": "AAEACFIA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/215.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/215.png",
     "flavour_text": "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You’ll start to bounce the moment you set foot on it.",
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 215,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-216",
@@ -13029,19 +12079,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000008,
-    "share_code": "AZiW0AAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/216.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/216.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 216,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-217",
@@ -13086,19 +12128,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000009,
-    "share_code": "AZiW2gAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/217.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/217.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a1",
-        "set_name": "Genetic Apex",
-        "id": 217,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a1-218",
@@ -13143,7 +12177,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000010,
-    "share_code": "AZiW5AAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/218.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/218.png",
@@ -13212,7 +12245,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000011,
-    "share_code": "AZiW7gAA",
     "artist": "kirisAki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/219.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/219.png",
@@ -13281,7 +12313,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000012,
-    "share_code": "AZiW+AAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/220.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/220.png",
@@ -13338,7 +12369,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000013,
-    "share_code": "AZiXAgAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/221.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/221.png",
@@ -13395,7 +12425,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000014,
-    "share_code": "AZiXDAAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/222.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/222.png",
@@ -13452,7 +12481,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000015,
-    "share_code": "AZiXFgAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/223.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/223.png",
@@ -13521,7 +12549,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000016,
-    "share_code": "AZiXIAAA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/224.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/224.png",
@@ -13578,7 +12605,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000017,
-    "share_code": "AZiXKgAA",
     "artist": "Yuu Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/225.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/225.png",
@@ -13647,7 +12673,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000018,
-    "share_code": "AZiXNAAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/226.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/226.png",
@@ -13704,7 +12729,6 @@
     },
     "points": 1,
     "deckBuilderNr": 1,
-    "share_code": "AAEAAAoA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/227.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/227.png",
@@ -13785,7 +12809,6 @@
     },
     "points": 1,
     "deckBuilderNr": 12,
-    "share_code": "AAEAAHgA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/228.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/228.png",
@@ -13842,7 +12865,6 @@
     },
     "points": 1,
     "deckBuilderNr": 26,
-    "share_code": "AAEAAQQA",
     "artist": "Scav",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/229.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/229.png",
@@ -13899,7 +12921,6 @@
     },
     "points": 1,
     "deckBuilderNr": 33,
-    "share_code": "AAEAAUoA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/230.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/230.png",
@@ -13974,7 +12995,6 @@
     },
     "points": 1,
     "deckBuilderNr": 43,
-    "share_code": "AAEAAa4A",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/231.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/231.png",
@@ -14031,7 +13051,6 @@
     },
     "points": 1,
     "deckBuilderNr": 53,
-    "share_code": "AAEAAhIA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/232.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/232.png",
@@ -14112,7 +13131,6 @@
     },
     "points": 1,
     "deckBuilderNr": 78,
-    "share_code": "AAEAAwwA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/233.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/233.png",
@@ -14169,7 +13187,6 @@
     },
     "points": 1,
     "deckBuilderNr": 79,
-    "share_code": "AAEAAxYA",
     "artist": "Haru Akasaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/234.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/234.png",
@@ -14232,7 +13249,6 @@
     },
     "points": 1,
     "deckBuilderNr": 100,
-    "share_code": "AAEAA+gA",
     "artist": "DOM",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/235.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/235.png",
@@ -14289,7 +13305,6 @@
     },
     "points": 1,
     "deckBuilderNr": 117,
-    "share_code": "AAEABJIA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/236.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/236.png",
@@ -14346,7 +13361,6 @@
     },
     "points": 1,
     "deckBuilderNr": 118,
-    "share_code": "AAEABJwA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/237.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/237.png",
@@ -14403,7 +13417,6 @@
     },
     "points": 1,
     "deckBuilderNr": 139,
-    "share_code": "AAEABW4A",
     "artist": "Shinya Komatsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/238.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/238.png",
@@ -14460,7 +13473,6 @@
     },
     "points": 1,
     "deckBuilderNr": 151,
-    "share_code": "AAEABeYA",
     "artist": "Teeziro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/239.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/239.png",
@@ -14535,7 +13547,6 @@
     },
     "points": 1,
     "deckBuilderNr": 168,
-    "share_code": "AAEABpAA",
     "artist": "aoki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/240.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/240.png",
@@ -14598,7 +13609,6 @@
     },
     "points": 1,
     "deckBuilderNr": 171,
-    "share_code": "AAEABq4A",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/241.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/241.png",
@@ -14661,7 +13671,6 @@
     },
     "points": 1,
     "deckBuilderNr": 173,
-    "share_code": "AAEABsIA",
     "artist": "Tomokazu Komiya",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/242.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/242.png",
@@ -14718,7 +13727,6 @@
     },
     "points": 1,
     "deckBuilderNr": 177,
-    "share_code": "AAEABuoA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/243.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/243.png",
@@ -14775,7 +13783,6 @@
     },
     "points": 1,
     "deckBuilderNr": 185,
-    "share_code": "AAEABzoA",
     "artist": "Gemi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/244.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/244.png",
@@ -14832,7 +13839,6 @@
     },
     "points": 1,
     "deckBuilderNr": 188,
-    "share_code": "AAEAB1gA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/245.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/245.png",
@@ -14895,7 +13901,6 @@
     },
     "points": 1,
     "deckBuilderNr": 196,
-    "share_code": "AAEAB6gA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/246.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/246.png",
@@ -14964,7 +13969,6 @@
     },
     "points": 1,
     "deckBuilderNr": 205,
-    "share_code": "AAEACAIA",
     "artist": "Jerky",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/247.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/247.png",
@@ -15021,7 +14025,6 @@
     },
     "points": 1,
     "deckBuilderNr": 206,
-    "share_code": "AAEACAwA",
     "artist": "sowsow",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/248.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/248.png",
@@ -15096,7 +14099,6 @@
     },
     "points": 1,
     "deckBuilderNr": 207,
-    "share_code": "AAEACBYA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/249.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/249.png",
@@ -15153,7 +14155,6 @@
     },
     "points": 1,
     "deckBuilderNr": 209,
-    "share_code": "AAEACCoA",
     "artist": "HYOGONOSUKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/250.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/250.png",
@@ -15210,7 +14211,6 @@
     },
     "points": 2,
     "deckBuilderNr": 4,
-    "share_code": "AAEAACgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/251.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/251.png",
@@ -15279,7 +14279,6 @@
     },
     "points": 2,
     "deckBuilderNr": 23,
-    "share_code": "AAEAAOYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/252.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/252.png",
@@ -15348,7 +14347,6 @@
     },
     "points": 2,
     "deckBuilderNr": 36,
-    "share_code": "AAEAAWgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/253.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/253.png",
@@ -15429,7 +14427,6 @@
     },
     "points": 2,
     "deckBuilderNr": 41,
-    "share_code": "AAEAAZoA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/254.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/254.png",
@@ -15498,7 +14495,6 @@
     },
     "points": 2,
     "deckBuilderNr": 47,
-    "share_code": "AAEAAdYA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/255.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/255.png",
@@ -15579,7 +14575,6 @@
     },
     "points": 2,
     "deckBuilderNr": 56,
-    "share_code": "AAEAAjAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/256.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/256.png",
@@ -15648,7 +14643,6 @@
     },
     "points": 2,
     "deckBuilderNr": 76,
-    "share_code": "AAEAAvgA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/257.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/257.png",
@@ -15717,7 +14711,6 @@
     },
     "points": 2,
     "deckBuilderNr": 84,
-    "share_code": "AAEAA0gA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/258.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/258.png",
@@ -15792,7 +14785,6 @@
     },
     "points": 2,
     "deckBuilderNr": 96,
-    "share_code": "AAEAA8AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/259.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/259.png",
@@ -15879,7 +14871,6 @@
     },
     "points": 2,
     "deckBuilderNr": 104,
-    "share_code": "AAEABBAA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/260.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/260.png",
@@ -15954,7 +14945,6 @@
     },
     "points": 2,
     "deckBuilderNr": 123,
-    "share_code": "AAEABM4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/261.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/261.png",
@@ -16029,7 +15019,6 @@
     },
     "points": 2,
     "deckBuilderNr": 129,
-    "share_code": "AAEABQoA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/262.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/262.png",
@@ -16116,7 +15105,6 @@
     },
     "points": 2,
     "deckBuilderNr": 146,
-    "share_code": "AAEABbQA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/263.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/263.png",
@@ -16191,7 +15179,6 @@
     },
     "points": 2,
     "deckBuilderNr": 153,
-    "share_code": "AAEABfoA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/264.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/264.png",
@@ -16260,7 +15247,6 @@
     },
     "points": 2,
     "deckBuilderNr": 195,
-    "share_code": "AAEAB54A",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/265.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/265.png",
@@ -16335,7 +15321,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000011,
-    "share_code": "AZiW7gAA",
     "artist": "saino misaki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/266.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/266.png",
@@ -16404,7 +15389,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000012,
-    "share_code": "AZiW+AAA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/267.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/267.png",
@@ -16461,7 +15445,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000013,
-    "share_code": "AZiXAgAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/268.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/268.png",
@@ -16518,7 +15501,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000014,
-    "share_code": "AZiXDAAA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/269.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/269.png",
@@ -16575,7 +15557,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000015,
-    "share_code": "AZiXFgAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/270.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/270.png",
@@ -16644,7 +15625,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000016,
-    "share_code": "AZiXIAAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/271.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/271.png",
@@ -16701,7 +15681,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000017,
-    "share_code": "AZiXKgAA",
     "artist": "GIDORA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/272.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/272.png",
@@ -16770,7 +15749,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000018,
-    "share_code": "AZiXNAAA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/273.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/273.png",
@@ -16827,7 +15805,6 @@
     },
     "points": 2,
     "deckBuilderNr": 47,
-    "share_code": "AAEAAdYA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/274.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/274.png",
@@ -16908,7 +15885,6 @@
     },
     "points": 2,
     "deckBuilderNr": 84,
-    "share_code": "AAEAA0gA",
     "artist": "kodama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/275.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/275.png",
@@ -16983,7 +15959,6 @@
     },
     "points": 2,
     "deckBuilderNr": 104,
-    "share_code": "AAEABBAA",
     "artist": "GOSSAN",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/276.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/276.png",
@@ -17058,7 +16033,6 @@
     },
     "points": 2,
     "deckBuilderNr": 123,
-    "share_code": "AAEABM4A",
     "artist": "NC Empire",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/277.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/277.png",
@@ -17133,7 +16107,6 @@
     },
     "points": 2,
     "deckBuilderNr": 146,
-    "share_code": "AAEABbQA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/278.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/278.png",
@@ -17208,7 +16181,6 @@
     },
     "points": 2,
     "deckBuilderNr": 195,
-    "share_code": "AAEAB54A",
     "artist": "Shibuzoh.",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/279.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/279.png",
@@ -17283,7 +16255,6 @@
     },
     "points": 2,
     "deckBuilderNr": 36,
-    "share_code": "AAEAAWgA",
     "artist": "kantaro",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/280.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/280.png",
@@ -17364,7 +16335,6 @@
     },
     "points": 2,
     "deckBuilderNr": 96,
-    "share_code": "AAEAA8AA",
     "artist": "Ryota Murayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/281.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/281.png",
@@ -17451,7 +16421,6 @@
     },
     "points": 2,
     "deckBuilderNr": 129,
-    "share_code": "AAEABQoA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/282.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/282.png",
@@ -17538,7 +16507,6 @@
     },
     "points": 1,
     "deckBuilderNr": 214,
-    "share_code": "AAEACFwA",
     "artist": "Amelicart",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/283.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/283.png",
@@ -17595,7 +16563,6 @@
     },
     "points": 2,
     "deckBuilderNr": 36,
-    "share_code": "AAEAAWgA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/284.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/284.png",
@@ -17676,7 +16643,6 @@
     },
     "points": 2,
     "deckBuilderNr": 96,
-    "share_code": "AAEAA8AA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/285.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/285.png",
@@ -17763,7 +16729,6 @@
     },
     "points": 2,
     "deckBuilderNr": 129,
-    "share_code": "AAEABQoA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/286.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a1/286.png",

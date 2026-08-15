@@ -42,19 +42,11 @@
     },
     "points": 1,
     "deckBuilderNr": 743,
-    "share_code": "AAEAHQYA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/001.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/001.png",
     "flavour_text": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 1,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-002",
@@ -99,19 +91,11 @@
     },
     "points": 1,
     "deckBuilderNr": 744,
-    "share_code": "AAEAHRAA",
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/002.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/002.png",
     "flavour_text": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 2,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-003",
@@ -156,7 +140,6 @@
     },
     "points": 1,
     "deckBuilderNr": 745,
-    "share_code": "AAEAHRoA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/003.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/003.png",
@@ -213,7 +196,6 @@
     },
     "points": 1,
     "deckBuilderNr": 746,
-    "share_code": "AAEAHSQA",
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/004.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/004.png",
@@ -270,19 +252,11 @@
     },
     "points": 1,
     "deckBuilderNr": 747,
-    "share_code": "AAEAHS4A",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/005.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/005.png",
     "flavour_text": "It nocks its arrow quills and shoots them at opponents. When it simply can’t afford to miss, it tugs the vine on its head to improve its focus.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 5,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-006",
@@ -329,7 +303,6 @@
     },
     "points": 2,
     "deckBuilderNr": 748,
-    "share_code": "AAEAHTgA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/006.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/006.png",
@@ -412,7 +385,6 @@
     },
     "points": 1,
     "deckBuilderNr": 749,
-    "share_code": "AAEAHUIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/007.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/007.png",
@@ -483,7 +455,6 @@
     },
     "points": 1,
     "deckBuilderNr": 725,
-    "share_code": "AAEAHFIA",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/008.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/008.png",
@@ -554,7 +525,6 @@
     },
     "points": 1,
     "deckBuilderNr": 726,
-    "share_code": "AAEAHFwA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/009.png",
@@ -617,19 +587,11 @@
     },
     "points": 1,
     "deckBuilderNr": 750,
-    "share_code": "AAEAHUwA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/010.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/010.png",
     "flavour_text": "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 10,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-011",
@@ -674,19 +636,11 @@
     },
     "points": 1,
     "deckBuilderNr": 751,
-    "share_code": "AAEAHVYA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/011.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/011.png",
     "flavour_text": "It won’t attack while it’s alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 11,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-012",
@@ -731,19 +685,11 @@
     },
     "points": 1,
     "deckBuilderNr": 752,
-    "share_code": "AAEAHWAA",
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/012.png",
     "flavour_text": "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 12,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-013",
@@ -788,19 +734,11 @@
     },
     "points": 1,
     "deckBuilderNr": 753,
-    "share_code": "AAEAHWoA",
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/013.png",
     "flavour_text": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 13,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-014",
@@ -845,19 +783,11 @@
     },
     "points": 1,
     "deckBuilderNr": 754,
-    "share_code": "AAEAHXQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/014.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/014.png",
     "flavour_text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 14,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-015",
@@ -902,19 +832,11 @@
     },
     "points": 1,
     "deckBuilderNr": 755,
-    "share_code": "AAEAHX4A",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/015.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/015.png",
     "flavour_text": "It can see clearly through walls to track down its prey and seek its lost young.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 15,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-016",
@@ -959,19 +881,11 @@
     },
     "points": 1,
     "deckBuilderNr": 756,
-    "share_code": "AAEAHYgA",
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/016.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/016.png",
     "flavour_text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 16,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-017",
@@ -1016,19 +930,11 @@
     },
     "points": 1,
     "deckBuilderNr": 757,
-    "share_code": "AAEAHZIA",
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/017.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/017.png",
     "flavour_text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 17,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-018",
@@ -1073,19 +979,11 @@
     },
     "points": 1,
     "deckBuilderNr": 758,
-    "share_code": "AAEAHZwA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/018.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/018.png",
     "flavour_text": "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 18,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-019",
@@ -1130,7 +1028,6 @@
     },
     "points": 2,
     "deckBuilderNr": 742,
-    "share_code": "AAEAHPwA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/019.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/019.png",
@@ -1213,7 +1110,6 @@
     },
     "points": 1,
     "deckBuilderNr": 727,
-    "share_code": "AAEAHGYA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/020.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/020.png",
@@ -1270,7 +1166,6 @@
     },
     "points": 1,
     "deckBuilderNr": 741,
-    "share_code": "AAEAHPIA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/021.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/021.png",
@@ -1345,19 +1240,11 @@
     },
     "points": 1,
     "deckBuilderNr": 759,
-    "share_code": "AAEAHaYA",
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/022.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/022.png",
     "flavour_text": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 22,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-023",
@@ -1402,19 +1289,11 @@
     },
     "points": 1,
     "deckBuilderNr": 760,
-    "share_code": "AAEAHbAA",
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/023.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/023.png",
     "flavour_text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 23,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-024",
@@ -1459,19 +1338,11 @@
     },
     "points": 1,
     "deckBuilderNr": 761,
-    "share_code": "AAEAHboA",
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/024.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/024.png",
     "flavour_text": "With a voice like a human child’s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 24,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-025",
@@ -1516,19 +1387,11 @@
     },
     "points": 1,
     "deckBuilderNr": 762,
-    "share_code": "AAEAHcQA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/025.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/025.png",
     "flavour_text": "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it’s kind.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 25,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-026",
@@ -1573,19 +1436,11 @@
     },
     "points": 1,
     "deckBuilderNr": 763,
-    "share_code": "AAEAHc4A",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/026.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/026.png",
     "flavour_text": "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 26,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-027",
@@ -1630,19 +1485,11 @@
     },
     "points": 1,
     "deckBuilderNr": 764,
-    "share_code": "AAEAHdgA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/027.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/027.png",
     "flavour_text": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 27,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-028",
@@ -1687,19 +1534,11 @@
     },
     "points": 1,
     "deckBuilderNr": 765,
-    "share_code": "AAEAHeIA",
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/028.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/028.png",
     "flavour_text": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 28,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-029",
@@ -1744,19 +1583,11 @@
     },
     "points": 1,
     "deckBuilderNr": 766,
-    "share_code": "AAEAHewA",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/029.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/029.png",
     "flavour_text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 29,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-030",
@@ -1801,19 +1632,11 @@
     },
     "points": 1,
     "deckBuilderNr": 767,
-    "share_code": "AAEAHfYA",
     "artist": "Uta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/030.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/030.png",
     "flavour_text": "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 30,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-031",
@@ -1858,19 +1681,11 @@
     },
     "points": 1,
     "deckBuilderNr": 768,
-    "share_code": "AAEAHgAA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/031.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/031.png",
     "flavour_text": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 31,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-032",
@@ -1915,7 +1730,6 @@
     },
     "points": 1,
     "deckBuilderNr": 769,
-    "share_code": "AAEAHgoA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/032.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/032.png",
@@ -1978,7 +1792,6 @@
     },
     "points": 2,
     "deckBuilderNr": 770,
-    "share_code": "AAEAHhQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/033.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/033.png",
@@ -2053,19 +1866,11 @@
     },
     "points": 1,
     "deckBuilderNr": 771,
-    "share_code": "AAEAHh4A",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/034.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/034.png",
     "flavour_text": "This Pokémon battles by throwing hard berries. It won’t obey a Trainer who throws Poké Balls without skill.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 34,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-035",
@@ -2110,19 +1915,11 @@
     },
     "points": 1,
     "deckBuilderNr": 772,
-    "share_code": "AAEAHigA",
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/035.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/035.png",
     "flavour_text": "If it loses its shovel, it will stick something else—like a branch—in its head to make do until it finds another shovel.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 35,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-036",
@@ -2167,19 +1964,11 @@
     },
     "points": 1,
     "deckBuilderNr": 773,
-    "share_code": "AAEAHjIA",
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/036.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/036.png",
     "flavour_text": "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 36,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-037",
@@ -2224,7 +2013,6 @@
     },
     "points": 1,
     "deckBuilderNr": 774,
-    "share_code": "AAEAHjwA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/037.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/037.png",
@@ -2281,19 +2069,11 @@
     },
     "points": 1,
     "deckBuilderNr": 775,
-    "share_code": "AAEAHkYA",
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/038.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/038.png",
     "flavour_text": "The round face of Alolan Persian is considered to be a symbol of prosperity in the Alola region, so these Pokémon are very well cared for.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 38,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-039",
@@ -2338,19 +2118,11 @@
     },
     "points": 1,
     "deckBuilderNr": 776,
-    "share_code": "AAEAHlAA",
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/039.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/039.png",
     "flavour_text": "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 39,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-040",
@@ -2395,19 +2167,11 @@
     },
     "points": 1,
     "deckBuilderNr": 777,
-    "share_code": "AAEAHloA",
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/040.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/040.png",
     "flavour_text": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 40,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-041",
@@ -2452,19 +2216,11 @@
     },
     "points": 1,
     "deckBuilderNr": 778,
-    "share_code": "AAEAHmQA",
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/041.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/041.png",
     "flavour_text": "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 41,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-042",
@@ -2511,7 +2267,6 @@
     },
     "points": 1,
     "deckBuilderNr": 779,
-    "share_code": "AAEAHm4A",
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/042.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/042.png",
@@ -2582,7 +2337,6 @@
     },
     "points": 2,
     "deckBuilderNr": 780,
-    "share_code": "AAEAHngA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/043.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/043.png",
@@ -2659,7 +2413,6 @@
     },
     "points": 1,
     "deckBuilderNr": 737,
-    "share_code": "AAEAHMoA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/044.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/044.png",
@@ -2718,19 +2471,11 @@
     },
     "points": 1,
     "deckBuilderNr": 781,
-    "share_code": "AAEAHoIA",
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/045.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/045.png",
     "flavour_text": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 45,
-        "rarity": "◊◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-046",
@@ -2775,7 +2520,6 @@
     },
     "points": 1,
     "deckBuilderNr": 782,
-    "share_code": "AAEAHowA",
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/046.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/046.png",
@@ -2838,7 +2582,6 @@
     },
     "points": 2,
     "deckBuilderNr": 783,
-    "share_code": "AAEAHpYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/047.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/047.png",
@@ -2913,19 +2656,11 @@
     },
     "points": 1,
     "deckBuilderNr": 784,
-    "share_code": "AAEAHqAA",
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/048.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/048.png",
     "flavour_text": "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 48,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-049",
@@ -2970,19 +2705,11 @@
     },
     "points": 1,
     "deckBuilderNr": 785,
-    "share_code": "AAEAHqoA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/049.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/049.png",
     "flavour_text": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 49,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-050",
@@ -3027,19 +2754,11 @@
     },
     "points": 1,
     "deckBuilderNr": 786,
-    "share_code": "AAEAHrQA",
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/050.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/050.png",
     "flavour_text": "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 50,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-051",
@@ -3084,19 +2803,11 @@
     },
     "points": 1,
     "deckBuilderNr": 787,
-    "share_code": "AAEAHr4A",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/051.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/051.png",
     "flavour_text": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 51,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-052",
@@ -3141,19 +2852,11 @@
     },
     "points": 1,
     "deckBuilderNr": 788,
-    "share_code": "AAEAHsgA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/052.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/052.png",
     "flavour_text": "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 52,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-053",
@@ -3200,7 +2903,6 @@
     },
     "points": 1,
     "deckBuilderNr": 730,
-    "share_code": "AAEAHIQA",
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/053.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/053.png",
@@ -3257,19 +2959,11 @@
     },
     "points": 1,
     "deckBuilderNr": 789,
-    "share_code": "AAEAHtIA",
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/054.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/054.png",
     "flavour_text": "This Pokémon is courageous but also cautious. It uses the soft fur covering its face to collect information about its surroundings.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 54,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-055",
@@ -3314,19 +3008,11 @@
     },
     "points": 1,
     "deckBuilderNr": 790,
-    "share_code": "AAEAHtwA",
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/055.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/055.png",
     "flavour_text": "Herdier is a very smart and friendly Pokémon. So much so that there’s a theory that Herdier was the first Pokémon to partner with people.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 55,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-056",
@@ -3371,19 +3057,11 @@
     },
     "points": 1,
     "deckBuilderNr": 791,
-    "share_code": "AAEAHuYA",
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/056.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/056.png",
     "flavour_text": "These Pokémon seem to enjoy living with humans. Even a Stoutland caught in the wild will warm up to people in about three days.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 56,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-057",
@@ -3428,7 +3106,6 @@
     },
     "points": 1,
     "deckBuilderNr": 738,
-    "share_code": "AAEAHNQA",
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/057.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/057.png",
@@ -3485,19 +3162,11 @@
     },
     "points": 1,
     "deckBuilderNr": 792,
-    "share_code": "AAEAHvAA",
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/058.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/058.png",
     "flavour_text": "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 58,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-059",
@@ -3542,19 +3211,11 @@
     },
     "points": 1,
     "deckBuilderNr": 793,
-    "share_code": "AAEAHvoA",
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/059.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/059.png",
     "flavour_text": "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 59,
-        "rarity": "◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-060",
@@ -3599,7 +3260,6 @@
     },
     "points": 1,
     "deckBuilderNr": 794,
-    "share_code": "AAEAHwQA",
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/060.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/060.png",
@@ -3668,7 +3328,6 @@
     },
     "points": 1,
     "deckBuilderNr": 795,
-    "share_code": "AAEAHw4A",
     "artist": "Eske Yoshinob",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/061.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/061.png",
@@ -3745,7 +3404,6 @@
     },
     "points": 1,
     "deckBuilderNr": 796,
-    "share_code": "AAEAHxgA",
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/062.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/062.png",
@@ -3814,19 +3472,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000060,
-    "share_code": "AZiY2AAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/063.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/063.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 63,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-064",
@@ -3871,19 +3521,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000061,
-    "share_code": "AZiY4gAA",
     "artist": "Yoshinobu Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/064.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/064.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 64,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-065",
@@ -3928,7 +3570,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000062,
-    "share_code": "AZiY7AAA",
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/065.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/065.png",
@@ -3991,19 +3632,11 @@
     },
     "points": null,
     "deckBuilderNr": 1000063,
-    "share_code": "AZiY9gAA",
     "artist": "inose yukie",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/066.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/066.png",
     "flavour_text": null,
-    "alternate_versions": [
-      {
-        "set_code": "a3a",
-        "set_name": "Extradimensional Crisis",
-        "id": 66,
-        "rarity": "◊◊"
-      }
-    ]
+    "alternate_versions": []
   },
   {
     "id": "a3a-067",
@@ -4048,7 +3681,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000064,
-    "share_code": "AZiZAAAA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/067.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/067.png",
@@ -4105,7 +3737,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000065,
-    "share_code": "AZiZCgAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/068.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/068.png",
@@ -4164,7 +3795,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000066,
-    "share_code": "AZiZFAAA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/069.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/069.png",
@@ -4239,7 +3869,6 @@
     },
     "points": 1,
     "deckBuilderNr": 745,
-    "share_code": "AAEAHRoA",
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/070.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/070.png",
@@ -4298,7 +3927,6 @@
     },
     "points": 1,
     "deckBuilderNr": 749,
-    "share_code": "AAEAHUIA",
     "artist": "matazo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/071.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/071.png",
@@ -4369,7 +3997,6 @@
     },
     "points": 1,
     "deckBuilderNr": 726,
-    "share_code": "AAEAHFwA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/072.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/072.png",
@@ -4432,7 +4059,6 @@
     },
     "points": 1,
     "deckBuilderNr": 774,
-    "share_code": "AAEAHjwA",
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/073.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/073.png",
@@ -4489,7 +4115,6 @@
     },
     "points": 1,
     "deckBuilderNr": 795,
-    "share_code": "AAEAHw4A",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/074.png",
@@ -4566,7 +4191,6 @@
     },
     "points": 1,
     "deckBuilderNr": 796,
-    "share_code": "AAEAHxgA",
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/075.png",
@@ -4637,7 +4261,6 @@
     },
     "points": 2,
     "deckBuilderNr": 748,
-    "share_code": "AAEAHTgA",
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/076.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/076.png",
@@ -4718,7 +4341,6 @@
     },
     "points": 2,
     "deckBuilderNr": 742,
-    "share_code": "AAEAHPwA",
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/077.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/077.png",
@@ -4799,7 +4421,6 @@
     },
     "points": 2,
     "deckBuilderNr": 770,
-    "share_code": "AAEAHhQA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/078.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/078.png",
@@ -4876,7 +4497,6 @@
     },
     "points": 2,
     "deckBuilderNr": 780,
-    "share_code": "AAEAHngA",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/079.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/079.png",
@@ -4951,7 +4571,6 @@
     },
     "points": 2,
     "deckBuilderNr": 783,
-    "share_code": "AAEAHpYA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/080.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/080.png",
@@ -5026,7 +4645,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000064,
-    "share_code": "AZiZAAAA",
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/081.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/081.png",
@@ -5083,7 +4701,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000065,
-    "share_code": "AZiZCgAA",
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/082.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/082.png",
@@ -5142,7 +4759,6 @@
     },
     "points": null,
     "deckBuilderNr": 1000066,
-    "share_code": "AZiZFAAA",
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/083.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/083.png",
@@ -5217,7 +4833,6 @@
     },
     "points": 2,
     "deckBuilderNr": 742,
-    "share_code": "AAEAHPwA",
     "artist": "Dsuke",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/084.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/084.png",
@@ -5298,7 +4913,6 @@
     },
     "points": 2,
     "deckBuilderNr": 770,
-    "share_code": "AAEAHhQA",
     "artist": "Jiro Sasumo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/085.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/085.png",
@@ -5375,7 +4989,6 @@
     },
     "points": 2,
     "deckBuilderNr": 780,
-    "share_code": "AAEAHngA",
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/086.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/086.png",
@@ -5450,7 +5063,6 @@
     },
     "points": 2,
     "deckBuilderNr": 783,
-    "share_code": "AAEAHpYA",
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/087.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/087.png",
@@ -5527,7 +5139,6 @@
     },
     "points": 2,
     "deckBuilderNr": 748,
-    "share_code": "AAEAHTgA",
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/088.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/088.png",
@@ -5608,7 +5219,6 @@
     },
     "points": 1,
     "deckBuilderNr": 39,
-    "share_code": "AAEAAYYA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/089.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/089.png",
@@ -5677,7 +5287,6 @@
     },
     "points": 1,
     "deckBuilderNr": 40,
-    "share_code": "AAEAAZAA",
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/090.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/090.png",
@@ -5734,7 +5343,6 @@
     },
     "points": 1,
     "deckBuilderNr": 87,
-    "share_code": "AAEAA2YA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/091.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/091.png",
@@ -5809,7 +5417,6 @@
     },
     "points": 1,
     "deckBuilderNr": 88,
-    "share_code": "AAEAA3AA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/092.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/092.png",
@@ -5878,7 +5485,6 @@
     },
     "points": 1,
     "deckBuilderNr": 89,
-    "share_code": "AAEAA3oA",
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/093.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/093.png",
@@ -5959,7 +5565,6 @@
     },
     "points": 1,
     "deckBuilderNr": 127,
-    "share_code": "AAEABPYA",
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/094.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/094.png",
@@ -6028,7 +5633,6 @@
     },
     "points": 1,
     "deckBuilderNr": 186,
-    "share_code": "AAEAB0QA",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/095.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/095.png",
@@ -6085,7 +5689,6 @@
     },
     "points": 1,
     "deckBuilderNr": 187,
-    "share_code": "AAEAB04A",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/096.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/096.png",
@@ -6142,7 +5745,6 @@
     },
     "points": 1,
     "deckBuilderNr": 188,
-    "share_code": "AAEAB1gA",
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/097.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/097.png",
@@ -6205,7 +5807,6 @@
     },
     "points": 1,
     "deckBuilderNr": 208,
-    "share_code": "AAEACCAA",
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/098.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/098.png",
@@ -6262,7 +5863,6 @@
     },
     "points": 2,
     "deckBuilderNr": 217,
-    "share_code": "AAEACHoA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/099.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/099.png",
@@ -6337,7 +5937,6 @@
     },
     "points": 2,
     "deckBuilderNr": 41,
-    "share_code": "AAEAAZoA",
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/100.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/100.png",
@@ -6406,7 +6005,6 @@
     },
     "points": 2,
     "deckBuilderNr": 259,
-    "share_code": "AAEACh4A",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/101.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/101.png",
@@ -6481,7 +6079,6 @@
     },
     "points": 2,
     "deckBuilderNr": 272,
-    "share_code": "AAEACqAA",
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/102.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/102.png",
@@ -6552,7 +6149,6 @@
     },
     "points": 1,
     "deckBuilderNr": 779,
-    "share_code": "AAEAHm4A",
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/103.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/a3a/103.png",
