@@ -45,7 +45,9 @@ def create_single_card_code(nr):
     for is_normal, group in enumerate([specials, normals]):
         bytes_arr.append(len(group) & 0xff)
         for n in group:
-            v = n * 10 if is_normal else n  # ponytail: trainers use absolute id, pokemon get *10
+            v = n * 10 if is_normal else n  # trainers use absolute id, pokemon get *10
+            if v > 0xFFFFFF:
+                raise ValueError("card ID does not fit in three bytes")
             bytes_arr.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
 
     bytes_arr.append(0)

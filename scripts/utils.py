@@ -38,7 +38,7 @@ def _load_existing_json(filepath):
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
+    except FileNotFoundError:
         return []
 
 def set_code_to_prefix(set_code):
@@ -47,8 +47,8 @@ def set_code_to_prefix(set_code):
 
 def to_int(text, default=None):
     """'40 HP' -> 40, '100+' -> 100, '' -> default."""
-    digits = re.sub(r"\D", "", text or "")
-    return int(digits) if digits else default
+    match = re.search(r"\d+", text or "")
+    return int(match.group(0)) if match else default
 
 def parse_release_date(text):
     """'30 Jun 26' -> '2026-06-30'; blank (promo sets) -> None."""

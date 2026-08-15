@@ -95,7 +95,7 @@ def extract_card(soup, set_code=""):
     image_div = soup.find("div", class_="card-image")
     image = image_div.find("img")["src"] if image_div and image_div.find("img") else None
 
-    rarity = "Unknown"
+    rarity = None
     alt_versions = []
     rarity_table = soup.find("table", class_="card-prints-versions")
     if rarity_table:
@@ -116,7 +116,7 @@ def extract_card(soup, set_code=""):
             alt_versions.append({
                 "set_code": c_set,
                 "set_name": clean_text(a_tag.contents[0]),
-                "id": to_int(c_num) or c_num,
+                "id": to_int(c_num),
                 "rarity": clean_text(tds[1].text) or "Promo"
             })
 
@@ -133,7 +133,7 @@ def extract_card(soup, set_code=""):
     pack = clean_text(pack)
 
     artist_div = body.find("div", class_="card-text-artist")
-    artist = clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else "Unknown"
+    artist = clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else None
 
     stage, evolves_from, retreat, weakness = None, None, None, None
     if not is_trainer:
@@ -145,7 +145,7 @@ def extract_card(soup, set_code=""):
         retreat_match = re.search(r"Retreat:\s*(\d+)", raw_text)
         retreat = int(retreat_match.group(1)) if retreat_match else 0
         weakness_match = re.search(r"Weakness:\s*([A-Za-z]+)", raw_text)
-        weakness = weakness_match.group(1) if weakness_match else "none"
+        weakness = weakness_match.group(1) if weakness_match else None
 
     ability_div = body.find("div", class_="card-text-ability")
     ability = {"exists": bool(ability_div), "name": None, "effect": None}

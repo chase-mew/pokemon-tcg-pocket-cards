@@ -1,4 +1,4 @@
-"""Field-level validation of every card in v5.json."""
+"""Field-level validation of every card in cards.json."""
 import os
 import re
 from datetime import date, datetime, timedelta

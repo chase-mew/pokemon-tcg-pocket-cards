@@ -61,6 +61,7 @@ ENERGY_TYPES = ("Grass", "Fire", "Water", "Lightning", "Psychic", "Fighting",
                 "Darkness", "Metal", "Dragon", "Colorless")
 STAGES = ("Basic", "Stage 1", "Stage 2")
 RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "Crown Rare", "Promo")
+PARALLEL_FOIL_RARITIES = ("◊", "◊◊", "◊◊◊")
 ART_STYLES = ("Illustration Art", "Full Art", "Special Illustration Art",
               "Immersive Art", "Shiny", "Shiny Full Art", "Parallel Foil")
 PROMO_PREFIXES = ("pa", "pb")

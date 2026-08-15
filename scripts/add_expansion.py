@@ -44,9 +44,9 @@ from utils import normalise_set_code, set_code_to_prefix
 
 
 def validate_schema(cards):
-    schema_path = os.path.join(V5_DIR, "v5.schema.json")
+    schema_path = os.path.join(V5_DIR, "cards.schema.json")
     if not os.path.exists(schema_path):
-        print("    WARNING: v5.schema.json not found, skipping validation.")
+        print("    WARNING: cards.schema.json not found, skipping validation.")
         return
 
     with open(schema_path, "r", encoding="utf-8") as f:
@@ -143,7 +143,7 @@ def process_single_set(set_code, args):
 
     print(f"\n{'=' * 60}")
     print(f"  Done! {expansion_name} ({set_code})")
-    print(f"  {len(cards)} cards scraped, {added} new added")
+    print(f"  {len(cards)} cards scraped, {added} new cards added")
     print(f"{'=' * 60}\n")
 
 
@@ -156,7 +156,10 @@ def main():
     parser.add_argument("--skip-images", action="store_true", help="Skip downloading card images")
     args = parser.parse_args()
     set_codes = []
-    if args.all:
+
+    if args.all and args.name:
+        arser.error("--name cannot be used with --all")
+    elif args.all:
         set_codes = get_all_set_codes()
         set_codes.reverse()
     elif args.set_code:

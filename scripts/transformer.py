@@ -20,7 +20,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 import re
 import requests
-from constants import GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS
+from constants import GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, PARALLEL_FOIL_RARITIES
 from utils import set_code_to_prefix, compile_tag_matchers
 from deck_code import get_deck_builder_nr, create_single_card_code
 
@@ -95,7 +95,7 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
                 art_style = "Full Art"
                 if card["type"] == "Trainer": seen_trainer_fa = True
 
-        if raw_text and raw_text == last_raw_text:
+        if raw_text and raw_text == last_raw_text and rarity in PARALLEL_FOIL_RARITIES:
             art_style = "Parallel Foil"
 
         if card["type"] == "Trainer": shiny = False

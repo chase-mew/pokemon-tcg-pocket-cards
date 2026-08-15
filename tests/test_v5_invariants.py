@@ -1,4 +1,4 @@
-"""Cross-card, cross-set and cross-file invariants for v5.json."""
+"""Cross-card, cross-set and cross-file invariants for cards.json."""
 import os
 
 from tests.utils import report

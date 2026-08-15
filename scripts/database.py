@@ -37,12 +37,7 @@ def minify_and_save(data, file_path):
 def read_all_v5_cards():
     cards = []
     for item in os.listdir(V5_DIR):
-        item_path = os.path.join(V5_DIR, item)
-        if os.path.isdir(item_path):
-            set_json = os.path.join(item_path, f"{item}.json")
-            if os.path.exists(set_json):
-                with open(set_json, "r", encoding="utf-8") as f:
-                    cards.extend(json.load(f))
+        cards.extend(_load_existing_json(os.path.join(V5_DIR, item, f"{item}.json")))
     return cards
 
 
@@ -50,7 +45,8 @@ def sync_alternate_versions(all_cards):
     parent = {}
 
     def find(i):
-        if parent.setdefault(i, i) == i: return i
+        if parent.setdefault(i, i) == i:
+            return i
         parent[i] = find(parent[i])
         return parent[i]
 
@@ -64,23 +60,25 @@ def sync_alternate_versions(all_cards):
 
     lookup = {c["id"]: c for c in all_cards}
     for group in groups.values():
-        if len(group) < 2: continue
+        if len(group) < 2:
+            continue
         alts = sorted([{"set_code": lookup[i]["set_code"], "set_name": lookup[i]["set_name"],
                         "id": int(lookup[i]["id"].split("-")[1]), "rarity": lookup[i]["rarity"]} for i in group if
                        i in lookup], key=lambda x: (x["set_code"], x["id"]))
         for i in group:
-            if i in lookup: lookup[i]["alternate_versions"] = alts
+            if i in lookup:
+                lookup[i]["alternate_versions"] = [a for a in alts if f"{a['set_code']}-{str(a['id']).zfill(3)}" != i]
 
 
 def update_cards(new_cards, version):
     if version != CURRENT_VERSION:
         existing = _load_existing_json(V4_JSON_PATH)
         seen = {c["id"] for c in existing}
-        to_add = [card for card in new_cards if card["id"] not in seen]
-        if to_add:
-            existing.extend(to_add)
-            minify_and_save(existing, V4_JSON_PATH)
-        return len(to_add)
+        merged = {c["id"]: c for c in existing}
+        for c in new_cards:
+            merged[c["id"]] = c
+        minify_and_save(list(merged.values()), V4_JSON_PATH)
+        return len([c for c in new_cards if c["id"] not in seen])
 
     prefix = new_cards[0]["set_code"]
     set_dir = os.path.join(V5_DIR, prefix)
@@ -114,24 +112,23 @@ def compile_v5_database():
         cards.sort(key=lambda x: x["id"])
         set_dir = os.path.join(V5_DIR, prefix)
         minify_and_save(cards, os.path.join(set_dir, f"{prefix}.json"))
+        if cards:
+            update_expansions(prefix, cards[0]["set_name"], cards)
 
     all_cards.sort(key=lambda x: (x["set_code"], x["id"]))
-    main_json = os.path.join(V5_DIR, "v5.json")
+    main_json = os.path.join(V5_DIR, "cards.json")
     minify_and_save(all_cards, main_json)
 
 
 def update_expansions(set_code, expansion_name, cards):
     prefix = set_code_to_prefix(set_code)
-    try:
-        with open(EXPANSIONS_JSON_PATH, "r", encoding="utf-8") as f:
-            expansions = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        expansions = []
+    expansions = _load_existing_json(EXPANSIONS_JSON_PATH)
 
     exp_obj = next((e for e in expansions if e["id"] == prefix), None)
     if not exp_obj:
-        exp_obj = {"id": prefix, "name": expansion_name}
+        exp_obj = {"id": prefix}
         expansions.append(exp_obj)
+    exp_obj["name"] = expansion_name
 
     unique_packs = sorted({c["pack"] for c in cards if not c["pack"].startswith("Shared(")})
     packs = []

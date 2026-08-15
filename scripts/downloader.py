@@ -27,7 +27,8 @@ from utils import serebii_slug
 
 def download_images(cards, prefix):
     webp_dir, png_dir = os.path.join(ROOT_DIR, "images", "webp", "cards", prefix), os.path.join(ROOT_DIR, "images", "png", "cards", prefix)
-    os.makedirs(webp_dir, exist_ok=True); os.makedirs(png_dir, exist_ok=True)
+    os.makedirs(webp_dir, exist_ok=True)
+    os.makedirs(png_dir, exist_ok=True)
 
     for card in tqdm(cards, desc=f"Downloading {prefix} images", unit="img"):
         source_url = card.pop("source_url", None)
