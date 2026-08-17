@@ -376,14 +376,14 @@
         "image_png": null
       },
       {
-        "id": "pa-everypack",
-        "name": "Every pack",
+        "id": "pa-missions",
+        "name": "Missions",
         "image": null,
         "image_png": null
       },
       {
-        "id": "pa-missions",
-        "name": "Missions",
+        "id": "pa-premiummissions",
+        "name": "Premium Missions",
         "image": null,
         "image_png": null
       },

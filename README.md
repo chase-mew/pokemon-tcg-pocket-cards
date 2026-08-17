@@ -4,15 +4,21 @@ This open-source repository holds data on Pokémon TCG Pocket cards. You can use
 
 You can pull the raw JSON directly as an API:
 
-- Cards dataset: **[https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/v5.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/v5.json)**
-- Expansions and packs: **[https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/expansions.json)**
+- Cards dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
+- Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
+
+Or install it from npm, which ships the minified data plus TypeScript definitions:
+
+```bash
+npm install pokemon-tcg-pocket-cards
+```
 
 Open a pull request if you find missing cards or errors.
 
 ## 💾 Data Source
 
 Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**    
-Deck share codes are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
+Deck builder numbers are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
 
 
 ## ⚡ Adding a new expansion
@@ -32,10 +38,10 @@ python3 scripts/add_expansion.py a1->b4
 The script handles these tasks:
 1. Detects the expansion name and release date.
 2. Scrapes all cards in the specified set or range.
-3. Maps internal asset IDs to generate deck share codes.
+3. Maps internal game asset IDs to `deckBuilderNr`.
 4. Downloads [pack and card images](images/).
-5. Appends new card records to the target **[JSON](v5.json)** database.
-6. Adds the expansion entry to the **[expansions](expansions.json)** index.
+5. Appends new card records to the target **[JSON](data/v5/cards.json)** database.
+6. Adds the expansion entry to the **[expansions](data/v5/expansions.json)** index.
 
 ### 🔄 Updating promo sets
 
@@ -53,7 +59,7 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](v4.json)**      | **[💚 V5](v5.json)** (newer)                                                         |
+| **Feature**                        | **[💛 V4](data/v4/v4.min.json)** | **[💚 V5](data/v5/cards.json)** (newer)                                        |
 |------------------------------------|---------------------------|--------------------------------------------------------------------------------------|
 | Missing values                     | Empty strings ("")        | null                                                                                 |
 | Image formats                      | PNG only                  | WEBP (default) and PNG                                                               |
@@ -66,7 +72,7 @@ python3 scripts/add_expansion.py PB
 | Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
 | Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   |
 | Special tags | ❌ | Ancient, future, and ultra beasts                                                    |
-| Deck builder | ❌ | Internal asset ID and deck share code                                                | 
+| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   | 
 | Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          |
 | Release date                       | ❌                         | ✅ ISO release date                                                                   |
 | Flavour text                       | ❌                         | ✅ Raw text string                                                                    |               
@@ -75,9 +81,9 @@ python3 scripts/add_expansion.py PB
 
 ### 💼 Support schedule
 
-**[💚 V5](v5.json) is the actively maintained data model.**   
-[💛 V4](v4.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
-Versions [V3](v3.json) and earlier are fully deprecated and no longer updated.
+**[💚 V5](data/v5/cards.json) is the actively maintained data model.**   
+[💛 V4](data/v4/v4.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
+Versions [V3](data/v3/v3.json) and earlier are fully deprecated and no longer updated.
 
 ## 🛠️ Projects using this API
 
@@ -92,9 +98,9 @@ Submit a pull request to list your project here if you build something with this
 
 ## 📜 License
 
-- **💚 Version 5** (**[v5.json](v5.json)**), **[expansions.json](expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).    
+- **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).    
 See **[LICENSE](LICENSE)** for the full license text.
-- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](v3.json), [v4.json](v4.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
+- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](data/v3/v3.json), [v4.json](data/v4/v4.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
 - **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.    
 It was ported to Python under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`), Copyright (C) 2026 **Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>**.

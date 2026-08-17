@@ -22,7 +22,8 @@ ID_RE = re.compile(r"^[a-z][a-z0-9]*-\d{3,4}$")
 SET_RE = re.compile(r"^[a-z][a-z0-9]*$")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 COST_RE = re.compile(r"^[GRWLPFDMCNY0]{1,5}$")
-STAR_RARITIES = {"☆", "☆☆", "☆☆☆", "♕"}
+STAR_RARITIES = {"☆", "☆☆", "☆☆☆"}
+CROWN_RARITY = "Crown Rare"
 
 
 def is_promo(card):
@@ -104,7 +105,6 @@ class TestId:
     def test_ids_unique(self, cards):
         seen, dupes = set(), []
         for c in cards:
-            (dupes if c["id"] in seen else seen).__contains__ if False else None
             if c["id"] in seen:
                 dupes.append(c["id"])
             seen.add(c["id"])
@@ -250,8 +250,9 @@ class TestStageAndEvolution:
 
 class TestRarityAndPackPoints:
     def test_rarity_is_valid(self, cards):
-        fails = collect(cards, lambda c: None if (c["rarity"] == "Promo") == is_promo(c)
-            else f"rarity {c['rarity']!r} on set {c['set_code']!r}")
+        """Rarity must be one of the known symbols in constants.RARITIES."""
+        fails = collect(cards, lambda c: None if c["rarity"] in RARITIES
+                        else f"unknown rarity {c['rarity']!r}")
         assert not fails, report(fails)
 
     def test_promo_rarity_iff_promo_set(self, cards):
@@ -337,6 +338,21 @@ class TestPoints:
         assert not fails, report(fails)
 
 
+class TestDeckBuilder:
+    def test_deck_builder_nr_is_a_positive_int(self, cards):
+        """A zero here means the datamine lookup silently came back empty.
+
+        transform_cards falls back to 0 when a card is missing from the
+        Flibustier datamine. That passes the JSON schema, so this is the only
+        thing standing between a transient network error and a dataset full of
+        zeroed deck-builder numbers.
+        """
+        fails = collect(cards, lambda c: None if type(c["deckBuilderNr"]) is int
+                        and c["deckBuilderNr"] > 0
+                        else f"deckBuilderNr {c['deckBuilderNr']!r}")
+        assert not fails, report(fails)
+
+
 class TestArtStyle:
     def test_art_style_is_valid_or_null(self, cards):
         fails = collect(cards, lambda c: None if c["art_style"] is None or c["art_style"] in ART_STYLES
@@ -344,15 +360,25 @@ class TestArtStyle:
         assert not fails, report(fails)
 
     def test_diamond_rarities_have_no_special_art(self, cards):
-        fails = collect(cards, lambda c: None if not c["rarity"].startswith("◊")
+        fails = collect(cards, lambda c: None if not (c["rarity"] or "").startswith("◊")
                         or c["art_style"] in (None, "Parallel Foil")
                         else f"{c['rarity']} card with art_style {c['art_style']!r}")
         assert not fails, report(fails)
 
     def test_star_rarities_have_art_style(self, cards):
-        """Every non-promo star/crown card should be classified (crown is the one blank)."""
+        """Every non-promo star card must be classified."""
         fails = collect(cards, lambda c: None if is_promo(c) or c["rarity"] not in STAR_RARITIES
-                        or c["rarity"] == "♕" or c["art_style"] else "star rarity without art_style")
+                        or c["art_style"] else "star rarity without art_style")
+        assert not fails, report(fails)
+
+    def test_crown_rares_are_unclassified(self, cards):
+        """Asserted explicitly: the previous exemption keyed off "♕", a rarity
+        string the scraper never produces, so Crown Rare was silently skipped.
+        Change this test if a crown art style is ever added.
+        """
+        fails = collect(cards, lambda c: None if c["rarity"] != CROWN_RARITY
+                        or c["art_style"] is None
+                        else f"Crown Rare with art_style {c['art_style']!r}")
         assert not fails, report(fails)
 
     def test_shiny_art_styles_match_shiny_flag(self, cards):

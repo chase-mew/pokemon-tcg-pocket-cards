@@ -81,7 +81,6 @@ def fetch_page(url):
                 raise
             time.sleep(retry_delay)
             retry_delay += RATE_LIMIT_DELAY
-    raise ValueError("We're experiencing a network or server error. Retry later.")
 
 
 def get_all_set_codes():
@@ -278,8 +277,11 @@ def extract_card(soup, set_code=""):
     set_info = soup.find("div", class_="card-prints-current")
     if set_info:
         if set_code == "P-A":
-            for kw in PROMO_A_PACK_KEYWORDS:
-                if kw in set_info.get_text(): pack = kw
+            set_text = set_info.get_text()
+            pack = next(
+                (kw for kw in sorted(PROMO_A_PACK_KEYWORDS, key=len, reverse=True) if kw in set_text),
+                pack,
+            )
         else:
             spans = set_info.find_all("span")
             if spans and spans[-1].text.strip().split("·")[-1].strip().endswith(" pack"):
@@ -308,7 +310,7 @@ def extract_card(soup, set_code=""):
         ability["effect"] = clean_text(ability_div.find("p", class_="card-text-ability-effect").text)
 
     ex = "ex" in name.split(" ")
-    mega = name.startswith("Mega ") or "Mega Evolution ex rule" in raw_text
+    mega = not is_trainer and (name.startswith("Mega ") or "Mega Evolution ex rule" in raw_text)
     points = None if is_trainer else (3 if mega and ex else 2 if ex else 1)
 
     attacks = {str(n): {"cost": None, "name": None, "damage": None, "effect": None} for n in (1, 2)}
@@ -318,7 +320,7 @@ def extract_card(soup, set_code=""):
         cost_span = info_p.find("span", class_="ptcg-symbol")
         cost = cost_span.text.strip() if cost_span else None
         info_text = clean_text(info_p.text.replace(cost or "", "", 1))
-        dmg_match = re.search(r"([\d+\-xX×]+)$", info_text)
+        dmg_match = re.search(r"(\d[\d+\-xX×]*)$", info_text)
         dmg_raw = dmg_match.group(1) if dmg_match else ""
         atk_name = clean_text(info_text[: info_text.rfind(dmg_raw)]) if dmg_raw else info_text
         effect_p = atk_div.find("p", class_="card-text-attack-effect")
@@ -362,9 +364,13 @@ def scrape_cards(set_code):
 
     Scrape every card in a set by requesting sequential card numbers
     starting at 1. Stops after ``MAX_CONSECUTIVE_ERRORS`` cards in a
-    row return 404, which signals the end of the set. Non-404 errors
-    are logged to stderr via ``tqdm.write`` and also count toward the
-    consecutive error limit.
+    row return 404, which signals the end of the set.
+
+    Only 404s count toward that limit. Any other failure (network
+    error that outlived the retries, or a parse error on a page whose
+    markup changed) raises ``RuntimeError`` immediately rather than
+    being skipped, because a skipped card leaves a silent hole in the
+    set while the run still exits successfully.
 
     Each successfully scraped card is the dict returned by
     :func:`extract_card`. Cards are returned in card-number order.
@@ -376,6 +382,10 @@ def scrape_cards(set_code):
     Returns:
         list of dict: one card dict per card found, in ascending
         card-number order
+
+    Raises:
+        RuntimeError: if a card page fails for any reason other than
+            a 404. The message includes the card number and set code.
 
     Example::
 
@@ -397,6 +407,7 @@ def scrape_cards(set_code):
             except NotFound:
                 errors += 1
             except Exception as e:
-                errors += 1
-                tqdm.write(f"WARNING: card {i} failed: {type(e).__name__}: {e}")
+                raise RuntimeError(
+                    f"Failed to scrape card {i} of set {set_code}: {type(e).__name__}: {e}"
+                ) from e
     return cards

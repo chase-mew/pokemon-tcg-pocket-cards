@@ -19,17 +19,69 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 r"""Persist card data to JSON files on disk.
 
-Writes both per-set files and an aggregated master file. Merges new
-cards into existing records, synchronises alternate version references
-bidirectionally across cards, and maintains the expansions index.
+Writes both per-set files and an aggregated master file. Merges
+new cards into existing records, syncs alternate version references
+in both directions, and maintains the expansions index.
 
 The v5 data directory (``V5_DIR``) is created on import.
 """
 
 import json
 import os
-from constants import EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, V4_JSON_PATH, V5_DIR, CURRENT_VERSION
+import re
+from constants import CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_DIR, CURRENT_VERSION
 from utils import set_code_to_prefix, slugify, _load_existing_json
+
+
+def minified_path(file_path):
+    r"""minified_path(file_path) -> str
+
+    Return the ``.min.json`` sibling of a ``.json`` path. Only the
+    suffix is swapped, so a directory containing ``.json`` in its name
+    is left alone.
+
+    Args:
+        file_path (str): a path ending in ``.json``
+
+    Returns:
+        str: the same path with a ``.min.json`` suffix
+    """
+    root, ext = os.path.splitext(file_path)
+    return f"{root}.min{ext}"
+
+
+def _set_sort_key(set_code):
+    r"""_set_sort_key(set_code) -> tuple
+
+    Split a set code into ``(letters, number, suffix)`` so codes sort
+    naturally. A plain string sort puts ``b10`` between ``b1`` and
+    ``b1a``; this puts it after ``b1a``, which is release order.
+
+    Args:
+        set_code (str): a lowercase set prefix such as ``"b1a"`` or ``"pa"``
+
+    Returns:
+        tuple: ``(str, int, str)`` sort key
+    """
+    match = re.match(r"([a-z]+)(\d*)([a-z]*)", set_code)
+    if not match:
+        return (set_code, 0, "")
+    return (match.group(1), int(match.group(2) or 0), match.group(3))
+
+
+def _card_number(card):
+    r"""_card_number(card) -> int
+
+    Card number as an integer, so cards sort 9, 10, 11 rather than
+    10, 11, 9.
+
+    Args:
+        card (dict): a card with an ``id`` like ``"a1-001"``
+
+    Returns:
+        int: the numeric part of the card ID
+    """
+    return int(card["id"].rsplit("-", 1)[1])
 
 
 def minify_and_save(data, file_path):
@@ -41,17 +93,21 @@ def minify_and_save(data, file_path):
     ``ensure_ascii=False`` so non-ASCII characters like the rarity
     symbols are preserved.
 
+    Both files are written with explicit LF newlines. Without that,
+    running the pipeline on Windows produces CRLF files and every
+    regeneration on a Linux CI runner rewrites every line of every
+    data file.
+
     Args:
         data: any JSON-serialisable value (list, dict, etc.)
         file_path (str): destination path for the pretty-printed
             file. The minified path is derived by replacing the
             ``.json`` suffix with ``.min.json``.
     """
-    with open(file_path, "w", encoding="utf-8") as f:
+    with open(file_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    min_path = file_path.replace(".json", ".min.json")
-    with open(min_path, "w", encoding="utf-8") as f:
+    with open(minified_path(file_path), "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
 
 
@@ -153,8 +209,8 @@ def update_cards(new_cards, version):
     For the current version (``CURRENT_VERSION``, i.e. v5), cards are
     saved to a per-set file at ``V5_DIR/{prefix}/{prefix}.json``,
     where ``prefix`` is the set code of the first card in
-    ``new_cards``. The merged list is sorted by card ID before
-    saving.
+    ``new_cards``. The merged list is sorted by numeric card number
+    before saving.
 
     For older versions, cards are appended to the single file at
     ``V4_JSON_PATH``. The merge is order-preserving: existing cards
@@ -180,7 +236,8 @@ def update_cards(new_cards, version):
     """
     os.makedirs(V5_DIR, exist_ok=True)
     if version != CURRENT_VERSION:
-        existing = _load_existing_json(V4_JSON_PATH)
+        os.makedirs(os.path.dirname(V4_JSON_PATH), exist_ok=True)
+        existing = _load_existing_json(V4_JSON_PATH) or _load_existing_json(minified_path(V4_JSON_PATH))
         seen = {c["id"] for c in existing}
         merged = {c["id"]: c for c in existing}
         for c in new_cards:
@@ -202,7 +259,7 @@ def update_cards(new_cards, version):
         merged[c["id"]] = c
 
     final_set_cards = list(merged.values())
-    final_set_cards.sort(key=lambda x: x["id"])
+    final_set_cards.sort(key=_card_number)
 
     minify_and_save(final_set_cards, set_json_path)
     return len(to_add)
@@ -217,9 +274,8 @@ def compile_v5_database():
     set, and writes a master ``cards.json`` containing every card
     sorted by set code then card ID.
 
-    This is the full rebuild path. It should be called after all
-    sets have been scraped and updated, to produce the final
-    consistent state of the database.
+    Call this after all sets are scraped and updated, to get the
+    final consistent database.
 
     The steps are:
 
@@ -227,12 +283,12 @@ def compile_v5_database():
     2. Call :func:`sync_alternate_versions` to make alternate version
        references bidirectional.
     3. Group cards by ``set_code``.
-    4. For each set, sort by card ID and save to
+    4. For each set, sort by numeric card number and save to
        ``V5_DIR/{prefix}/{prefix}.json``.
     5. For each set, call :func:`update_expansions` to update the
        expansions index.
-    6. Sort all cards by ``(set_code, id)`` and save to
-       ``V5_DIR/cards.json``.
+    6. Sort all cards by natural set order then card number and save
+       to ``V5_DIR/cards.json``.
     """
     os.makedirs(V5_DIR, exist_ok=True)
     all_cards = read_all_v5_cards()
@@ -243,15 +299,14 @@ def compile_v5_database():
         set_groups.setdefault(c["set_code"], []).append(c)
 
     for prefix, cards in set_groups.items():
-        cards.sort(key=lambda x: x["id"])
+        cards.sort(key=_card_number)
         set_dir = os.path.join(V5_DIR, prefix)
         minify_and_save(cards, os.path.join(set_dir, f"{prefix}.json"))
         if cards:
             update_expansions(prefix, cards[0]["set_name"], cards)
 
-    all_cards.sort(key=lambda x: (x["set_code"], x["id"]))
-    main_json = os.path.join(V5_DIR, "cards.json")
-    minify_and_save(all_cards, main_json)
+    all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
+    minify_and_save(all_cards, CARDS_JSON_PATH)
 
 
 def update_expansions(set_code, expansion_name, cards):
@@ -263,9 +318,10 @@ def update_expansions(set_code, expansion_name, cards):
     pack list, and URLs to the set's JSON files on GitHub.
 
     Pack detection works by collecting the unique ``pack`` values
-    from the cards, excluding packs that start with ``"Shared("``.
-    If no unique packs remain, or the only pack is the expansion
-    name itself, a single generic ``"Booster"`` pack is created.
+    from the cards, excluding packs that start with ``"Shared("`` and
+    packs equal to the expansion name, neither of which names a real
+    pack. If no unique packs remain, a single generic ``"Booster"``
+    pack is created.
     Otherwise one pack entry is created per unique pack name, with
     the pack name slugified for the pack ID and image filenames.
 
@@ -285,7 +341,7 @@ def update_expansions(set_code, expansion_name, cards):
         image URLs point to the GitHub raw content CDN.
     """
     prefix = set_code_to_prefix(set_code)
-    is_promo = prefix.startswith("p")
+    is_promo = prefix in PROMO_PREFIXES
     expansions = _load_existing_json(EXPANSIONS_JSON_PATH)
 
     exp_obj = next((e for e in expansions if e["id"] == prefix), None)
@@ -294,7 +350,8 @@ def update_expansions(set_code, expansion_name, cards):
         expansions.append(exp_obj)
     exp_obj["name"] = expansion_name
 
-    unique_packs = sorted({c["pack"] for c in cards if not c["pack"].startswith("Shared(")})
+    unique_packs = sorted({c["pack"] for c in cards
+                           if not c["pack"].startswith("Shared(") and c["pack"] != expansion_name})
     packs = []
 
     if not unique_packs or unique_packs == [expansion_name]:

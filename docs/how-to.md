@@ -10,7 +10,7 @@ python3 scripts/add_expansion.py b4a
 
 ## Update promo sets
 
-Promo sets add cards over time. Running the command for a promo set fetches only the newly added cards. It ignores existing entries to prevent duplication.
+Promo sets add cards over time. Running the command for a promo set re-scrapes the entire set from card 1. Existing entries are overwritten in place, so there is no duplication.
 
 ```bash
 python3 scripts/add_expansion.py pb
@@ -18,7 +18,7 @@ python3 scripts/add_expansion.py pb
 
 ## Scrape a chronological range of sets
 
-If you are building the database from scratch or need to backfill multiple sets, use the arrow syntax (`->`). The script resolves the timeline and scrapes every set in order.
+If you are building the database from scratch or need to backfill multiple sets, use the arrow syntax (`->`). The script resolves the timeline and scrapes every set in chronological order.
 
 ```bash
 python3 scripts/add_expansion.py a1->b4
@@ -26,7 +26,9 @@ python3 scripts/add_expansion.py a1->b4
 
 ## Output data for legacy schemas
 
-If your application still relies on the flat V4 schema, you can force the scraper to output V4 formatted data. Add the `--mode v4` flag o format the output for the legacy schema.
+If your application still relies on the flat v4 schema, you can force the scraper to output v4-formatted data. Add the `--mode v4` flag to format the output for the legacy schema.
 ```bash 
 python3 scripts/add_expansion.py b4 --mode v4
 ```
+
+V4 output is merged into `data/v4/v4.json` and `data/v4/v4.min.json`. The minified file is the one published to npm.

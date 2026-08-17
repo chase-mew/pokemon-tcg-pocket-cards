@@ -28,32 +28,7 @@ which reads a local file.
 import re
 import json
 from datetime import datetime
-from constants import TRAINER_SUBTYPES, TAG_DEFINITIONS
-
-def clean_text(text):
-    r"""clean_text(text) -> str or None
-
-    Collapse runs of whitespace (newlines, tabs, multiple spaces) into
-    a single space and strip leading and trailing whitespace. Returns
-    None if the input is falsy or if nothing is left after cleaning.
-
-    Args:
-        text (str or None): the text to clean
-
-    Returns:
-        str or None: cleaned text, or None if the result would be empty
-
-    Example::
-
-        >>> clean_text("  Charizard\n  ex  ")
-        'Charizard ex'
-        >>> clean_text("   ")
-        None
-    """
-    if not text:
-        return None
-    cleaned = re.sub(r'\s+', ' ', text).strip()
-    return cleaned if cleaned else None
+from constants import TRAINER_SUBTYPES
 
 def normalise_set_code(code):
     r"""normalise_set_code(code) -> str
@@ -80,6 +55,33 @@ def normalise_set_code(code):
     """
     c = code.strip().upper().replace("-", "")
     return f"P-{c[1]}" if len(c) == 2 and c[0] == 'P' else c
+
+
+def clean_text(text):
+    r"""clean_text(text) -> str or None
+
+    Collapse runs of whitespace (newlines, tabs, multiple spaces) into
+    a single space and strip leading and trailing whitespace. Returns
+    None if the input is falsy or if nothing is left after cleaning.
+
+    Args:
+        text (str or None): the text to clean
+
+    Returns:
+        str or None: cleaned text, or None if the result would be empty
+
+    Example::
+
+        >>> clean_text("  Charizard\n  ex  ")
+        'Charizard ex'
+        >>> clean_text("   ")
+        None
+    """
+    if not text:
+        return None
+    cleaned = re.sub(r'\s+', ' ', text).strip()
+    return cleaned if cleaned else None
+
 
 def _load_existing_json(filepath):
     r"""_load_existing_json(filepath) -> list or dict

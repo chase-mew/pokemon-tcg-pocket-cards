@@ -24,6 +24,12 @@
   },
   "types": "./data/v5/cards.d.ts",
   "files": ["data"],
+  "scripts": {
+    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^15.0.4"
+  },
   "keywords": [
     "pokemon",
     "tcg",

@@ -60,12 +60,15 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # Versioned data
 CURRENT_VERSION = 5
+DATA_DIR = os.path.join(ROOT_DIR, "data")
 V1_JSON_PATH = os.path.join(ROOT_DIR, "v1.json")
 V2_JSON_PATH = os.path.join(ROOT_DIR, "v2.json")
-V3_JSON_PATH = os.path.join(ROOT_DIR, "v3.json")
-V4_JSON_PATH = os.path.join(ROOT_DIR, "v4.json")
-V5_DIR = os.path.join(ROOT_DIR, "data", "v5")
+V3_JSON_PATH = os.path.join(DATA_DIR, "v3", "v3.json")
+V4_JSON_PATH = os.path.join(DATA_DIR, "v4", "v4.json")
+V5_DIR = os.path.join(DATA_DIR, "v5")
 EXPANSIONS_JSON_PATH = os.path.join(V5_DIR, "expansions.json")
+CARDS_JSON_PATH = os.path.join(V5_DIR, "cards.json")
+CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.schema.json")
 
 # Images
 IMAGES_DIR = os.path.join(ROOT_DIR, "images")

@@ -20,9 +20,8 @@
 r"""Add a new expansion to the Pokemon TCG Pocket cards database.
 
 Scrapes card data from Limitless TCG, downloads card images, and
-updates both the current card database and ``expansions.json`` (the
-expansion index). This is the main entry point script for adding or
-updating sets in the repository.
+updates both the card database and ``expansions.json`` (the
+expansion index). Main entry point for adding or updating sets.
 
 Usage::
 
@@ -46,21 +45,25 @@ import json
 import argparse
 import sys
 
-from constants import CURRENT_VERSION, V5_DIR
+from constants import CARDS_SCHEMA_PATH, CURRENT_VERSION
 from database import update_cards, update_expansions, compile_v5_database
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
-from transformer import transform_cards
+from transformer import downgrade_to_v4, transform_cards
 from utils import normalise_set_code, set_code_to_prefix
 
 
 def validate_schema(cards):
     r"""validate_schema(cards)
 
-    Validate a list of card dicts against the v5 JSON schema file at
-    ``V5_DIR/cards.schema.json``. Prints a confirmation message on
-    success and raises ``ValueError`` on failure with the JSON path
-    and error message from the validator.
+    Validate a list of card dicts against the v5 JSON schema at
+    :data:`constants.CARDS_SCHEMA_PATH`. Prints a confirmation
+    message on success and raises ``ValueError`` on failure with the
+    JSON path and error message from the validator.
+
+    The schema sets ``additionalProperties: false``, so this must run
+    after ``source_url`` has been stripped from the cards, which
+    happens at step 4 of :func:`process_single_set`.
 
     Args:
         cards (list of dict): transformed card dicts in v5 format,
@@ -73,7 +76,7 @@ def validate_schema(cards):
             error message includes the JSON path to the offending
             field and the validator's message.
     """
-    schema_path = os.path.join(V5_DIR, "cards.schema.json")
+    schema_path = CARDS_SCHEMA_PATH
     if not os.path.exists(schema_path):
         raise FileNotFoundError(
             f"Required V5 schema not found: {schema_path}"
@@ -100,10 +103,9 @@ def resolve_set_range(range_str):
     set codes between the start and end, inclusive, using the set
     list fetched from the Limitless TCG index page.
 
-    The index lists sets in reverse chronological order (newest
-    first). This function reverses that list so the range is
-    resolved in chronological order (oldest first), matching the
-    order sets should be processed in.
+    The index lists sets newest first. This function reverses that
+    list so the range resolves oldest first, which is the order sets
+    should be processed in.
 
     If the start code sorts after the end code in the reversed list,
     the two indices are swapped so the range still covers all sets
@@ -148,22 +150,25 @@ def process_single_set(set_code, args):
 
     Run the full six-step pipeline for a single set:
 
-    1. **Discover**: fetch the expansion name and release date from
+    1. Discover: fetch the expansion name and release date from
        the Limitless TCG index page. If ``args.name`` is set, the
        provided name overrides the auto-detected one.
-    2. **Scrape**: download every card page for the set from
+    2. Scrape: download every card page for the set from
        Limitless TCG and parse the raw card data.
-    3. **Transform**: convert raw card dicts to the output schema
-       (v5 or v4). In v5 mode, validate against the JSON schema
-       before proceeding.
-    4. **Download images**: fetch card artwork from Limitless TCG
+    3. Transform: convert raw card dicts to the v5 schema. The
+       v4 downgrade is deferred to step 5 because it drops
+       ``source_url``, which step 4 needs.
+    4. Download images: fetch card artwork from Limitless TCG
        and save in WebP and PNG format. Skipped if
        ``args.skip_images`` is set, in which case ``source_url`` is
        popped from each card dict without downloading.
-    5. **Update database**: merge the transformed cards into the
-       appropriate JSON file (per-set for v5, single file for v4)
-       and update the expansions index (v5 only).
-    6. **Download pack images**: fetch pack artwork from Serebii.
+    5. Update database: in v4 mode, downgrade the cards first; in
+       v5 mode, validate against the JSON schema (which happens here
+       rather than at step 3 because ``source_url`` is only stripped
+       at step 4). Then merge into the appropriate JSON file (per-set
+       for v5, single file for v4) and update the expansions index
+       (v5 only).
+    6. Download pack images: fetch pack artwork from Serebii.
        Skipped if ``args.skip_images`` is set or if no packs were
        produced (v4 mode).
 
@@ -203,9 +208,7 @@ def process_single_set(set_code, args):
 
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
-    cards = transform_cards(raw_cards, set_code, expansion_name, args.mode, release_date)
-    if args.mode == "v5":
-        validate_schema(cards)
+    cards = transform_cards(raw_cards, set_code, expansion_name, "v5", release_date)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
@@ -219,7 +222,12 @@ def process_single_set(set_code, args):
 
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
-    target_version = 4 if args.mode == "v4" else CURRENT_VERSION
+    if args.mode == "v4":
+        cards = downgrade_to_v4(cards)
+        target_version = 4
+    else:
+        validate_schema(cards)
+        target_version = CURRENT_VERSION
     added = update_cards(cards, target_version)
 
     if args.mode == "v4":
@@ -257,7 +265,9 @@ def main():
 
     - ``set_code`` (positional, optional): a set code or range.
       Required unless ``--all`` is given.
-    - ``--all``: scrape all sets from the index, newest first.
+    - ``--all``: scrape every set on the index. The index lists them
+      newest first, so the list is reversed and processed oldest
+      first, which is the order the art-style state machine expects.
     - ``--name``: override the auto-detected expansion name. Cannot
       be used with ``--all``.
     - ``--mode``: output schema, ``"v4"`` or ``"v5"``. Default:
