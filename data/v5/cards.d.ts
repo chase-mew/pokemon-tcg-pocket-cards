@@ -135,7 +135,7 @@ export type PokemonTCGPocketCardsV5Schema = {
   /**
    * URL to the PNG version of the card image.
    */
-  image_png?: string;
+  image_png: string;
   /**
    * The lore text printed on the card.
    */
@@ -162,7 +162,6 @@ export type PokemonTCGPocketCardsV5Schema = {
     rarity: string;
     [k: string]: unknown;
   }[];
-  [k: string]: unknown;
 }[];
 
 /**

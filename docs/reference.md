@@ -47,7 +47,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 
 ## V4 Schema
 
-The **[v4](../data/v4/v4.min.json)** schema is a legacy flat structure. It lacks arrays and objects.
+The **[v4](../data/v4/cards.min.json)** schema is a legacy flat structure. It lacks arrays and objects.
 
 | Field     | Type   | Description                                   |
 |:----------|:-------|:----------------------------------------------|
@@ -87,3 +87,5 @@ The tests cover:
 - **Invariants:** verifies that sets are contiguous blocks, numbering has no gaps, and art styles follow the correct ordering (e.g., Full Arts precede Special Illustration Arts).
 - **Cross-file consistency:** ensures every set in the JSON has a matching entry in the expansions file, and that pack names align exactly between the two files.
 - **Image availability:** Checks that every scraped card has both a WebP and PNG file present in the local [images/](../images) folder.
+- **Published artifacts:** validates `cards.json` and `expansions.json` against the committed JSON Schemas, checks every `.min.json` against its source, checks the generated `cards.d.ts` for stale or optional fields, and checks that every `package.json` export resolves to a file on disk.
+- **Pipeline units:** exercises the scraper's HTML parsing, the art-style state machine (including shiny detection after the Immersive block), the v4 downgrade, the merge and sort logic in `database.py`, the deck-code encoder, and the image downloader's URL allow-list — all without network access.

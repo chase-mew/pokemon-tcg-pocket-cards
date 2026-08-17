@@ -12,6 +12,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate the data before publishing
+        run: |
+          pip install -r requirements.txt
+          pytest tests/ -q
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -22,7 +34,7 @@ jobs:
       - name: Sync version to release tag
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
-          npm version "$VERSION" --no-git-tag-version
+          npm version "$VERSION" --no-git-tag-version --allow-same-version
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund

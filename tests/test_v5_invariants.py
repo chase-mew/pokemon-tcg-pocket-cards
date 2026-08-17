@@ -157,8 +157,8 @@ class TestDatabaseSanity:
         assert len(expansions) >= 5, f"Only {len(expansions)} expansions"
 
     def test_v4_not_overwritten_by_v5_schema(self, v4_cards):
-        """v4.json stays on the legacy string schema."""
-        assert v4_cards and "fullart" in v4_cards[0], "v4.json looks like it was written with v5 fields"
+        """cards.json stays on the legacy string schema."""
+        assert v4_cards and "fullart" in v4_cards[0], "cards.json looks like it was written with v5 fields"
 
 
 class TestDeckCodeBinaryParity:

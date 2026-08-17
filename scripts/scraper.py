@@ -310,7 +310,8 @@ def extract_card(soup, set_code=""):
         ability["effect"] = clean_text(ability_div.find("p", class_="card-text-ability-effect").text)
 
     ex = "ex" in name.split(" ")
-    mega = not is_trainer and (name.startswith("Mega ") or "Mega Evolution ex rule" in raw_text)
+    mega = not is_trainer and bool(
+        name.startswith("Mega ") or re.search(r"Mega Evolution\s*e\s*x\s*rule", raw_text))
     points = None if is_trainer else (3 if mega and ex else 2 if ex else 1)
 
     attacks = {str(n): {"cost": None, "name": None, "damage": None, "effect": None} for n in (1, 2)}

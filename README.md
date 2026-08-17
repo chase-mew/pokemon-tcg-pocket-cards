@@ -15,6 +15,19 @@ npm install pokemon-tcg-pocket-cards
 
 Open a pull request if you find missing cards or errors.
 
+### 📦 Moved files
+
+Every dataset now lives under [data/](data/). If you link to a raw file at the repository root, update the URL:
+
+| Old (removed)          | New                                                                    |
+|------------------------|------------------------------------------------------------------------|
+| `/v1.json`             | [data/v1/v1.json](data/v1/cards.json)                                     |
+| `/v2.json`             | [data/v2/v2.json](data/v2/cards.json)                                     |
+| `/v4.json`             | [data/v4/v4.json](data/v4/cards.json)                                     |
+| `/expansions.json`     | [data/v4/expansions.json](data/v4/expansions.json) (frozen v4-era index) |
+
+The v5 index that replaces the old root `expansions.json` is [data/v5/expansions.json](data/v5/expansions.json); it adds `release_date`, `total_cards`, and per-set `cards_url` fields. Every dataset also ships a `.min.json` sibling.
+
 ## 💾 Data Source
 
 Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**    
@@ -59,7 +72,7 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](data/v4/v4.min.json)** | **[💚 V5](data/v5/cards.json)** (newer)                                        |
+| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[💚 V5](data/v5/cards.json)** (newer)                                        |
 |------------------------------------|---------------------------|--------------------------------------------------------------------------------------|
 | Missing values                     | Empty strings ("")        | null                                                                                 |
 | Image formats                      | PNG only                  | WEBP (default) and PNG                                                               |
@@ -82,8 +95,8 @@ python3 scripts/add_expansion.py PB
 ### 💼 Support schedule
 
 **[💚 V5](data/v5/cards.json) is the actively maintained data model.**   
-[💛 V4](data/v4/v4.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
-Versions [V3](data/v3/v3.json) and earlier are fully deprecated and no longer updated.
+[💛 V4](data/v4/cards.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
+Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
 
 ## 🛠️ Projects using this API
 
@@ -100,7 +113,7 @@ Submit a pull request to list your project here if you build something with this
 
 - **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).    
 See **[LICENSE](LICENSE)** for the full license text.
-- Legacy card datasets (**[v1.json](v1.json), [v2.json](v2.json), [v3.json](data/v3/v3.json), [v4.json](data/v4/v4.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
+- Legacy card datasets (**[v1.json](data/v1/cards.json), [v2.json](data/v2/cards.json), [v3.json](data/v3/cards.json), [v4.json](data/v4/cards.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
 - **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.    
 It was ported to Python under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`), Copyright (C) 2026 **Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>**.

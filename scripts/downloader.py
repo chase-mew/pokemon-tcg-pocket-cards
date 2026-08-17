@@ -128,6 +128,13 @@ def download_pack_images(expansion_name, packs):
         less strict than :func:`download_images` because missing pack
         art is cosmetic, not a pipeline-breaking problem.
 
+    .. note::
+
+        Packs whose ``image`` is ``None`` are skipped. That is how
+        :func:`update_expansions` marks promo packs, which have no
+        pack art in the game: downloading them would write files that
+        nothing in the published data ever references.
+
     Args:
         expansion_name (str): the expansion name, slugified for the
             Serebii URL path (e.g. ``"Genetic Apex"``)
@@ -141,6 +148,8 @@ def download_pack_images(expansion_name, packs):
     exp_slug = serebii_slug(expansion_name)
 
     for pack in packs:
+        if pack.get("image") is None:
+            continue
         out_webp, out_png = os.path.join(WEBP_PACKS_DIR, f"{pack['id']}.webp"), os.path.join(PNG_PACKS_DIR, f"{pack['id']}.png")
         if os.path.exists(out_webp) and os.path.exists(out_png):
             continue

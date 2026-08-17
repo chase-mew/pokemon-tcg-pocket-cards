@@ -21,6 +21,7 @@
 
 import json
 from constants import V1_JSON_PATH, V2_JSON_PATH, V4_JSON_PATH
+from database import minify_and_save
 
 for v in (V1_JSON_PATH, V2_JSON_PATH, V4_JSON_PATH):
     with open(v, "r", encoding="utf-8") as f:
@@ -34,5 +35,10 @@ for v in (V1_JSON_PATH, V2_JSON_PATH, V4_JSON_PATH):
             f"{prefix}/{num}.png"
         )
 
-    with open(v, "w", encoding="utf-8") as f:
-        json.dump(cards, f, indent=2, ensure_ascii=False)
+    if v == V4_JSON_PATH:
+        # v4 is published from its .min.json sibling, so both files have to move
+        minify_and_save(cards, v)
+    else:
+        # v1/v2 have no minified sibling; explicit LF keeps Windows runs diff-free
+        with open(v, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(cards, f, indent=2, ensure_ascii=False)

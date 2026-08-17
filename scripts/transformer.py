@@ -241,9 +241,11 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
                 in_fullart = True
             if in_fullart and seen_trainer_fa and (card["mega"] or card["ex"]):
                 in_fullart, in_sia = False, True
+            if not (in_sia or in_fullart):
+                in_fullart = True
             if in_sia:
                 art_style = "Special Illustration Art"
-            elif in_fullart:
+            else:
                 art_style = "Full Art"
                 if card["type"] == "Trainer": seen_trainer_fa = True
 
