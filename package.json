@@ -17,10 +17,10 @@
       "types": "./data/v5/expansions.d.ts",
       "default": "./data/v5/expansions.min.json"
     },
-    "./v1": "./data/v1/v1.min.json",
-    "./v2": "./data/v2/v2.min.json",
-    "./v3": "./data/v3/v3.min.json",
-    "./v4": "./data/v4/v4.min.json",
+    "./v1": "./data/v1/cards.min.json",
+    "./v2": "./data/v2/cards.min.json",
+    "./v3": "./data/v3/cards.min.json",
+    "./v4": "./data/v4/cards.min.json",
     "./v4/expansions": "./data/v4/expansions.min.json",
     "./data/*": "./data/*",
     "./package.json": "./package.json"
