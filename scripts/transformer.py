@@ -18,28 +18,93 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
+r"""Transform raw scraped card data into the output JSON format.
+
+This module takes the card dicts produced by the scraper and enriches
+them with art-style classification, pack points, promo volume grouping,
+deck-builder numbers, special tags, and canonical image URLs. It
+supports two output formats: ``v5`` (the full enriched schema) and
+``v4`` (a reduced schema for backward compatibility).
+"""
+
 import re
 import requests
-from constants import GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS
+from functools import lru_cache
+from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, PARALLEL_FOIL_RARITIES, DEFAULT_TIMEOUT
 from utils import set_code_to_prefix, compile_tag_matchers
-from deck_code import get_deck_builder_nr, create_single_card_code
+from deck_code import get_deck_builder_nr
 
+@lru_cache(maxsize=1)
 def fetch_datamine_lookup():
+    r"""fetch_datamine_lookup() -> dict
+
+    Download the Flibustier PTCGP card database and build a lookup
+    table mapping ``(set_code, card_number)`` tuples to deck-builder
+    numbers.
+
+    The set codes from the database are normalised to match the
+    prefixes used in card IDs: promo codes like ``"promo-a"`` become
+    ``"pa"``, and regular codes have hyphens stripped.
+
+    The result is cached for the lifetime of the process, so a run
+    that processes many sets downloads the database once.
+
+    Returns:
+        dict: keys are ``(str, int)`` tuples of (set prefix, card
+        number). Values are deck-builder numbers (int).
+
+    Raises:
+        RuntimeError: if the database cannot be downloaded, does not
+            return HTTP 200, or parses to an empty lookup.
+
+    .. note::
+
+        This deliberately fails loudly. Returning an empty lookup
+        would silently write ``deckBuilderNr: 0`` for every card in
+        the run, which passes both the JSON schema and the test
+        suite, so a transient network error would poison the dataset
+        with no visible symptom.
+    """
     lookup = {}
     try:
-        resp = requests.get("https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json", timeout=10)
-        if resp.status_code == 200:
-            for card in resp.json():
-                c_set = str(card.get("set", "")).lower().replace("-", "")
-                c_num = card.get("number")
-                if c_set and c_num is not None:
-                    nr = get_deck_builder_nr(card.get("image", ""))
-                    if nr: lookup[(c_set, int(c_num))] = nr
-    except requests.RequestException:
-        pass
+        resp = SESSION.get(FLIBUSTIER_PTCGP_DB_URL, timeout=DEFAULT_TIMEOUT)
+        resp.raise_for_status()
+        for card in resp.json():
+            c_set = str(card.get("set", "")).lower()
+            c_set = f"p{c_set.split('-')[-1]}" if c_set.startswith("promo-") else c_set.replace("-", "")
+            c_num = re.sub(r"\D", "", str(card.get("number", "")))
+            if c_set and c_num:
+                nr = get_deck_builder_nr(card.get("image", ""))  # memoize this if dataset gets huge
+                if nr: lookup[(c_set, int(c_num))] = nr
+    except (requests.RequestException, ValueError) as e:
+        raise RuntimeError(
+            f"Could not build the deck-builder lookup from {FLIBUSTIER_PTCGP_DB_URL}: {e}"
+        ) from e
+
+    if not lookup:
+        raise RuntimeError(
+            f"The deck-builder lookup from {FLIBUSTIER_PTCGP_DB_URL} parsed to zero entries. "
+            "Refusing to continue, as every card would be written with deckBuilderNr 0."
+        )
     return lookup
 
 def _to_v4(card):
+    r"""_to_v4(card) -> dict
+
+    Convert a single v5 card dict into the v4 JSON format. Maps v5
+    field names to their v4 equivalents and flattens some fields:
+    ``art_style`` is reduced to a ``"Yes"``/``"No"`` ``fullart`` flag,
+    and ``hp`` is stringified.
+
+    Args:
+        card (dict): a card dict in v5 format, as produced by
+            :func:`transform_cards`
+
+    Returns:
+        dict: the card in v4 format, with keys ``id``, ``name``,
+        ``rarity``, ``pack``, ``health``, ``image``, ``fullart``,
+        ``ex``, ``artist``, and ``type``
+    """
     return {
         "id": card["id"],
         "name": card["name"],
@@ -47,13 +112,101 @@ def _to_v4(card):
         "pack": card["pack"],
         "health": str(card["health"]) if card["health"] else "",
         "image": card["image_png"],
-        "fullart": "Yes" if card.get("art_style") in ("Full Art", "Special Illustration Art", "Immersive Art", "Shiny Full Art") else "No",
+        "fullart": "Yes" if card["rarity"] in {"☆", "☆☆", "☆☆☆", "♕", "Crown Rare"} else "No",
         "ex": "Yes" if card["ex"] else "No",
         "artist": card["artist"],
-        "type": card["subtype"]
+        "type": card["subtype"] if card["type"] == "Pokémon" else "Trainer"
     }
 
+
+def downgrade_to_v4(cards):
+    r"""downgrade_to_v4(cards) -> list of dict
+
+    Convert a list of v5 card dicts to the legacy v4 format.
+
+    Call this *after* the pipeline stages that need v5-only fields.
+    In particular :func:`downloader.download_images` reads
+    ``source_url``, which :func:`_to_v4` does not carry over, so
+    downgrading too early leaves the downloader with nothing to fetch.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: the same cards in v4 format
+    """
+    return [_to_v4(c) for c in cards]
+
+
 def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date=None):
+    r"""transform_cards(raw_cards, set_code, expansion_name, mode='v5', release_date=None) -> list of dict
+
+    Transform raw scraped card dicts into the output format used by
+    the API. Each card is enriched with:
+
+    - Art style (Illustration Art, Full Art, Special Illustration
+      Art, Immersive Art, Shiny, Shiny Full Art, Parallel Foil).
+      Classification is inferred from rarity sequences and raw text
+      duplication between consecutive cards.
+    - Pack points from ``PACK_POINTS`` or ``SHINY_PACK_POINTS``
+      depending on whether the card is shiny. Promo cards get None.
+    - Promo pack volume grouping for ``P-A`` cards, using
+      ``PROMO_CARDS_PER_VOLUME`` to split cards into numbered volumes.
+    - Deck-builder numbers and share codes from the Flibustier
+      datamine lookup.
+    - Special tags (ancient, future, ultra beasts) matched against
+      card names using compiled regex patterns.
+    - Image URLs pointing to the GitHub raw content CDN, in both
+      WebP and PNG formats.
+
+    When ``mode`` is ``"v4"``, each card is converted to the v4
+    format via :func:`_to_v4` before returning.
+
+    Args:
+        raw_cards (list of dict): cards as returned by
+            :func:`scrape_cards`, in card-number order
+        set_code (str): the set code (e.g. ``"a1"``, ``"P-A"``)
+        expansion_name (str): human-readable expansion name
+            (e.g. ``"Genetic Apex"``)
+        mode (str): output format. ``"v5"`` for the full enriched
+            schema, ``"v4"`` for the reduced backward-compatible
+            schema. Default: ``"v5"``
+        release_date (str or None): release date in ``"YYYY-MM-DD"``
+            format, included in each card's output. Default: ``None``
+
+    Returns:
+        list of dict: one transformed card dict per input card. In
+        v5 mode each dict has about 30 keys spanning identity,
+        classification, gameplay, deck-builder, and media fields.
+        In v4 mode each dict has the 10 v4 keys.
+
+    .. note::
+
+        Art style detection depends on the order of cards in
+        ``raw_cards`` matching the website's rarity progression.
+        Reordering or filtering ``raw_cards`` before calling this
+        function can misclassify art styles, since the logic tracks
+        state transitions (first three-star, first trainer full art)
+        across consecutive cards.
+
+    .. note::
+
+        This function calls :func:`fetch_datamine_lookup` internally.
+        That call is cached, so transforming several sets in one run
+        downloads the datamine database once. If the download fails
+        the lookup raises rather than returning empty, so a network
+        error aborts the run instead of writing zeroed
+        ``deckBuilderNr`` values.
+
+    Example::
+
+        >>> cards = scrape_cards("a1")
+        >>> transformed = transform_cards(cards, "a1", "Genetic Apex")
+        >>> transformed[0]["id"]
+        'a1-001'
+        >>> transformed[0]["name"]
+        'Bulbasaur'
+    """
     prefix = set_code_to_prefix(set_code)
     is_pa = set_code == "P-A"
     is_promo = set_code.startswith("P-")
@@ -64,6 +217,7 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
     last_raw_text, prev_rarity = "", ""
     datamine_lookup = fetch_datamine_lookup()
     tag_matchers = compile_tag_matchers(TAG_DEFINITIONS)
+    missing_deck_nrs = []
 
     transformed = []
     for card in raw_cards:
@@ -87,16 +241,21 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
                 in_fullart = True
             if in_fullart and seen_trainer_fa and (card["mega"] or card["ex"]):
                 in_fullart, in_sia = False, True
+            if not (in_sia or in_fullart):
+                in_fullart = True
             if in_sia:
                 art_style = "Special Illustration Art"
-            elif in_fullart:
+            else:
                 art_style = "Full Art"
                 if card["type"] == "Trainer": seen_trainer_fa = True
 
-        if raw_text and raw_text == last_raw_text:
+        if raw_text and raw_text == last_raw_text and rarity in PARALLEL_FOIL_RARITIES:
             art_style = "Parallel Foil"
 
-        if card["type"] == "Trainer": shiny = False
+        if card["type"] == "Trainer" and art_style in ("Shiny", "Shiny Full Art"):
+            shiny, art_style = False, None
+        elif card["type"] == "Trainer":
+            shiny = False
         prev_rarity, last_raw_text = rarity, raw_text
 
         pack_points = None if is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
@@ -109,16 +268,19 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
                 if promo_volume_count > PROMO_CARDS_PER_VOLUME:
                     promo_volume, promo_volume_count = promo_volume + 1, 1
                 pack = f"Promo V{promo_volume}"
+            elif pack == "Every pack":
+                pack = expansion_name
         elif is_promo: pack = expansion_name
         elif pack == "Every pack": pack = f"Shared({expansion_name})" if specific_packs else expansion_name
         elif pack.endswith(" pack"): pack = pack[:-5].strip()
 
         try:
-            num_int = int(re.sub(r"\D", "", card["number"]))
-            deck_builder_nr = datamine_lookup.get((prefix.lower(), num_int))
+            deck_builder_nr = datamine_lookup.get((prefix.lower(), int(re.sub(r"\D", "", card["number"]))))
         except ValueError:
             deck_builder_nr = None
-        share_code = create_single_card_code(deck_builder_nr)
+        if not deck_builder_nr:
+            missing_deck_nrs.append(f"{prefix}-{num_zfill}")
+            deck_builder_nr = 0
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
         special_tags = matched_tags if matched_tags else None
 
@@ -133,7 +295,7 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
 
             # Classification
             "type": card["type"],
-            "subtype": card["subtype"],
+            "subtype": card["subtype"] or "Unknown",
             "stage": card["stage"],
             "evolves_from": card["evolves_from"],
             "rarity": rarity,
@@ -155,9 +317,8 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
             "attacks": card["attacks"],
             "points": card["points"],
 
-            # Deck builder references
+            # Deck builder reference
             "deckBuilderNr": deck_builder_nr,
-            "share_code": share_code,
 
             # Media & Metadata
             "artist": card["artist"],
@@ -165,10 +326,20 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
             "image": f"{GITHUB_BASE_URL}/webp/cards/{prefix}/{num_zfill}.webp",
             "image_png": f"{GITHUB_BASE_URL}/png/cards/{prefix}/{num_zfill}.png",
             "flavour_text": card["flavour_text"],
-            "alternate_versions": card["alternate_versions"],
+            "alternate_versions": [
+                {**alt, "set_code": set_code_to_prefix(alt["set_code"].upper())}
+                for alt in card["alternate_versions"]
+                if f"{set_code_to_prefix(alt['set_code'].upper())}-{str(alt['id']).zfill(3)}" != f"{prefix}-{num_zfill}"
+            ],
         })
 
+    if missing_deck_nrs:
+        print(f"    WARNING: {len(missing_deck_nrs)} card(s) are not in the deck-builder "
+              f"datamine and were written with deckBuilderNr 0: "
+              f"{', '.join(missing_deck_nrs[:10])}"
+              f"{' ...' if len(missing_deck_nrs) > 10 else ''}")
+
     if mode == "v4":
-        return [_to_v4(c) for c in transformed]
+        return downgrade_to_v4(transformed)
 
     return transformed

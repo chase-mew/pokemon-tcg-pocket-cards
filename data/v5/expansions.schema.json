@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.schema.json",
+  "title": "Pokemon TCG Pocket Expansions V5 Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Expansion identifier (e.g. 'a1', 'a1a', 'pa')."
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name of the expansion."
+      },
+      "release_date": {
+        "type": ["string", "null"],
+        "format": "date",
+        "description": "ISO 8601 release date (YYYY-MM-DD), or null for promo sets."
+      },
+      "total_cards": {
+        "type": "integer",
+        "minimum": 0,
+        "description": "Total number of cards in the expansion."
+      },
+      "cards_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the full (pretty-printed) card JSON for this expansion."
+      },
+      "cards_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified card JSON for this expansion."
+      },
+      "packs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Pack identifier (e.g. 'a1-charizard', 'pa-promov1')."
+            },
+            "name": {
+              "type": "string",
+              "description": "Display name of the pack."
+            },
+            "image": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "description": "URL to the WebP pack image."
+            },
+            "image_png": {
+              "type": ["string", "null"],
+              "format": "uri",
+              "description": "URL to the PNG pack image."
+            }
+          },
+          "required": ["id", "name", "image", "image_png"],
+          "additionalProperties": false
+        },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "release_date",
+      "total_cards",
+      "cards_url",
+      "cards_url_min",
+      "packs"
+    ],
+    "additionalProperties": false
+  }
+}

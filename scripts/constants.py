@@ -17,9 +17,15 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
+import os
 
 import requests
-import os
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# ---------------------------------------------------------------------------
+# URLs
+# ---------------------------------------------------------------------------
 
 BASE_URL = "https://pocket.limitlesstcg.com/cards/"
 GITHUB_BASE_URL = (
@@ -27,62 +33,117 @@ GITHUB_BASE_URL = (
     "pokemon-tcg-pocket-cards/refs/heads/main/images"
 )
 SEREBII_BASE_URL = "https://www.serebii.net/tcgpocket/"
+FLIBUSTIER_PTCGP_DB_URL = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json"
+
+# ---------------------------------------------------------------------------
+# HTTP Session
+# ---------------------------------------------------------------------------
 
 SESSION = requests.Session()
 SESSION.headers["User-Agent"] = (
     "pokemon-tcg-pocket-cards/1.0 (+https://github.com/chase-manning/pokemon-tcg-pocket-cards)"
 )
+retries = Retry(
+    total=5,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504],
+)
+SESSION.mount("https://", HTTPAdapter(max_retries=retries))
+SESSION.mount("http://", HTTPAdapter(max_retries=retries))
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
+
+# Versioned data
 CURRENT_VERSION = 5
-V1_JSON_PATH = os.path.join(ROOT_DIR, "v1.json")
-V2_JSON_PATH = os.path.join(ROOT_DIR, "v2.json")
-V3_JSON_PATH = os.path.join(ROOT_DIR, "v3.json")
-V4_JSON_PATH = os.path.join(ROOT_DIR, "v4.json")
-V5_JSON_PATH = os.path.join(ROOT_DIR, "v5.json")
-EXPANSIONS_JSON_PATH = os.path.join(ROOT_DIR, "expansions.json")
+DATA_DIR = os.path.join(ROOT_DIR, "data")
+V1_JSON_PATH = os.path.join(DATA_DIR, "v1", "cards.json")
+V2_JSON_PATH = os.path.join(DATA_DIR, "v2", "cards.json")
+V3_JSON_PATH = os.path.join(DATA_DIR, "v3", "cards.json")
+V4_JSON_PATH = os.path.join(DATA_DIR, "v4", "cards.json")
+V4_EXPANSIONS_JSON_PATH = os.path.join(DATA_DIR, "v4", "expansions.json")  # frozen v4-era index
+V5_DIR = os.path.join(DATA_DIR, "v5")
+EXPANSIONS_JSON_PATH = os.path.join(V5_DIR, "expansions.json")
+CARDS_JSON_PATH = os.path.join(V5_DIR, "cards.json")
+CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.schema.json")
+
+# Images
 IMAGES_DIR = os.path.join(ROOT_DIR, "images")
 WEBP_CARDS_DIR = os.path.join(IMAGES_DIR, "webp", "cards")
 PNG_CARDS_DIR = os.path.join(IMAGES_DIR, "png", "cards")
 WEBP_PACKS_DIR = os.path.join(IMAGES_DIR, "webp", "packs")
 PNG_PACKS_DIR = os.path.join(IMAGES_DIR, "png", "packs")
 
-ENERGY_TYPES = ("Grass", "Fire", "Water", "Lightning", "Psychic", "Fighting",
-                "Darkness", "Metal", "Dragon", "Colorless")
+# ---------------------------------------------------------------------------
+# Card Data
+# ---------------------------------------------------------------------------
+
+ENERGY_TYPES = (
+    "Grass", "Fire", "Water", "Lightning", "Psychic", "Fighting",
+    "Darkness", "Metal", "Dragon", "Colorless",
+)
 STAGES = ("Basic", "Stage 1", "Stage 2")
 RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "Crown Rare", "Promo")
-ART_STYLES = ("Illustration Art", "Full Art", "Special Illustration Art",
-              "Immersive Art", "Shiny", "Shiny Full Art", "Parallel Foil")
+PARALLEL_FOIL_RARITIES = ("◊", "◊◊", "◊◊◊")
+ART_STYLES = (
+    "Illustration Art", "Full Art", "Special Illustration Art",
+    "Immersive Art", "Shiny", "Shiny Full Art", "Parallel Foil",
+)
+TRAINER_SUBTYPES = ("Supporter", "Stadium", "Tool", "Item")
 PROMO_PREFIXES = ("pa", "pb")
 FIRST_RELEASE = "2024-10-30"  # A1
 
-PACK_POINTS = {"◊": 35, "◊◊": 70, "◊◊◊": 150, "◊◊◊◊": 500,
-               "☆": 400, "☆☆": 1250, "☆☆☆": 1500, "♕": 2500, "Crown Rare": 2500}
+# ---------------------------------------------------------------------------
+# Pack Points
+# ---------------------------------------------------------------------------
+
+PACK_POINTS = {
+    "◊": 35, "◊◊": 70, "◊◊◊": 150, "◊◊◊◊": 500,
+    "☆": 400, "☆☆": 1250, "☆☆☆": 1500,
+    "♕": 2500, "Crown Rare": 2500,
+}
 SHINY_PACK_POINTS = {"☆": 1000, "☆☆": 1350, "☆☆☆": 1500}
-TRAINER_SUBTYPES = ("Supporter", "Stadium", "Tool", "Item")
+
+# ---------------------------------------------------------------------------
+# Tag Definitions
+# ---------------------------------------------------------------------------
 
 TAG_DEFINITIONS = {
     "ancient": [
         "Great Tusk", "Scream Tail", "Brute Bonnet", "Flutter Mane",
         "Slither Wing", "Sandy Shocks", "Roaring Moon", "Koraidon",
-        "Walking Wake", "Gouging Fire", "Raging Bolt", "Sada", "Sada's"
+        "Walking Wake", "Gouging Fire", "Raging Bolt", "Sada", "Sada's",
     ],
     "future": [
         "Iron Treads", "Iron Bundle", "Iron Hands", "Iron Jugulis",
         "Iron Moth", "Iron Thorns", "Iron Valiant", "Miraidon",
-        "Iron Leaves", "Iron Boulder", "Iron Crown", "Turo", "Turo's"
+        "Iron Leaves", "Iron Boulder", "Iron Crown", "Turo", "Turo's",
     ],
     "ultra_beasts": [
         "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Celesteela",
         "Kartana", "Guzzlord", "Poipole", "Naganadel", "Stakataka",
         "Blacephalon", "Dawn Wings Necrozma", "Dusk Mane Necrozma",
-        "Necrozma", "Ultra Necrozma", "Lusamine", "Lusamine's"
-    ]
+        "Necrozma", "Ultra Necrozma", "Lusamine", "Lusamine's",
+    ],
 }
+
+# ---------------------------------------------------------------------------
+# Operational Constants
+# ---------------------------------------------------------------------------
 
 MAX_CONSECUTIVE_ERRORS = 5      # missing cards in a row = end of set
 MAX_RETRIES = 3                 # network retries per page
+DEFAULT_TIMEOUT = 15
+IMAGE_TIMEOUT = 30
+RATE_LIMIT_DELAY = 0.05
+
+# ---------------------------------------------------------------------------
+# Promo
+# ---------------------------------------------------------------------------
 
 PROMO_A_PACK_KEYWORDS = [
     "Premium Missions",

@@ -1,6 +1,10 @@
-import re
-from collections import defaultdict
+"""Legacy cross-file checks, kept from the v4 era.
 
+These now run against the v5 ``cards`` fixture. Most of them are superseded by
+tests/test_v5_invariants.py::TestExpansionsCrossFile; they are retained as a
+second opinion on the same data, not as v4 coverage.
+"""
+from collections import defaultdict
 
 PROMO_EXPANSION_ID = "promo"
 PROMO_CARD_PREFIXES = {"pa", "pb"}
@@ -12,7 +16,7 @@ def get_card_prefix(card_id):
 
 class TestCardExpansionMapping:
     def test_every_card_prefix_has_expansion(self, cards, expansions):
-        """Every card ID prefix should map to an expansion in expansions.json."""
+        """Every card ID prefix should map to an entry in expansions.json."""
         exp_ids = {e["id"] for e in expansions}
         exp_ids_with_promos = exp_ids | PROMO_CARD_PREFIXES
 
@@ -23,7 +27,7 @@ class TestCardExpansionMapping:
         )
 
     def test_every_expansion_has_cards(self, cards, expansions):
-        """Every expansion should have at least one card in v4.json."""
+        """Every expansion should have at least one card in the dataset."""
         card_prefixes = {get_card_prefix(c["id"]) for c in cards}
         card_prefixes_with_promo = card_prefixes | {PROMO_EXPANSION_ID}
 
@@ -33,7 +37,7 @@ class TestCardExpansionMapping:
             else:
                 has_cards = exp["id"] in card_prefixes_with_promo
             assert has_cards, (
-                f"Expansion '{exp['id']}' ({exp['name']}) has no cards in v4.json"
+                f"Expansion '{exp['id']}' ({exp['name']}) has no cards in cards.json"
             )
 
 

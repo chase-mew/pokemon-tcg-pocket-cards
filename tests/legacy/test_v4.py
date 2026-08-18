@@ -8,11 +8,14 @@ PNG_CARDS_DIR = os.path.join(ROOT_DIR, "images", "png", "cards")
 
 REQUIRED_FIELDS = ["id", "name", "rarity", "pack", "health", "image", "fullart", "ex", "artist", "type"]
 
+TRAINER_TYPES = {"Trainer", "Item", "Stadium", "Supporter", "Tool"}
+
 VALID_TYPES = {
     "Grass", "Fire", "Water", "Lightning", "Psychic",
     "Fighting", "Darkness", "Metal", "Dragon", "Colorless", "Fairy",
-    "Trainer",
-}
+} | TRAINER_TYPES
+
+FULLART_RARITIES = {"☆☆", "☆☆☆"}
 
 VALID_RARITIES = {"◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "♕", "Promo", "Crown Rare"}
 FULLART_RARITIES = {"☆", "☆☆", "☆☆☆", "♕", "Crown Rare"}
@@ -140,7 +143,7 @@ class TestCardType:
 class TestCardHealth:
     def test_pokemon_have_numeric_health(self, v4_cards):
         for card in v4_cards:
-            if card["type"] != "Trainer":
+            if card["type"] not in TRAINER_TYPES:
                 assert card["health"].isdigit(), (
                     f"Pokemon card {card['id']} ({card['name']}) has non-numeric health: '{card['health']}'"
                 )
@@ -156,7 +159,7 @@ class TestCardHealth:
     def test_trainer_health_empty_unless_fossil(self, v4_cards):
         """Trainers should have empty health, except fossils which have HP."""
         for card in v4_cards:
-            if card["type"] == "Trainer" and card["health"] != "":
+            if card["type"] in TRAINER_TYPES and card["health"] != "":
                 assert card["name"] in FOSSIL_NAMES, (
                     f"Trainer card {card['id']} ({card['name']}) has health '{card['health']}' "
                     f"but is not a known fossil card"

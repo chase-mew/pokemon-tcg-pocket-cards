@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "target": "esnext"
+  },
+  "include": ["data/**/*.d.ts"]
+}

@@ -1,9 +1,9 @@
-"""Cross-card, cross-set and cross-file invariants for v5.json."""
+"""Cross-card, cross-set and cross-file invariants for cards.json."""
 import os
 
 from tests.utils import report
 from constants import PNG_PACKS_DIR, PROMO_PREFIXES, WEBP_PACKS_DIR
-
+from deck_code import create_deck_code
 
 def number(card):
     return int(card["id"].rsplit("-", 1)[1])
@@ -143,7 +143,7 @@ class TestExpansionsCrossFile:
         missing = []
         for exp in expansions:
             for pack in exp["packs"]:
-                if pack["id"].startswith("promo"):
+                if pack["id"].startswith(("pa-", "pb-")):
                     continue
                 for directory, ext in ((WEBP_PACKS_DIR, "webp"), (PNG_PACKS_DIR, "png")):
                     if not os.path.exists(os.path.join(directory, f"{pack['id']}.{ext}")):
@@ -157,5 +157,19 @@ class TestDatabaseSanity:
         assert len(expansions) >= 5, f"Only {len(expansions)} expansions"
 
     def test_v4_not_overwritten_by_v5_schema(self, v4_cards):
-        """v4.json stays on the legacy string schema."""
-        assert v4_cards and "fullart" in v4_cards[0], "v4.json looks like it was written with v5 fields"
+        """cards.json stays on the legacy string schema."""
+        assert v4_cards and "fullart" in v4_cards[0], "cards.json looks like it was written with v5 fields"
+
+
+class TestDeckCodeBinaryParity:
+    def test_official_deck_encoding(self):
+        # Potion (ID: 1) + Trainer Offset (1,000,000) = 1,000,001
+        assert create_deck_code([1000001]) == "AQ9CQQA="
+
+        # 20 Pokemon cards (no energy)
+        assert create_deck_code(list(
+            range(1, 21))) == "ABQAAAoAABQAAB4AACgAADIAADwAAEYAAFAAAFoAAGQAAG4AAHgAAIIAAIwAAJYAAKAAAKoAALQAAL4AAMgA"
+
+        # 20 Pokemon cards + Grass Energy (id: 1)
+        assert create_deck_code(list(range(1, 21)),
+                                [1]) == "ABQAAAoAABQAAB4AACgAADIAADwAAEYAAFAAAFoAAGQAAG4AAHgAAIIAAIwAAJYAAKAAAKoAALQAAL4AAMgBAQ=="

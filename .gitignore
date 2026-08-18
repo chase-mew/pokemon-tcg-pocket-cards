@@ -4,8 +4,11 @@
 
 # production
 __pycache__/
+*.py[cod]
+.pytest_cache/
 /build
-/build
+*.egg-info/
+node_modules/
 
 # IDEs and editors
 .agents/
