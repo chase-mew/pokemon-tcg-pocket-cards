@@ -9,6 +9,7 @@ __pycache__/
 /build
 *.egg-info/
 node_modules/
+.npmrc
 
 # IDEs and editors
 .agents/
