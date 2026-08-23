@@ -76,7 +76,8 @@ def create_deck_code(nrs, energy_ids=None):
 
     1. **Trainer segment** (numbers at or above
        ``SPECIAL_THRESHOLD``): 1-byte count, then one 3-byte
-       big-endian integer per card. Values are written as-is.
+       big-endian integer per card. Values are written as
+       ``nr * 10``, matching the Pokémon segment.
     2. **Pokemon segment** (numbers below
        ``SPECIAL_THRESHOLD``): 1-byte count, then one 3-byte
        big-endian integer per card. Each value is the card number
@@ -122,9 +123,10 @@ def create_deck_code(nrs, energy_ids=None):
     # 1. Trainer
     b.append(len(specials))
     for n in specials:
-        if n > 0xFFFFFF:
+        v = n * 10
+        if v > 0xFFFFFF:
             raise ValueError("ID exceeds 3 bytes")
-        b.extend([(n >> 16) & 0xff, (n >> 8) & 0xff, n & 0xff])
+        b.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
 
     # 2. Pokémon
     b.append(len(normals))
