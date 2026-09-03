@@ -7,15 +7,8 @@ scraper output.
 import pytest
 
 import transformer
+from tests.contract import CARD_KEYS
 from transformer import downgrade_to_v4, transform_cards
-
-CARD_KEYS = (
-    "id", "name", "set_code", "set_name", "pack", "release_date",
-    "type", "subtype", "stage", "evolves_from", "rarity", "pack_points",
-    "ex", "mega", "shiny", "special_tags", "art_style",
-    "health", "retreat", "weakness", "ability", "card_text", "attacks", "points",
-    "deckBuilderNr", "artist", "image", "image_png", "flavour_text", "alternate_versions",
-)
 
 
 def raw(number, name="Pikachu", rarity="◊", **overrides):

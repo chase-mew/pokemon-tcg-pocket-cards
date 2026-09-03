@@ -13,18 +13,11 @@ import pytest
 
 from constants import CARDS_SCHEMA_PATH, DATA_DIR, ROOT_DIR, V5_DIR
 from database import _set_sort_key, minified_path
+from tests.contract import CARD_KEYS
 from tests.utils import _load, report
 
 EXPANSIONS_SCHEMA_PATH = os.path.join(V5_DIR, "expansions.schema.json")
 CARDS_DTS_PATH = os.path.join(V5_DIR, "cards.d.ts")
-
-CARD_KEYS = (
-    "id", "name", "set_code", "set_name", "pack", "release_date",
-    "type", "subtype", "stage", "evolves_from", "rarity", "pack_points",
-    "ex", "mega", "shiny", "special_tags", "art_style",
-    "health", "retreat", "weakness", "ability", "card_text", "attacks", "points",
-    "deckBuilderNr", "artist", "image", "image_png", "flavour_text", "alternate_versions",
-)
 
 
 def data_json_files():
@@ -80,11 +73,14 @@ class TestSchemaValidation:
         with pytest.raises(jsonschema.ValidationError):
             jsonschema.validate(instance=leaked, schema=cards_schema)
 
-    def test_schema_properties_match_the_published_field_set(self, cards_schema):
-        assert set(cards_schema["items"]["properties"]) == set(CARD_KEYS)
+    def test_the_contract_matches_the_published_data(self, cards):
+        """CARD_KEYS is derived from the schema, so this is what pins it to reality."""
+        assert tuple(cards[0]) == CARD_KEYS
+        assert all(set(c) == set(CARD_KEYS) for c in cards)
 
     def test_every_field_is_required(self, cards_schema):
-        assert set(cards_schema["items"]["required"]) == set(CARD_KEYS)
+        """No optional fields: consumers can index any key without a guard."""
+        assert set(cards_schema["items"]["required"]) == set(cards_schema["items"]["properties"])
 
     def test_schema_id_points_at_its_own_filename(self, cards_schema, expansions_schema):
         assert cards_schema["$id"].endswith("/data/v5/cards.schema.json")
