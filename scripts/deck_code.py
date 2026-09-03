@@ -33,6 +33,19 @@ TRAINER_OFFSET = 1_000_000  # Added to trainer card numbers to distinguish them 
 SPECIAL_THRESHOLD = 100_000  # Numbers at or above this are "special" (trainer) cards in the encoding
 
 
+def _write_card_segment(buffer, numbers):
+    """Append a segment: a 1-byte count, then one 3-byte big-endian value per card.
+
+    Values are stored as ``nr * 10``, matching the game's own encoding.
+    """
+    buffer.append(len(numbers))
+    for n in numbers:
+        v = n * 10
+        if v > 0xFFFFFF:
+            raise ValueError("ID exceeds 3 bytes")
+        buffer.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
+
+
 def get_deck_builder_nr(image_filename):
     r"""get_deck_builder_nr(image_filename) -> int or None
 
@@ -119,22 +132,8 @@ def create_deck_code(nrs, energy_ids=None):
         raise ValueError("Card segment count exceeds 255")
 
     b = bytearray()
-
-    # 1. Trainer
-    b.append(len(specials))
-    for n in specials:
-        v = n * 10
-        if v > 0xFFFFFF:
-            raise ValueError("ID exceeds 3 bytes")
-        b.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
-
-    # 2. Pokémon
-    b.append(len(normals))
-    for n in normals:
-        v = n * 10
-        if v > 0xFFFFFF:
-            raise ValueError("ID exceeds 3 bytes")
-        b.extend([(v >> 16) & 0xff, (v >> 8) & 0xff, v & 0xff])
+    _write_card_segment(b, specials)   # 1. Trainer
+    _write_card_segment(b, normals)    # 2. Pokémon
 
     energy_ids = energy_ids or []
     if len(energy_ids) > 255:
