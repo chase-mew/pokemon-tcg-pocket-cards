@@ -354,7 +354,7 @@ def update_expansions(set_code, expansion_name, cards):
                            if not c["pack"].startswith("Shared(") and c["pack"] != expansion_name})
     packs = []
 
-    if not unique_packs or unique_packs == [expansion_name]:
+    if not unique_packs:
         packs.append({
             "id": f"{prefix}-booster",
             "name": "Booster",
