@@ -49,13 +49,6 @@ def download_images(cards, prefix):
 
     .. note::
 
-        This function calls ``card.pop("source_url", None)`` on each
-        card, removing the ``source_url`` key from the dict as a side
-        effect. The source URL is only needed for downloading and is
-        not part of the final JSON output.
-
-    .. note::
-
         Any exception during download (network error, image decode
         failure, file write error) raises ``RuntimeError`` and halts
         the entire batch. This is intentional: a missing card image
@@ -80,7 +73,7 @@ def download_images(cards, prefix):
     os.makedirs(png_dir, exist_ok=True)
 
     for card in tqdm(cards, desc=f"Downloading {prefix} images", unit="img"):
-        source_url = card.pop("source_url", None)
+        source_url = card.get("source_url")
         num = card["id"].split("-")[-1]
         out_webp = os.path.join(webp_dir, f"{num}.webp")
         out_png = os.path.join(png_dir, f"{num}.png")

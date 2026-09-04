@@ -138,6 +138,22 @@ def downgrade_to_v4(cards):
     return [_to_v4(c) for c in cards]
 
 
+def strip_source_urls(cards):
+    r"""strip_source_urls(cards)
+
+    Remove the in-memory-only ``source_url`` key from every card, in place.
+
+    ``source_url`` is the Limitless artwork URL the downloader fetches from.
+    It is not part of the published schema, and ``cards.schema.json`` sets
+    ``additionalProperties: false``, so it must be gone before validation.
+
+    Args:
+        cards (list of dict): transformed cards, mutated in place
+    """
+    for card in cards:
+        card.pop("source_url", None)
+
+
 def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date=None):
     r"""transform_cards(raw_cards, set_code, expansion_name, mode='v5', release_date=None) -> list of dict
 

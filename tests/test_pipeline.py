@@ -12,6 +12,7 @@ import add_expansion
 import downloader
 from add_expansion import resolve_set_range, validate_schema
 from downloader import download_images, download_pack_images
+from transformer import strip_source_urls
 
 
 def png_bytes(size=(64, 64)):
@@ -80,10 +81,11 @@ class TestDownloadImages:
         assert (image_dirs["WEBP_CARDS_DIR"] / "a1" / "007.webp").exists()
         assert (image_dirs["PNG_CARDS_DIR"] / "a1" / "007.png").exists()
 
-    def test_source_url_is_stripped_from_the_card(self, image_dirs, session):
-        cards = [card()]
+    def test_source_url_survives_the_download(self, image_dirs, session):
+        """Downloading is not the same job as stripping; the orchestrator strips."""
+        cards = [{"id": "a1-001", "source_url": "https://limitlesstcg.com/a.webp"}]
         download_images(cards, "a1")
-        assert "source_url" not in cards[0]
+        assert cards[0]["source_url"] == "https://limitlesstcg.com/a.webp"
 
     def test_existing_files_are_not_downloaded_again(self, image_dirs, session):
         download_images([card()], "a1")
@@ -200,3 +202,10 @@ class TestValidateSchema:
         monkeypatch.setattr(add_expansion, "CARDS_SCHEMA_PATH", str(tmp_path / "nope.json"))
         with pytest.raises(FileNotFoundError):
             validate_schema([])
+
+
+class TestStripSourceUrls:
+    def test_removes_the_key_from_every_card(self):
+        cards = [{"id": "a1-001", "source_url": "https://x/1.webp"}, {"id": "a1-002"}]
+        strip_source_urls(cards)
+        assert cards == [{"id": "a1-001"}, {"id": "a1-002"}]

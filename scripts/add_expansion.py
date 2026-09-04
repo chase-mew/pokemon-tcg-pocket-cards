@@ -49,7 +49,7 @@ from constants import CARDS_SCHEMA_PATH, CURRENT_VERSION
 from database import update_cards, update_expansions, compile_v5_database
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
-from transformer import downgrade_to_v4, transform_cards
+from transformer import downgrade_to_v4, strip_source_urls, transform_cards
 from utils import normalise_set_code, set_code_to_prefix
 
 
@@ -213,12 +213,12 @@ def process_single_set(set_code, args):
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
     # Step 4 ----------------------------------------------------------------
-    if not args.skip_images:
+    if args.skip_images:
+        print(f"\n[4/6] Skipping image download (--skip-images)")
+    else:
         print(f"\n[4/6] Downloading card images...")
         download_images(cards, prefix)
-    else:
-        print(f"\n[4/6] Skipping image download (--skip-images)")
-        for card in cards: card.pop("source_url", None)
+    strip_source_urls(cards)
 
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
