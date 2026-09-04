@@ -434,6 +434,12 @@
         "set_name": "Pulsing Aura",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 87,
+        "rarity": "Promo"
       }
     ]
   },
@@ -9451,6 +9457,12 @@
         "set_name": "Pulsing Aura",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 87,
+        "rarity": "Promo"
       }
     ]
   },
@@ -10307,6 +10319,12 @@
         "set_name": "Pulsing Aura",
         "id": 180,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 87,
+        "rarity": "Promo"
       }
     ]
   },

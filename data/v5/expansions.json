@@ -489,7 +489,7 @@
     "id": "pb",
     "name": "Promo-B",
     "release_date": null,
-    "total_cards": 86,
+    "total_cards": 94,
     "cards_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.json",
     "cards_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.min.json",
     "packs": [
@@ -498,6 +498,22 @@
         "name": "Booster",
         "image": null,
         "image_png": null
+      }
+    ]
+  },
+  {
+    "id": "b4a",
+    "name": "Team Rocket's Ambition",
+    "release_date": "2026-08-27",
+    "total_cards": 110,
+    "cards_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.json",
+    "cards_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.min.json",
+    "packs": [
+      {
+        "id": "b4a-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4a-booster.png"
       }
     ]
   }

@@ -416,6 +416,12 @@
         "set_name": "Everyday Wonders",
         "id": 70,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 95,
+        "rarity": "☆"
       }
     ]
   },
@@ -466,7 +472,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/009.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/009.png",
     "flavour_text": "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 96,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b3b-010",
@@ -627,7 +640,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/012.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/012.png",
     "flavour_text": "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 97,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b3b-013",
@@ -676,7 +696,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/013.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/013.png",
     "flavour_text": "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 98,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b3b-014",
@@ -3669,6 +3696,12 @@
         "set_name": "Everyday Wonders",
         "id": 8,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 95,
+        "rarity": "☆"
       }
     ]
   },
