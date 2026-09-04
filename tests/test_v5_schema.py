@@ -3,18 +3,12 @@ import os
 import re
 from datetime import date, datetime, timedelta
 
+from tests.contract import CARD_KEYS
 from tests.utils import collect, report
 from constants import (ART_STYLES, ENERGY_TYPES, FIRST_RELEASE, GITHUB_BASE_URL,
                        PACK_POINTS, PNG_CARDS_DIR, PROMO_PREFIXES, RARITIES,
                        SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR)
 
-CARD_KEYS = (
-    "id", "name", "set_code", "set_name", "pack", "release_date",
-    "type", "subtype", "stage", "evolves_from", "rarity", "pack_points",
-    "ex", "mega", "shiny", "special_tags", "art_style",
-    "health", "retreat", "weakness", "ability", "card_text", "attacks", "points",
-    "deckBuilderNr", "artist", "image", "image_png", "flavour_text", "alternate_versions"
-)
 ABILITY_KEYS = {"exists", "name", "effect"}
 ATTACK_KEYS = {"cost", "name", "damage", "effect"}
 

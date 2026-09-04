@@ -4786,5 +4786,451 @@
         "rarity": "◊"
       }
     ]
+  },
+  {
+    "id": "pb-087",
+    "name": "Mega Sceptile ex",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Grovyle",
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": true,
+    "mega": true,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 210,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Terminating Tail",
+        "damage": 130,
+        "effect": "Discard a [G] Energy from this Pokémon. Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "deckBuilderNr": 1673,
+    "artist": "PLANETA CG Works",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/087.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/087.png",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "b3",
+        "set_name": "Pulsing Aura",
+        "id": 8,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b3",
+        "set_name": "Pulsing Aura",
+        "id": 180,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b3",
+        "set_name": "Pulsing Aura",
+        "id": 194,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "pb-088",
+    "name": "Team Rocket's Scyther",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GC",
+        "name": "Second Strike",
+        "damage": 20,
+        "effect": "If your opponent's Active Pokémon has damage on it, this attack does 70 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2109,
+    "artist": "Anesaki Dynamic",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/088.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/088.png",
+    "flavour_text": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+    "alternate_versions": []
+  },
+  {
+    "id": "pb-089",
+    "name": "Team Rocket's Lapras",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Ruthless Whirlpool",
+        "damage": 40,
+        "effect": "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2110,
+    "artist": "matazo",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/089.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/089.png",
+    "flavour_text": "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 13,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "pb-090",
+    "name": "Wingull",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Flap",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2111,
+    "artist": "Midori Harada",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/090.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/090.png",
+    "flavour_text": "It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.",
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 15,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "pb-091",
+    "name": "Team Rocket's Wobbuffet",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Rocket Frenzy",
+        "damage": 30,
+        "effect": "Reveal the top 6 cards of your deck. This attack does 30 damage for each Pokémon you find there that has “Team Rocket” in its name. Shuffle the revealed cards back into your deck."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2112,
+    "artist": "cochi8i",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/091.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/091.png",
+    "flavour_text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+    "alternate_versions": []
+  },
+  {
+    "id": "pb-092",
+    "name": "Marowak",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Cubone",
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FC",
+        "name": "Punish",
+        "damage": 50,
+        "effect": "If your opponent's Active Pokémon has “Team Rocket” in its name, this attack does 70 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2113,
+    "artist": "kawayoo",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/092.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/092.png",
+    "flavour_text": "When this Pokémon evolved, the skull of its mother fused to it. Marowak’s temperament also turned vicious at the same time.",
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 36,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "pb-093",
+    "name": "Fennekin",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Scratch",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2117,
+    "artist": "Kanako Eo",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/093.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/093.png",
+    "flavour_text": "Twigs make for Fennekin’s snacks. When it nibbles on twigs, it finds the courage to face strong foes.",
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 10,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "pb-094",
+    "name": "Meowstic",
+    "set_code": "pb",
+    "set_name": "Promo-B",
+    "pack": "Promo-B",
+    "release_date": null,
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Espurr",
+    "rarity": "Promo",
+    "pack_points": null,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Super Psy Bolt",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "deckBuilderNr": 2118,
+    "artist": "Kagemaru Himeno",
+    "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pb/094.webp",
+    "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pb/094.png",
+    "flavour_text": "When they sense danger, they exert their psychic power at its maximum output. They have no regard for their opponents.",
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 32,
+        "rarity": "◊◊"
+      }
+    ]
   }
 ]

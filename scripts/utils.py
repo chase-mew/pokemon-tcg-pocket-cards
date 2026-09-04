@@ -74,8 +74,8 @@ def clean_text(text):
 
         >>> clean_text("  Charizard\n  ex  ")
         'Charizard ex'
-        >>> clean_text("   ")
-        None
+        >>> clean_text("   ") is None
+        True
     """
     if not text:
         return None
@@ -153,8 +153,8 @@ def to_int(text, default=None):
         40
         >>> to_int("100+")
         100
-        >>> to_int("")
-        None
+        >>> to_int("") is None
+        True
         >>> to_int("", default=0)
         0
     """
@@ -184,10 +184,10 @@ def parse_release_date(text):
 
         >>> parse_release_date("30 Jun 26")
         '2026-06-30'
-        >>> parse_release_date(None)
-        None
-        >>> parse_release_date("")
-        None
+        >>> parse_release_date(None) is None
+        True
+        >>> parse_release_date("") is None
+        True
     """
     text = (text or "").strip()
     return datetime.strptime(text, "%d %b %y").strftime("%Y-%m-%d") if text else None
@@ -242,9 +242,12 @@ def serebii_slug(name):
     r"""serebii_slug(name) -> str
 
     Convert a name to a slug suitable for Serebii URLs: lowercase,
-    alphanumeric characters and hyphens kept. Everything else
-    (spaces, punctuation) is removed. Unlike :func:`slugify`, this
-    preserves hyphens, which Serebii uses in its URL paths.
+    alphanumeric, hyphen and apostrophe characters kept. Everything
+    else (spaces, other punctuation) is removed. Unlike
+    :func:`slugify`, this preserves hyphens and apostrophes, both of
+    which Serebii keeps in its URL paths: it writes
+    ``space-timesmackdown`` and ``teamrocket'sambition``, so dropping
+    either character produces a 404.
 
     Args:
         name (str): the name to slugify
@@ -258,8 +261,12 @@ def serebii_slug(name):
         'ho-oh'
         >>> serebii_slug("Mr. Mime")
         'mrmime'
+        >>> serebii_slug("Space-Time Smackdown")
+        'space-timesmackdown'
+        >>> serebii_slug("Team Rocket's Ambition")
+        "teamrocket'sambition"
     """
-    return re.sub(r"[^a-z0-9-]", "", name.lower())
+    return re.sub(r"[^a-z0-9'-]", "", name.lower())
 
 def compile_tag_matchers(tag_dict):
     r"""compile_tag_matchers(tag_dict) -> dict

@@ -26,12 +26,24 @@ Both functions skip files that already exist on disk.
 
 import io
 import os
+import re
 import time
 from PIL import Image
 from tqdm import tqdm
 from constants import WEBP_CARDS_DIR, PNG_CARDS_DIR, WEBP_PACKS_DIR, PNG_PACKS_DIR, SEREBII_BASE_URL, SESSION, RATE_LIMIT_DELAY, IMAGE_TIMEOUT, DEFAULT_TIMEOUT
 from urllib.parse import urlsplit
 from utils import serebii_slug
+
+# Limitless serves artwork from its own CDN, not from limitlesstcg.com.
+# The host is either the bare domain, a subdomain of it, or one of its
+# DigitalOcean Spaces endpoints, which keep limitlesstcg as the first
+# label. Anchored at both ends so a lookalike host such as
+# limitlesstcg.com.evil.com cannot pass.
+_LIMITLESS_HOST = re.compile(
+    r"^limitlesstcg\.com$"
+    r"|^[a-z0-9-]+\.limitlesstcg\.com$"
+    r"|^limitlesstcg\.(nyc3|sfo3|ams3|fra1|sgp1|blr1)\.cdn\.digitaloceanspaces\.com$"
+)
 
 def download_images(cards, prefix):
     r"""download_images(cards, prefix)
@@ -49,13 +61,6 @@ def download_images(cards, prefix):
 
     .. note::
 
-        This function calls ``card.pop("source_url", None)`` on each
-        card, removing the ``source_url`` key from the dict as a side
-        effect. The source URL is only needed for downloading and is
-        not part of the final JSON output.
-
-    .. note::
-
         Any exception during download (network error, image decode
         failure, file write error) raises ``RuntimeError`` and halts
         the entire batch. This is intentional: a missing card image
@@ -65,8 +70,8 @@ def download_images(cards, prefix):
     Args:
         cards (list of dict): card dicts. Each must have an ``id``
             key (e.g. ``"a1-001"``) and a ``source_url`` key
-            containing the Limitless TCG image URL. The
-            ``source_url`` key is removed from each dict.
+            containing the Limitless TCG image URL. The dicts are
+            read, not modified.
         prefix (str): the set prefix used for the output directory
             name (e.g. ``"a1"``)
 
@@ -80,7 +85,7 @@ def download_images(cards, prefix):
     os.makedirs(png_dir, exist_ok=True)
 
     for card in tqdm(cards, desc=f"Downloading {prefix} images", unit="img"):
-        source_url = card.pop("source_url", None)
+        source_url = card.get("source_url")
         num = card["id"].split("-")[-1]
         out_webp = os.path.join(webp_dir, f"{num}.webp")
         out_png = os.path.join(png_dir, f"{num}.png")
@@ -92,10 +97,7 @@ def download_images(cards, prefix):
                     parsed_url is None
                     or parsed_url.scheme != "https"
                     or not hostname
-                    or (
-                    hostname != "limitlesstcg.com"
-                    and not hostname.endswith(".limitlesstcg.com")
-            )
+                    or not _LIMITLESS_HOST.match(hostname.lower())
             ):
                 raise RuntimeError(f"Missing or invalid source_url for {card['id']}")
             try:

@@ -8,6 +8,7 @@ import pytest
 from bs4 import BeautifulSoup
 
 from scraper import extract_card
+from set_profile import SetProfile
 
 POKEMON_PAGE = """
 <div class="card-image"><img src="https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B3b/B3b_081_EN.webp"></div>
@@ -73,7 +74,7 @@ TRAINER_PAGE = """
 
 
 def parse(html, set_code="B3b"):
-    return extract_card(BeautifulSoup(html, "html.parser"), set_code)
+    return extract_card(BeautifulSoup(html, "html.parser"), SetProfile.of(set_code))
 
 
 @pytest.fixture(scope="module")

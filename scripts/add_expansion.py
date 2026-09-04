@@ -45,38 +45,38 @@ import json
 import argparse
 import sys
 
-from constants import CARDS_SCHEMA_PATH, CURRENT_VERSION
-from database import update_cards, update_expansions, compile_v5_database
+from constants import CARDS_SCHEMA_PATH, EXPANSIONS_JSON_PATH, EXPANSIONS_SCHEMA_PATH
+from database import append_to_v4, compile_v5_database, update_expansions, write_set_file
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
-from transformer import downgrade_to_v4, transform_cards
-from utils import normalise_set_code, set_code_to_prefix
+from set_profile import SetProfile
+from transformer import downgrade_to_v4, strip_source_urls, transform_cards
+from utils import _load_existing_json, normalise_set_code
 
 
-def validate_schema(cards):
-    r"""validate_schema(cards)
+def validate_schema(instance, schema_path=None, label="cards"):
+    r"""validate_schema(instance, schema_path=CARDS_SCHEMA_PATH, label="cards")
 
-    Validate a list of card dicts against the v5 JSON schema at
-    :data:`constants.CARDS_SCHEMA_PATH`. Prints a confirmation
-    message on success and raises ``ValueError`` on failure with the
-    JSON path and error message from the validator.
+    Validate ``instance`` against the JSON schema at ``schema_path``.
 
-    The schema sets ``additionalProperties: false``, so this must run
-    after ``source_url`` has been stripped from the cards, which
-    happens at step 4 of :func:`process_single_set`.
+    Both v5 schemas set ``additionalProperties: false``, so this must
+    run after :func:`transformer.strip_source_urls`.
 
     Args:
-        cards (list of dict): transformed card dicts in v5 format,
-            as produced by :func:`transform_cards.transform_cards`
+        instance: the parsed JSON to validate (a list of cards, or
+            the expansion index)
+        schema_path (str): path to the schema. Default:
+            :data:`constants.CARDS_SCHEMA_PATH`
+        label (str): what is being validated, used in messages
 
     Raises:
-        FileNotFoundError: if ``cards.schema.json`` does not exist
-            in ``V5_DIR``
-        ValueError: if one or more cards violate the schema. The
-            error message includes the JSON path to the offending
-            field and the validator's message.
+        FileNotFoundError: if the schema file does not exist
+        ValueError: on a schema violation, naming the JSON path and
+            message
     """
-    schema_path = CARDS_SCHEMA_PATH
+    if schema_path is None:
+        schema_path = CARDS_SCHEMA_PATH
+
     if not os.path.exists(schema_path):
         raise FileNotFoundError(
             f"Required V5 schema not found: {schema_path}"
@@ -86,10 +86,10 @@ def validate_schema(cards):
         schema = json.load(f)
 
     try:
-        jsonschema.validate(instance=cards, schema=schema)
-        print("    Schema validation passed.")
+        jsonschema.validate(instance=instance, schema=schema)
+        print(f"    Schema validation passed ({label}).")
     except jsonschema.exceptions.ValidationError as e:
-        raise ValueError(f"Schema violation in {e.json_path}: {e.message}")
+        raise ValueError(f"Schema violation in {label} at {e.json_path}: {e.message}")
 
 
 def resolve_set_range(range_str):
@@ -145,8 +145,8 @@ def resolve_set_range(range_str):
     return all_codes[start_idx:end_idx + 1]
 
 
-def process_single_set(set_code, args):
-    r"""process_single_set(set_code, args)
+def process_single_set(set_profile, args):
+    r"""process_single_set(set_profile, args)
 
     Run the full six-step pipeline for a single set:
 
@@ -160,14 +160,15 @@ def process_single_set(set_code, args):
        ``source_url``, which step 4 needs.
     4. Download images: fetch card artwork from Limitless TCG
        and save in WebP and PNG format. Skipped if
-       ``args.skip_images`` is set, in which case ``source_url`` is
-       popped from each card dict without downloading.
+       ``args.skip_images`` is set. Either way, ``source_url`` is
+       stripped from every card afterwards.
     5. Update database: in v4 mode, downgrade the cards first; in
-       v5 mode, validate against the JSON schema (which happens here
-       rather than at step 3 because ``source_url`` is only stripped
-       at step 4). Then merge into the appropriate JSON file (per-set
-       for v5, single file for v4) and update the expansions index
-       (v5 only).
+       v5 mode, validate the cards against the card schema, which
+       runs here rather than at step 3 because ``source_url`` is
+       stripped at the end of step 4. Then merge into the
+       appropriate JSON file (per-set for v5, single file for v4),
+       update the expansions index (v5 only), and validate the
+       index that was just written against the expansions schema.
     6. Download pack images: fetch pack artwork from Serebii.
        Skipped if ``args.skip_images`` is set or if no packs were
        produced (v4 mode).
@@ -177,17 +178,17 @@ def process_single_set(set_code, args):
     images and updated JSON files on disk.
 
     Args:
-        set_code (str): the set code to process, already normalised
-            (e.g. ``"A1"``, ``"P-A"``, ``"B2b"``)
+        set_profile (SetProfile): the set to process, resolved from
+            the raw set code (e.g. ``"A1"``, ``"P-A"``, ``"B2b"``)
         args (argparse.Namespace): parsed CLI arguments. Must have
             ``name`` (str or None), ``mode`` (``"v4"`` or ``"v5"``),
             and ``skip_images`` (bool) attributes.
     """
-    prefix = set_code_to_prefix(set_code)
-    is_promo = set_code.startswith("P-")
+    prefix = set_profile.prefix
+    set_code = set_profile.code
 
     print(f"\n{'=' * 60}")
-    print(f"  {'Updating promo set' if is_promo else 'Adding expansion'}: {set_code}")
+    print(f"  {'Updating promo set' if set_profile.is_promo else 'Adding expansion'}: {set_code}")
     print(f"{'=' * 60}")
 
     # Step 1 ----------------------------------------------------------------
@@ -200,7 +201,7 @@ def process_single_set(set_code, args):
 
     # Step 2 ----------------------------------------------------------------
     print(f"\n[2/6] Scraping cards from Limitless TCG...")
-    raw_cards = scrape_cards(set_code)
+    raw_cards = scrape_cards(set_profile)
     if not raw_cards:
         print("    ERROR: No cards found. Check the set code and try again.")
         sys.exit(1)
@@ -208,33 +209,28 @@ def process_single_set(set_code, args):
 
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
-    cards = transform_cards(raw_cards, set_code, expansion_name, "v5", release_date)
+    cards = transform_cards(raw_cards, set_profile, expansion_name, release_date)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
     # Step 4 ----------------------------------------------------------------
-    if not args.skip_images:
+    if args.skip_images:
+        print(f"\n[4/6] Skipping image download (--skip-images)")
+    else:
         print(f"\n[4/6] Downloading card images...")
         download_images(cards, prefix)
-    else:
-        print(f"\n[4/6] Skipping image download (--skip-images)")
-        for card in cards: card.pop("source_url", None)
+    strip_source_urls(cards)
 
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
     if args.mode == "v4":
-        cards = downgrade_to_v4(cards)
-        target_version = 4
+        added, expansion_packs = append_to_v4(downgrade_to_v4(cards)), None
     else:
         validate_schema(cards)
-        target_version = CURRENT_VERSION
-    added = update_cards(cards, target_version)
-
-    if args.mode == "v4":
-        print("    Skipping expansion index update")
-        expansion_packs = None
-    else:
+        added = write_set_file(cards)
         expansion_packs = update_expansions(set_code, expansion_name, cards)
+        validate_schema(_load_existing_json(EXPANSIONS_JSON_PATH),
+                        EXPANSIONS_SCHEMA_PATH, "expansions")
 
     # Step 6 ----------------------------------------------------------------
     if not args.skip_images and expansion_packs:
@@ -290,8 +286,7 @@ def main():
     if args.all and args.name:
         parser.error("--name cannot be used with --all")
     elif args.all:
-        set_codes = get_all_set_codes()
-        set_codes.reverse()
+        set_codes = list(reversed(get_all_set_codes()))
     elif args.set_code:
         set_codes = resolve_set_range(args.set_code)
     else:
@@ -299,7 +294,7 @@ def main():
         sys.exit(1)
 
     for code in set_codes:
-        process_single_set(code, args)
+        process_single_set(SetProfile.of(code), args)
 
     if args.mode == "v5":
         print("\nCompiling v5 database and syncing alternate versions...")

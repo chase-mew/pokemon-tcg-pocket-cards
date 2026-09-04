@@ -32,6 +32,10 @@ GITHUB_BASE_URL = (
     "https://raw.githubusercontent.com/chase-manning/"
     "pokemon-tcg-pocket-cards/refs/heads/main/images"
 )
+V5_CARDS_URL_BASE = (
+    "https://raw.githubusercontent.com/chase-manning/"
+    "pokemon-tcg-pocket-cards/refs/heads/main/data/v5"
+)
 SEREBII_BASE_URL = "https://www.serebii.net/tcgpocket/"
 FLIBUSTIER_PTCGP_DB_URL = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json"
 
@@ -59,7 +63,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # Versioned data
-CURRENT_VERSION = 5
 DATA_DIR = os.path.join(ROOT_DIR, "data")
 V1_JSON_PATH = os.path.join(DATA_DIR, "v1", "cards.json")
 V2_JSON_PATH = os.path.join(DATA_DIR, "v2", "cards.json")
@@ -70,6 +73,7 @@ V5_DIR = os.path.join(DATA_DIR, "v5")
 EXPANSIONS_JSON_PATH = os.path.join(V5_DIR, "expansions.json")
 CARDS_JSON_PATH = os.path.join(V5_DIR, "cards.json")
 CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.schema.json")
+EXPANSIONS_SCHEMA_PATH = os.path.join(V5_DIR, "expansions.schema.json")
 
 # Images
 IMAGES_DIR = os.path.join(ROOT_DIR, "images")

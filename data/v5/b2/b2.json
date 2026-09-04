@@ -2853,6 +2853,12 @@
         "set_name": "Fantastical Parade",
         "id": 166,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 99,
+        "rarity": "☆"
       }
     ]
   },
@@ -2914,6 +2920,12 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 198,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 106,
         "rarity": "☆☆"
       }
     ]
@@ -3863,6 +3875,12 @@
         "set_name": "Fantastical Parade",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 107,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -3913,7 +3931,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/074.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/074.png",
     "flavour_text": "Sinistea gets into your body when you drink it, and then it steals your vitality from within. It also tastes awful.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 100,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b2-075",
@@ -3962,7 +3987,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/075.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/075.png",
     "flavour_text": "These Pokémon multiply by creeping into teapots and pouring themselves into leftover tea.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 101,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b2-076",
@@ -5892,7 +5924,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/112.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/112.png",
     "flavour_text": "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 102,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b2-113",
@@ -5952,6 +5991,12 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 201,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 108,
         "rarity": "☆☆"
       }
     ]
@@ -6932,7 +6977,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/132.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/132.png",
     "flavour_text": "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 103,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b2-133",
@@ -6981,7 +7033,14 @@
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/133.webp",
     "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/133.png",
     "flavour_text": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 104,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b2-134",
@@ -8738,6 +8797,12 @@
         "set_name": "Fantastical Parade",
         "id": 54,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 99,
+        "rarity": "☆"
       }
     ]
   },
@@ -9808,6 +9873,12 @@
         "set_name": "Fantastical Parade",
         "id": 198,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 106,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -9938,6 +10009,12 @@
         "set_name": "Fantastical Parade",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 107,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -10067,6 +10144,12 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 201,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 108,
         "rarity": "☆☆"
       }
     ]
@@ -10690,6 +10773,12 @@
         "set_name": "Fantastical Parade",
         "id": 184,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 106,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -10751,6 +10840,12 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 186,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 107,
         "rarity": "☆☆"
       }
     ]
@@ -10881,6 +10976,12 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 188,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 108,
         "rarity": "☆☆"
       }
     ]

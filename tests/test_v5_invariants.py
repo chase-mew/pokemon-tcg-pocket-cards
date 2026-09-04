@@ -1,4 +1,5 @@
 """Cross-card, cross-set and cross-file invariants for cards.json."""
+import base64
 import os
 
 from tests.utils import report
@@ -164,7 +165,7 @@ class TestDatabaseSanity:
 class TestDeckCodeBinaryParity:
     def test_official_deck_encoding(self):
         # Potion (ID: 1) + Trainer Offset (1,000,000) = 1,000,001
-        assert create_deck_code([1000001]) == "AQ9CQQA="
+        assert create_deck_code([1000001]) == "AZiWigA="
 
         # 20 Pokemon cards (no energy)
         assert create_deck_code(list(
@@ -173,3 +174,20 @@ class TestDeckCodeBinaryParity:
         # 20 Pokemon cards + Grass Energy (id: 1)
         assert create_deck_code(list(range(1, 21)),
                                 [1]) == "ABQAAAoAABQAAB4AACgAADIAADwAAEYAAFAAAFoAAGQAAG4AAHgAAIIAAIwAAJYAAKAAAKoAALQAAL4AAMgBAQ=="
+
+    def test_game_generated_deck_round_trips(self):
+        """Byte-identical to a QR the in-game scanner produced and accepted."""
+        nrs = [
+            2064, 2064, 87, 87, 89, 89, 1233,
+            1000002, 1000003, 1000003, 1000048, 1000048, 1000128,
+            1000152, 1000152, 1000004, 1000004, 1000032, 1000099, 1000099,
+        ]
+        assert create_deck_code(nrs, [7]) == (
+            "DZiWlJiWnpiWnpiWqJiWqJiXwJiYYJiYYJiaXpiaXpibgJiccJiccAcA"
+            "A2YAA2YAA3oAA3oAMCoAUKAAUKABBw=="
+        )
+
+    def test_energy_ids_must_be_ascending(self):
+        """The game rejected [4, 2] for a deck it accepted as [2, 4]."""
+        assert base64.b64decode(create_deck_code([2064], [2, 4]))[-2:] == bytes([2, 4])
+        assert create_deck_code([2064], [2, 4]) != create_deck_code([2064], [4, 2])

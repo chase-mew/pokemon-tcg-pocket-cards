@@ -114,27 +114,52 @@ class TestDeckBuilderNumber:
 
 class TestDeckCode:
     def test_known_vectors(self):
-        assert create_deck_code([1000001]) == "AQ9CQQA="
+        assert create_deck_code([1000001]) == "AZiWigA="
         assert create_deck_code([1, 2]) == "AAIAAAoAABQA"
 
     def test_binary_layout(self):
         """[trainers][count + 3-byte ids] then [pokemon] then [energy]."""
         decoded = base64.b64decode(create_deck_code([1000001, 5], [1, 2]))
-        assert decoded == bytes([1, 0x0F, 0x42, 0x41, 1, 0, 0, 50, 2, 1, 2])
+        assert decoded == bytes([1, 0x98, 0x96, 0x8A, 1, 0, 0, 50, 2, 1, 2])
 
     def test_pokemon_numbers_are_stored_times_ten(self):
         decoded = base64.b64decode(create_deck_code([7]))
         assert decoded == bytes([0, 1, 0, 0, 70, 0])
 
+    def test_trainer_numbers_are_stored_times_ten(self):
+        """The game multiplies both segments; un-multiplied codes are rejected."""
+        decoded = base64.b64decode(create_deck_code([1000001]))
+        assert decoded[:4] == bytes([1]) + (1000001 * 10).to_bytes(3, "big")
+
     def test_cards_are_sorted_within_each_segment(self):
         assert create_deck_code([3, 1, 2]) == create_deck_code([1, 2, 3])
+        assert create_deck_code([TRAINER_OFFSET + 3, TRAINER_OFFSET + 1]) == \
+            create_deck_code([TRAINER_OFFSET + 1, TRAINER_OFFSET + 3])
 
     def test_energy_segment_is_omitted_for_a_trainer_only_deck(self):
-        assert base64.b64decode(create_deck_code([1000001])) == bytes([1, 0x0F, 0x42, 0x41, 0])
+        assert base64.b64decode(create_deck_code([1000001])) == \
+            bytes([1]) + (1000001 * 10).to_bytes(3, "big") + bytes([0])
 
     def test_energy_ids_are_appended_as_single_bytes(self):
         with_energy = base64.b64decode(create_deck_code([1], [1, 3]))
         assert with_energy[-3:] == bytes([2, 1, 3])
+
+    def test_energy_ids_are_appended_in_the_given_order(self):
+        """The game rejected a deck whose ids arrived descending, so the
+        encoder passes ids through untouched and callers sort first."""
+        assert base64.b64decode(create_deck_code([2064], [2, 4]))[-2:] == bytes([2, 4])
+        assert base64.b64decode(create_deck_code([2064], [4, 2]))[-2:] == bytes([4, 2])
+
+    def test_game_generated_hoopa_greninja_deck(self):
+        nrs = [
+            2064, 2064, 87, 87, 89, 89, 1233,
+            1000002, 1000003, 1000003, 1000048, 1000048, 1000128,
+            1000152, 1000152, 1000004, 1000004, 1000032, 1000099, 1000099,
+        ]
+        assert create_deck_code(nrs, [7]) == (
+            "DZiWlJiWnpiWnpiWqJiWqJiXwJiYYJiYYJiaXpiaXpibgJiccJiccAcA"
+            "A2YAA2YAA3oAA3oAMCoAUKAAUKABBw=="
+        )
 
     def test_empty_deck_is_none(self):
         assert create_deck_code([]) is None and create_deck_code(None) is None
@@ -155,6 +180,10 @@ class TestDeckCode:
     def test_more_than_255_cards_in_a_segment_is_rejected(self):
         with pytest.raises(ValueError):
             create_deck_code(list(range(1, 258)))
+
+    def test_more_than_255_trainers_in_a_segment_is_rejected(self):
+        with pytest.raises(ValueError):
+            create_deck_code(list(range(TRAINER_OFFSET, TRAINER_OFFSET + 258)))
 
     def test_more_than_255_energies_is_rejected(self):
         with pytest.raises(ValueError):

@@ -1,9 +1,6 @@
 import os
-import sys
 import pytest
 
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(ROOT_DIR, "scripts"))  # constants.py, no package needed
 
 from constants import CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, V4_JSON_PATH
 from tests.utils import _load

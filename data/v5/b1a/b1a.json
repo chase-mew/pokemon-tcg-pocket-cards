@@ -736,6 +736,12 @@
         "set_name": "Crimson Blaze",
         "id": 87,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 105,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4091,6 +4097,12 @@
         "set_name": "Crimson Blaze",
         "id": 87,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 105,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4722,6 +4734,12 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 77,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4a",
+        "set_name": "Team Rocket's Ambition",
+        "id": 105,
         "rarity": "☆☆"
       }
     ]
