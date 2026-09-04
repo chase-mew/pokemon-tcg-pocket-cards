@@ -30,9 +30,10 @@ supports two output formats: ``v5`` (the full enriched schema) and
 import re
 import requests
 from functools import lru_cache
-from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, PARALLEL_FOIL_RARITIES, DEFAULT_TIMEOUT
+from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT
 from utils import set_code_to_prefix, compile_tag_matchers
 from deck_code import get_deck_builder_nr
+from art_style import ArtStyleClassifier
 
 @lru_cache(maxsize=1)
 def fetch_datamine_lookup():
@@ -176,7 +177,8 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
 
     Args:
         raw_cards (list of dict): cards as returned by
-            :func:`scrape_cards`, in card-number order
+            :func:`scrape_cards`, in card-number order, since the
+            art-style classifier reads the sequence
         set_code (str): the set code (e.g. ``"a1"``, ``"P-A"``)
         expansion_name (str): human-readable expansion name
             (e.g. ``"Genetic Apex"``)
@@ -187,15 +189,6 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
         list of dict: one transformed card dict per input card, each
         with about 30 keys spanning identity, classification,
         gameplay, deck-builder, and media fields.
-
-    .. note::
-
-        Art style detection depends on the order of cards in
-        ``raw_cards`` matching the website's rarity progression.
-        Reordering or filtering ``raw_cards`` before calling this
-        function can misclassify art styles, since the logic tracks
-        state transitions (first three-star, first trainer full art)
-        across consecutive cards.
 
     .. note::
 
@@ -220,9 +213,7 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
     is_promo = set_code.startswith("P-")
     specific_packs = {c["pack"] for c in raw_cards if c["pack"] != "Every pack"}
     promo_volume, promo_volume_count = 1, 0
-    seen_three_star, seen_trainer_fa = False, False
-    in_fullart, in_sia = False, False
-    last_raw_text, prev_rarity = "", ""
+    art_styles = ArtStyleClassifier()
     datamine_lookup = fetch_datamine_lookup()
     tag_matchers = compile_tag_matchers(TAG_DEFINITIONS)
     missing_deck_nrs = []
@@ -230,41 +221,8 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
     transformed = []
     for card in raw_cards:
         num_zfill = card["number"].zfill(3)
-        raw_text = card.get("raw_text", "")
         rarity = card["rarity"]
-        shiny = False
-        art_style = None
-
-        if rarity == "☆☆☆":
-            seen_three_star, art_style = True, "Immersive Art"
-        elif seen_three_star and rarity == "☆":
-            shiny, art_style = True, "Shiny"
-        elif seen_three_star and rarity == "☆☆":
-            shiny, art_style = True, "Shiny Full Art"
-        elif rarity == "☆" and not (card["mega"] or card["ex"]):
-            art_style = "Illustration Art"
-        elif rarity == "☆☆":
-            # Full Art run starts at the ☆ -> ☆☆ boundary, ends when SIAs start
-            if prev_rarity == "☆" and not in_sia:
-                in_fullart = True
-            if in_fullart and seen_trainer_fa and (card["mega"] or card["ex"]):
-                in_fullart, in_sia = False, True
-            if not (in_sia or in_fullart):
-                in_fullart = True
-            if in_sia:
-                art_style = "Special Illustration Art"
-            else:
-                art_style = "Full Art"
-                if card["type"] == "Trainer": seen_trainer_fa = True
-
-        if raw_text and raw_text == last_raw_text and rarity in PARALLEL_FOIL_RARITIES:
-            art_style = "Parallel Foil"
-
-        if card["type"] == "Trainer" and art_style in ("Shiny", "Shiny Full Art"):
-            shiny, art_style = False, None
-        elif card["type"] == "Trainer":
-            shiny = False
-        prev_rarity, last_raw_text = rarity, raw_text
+        art_style, shiny = art_styles.classify(card)
 
         pack_points = None if is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
         if is_promo: rarity = "Promo"
