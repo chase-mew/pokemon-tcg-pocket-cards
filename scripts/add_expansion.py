@@ -160,14 +160,14 @@ def process_single_set(set_code, args):
        ``source_url``, which step 4 needs.
     4. Download images: fetch card artwork from Limitless TCG
        and save in WebP and PNG format. Skipped if
-       ``args.skip_images`` is set, in which case ``source_url`` is
-       popped from each card dict without downloading.
+       ``args.skip_images`` is set. Either way, ``source_url`` is
+       stripped from every card afterwards.
     5. Update database: in v4 mode, downgrade the cards first; in
-       v5 mode, validate against the JSON schema (which happens here
-       rather than at step 3 because ``source_url`` is only stripped
-       at step 4). Then merge into the appropriate JSON file (per-set
-       for v5, single file for v4) and update the expansions index
-       (v5 only).
+       v5 mode, validate against the JSON schema, which runs here
+       rather than at step 3 because ``source_url`` is stripped at
+       the end of step 4. Then merge into the appropriate JSON file
+       (per-set for v5, single file for v4) and update the
+       expansions index (v5 only).
     6. Download pack images: fetch pack artwork from Serebii.
        Skipped if ``args.skip_images`` is set or if no packs were
        produced (v4 mode).

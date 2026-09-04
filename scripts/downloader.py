@@ -58,8 +58,8 @@ def download_images(cards, prefix):
     Args:
         cards (list of dict): card dicts. Each must have an ``id``
             key (e.g. ``"a1-001"``) and a ``source_url`` key
-            containing the Limitless TCG image URL. The
-            ``source_url`` key is removed from each dict.
+            containing the Limitless TCG image URL. The dicts are
+            read, not modified.
         prefix (str): the set prefix used for the output directory
             name (e.g. ``"a1"``)
 
