@@ -138,6 +138,143 @@ def discover_set(set_code):
     return clean_text(title.split(" (")[0].split(" - ")[0]), None
 
 
+def _parse_title(body):
+    r"""_parse_title(body) -> (number, name, energy_type, hp_text)
+
+    Read the card-text title line. Format is
+    ``"Caterpie - Grass - 40 HP"``; trainers omit the energy and HP parts,
+    so ``energy_type`` is None and ``hp_text`` is the name.
+    """
+    title_el = body.find("p", class_="card-text-title")
+    link = title_el.find("a")
+    parts = [p.strip() for p in title_el.get_text(" ", strip=True).split(" - ")]
+    return (link["href"].split("/")[-1],
+            clean_text(link.text),
+            parts[1] if len(parts) > 2 else None,
+            parts[-1])
+
+
+def _parse_prints(soup, set_code):
+    r"""_parse_prints(soup, set_code) -> (rarity, alternate_versions)
+
+    Read the versions table: the current print's rarity, and one dict per
+    other print with ``set_code``, ``set_name``, ``id`` and ``rarity``.
+    Rows whose href is missing fall back to the set being scraped.
+    """
+    table = soup.find("table", class_="card-prints-versions")
+    if not table:
+        return None, []
+
+    current = table.find("tr", class_="current")
+    rarity = clean_text(current.find_all("td")[-1].text) if current else None
+
+    alt_versions = []
+    for row in table.find_all("tr")[1:]:
+        tds = row.find_all("td")
+        if not tds or not tds[0].find("a"): continue
+        a_tag = tds[0].find("a")
+        href = a_tag.get("href", "")
+        num_span = a_tag.find("span")
+        alt_versions.append({
+            "set_code": [p for p in href.split("/") if p][-2].lower() if href else set_code.lower(),
+            "set_name": clean_text(a_tag.contents[0]),
+            "id": to_int(clean_text(num_span.text).replace("#", "") if num_span else ""),
+            "rarity": clean_text(tds[1].text) or "Promo",
+        })
+    return rarity, alt_versions
+
+
+def _parse_pack(soup, set_code):
+    r"""_parse_pack(soup, set_code) -> str
+
+    Read the pack from the current-prints block, or return the
+    ``"Every pack"`` sentinel the transformer resolves later.
+
+    Promo-A does not name a pack, so its block is matched against
+    :data:`constants.PROMO_A_PACK_KEYWORDS`, longest keyword first, so
+    ``"Premium Missions"`` wins over ``"Missions"``.
+    """
+    set_info = soup.find("div", class_="card-prints-current")
+    if not set_info:
+        return "Every pack"
+
+    if set_code == "P-A":
+        text = set_info.get_text()
+        return clean_text(next(
+            (kw for kw in sorted(PROMO_A_PACK_KEYWORDS, key=len, reverse=True) if kw in text),
+            "Every pack",
+        ))
+
+    spans = set_info.find_all("span")
+    if spans:
+        tail = spans[-1].text.strip().split("·")[-1].strip()
+        if tail.endswith(" pack"):
+            return clean_text(tail)
+    return "Every pack"
+
+
+def _parse_pokemon_stats(type_text, raw_text):
+    r"""_parse_pokemon_stats(type_text, raw_text) -> (stage, evolves_from, retreat, weakness)
+
+    Pokémon-only fields. ``stage`` falls back to ``"Unknown"`` rather than
+    None so a markup change is visible in the data instead of silent.
+    """
+    stage_match = re.search(r"(Basic|Stage 1|Stage 2)", type_text)
+    stage = stage_match.group(1) if stage_match else "Unknown"
+
+    evolves_from = None
+    if stage in ("Stage 1", "Stage 2"):
+        evo_match = re.search(r"Evolves from\s*(.+)", type_text)
+        evolves_from = evo_match.group(1).strip() if evo_match else None
+
+    retreat_match = re.search(r"Retreat:\s*(\d+)", raw_text)
+    weakness_match = re.search(r"Weakness:\s*([A-Za-z]+)", raw_text)
+    return (stage,
+            evolves_from,
+            int(retreat_match.group(1)) if retreat_match else 0,
+            weakness_match.group(1) if weakness_match else None)
+
+
+def _parse_ability(body):
+    r"""_parse_ability(body) -> dict
+
+    ``{"exists": bool, "name": str or None, "effect": str or None}``.
+    """
+    div = body.find("div", class_="card-text-ability")
+    if not div:
+        return {"exists": False, "name": None, "effect": None}
+    return {
+        "exists": True,
+        "name": clean_text(div.find("p", class_="card-text-ability-info").text.replace("Ability:", "")),
+        "effect": clean_text(div.find("p", class_="card-text-ability-effect").text),
+    }
+
+
+def _parse_attacks(body):
+    r"""_parse_attacks(body) -> dict
+
+    Keys ``"1"`` and ``"2"``, each
+    ``{"cost", "name", "damage", "effect"}``. Slots a card does not use
+    stay filled with None. Only the first two attacks are kept.
+    """
+    attacks = {str(n): {"cost": None, "name": None, "damage": None, "effect": None} for n in (1, 2)}
+    for i, atk_div in enumerate(body.find_all("div", class_="card-text-attack")[:2]):
+        info_p = atk_div.find("p", class_="card-text-attack-info")
+        cost_span = info_p.find("span", class_="ptcg-symbol")
+        cost = cost_span.text.strip() if cost_span else None
+        info_text = clean_text(info_p.text.replace(cost or "", "", 1))
+        dmg_match = re.search(r"(\d[\d+\-xX×]*)$", info_text)
+        dmg_raw = dmg_match.group(1) if dmg_match else ""
+        effect_p = atk_div.find("p", class_="card-text-attack-effect")
+        attacks[str(i + 1)] = {
+            "cost": cost or None,
+            "name": (clean_text(info_text[: info_text.rfind(dmg_raw)]) if dmg_raw else info_text) or None,
+            "damage": to_int(dmg_raw),
+            "effect": (clean_text(effect_p.text) if effect_p else None) or None,
+        }
+    return attacks
+
+
 def extract_card(soup, set_code=""):
     r"""extract_card(soup, set_code='') -> dict
 
@@ -215,22 +352,10 @@ def extract_card(soup, set_code=""):
         'Vine Whip'
     """
     body = soup.find("div", class_="card-text")
-    title_el = body.find("p", class_="card-text-title")
-    card_number = title_el.find("a")["href"].split("/")[-1]
-    name = clean_text(title_el.find("a").text)
-
-    # Title format: "Caterpie - Grass - 40 HP". Trainers omit energy and HP,
-    # so len(title_parts) is 2 (name + "Trainer") instead of 3.
-    title_parts = [p.strip() for p in title_el.get_text(" ", strip=True).split(" - ")]
-    energy_type = title_parts[1] if len(title_parts) > 2 else None
+    card_number, name, energy_type, hp_text = _parse_title(body)
 
     type_text_raw = body.find("p", class_="card-text-type").get_text(" ", strip=True)
-
     is_trainer = type_text_raw.startswith("Trainer")
-    card_type = "Trainer" if is_trainer else "Pokémon"
-    subtype = parse_trainer_subtype(type_text_raw) if is_trainer else energy_type
-
-    hp = None if is_trainer else to_int(title_parts[-1])
 
     # card body only: identical between a print and its parallel foil, unlike the full page
     raw_text = clean_text(body.get_text(" ", strip=True))
@@ -243,119 +368,39 @@ def extract_card(soup, set_code=""):
             card_text = clean_text(sections[1].get_text(" ", strip=True))
 
     flavour_div = body.find("div", class_="card-text-flavor")
-    flavour_text = clean_text(flavour_div.text) if flavour_div else None
-
     image_div = soup.find("div", class_="card-image")
-    image = image_div.find("img")["src"] if image_div and image_div.find("img") else None
-
-    rarity = None
-    alt_versions = []
-    rarity_table = soup.find("table", class_="card-prints-versions")
-    if rarity_table:
-        current = rarity_table.find("tr", class_="current")
-        if current:
-            rarity = clean_text(current.find_all("td")[-1].text)
-
-        for row in rarity_table.find_all("tr")[1:]:
-            tds = row.find_all("td")
-            if not tds or not tds[0].find("a"): continue
-
-            a_tag = tds[0].find("a")
-
-            href = a_tag.get("href", "")
-            c_set = [p for p in href.split("/") if p][-2].lower() if href else set_code.lower()
-            c_num = clean_text(a_tag.find("span").text).replace("#", "") if a_tag.find("span") else ""
-
-            alt_versions.append({
-                "set_code": c_set,
-                "set_name": clean_text(a_tag.contents[0]),
-                "id": to_int(c_num),
-                "rarity": clean_text(tds[1].text) or "Promo"
-            })
-
-    pack = "Every pack"
-    set_info = soup.find("div", class_="card-prints-current")
-    if set_info:
-        if set_code == "P-A":
-            set_text = set_info.get_text()
-            pack = next(
-                (kw for kw in sorted(PROMO_A_PACK_KEYWORDS, key=len, reverse=True) if kw in set_text),
-                pack,
-            )
-        else:
-            spans = set_info.find_all("span")
-            if spans and spans[-1].text.strip().split("·")[-1].strip().endswith(" pack"):
-                pack = spans[-1].text.strip().split("·")[-1].strip()
-    pack = clean_text(pack)
-
     artist_div = body.find("div", class_="card-text-artist")
-    artist = clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else None
 
-    stage, evolves_from, retreat, weakness = None, None, None, None
-    if not is_trainer:
-        stage_match = re.search(r"(Basic|Stage 1|Stage 2)", type_text_raw)
-        stage = stage_match.group(1) if stage_match else "Unknown"
-        if stage in ("Stage 1", "Stage 2"):
-            evo_match = re.search(r"Evolves from\s*(.+)", type_text_raw)
-            evolves_from = evo_match.group(1).strip() if evo_match else None
-        retreat_match = re.search(r"Retreat:\s*(\d+)", raw_text)
-        retreat = int(retreat_match.group(1)) if retreat_match else 0
-        weakness_match = re.search(r"Weakness:\s*([A-Za-z]+)", raw_text)
-        weakness = weakness_match.group(1) if weakness_match else None
-
-    ability_div = body.find("div", class_="card-text-ability")
-    ability = {"exists": bool(ability_div), "name": None, "effect": None}
-    if ability_div:
-        ability["name"] = clean_text(ability_div.find("p", class_="card-text-ability-info").text.replace("Ability:", ""))
-        ability["effect"] = clean_text(ability_div.find("p", class_="card-text-ability-effect").text)
+    rarity, alt_versions = _parse_prints(soup, set_code)
+    stage, evolves_from, retreat, weakness = (
+        (None, None, None, None) if is_trainer else _parse_pokemon_stats(type_text_raw, raw_text))
 
     ex = "ex" in name.split(" ")
     mega = not is_trainer and bool(
         name.startswith("Mega ") or re.search(r"Mega Evolution\s*e\s*x\s*rule", raw_text))
-    points = None if is_trainer else (3 if mega and ex else 2 if ex else 1)
-
-    attacks = {str(n): {"cost": None, "name": None, "damage": None, "effect": None} for n in (1, 2)}
-
-    for i, atk_div in enumerate(body.find_all("div", class_="card-text-attack")[:2]):
-        info_p = atk_div.find("p", class_="card-text-attack-info")
-        cost_span = info_p.find("span", class_="ptcg-symbol")
-        cost = cost_span.text.strip() if cost_span else None
-        info_text = clean_text(info_p.text.replace(cost or "", "", 1))
-        dmg_match = re.search(r"(\d[\d+\-xX×]*)$", info_text)
-        dmg_raw = dmg_match.group(1) if dmg_match else ""
-        atk_name = clean_text(info_text[: info_text.rfind(dmg_raw)]) if dmg_raw else info_text
-        effect_p = atk_div.find("p", class_="card-text-attack-effect")
-
-        attacks[str(i + 1)] = {
-            "cost": cost or None,
-            "name": atk_name or None,
-            "damage": to_int(dmg_raw),
-            "effect": (clean_text(effect_p.text) if effect_p else None) or None,
-
-        }
 
     return {
         "number": card_number,
         "name": name,
-        "hp": hp,
-        "type": card_type,
-        "subtype": subtype,
+        "hp": None if is_trainer else to_int(hp_text),
+        "type": "Trainer" if is_trainer else "Pokémon",
+        "subtype": parse_trainer_subtype(type_text_raw) if is_trainer else energy_type,
         "card_text": card_text,
-        "flavour_text": flavour_text,
-        "image": image,
+        "flavour_text": clean_text(flavour_div.text) if flavour_div else None,
+        "image": image_div.find("img")["src"] if image_div and image_div.find("img") else None,
         "rarity": rarity,
         "alternate_versions": alt_versions,
         "ex": ex,
         "mega": mega,
-        "points": points,
-        "pack": pack,
-        "artist": artist,
+        "points": None if is_trainer else (3 if mega and ex else 2 if ex else 1),
+        "pack": _parse_pack(soup, set_code),
+        "artist": clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else None,
         "stage": stage,
         "evolves_from": evolves_from,
         "retreat": retreat,
         "weakness": weakness,
-        "ability": ability,
-        "attacks": attacks,
+        "ability": _parse_ability(body),
+        "attacks": _parse_attacks(body),
         "raw_text": raw_text,
     }
 
