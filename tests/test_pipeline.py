@@ -11,6 +11,7 @@ from PIL import Image
 import add_expansion
 import downloader
 from add_expansion import resolve_set_range, validate_schema
+from constants import EXPANSIONS_SCHEMA_PATH
 from downloader import download_images, download_pack_images
 from transformer import strip_source_urls
 
@@ -202,6 +203,14 @@ class TestValidateSchema:
         monkeypatch.setattr(add_expansion, "CARDS_SCHEMA_PATH", str(tmp_path / "nope.json"))
         with pytest.raises(FileNotFoundError):
             validate_schema([])
+
+    def test_a_valid_expansion_index_passes(self, expansions):
+        validate_schema(expansions, EXPANSIONS_SCHEMA_PATH, "expansions")
+
+    def test_a_broken_expansion_index_is_rejected(self, expansions):
+        broken = [{**expansions[0], "total_cards": "many"}]
+        with pytest.raises(ValueError, match="expansions"):
+            validate_schema(broken, EXPANSIONS_SCHEMA_PATH, "expansions")
 
 
 class TestStripSourceUrls:

@@ -11,12 +11,11 @@ import os
 import jsonschema
 import pytest
 
-from constants import CARDS_SCHEMA_PATH, DATA_DIR, ROOT_DIR, V5_DIR
+from constants import CARDS_SCHEMA_PATH, DATA_DIR, EXPANSIONS_SCHEMA_PATH, ROOT_DIR, V5_DIR
 from database import _set_sort_key, minified_path
 from tests.contract import CARD_KEYS
 from tests.utils import _load, report
 
-EXPANSIONS_SCHEMA_PATH = os.path.join(V5_DIR, "expansions.schema.json")
 CARDS_DTS_PATH = os.path.join(V5_DIR, "cards.d.ts")
 
 
