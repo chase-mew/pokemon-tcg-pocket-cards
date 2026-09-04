@@ -23,7 +23,7 @@ Every dataset now lives under [data/](data/). If you link to a raw file at the r
 |------------------------|------------------------------------------------------------------------|
 | `/v1.json`             | [data/v1/v1.json](data/v1/cards.json)                                     |
 | `/v2.json`             | [data/v2/v2.json](data/v2/cards.json)                                     |
-| `/v4.json`             | [data/v4/v4.json](data/v4/cards.json)                                     |
+| `/v4.json`             | [data/v4/cards.json](data/v4/cards.json)                                     |
 | `/expansions.json`     | [data/v4/expansions.json](data/v4/expansions.json) (frozen v4-era index) |
 
 The v5 index that replaces the old root `expansions.json` is [data/v5/expansions.json](data/v5/expansions.json); it adds `release_date`, `total_cards`, and per-set `cards_url` fields. Every dataset also ships a `.min.json` sibling.

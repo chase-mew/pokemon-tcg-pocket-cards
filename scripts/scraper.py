@@ -62,11 +62,9 @@ def fetch_page(url):
         requests.RequestException: if all retry attempts fail with a
             network or server error
 
-    Example::
+    .. note::
 
-        >>> soup = fetch_page("https://pocket.limitlesstcg.com/cards/a1/1")
-        >>> soup.find("title").text
-        'Bulbasaur - Genetic Apex (A1) - PTCGP'
+        Called as ``fetch_page("https://pocket.limitlesstcg.com/cards/a1/1")``.
     """
     retry_delay = RATE_LIMIT_DELAY
     for attempt in range(MAX_RETRIES):
@@ -92,11 +90,9 @@ def get_all_set_codes():
     Returns:
         list of str: set codes such as ``"A1"``, ``"A2a"``, ``"P-A"``
 
-    Example::
+    .. note::
 
-        >>> codes = get_all_set_codes()
-        >>> "A1" in codes
-        True
+        Reads the ``sets-table`` at ``BASE_URL``. ``"A1"`` is one of the codes returned.
     """
     return [span.text.strip().upper() for span in fetch_page(BASE_URL).select("table.sets-table span.code")]
 
@@ -119,13 +115,9 @@ def discover_set(set_code):
         release_date is a str in ``"YYYY-MM-DD"`` format, or None if
         the set is not yet indexed
 
-    Example::
+    .. note::
 
-        >>> name, date = discover_set("a1")
-        >>> name
-        'Genetic Apex'
-        >>> date
-        '2024-10-30'
+        ``discover_set("a1")`` returns ``("Genetic Apex", "2024-10-30")``.
     """
     for row in fetch_page(BASE_URL).select("table.sets-table tr"):
         code_el = row.find("span", class_="code")
@@ -339,16 +331,9 @@ def extract_card(soup, set_profile):
         If a card has only one attack, the second entry stays filled
         with None values.
 
-    Example::
+    .. note::
 
-        >>> soup = fetch_page("https://pocket.limitlesstcg.com/cards/a1/1")
-        >>> card = extract_card(soup, "a1")
-        >>> card["name"]
-        'Bulbasaur'
-        >>> card["hp"]
-        70
-        >>> card["attacks"]["1"]["name"]
-        'Vine Whip'
+        Called on the soup for ``https://pocket.limitlesstcg.com/cards/a1/1``.
     """
     body = soup.find("div", class_="card-text")
     card_number, name, energy_type, hp_text = _parse_title(body)
@@ -431,13 +416,9 @@ def scrape_cards(set_profile):
         RuntimeError: if a card page fails for any reason other than
             a 404. The message includes the card number and set code.
 
-    Example::
+    .. note::
 
-        >>> cards = scrape_cards("a1")
-        >>> len(cards)
-        286
-        >>> cards[0]["name"]
-        'Bulbasaur'
+        ``scrape_cards(SetProfile.of("a1"))`` returns 286 cards, the first named ``"Bulbasaur"``.
     """
     cards, errors, i = [], 0, 0
     with tqdm(desc=f"Scraping {set_profile.code}", unit=" cards") as pbar:

@@ -37,7 +37,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 | `flavour_text`       | string  | The lore text printed on the card.                                                                                                                              |
 | `alternate_versions` | array   | Prints from other sets mapping `set_code`, `set_name`, `id`, and `rarity`.                                                                                      |
 
-`source_url` exists only in memory. The scraper uses it to fetch artwork and strips it before validation, so it never reaches the published JSON. The schema sets `additionalProperties: false`, which enforces that.
+`source_url` exists only in memory. The downloader fetches artwork from it, and the orchestrator calls `strip_source_urls` before validation, so it never reaches the published JSON. The schema sets `additionalProperties: false`, which enforces that.
 
 ### Known gaps
 

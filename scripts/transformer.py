@@ -199,15 +199,10 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
         error aborts the run instead of writing zeroed
         ``deckBuilderNr`` values.
 
-    Example::
+    .. note::
 
-        >>> from set_profile import SetProfile
-        >>> cards = scrape_cards(SetProfile.of("a1"))
-        >>> transformed = transform_cards(cards, SetProfile.of("a1"), "Genetic Apex")
-        >>> transformed[0]["id"]
-        'a1-001'
-        >>> transformed[0]["name"]
-        'Bulbasaur'
+        ``transform_cards(scrape_cards(SetProfile.of("a1")), SetProfile.of("a1"), "Genetic Apex")``
+        gives a first card with ``id`` ``"a1-001"`` and ``name`` ``"Bulbasaur"``.
     """
     specific_packs = {c["pack"] for c in raw_cards if c["pack"] != "Every pack"}
     promo_volume, promo_volume_count = 1, 0

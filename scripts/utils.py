@@ -74,8 +74,8 @@ def clean_text(text):
 
         >>> clean_text("  Charizard\n  ex  ")
         'Charizard ex'
-        >>> clean_text("   ")
-        None
+        >>> clean_text("   ") is None
+        True
     """
     if not text:
         return None
@@ -153,8 +153,8 @@ def to_int(text, default=None):
         40
         >>> to_int("100+")
         100
-        >>> to_int("")
-        None
+        >>> to_int("") is None
+        True
         >>> to_int("", default=0)
         0
     """
@@ -184,10 +184,10 @@ def parse_release_date(text):
 
         >>> parse_release_date("30 Jun 26")
         '2026-06-30'
-        >>> parse_release_date(None)
-        None
-        >>> parse_release_date("")
-        None
+        >>> parse_release_date(None) is None
+        True
+        >>> parse_release_date("") is None
+        True
     """
     text = (text or "").strip()
     return datetime.strptime(text, "%d %b %y").strftime("%Y-%m-%d") if text else None

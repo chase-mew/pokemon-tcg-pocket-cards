@@ -22,8 +22,6 @@ r"""Persist card data to JSON files on disk.
 Writes both per-set files and an aggregated master file. Merges
 new cards into existing records, syncs alternate version references
 in both directions, and maintains the expansions index.
-
-The v5 data directory (``V5_DIR``) is created on import.
 """
 
 import json
