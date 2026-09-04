@@ -1,5 +1,13 @@
 # 🎴 Pokémon TCG Pocket Cards
 
+<p align="center">
+  <img alt="npm version" src="https://img.shields.io/npm/v/pokemon-tcg-pocket-cards">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dm/pokemon-tcg-pocket-cards">
+  <img alt="licence" src="https://img.shields.io/npm/l/pokemon-tcg-pocket-cards">
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/chase-mew/pokemon-tcg-pocket-cards">
+  <img alt="repo size" src="https://img.shields.io/github/repo-size/chase-mew/pokemon-tcg-pocket-cards">
+</p>
+
 This open-source repository holds data on Pokémon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
 
 You can pull the raw JSON directly as an API:
@@ -111,12 +119,10 @@ Submit a pull request to list your project here if you build something with this
 
 ## 🤝 Contributing
 
-Contributions are welcome. Please read the [Code of Conduct](CODE_OF_CONDUCT.md)
-before opening a pull request, and see [SECURITY.md](SECURITY.md) if you have
-found a vulnerability rather than a bug.
-
-Third-party code and data are credited in
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to add
+card data and the licensing split, the [Code of Conduct](CODE_OF_CONDUCT.md)
+before opening a pull request, and [SECURITY.md](SECURITY.md) if you have found a
+vulnerability rather than a bug.
 
 ## 📜 License
 
