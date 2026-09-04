@@ -109,6 +109,15 @@ Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer
 
 Submit a pull request to list your project here if you build something with this data!
 
+## 🤝 Contributing
+
+Contributions are welcome. Please read the [Code of Conduct](CODE_OF_CONDUCT.md)
+before opening a pull request, and see [SECURITY.md](SECURITY.md) if you have
+found a vulnerability rather than a bug.
+
+Third-party code and data are credited in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 ## 📜 License
 
 - **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).
