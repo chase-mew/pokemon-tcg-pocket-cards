@@ -10,7 +10,8 @@ which file you are looking at.
 
 | Part | Licence |
 | --- | --- |
-| Version 5 datasets, `scripts/`, `data/v5/` | AGPL-3.0-or-later |
+| Version 5 datasets, `data/v5/` | AGPL-3.0-or-later |
+| code additions written for version 5 or later | AGPL-3.0-or-later |
 | Legacy datasets `data/v1/` through `data/v4/` | MIT |
 | Original code by Chase Manning, written before v5 | MIT |
 
@@ -26,11 +27,14 @@ alongside the card data.
 
 ## Deck share encoding
 
-`scripts/deck_code.py` implements the deck share code format by reverse
-engineering the game client. Provided under the MIT License, Copyright (c) 2026
-by Nirostar.
+`scripts/deck_code.py` implements the deck share code format. The reverse
+engineered encoding logic originates from Nirostar, provided under the MIT
+License, Copyright (c) 2026 by Nirostar.
 
 https://github.com/Nirostar
+
+That logic was ported to Python in this repository as an AGPL-3.0-or-later
+addition, Copyright (C) 2026 Leonid Dalin and Chase Manning.
 
 ## Deck builder numbering
 
