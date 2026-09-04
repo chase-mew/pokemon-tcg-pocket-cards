@@ -1,0 +1,16 @@
+# Every pull request requests a review from the active maintainer.
+#
+# Chase Manning (@chase-mew) founded this project and still holds the publish
+# credentials, but has stepped back from day-to-day maintenance. He is listed
+# for provenance and for the original MIT-licensed code, not as a reviewer.
+
+*                   @leonid-dalin
+
+# The published datasets are generated output. A change here should come from
+# the pipeline, so they get the same reviewer as the code that produces them.
+/data/             @leonid-dalin
+/images/           @leonid-dalin
+
+# Packaging and release automation.
+/package.json       @leonid-dalin
+/.github/           @leonid-dalin

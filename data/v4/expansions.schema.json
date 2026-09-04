@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-mew/pokemon-tcg-pocket-cards/refs/heads/main/data/v4/expansions.schema.json",
+  "title": "Pokemon TCG Pocket Expansions V4 Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Normalised lowercase set code (e.g., \"a1\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The expansion name as printed (e.g., \"Genetic Apex\")."
+      },
+      "packs": {
+        "type": "array",
+        "description": "The packs that can be opened inside this expansion.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Set prefix and pack slug (e.g., \"a1-pikachu\")."
+            },
+            "name": {
+              "type": "string",
+              "description": "The pack name as printed (e.g., \"Pikachu\")."
+            },
+            "image": {
+              "type": "string",
+              "description": "URL of the pack artwork in WebP format."
+            },
+            "image_png": {
+              "type": "string",
+              "description": "URL of the pack artwork in PNG format."
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "image",
+            "image_png"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "packs"
+    ],
+    "additionalProperties": false
+  }
+}

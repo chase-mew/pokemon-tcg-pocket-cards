@@ -1,12 +1,12 @@
 {
   "name": "pokemon-tcg-pocket-cards",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "description": "JSON database and TypeScript definitions for Pokémon TCG Pocket cards",
   "author": "Leonid Dalin & Chase Manning",
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chase-manning/pokemon-tcg-pocket-cards.git"
+    "url": "git+https://github.com/chase-mew/pokemon-tcg-pocket-cards.git"
   },
   "exports": {
     ".": {
@@ -20,8 +20,14 @@
     "./v1": "./data/v1/cards.min.json",
     "./v2": "./data/v2/cards.min.json",
     "./v3": "./data/v3/cards.min.json",
-    "./v4": "./data/v4/cards.min.json",
-    "./v4/expansions": "./data/v4/expansions.min.json",
+    "./v4": {
+      "types": "./data/v4/cards.d.ts",
+      "default": "./data/v4/cards.min.json"
+    },
+    "./v4/expansions": {
+      "types": "./data/v4/expansions.d.ts",
+      "default": "./data/v4/expansions.min.json"
+    },
     "./data/*": "./data/*",
     "./package.json": "./package.json"
   },
@@ -30,7 +36,7 @@
     "data"
   ],
   "scripts": {
-    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts"
+    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
   },
   "devDependencies": {
     "json-schema-to-typescript": "^15.0.4"
