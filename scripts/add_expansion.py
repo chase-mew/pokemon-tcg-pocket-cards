@@ -45,8 +45,8 @@ import json
 import argparse
 import sys
 
-from constants import CARDS_SCHEMA_PATH, CURRENT_VERSION
-from database import update_cards, update_expansions, compile_v5_database
+from constants import CARDS_SCHEMA_PATH
+from database import append_to_v4, compile_v5_database, update_expansions, write_set_file
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
 from transformer import downgrade_to_v4, strip_source_urls, transform_cards
@@ -208,7 +208,7 @@ def process_single_set(set_code, args):
 
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
-    cards = transform_cards(raw_cards, set_code, expansion_name, "v5", release_date)
+    cards = transform_cards(raw_cards, set_code, expansion_name, release_date)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
@@ -223,17 +223,10 @@ def process_single_set(set_code, args):
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
     if args.mode == "v4":
-        cards = downgrade_to_v4(cards)
-        target_version = 4
+        added, expansion_packs = append_to_v4(downgrade_to_v4(cards)), None
     else:
         validate_schema(cards)
-        target_version = CURRENT_VERSION
-    added = update_cards(cards, target_version)
-
-    if args.mode == "v4":
-        print("    Skipping expansion index update")
-        expansion_packs = None
-    else:
+        added = write_set_file(cards)
         expansion_packs = update_expansions(set_code, expansion_name, cards)
 
     # Step 6 ----------------------------------------------------------------

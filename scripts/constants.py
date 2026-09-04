@@ -59,7 +59,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # Versioned data
-CURRENT_VERSION = 5
 DATA_DIR = os.path.join(ROOT_DIR, "data")
 V1_JSON_PATH = os.path.join(DATA_DIR, "v1", "cards.json")
 V2_JSON_PATH = os.path.join(DATA_DIR, "v2", "cards.json")

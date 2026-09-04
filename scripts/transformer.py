@@ -154,8 +154,8 @@ def strip_source_urls(cards):
         card.pop("source_url", None)
 
 
-def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date=None):
-    r"""transform_cards(raw_cards, set_code, expansion_name, mode='v5', release_date=None) -> list of dict
+def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
+    r"""transform_cards(raw_cards, set_code, expansion_name, release_date=None) -> list of dict
 
     Transform raw scraped card dicts into the output format used by
     the API. Each card is enriched with:
@@ -168,15 +168,11 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
       depending on whether the card is shiny. Promo cards get None.
     - Promo pack volume grouping for ``P-A`` cards, using
       ``PROMO_CARDS_PER_VOLUME`` to split cards into numbered volumes.
-    - Deck-builder numbers and share codes from the Flibustier
-      datamine lookup.
+    - Deck-builder numbers from the Flibustier datamine lookup.
     - Special tags (ancient, future, ultra beasts) matched against
       card names using compiled regex patterns.
     - Image URLs pointing to the GitHub raw content CDN, in both
       WebP and PNG formats.
-
-    When ``mode`` is ``"v4"``, each card is converted to the v4
-    format via :func:`_to_v4` before returning.
 
     Args:
         raw_cards (list of dict): cards as returned by
@@ -184,17 +180,13 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
         set_code (str): the set code (e.g. ``"a1"``, ``"P-A"``)
         expansion_name (str): human-readable expansion name
             (e.g. ``"Genetic Apex"``)
-        mode (str): output format. ``"v5"`` for the full enriched
-            schema, ``"v4"`` for the reduced backward-compatible
-            schema. Default: ``"v5"``
         release_date (str or None): release date in ``"YYYY-MM-DD"``
             format, included in each card's output. Default: ``None``
 
     Returns:
-        list of dict: one transformed card dict per input card. In
-        v5 mode each dict has about 30 keys spanning identity,
-        classification, gameplay, deck-builder, and media fields.
-        In v4 mode each dict has the 10 v4 keys.
+        list of dict: one transformed card dict per input card, each
+        with about 30 keys spanning identity, classification,
+        gameplay, deck-builder, and media fields.
 
     .. note::
 
@@ -354,8 +346,5 @@ def transform_cards(raw_cards, set_code, expansion_name, mode="v5", release_date
               f"datamine and were written with deckBuilderNr 0: "
               f"{', '.join(missing_deck_nrs[:10])}"
               f"{' ...' if len(missing_deck_nrs) > 10 else ''}")
-
-    if mode == "v4":
-        return downgrade_to_v4(transformed)
 
     return transformed

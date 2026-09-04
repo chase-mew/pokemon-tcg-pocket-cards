@@ -365,7 +365,3 @@ class TestDowngradeToV4:
     def test_image_is_the_png_url(self):
         cards = transform_cards([raw(1)], "A1", "Genetic Apex")
         assert downgrade_to_v4(cards)[0]["image"] == cards[0]["image_png"]
-
-    def test_transform_mode_v4_matches_an_explicit_downgrade(self):
-        both = [transform_cards([raw(1)], "A1", "Genetic Apex", mode)[0] for mode in ("v4", "v5")]
-        assert both[0] == downgrade_to_v4([both[1]])[0]

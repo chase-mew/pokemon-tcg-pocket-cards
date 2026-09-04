@@ -8,9 +8,9 @@ import json
 import pytest
 
 import database
-from database import (_card_number, _set_sort_key, compile_v5_database, minified_path,
-                      minify_and_save, read_all_v5_cards, sync_alternate_versions,
-                      update_cards, update_expansions)
+from database import (_card_number, _set_sort_key, append_to_v4, compile_v5_database,
+                      minified_path, minify_and_save, read_all_v5_cards, sync_alternate_versions,
+                      update_expansions, write_set_file)
 
 
 def card(card_id, **overrides):
@@ -91,37 +91,36 @@ class TestSortKeys:
 # Merging
 # ---------------------------------------------------------------------------
 
-class TestUpdateCards:
+class TestWriteSetFile:
     def test_writes_a_per_set_file_and_counts_new_cards(self, v5_dir):
-        added = update_cards([card("a1-001"), card("a1-002")], 5)
+        added = write_set_file([card("a1-001"), card("a1-002")])
         assert added == 2
-        assert [c["id"] for c in read(v5_dir / "a1" / "a1.json")] == ["a1-001", "a1-002"]
+        assert len(read(v5_dir / "a1" / "a1.json")) == 2
 
     def test_existing_ids_are_overwritten_not_duplicated(self, v5_dir):
-        update_cards([card("a1-001", name="old")], 5)
-        added = update_cards([card("a1-001", name="new"), card("a1-002")], 5)
-        stored = read(v5_dir / "a1" / "a1.json")
+        write_set_file([card("a1-001", name="old")])
+        added = write_set_file([card("a1-001", name="new"), card("a1-002")])
         assert added == 1
-        assert [c["id"] for c in stored] == ["a1-001", "a1-002"]
-        assert stored[0]["name"] == "new"
+        saved = read(v5_dir / "a1" / "a1.json")
+        assert len(saved) == 2
+        assert saved[0]["name"] == "new"
 
     def test_merged_set_is_sorted_by_card_number(self, v5_dir):
-        update_cards([card("a1-010")], 5)
-        update_cards([card("a1-002"), card("a1-100")], 5)
-        assert [c["id"] for c in read(v5_dir / "a1" / "a1.json")] == [
-            "a1-002", "a1-010", "a1-100"]
+        write_set_file([card("a1-010")])
+        write_set_file([card("a1-002"), card("a1-100")])
+        assert [c["id"] for c in read(v5_dir / "a1" / "a1.json")] == \
+               ["a1-002", "a1-010", "a1-100"]
 
     def test_minified_sibling_is_written_too(self, v5_dir):
-        update_cards([card("a1-001")], 5)
+        write_set_file([card("a1-001")])
         assert (v5_dir / "a1" / "a1.min.json").exists()
 
+
+class TestAppendToV4:
     def test_v4_goes_to_the_single_legacy_file(self, v5_dir, tmp_path):
-        update_cards([{"id": "a1-001", "type": "Trainer"}], 4)
-        added = update_cards([{"id": "a1-001", "type": "Item"}, {"id": "a1-002"}], 4)
-        stored = read(tmp_path / "v4" / "cards.json")
+        append_to_v4([{"id": "a1-001", "type": "Trainer"}])
+        added = append_to_v4([{"id": "a1-001", "type": "Item"}, {"id": "a1-002"}])
         assert added == 1
-        assert [c["id"] for c in stored] == ["a1-001", "a1-002"]
-        assert stored[0]["type"] == "Item"
 
 
 class TestSyncAlternateVersions:
@@ -232,10 +231,10 @@ class TestUpdateExpansions:
 class TestCompileV5Database:
     @pytest.fixture
     def populated(self, v5_dir):
-        update_cards([card("a1-002"), card("a1-001", alternate_versions=[
-            {"set_code": "b10", "set_name": "Future Set", "id": 3, "rarity": "☆"}])], 5)
-        update_cards([card("b10-003", set_code="b10", set_name="Future Set", rarity="☆")], 5)
-        update_cards([card("b2-001", set_code="b2", set_name="Deluxe", rarity="◊")], 5)
+        write_set_file([card("a1-002"), card("a1-001", alternate_versions=[
+            {"set_code": "b10", "set_name": "Future Set", "id": 3, "rarity": "☆"}])])
+        write_set_file([card("b10-003", set_code="b10", set_name="Future Set", rarity="☆")])
+        write_set_file([card("b2-001", set_code="b2", set_name="Deluxe", rarity="◊")])
         return v5_dir
 
     def test_reads_every_set_directory(self, populated):

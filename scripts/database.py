@@ -29,7 +29,7 @@ The v5 data directory (``V5_DIR``) is created on import.
 import json
 import os
 import re
-from constants import CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_DIR, CURRENT_VERSION
+from constants import CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_DIR
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -122,7 +122,7 @@ def read_all_v5_cards():
 
     Returns:
         list of dict: all cards across all sets. Each dict is the
-        card in v5 format as written by :func:`update_cards` or
+        card in v5 format as written by :func:`write_set_file` or
         :func:`compile_v5_database`.
     """
     cards = []
@@ -199,70 +199,67 @@ def sync_alternate_versions(all_cards):
                 lookup[i]["alternate_versions"] = [a for a in alts if f"{a['set_code']}-{str(a['id']).zfill(3)}" != i]
 
 
-def update_cards(new_cards, version):
-    r"""update_cards(new_cards, version) -> int
+def _merge(existing, new_cards):
+    r"""_merge(existing, new_cards) -> (list, int)
 
-    Merge ``new_cards`` into the JSON file for the given schema
-    version. New cards overwrite existing ones with the same ID.
-    Returns the number of cards that were not already present.
+    Merge ``new_cards`` over ``existing`` by ID, preserving the order of
+    existing entries and appending genuinely new ones. Returns the merged
+    list and the count of IDs that were not already present.
+    """
+    merged = {c["id"]: c for c in existing}
+    added = len([c for c in new_cards if c["id"] not in merged])
+    for c in new_cards:
+        merged[c["id"]] = c
+    return list(merged.values()), added
 
-    For the current version (``CURRENT_VERSION``, i.e. v5), cards are
-    saved to a per-set file at ``V5_DIR/{prefix}/{prefix}.json``,
-    where ``prefix`` is the set code of the first card in
-    ``new_cards``. The merged list is sorted by numeric card number
-    before saving.
 
-    For older versions, cards are appended to the single file at
-    ``V4_JSON_PATH``. The merge is order-preserving: existing cards
-    keep their positions, and new cards are appended at the end.
+def write_set_file(new_cards):
+    r"""write_set_file(new_cards) -> int
+
+    Merge ``new_cards`` into the per-set v5 file at
+    ``V5_DIR/{prefix}/{prefix}.json``, sorted by card number, and write the
+    minified sibling alongside it.
 
     Args:
-        new_cards (list of dict): cards to merge in. Each card must
-            have an ``id`` key and, for v5, a ``set_code`` key.
-        version (int): schema version. If equal to
-            ``CURRENT_VERSION``, the v5 per-set path is used.
-            Otherwise the v4 single-file path is used.
+        new_cards (list of dict): v5 cards for a single set. Must be
+            non-empty; the set prefix is read from ``new_cards[0]["set_code"]``.
 
     Returns:
-        int: the number of cards in ``new_cards`` whose ID was not
-        already present in the existing data
+        int: how many of ``new_cards`` were not already on disk
 
-    .. note::
-
-        When ``version`` equals ``CURRENT_VERSION``, this function
-        assumes ``new_cards`` is non-empty because it reads the set
-        prefix from ``new_cards[0]["set_code"]``. Passing an empty
-        list will raise ``IndexError``.
+    Raises:
+        IndexError: if ``new_cards`` is empty
     """
-    os.makedirs(V5_DIR, exist_ok=True)
-    if version != CURRENT_VERSION:
-        os.makedirs(os.path.dirname(V4_JSON_PATH), exist_ok=True)
-        existing = _load_existing_json(V4_JSON_PATH) or _load_existing_json(minified_path(V4_JSON_PATH))
-        seen = {c["id"] for c in existing}
-        merged = {c["id"]: c for c in existing}
-        for c in new_cards:
-            merged[c["id"]] = c
-        minify_and_save(list(merged.values()), V4_JSON_PATH)
-        return len([c for c in new_cards if c["id"] not in seen])
-
     prefix = new_cards[0]["set_code"]
     set_dir = os.path.join(V5_DIR, prefix)
     os.makedirs(set_dir, exist_ok=True)
     set_json_path = os.path.join(set_dir, f"{prefix}.json")
 
-    existing = _load_existing_json(set_json_path)
-    seen = {c["id"] for c in existing}
-    to_add = [card for card in new_cards if card["id"] not in seen]
+    merged, added = _merge(_load_existing_json(set_json_path), new_cards)
+    merged.sort(key=_card_number)
+    minify_and_save(merged, set_json_path)
+    return added
 
-    merged = {c["id"]: c for c in existing}
-    for c in new_cards:
-        merged[c["id"]] = c
 
-    final_set_cards = list(merged.values())
-    final_set_cards.sort(key=_card_number)
+def append_to_v4(new_cards):
+    r"""append_to_v4(new_cards) -> int
 
-    minify_and_save(final_set_cards, set_json_path)
-    return len(to_add)
+    Merge ``new_cards`` into the single legacy v4 file at ``V4_JSON_PATH``
+    and write the minified sibling. Existing cards keep their positions;
+    new ones are appended.
+
+    Args:
+        new_cards (list of dict): cards already in v4 format, as produced
+            by :func:`transformer.downgrade_to_v4`
+
+    Returns:
+        int: how many of ``new_cards`` were not already on disk
+    """
+    os.makedirs(os.path.dirname(V4_JSON_PATH), exist_ok=True)
+    existing = _load_existing_json(V4_JSON_PATH) or _load_existing_json(minified_path(V4_JSON_PATH))
+    merged, added = _merge(existing, new_cards)
+    minify_and_save(merged, V4_JSON_PATH)
+    return added
 
 
 def compile_v5_database():
