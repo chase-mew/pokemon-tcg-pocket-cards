@@ -155,8 +155,8 @@ def strip_source_urls(cards):
         card.pop("source_url", None)
 
 
-def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
-    r"""transform_cards(raw_cards, set_code, expansion_name, release_date=None) -> list of dict
+def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
+    r"""transform_cards(raw_cards, set_profile, expansion_name, release_date=None) -> list of dict
 
     Transform raw scraped card dicts into the output format used by
     the API. Each card is enriched with:
@@ -179,7 +179,7 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
         raw_cards (list of dict): cards as returned by
             :func:`scrape_cards`, in card-number order, since the
             art-style classifier reads the sequence
-        set_code (str): the set code (e.g. ``"a1"``, ``"P-A"``)
+        set_profile (SetProfile): the set the cards belong to
         expansion_name (str): human-readable expansion name
             (e.g. ``"Genetic Apex"``)
         release_date (str or None): release date in ``"YYYY-MM-DD"``
@@ -201,16 +201,14 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
 
     Example::
 
-        >>> cards = scrape_cards("a1")
-        >>> transformed = transform_cards(cards, "a1", "Genetic Apex")
+        >>> from set_profile import SetProfile
+        >>> cards = scrape_cards(SetProfile.of("a1"))
+        >>> transformed = transform_cards(cards, SetProfile.of("a1"), "Genetic Apex")
         >>> transformed[0]["id"]
         'a1-001'
         >>> transformed[0]["name"]
         'Bulbasaur'
     """
-    prefix = set_code_to_prefix(set_code)
-    is_pa = set_code == "P-A"
-    is_promo = set_code.startswith("P-")
     specific_packs = {c["pack"] for c in raw_cards if c["pack"] != "Every pack"}
     promo_volume, promo_volume_count = 1, 0
     art_styles = ArtStyleClassifier()
@@ -224,11 +222,11 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
         rarity = card["rarity"]
         art_style, shiny = art_styles.classify(card)
 
-        pack_points = None if is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
-        if is_promo: rarity = "Promo"
+        pack_points = None if set_profile.is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
+        if set_profile.is_promo: rarity = "Promo"
 
         pack = card["pack"]
-        if is_pa:
+        if set_profile.is_promo_a:
             if pack == "Promo pack":
                 promo_volume_count += 1
                 if promo_volume_count > PROMO_CARDS_PER_VOLUME:
@@ -236,25 +234,25 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
                 pack = f"Promo V{promo_volume}"
             elif pack == "Every pack":
                 pack = expansion_name
-        elif is_promo: pack = expansion_name
+        elif set_profile.is_promo: pack = expansion_name
         elif pack == "Every pack": pack = f"Shared({expansion_name})" if specific_packs else expansion_name
         elif pack.endswith(" pack"): pack = pack[:-5].strip()
 
         try:
-            deck_builder_nr = datamine_lookup.get((prefix.lower(), int(re.sub(r"\D", "", card["number"]))))
+            deck_builder_nr = datamine_lookup.get((set_profile.prefix.lower(), int(re.sub(r"\D", "", card["number"]))))
         except ValueError:
             deck_builder_nr = None
         if not deck_builder_nr:
-            missing_deck_nrs.append(f"{prefix}-{num_zfill}")
+            missing_deck_nrs.append(f"{set_profile.prefix}-{num_zfill}")
             deck_builder_nr = 0
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
         special_tags = matched_tags if matched_tags else None
 
         transformed.append({
             # Core identifiers
-            "id": f"{prefix}-{num_zfill}",
+            "id": f"{set_profile.prefix}-{num_zfill}",
             "name": card["name"],
-            "set_code": prefix,
+            "set_code": set_profile.prefix,
             "set_name": expansion_name,
             "pack": pack,
             "release_date": release_date,
@@ -289,13 +287,13 @@ def transform_cards(raw_cards, set_code, expansion_name, release_date=None):
             # Media & Metadata
             "artist": card["artist"],
             "source_url": card["image"],
-            "image": f"{GITHUB_BASE_URL}/webp/cards/{prefix}/{num_zfill}.webp",
-            "image_png": f"{GITHUB_BASE_URL}/png/cards/{prefix}/{num_zfill}.png",
+            "image": f"{GITHUB_BASE_URL}/webp/cards/{set_profile.prefix}/{num_zfill}.webp",
+            "image_png": f"{GITHUB_BASE_URL}/png/cards/{set_profile.prefix}/{num_zfill}.png",
             "flavour_text": card["flavour_text"],
             "alternate_versions": [
                 {**alt, "set_code": set_code_to_prefix(alt["set_code"].upper())}
                 for alt in card["alternate_versions"]
-                if f"{set_code_to_prefix(alt['set_code'].upper())}-{str(alt['id']).zfill(3)}" != f"{prefix}-{num_zfill}"
+                if f"{set_code_to_prefix(alt['set_code'].upper())}-{str(alt['id']).zfill(3)}" != f"{set_profile.prefix}-{num_zfill}"
             ],
         })
 

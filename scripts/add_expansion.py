@@ -49,8 +49,9 @@ from constants import CARDS_SCHEMA_PATH
 from database import append_to_v4, compile_v5_database, update_expansions, write_set_file
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
+from set_profile import SetProfile
 from transformer import downgrade_to_v4, strip_source_urls, transform_cards
-from utils import normalise_set_code, set_code_to_prefix
+from utils import normalise_set_code
 
 
 def validate_schema(cards):
@@ -145,8 +146,8 @@ def resolve_set_range(range_str):
     return all_codes[start_idx:end_idx + 1]
 
 
-def process_single_set(set_code, args):
-    r"""process_single_set(set_code, args)
+def process_single_set(set_profile, args):
+    r"""process_single_set(set_profile, args)
 
     Run the full six-step pipeline for a single set:
 
@@ -177,17 +178,17 @@ def process_single_set(set_code, args):
     images and updated JSON files on disk.
 
     Args:
-        set_code (str): the set code to process, already normalised
-            (e.g. ``"A1"``, ``"P-A"``, ``"B2b"``)
+        set_profile (SetProfile): the set to process, resolved from
+            the raw set code (e.g. ``"A1"``, ``"P-A"``, ``"B2b"``)
         args (argparse.Namespace): parsed CLI arguments. Must have
             ``name`` (str or None), ``mode`` (``"v4"`` or ``"v5"``),
             and ``skip_images`` (bool) attributes.
     """
-    prefix = set_code_to_prefix(set_code)
-    is_promo = set_code.startswith("P-")
+    prefix = set_profile.prefix
+    set_code = set_profile.code
 
     print(f"\n{'=' * 60}")
-    print(f"  {'Updating promo set' if is_promo else 'Adding expansion'}: {set_code}")
+    print(f"  {'Updating promo set' if set_profile.is_promo else 'Adding expansion'}: {set_code}")
     print(f"{'=' * 60}")
 
     # Step 1 ----------------------------------------------------------------
@@ -200,7 +201,7 @@ def process_single_set(set_code, args):
 
     # Step 2 ----------------------------------------------------------------
     print(f"\n[2/6] Scraping cards from Limitless TCG...")
-    raw_cards = scrape_cards(set_code)
+    raw_cards = scrape_cards(set_profile)
     if not raw_cards:
         print("    ERROR: No cards found. Check the set code and try again.")
         sys.exit(1)
@@ -208,7 +209,7 @@ def process_single_set(set_code, args):
 
     # Step 3 ----------------------------------------------------------------
     print(f"\n[3/6] Transforming card data...")
-    cards = transform_cards(raw_cards, set_code, expansion_name, release_date)
+    cards = transform_cards(raw_cards, set_profile, expansion_name, release_date)
     pack_names = sorted({c["pack"] for c in cards})
     print(f"    {len(cards)} cards, packs: {', '.join(pack_names)}")
 
@@ -283,8 +284,7 @@ def main():
     if args.all and args.name:
         parser.error("--name cannot be used with --all")
     elif args.all:
-        set_codes = get_all_set_codes()
-        set_codes.reverse()
+        set_codes = list(reversed(get_all_set_codes()))
     elif args.set_code:
         set_codes = resolve_set_range(args.set_code)
     else:
@@ -292,7 +292,7 @@ def main():
         sys.exit(1)
 
     for code in set_codes:
-        process_single_set(code, args)
+        process_single_set(SetProfile.of(code), args)
 
     if args.mode == "v5":
         print("\nCompiling v5 database and syncing alternate versions...")

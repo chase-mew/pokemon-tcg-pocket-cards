@@ -184,8 +184,8 @@ def _parse_prints(soup, set_code):
     return rarity, alt_versions
 
 
-def _parse_pack(soup, set_code):
-    r"""_parse_pack(soup, set_code) -> str
+def _parse_pack(soup, set_profile):
+    r"""_parse_pack(soup, set_profile) -> str
 
     Read the pack from the current-prints block, or return the
     ``"Every pack"`` sentinel the transformer resolves later.
@@ -198,7 +198,7 @@ def _parse_pack(soup, set_code):
     if not set_info:
         return "Every pack"
 
-    if set_code == "P-A":
+    if set_profile.is_promo_a:
         text = set_info.get_text()
         return clean_text(next(
             (kw for kw in sorted(PROMO_A_PACK_KEYWORDS, key=len, reverse=True) if kw in text),
@@ -275,8 +275,8 @@ def _parse_attacks(body):
     return attacks
 
 
-def extract_card(soup, set_code=""):
-    r"""extract_card(soup, set_code='') -> dict
+def extract_card(soup, set_profile):
+    r"""extract_card(soup, set_profile) -> dict
 
     Parse a single card page and return a dictionary with every card
     attribute needed for the output JSON.
@@ -294,9 +294,8 @@ def extract_card(soup, set_code=""):
 
     Args:
         soup (BeautifulSoup): parsed HTML of the card page
-        set_code (str): the set code this card belongs to. Used to
-            resolve pack keywords for promo sets (``"P-A"``).
-            Default: ``""``
+        set_profile (SetProfile): the set this card belongs to.
+            Supplies the promo test used to resolve pack keywords
 
     Returns:
         dict: card data with the following keys:
@@ -371,7 +370,7 @@ def extract_card(soup, set_code=""):
     image_div = soup.find("div", class_="card-image")
     artist_div = body.find("div", class_="card-text-artist")
 
-    rarity, alt_versions = _parse_prints(soup, set_code)
+    rarity, alt_versions = _parse_prints(soup, set_profile.code)
     stage, evolves_from, retreat, weakness = (
         (None, None, None, None) if is_trainer else _parse_pokemon_stats(type_text_raw, raw_text))
 
@@ -393,7 +392,7 @@ def extract_card(soup, set_code=""):
         "ex": ex,
         "mega": mega,
         "points": None if is_trainer else (3 if mega and ex else 2 if ex else 1),
-        "pack": _parse_pack(soup, set_code),
+        "pack": _parse_pack(soup, set_profile),
         "artist": clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else None,
         "stage": stage,
         "evolves_from": evolves_from,
@@ -405,8 +404,8 @@ def extract_card(soup, set_code=""):
     }
 
 
-def scrape_cards(set_code):
-    r"""scrape_cards(set_code) -> list of dict
+def scrape_cards(set_profile):
+    r"""scrape_cards(set_profile) -> list of dict
 
     Scrape every card in a set by requesting sequential card numbers
     starting at 1. Stops after ``MAX_CONSECUTIVE_ERRORS`` cards in a
@@ -422,8 +421,7 @@ def scrape_cards(set_code):
     :func:`extract_card`. Cards are returned in card-number order.
 
     Args:
-        set_code (str): the set code to scrape (e.g. ``"a1"``,
-            ``"p-a"``)
+        set_profile (SetProfile): the set to scrape
 
     Returns:
         list of dict: one card dict per card found, in ascending
@@ -442,11 +440,11 @@ def scrape_cards(set_code):
         'Bulbasaur'
     """
     cards, errors, i = [], 0, 0
-    with tqdm(desc=f"Scraping {set_code}", unit=" cards") as pbar:
+    with tqdm(desc=f"Scraping {set_profile.code}", unit=" cards") as pbar:
         while errors < MAX_CONSECUTIVE_ERRORS:
             i += 1
             try:
-                cards.append(extract_card(fetch_page(f"{BASE_URL}{set_code}/{i}"), set_code))
+                cards.append(extract_card(fetch_page(f"{BASE_URL}{set_profile.code}/{i}"), set_profile))
                 errors = 0
                 pbar.update(1)
                 time.sleep(RATE_LIMIT_DELAY)
@@ -454,6 +452,6 @@ def scrape_cards(set_code):
                 errors += 1
             except Exception as e:
                 raise RuntimeError(
-                    f"Failed to scrape card {i} of set {set_code}: {type(e).__name__}: {e}"
+                    f"Failed to scrape card {i} of set {set_profile.code}: {type(e).__name__}: {e}"
                 ) from e
     return cards
