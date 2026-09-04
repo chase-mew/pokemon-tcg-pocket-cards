@@ -29,7 +29,8 @@ The v5 data directory (``V5_DIR``) is created on import.
 import json
 import os
 import re
-from constants import CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_DIR
+from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES,
+                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -267,8 +268,8 @@ def compile_v5_database():
 
     Rebuild the v5 card database from the per-set files on disk.
     Reads all cards, syncs alternate version references, regroups by
-    set, saves each set's file, updates the expansions index for each
-    set, and writes a master ``cards.json`` containing every card
+    set, saves each set's file, builds the expansions index in
+    memory, and writes a master ``cards.json`` containing every card
     sorted by set code then card ID.
 
     Call this after all sets are scraped and updated, to get the
@@ -280,10 +281,11 @@ def compile_v5_database():
     2. Call :func:`sync_alternate_versions` to make alternate version
        references bidirectional.
     3. Group cards by ``set_code``.
-    4. For each set, sort by numeric card number and save to
-       ``V5_DIR/{prefix}/{prefix}.json``.
-    5. For each set, call :func:`update_expansions` to update the
-       expansions index.
+    4. For each set, sort by numeric card number, save to
+       ``V5_DIR/{prefix}/{prefix}.json``, and build its expansion
+       entry with :func:`build_expansion_entry`.
+    5. Write the whole expansions index in one call, once every set
+       has been processed.
     6. Sort all cards by natural set order then card number and save
        to ``V5_DIR/cards.json``.
     """
@@ -295,15 +297,72 @@ def compile_v5_database():
     for c in all_cards:
         set_groups.setdefault(c["set_code"], []).append(c)
 
+    expansions = _load_existing_json(EXPANSIONS_JSON_PATH)
+    by_id = {e["id"]: e for e in expansions}
+
     for prefix, cards in set_groups.items():
         cards.sort(key=_card_number)
-        set_dir = os.path.join(V5_DIR, prefix)
-        minify_and_save(cards, os.path.join(set_dir, f"{prefix}.json"))
+        minify_and_save(cards, os.path.join(V5_DIR, prefix, f"{prefix}.json"))
         if cards:
-            update_expansions(prefix, cards[0]["set_name"], cards)
+            entry = build_expansion_entry(prefix, cards[0]["set_name"], cards)
+            if prefix in by_id:
+                by_id[prefix].update(entry)
+            else:
+                expansions.append(entry)
+                by_id[prefix] = entry
+
+    minify_and_save(expansions, EXPANSIONS_JSON_PATH)
 
     all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
     minify_and_save(all_cards, CARDS_JSON_PATH)
+
+
+def build_expansion_entry(prefix, expansion_name, cards):
+    r"""build_expansion_entry(prefix, expansion_name, cards) -> dict
+
+    Build one expansion index entry. Pure: reads nothing and writes
+    nothing, so the caller controls when the index hits disk.
+
+    Packs come from the distinct ``pack`` values, excluding the
+    ``"Shared(...)"`` marker and the expansion name itself, neither of
+    which names a real pack. A set with no named packs gets a single
+    generic ``"Booster"``. Promo packs have no artwork in the game, so
+    their image URLs are None.
+
+    Args:
+        prefix (str): lowercase set prefix (e.g. ``"a1"``, ``"pa"``)
+        expansion_name (str): human-readable name
+        cards (list of dict): every card in the set
+
+    Returns:
+        dict: ``id``, ``name``, ``release_date``, ``total_cards``,
+        ``cards_url``, ``cards_url_min``, ``packs``
+    """
+    is_promo = prefix in PROMO_PREFIXES
+
+    def pack_entry(pack_id, name):
+        return {
+            "id": pack_id,
+            "name": name,
+            "image": None if is_promo else f"{GITHUB_BASE_URL}/webp/packs/{pack_id}.webp",
+            "image_png": None if is_promo else f"{GITHUB_BASE_URL}/png/packs/{pack_id}.png",
+        }
+
+    unique_packs = sorted({c["pack"] for c in cards
+                           if not c["pack"].startswith("Shared(") and c["pack"] != expansion_name})
+    packs = ([pack_entry(f"{prefix}-booster", "Booster")] if not unique_packs
+             else [pack_entry(f"{prefix}-{slugify(name)}", name) for name in unique_packs])
+
+    dates = [c["release_date"] for c in cards if c.get("release_date")]
+    return {
+        "id": prefix,
+        "name": expansion_name,
+        "release_date": min(dates) if dates else None,
+        "total_cards": len(cards),
+        "cards_url": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.json",
+        "cards_url_min": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.min.json",
+        "packs": packs,
+    }
 
 
 def update_expansions(set_code, expansion_name, cards):
@@ -314,16 +373,11 @@ def update_expansions(set_code, expansion_name, cards):
     exist, then fills in the name, release date, total card count,
     pack list, and URLs to the set's JSON files on GitHub.
 
-    Pack detection works by collecting the unique ``pack`` values
-    from the cards, excluding packs that start with ``"Shared("`` and
-    packs equal to the expansion name, neither of which names a real
-    pack. If no unique packs remain, a single generic ``"Booster"``
-    pack is created.
-    Otherwise one pack entry is created per unique pack name, with
-    the pack name slugified for the pack ID and image filenames.
-
-    The release date is the earliest ``release_date`` among the
-    cards, or ``None`` if no card has one.
+    A convenience wrapper for single-set updates: it reads the whole
+    index, builds one entry with :func:`build_expansion_entry`, and
+    writes the whole index back. :func:`compile_v5_database` updates
+    every set in one pass instead, so it batches the writes itself
+    rather than calling this per set.
 
     Args:
         set_code (str): the set code (e.g. ``"A1"``, ``"P-A"``)
@@ -338,45 +392,14 @@ def update_expansions(set_code, expansion_name, cards):
         image URLs point to the GitHub raw content CDN.
     """
     prefix = set_code_to_prefix(set_code)
-    is_promo = prefix in PROMO_PREFIXES
     expansions = _load_existing_json(EXPANSIONS_JSON_PATH)
+    entry = build_expansion_entry(prefix, expansion_name, cards)
 
-    exp_obj = next((e for e in expansions if e["id"] == prefix), None)
-    if not exp_obj:
-        exp_obj = {"id": prefix}
-        expansions.append(exp_obj)
-    exp_obj["name"] = expansion_name
-
-    unique_packs = sorted({c["pack"] for c in cards
-                           if not c["pack"].startswith("Shared(") and c["pack"] != expansion_name})
-    packs = []
-
-    if not unique_packs:
-        packs.append({
-            "id": f"{prefix}-booster",
-            "name": "Booster",
-            "image": None if is_promo else f"{GITHUB_BASE_URL}/webp/packs/{prefix}-booster.webp",
-            "image_png": None if is_promo else f"{GITHUB_BASE_URL}/png/packs/{prefix}-booster.png"
-        })
+    existing = next((e for e in expansions if e["id"] == prefix), None)
+    if existing:
+        existing.update(entry)
     else:
-        for pack_name in unique_packs:
-            slug = slugify(pack_name)
-            packs.append({
-                "id": f"{prefix}-{slug}",
-                "name": pack_name,
-                "image": None if is_promo else f"{GITHUB_BASE_URL}/webp/packs/{prefix}-{slug}.webp",
-                "image_png": None if is_promo else f"{GITHUB_BASE_URL}/png/packs/{prefix}-{slug}.png"
-            })
-
-    dates = [c["release_date"] for c in cards if c.get("release_date")]
-
-    exp_obj["release_date"] = min(dates) if dates else None
-    exp_obj["total_cards"] = len(cards)
-    exp_obj[
-        "cards_url"] = f"https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/{prefix}/{prefix}.json"
-    exp_obj[
-        "cards_url_min"] = f"https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/{prefix}/{prefix}.min.json"
-    exp_obj["packs"] = packs
+        expansions.append(entry)
 
     minify_and_save(expansions, EXPANSIONS_JSON_PATH)
-    return packs
+    return entry["packs"]

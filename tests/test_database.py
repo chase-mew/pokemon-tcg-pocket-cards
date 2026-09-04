@@ -8,9 +8,9 @@ import json
 import pytest
 
 import database
-from database import (_card_number, _set_sort_key, append_to_v4, compile_v5_database,
-                      minified_path, minify_and_save, read_all_v5_cards, sync_alternate_versions,
-                      update_expansions, write_set_file)
+from database import (_card_number, _set_sort_key, append_to_v4, build_expansion_entry,
+                      compile_v5_database, minified_path, minify_and_save, read_all_v5_cards,
+                      sync_alternate_versions, update_expansions, write_set_file)
 
 
 def card(card_id, **overrides):
@@ -178,6 +178,16 @@ class TestSyncAlternateVersions:
 # Expansions index
 # ---------------------------------------------------------------------------
 
+class TestBuildExpansionEntry:
+    def test_is_pure(self, v5_dir):
+        """No file is touched; the caller decides when to write."""
+        before = (v5_dir / "expansions.json").exists()
+        entry = build_expansion_entry("a1", "Genetic Apex", [card("a1-001", pack="Charizard")])
+        assert entry["id"] == "a1"
+        assert entry["total_cards"] == 1
+        assert (v5_dir / "expansions.json").exists() is before
+
+
 class TestUpdateExpansions:
     def test_named_packs_become_pack_entries(self, v5_dir):
         packs = update_expansions("A1", "Genetic Apex", [
@@ -228,15 +238,16 @@ class TestUpdateExpansions:
 # Full compile
 # ---------------------------------------------------------------------------
 
-class TestCompileV5Database:
-    @pytest.fixture
-    def populated(self, v5_dir):
-        write_set_file([card("a1-002"), card("a1-001", alternate_versions=[
-            {"set_code": "b10", "set_name": "Future Set", "id": 3, "rarity": "☆"}])])
-        write_set_file([card("b10-003", set_code="b10", set_name="Future Set", rarity="☆")])
-        write_set_file([card("b2-001", set_code="b2", set_name="Deluxe", rarity="◊")])
-        return v5_dir
+@pytest.fixture
+def populated(v5_dir):
+    write_set_file([card("a1-002"), card("a1-001", alternate_versions=[
+        {"set_code": "b10", "set_name": "Future Set", "id": 3, "rarity": "☆"}])])
+    write_set_file([card("b10-003", set_code="b10", set_name="Future Set", rarity="☆")])
+    write_set_file([card("b2-001", set_code="b2", set_name="Deluxe", rarity="◊")])
+    return v5_dir
 
+
+class TestCompileV5Database:
     def test_reads_every_set_directory(self, populated):
         assert len(read_all_v5_cards()) == 4
 
@@ -274,3 +285,14 @@ class TestCompileV5Database:
     def test_empty_data_dir_is_not_an_error(self, v5_dir):
         compile_v5_database()
         assert read(v5_dir / "cards.json") == []
+
+
+class TestCompileWritesTheIndexOnce:
+    def test_index_is_written_a_single_time(self, populated, monkeypatch):
+        writes = []
+        original = database.minify_and_save
+        monkeypatch.setattr(database, "minify_and_save",
+                            lambda d, p: (writes.append(p), original(d, p))[1])
+        database.compile_v5_database()
+        index_writes = [p for p in writes if p.endswith("expansions.json")]
+        assert len(index_writes) == 1, f"index rewritten {len(index_writes)}x"

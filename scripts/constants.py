@@ -32,6 +32,10 @@ GITHUB_BASE_URL = (
     "https://raw.githubusercontent.com/chase-manning/"
     "pokemon-tcg-pocket-cards/refs/heads/main/images"
 )
+V5_CARDS_URL_BASE = (
+    "https://raw.githubusercontent.com/chase-manning/"
+    "pokemon-tcg-pocket-cards/refs/heads/main/data/v5"
+)
 SEREBII_BASE_URL = "https://www.serebii.net/tcgpocket/"
 FLIBUSTIER_PTCGP_DB_URL = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json"
 
