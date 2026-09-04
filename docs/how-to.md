@@ -27,7 +27,7 @@ python3 scripts/add_expansion.py a1->b4
 ## Output data for legacy schemas
 
 If your application still relies on the flat v4 schema, you can force the scraper to output v4-formatted data. Add the `--mode v4` flag to format the output for the legacy schema.
-```bash 
+```bash
 python3 scripts/add_expansion.py b4 --mode v4
 ```
 

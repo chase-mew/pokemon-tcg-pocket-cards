@@ -4,7 +4,7 @@
 [Limitless TCG](https://pocket.limitlesstcg.com/) formats its web pages for people. The scraper extracts the HTML and converts the text into structured data. It strips out whitespace and casts strings to integers for fields like health and attack damage. It converts text flags into standard boolean values.
 
 ## Constants and utilities
-The [constants.py](../scripts/constants.py) file stores global configuration data: base URLs, valid energy types, pack point costs, and the dictionary of species names used for tag matching.    
+The [constants.py](../scripts/constants.py) file stores global configuration data: base URLs, valid energy types, pack point costs, and the dictionary of species names used for tag matching.
 The [utils.py](../scripts/utils.py) module handles routine text operations. It normalises set codes, strips trailing whitespace, formats dates, and compiles the regular expressions used to identify special Pokémon.
 
 ## Data transformation

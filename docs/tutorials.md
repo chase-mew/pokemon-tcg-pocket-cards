@@ -35,6 +35,6 @@ To run the scraper yourself, you need Python 3.9+ installed on your machine.
 3. Install the required dependencies.
 ```pip install -r requirements.txt```
 4. Run the scraper against a set code. Preferably, one that is either incomplete or doesn't exist within the current [cards.json](../data/v5/cards.min.json).
-```bash 
+```bash
 python3 scripts/add_expansion.py b4a
 ```

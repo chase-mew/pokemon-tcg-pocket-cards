@@ -30,7 +30,7 @@ The v5 index that replaces the old root `expansions.json` is [data/v5/expansions
 
 ## 💾 Data Source
 
-Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**    
+Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
 Deck builder numbers are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
 
 
@@ -85,17 +85,17 @@ python3 scripts/add_expansion.py PB
 | Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
 | Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   |
 | Special tags | ❌ | Ancient, future, and ultra beasts                                                    |
-| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   | 
+| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   |
 | Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          |
 | Release date                       | ❌                         | ✅ ISO release date                                                                   |
-| Flavour text                       | ❌                         | ✅ Raw text string                                                                    |               
+| Flavour text                       | ❌                         | ✅ Raw text string                                                                    |
 | Language support | English only | English only |
-| Pack drop probabilities            | ❌                         | ❌                                                                                    | 
+| Pack drop probabilities            | ❌                         | ❌                                                                                    |
 
 ### 💼 Support schedule
 
-**[💚 V5](data/v5/cards.json) is the actively maintained data model.**   
-[💛 V4](data/v4/cards.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).   
+**[💚 V5](data/v5/cards.json) is the actively maintained data model.**
+[💛 V4](data/v4/cards.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).
 Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
 
 ## 🛠️ Projects using this API
@@ -111,10 +111,10 @@ Submit a pull request to list your project here if you build something with this
 
 ## 📜 License
 
-- **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).    
+- **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).
 See **[LICENSE](LICENSE)** for the full license text.
-- Legacy card datasets (**[v1.json](data/v1/cards.json), [v2.json](data/v2/cards.json), [v3.json](data/v3/cards.json), [v4.json](data/v4/cards.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).     
+- Legacy card datasets (**[v1.json](data/v1/cards.json), [v2.json](data/v2/cards.json), [v3.json](data/v3/cards.json), [v4.json](data/v4/cards.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
-- **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.    
+- **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.
 It was ported to Python under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`), Copyright (C) 2026 **Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>**.
 - Pokémon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.
