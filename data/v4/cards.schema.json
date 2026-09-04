@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-mew/pokemon-tcg-pocket-cards/refs/heads/main/data/v4/cards.schema.json",
+  "title": "Pokemon TCG Pocket Cards V4 Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "rarity": {
+        "type": "string",
+        "description": "Rarity as a run of diamond or star characters, such as a single diamond or two stars. Promo cards read \"Promo\"."
+      },
+      "pack": {
+        "type": "string",
+        "description": "The name of the pack the card is pulled from, not its identifier."
+      },
+      "health": {
+        "type": "string",
+        "description": "Hit points as a string. Trainer cards carry an empty string, since they have none."
+      },
+      "image": {
+        "type": "string",
+        "description": "URL of the card artwork hosted in this repository."
+      },
+      "fullart": {
+        "type": "string",
+        "description": "Whether the card is a full-art print, as \"Yes\" or \"No\"."
+      },
+      "ex": {
+        "type": "string",
+        "description": "Whether the card is a Pokemon ex, as \"Yes\" or \"No\"."
+      },
+      "artist": {
+        "type": "string",
+        "description": "The illustrator credited on the card."
+      },
+      "type": {
+        "type": "string",
+        "description": "Energy type such as Water or Grass, or \"Trainer\" for trainer cards."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "rarity",
+      "pack",
+      "health",
+      "image",
+      "fullart",
+      "ex",
+      "artist",
+      "type"
+    ],
+    "additionalProperties": false
+  }
+}
