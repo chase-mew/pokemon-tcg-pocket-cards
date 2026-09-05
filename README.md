@@ -12,7 +12,8 @@ This open-source repository holds data on Pokémon TCG Pocket cards. You can use
 
 You can pull the raw JSON directly as an API:
 
-- Cards dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
+- Full dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
+- Core payload: **[data/v5/cards.core.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.min.json))
 - Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
 
 Or install it from npm, which ships the minified data plus TypeScript definitions:
@@ -56,18 +57,10 @@ Every dataset now lives under [data/](data/). If you link to a raw file at the r
 
 | Old (removed)          | New                                                                    |
 |------------------------|------------------------------------------------------------------------|
-| `/v1.json`             | [data/v1/v1.json](data/v1/cards.json)                                     |
-| `/v2.json`             | [data/v2/v2.json](data/v2/cards.json)                                     |
-| `/v4.json`             | [data/v4/cards.json](data/v4/cards.json)                                     |
-| `/expansions.json`     | [data/v4/expansions.json](data/v4/expansions.json) (frozen v4-era index) |
-
-The v5 index that replaces the old root `expansions.json` is [data/v5/expansions.json](data/v5/expansions.json); it adds `release_date`, `total_cards`, and per-set `cards_url` fields. Every dataset also ships a `.min.json` sibling.
-
-## 💾 Data Source
-
-Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
-Deck builder numbers are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
-
+| `/v1.json`             | [data/v1/cards.json](data/v1/cards.json) ([minified](data/v1/cards.min.json))   |
+| `/v2.json`             | [data/v2/cards.json](data/v2/cards.json) ([minified](data/v2/cards.min.json))   |
+| `/v4.json`             | [data/v4/cards.json](data/v4/cards.json) ([minified](data/v4/cards.min.json))   |
+| `/expansions.json`     | [data/v4/expansions.json](data/v4/expansions.json) (frozen v4-era index)        |
 
 ## ⚡ Adding a new expansion
 
@@ -107,32 +100,39 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[💚 V5 (full)](data/v5/cards.json)** (newer)                                 | **[🟦 V5 (core)](data/v5/cards.core.json)**                        |
+| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[🟦 V5 (core)](data/v5/cards.core.json)**                        | **[💚 V5 (full)](data/v5/cards.json)** (latest)                                 |
 |------------------------------------|---------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Missing values                     | Empty strings ("")        | null                                                                                 | null                                                                |
-| Image formats                      | PNG only                  | WEBP (default) and PNG                                                               | WEBP only                                                           |
-| Data structure                     | Flat                      | Mostly flat, with nested `ability` and `attacks` fields                              | Flat, 14 fields per card                                            |
-| Booleans                           | Strings (`"Yes"`/`"No"`)  | Native booleans (`true`/`false`)                                                     | Native booleans (`true`/`false`)                                    |
-| Set mapping                        | Pack name                 | Set name, ID and pack name                                                           | Set code and pack name                                              |
-| Combat stats                       | Health only               | Health, retreat cost, weakness                                                       | Health and points                                                   |
-| Attack data                        | ❌                         | ✅ Structured (cost, name, damage, effect)                                            | ❌                                                                   |
-| Abilities                          | ❌                         | ✅ Structured (exists, name, effect)                                                  | ❌                                                                   |
-| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist | Type/subtype, stage, rarity, ex, mega                               |
-| Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   | ✅ Mega (`true`/`false`); shiny dropped                              |
-| Special tags | ❌ | Ancient, future, and ultra beasts                                                    | ❌                                                                   |
-| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   | ✅ Internal asset ID (`deckBuilderNr`)                              |
-| Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          | ❌                                                                   |
-| Release date                       | ❌                         | ✅ ISO release date                                                                   | ❌                                                                   |
-| Flavour text                       | ❌                         | ✅ Raw text string                                                                    | ❌                                                                   |
-| Language support | English only | English only | English only |
-| Pack drop probabilities            | ❌                         | ❌                                                                                    | ❌                                                                   |
-| Payload size (minified)            | ~2 MB                      | ~4.6 MB                                                                               | ~1.3 MB                                                             |
+| Missing values                     | Empty strings ("")        | null                             | null                                                         |
+| Image formats                      | PNG only                  | WEBP only                        | WEBP (default) and PNG                                       |
+| Data structure                     | Flat                      | Flat, 14 fields per card         | Mostly flat, with nested `ability` and `attacks` fields      |
+| Booleans                           | Strings (`"Yes"`/`"No"`)   | Native booleans (`true`/`false`) | Native booleans (`true`/`false`)                             |
+| Set mapping                        | Pack name                 | Set code and pack name           | Set name, ID and pack name                                   |
+| Combat stats                       | Health only               | Health and points                | Health, retreat cost, weakness                               |
+| Attack data                        | ❌                         | ❌                                | ✅ Structured (cost, name, damage, effect)                    |
+| Abilities                          | ❌                         | ❌                                | ✅ Structured (exists, name, effect)                          |
+| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, rarity, ex, mega | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
+| Shiny or Mega                      | ❌                         | ✅ Mega (`true`/`false`); shiny dropped | ✅ Native booleans (`true`/`false`)                           |
+| Special tags                       | ❌                         | ❌                                | Ancient, future, and ultra beasts                            |
+| Deck builder                       | ❌                         | ✅ Internal asset ID (`deckBuilderNr`) | ✅ Internal asset ID (`deckBuilderNr`)                        |
+| Alternate prints                   | ⚠️ Exists, but as individual cards | ❌                                | ✅ Array of alternative set and rarity versions on each card  |
+| Release date                       | ❌                         | ❌                                | ✅ ISO release date                                           |
+| Flavour text                       | ❌                         | ❌                                | ✅ Raw text string                                            |
+| Language support                   | English only              | English only                     | English only                                                 |
+| Pack drop probabilities            | ❌                         | ❌                                | ❌                                                            |
+| Payload size (minified)            | ~1 MB                     | ~1.3 MB                          | ~4.4 MB                                                      |
 
 ### 💼 Support schedule
 
 **[💚 V5](data/v5/cards.json) is the actively maintained data model.**
-[💛 V4](data/v4/cards.min.json) receives updates until the final expansion of the current season (or the start of the "C" block).
+[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion). Support beyond that point is undetermined, with the "C" block as the minimum.
 Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
+
+## 🤝 Contributing
+
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to add
+card data and the licensing split, the [Code of Conduct](CODE_OF_CONDUCT.md)
+before opening a pull request, and [SECURITY.md](SECURITY.md) if you have found a
+vulnerability rather than a bug.
 
 ## 🛠️ Projects using this API
 
@@ -145,12 +145,10 @@ Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer
 
 Submit a pull request to list your project here if you build something with this data!
 
-## 🤝 Contributing
+## 💾 Data Source
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to add
-card data and the licensing split, the [Code of Conduct](CODE_OF_CONDUCT.md)
-before opening a pull request, and [SECURITY.md](SECURITY.md) if you have found a
-vulnerability rather than a bug.
+Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
+Deck builder numbers are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
 
 ## 📜 License
 
@@ -158,6 +156,4 @@ vulnerability rather than a bug.
 See **[LICENSE](LICENSE)** for the full license text.
 - Legacy card datasets (**[v1.json](data/v1/cards.json), [v2.json](data/v2/cards.json), [v3.json](data/v3/cards.json), [v4.json](data/v4/cards.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
-- **[Reverse-engineered deck share encoding logic](/scripts/deck_code.py)** provided under the MIT License, Copyright (c) 2026 by **[Nirostar](https://github.com/Nirostar)**.
-It was ported to Python under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`), Copyright (C) 2026 **Leonid Dalin <[infoLeonid@protonmail.com](mailto:infoLeonid@Protonmail.com)> & Chase Manning <[chase@manning.dev](mailto:chase@Manning.dev)>**.
-- Pokémon card images, names, text, and logos remain the intellectual property of Nintendo, Creatures Inc., GAME FREAK Inc., and DeNA. This project is an independent fan work.
+- Third-party components and their notices: **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**.
