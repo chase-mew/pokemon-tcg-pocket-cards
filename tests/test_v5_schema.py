@@ -7,7 +7,8 @@ from tests.contract import CARD_KEYS
 from tests.utils import collect, report
 from constants import (ART_STYLES, ENERGY_TYPES, FIRST_RELEASE, GITHUB_BASE_URL,
                        PACK_POINTS, PNG_CARDS_DIR, PROMO_PREFIXES, RARITIES,
-                       SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR)
+                       SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR,
+                       is_playable_trainer)
 
 ABILITY_KEYS = {"exists", "name", "effect"}
 ATTACK_KEYS = {"cost", "name", "damage", "effect"}
@@ -23,10 +24,6 @@ CROWN_RARITY = "Crown Rare"
 def is_promo(card):
     return card["set_code"] in PROMO_PREFIXES
 
-
-def is_fossil(card):
-    """A fossil item: a playable Item-subtype trainer whose name ends in Fossil."""
-    return card["type"] == "Trainer" and (card["name"].endswith("Fossil") or card["name"] == "Old Amber")
 
 
 def walk(value, path=""):
@@ -214,7 +211,7 @@ class TestStageAndEvolution:
 
     def test_trainer_stage_is_null(self, cards):
         fails = collect(cards, lambda c: None if c["type"] != "Trainer"
-                        or is_fossil(c) or c["stage"] is None
+                        or (c["type"] == "Trainer" and is_playable_trainer(c["name"])) or c["stage"] is None
                         else f"trainer has stage {c['stage']!r}")
         assert not fails, report(fails)
 
@@ -319,7 +316,7 @@ class TestFlags:
 class TestPoints:
     def test_points_null_iff_trainer(self, cards):
         fails = collect(cards, lambda c: None if (c["points"] is None) == (
-            c["type"] == "Trainer" and not is_fossil(c))
+            c["type"] == "Trainer" and not (c["type"] == "Trainer" and is_playable_trainer(c["name"])))
             else f"points {c['points']!r} for type {c['type']}")
         assert not fails, report(fails)
 
@@ -448,7 +445,7 @@ class TestStats:
         def check(c):
             if c["type"] != "Trainer":
                 return None
-            if is_fossil(c):
+            if (c["type"] == "Trainer" and is_playable_trainer(c["name"])):
                 combat = ("retreat",)
             else:
                 combat = ("health", "retreat", "weakness")
@@ -642,7 +639,7 @@ class TestImages:
 
 class TestFossilTrainers:
     def test_fossil_items_are_playable_40_hp_basics(self, cards):
-        fossils = [c for c in cards if is_fossil(c)]
+        fossils = [c for c in cards if (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
         assert fossils
         for c in fossils:
             assert c["type"] == "Trainer"
@@ -652,13 +649,13 @@ class TestFossilTrainers:
             assert c["stage"] == "Basic"
 
     def test_fossil_weakness_is_none(self, cards):
-        fossils = [c for c in cards if is_fossil(c)]
+        fossils = [c for c in cards if (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
         assert fossils
         for c in fossils:
             assert c["weakness"] == "none"
 
     def test_other_trainers_keep_null_gameplay(self, cards):
-        others = [c for c in cards if c["type"] == "Trainer" and not is_fossil(c)]
+        others = [c for c in cards if c["type"] == "Trainer" and not (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
         assert others
         for c in others:
             assert c["health"] is None

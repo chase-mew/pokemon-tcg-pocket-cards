@@ -34,7 +34,8 @@ from constants import (CARDS_JSON_PATH, COLLECTION_FIELDS, CORE_RARITIES,
                        V4_JSON_PATH, V5_CARDS_URL_BASE, V5_COLLECTION_CARDS_PATH,
                        V5_COLLECTION_NO_IMAGE_CARDS_PATH, V5_CORE_CARDS_PATH,
                        V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
-                       V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
+                       V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH,
+                       is_playable_trainer)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -297,13 +298,7 @@ def _sparse_record(fields, card):
 
 
 def _is_playable_trainer(card):
-    r"""_is_playable_trainer(card) -> bool
-
-    True for Trainer items that play as Pokemon on the field: the Fossil
-    family and Old Amber. They keep their combat fields in the projections.
-    """
-    name = card["name"]
-    return name.endswith("Fossil") or name == "Old Amber"
+    return is_playable_trainer(card["name"])
 
 
 def build_core_cards(cards):

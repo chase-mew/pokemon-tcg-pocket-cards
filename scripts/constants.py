@@ -151,6 +151,11 @@ ART_STYLES = (
 )
 TRAINER_SUBTYPES = ("Supporter", "Stadium", "Tool", "Item")
 PROMO_PREFIXES = ("pa", "pb")
+
+
+def is_playable_trainer(name):
+    """A trainer that plays as a Pokemon: the Fossil family and Old Amber."""
+    return name.endswith("Fossil") or name == "Old Amber"
 FIRST_RELEASE = "2024-10-30"  # A1
 
 # ---------------------------------------------------------------------------

@@ -4,16 +4,14 @@ import json
 import jsonschema
 
 from constants import (CARDS_JSON_PATH, CORE_RARITIES, V5_CORE_CARDS_PATH,
-                       V5_CORE_NO_IMAGE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_SCHEMA_PATH)
+                       V5_CORE_NO_IMAGE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_SCHEMA_PATH,
+                       is_playable_trainer)
 
 
 def _load(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-
-def _is_fossil(record):
-    return record["type"] == "Trainer" and (record["name"].endswith("Fossil") or record["name"] == "Old Amber")
 
 
 def test_no_image_covers_the_same_cards_as_core():
@@ -47,7 +45,7 @@ def test_no_image_trainer_records_omit_ex_and_mega():
         if record["type"] == "Trainer":
             assert "ex" not in record
             assert "mega" not in record
-            if not _is_fossil(record):
+            if not is_playable_trainer(record["name"]):
                 assert "stage" not in record
                 assert "health" not in record
                 assert "points" not in record

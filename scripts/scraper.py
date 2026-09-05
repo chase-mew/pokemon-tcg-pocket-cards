@@ -31,7 +31,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from constants import BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES, PROMO_A_PACK_KEYWORDS, SESSION, DEFAULT_TIMEOUT, RATE_LIMIT_DELAY
+from constants import (BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES,
+                       PROMO_A_PACK_KEYWORDS, SESSION, DEFAULT_TIMEOUT,
+                       RATE_LIMIT_DELAY, is_playable_trainer)
 from utils import clean_text, parse_release_date, parse_trainer_subtype, to_int
 
 class NotFound(Exception):
@@ -347,7 +349,7 @@ def extract_card(soup, set_profile):
 
     type_text_raw = body.find("p", class_="card-text-type").get_text(" ", strip=True)
     is_trainer = type_text_raw.startswith("Trainer")
-    is_fossil = is_trainer and (name.endswith("Fossil") or name == "Old Amber")
+    is_fossil = is_trainer and is_playable_trainer(name)
 
     # card body only: identical between a print and its parallel foil, unlike the full page
     raw_text = clean_text(body.get_text(" ", strip=True))

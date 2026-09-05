@@ -5,7 +5,7 @@ import jsonschema
 
 from constants import (CARDS_JSON_PATH, CORE_RARITIES, V5_GAMEPLAY_CARDS_PATH,
                        V5_GAMEPLAY_NO_IMAGE_CARDS_PATH,
-                       V5_GAMEPLAY_NO_IMAGE_CARDS_SCHEMA_PATH)
+                       V5_GAMEPLAY_NO_IMAGE_CARDS_SCHEMA_PATH, is_playable_trainer)
 
 NON_FOSSIL_TRAINER_KEYS = {"id", "name", "set_code", "type", "subtype",
                            "card_text", "deckBuilderNr"}
@@ -18,9 +18,6 @@ def _load(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-
-def _is_fossil(record):
-    return record["type"] == "Trainer" and (record["name"].endswith("Fossil") or record["name"] == "Old Amber")
 
 
 def test_no_image_covers_the_same_cards_as_gameplay():
@@ -57,7 +54,7 @@ def test_no_image_trainer_shapes_follow_trim_rule():
     for record in no_image:
         if record["type"] != "Trainer":
             continue
-        if _is_fossil(record):
+        if is_playable_trainer(record["name"]):
             assert set(record) == FOSSIL_TRAINER_KEYS
             assert record["weakness"] == "none"
         else:

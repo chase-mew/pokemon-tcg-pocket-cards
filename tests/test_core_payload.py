@@ -5,7 +5,7 @@ import os
 import jsonschema
 
 from constants import (CARDS_JSON_PATH, CORE_RARITIES, V5_CORE_CARDS_PATH,
-                       V5_CORE_CARDS_SCHEMA_PATH)
+                       V5_CORE_CARDS_SCHEMA_PATH, is_playable_trainer)
 from database import CORE_FIELDS
 
 
@@ -13,9 +13,6 @@ def _load(path):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-
-def _is_fossil(record):
-    return record["type"] == "Trainer" and (record["name"].endswith("Fossil") or record["name"] == "Old Amber")
 
 
 def test_core_payload_covers_every_gameplay_card():
@@ -56,7 +53,7 @@ def test_core_records_never_carry_null_values():
 
 def test_core_fossil_items_keep_playable_fields():
     core = _load(V5_CORE_CARDS_PATH)
-    fossils = [record for record in core if _is_fossil(record)]
+    fossils = [record for record in core if is_playable_trainer(record["name"])]
     assert fossils
     for record in fossils:
         assert record["stage"] == "Basic"
