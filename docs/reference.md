@@ -66,6 +66,33 @@ The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of t
 | `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.   |
 | `image`         | string          | URL to the WebP version of the card image.                         |
 
+The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 2,822 records, leaving 13 fields per card at about 0.6 MB minified. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image`.
+
+## V5 gameplay schema
+
+The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 2,822 records) and is about 1.4 MB minified against 0.9 MB for the core payload and 4.4 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order is fixed and matches the full schema where the field appears.
+
+| Field           | Type            | Description                                                       |
+|:----------------|:----------------|:------------------------------------------------------------------|
+| `id`            | string          | Set prefix and padded card number (e.g., "a1-001").               |
+| `name`          | string          | The printed name of the card.                                     |
+| `set_code`      | string          | The normalised lowercase set code.                                |
+| `type`          | string          | "Pokémon" or "Trainer".                                           |
+| `subtype`       | string          | Energy type for Pokémon. Item classification for Trainers.        |
+| `stage`         | string, null    | Basic, Stage 1, or Stage 2. Null for Trainers.                    |
+| `evolves_from`  | string, null    | The name of the required pre-evolution Pokémon.                   |
+| `special_tags`  | array, null     | Tags like "ancient", "future", or "ultra_beasts". Defaults to null.|
+| `health`        | integer, null   | The maximum hit points. Null for Trainers.                        |
+| `retreat`       | integer, null   | The energy cost to retreat. Null for Trainers.                    |
+| `weakness`      | string, null    | The energy type the Pokémon is weak to.                           |
+| `ability`       | object          | Contains `exists` (boolean), `name` (string), and `effect` (string). |
+| `attacks`       | object          | Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string). |
+| `card_text`     | string, null    | The mechanical rules text for Trainer cards.                      |
+| `points`        | integer, null   | Points awarded to the opponent when knocked out (1, 2, or 3).     |
+| `ex`            | boolean         | True if the card is an "ex" rulebox Pokémon.                      |
+| `mega`          | boolean         | True if the card is a Mega Evolution.                             |
+| `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.  |
+
 ## V4 Schema
 
 The **[v4](../data/v4/cards.min.json)** schema is a legacy flat structure. It lacks arrays and objects.

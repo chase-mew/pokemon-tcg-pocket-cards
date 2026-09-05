@@ -14,6 +14,8 @@ You can pull the raw JSON directly as an API:
 
 - Full dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
 - Core payload: **[data/v5/cards.core.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.min.json))
+- Gameplay payload: **[data/v5/cards.gameplay.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.min.json))
+- Core no-image payload: **[data/v5/cards.core.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.min.json))
 - Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
 
 Or install it from npm, which ships the minified data plus TypeScript definitions:
@@ -30,6 +32,10 @@ npm install pokemon-tcg-pocket-cards
 | `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
 | `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: diamonds and promos only, 14 fields per card |
 | `pokemon-tcg-pocket-cards/core` | Alias of `/v5/core` for existing consumers |
+| `pokemon-tcg-pocket-cards/v5/core/no-image` | Core payload without the image URL, 13 fields per card |
+| `pokemon-tcg-pocket-cards/core/no-image` | Alias of `/v5/core/no-image` for existing consumers |
+| `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay data for simulators: attacks, abilities, combat stats; no images or collection metadata |
+| `pokemon-tcg-pocket-cards/gameplay` | Alias of `/v5/gameplay` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
 | `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
 | `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
@@ -39,12 +45,20 @@ npm install pokemon-tcg-pocket-cards
 ```js
 import cards from "pokemon-tcg-pocket-cards";
 import core from "pokemon-tcg-pocket-cards/v5/core";
+import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay";
+import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
 
 // Full payload: every field, nested attacks and abilities.
 console.log(cards[0].attacks);
 
 // Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
+
+// Gameplay payload: combat data for simulators, about 1.4 MB minified.
+console.log(gameplay[0].attacks);
+
+// Core no-image: the core payload minus image URLs, about 0.6 MB minified.
+console.log(coreNoImage[0].deckBuilderNr);
 ```
 
 The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule
