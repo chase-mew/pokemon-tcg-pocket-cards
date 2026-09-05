@@ -27,8 +27,9 @@ in both directions, and maintains the expansions index.
 import json
 import os
 import re
-from constants import (CARDS_JSON_PATH, CORE_RARITIES, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
-                       PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_CORE_CARDS_PATH, V5_DIR)
+from constants import (CARDS_JSON_PATH, CORE_RARITIES, EXPANSIONS_JSON_PATH, GAMEPLAY_FIELDS,
+                       GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE,
+                       V5_CORE_CARDS_PATH, V5_DIR, V5_GAMEPLAY_CARDS_PATH)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -304,6 +305,41 @@ def compile_core_database():
     return len(cards)
 
 
+def build_gameplay_cards(cards):
+    r"""build_gameplay_cards(cards) -> list of dict
+
+    Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
+    gameplay rarities. Cards missing an optional field are filled with
+    ``None`` so every record carries every gameplay key.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one record per kept card, in input order
+    """
+    return [
+        {field: card.get(field) for field in GAMEPLAY_FIELDS}
+        for card in cards
+        if card["rarity"] in CORE_RARITIES
+    ]
+
+
+def compile_gameplay_database():
+    r"""compile_gameplay_database() -> int
+
+    Read every v5 card, project it onto :data:`GAMEPLAY_FIELDS` and write the
+    result through :func:`write_json_pair`, which produces both
+    ``cards.gameplay.json`` and ``cards.gameplay.min.json``.
+
+    Returns:
+        int: the number of gameplay records written
+    """
+    cards = build_gameplay_cards(read_all_v5_cards())
+    write_json_pair(cards, V5_GAMEPLAY_CARDS_PATH)
+    return len(cards)
+
+
 def compile_v5_database():
     r"""compile_v5_database()
 
@@ -358,6 +394,7 @@ def compile_v5_database():
     write_json_pair(all_cards, CARDS_JSON_PATH)
 
     compile_core_database()
+    compile_gameplay_database()
 
 
 def build_expansion_entry(prefix, expansion_name, cards):

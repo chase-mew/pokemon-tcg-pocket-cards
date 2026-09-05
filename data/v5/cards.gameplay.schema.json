@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 Gameplay Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "type": {
+        "type": "string",
+        "description": "\"Pokémon\" or \"Trainer\"."
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Energy type for Pokémon. Item classification for Trainers."
+      },
+      "stage": {
+        "type": ["string", "null"],
+        "description": "Basic, Stage 1, or Stage 2. Null for Trainers."
+      },
+      "evolves_from": {
+        "type": ["string", "null"],
+        "description": "The name of the required pre-evolution Pokémon."
+      },
+      "special_tags": {
+        "type": ["array", "null"],
+        "items": { "type": "string" },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Defaults to null."
+      },
+      "health": {
+        "type": ["integer", "null"],
+        "description": "The maximum hit points. Null for Trainers."
+      },
+      "retreat": {
+        "type": ["integer", "null"],
+        "description": "The energy cost to retreat. Null for Trainers."
+      },
+      "weakness": {
+        "type": ["string", "null"],
+        "description": "The energy type the Pokémon is weak to."
+      },
+      "ability": {
+        "type": "object",
+        "description": "Contains `exists` (boolean), `name` (string), and `effect` (string).",
+        "properties": {
+          "exists": {
+            "type": "boolean",
+            "description": "True if the card has an ability."
+          },
+          "name": {
+            "type": ["string", "null"],
+            "description": "The printed name of the ability."
+          },
+          "effect": {
+            "type": ["string", "null"],
+            "description": "The mechanical effect text of the ability."
+          }
+        },
+        "required": ["exists", "name", "effect"]
+      },
+      "attacks": {
+        "type": "object",
+        "description": "Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).",
+        "properties": {
+          "1": { "$ref": "#/definitions/attack" },
+          "2": { "$ref": "#/definitions/attack" }
+        },
+        "required": ["1", "2"]
+      },
+      "card_text": {
+        "type": ["string", "null"],
+        "description": "The mechanical rules text for Trainer cards."
+      },
+      "points": {
+        "type": ["integer", "null"],
+        "description": "Points awarded to the opponent when knocked out (1, 2, or 3)."
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution."
+      },
+      "deckBuilderNr": {
+        "type": "integer",
+        "description": "The internal integer used by the game client for deck rendering."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "type",
+      "subtype",
+      "stage",
+      "evolves_from",
+      "special_tags",
+      "health",
+      "retreat",
+      "weakness",
+      "ability",
+      "attacks",
+      "card_text",
+      "points",
+      "ex",
+      "mega",
+      "deckBuilderNr"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {
+    "attack": {
+      "type": "object",
+      "description": "A single attack on a Pokémon card.",
+      "properties": {
+        "cost": {
+          "type": ["string", "null"],
+          "description": "The energy cost symbols required to use the attack."
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "The printed name of the attack."
+        },
+        "damage": {
+          "type": ["integer", "null"],
+          "description": "The base damage value of the attack."
+        },
+        "effect": {
+          "type": ["string", "null"],
+          "description": "The additional effect text of the attack."
+        }
+      },
+      "required": ["cost", "name", "damage", "effect"]
+    }
+  }
+}
