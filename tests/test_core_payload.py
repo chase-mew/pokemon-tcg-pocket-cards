@@ -1,10 +1,10 @@
-"""The core payload is a faithful projection of the full v5 dataset."""
+"""The core payload is a faithful gameplay-only subset of the full dataset."""
 import json
 import os
 
 import jsonschema
 
-from constants import (CARDS_JSON_PATH, V5_CORE_CARDS_PATH,
+from constants import (CARDS_JSON_PATH, CORE_RARITIES, V5_CORE_CARDS_PATH,
                        V5_CORE_CARDS_SCHEMA_PATH)
 from database import CORE_FIELDS
 
@@ -14,10 +14,11 @@ def _load(path):
         return json.load(f)
 
 
-def test_core_payload_covers_every_card():
+def test_core_payload_covers_every_gameplay_card():
     full = _load(CARDS_JSON_PATH)
     core = _load(V5_CORE_CARDS_PATH)
-    assert len(core) == len(full)
+    kept = {card["id"] for card in full if card["rarity"] in CORE_RARITIES}
+    assert {card["id"] for card in core} == kept
 
 
 def test_core_records_carry_exactly_the_core_fields():
@@ -46,3 +47,20 @@ def test_core_payload_matches_its_schema():
     core = _load(V5_CORE_CARDS_PATH)
     schema = _load(V5_CORE_CARDS_SCHEMA_PATH)
     jsonschema.validate(instance=core, schema=schema)
+
+
+def test_core_payload_excludes_cosmetic_rarities():
+    core = _load(V5_CORE_CARDS_PATH)
+    rarities = {card["rarity"] for card in core}
+    assert rarities == set(CORE_RARITIES)
+
+
+def test_core_payload_drops_no_unique_gameplay_cards():
+    full = _load(CARDS_JSON_PATH)
+    core = _load(V5_CORE_CARDS_PATH)
+    kept_ids = {card["id"] for card in core}
+    kept_builder_numbers = {card["deckBuilderNr"] for card in core}
+    excluded = [card for card in full if card["id"] not in kept_ids]
+    assert excluded
+    for card in excluded:
+        assert card["deckBuilderNr"] in kept_builder_numbers

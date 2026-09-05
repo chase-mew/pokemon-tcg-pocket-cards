@@ -36,6 +36,7 @@
       },
       "rarity": {
         "type": "string",
+        "enum": ["◊", "◊◊", "◊◊◊", "◊◊◊◊", "Promo"],
         "description": "The visual rarity indicator."
       },
       "ex": {

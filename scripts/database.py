@@ -27,8 +27,8 @@ in both directions, and maintains the expansions index.
 import json
 import os
 import re
-from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES,
-                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_CORE_CARDS_PATH, V5_DIR)
+from constants import (CARDS_JSON_PATH, CORE_RARITIES, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
+                       PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_CORE_CARDS_PATH, V5_DIR)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -270,17 +270,23 @@ CORE_FIELDS = (
 def build_core_cards(cards):
     r"""build_core_cards(cards) -> list of dict
 
-    Project each card onto :data:`CORE_FIELDS`, preserving the field order
-    of the full payload. Cards missing an optional field are filled with
-    ``None`` so every record carries every core key.
+    Project each gameplay card onto :data:`CORE_FIELDS`, preserving the
+    field order of the full payload. Star rares and the Crown Rare are
+    cosmetic duplicates of a kept card, so they are dropped. Cards
+    missing an optional field are filled with ``None`` so every record
+    carries every core key.
 
     Args:
         cards (list of dict): cards in v5 format
 
     Returns:
-        list of dict: one record per input card, in input order
+        list of dict: one record per kept card, in input order
     """
-    return [{field: card.get(field) for field in CORE_FIELDS} for card in cards]
+    return [
+        {field: card.get(field) for field in CORE_FIELDS}
+        for card in cards
+        if card["rarity"] in CORE_RARITIES
+    ]
 
 
 def compile_core_database():

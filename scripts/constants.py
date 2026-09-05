@@ -99,6 +99,7 @@ ENERGY_TYPES = (
 )
 STAGES = ("Basic", "Stage 1", "Stage 2")
 RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "Crown Rare", "Promo")
+CORE_RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "Promo")
 PARALLEL_FOIL_RARITIES = ("◊", "◊◊", "◊◊◊")
 ART_STYLES = (
     "Illustration Art", "Full Art", "Special Illustration Art",

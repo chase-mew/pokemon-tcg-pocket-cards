@@ -37,7 +37,7 @@ export type PokemonTCGPocketCardsV5CoreSchema = {
   /**
    * The visual rarity indicator.
    */
-  rarity: string;
+  rarity: "◊" | "◊◊" | "◊◊◊" | "◊◊◊◊" | "Promo";
   /**
    * True if the card is an "ex" rulebox Pokémon.
    */
