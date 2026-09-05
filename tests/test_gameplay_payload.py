@@ -3,15 +3,17 @@ import json
 
 import jsonschema
 
-from constants import (CARDS_JSON_PATH, CORE_RARITIES, GAMEPLAY_FIELDS,
+from tests.contract import GAMEPLAY_KEYS
+from constants import (CARDS_JSON_PATH, CORE_RARITIES,
                        V5_CORE_CARDS_PATH, V5_GAMEPLAY_CARDS_PATH,
                        V5_GAMEPLAY_CARDS_SCHEMA_PATH, is_playable_trainer)
 
-NON_FOSSIL_TRAINER_KEYS = {"id", "name", "set_code", "type", "subtype",
-                           "card_text", "deckBuilderNr", "image"}
-FOSSIL_TRAINER_KEYS = {"id", "name", "set_code", "type", "subtype", "stage",
-                       "health", "points", "weakness", "card_text",
-                       "deckBuilderNr", "image"}
+_TRAINER_DROPPED = {"stage", "health", "points", "weakness", "retreat",
+                    "evolves_from", "ability", "attacks", "ex", "mega",
+                    "special_tags"}
+NON_FOSSIL_TRAINER_KEYS = set(GAMEPLAY_KEYS) - _TRAINER_DROPPED
+FOSSIL_TRAINER_KEYS = set(GAMEPLAY_KEYS) - (
+    _TRAINER_DROPPED - {"stage", "health", "points", "weakness"})
 
 
 def _load(path):
@@ -52,7 +54,7 @@ def test_gameplay_pokemon_records_match_source_projection():
         if record["type"] == "Trainer":
             continue
         source = by_id[record["id"]]
-        expected = {field for field in GAMEPLAY_FIELDS if source.get(field) is not None}
+        expected = {field for field in GAMEPLAY_KEYS if source.get(field) is not None}
         assert set(record) == expected
 
 

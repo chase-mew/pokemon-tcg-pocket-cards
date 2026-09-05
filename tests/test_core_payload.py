@@ -6,7 +6,7 @@ import jsonschema
 
 from constants import (CARDS_JSON_PATH, CORE_RARITIES, V5_CORE_CARDS_PATH,
                        V5_CORE_CARDS_SCHEMA_PATH, is_playable_trainer)
-from database import CORE_FIELDS
+from tests.contract import CORE_KEYS as CORE_FIELDS
 
 
 def _load(path):

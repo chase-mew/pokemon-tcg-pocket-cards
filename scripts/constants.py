@@ -122,8 +122,6 @@ COLLECTION_FIELDS = (
     "image", "image_png", "ex", "mega", "shiny", "special_tags",
     "tradable", "sharable", "trade_cost",
 )
-COLLECTION_NO_IMAGE_FIELDS = tuple(field for field in COLLECTION_FIELDS
-                                   if field not in ("image", "image_png"))
 UNIVERSAL_CARD_FIELDS = ("id", "name", "set_code", "rarity")
 TRADE_RULES = {
     ("◊", False, None): (True, True, 0),
