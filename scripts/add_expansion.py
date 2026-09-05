@@ -39,57 +39,16 @@ sets are processed, the v5 database is recompiled to sync alternate
 version references across sets.
 """
 
-import os
-import jsonschema
-import json
 import argparse
 import sys
 
-from constants import CARDS_SCHEMA_PATH, EXPANSIONS_JSON_PATH, EXPANSIONS_SCHEMA_PATH, V4_CARDS_SCHEMA_PATH
-from database import append_to_v4, compile_v5_database, update_expansions, write_set_file
+from database import compile_v5_database
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
 from set_profile import SetProfile
-from transformer import downgrade_to_v4, strip_source_urls, transform_cards
-from utils import _load_existing_json, normalise_set_code
-
-
-def validate_schema(instance, schema_path=None, label="cards"):
-    r"""validate_schema(instance, schema_path=CARDS_SCHEMA_PATH, label="cards")
-
-    Validate ``instance`` against the JSON schema at ``schema_path``.
-
-    Both v5 schemas set ``additionalProperties: false``, so this must
-    run after :func:`transformer.strip_source_urls`.
-
-    Args:
-        instance: the parsed JSON to validate (a list of cards, or
-            the expansion index)
-        schema_path (str): path to the schema. Default:
-            :data:`constants.CARDS_SCHEMA_PATH`
-        label (str): what is being validated, used in messages
-
-    Raises:
-        FileNotFoundError: if the schema file does not exist
-        ValueError: on a schema violation, naming the JSON path and
-            message
-    """
-    if schema_path is None:
-        schema_path = CARDS_SCHEMA_PATH
-
-    if not os.path.exists(schema_path):
-        raise FileNotFoundError(
-            f"Required schema not found ({label}): {schema_path}"
-        )
-
-    with open(schema_path, "r", encoding="utf-8") as f:
-        schema = json.load(f)
-
-    try:
-        jsonschema.validate(instance=instance, schema=schema)
-        print(f"    Schema validation passed ({label}).")
-    except jsonschema.exceptions.ValidationError as e:
-        raise ValueError(f"Schema violation in {label} at {e.json_path}: {e.message}")
+from set_writer import writer_for
+from transformer import strip_source_urls, transform_cards
+from utils import normalise_set_code
 
 
 def resolve_set_range(range_str):
@@ -162,13 +121,13 @@ def process_single_set(set_profile, args):
        and save in WebP and PNG format. Skipped if
        ``args.skip_images`` is set. Either way, ``source_url`` is
        stripped from every card afterwards.
-    5. Update database: in v4 mode, downgrade the cards first; in
-       v5 mode, validate the cards against the card schema, which
-       runs here rather than at step 3 because ``source_url`` is
-       stripped at the end of step 4. Then merge into the
-       appropriate JSON file (per-set for v5, single file for v4),
-       update the expansions index (v5 only), and validate the
-       index that was just written against the expansions schema.
+    5. Update database: hand the cards to a writer adapter
+       picked by ``args.mode``. The adapter runs the right
+       validate -> write -> validate shape for its mode and
+       returns the number of cards added plus, for v5, the
+       expansion packs that step 6 will download artwork for.
+       The v4 adapter downgrades the cards first because v4
+       strips ``source_url``, which step 4 needs.
     6. Download pack images: fetch pack artwork from Serebii.
        Skipped if ``args.skip_images`` is set or if no packs were
        produced (v4 mode).
@@ -223,16 +182,8 @@ def process_single_set(set_profile, args):
 
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
-    if args.mode == "v4":
-        v4_cards = downgrade_to_v4(cards)
-        validate_schema(v4_cards, V4_CARDS_SCHEMA_PATH, "v4 cards")
-        added, expansion_packs = append_to_v4(v4_cards), None
-    else:
-        validate_schema(cards)
-        added = write_set_file(cards)
-        expansion_packs = update_expansions(set_code, expansion_name, cards)
-        validate_schema(_load_existing_json(EXPANSIONS_JSON_PATH),
-                        EXPANSIONS_SCHEMA_PATH, "expansions")
+    writer = writer_for(args.mode, set_code, expansion_name)
+    added, expansion_packs = writer.write(cards)
 
     # Step 6 ----------------------------------------------------------------
     if not args.skip_images and expansion_packs:
