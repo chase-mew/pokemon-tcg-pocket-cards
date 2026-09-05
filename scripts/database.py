@@ -29,7 +29,7 @@ import os
 import re
 from constants import (CARDS_JSON_PATH, COLLECTION_FIELDS, CORE_RARITIES,
                        EXPANSIONS_JSON_PATH, GAMEPLAY_FIELDS,
-                       GAMEPLAY_NO_IMAGE_FIELDS, GITHUB_BASE_URL, PROMO_PREFIXES, TRADE_RULES,
+                       GAMEPLAY_NO_IMAGE_FIELDS, GITHUB_BASE_URL, PROMO_PREFIXES,
                        UNIVERSAL_CARD_FIELDS,
                        V4_JSON_PATH, V5_CARDS_URL_BASE, V5_COLLECTION_CARDS_PATH,
                        V5_COLLECTION_NO_IMAGE_CARDS_PATH, V5_CORE_CARDS_PATH,
@@ -495,7 +495,7 @@ def compile_core_no_image_database():
     return len(cards)
 
 
-COLLECTION_SOURCE_FIELDS = tuple(f for f in COLLECTION_FIELDS if f not in ("tradable", "sharable", "trade_cost"))
+COLLECTION_SOURCE_FIELDS = COLLECTION_FIELDS
 
 
 def build_collection_cards(cards):
@@ -504,9 +504,8 @@ def build_collection_cards(cards):
     Project every card onto :data:`COLLECTION_FIELDS`, keeping all 3,879
     prints including the cosmetic rarities the gameplay projections drop.
     Records are sparse: a field that does not apply is omitted. The trading
-    fields are derived from :data:`TRADE_RULES` keyed on rarity, shiny and
-    art style, so a card whose combination the table does not cover fails
-    loudly instead of guessing a rule.
+    fields are copied from the card, which the transformer has already
+    derived from :data:`TRADE_RULES`.
 
     Args:
         cards (list of dict): cards in v5 format
@@ -518,10 +517,6 @@ def build_collection_cards(cards):
     for card in cards:
         record = {field: card[field] for field in UNIVERSAL_CARD_FIELDS}
         record.update({field: card.get(field) for field in COLLECTION_SOURCE_FIELDS if card.get(field) is not None})
-        tradable, sharable, trade_cost = TRADE_RULES[(card["rarity"], card["shiny"], card["art_style"])]
-        record["tradable"] = tradable
-        record["sharable"] = sharable
-        record["trade_cost"] = trade_cost
         records.append(record)
     return records
 
