@@ -74,6 +74,8 @@ EXPANSIONS_JSON_PATH = os.path.join(V5_DIR, "expansions.json")
 CARDS_JSON_PATH = os.path.join(V5_DIR, "cards.json")
 CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.schema.json")
 EXPANSIONS_SCHEMA_PATH = os.path.join(V5_DIR, "expansions.schema.json")
+V4_CARDS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "cards.schema.json")
+V4_EXPANSIONS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "expansions.schema.json")
 
 # Images
 IMAGES_DIR = os.path.join(ROOT_DIR, "images")

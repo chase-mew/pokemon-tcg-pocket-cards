@@ -6,7 +6,7 @@ import pytest
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PNG_CARDS_DIR = os.path.join(ROOT_DIR, "images", "png", "cards")
 
-REQUIRED_FIELDS = ["id", "name", "rarity", "pack", "health", "image", "fullart", "ex", "artist", "type"]
+from tests.contract import V4_CARD_KEYS as REQUIRED_FIELDS
 
 TRAINER_TYPES = {"Trainer", "Item", "Stadium", "Supporter", "Tool"}
 

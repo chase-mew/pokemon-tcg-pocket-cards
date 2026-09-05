@@ -13,6 +13,7 @@ import downloader
 from add_expansion import resolve_set_range, validate_schema
 from constants import EXPANSIONS_SCHEMA_PATH
 from downloader import download_images, download_pack_images
+from tests.utils import _load
 from transformer import strip_source_urls
 
 
@@ -211,6 +212,17 @@ class TestValidateSchema:
         broken = [{**expansions[0], "total_cards": "many"}]
         with pytest.raises(ValueError, match="expansions"):
             validate_schema(broken, EXPANSIONS_SCHEMA_PATH, "expansions")
+
+    @pytest.mark.parametrize("path_name, label", [
+        ("V4_CARDS_SCHEMA_PATH", "v4 cards"),
+        ("V4_EXPANSIONS_SCHEMA_PATH", "v4 expansions"),
+    ])
+    def test_the_published_v4_files_validate(self, path_name, label):
+        """The v4 schemas generate published .d.ts types; nothing checked the data."""
+        import constants
+        schema_path = getattr(constants, path_name)
+        data_path = schema_path.replace(".schema.json", ".json")
+        validate_schema(_load(data_path), schema_path, label)
 
 
 class TestStripSourceUrls:
