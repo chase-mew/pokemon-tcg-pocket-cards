@@ -28,7 +28,7 @@ import json
 import os
 import re
 from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES,
-                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
+                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_CORE_CARDS_PATH, V5_DIR)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -261,6 +261,43 @@ def append_to_v4(new_cards):
     return added
 
 
+CORE_FIELDS = (
+    "id", "name", "set_code", "pack", "type", "subtype", "stage",
+    "rarity", "ex", "mega", "health", "points", "deckBuilderNr", "image",
+)
+
+
+def build_core_cards(cards):
+    r"""build_core_cards(cards) -> list of dict
+
+    Project each card onto :data:`CORE_FIELDS`, preserving the field order
+    of the full payload. Cards missing an optional field are filled with
+    ``None`` so every record carries every core key.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one record per input card, in input order
+    """
+    return [{field: card.get(field) for field in CORE_FIELDS} for card in cards]
+
+
+def compile_core_database():
+    r"""compile_core_database() -> int
+
+    Read every v5 card, project it onto :data:`CORE_FIELDS` and write the
+    result through :func:`write_json_pair`, which produces both
+    ``cards.core.json`` and ``cards.core.min.json``.
+
+    Returns:
+        int: the number of core records written
+    """
+    cards = build_core_cards(read_all_v5_cards())
+    write_json_pair(cards, V5_CORE_CARDS_PATH)
+    return len(cards)
+
+
 def compile_v5_database():
     r"""compile_v5_database()
 
@@ -313,6 +350,8 @@ def compile_v5_database():
 
     all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
     write_json_pair(all_cards, CARDS_JSON_PATH)
+
+    compile_core_database()
 
 
 def build_expansion_entry(prefix, expansion_name, cards):
