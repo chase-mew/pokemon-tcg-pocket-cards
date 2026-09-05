@@ -15,7 +15,7 @@ def _load(path):
 
 
 def _is_fossil(record):
-    return record["type"] == "Trainer" and record["name"].endswith("Fossil")
+    return record["type"] == "Trainer" and (record["name"].endswith("Fossil") or record["name"] == "Old Amber")
 
 
 def test_core_payload_covers_every_gameplay_card():

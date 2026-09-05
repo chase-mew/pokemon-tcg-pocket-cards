@@ -10951,7 +10951,11 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
+    "health": 40,
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
+    "points": 1,
     "deckBuilderNr": 1000010,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4b/312.webp"
   },
@@ -10961,7 +10965,11 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
+    "health": 40,
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
+    "points": 1,
     "deckBuilderNr": 1000010,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4b/313.webp"
   },

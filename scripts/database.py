@@ -296,6 +296,16 @@ def _sparse_record(fields, card):
     return {key: value for key, value in record.items() if value is not None}
 
 
+def _is_playable_trainer(card):
+    r"""_is_playable_trainer(card) -> bool
+
+    True for Trainer items that play as Pokemon on the field: the Fossil
+    family and Old Amber. They keep their combat fields in the projections.
+    """
+    name = card["name"]
+    return name.endswith("Fossil") or name == "Old Amber"
+
+
 def build_core_cards(cards):
     r"""build_core_cards(cards) -> list of dict
 
@@ -356,7 +366,7 @@ def _build_gameplay_records(cards, fields):
         if card["rarity"] not in CORE_RARITIES:
             continue
         if card["type"] == "Trainer":
-            if card["name"].endswith("Fossil"):
+            if _is_playable_trainer(card):
                 record = {
                     "id": card["id"], "name": card["name"],
                     "set_code": card["set_code"], "type": card["type"],

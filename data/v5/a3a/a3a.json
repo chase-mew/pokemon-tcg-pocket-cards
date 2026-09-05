@@ -41,6 +41,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 743,
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/001.webp",
@@ -90,6 +93,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 744,
     "artist": "Kagemaru Himeno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/002.webp",
@@ -139,6 +145,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 745,
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/003.webp",
@@ -195,6 +204,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 746,
     "artist": "AKIRA EGAWA",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/004.webp",
@@ -251,6 +263,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 747,
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/005.webp",
@@ -302,6 +317,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
     "deckBuilderNr": 748,
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/006.webp",
@@ -384,6 +402,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 749,
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/007.webp",
@@ -454,6 +475,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 725,
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/008.webp",
@@ -524,6 +548,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 726,
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/009.webp",
@@ -586,6 +613,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 750,
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/010.webp",
@@ -635,6 +665,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 751,
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/011.webp",
@@ -684,6 +717,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 752,
     "artist": "Yumi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/012.webp",
@@ -733,6 +769,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 753,
     "artist": "Sanosuke Sakuma",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/013.webp",
@@ -782,6 +821,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 754,
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/014.webp",
@@ -831,6 +873,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 755,
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/015.webp",
@@ -880,6 +925,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 756,
     "artist": "Miki Tanaka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/016.webp",
@@ -929,6 +977,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 757,
     "artist": "Hajime Kusajima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/017.webp",
@@ -978,6 +1029,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 758,
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/018.webp",
@@ -1027,6 +1081,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
     "deckBuilderNr": 742,
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/019.webp",
@@ -1109,6 +1166,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 727,
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/020.webp",
@@ -1165,6 +1225,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 741,
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/021.webp",
@@ -1239,6 +1302,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 759,
     "artist": "Sumiyoshi Kizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/022.webp",
@@ -1288,6 +1354,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 760,
     "artist": "miki kudo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/023.webp",
@@ -1337,6 +1406,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 761,
     "artist": "sui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/024.webp",
@@ -1386,6 +1458,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 762,
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/025.webp",
@@ -1435,6 +1510,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 763,
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/026.webp",
@@ -1484,6 +1562,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 764,
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/027.webp",
@@ -1533,6 +1614,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 765,
     "artist": "Yukiko Baba",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/028.webp",
@@ -1582,6 +1666,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 766,
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/029.webp",
@@ -1631,6 +1718,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 767,
     "artist": "Uta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/030.webp",
@@ -1680,6 +1770,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 768,
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/031.webp",
@@ -1729,6 +1822,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 769,
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/032.webp",
@@ -1791,6 +1887,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
     "deckBuilderNr": 770,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/033.webp",
@@ -1865,6 +1964,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 771,
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/034.webp",
@@ -1914,6 +2016,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 772,
     "artist": "Yuka Morii",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/035.webp",
@@ -1963,6 +2068,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 773,
     "artist": "Hasuno",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/036.webp",
@@ -2012,6 +2120,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 774,
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/037.webp",
@@ -2068,6 +2179,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 775,
     "artist": "ryoma uratsuka",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/038.webp",
@@ -2117,6 +2231,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 776,
     "artist": "Naoyo Kimura",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/039.webp",
@@ -2166,6 +2283,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 777,
     "artist": "Akira Komayama",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/040.webp",
@@ -2215,6 +2335,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 778,
     "artist": "Naoki Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/041.webp",
@@ -2266,6 +2389,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 779,
     "artist": "nagimiso",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/042.webp",
@@ -2336,6 +2462,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
     "deckBuilderNr": 780,
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/043.webp",
@@ -2412,6 +2541,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 737,
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/044.webp",
@@ -2470,6 +2602,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 781,
     "artist": "Shin Nagasawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/045.webp",
@@ -2519,6 +2654,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 782,
     "artist": "Megumi Mizutani",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/046.webp",
@@ -2581,6 +2719,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
     "deckBuilderNr": 783,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/047.webp",
@@ -2655,6 +2796,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 784,
     "artist": "Shigenori Negishi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/048.webp",
@@ -2704,6 +2848,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 785,
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/049.webp",
@@ -2753,6 +2900,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 786,
     "artist": "Satoshi Shirai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/050.webp",
@@ -2802,6 +2952,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 787,
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/051.webp",
@@ -2851,6 +3004,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 788,
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/052.webp",
@@ -2902,6 +3058,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 730,
     "artist": "Anesaki Dynamic",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/053.webp",
@@ -2958,6 +3117,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 789,
     "artist": "Mizue",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/054.webp",
@@ -3007,6 +3169,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 790,
     "artist": "Midori Harada",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/055.webp",
@@ -3056,6 +3221,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 791,
     "artist": "Atsuko Nishida",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/056.webp",
@@ -3105,6 +3273,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 738,
     "artist": "Sekio",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/057.webp",
@@ -3161,6 +3332,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 792,
     "artist": "Ryuta Fuse",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/058.webp",
@@ -3210,6 +3384,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 793,
     "artist": "Kouki Saitou",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/059.webp",
@@ -3259,6 +3436,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 794,
     "artist": "match",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/060.webp",
@@ -3327,6 +3507,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 795,
     "artist": "Eske Yoshinob",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/061.webp",
@@ -3403,6 +3586,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
     "deckBuilderNr": 796,
     "artist": "kawayoo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/062.webp",
@@ -3471,6 +3657,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000060,
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/063.webp",
@@ -3520,6 +3709,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000061,
     "artist": "Yoshinobu Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/064.webp",
@@ -3569,6 +3761,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000062,
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/065.webp",
@@ -3631,6 +3826,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000063,
     "artist": "inose yukie",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/066.webp",
@@ -3680,6 +3878,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000064,
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/067.webp",
@@ -3736,6 +3937,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000065,
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/068.webp",
@@ -3794,6 +3998,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
     "deckBuilderNr": 1000066,
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/069.webp",
@@ -3868,6 +4075,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 745,
     "artist": "OKACHEKE",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/070.webp",
@@ -3926,6 +4136,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 749,
     "artist": "matazo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/071.webp",
@@ -3996,6 +4209,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 726,
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/072.webp",
@@ -4058,6 +4274,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 774,
     "artist": "Mina Nakai",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/073.webp",
@@ -4114,6 +4333,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 795,
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/074.webp",
@@ -4190,6 +4412,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
     "deckBuilderNr": 796,
     "artist": "REND",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/075.webp",
@@ -4260,6 +4485,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 748,
     "artist": "PLANETA Mochizuki",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/076.webp",
@@ -4340,6 +4568,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 742,
     "artist": "PLANETA Igarashi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/077.webp",
@@ -4420,6 +4651,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 770,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/078.webp",
@@ -4496,6 +4730,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 780,
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/079.webp",
@@ -4570,6 +4807,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 783,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/080.webp",
@@ -4644,6 +4884,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 1000064,
     "artist": "hncl",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/081.webp",
@@ -4700,6 +4943,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 1000065,
     "artist": "Hideki Ishikawa",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/082.webp",
@@ -4758,6 +5004,9 @@
       }
     },
     "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 1000066,
     "artist": "Taira Akitsu",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/083.webp",
@@ -4832,6 +5081,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 742,
     "artist": "Dsuke",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/084.webp",
@@ -4912,6 +5164,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 770,
     "artist": "Jiro Sasumo",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/085.webp",
@@ -4988,6 +5243,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 780,
     "artist": "Nurikabe",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/086.webp",
@@ -5062,6 +5320,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
     "deckBuilderNr": 783,
     "artist": "KEIICHIRO ITO",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/087.webp",
@@ -5138,6 +5399,9 @@
       }
     },
     "points": 2,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
     "deckBuilderNr": 748,
     "artist": "akagi",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/088.webp",
@@ -5218,6 +5482,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 39,
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/089.webp",
@@ -5286,6 +5553,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 40,
     "artist": "Saya Tsuruta",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/090.webp",
@@ -5342,6 +5612,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 87,
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/091.webp",
@@ -5416,6 +5689,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 88,
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/092.webp",
@@ -5484,6 +5760,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 89,
     "artist": "Souichirou Gunjima",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/093.webp",
@@ -5564,6 +5843,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 127,
     "artist": "MAHOU",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/094.webp",
@@ -5632,6 +5914,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 186,
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/095.webp",
@@ -5688,6 +5973,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 187,
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/096.webp",
@@ -5744,6 +6032,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 188,
     "artist": "Misa Tsutsui",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/097.webp",
@@ -5806,6 +6097,9 @@
       }
     },
     "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
     "deckBuilderNr": 208,
     "artist": "Masakazu Fukuda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/098.webp",
@@ -5862,6 +6156,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
     "deckBuilderNr": 217,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/099.webp",
@@ -5936,6 +6233,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
     "deckBuilderNr": 41,
     "artist": "PLANETA Saito",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/100.webp",
@@ -6004,6 +6304,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
     "deckBuilderNr": 259,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/101.webp",
@@ -6078,6 +6381,9 @@
       }
     },
     "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
     "deckBuilderNr": 272,
     "artist": "PLANETA CG Works",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/102.webp",
@@ -6148,6 +6454,9 @@
       }
     },
     "points": 1,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
     "deckBuilderNr": 779,
     "artist": "PLANETA Yamashita",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/103.webp",

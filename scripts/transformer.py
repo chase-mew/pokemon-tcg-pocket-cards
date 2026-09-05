@@ -30,7 +30,7 @@ supports two output formats: ``v5`` (the full enriched schema) and
 import re
 import requests
 from functools import lru_cache
-from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT
+from constants import (SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT, NON_TRADABLE_RARITIES, SHARABLE_RARITIES, trade_cost)
 from utils import set_code_to_prefix, compile_tag_matchers
 from deck_code import get_deck_builder_nr
 from art_style import ArtStyleClassifier
@@ -265,6 +265,10 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             "card_text": card["card_text"],
             "attacks": card["attacks"],
             "points": card["points"],
+
+            "tradable": rarity not in NON_TRADABLE_RARITIES,
+            "sharable": rarity in SHARABLE_RARITIES,
+            "trade_cost": None if rarity in NON_TRADABLE_RARITIES else trade_cost(rarity, shiny, art_style),
 
             # Deck builder reference
             "deckBuilderNr": deck_builder_nr,

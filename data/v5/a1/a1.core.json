@@ -3474,7 +3474,10 @@
     "pack": "Mewtwo",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
     "rarity": "◊",
+    "health": 40,
+    "points": 1,
     "deckBuilderNr": 1000010,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a1/218.webp"
   },

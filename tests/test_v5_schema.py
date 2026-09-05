@@ -26,7 +26,7 @@ def is_promo(card):
 
 def is_fossil(card):
     """A fossil item: a playable Item-subtype trainer whose name ends in Fossil."""
-    return card["type"] == "Trainer" and card["name"].endswith("Fossil")
+    return card["type"] == "Trainer" and (card["name"].endswith("Fossil") or card["name"] == "Old Amber")
 
 
 def walk(value, path=""):
@@ -449,7 +449,7 @@ class TestStats:
             if c["type"] != "Trainer":
                 return None
             if is_fossil(c):
-                combat = ("retreat", "weakness")
+                combat = ("retreat",)
             else:
                 combat = ("health", "retreat", "weakness")
             return next((f"trainer has {f}={c[f]!r}" for f in combat

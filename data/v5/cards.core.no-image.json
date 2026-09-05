@@ -3257,7 +3257,10 @@
     "pack": "Mewtwo",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
     "rarity": "◊",
+    "health": 40,
+    "points": 1,
     "deckBuilderNr": 1000010
   },
   {
@@ -4277,7 +4280,10 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
     "rarity": "◊",
+    "health": 40,
+    "points": 1,
     "deckBuilderNr": 1000010
   },
   {
@@ -21157,7 +21163,10 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
     "rarity": "◊",
+    "health": 40,
+    "points": 1,
     "deckBuilderNr": 1000010
   },
   {
@@ -21167,7 +21176,10 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
+    "stage": "Basic",
     "rarity": "◊",
+    "health": 40,
+    "points": 1,
     "deckBuilderNr": 1000010
   },
   {

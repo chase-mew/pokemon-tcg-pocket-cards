@@ -347,7 +347,7 @@ def extract_card(soup, set_profile):
 
     type_text_raw = body.find("p", class_="card-text-type").get_text(" ", strip=True)
     is_trainer = type_text_raw.startswith("Trainer")
-    is_fossil = is_trainer and name.endswith("Fossil")
+    is_fossil = is_trainer and (name.endswith("Fossil") or name == "Old Amber")
 
     # card body only: identical between a print and its parallel foil, unlike the full page
     raw_text = clean_text(body.get_text(" ", strip=True))
