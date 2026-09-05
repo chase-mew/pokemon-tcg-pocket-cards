@@ -102,7 +102,7 @@ cards); full and collection additionally keep all 3,879 printed cards.
 | gameplay no-image | 1.24 MB | Gameplay with the image URL dropped |
 | collection | 2.99 MB | One record per printed card, trading fields derived |
 | collection no-image | 1.98 MB | Collection with the image URL dropped |
-| full | 4.77 MB | Everything the scraper extracts, all 3,879 cards |
+| full | 4.77 MB | Everything the scraper extracts, all 3,879 cards, trading fields included |
 
 ### 💼 Support schedule
 

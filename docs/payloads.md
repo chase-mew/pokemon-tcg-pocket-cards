@@ -89,7 +89,8 @@ Trading fields (derived from rarity):
 
 The complete dataset: collection metadata (`set_name`, `pack`, `release_date`,
 `pack_points`, `rarity`, `art_style`, `artist`, `flavour_text`,
-`alternate_versions`), images in both formats, and every gameplay field.
+`alternate_versions`), the trading fields (`tradable`, `sharable`,
+`trade_cost`), images in both formats, and every gameplay field.
 Records keep all 30 keys with `null` for fields that do not apply. Licensed
 AGPL-3.0-or-later like the rest of version 5. Schema:
 [cards.schema.json](../data/v5/cards.schema.json) ·
@@ -207,7 +208,7 @@ smallest set (a4b, 379 cards; a1a, 86 cards):
 | Attacks and abilities | ❌ | ✅ nested | ❌ | ✅ nested |
 | Rules text (`card_text`) | ❌ | ✅ | ❌ | ✅ |
 | Rarity and collection metadata | ❌ | ❌ | ✅ | ✅ |
-| Trading fields (`tradable`, `sharable`, `trade_cost`) | ❌ | ❌ | ✅ | ❌ |
+| Trading fields (`tradable`, `sharable`, `trade_cost`) | ❌ | ❌ | ✅ | ✅ |
 | Images | ✅ webp | ✅ webp | ✅ webp + png | ✅ webp + png |
 | Flavour text, artist, alternate prints | ❌ | ❌ | ✅ | ✅ |
 

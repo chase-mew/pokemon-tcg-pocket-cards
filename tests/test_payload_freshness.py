@@ -20,6 +20,20 @@ def cards():
     return database.read_all_v5_cards()
 
 
+TRADE_FIELDS = ("tradable", "sharable", "trade_cost")
+
+
+def test_full_carries_the_trading_fields():
+    """collection and full both carry them; the projections that drop
+    them are core and gameplay. Documented in docs/payloads.md."""
+    with open(os.path.join(V5_DIR, "cards.json"), encoding="utf-8") as f:
+        full = json.load(f)
+    assert full, "full payload is empty"
+    missing = [key for key in TRADE_FIELDS
+               if any(key not in record for record in full)]
+    assert not missing, f"full is missing {missing}; check payloads.md"
+
+
 def test_read_order_is_stable_across_filesystems():
     """The payloads are built from this list, so its order must not
     depend on the filesystem. Sorted is the order the data ships in."""
