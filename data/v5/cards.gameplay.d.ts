@@ -6,7 +6,7 @@
  */
 
 /**
- * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.
+ * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards keep only the fields the game exposes on them. A non-Fossil Trainer keeps identity, subtype, card text and deck number; a Fossil item additionally keeps stage, health, points and weakness. Pokemon records keep the full combat projection.
  */
 export type PokemonTCGPocketCardsV5GameplaySchema = {
   /**
@@ -50,13 +50,13 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
    */
   retreat?: number;
   /**
-   * The energy type the Pokémon is weak to. Present on Pokémon that list a weakness; omitted otherwise and on Trainers.
+   * The energy type the Pokémon is weak to. Present on Pokémon that list a weakness and on fossil items, whose value is always "none"; omitted on other Trainers.
    */
   weakness?: string;
   /**
-   * Always present. Contains `exists` (boolean), `name` (string), and `effect` (string).
+   * Present on Pokémon; omitted on Trainers. Contains `exists` (boolean), `name` (string), and `effect` (string).
    */
-  ability: {
+  ability?: {
     /**
      * True if the card has an ability.
      */
@@ -72,9 +72,9 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
     [k: string]: unknown;
   };
   /**
-   * Always present. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).
+   * Present on Pokémon; omitted on Trainers. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).
    */
-  attacks: {
+  attacks?: {
     "1": Attack;
     "2": Attack;
     [k: string]: unknown;

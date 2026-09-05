@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.schema.json",
   "title": "Pokemon TCG Pocket Cards V5 Gameplay Schema",
   "type": "array",
-  "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.",
+  "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards keep only the fields the game exposes on them. A non-Fossil Trainer keeps identity, subtype, card text and deck number; a Fossil item additionally keeps stage, health, points and weakness. Pokemon records keep the full combat projection.",
   "items": {
     "type": "object",
     "properties": {
@@ -50,11 +50,11 @@
       },
       "weakness": {
         "type": "string",
-        "description": "The energy type the Pokémon is weak to. Present on Pokémon that list a weakness; omitted otherwise and on Trainers."
+        "description": "The energy type the Pokémon is weak to. Present on Pokémon that list a weakness and on fossil items, whose value is always \"none\"; omitted on other Trainers."
       },
       "ability": {
         "type": "object",
-        "description": "Always present. Contains `exists` (boolean), `name` (string), and `effect` (string).",
+        "description": "Present on Pokémon; omitted on Trainers. Contains `exists` (boolean), `name` (string), and `effect` (string).",
         "properties": {
           "exists": {
             "type": "boolean",
@@ -73,7 +73,7 @@
       },
       "attacks": {
         "type": "object",
-        "description": "Always present. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).",
+        "description": "Present on Pokémon; omitted on Trainers. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).",
         "properties": {
           "1": { "$ref": "#/definitions/attack" },
           "2": { "$ref": "#/definitions/attack" }
@@ -107,8 +107,6 @@
       "set_code",
       "type",
       "subtype",
-      "ability",
-      "attacks",
       "deckBuilderNr"
     ],
     "additionalProperties": false

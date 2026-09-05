@@ -7425,25 +7425,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000008
@@ -7456,25 +7438,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000009
@@ -7485,25 +7449,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "deckBuilderNr": 1000010
   },
@@ -7513,25 +7458,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 50 damage from 1 of your [ G ] Pokémon.",
     "deckBuilderNr": 1000011
   },
@@ -7541,25 +7467,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your [ W ] Pokémon, and flip a coin until you get tails. For each heads, take a [ W ] Energy from your Energy Zone and attach it to that Pokémon.",
     "deckBuilderNr": 1000012
   },
@@ -7569,25 +7476,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Ninetales, Rapidash, or Magmar do +30 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000013
   },
@@ -7597,25 +7485,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put your Muk or Weezing in the Active Spot into your hand.",
     "deckBuilderNr": 1000014
   },
@@ -7625,25 +7494,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000015
   },
@@ -7653,25 +7503,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Take a [ F ] Energy from your Energy Zone and attach it to Golem or Onix.",
     "deckBuilderNr": 1000016
   },
@@ -7681,25 +7512,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
     "deckBuilderNr": 1000017
   },
@@ -7709,25 +7521,6 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move all [ L ] Energy from your Benched Pokémon to your Raichu, Electrode, or Electabuzz in the Active Spot.",
     "deckBuilderNr": 1000018
   },
@@ -9872,25 +9665,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "deckBuilderNr": 1000010
   },
@@ -9900,25 +9674,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a Basic Pokémon from your opponent's discard pile onto their Bench.",
     "deckBuilderNr": 1000020
   },
@@ -9928,25 +9683,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top card of your deck. If that card is a [ P ] Pokémon, put it into your hand. If it is not a [ P ] Pokémon, put it on the bottom of your deck.",
     "deckBuilderNr": 1000019
   },
@@ -9956,25 +9692,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put your Mew ex in the Active Spot into your hand.",
     "deckBuilderNr": 1000022
   },
@@ -9984,25 +9701,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During your opponent's next turn, all of your Pokémon take −10 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000021
   },
@@ -10012,25 +9710,6 @@
     "set_code": "a1a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
     "deckBuilderNr": 1000023
   },
@@ -14972,25 +14651,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000026
@@ -15003,25 +14664,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000027
@@ -15032,25 +14675,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose a Pokémon in your hand and switch it with a random Pokémon in your deck.",
     "deckBuilderNr": 1000028
   },
@@ -15060,25 +14684,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Pokémon this card is attached to gets +20 HP.",
     "deckBuilderNr": 1000029
   },
@@ -15088,25 +14693,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
     "deckBuilderNr": 1000030
   },
@@ -15116,25 +14702,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of each turn, if the Pokémon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card.",
     "deckBuilderNr": 1000031
   },
@@ -15144,25 +14711,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
     "deckBuilderNr": 1000032
   },
@@ -15172,25 +14720,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 random Glameow, Stunky, or Croagunk from your deck into your hand.",
     "deckBuilderNr": 1000033
   },
@@ -15200,25 +14729,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Garchomp or Togekiss do +50 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000034
   },
@@ -15228,25 +14738,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Electivire or Luxray. Attach 2 [ L ] Energy from your discard pile to that Pokémon.",
     "deckBuilderNr": 1000035
   },
@@ -15256,25 +14747,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000036
   },
@@ -15284,25 +14756,6 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win.",
     "deckBuilderNr": 1000037
   },
@@ -17758,25 +17211,6 @@
     "set_code": "a2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 40 damage from each of your Pokémon that has any [ W ] Energy attached.",
     "deckBuilderNr": 1000038
   },
@@ -17786,25 +17220,6 @@
     "set_code": "a2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 random Basic Pokémon from your discard pile into your hand.",
     "deckBuilderNr": 1000039
   },
@@ -17814,25 +17229,6 @@
     "set_code": "a2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less [ C ] Energy.",
     "deckBuilderNr": 1000040
   },
@@ -17842,25 +17238,6 @@
     "set_code": "a2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During your opponent's next turn, all of your [ M ] Pokémon take −20 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000041
   },
@@ -20213,25 +19590,6 @@
     "set_code": "a2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
     "deckBuilderNr": 1000042
   },
@@ -20241,25 +19599,6 @@
     "set_code": "a2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
     "deckBuilderNr": 1000043
   },
@@ -20269,25 +19608,6 @@
     "set_code": "a2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000044
   },
@@ -20297,25 +19617,6 @@
     "set_code": "a2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
     "deckBuilderNr": 1000045
   },
@@ -25180,25 +24481,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 10 damage and remove a random Special Condition from your Active Pokémon.",
     "deckBuilderNr": 1000046
   },
@@ -25208,25 +24490,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a random Basic [ W ] Pokémon from your discard pile into your hand.",
     "deckBuilderNr": 1000047
   },
@@ -25236,25 +24499,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
     "deckBuilderNr": 1000048
   },
@@ -25264,25 +24508,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top card of your deck. Then, you may shuffle your deck.",
     "deckBuilderNr": 1000049
   },
@@ -25292,25 +24517,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is your Active Pokémon and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned.",
     "deckBuilderNr": 1000050
   },
@@ -25320,25 +24526,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The [ G ] Pokémon this card is attached to gets +30 HP.",
     "deckBuilderNr": 1000051
   },
@@ -25348,25 +24535,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Palossand or Mimikyu that has damage on it, and move 40 of its damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000052
   },
@@ -25376,25 +24544,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 of your [ C ] Pokémon that has damage on it into your hand.",
     "deckBuilderNr": 1000053
   },
@@ -25404,25 +24553,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Alolan Marowak or Turtonator. Take 2 [ R ] Energy from your Energy Zone and attach it to that Pokémon. Your turn ends.",
     "deckBuilderNr": 1000054
   },
@@ -25432,25 +24562,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Discard all Pokémon Tool cards attached to each of your opponent's Pokémon.",
     "deckBuilderNr": 1000055
   },
@@ -25460,25 +24571,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if you have Araquanid in play. Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
     "deckBuilderNr": 1000056
   },
@@ -25488,25 +24580,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Alolan Golem, Vikavolt, or Togedemaru do +30 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000057
   },
@@ -25516,25 +24589,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal all damage from 1 of your Shiinotic or Tsareena. If you do, discard all Energy from that Pokémon.",
     "deckBuilderNr": 1000058
   },
@@ -25544,25 +24598,6 @@
     "set_code": "a3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 60 damage from 1 of your Stage 2 Pokemon.",
     "deckBuilderNr": 1000059
   },
@@ -27739,25 +26774,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your opponent hasn't gotten any points. During your opponent's next turn, all of your Ultra Beasts take −20 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000060
   },
@@ -27767,25 +26783,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch out your opponent's Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
     "deckBuilderNr": 1000061
   },
@@ -27795,25 +26792,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the [ L ] Pokémon this card is attached to is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move 2 [ L ] Energy from that Pokémon and attach 1 Energy each to 2 of your Benched Pokémon.",
     "deckBuilderNr": 1000062
   },
@@ -27823,25 +26801,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attacks used by the Ultra Beast this card is attached to do +10 damage to your opponent's Active Pokémon for each point you have gotten.",
     "deckBuilderNr": 1000063
   },
@@ -27851,25 +26810,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 random Type: Null or Silvally from your deck into your hand.",
     "deckBuilderNr": 1000064
   },
@@ -27879,25 +26819,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent reveals all of the Supporter cards in their deck.",
     "deckBuilderNr": 1000065
   },
@@ -27907,28 +26828,6 @@
     "set_code": "a3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "special_tags": [
-      "ultra_beasts"
-    ],
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your opponent has gotten at least 1 point. Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon.",
     "deckBuilderNr": 1000066
   },
@@ -30181,25 +29080,6 @@
     "set_code": "a3b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1: ① During this turn, attacks used by your Pokémon that evolve from Eevee do +10 damage to your opponent's Active Pokémon. ② Heal 20 damage from each of your Pokémon that evolves from Eevee.",
     "deckBuilderNr": 1000067
   },
@@ -30209,25 +29089,6 @@
     "set_code": "a3b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of your turn, if the Pokémon this card is attached to is in the Active Spot, heal 10 damage from that Pokémon.",
     "deckBuilderNr": 1000068
   },
@@ -30237,25 +29098,6 @@
     "set_code": "a3b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Decidueye ex, Incineroar ex, or Primarina ex do +30 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000069
   },
@@ -30265,25 +29107,6 @@
     "set_code": "a3b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at a random Supporter card that's not Penny from your opponent's deck and shuffle it back into their deck. Use the effect of that card as the effect of this card.",
     "deckBuilderNr": 1000070
   },
@@ -35458,25 +34281,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move a [ R ] , [ W ] , or [ L ] Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000071
   },
@@ -35486,25 +34290,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Discard a [ R ] Energy from your opponent's Active Pokémon.",
     "deckBuilderNr": 1000072
   },
@@ -35514,25 +34299,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The [ M ] Pokémon this card is attached to takes −10 damage from attacks from your opponent's Pokémon, recovers from all Special Conditions, and can't be affected by any Special Conditions.",
     "deckBuilderNr": 1000073
   },
@@ -35542,25 +34308,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the [ D ] Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, your opponent reveals a random card from their hand and shuffles it into their deck.",
     "deckBuilderNr": 1000074
   },
@@ -35570,25 +34317,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, put it into your hand instead of the discard pile.",
     "deckBuilderNr": 1000075
   },
@@ -35598,25 +34326,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The next time you flip any number of coins for the effect of an attack, Ability, or Trainer card after using this card on this turn, the first coin flip will definitely be heads.",
     "deckBuilderNr": 1000076
   },
@@ -35626,25 +34335,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon.",
     "deckBuilderNr": 1000077
   },
@@ -35654,25 +34344,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent reveals their hand. Choose a Supporter card you find there and shuffle it into your opponent's deck.",
     "deckBuilderNr": 1000078
   },
@@ -35682,25 +34353,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip 3 coins. For each heads, a [ W ] Pokémon is chosen at random from your discard pile and put into your hand.",
     "deckBuilderNr": 1000079
   },
@@ -35710,25 +34362,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During your opponent's next turn, all of your Steelix and Skarmory ex take −50 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000080
   },
@@ -35738,25 +34371,6 @@
     "set_code": "a4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "For each of your [ F ] Pokémon in play, look at that many cards from the top of your deck and put them back in any order.",
     "deckBuilderNr": 1000081
   },
@@ -38036,25 +36650,6 @@
     "set_code": "a4a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Retreat Cost of the [ W ] Pokémon this card is attached to is 1 less.",
     "deckBuilderNr": 1000082
   },
@@ -38064,25 +36659,6 @@
     "set_code": "a4a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Pokémon this card is attached to can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)",
     "deckBuilderNr": 1000083
   },
@@ -38092,25 +36668,6 @@
     "set_code": "a4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 60 damage from 1 of your Miltank, and it recovers from being Asleep, Paralyzed, and Confused.",
     "deckBuilderNr": 1000084
   },
@@ -38120,25 +36677,6 @@
     "set_code": "a4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top 4 cards of your deck. Put all Pokémon Tool cards you find there into your hand. Shuffle the other cards back into your deck.",
     "deckBuilderNr": 1000085
   },
@@ -38148,25 +36686,6 @@
     "set_code": "a4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "For each of your [ P ] Pokémon in play, look at that many cards from the top of your opponent's deck and put them back in any order.",
     "deckBuilderNr": 1000086
   },
@@ -48775,25 +47294,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1: ① During this turn, attacks used by your Pokémon that evolve from Eevee do +10 damage to your opponent's Active Pokémon. ② Heal 20 damage from each of your Pokémon that evolves from Eevee.",
     "deckBuilderNr": 1000067
   },
@@ -48803,25 +47303,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1: ① During this turn, attacks used by your Pokémon that evolve from Eevee do +10 damage to your opponent's Active Pokémon. ② Heal 20 damage from each of your Pokémon that evolves from Eevee.",
     "deckBuilderNr": 1000067
   },
@@ -48831,25 +47312,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move a [ R ] , [ W ] , or [ L ] Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000071
   },
@@ -48859,25 +47321,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move a [ R ] , [ W ] , or [ L ] Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000071
   },
@@ -48887,25 +47330,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "deckBuilderNr": 1000010
   },
@@ -48915,25 +47339,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "deckBuilderNr": 1000010
   },
@@ -48943,25 +47348,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
     "deckBuilderNr": 1000048
   },
@@ -48971,25 +47357,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card onto the Basic Pokémon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn.",
     "deckBuilderNr": 1000048
   },
@@ -48999,25 +47366,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose a Pokémon in your hand and switch it with a random Pokémon in your deck.",
     "deckBuilderNr": 1000028
   },
@@ -49027,25 +47375,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose a Pokémon in your hand and switch it with a random Pokémon in your deck.",
     "deckBuilderNr": 1000028
   },
@@ -49055,25 +47384,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the [ L ] Pokémon this card is attached to is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move 2 [ L ] Energy from that Pokémon and attach 1 Energy each to 2 of your Benched Pokémon.",
     "deckBuilderNr": 1000062
   },
@@ -49083,25 +47393,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the [ L ] Pokémon this card is attached to is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, move 2 [ L ] Energy from that Pokémon and attach 1 Energy each to 2 of your Benched Pokémon.",
     "deckBuilderNr": 1000062
   },
@@ -49111,25 +47402,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Pokémon this card is attached to gets +20 HP.",
     "deckBuilderNr": 1000029
   },
@@ -49139,25 +47411,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Pokémon this card is attached to gets +20 HP.",
     "deckBuilderNr": 1000029
   },
@@ -49167,25 +47420,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
     "deckBuilderNr": 1000030
   },
@@ -49195,25 +47429,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
     "deckBuilderNr": 1000030
   },
@@ -49223,25 +47438,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The [ G ] Pokémon this card is attached to gets +30 HP.",
     "deckBuilderNr": 1000051
   },
@@ -49251,25 +47447,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The [ G ] Pokémon this card is attached to gets +30 HP.",
     "deckBuilderNr": 1000051
   },
@@ -49279,25 +47456,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
     "deckBuilderNr": 1000032
   },
@@ -49307,25 +47465,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
     "deckBuilderNr": 1000032
   },
@@ -49335,25 +47474,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 50 damage from 1 of your [ G ] Pokémon.",
     "deckBuilderNr": 1000011
   },
@@ -49363,25 +47483,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 50 damage from 1 of your [ G ] Pokémon.",
     "deckBuilderNr": 1000011
   },
@@ -49391,25 +47492,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 40 damage from each of your Pokémon that has any [ W ] Energy attached.",
     "deckBuilderNr": 1000038
   },
@@ -49419,25 +47501,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 40 damage from each of your Pokémon that has any [ W ] Energy attached.",
     "deckBuilderNr": 1000038
   },
@@ -49447,25 +47510,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon.",
     "deckBuilderNr": 1000077
   },
@@ -49475,25 +47519,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch your Active Pokémon that has damage on it with 1 of your Benched Pokémon.",
     "deckBuilderNr": 1000077
   },
@@ -49503,25 +47528,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000015
   },
@@ -49531,25 +47537,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +10 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000015
   },
@@ -49559,25 +47546,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent reveals their hand. Choose a Supporter card you find there and shuffle it into your opponent's deck.",
     "deckBuilderNr": 1000078
   },
@@ -49587,25 +47555,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent reveals their hand. Choose a Supporter card you find there and shuffle it into your opponent's deck.",
     "deckBuilderNr": 1000078
   },
@@ -49615,25 +47564,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
     "deckBuilderNr": 1000017
   },
@@ -49643,25 +47573,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
     "deckBuilderNr": 1000017
   },
@@ -49671,25 +47582,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
     "deckBuilderNr": 1000042
   },
@@ -49699,25 +47591,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
     "deckBuilderNr": 1000042
   },
@@ -49727,25 +47600,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000036
   },
@@ -49755,25 +47609,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000036
   },
@@ -49783,25 +47618,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win.",
     "deckBuilderNr": 1000037
   },
@@ -49811,25 +47627,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win.",
     "deckBuilderNr": 1000037
   },
@@ -49839,25 +47636,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
     "deckBuilderNr": 1000023
   },
@@ -49867,25 +47645,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
     "deckBuilderNr": 1000023
   },
@@ -49895,25 +47654,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 60 damage from 1 of your Stage 2 Pokemon.",
     "deckBuilderNr": 1000059
   },
@@ -49923,25 +47663,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 60 damage from 1 of your Stage 2 Pokemon.",
     "deckBuilderNr": 1000059
   },
@@ -49951,28 +47672,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "special_tags": [
-      "ultra_beasts"
-    ],
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your opponent has gotten at least 1 point. Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon.",
     "deckBuilderNr": 1000066
   },
@@ -49982,28 +47681,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "special_tags": [
-      "ultra_beasts"
-    ],
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your opponent has gotten at least 1 point. Choose 1 of your Ultra Beasts. Attach 2 random Energy from your discard pile to that Pokémon.",
     "deckBuilderNr": 1000066
   },
@@ -50013,25 +47690,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000044
   },
@@ -50041,25 +47699,6 @@
     "set_code": "a4b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000044
   },
@@ -57382,25 +55021,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "A card from among both player's hands is chosen at random, revealed to the other player, and shuffled into its owner's deck.",
     "deckBuilderNr": 1000087
   },
@@ -57412,25 +55032,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000088
@@ -57441,25 +55043,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon.",
     "deckBuilderNr": 1000089
   },
@@ -57471,25 +55054,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000090
@@ -57500,25 +55065,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attach a [ R ] Energy from your discard pile to your Active [ R ] Pokémon.",
     "deckBuilderNr": 1000091
   },
@@ -57528,25 +55074,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of each turn, if the Pokémon this card is attached to has half of its maximum HP or less remaining, heal 30 damage from it. If you do, discard this card.",
     "deckBuilderNr": 1000092
   },
@@ -57556,25 +55083,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to has a Retreat Cost of 3 or more, it takes −20 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000093
   },
@@ -57584,25 +55092,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Whenever your opponent's Pokémon is Knocked Out by damage from an attack used by the Pokémon this card is attached to, draw a card.",
     "deckBuilderNr": 1000094
   },
@@ -57612,25 +55101,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 70 damage from 1 of your Carracosta or Jellicent.",
     "deckBuilderNr": 1000095
   },
@@ -57640,25 +55110,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During your opponent's next turn, if your Hariyama or Crabominable would be Knocked Out by damage from an attack, it is not Knocked Out and its remaining HP becomes 10.",
     "deckBuilderNr": 1000096
   },
@@ -57668,25 +55119,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 2 random Pokémon from your deck into your hand. For each Pokémon you put into your hand in this way, choose a Pokémon to shuffle from your hand into your deck.",
     "deckBuilderNr": 1000097
   },
@@ -57696,25 +55128,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Take a [ P ] Energy from your Energy Zone and attach it to each of your Drifblim and Mismagius.",
     "deckBuilderNr": 1000098
   },
@@ -57724,25 +55137,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Shuffle your hand into your deck. Draw a card for each card in your opponent's hand.",
     "deckBuilderNr": 1000099
   },
@@ -57752,25 +55146,6 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 2 random Basic Pokémon with 50 HP or less from your deck into your hand.",
     "deckBuilderNr": 1000100
   },
@@ -60025,25 +57400,6 @@
     "set_code": "b1a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Magneton or Heliolisk do +20 damage to your opponent's Pokémon.",
     "deckBuilderNr": 1000101
   },
@@ -60053,25 +57409,6 @@
     "set_code": "b1a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your [ G ] Pokémon in play. Put a random [ G ] Pokémon from your deck that evolves from that Pokémon onto that Pokémon to evolve it. You can't use this card during your first turn or on a Pokémon that was put into play this turn.",
     "deckBuilderNr": 1000102
   },
@@ -60081,25 +57418,6 @@
     "set_code": "b1a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 2 random cards from among Magneton, Heliolisk, and Clemont's Backpack from your deck into your hand.",
     "deckBuilderNr": 1000103
   },
@@ -60109,25 +57427,6 @@
     "set_code": "b1a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a random Mega Evolution Pokémon ex from your deck into your hand.",
     "deckBuilderNr": 1000104
   },
@@ -65074,25 +62373,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000105
@@ -65103,25 +62384,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 20 damage from your Active Pokémon. If you healed any damage in this way, flip a coin. If heads, put this Lucky Ice Pop into your hand instead of the discard pile.",
     "deckBuilderNr": 1000106
   },
@@ -65133,25 +62395,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000107
@@ -65162,25 +62406,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "As long as the Pokémon this card is attached to is on your Bench, prevent all damage done to that Pokémon by your opponent's attacks and Abilities.",
     "deckBuilderNr": 1000108
   },
@@ -65190,25 +62415,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If this card is attached to 1 of your Pokémon, discard it at the end of your opponent's turn. The [ M ] Pokémon this card is attached to takes −50 damage from attacks from your opponent's Pokémon.",
     "deckBuilderNr": 1000109
   },
@@ -65218,25 +62424,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 90 damage from 1 of your [ P ] Pokémon that has 2 or more [ P ] Energy attached. If you healed any damage in this way, discard 2 [ P ] Energy from that Pokémon.",
     "deckBuilderNr": 1000110
   },
@@ -65246,25 +62433,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top 4 cards of your deck. Put all Stage 1 Pokémon you find there into your hand. Shuffle the other cards back into your deck.",
     "deckBuilderNr": 1000111
   },
@@ -65274,25 +62442,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your Pokémon in play have 3 or more different types of Energy attached. Move all Energy from each of your Benched Pokémon to your Active Pokémon.",
     "deckBuilderNr": 1000112
   },
@@ -65302,25 +62451,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if you have Galarian Obstagoon in play. Discard 2 random Energy from your opponent's Active Pokémon.",
     "deckBuilderNr": 1000113
   },
@@ -65330,25 +62460,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attacks used by Stage 1 Pokémon in play (both yours and your opponent's) do +10 damage to the opponent's Active Pokémon.",
     "deckBuilderNr": 1000114
   },
@@ -65358,25 +62469,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Each Basic Pokémon in play (both yours and your opponent's) gets +20 HP.",
     "deckBuilderNr": 1000115
   },
@@ -65386,25 +62478,6 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Retreat Cost of each [ P ] Pokémon in play (both yours and your opponent's) is 2 less.",
     "deckBuilderNr": 1000116
   },
@@ -68349,25 +65422,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip a coin. If heads, take a [ L ] Energy from your Energy Zone and attach it to 1 of your Benched [ L ] Pokémon.",
     "deckBuilderNr": 1000117
   },
@@ -68377,25 +65431,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Stage 2 Pokémon this card is attached to has no Retreat Cost.",
     "deckBuilderNr": 1000118
   },
@@ -68405,25 +65440,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Discard a random Energy from among the Energy attached to all of your opponent's Pokémon that have an Ability.",
     "deckBuilderNr": 1000119
   },
@@ -68433,25 +65449,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
     "deckBuilderNr": 1000042
   },
@@ -68461,25 +65458,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your Pawmot do +80 damage to your opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000120
   },
@@ -68489,25 +65467,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip a coin. If heads, put a random Item card from your deck into your hand. If tails, put a random Pokémon Tool card from your deck into your hand.",
     "deckBuilderNr": 1000121
   },
@@ -68517,25 +65476,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at a random Supporter card that's not Penny from your opponent's deck and shuffle it back into their deck. Use the effect of that card as the effect of this card.",
     "deckBuilderNr": 1000070
   },
@@ -68545,25 +65485,6 @@
     "set_code": "b2a",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may flip a coin. If heads, that player puts a random Pokémon from their deck into their hand.",
     "deckBuilderNr": 1000122
   },
@@ -70779,25 +67700,6 @@
     "set_code": "b2b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent discards cards from their hand until they have 4 cards in their hand.",
     "deckBuilderNr": 1000123
   },
@@ -70807,25 +67709,6 @@
     "set_code": "b2b",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Shuffle 2 cards from your hand into your deck. Draw a card. If you can't shuffle in 2 cards, you can't use this card.",
     "deckBuilderNr": 1000124
   },
@@ -70835,25 +67718,6 @@
     "set_code": "b2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, if your opponent's Active Pokémon is Knocked Out by damage from an attack used by your Haxorus, you get 1 more point.",
     "deckBuilderNr": 1000125
   },
@@ -70863,25 +67727,6 @@
     "set_code": "b2b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Draw a card for each Mega Evolution Pokémon ex in play (both yours and your opponent's) .",
     "deckBuilderNr": 1000126
   },
@@ -70891,25 +67736,6 @@
     "set_code": "b2b",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of each player's turn, that player draws cards until they have 3 cards in their hand.",
     "deckBuilderNr": 1000127
   },
@@ -75949,25 +72775,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Discard a Pokémon Tool card from a Pokémon (yours or your opponent's) , or discard a Stadium card in play.",
     "deckBuilderNr": 1000128
   },
@@ -75977,25 +72784,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "If the Pokémon this card is attached to is Knocked Out by damage from an attack from your opponent's Pokémon, draw cards until you have 5 cards in your hand.",
     "deckBuilderNr": 1000129
   },
@@ -76005,25 +72793,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, attacks used by your [ F ] Pokémon do +30 damage to your opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000130
   },
@@ -76033,25 +72802,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a random Stadium card from your deck into your hand.",
     "deckBuilderNr": 1000131
   },
@@ -76061,25 +72811,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During your opponent's next turn, all of your Watchog and Stoutland take −100 damage from attacks from your opponent's Pokémon ex.",
     "deckBuilderNr": 1000132
   },
@@ -76089,25 +72820,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 of your [ W ] Pokémon in play, except any Pokémon ex, into your hand.",
     "deckBuilderNr": 1000133
   },
@@ -76117,25 +72829,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may put a random Basic [ G ] Pokémon from their deck into their hand.",
     "deckBuilderNr": 1000134
   },
@@ -76145,25 +72838,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attacks used by each [ F ] Pokémon in play (both yours and your opponent's) do +20 damage to the opponent's Active Pokémon ex.",
     "deckBuilderNr": 1000135
   },
@@ -76173,25 +72847,6 @@
     "set_code": "b3",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "When applying the opponent's Active Pokémon's Weakness to damage from attacks used by Pokémon in play (both yours and your opponent's) that aren't Mega Evolution Pokémon ex, apply Weakness as ×2.",
     "deckBuilderNr": 1000136
   },
@@ -78603,25 +75258,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Ancient Pokémon this card is attached to gets +40 HP.",
     "deckBuilderNr": 1000137
   },
@@ -78631,25 +75267,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attacks used by the Future Pokémon this card is attached to do +20 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000138
   },
@@ -78659,25 +75276,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a random Stage 2 Pokémon from your deck into your hand.",
     "deckBuilderNr": 1000139
   },
@@ -78687,28 +75285,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "special_tags": [
-      "ancient"
-    ],
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Attach 3 different types of Energy from your discard pile to your Ancient Pokémon in any way you like.",
     "deckBuilderNr": 1000140
   },
@@ -78718,28 +75294,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "special_tags": [
-      "future"
-    ],
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Shuffle 1 of your Future Pokémon in play into your deck.",
     "deckBuilderNr": 1000141
   },
@@ -78749,25 +75303,6 @@
     "set_code": "b3a",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may shuffle a Basic Pokémon from their hand into their deck. If they do, they draw a card.",
     "deckBuilderNr": 1000142
   },
@@ -80948,25 +77483,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Retreat Cost of the Basic Pokémon this card is attached to is 1 less.",
     "deckBuilderNr": 1000143
   },
@@ -80976,25 +77492,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "The Stage 1 Pokémon this card is attached to gets +30 HP.",
     "deckBuilderNr": 1000144
   },
@@ -81004,25 +77501,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Return all Pokémon Tools attached to each Pokémon (both yours and your opponent's) to their owner's hand.",
     "deckBuilderNr": 1000145
   },
@@ -81032,25 +77510,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top 4 cards of your deck. Put all Pokémon you find there that have the Puppy Pile attack into your hand. Shuffle the other cards back into your deck.",
     "deckBuilderNr": 1000146
   },
@@ -81060,25 +77519,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Choose 1 of your [ W ] Pokémon in play with a maximum HP of 50 or less. Put a random [ W ] Pokémon from your deck that evolves from that Pokémon onto that Pokémon to evolve it.",
     "deckBuilderNr": 1000147
   },
@@ -81088,25 +77528,6 @@
     "set_code": "b3b",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may choose a card in their hand and switch it with a random Pokémon Tool card in their deck.",
     "deckBuilderNr": 1000148
   },
@@ -86081,25 +82502,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip a coin. If heads, put a random Item card from your deck into your hand.",
     "deckBuilderNr": 1000149
   },
@@ -86111,25 +82513,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000150
@@ -86142,25 +82526,7 @@
     "subtype": "Item",
     "stage": "Basic",
     "health": 40,
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
+    "weakness": "none",
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
     "points": 1,
     "deckBuilderNr": 1000151
@@ -86171,25 +82537,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of your turn, if the [ D ] Pokémon this card is attached to is in the Active Spot, do 10 damage to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000152
   },
@@ -86199,25 +82546,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Tool",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Prevent all effects of attacks used by your opponent's Pokémon done to the Pokémon this card is attached to. (Existing effects are not removed.)",
     "deckBuilderNr": 1000153
   },
@@ -86227,25 +82555,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "You can use this card only if your Pokémon in the Active Spot has the Psychic attack. Choose 1 of your opponent's Benched Pokémon and move a random Energy from it to your opponent's Active Pokémon.",
     "deckBuilderNr": 1000154
   },
@@ -86255,25 +82564,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, 1 of your opponent's Pokémon is chosen 1 more time for the Draco Meteor attack used by your Pokémon.",
     "deckBuilderNr": 1000155
   },
@@ -86283,25 +82573,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Switch your Active Stage 1 Pokémon with 1 of your Benched Pokémon.",
     "deckBuilderNr": 1000156
   },
@@ -86311,25 +82582,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Take a [ C ] Energy from your Energy Zone and attach it to 1 of your Stage 2 Pokémon.",
     "deckBuilderNr": 1000157
   },
@@ -86339,25 +82591,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "At the end of each player's turn, that player heals 20 damage from each of their Pokémon that has any [ W ] Energy attached.",
     "deckBuilderNr": 1000158
   },
@@ -86367,25 +82600,6 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may discard the Energy that has been generated in their Energy Zone. If they do, the next Energy is produced.",
     "deckBuilderNr": 1000159
   },
@@ -88665,25 +84879,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put a random Item card, except any Team Rocket's Thieving Machine, from your opponent's discard pile into your hand.",
     "deckBuilderNr": 1000160
   },
@@ -88693,25 +84888,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Until the end of your opponent's next turn, your opponent's Active Pokémon's Retreat Cost is 1 more.",
     "deckBuilderNr": 1000161
   },
@@ -88721,25 +84897,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Flip a coin until you get tails. For each heads, put a random Pokémon that has “Team Rocket” in its name from your deck into your hand.",
     "deckBuilderNr": 1000162
   },
@@ -88749,25 +84906,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent's Active Pokémon is now Confused. Flip a coin. If tails, your Active Pokémon is now also Confused.",
     "deckBuilderNr": 1000163
   },
@@ -88777,25 +84915,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at your opponent's hand and put any number of Basic Pokémon you find there onto your opponent's Bench.",
     "deckBuilderNr": 1000164
   },
@@ -88805,25 +84924,6 @@
     "set_code": "b4a",
     "type": "Trainer",
     "subtype": "Stadium",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Once during each player's turn, that player may flip 3 coins. If all of them are heads, that player draws cards until they have 7 cards in their hand.",
     "deckBuilderNr": 1000165
   },
@@ -88833,25 +84933,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Heal 20 damage from 1 of your Pokémon.",
     "deckBuilderNr": 1000001
   },
@@ -88861,25 +84942,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
     "deckBuilderNr": 1000002
   },
@@ -88889,25 +84951,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent reveals their hand.",
     "deckBuilderNr": 1000005
   },
@@ -88917,25 +84960,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top 3 cards of your deck.",
     "deckBuilderNr": 1000006
   },
@@ -88945,25 +84969,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Put 1 random Basic Pokemon from your deck into your hand.",
     "deckBuilderNr": 1000003
   },
@@ -88973,25 +84978,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Your opponent shuffles their hand into their deck and draws 3 cards.",
     "deckBuilderNr": 1000007
   },
@@ -89001,25 +84987,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Supporter",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Draw 2 cards.",
     "deckBuilderNr": 1000004
   },
@@ -89029,25 +84996,6 @@
     "set_code": "pa",
     "type": "Trainer",
     "subtype": "Item",
-    "ability": {
-      "exists": false,
-      "name": null,
-      "effect": null
-    },
-    "attacks": {
-      "1": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      },
-      "2": {
-        "cost": null,
-        "name": null,
-        "damage": null,
-        "effect": null
-      }
-    },
     "card_text": "Look at the top 3 cards of your deck.",
     "deckBuilderNr": 1000006
   },

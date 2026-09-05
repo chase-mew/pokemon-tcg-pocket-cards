@@ -54,7 +54,7 @@ console.log(cards[0].attacks);
 // Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
 
-// Gameplay payload: combat data for simulators, about 1.3 MB minified.
+// Gameplay payload: combat data for simulators, about 1.2 MB minified.
 console.log(gameplay[0].attacks);
 
 // Core no-image: the core payload minus image URLs, about 0.6 MB minified.

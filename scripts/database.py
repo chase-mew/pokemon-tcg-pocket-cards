@@ -334,9 +334,13 @@ def build_gameplay_cards(cards):
     r"""build_gameplay_cards(cards) -> list of dict
 
     Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
-    gameplay rarities. Records are sparse: a field that does not apply (a
-    null value, or ``ex`` and ``mega`` on a Trainer) is omitted. Fossil
-    items keep their playable ``stage``, ``health`` and ``points``.
+    gameplay rarities. Records are sparse: a field that does not apply is
+    omitted. Trainer records are trimmed to the fields the game exposes on
+    them. A non-Fossil Trainer keeps only its identity, subtype, effect
+    text and deck number. A Fossil item, which plays as a 40-HP Basic
+    colourless Pokemon, additionally carries its ``stage``, ``health``,
+    ``points`` and ``weakness``. Pokemon records keep the full combat
+    projection, omitting only null values.
 
     Args:
         cards (list of dict): cards in v5 format
@@ -344,11 +348,32 @@ def build_gameplay_cards(cards):
     Returns:
         list of dict: one sparse record per kept card, in input order
     """
-    return [
-        _sparse_record(GAMEPLAY_FIELDS, card)
-        for card in cards
-        if card["rarity"] in CORE_RARITIES
-    ]
+    records = []
+    for card in cards:
+        if card["rarity"] not in CORE_RARITIES:
+            continue
+        if card["type"] == "Trainer":
+            if card["name"].endswith("Fossil"):
+                records.append({
+                    "id": card["id"], "name": card["name"],
+                    "set_code": card["set_code"], "type": card["type"],
+                    "subtype": card["subtype"], "stage": card["stage"],
+                    "health": card["health"], "weakness": "none",
+                    "card_text": card["card_text"],
+                    "points": card["points"],
+                    "deckBuilderNr": card["deckBuilderNr"],
+                })
+            else:
+                records.append({
+                    "id": card["id"], "name": card["name"],
+                    "set_code": card["set_code"], "type": card["type"],
+                    "subtype": card["subtype"],
+                    "card_text": card["card_text"],
+                    "deckBuilderNr": card["deckBuilderNr"],
+                })
+        else:
+            records.append(_sparse_record(GAMEPLAY_FIELDS, card))
+    return records
 
 
 def compile_gameplay_database():
