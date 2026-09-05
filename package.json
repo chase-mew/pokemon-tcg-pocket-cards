@@ -32,6 +32,10 @@
       "types": "./data/v5/cards-wrapper.d.ts",
       "default": "./data/v5/cards.min.json"
     },
+    "./v5/core": {
+      "types": "./data/v5/cards.core-wrapper.d.ts",
+      "default": "./data/v5/cards.core.min.json"
+    },
     "./core": {
       "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
