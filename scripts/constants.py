@@ -85,6 +85,8 @@ V5_GAMEPLAY_CARDS_PATH = os.path.join(V5_DIR, "cards.gameplay.json")
 V5_GAMEPLAY_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.gameplay.schema.json")
 V5_GAMEPLAY_NO_IMAGE_CARDS_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.json")
 V5_GAMEPLAY_NO_IMAGE_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.schema.json")
+V5_COLLECTION_CARDS_PATH = os.path.join(V5_DIR, "cards.collection.json")
+V5_COLLECTION_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.collection.schema.json")
 V4_CARDS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "cards.schema.json")
 V4_EXPANSIONS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "expansions.schema.json")
 
@@ -112,6 +114,30 @@ GAMEPLAY_FIELDS = (
     "card_text", "points", "ex", "mega", "deckBuilderNr", "image",
 )
 GAMEPLAY_NO_IMAGE_FIELDS = tuple(field for field in GAMEPLAY_FIELDS if field != "image")
+COLLECTION_FIELDS = (
+    "id", "name", "set_code", "set_name", "pack", "release_date", "rarity",
+    "pack_points", "art_style", "artist", "flavour_text", "alternate_versions",
+    "image", "image_png", "ex", "mega", "shiny", "special_tags",
+    "tradable", "sharable", "trade_cost",
+)
+UNIVERSAL_CARD_FIELDS = ("id", "name", "set_code", "rarity")
+TRADE_RULES = {
+    ("◊", False, None): (True, True, 0),
+    ("◊", False, "Parallel Foil"): (True, True, 0),
+    ("◊◊", False, None): (True, True, 0),
+    ("◊◊", False, "Parallel Foil"): (True, True, 0),
+    ("◊◊◊", False, None): (True, True, 1200),
+    ("◊◊◊", False, "Parallel Foil"): (True, True, 1200),
+    ("◊◊◊◊", False, None): (True, True, 5000),
+    ("☆", False, "Illustration Art"): (True, False, 4000),
+    ("☆", True, "Shiny"): (True, False, 10000),
+    ("☆☆", False, "Full Art"): (True, False, 25000),
+    ("☆☆", False, "Special Illustration Art"): (True, False, 25000),
+    ("☆☆", True, "Shiny Full Art"): (True, False, 30000),
+    ("☆☆☆", False, "Immersive Art"): (False, False, None),
+    ("Crown Rare", False, None): (False, False, None),
+    ("Promo", False, None): (False, False, None),
+}
 PARALLEL_FOIL_RARITIES = ("◊", "◊◊", "◊◊◊")
 ART_STYLES = (
     "Illustration Art", "Full Art", "Special Illustration Art",

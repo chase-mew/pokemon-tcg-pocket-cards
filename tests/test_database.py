@@ -17,12 +17,15 @@ def card(card_id, **overrides):
     prefix, number = card_id.rsplit("-", 1)
     data = {
         "id": card_id,
+        "name": f"Card {number}",
         "set_code": prefix,
         "set_name": "Genetic Apex",
         "pack": "Mewtwo",
         "release_date": "2024-10-30",
         "type": "Pokémon",
         "rarity": "◊",
+        "shiny": False,
+        "art_style": None,
         "alternate_versions": [],
     }
     data.update(overrides)
@@ -45,6 +48,7 @@ def v5_dir(tmp_path, monkeypatch):
     monkeypatch.setattr(database, "V5_CORE_NO_IMAGE_CARDS_PATH", str(root / "cards.core.no-image.json"))
     monkeypatch.setattr(database, "V5_GAMEPLAY_CARDS_PATH", str(root / "cards.gameplay.json"))
     monkeypatch.setattr(database, "V5_GAMEPLAY_NO_IMAGE_CARDS_PATH", str(root / "cards.gameplay.no-image.json"))
+    monkeypatch.setattr(database, "V5_COLLECTION_CARDS_PATH", str(root / "cards.collection.json"))
     monkeypatch.setattr(database, "EXPANSIONS_JSON_PATH", str(root / "expansions.json"))
     monkeypatch.setattr(database, "V4_JSON_PATH", str(tmp_path / "v4" / "cards.json"))
     return root
@@ -247,7 +251,8 @@ class TestUpdateExpansions:
 def populated(v5_dir):
     write_set_file([card("a1-002"), card("a1-001", alternate_versions=[
         {"set_code": "b10", "set_name": "Future Set", "id": 3, "rarity": "☆"}])])
-    write_set_file([card("b10-003", set_code="b10", set_name="Future Set", rarity="☆")])
+    write_set_file([card("b10-003", set_code="b10", set_name="Future Set",
+                         rarity="☆", art_style="Illustration Art")])
     write_set_file([card("b2-001", set_code="b2", set_name="Deluxe", rarity="◊")])
     return v5_dir
 
