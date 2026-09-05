@@ -10,9 +10,11 @@ from PIL import Image
 
 import add_expansion
 import downloader
-from add_expansion import resolve_set_range, validate_schema
+import set_writer
+from add_expansion import resolve_set_range
 from constants import EXPANSIONS_SCHEMA_PATH
 from downloader import download_images, download_pack_images
+from set_writer import validate_schema
 from tests.utils import _load
 from transformer import strip_source_urls
 
@@ -201,7 +203,7 @@ class TestValidateSchema:
             validate_schema([{**cards[0], "deckBuilderNr": "12"}])
 
     def test_a_missing_schema_file_raises(self, monkeypatch, tmp_path):
-        monkeypatch.setattr(add_expansion, "CARDS_SCHEMA_PATH", str(tmp_path / "nope.json"))
+        monkeypatch.setattr(set_writer, "CARDS_SCHEMA_PATH", str(tmp_path / "nope.json"))
         with pytest.raises(FileNotFoundError):
             validate_schema([])
 
