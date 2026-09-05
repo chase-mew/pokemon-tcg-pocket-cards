@@ -47,7 +47,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 
 ## V5 core schema
 
-The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: 14 fields per card, no nested objects, about 1.3 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema
+The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: 14 fields per card, no nested objects, and only the gameplay rarities (diamonds and promos). Star rares and the Crown Rare are cosmetic duplicates that share a `deckBuilderNr` with a kept card, so they are dropped. The payload is about 0.9 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema
 
 | Field           | Type            | Description                                                        |
 |:----------------|:----------------|:-------------------------------------------------------------------|

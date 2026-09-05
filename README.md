@@ -28,7 +28,7 @@ npm install pokemon-tcg-pocket-cards
 | --- | --- |
 | `pokemon-tcg-pocket-cards` | Full v5 card dataset (latest) |
 | `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
-| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: 14 fields per card |
+| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: diamonds and promos only, 14 fields per card |
 | `pokemon-tcg-pocket-cards/core` | Alias of `/v5/core` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
 | `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
@@ -43,7 +43,7 @@ import core from "pokemon-tcg-pocket-cards/v5/core";
 // Full payload: every field, nested attacks and abilities.
 console.log(cards[0].attacks);
 
-// Core payload: 14 flat fields, about 1.3 MB, suited to web clients.
+// Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
 ```
 
@@ -119,7 +119,7 @@ python3 scripts/add_expansion.py PB
 | Flavour text                       | ❌                         | ❌                                | ✅ Raw text string                                            |
 | Language support                   | English only              | English only                     | English only                                                 |
 | Pack drop probabilities            | ❌                         | ❌                                | ❌                                                            |
-| Payload size (minified)            | ~1 MB                     | ~1.3 MB                          | ~4.4 MB                                                      |
+| Payload size (minified)            | ~1 MB                     | ~0.9 MB                          | ~4.4 MB                                                      |
 
 ### 💼 Support schedule
 

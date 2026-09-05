@@ -26,7 +26,7 @@ import cards from "pokemon-tcg-pocket-cards";
 import expansions from "pokemon-tcg-pocket-cards/expansions";
 ```
 
-For a lighter download, import the core payload instead. It keeps 14 fields per card (identity, set, combat stats, deck builder number, image) and drops the rest, which cuts the transfer from about 4.6 MB to about 1.3 MB:
+For a lighter download, import the core payload instead. It keeps 14 fields per card (identity, set, combat stats, deck builder number, image) and drops the rest, which cuts the transfer from about 4.6 MB to about 0.9 MB:
 
 ```javascript
 import core from "pokemon-tcg-pocket-cards/v5/core";
