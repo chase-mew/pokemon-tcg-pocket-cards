@@ -21,10 +21,8 @@
 
 Table-driven: :data:`SHARD_VARIANTS` lists every variant once with the
 builder that projects it, and :func:`compile_projections` walks that table
-a single time over an already-loaded card list. The legacy six
-``compile_*_database`` wrappers still exist for standalone use, but
-``compile_v5_database`` reaches this module with its one read instead of
-re-reading the disk per variant.
+a single time over an already-loaded card list. :func:`compile_v5_database`
+is the only caller.
 """
 
 import json

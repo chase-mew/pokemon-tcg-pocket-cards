@@ -12,7 +12,8 @@ import jsonschema
 import pytest
 
 from constants import CARDS_SCHEMA_PATH, DATA_DIR, EXPANSIONS_SCHEMA_PATH, ROOT_DIR, V5_DIR
-from database import SHARD_VARIANTS, _set_sort_key, minified_path
+from database import _set_sort_key
+from projections import SHARD_VARIANTS, minified_path
 from tests.contract import CARD_KEYS, V4_CARD_KEYS
 from tests.utils import _load, report
 
