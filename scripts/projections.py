@@ -31,7 +31,7 @@ import json
 import os
 
 from constants import (COLLECTION_FIELDS, CORE_RARITIES, GAMEPLAY_FIELDS,
-                       GAMEPLAY_NO_IMAGE_FIELDS,
+                       GAMEPLAY_NO_IMAGE_FIELDS, is_playable_trainer,
                        V5_COLLECTION_CARDS_PATH, V5_COLLECTION_NO_IMAGE_CARDS_PATH,
                        V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
                        V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
@@ -135,26 +135,16 @@ def _sparse_record(fields, card, always=()):
             if value is not None or key in always}
 
 
-def _is_playable_trainer(card):
-    r"""_is_playable_trainer(card) -> bool
-
-    True for Trainer items that play as Pokemon on the field: the Fossil
-    family and Old Amber. They keep their combat fields in the projections.
-    """
-    name = card["name"]
-    return name.endswith("Fossil") or name == "Old Amber"
-
-
 # Trainer projections are a fixed subset of the gameplay fields, so derive
 # them from the sparse record rather than restating the literal dicts. The
 # Fossil family plays as a Basic Pokemon and keeps its combat keys.
 GAMEPLAY_TRAINER_FIELDS = (
     "id", "name", "set_code", "type", "subtype",
-    "card_text", "deckBuilderNr",
+    "card_text", "deckBuilderNr", "image",
 )
 GAMEPLAY_TRAINER_FOSSIL_FIELDS = (
     "id", "name", "set_code", "type", "subtype", "stage",
-    "health", "weakness", "card_text", "points", "deckBuilderNr",
+    "health", "weakness", "card_text", "points", "deckBuilderNr", "image",
 )
 
 
@@ -185,8 +175,9 @@ def _build_gameplay_records(cards, fields):
     r"""Build gameplay records from ``cards`` onto ``fields``.
 
     Shared by the with-image and no-image variants so the trainer and
-    Fossil branches are not duplicated. ``fields`` carries ``image`` for
-    the with-image payload and omits it for the no-image sister.
+    Fossil branches are not duplicated. Each trainer tuple carries its
+    own ``image`` entry; ``_sparse_record`` intersects it with ``fields``
+    so the no-image sister drops the key without a separate branch.
 
     Args:
         cards (list of dict): cards in v5 format
@@ -196,19 +187,16 @@ def _build_gameplay_records(cards, fields):
     Returns:
         list of dict: one sparse record per kept card, in input order
     """
-    with_image = "image" in fields
     records = []
     for card in cards:
         if card["rarity"] not in CORE_RARITIES:
             continue
         if card["type"] == "Trainer":
-            if _is_playable_trainer(card):
-                record = _sparse_record(GAMEPLAY_TRAINER_FOSSIL_FIELDS, card)
-            else:
-                record = _sparse_record(GAMEPLAY_TRAINER_FIELDS, card)
-            if with_image:
-                record["image"] = card["image"]
-            records.append(record)
+            base = (GAMEPLAY_TRAINER_FOSSIL_FIELDS
+                    if is_playable_trainer(card["name"])
+                    else GAMEPLAY_TRAINER_FIELDS)
+            records.append(_sparse_record(
+                tuple(f for f in base if f in fields), card))
         else:
             records.append(_sparse_record(fields, card))
     return records
