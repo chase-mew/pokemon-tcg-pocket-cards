@@ -220,16 +220,17 @@ class TestLayout:
 
 class TestPerSetShards:
     def test_shard_record_counts_sum_to_payload_totals(self):
-        for variant, _url_stem, root_path, _builder in SHARD_VARIANTS:
-            total = len(_load(root_path))
+        for variant, _url_stem, filename, _builder in SHARD_VARIANTS:
+            total = len(_load(os.path.join(V5_DIR, filename)))
             from_shards = sum(
                 len(_load(os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")))
                 for prefix in set_dirs())
             assert from_shards == total, f"{variant}: {from_shards} != {total}"
 
     def test_shard_records_match_the_root_payload_records(self):
-        for variant, _url_stem, root_path, _builder in SHARD_VARIANTS:
-            root = {record["id"]: record for record in _load(root_path)}
+        for variant, _url_stem, filename, _builder in SHARD_VARIANTS:
+            root = {record["id"]: record
+                    for record in _load(os.path.join(V5_DIR, filename))}
             for prefix in set_dirs():
                 for record in _load(os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")):
                     assert record == root[record["id"]], \

@@ -304,6 +304,9 @@ class TestCompileWritesTheIndexOnce:
             writes.append(path)
             return original(data, path)
 
+        # ``from utils import write_json_pair`` binds at import time, so
+        # each module that imports the writer needs patching; a module
+        # that imports it later would be invisible to this counter.
         monkeypatch.setattr(utils, "write_json_pair", counting)
         monkeypatch.setattr(database, "write_json_pair", counting)
         monkeypatch.setattr(projections, "write_json_pair", counting)

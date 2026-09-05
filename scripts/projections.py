@@ -25,16 +25,14 @@ a single time over an already-loaded card list. :func:`compile_v5_database`
 is the only caller.
 """
 
-import json
 import os
 
 from constants import (COLLECTION_FIELDS, CORE_RARITIES, GAMEPLAY_FIELDS,
                        GAMEPLAY_NO_IMAGE_FIELDS, is_playable_trainer,
                        V5_COLLECTION_CARDS_PATH, V5_COLLECTION_NO_IMAGE_CARDS_PATH,
-                       V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
+                       V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH,
                        V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
-from utils import (_load_existing_json, slugify, minified_path,
-                   write_json_pair)
+from utils import minified_path, write_json_pair
 
 
 CORE_FIELDS = (
@@ -44,18 +42,21 @@ CORE_FIELDS = (
 CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")
 
 
-def _sparse_record(fields, card, always=()):
-    r"""_sparse_record(fields, card, always=()) -> dict
+def _sparse_record(fields, card):
+    r"""_sparse_record(fields, card) -> dict
 
     Project ``card`` onto ``fields`` and drop what does not apply. A key
     whose value is None is omitted, and Trainer cards always omit ``ex``
     and ``mega`` because they are never rule-box Pokemon. The result is
     the sparse record shape consumers of the projections expect.
 
+    The collection payload does not use this: it keeps ``ex`` and
+    ``mega`` on Trainers and needs some nulls kept, so it projects in
+    its own comprehension.
+
     Args:
         fields (tuple of str): the fields to project in order
         card (dict): a card in v5 format
-        always (tuple of str): keys kept even when their value is None
 
     Returns:
         dict: the projected record with only applicable keys
@@ -64,8 +65,7 @@ def _sparse_record(fields, card, always=()):
     if card["type"] == "Trainer":
         record.pop("ex", None)
         record.pop("mega", None)
-    return {key: value for key, value in record.items()
-            if value is not None or key in always}
+    return {key: value for key, value in record.items() if value is not None}
 
 
 # Trainer projections are a fixed subset of the gameplay fields, so derive
@@ -109,8 +109,9 @@ def _build_gameplay_records(cards, fields):
 
     Shared by the with-image and no-image variants so the trainer and
     Fossil branches are not duplicated. Each trainer tuple carries its
-    own ``image`` entry; ``_sparse_record`` intersects it with ``fields``
-    so the no-image sister drops the key without a separate branch.
+    own ``image`` entry, and the caller intersects that tuple with
+    ``fields``, so the no-image sister drops the key without a separate
+    branch.
 
     Args:
         cards (list of dict): cards in v5 format
@@ -200,7 +201,11 @@ def build_collection_cards(cards):
     Project every card onto :data:`COLLECTION_FIELDS`, keeping all 3,879
     prints including the cosmetic rarities the gameplay projections drop.
     Records are sparse: a field whose value is None is omitted, except the
-    four in :data:`COLLECTION_ALWAYS_PRESENT`, which the schema requires.
+    five keys in :data:`COLLECTION_ALWAYS_PRESENT`: the first four never
+    hold None, and ``trade_cost`` keeps its null so every record carries
+    the key whether or not the print is tradable. ``tradable`` and
+    ``sharable`` survive the filter on their own because they are
+    booleans and False is not None.
     Key order follows ``COLLECTION_FIELDS``, which is the schema's order.
 
     The trading fields are copied from the card. The transformer derives
@@ -244,16 +249,16 @@ def build_collection_no_image_cards(cards):
 
 
 SHARD_VARIANTS = (
-    # (variant, url stem, root payload path, builder)
-    ("core", "cards_core", V5_CORE_CARDS_PATH, build_core_cards),
-    ("core.no-image", "cards_core_no_image", V5_CORE_NO_IMAGE_CARDS_PATH,
+    # (variant, url stem, root payload filename, builder)
+    ("core", "cards_core", "cards.core.json", build_core_cards),
+    ("core.no-image", "cards_core_no_image", "cards.core.no-image.json",
      build_core_no_image_cards),
-    ("gameplay", "cards_gameplay", V5_GAMEPLAY_CARDS_PATH, build_gameplay_cards),
-    ("gameplay.no-image", "cards_gameplay_no_image", V5_GAMEPLAY_NO_IMAGE_CARDS_PATH,
+    ("gameplay", "cards_gameplay", "cards.gameplay.json", build_gameplay_cards),
+    ("gameplay.no-image", "cards_gameplay_no_image", "cards.gameplay.no-image.json",
      build_gameplay_no_image_cards),
-    ("collection", "cards_collection", V5_COLLECTION_CARDS_PATH, build_collection_cards),
-    ("collection.no-image", "cards_collection_no_image", V5_COLLECTION_NO_IMAGE_CARDS_PATH,
-     build_collection_no_image_cards),
+    ("collection", "cards_collection", "cards.collection.json", build_collection_cards),
+    ("collection.no-image", "cards_collection_no_image",
+     "cards.collection.no-image.json", build_collection_no_image_cards),
 )
 
 
@@ -314,7 +319,7 @@ def compile_projections(cards, v5_dir):
             written under. Taken from the caller rather than a module
             constant so the caller decides where data lands.
     """
-    for variant, url_stem, _root_path, builder in SHARD_VARIANTS:
+    for variant, _url_stem, filename, builder in SHARD_VARIANTS:
         records = builder(cards)
-        write_json_pair(records, os.path.join(v5_dir, os.path.basename(_root_path)))
+        write_json_pair(records, os.path.join(v5_dir, filename))
         write_variant_shards(variant, records, v5_dir)

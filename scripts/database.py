@@ -26,7 +26,6 @@ in both directions, and maintains the expansions index.
 
 import os
 import re
-import json
 from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
                        PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
 from utils import (set_code_to_prefix, slugify, _load_existing_json,

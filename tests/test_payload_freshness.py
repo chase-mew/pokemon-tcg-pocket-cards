@@ -30,8 +30,9 @@ def _minified(records):
 
 def test_root_payloads_match_a_fresh_build(cards):
     stale = []
-    for _variant, _url_stem, root_path, build in P.SHARD_VARIANTS:
+    for _variant, _url_stem, filename, build in P.SHARD_VARIANTS:
         records = build(cards)
+        root_path = os.path.join(V5_DIR, filename)
         for path, dumped in ((root_path, _pretty(records)),
                              (minified_path(root_path), _minified(records))):
             with open(path, "r", encoding="utf-8") as f:
