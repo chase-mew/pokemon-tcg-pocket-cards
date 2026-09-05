@@ -12,8 +12,9 @@ how much bandwidth the download costs. Every file exists as a readable
 | A web app that shows cards and needs images | **core** | `pokemon-tcg-pocket-cards/v5/core` | ~0.96 MB |
 | The same, with images served from your own CDN | **core no-image** | `pokemon-tcg-pocket-cards/v5/core/no-image` | ~0.59 MB |
 | A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.24 MB |
-| A collection tracker, set browser or wiki | **full** | `pokemon-tcg-pocket-cards` | ~4.58 MB |
-| A legacy integration pinned to v4 shapes | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
+| A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | *(planned, see below)* |
+| Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~4.58 MB |
+| Can't be bothered to update right now (or ever) | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
 
 Raw JSON (no npm) works too: swap the import for the matching file under
 `data/v5/` on GitHub or a CDN, for example
@@ -48,6 +49,31 @@ paths yourself (per-set image shards, your own storage) and want the smallest
 download that still describes every card. Schema:
 [cards.core.no-image.schema.json](../data/v5/cards.core.no-image.schema.json) ·
 [types](../data/v5/cards.core.no-image.d.ts)
+
+### collection: the tracker's view (all prints, collection fields)
+
+One record per **printed card** (all 3,879, including star rares and Crown
+Rare, which the other projections exclude): `id`, `name`, `set_code`,
+`set_name`, `pack`, `release_date`, `rarity`, `pack_points`, `art_style`,
+`artist`, `flavour_text`, `alternate_versions`, `image`, `image_png`, the
+collectable traits `ex`, `mega`, `shiny`, `special_tags`, plus the trading
+fields `tradable`, `sharable` and `trade_cost`. It carries no gameplay data:
+pair it with gameplay or core when a tool needs both. Schema:
+[cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
+[types](../data/v5/cards.collection.d.ts)
+
+Trading fields (derived from rarity):
+
+| Rarity | `tradable` | `sharable` | `trade_cost` |
+| --- | :-: | :-: | --- |
+| ◊, ◊◊ | true | true | 0 |
+| ◊◊◊ | true | true | 1200 |
+| ◊◊◊◊ | true | true | 5000 |
+| ☆ illustration rare (not shiny) | true | false | 4000 |
+| ☆ shiny | true | false | 10000 |
+| ☆☆ full art (not shiny) | true | false | 25000 |
+| ☆☆ shiny full art | true | false | 30000 |
+| ☆☆☆, Crown Rare, Promo | false | false | null |
 
 ### full: everything the scraper extracts (30 fields)
 
