@@ -9,8 +9,6 @@ from constants import (CARDS_JSON_PATH, TRADE_RULES, V5_COLLECTION_CARDS_PATH,
 
 GAMEPLAY_ONLY_FIELDS = {"attacks", "ability", "health"}
 
-# One lookup per distinct trade bucket: the seven tradable (rarity, shiny,
-# art_style) combinations and the three non-tradable rarities.
 TRADE_SPOT_CHECKS = {
     ("◊", False, None): (True, True, 0),
     ("◊◊", False, None): (True, True, 0),
