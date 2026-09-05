@@ -45,6 +45,27 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 - **`Crown Rare` has no art style.** `ART_STYLES` has no crown category, so all Crown Rare cards carry `art_style: null`.
 
 
+## V5 core schema
+
+The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: 14 fields per card, no nested objects, about 1.3 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema
+
+| Field           | Type            | Description                                                        |
+|:----------------|:----------------|:-------------------------------------------------------------------|
+| `id`            | string          | Set prefix and padded card number (e.g., "a1-001").                |
+| `name`          | string          | The printed name of the card.                                      |
+| `set_code`      | string          | The normalised lowercase set code.                                 |
+| `pack`          | string          | The named pack the card drops from.                                |
+| `type`          | string          | "Pokémon" or "Trainer".                                            |
+| `subtype`       | string          | Energy type for Pokémon. Item classification for Trainers.         |
+| `stage`         | string, null    | Basic, Stage 1, or Stage 2. Null for Trainers.                     |
+| `rarity`        | string          | The visual rarity indicator.                                       |
+| `ex`            | boolean         | True if the card is an "ex" rulebox Pokémon.                       |
+| `mega`          | boolean         | True if the card is a Mega Evolution.                              |
+| `health`        | integer, null   | The maximum hit points. Null for Trainers.                         |
+| `points`        | integer, null   | Points awarded to the opponent when knocked out. Null for Trainers.|
+| `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.   |
+| `image`         | string          | URL to the WebP version of the card image.                         |
+
 ## V4 Schema
 
 The **[v4](../data/v4/cards.min.json)** schema is a legacy flat structure. It lacks arrays and objects.
@@ -87,5 +108,5 @@ The tests cover:
 - **Invariants:** verifies that sets are contiguous blocks, numbering has no gaps, and art styles follow the correct ordering (e.g., Full Arts precede Special Illustration Arts).
 - **Cross-file consistency:** ensures every set in the JSON has a matching entry in the expansions file, and that pack names align exactly between the two files.
 - **Image availability:** Checks that every scraped card has both a WebP and PNG file present in the local [images/](../images) folder.
-- **Published artifacts:** validates `cards.json` and `expansions.json` against the committed JSON Schemas, checks every `.min.json` against its source, checks the generated `cards.d.ts` for stale or optional fields, and checks that every `package.json` export resolves to a file on disk.
+- **Published artifacts:** validates `cards.json` and `expansions.json` against the committed JSON Schemas, checks every `.min.json` against its source, checks the generated `.d.ts` files for stale or optional fields, and checks that every `package.json` export resolves to a file on disk.
 - **Pipeline units:** exercises the scraper's HTML parsing, the art-style state machine (including shiny detection after the Immersive block), the v4 downgrade, the merge and sort logic in `database.py`, the deck-code encoder, and the image downloader's URL allow-list, all without network access.

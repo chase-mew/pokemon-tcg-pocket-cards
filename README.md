@@ -21,6 +21,32 @@ Or install it from npm, which ships the minified data plus TypeScript definition
 npm install pokemon-tcg-pocket-cards
 ```
 
+### 📥 npm entry points
+
+| Import | Contents |
+| --- | --- |
+| `pokemon-tcg-pocket-cards` | Full v5 card dataset (latest) |
+| `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
+| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: 14 fields per card |
+| `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
+| `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
+| `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
+| `pokemon-tcg-pocket-cards/v4/expansions` | Legacy v4 expansions |
+| `pokemon-tcg-pocket-cards/v1`, `/v2`, `/v3` | Legacy datasets, JSON only |
+
+```js
+import cards from "pokemon-tcg-pocket-cards";
+import core from "pokemon-tcg-pocket-cards/v5/core";
+
+// Full payload: every field, nested attacks and abilities.
+console.log(cards[0].attacks);
+
+// Core payload: 14 flat fields, about 1.3 MB, suited to web clients.
+console.log(core[0].deckBuilderNr);
+```
+
+The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule
+
 Open a pull request if you find missing cards or errors.
 
 ### 📦 Moved files
@@ -80,25 +106,26 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[💚 V5](data/v5/cards.json)** (newer)                                        |
-|------------------------------------|---------------------------|--------------------------------------------------------------------------------------|
-| Missing values                     | Empty strings ("")        | null                                                                                 |
-| Image formats                      | PNG only                  | WEBP (default) and PNG                                                               |
-| Data structure                     | Flat                      | Mostly flat, with nested `ability` and `attacks` fields                              |
-| Booleans                           | Strings (`"Yes"`/`"No"`)  | Native booleans (`true`/`false`)                                                     |
-| Set mapping                        | Pack name                 | Set name, ID and pack name                                                           |
-| Combat stats                       | Health only               | Health, retreat cost, weakness                                                       |
-| Attack data                        | ❌                         | ✅ Structured (cost, name, damage, effect)                                            |
-| Abilities                          | ❌                         | ✅ Structured (exists, name, effect)                                                  |
-| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
-| Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   |
-| Special tags | ❌ | Ancient, future, and ultra beasts                                                    |
-| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   |
-| Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          |
-| Release date                       | ❌                         | ✅ ISO release date                                                                   |
-| Flavour text                       | ❌                         | ✅ Raw text string                                                                    |
-| Language support | English only | English only |
-| Pack drop probabilities            | ❌                         | ❌                                                                                    |
+| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[💚 V5 (full)](data/v5/cards.json)** (newer)                                 | **[🟦 V5 (core)](data/v5/cards.core.json)**                        |
+|------------------------------------|---------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Missing values                     | Empty strings ("")        | null                                                                                 | null                                                                |
+| Image formats                      | PNG only                  | WEBP (default) and PNG                                                               | WEBP only                                                           |
+| Data structure                     | Flat                      | Mostly flat, with nested `ability` and `attacks` fields                              | Flat, 14 fields per card                                            |
+| Booleans                           | Strings (`"Yes"`/`"No"`)  | Native booleans (`true`/`false`)                                                     | Native booleans (`true`/`false`)                                    |
+| Set mapping                        | Pack name                 | Set name, ID and pack name                                                           | Set code and pack name                                              |
+| Combat stats                       | Health only               | Health, retreat cost, weakness                                                       | Health and points                                                   |
+| Attack data                        | ❌                         | ✅ Structured (cost, name, damage, effect)                                            | ❌                                                                   |
+| Abilities                          | ❌                         | ✅ Structured (exists, name, effect)                                                  | ❌                                                                   |
+| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist | Type/subtype, stage, rarity, ex, mega                               |
+| Shiny or Mega               | ❌                         | ✅ Native booleans (`true`/`false`)                                                   | ✅ Mega (`true`/`false`); shiny dropped                              |
+| Special tags | ❌ | Ancient, future, and ultra beasts                                                    | ❌                                                                   |
+| Deck builder | ❌ | Internal asset ID (`deckBuilderNr`)                                                   | ✅ Internal asset ID (`deckBuilderNr`)                              |
+| Alternate prints | ⚠️ Exists, but as individual cards | ✅ Array of alternative set and rarity versions on each card                          | ❌                                                                   |
+| Release date                       | ❌                         | ✅ ISO release date                                                                   | ❌                                                                   |
+| Flavour text                       | ❌                         | ✅ Raw text string                                                                    | ❌                                                                   |
+| Language support | English only | English only | English only |
+| Pack drop probabilities            | ❌                         | ❌                                                                                    | ❌                                                                   |
+| Payload size (minified)            | ~2 MB                      | ~4.6 MB                                                                               | ~1.3 MB                                                             |
 
 ### 💼 Support schedule
 
