@@ -24,18 +24,14 @@ new cards into existing records, syncs alternate version references
 in both directions, and maintains the expansions index.
 """
 
-import json
 import os
 import re
-from constants import (CARDS_JSON_PATH, COLLECTION_FIELDS, CORE_RARITIES,
-                       EXPANSIONS_JSON_PATH, GAMEPLAY_FIELDS,
-                       GAMEPLAY_NO_IMAGE_FIELDS, GITHUB_BASE_URL, PROMO_PREFIXES,
-                       UNIVERSAL_CARD_FIELDS,
-                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_COLLECTION_CARDS_PATH,
-                       V5_COLLECTION_NO_IMAGE_CARDS_PATH, V5_CORE_CARDS_PATH,
-                       V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
-                       V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
+import json
+from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
+                       PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
 from utils import set_code_to_prefix, slugify, _load_existing_json
+
+import projections
 
 
 def minified_path(file_path):
@@ -267,366 +263,146 @@ def append_to_v4(new_cards):
     return added
 
 
-CORE_FIELDS = (
-    "id", "name", "set_code", "pack", "type", "subtype", "stage",
-    "rarity", "special_tags", "ex", "mega", "health", "points", "deckBuilderNr", "image",
-)
-CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")
-
-
-def _sparse_record(fields, card):
-    r"""_sparse_record(fields, card) -> dict
-
-    Project ``card`` onto ``fields`` and drop what does not apply. A key
-    whose value is None is omitted, and Trainer cards always omit ``ex``
-    and ``mega`` because they are never rule-box Pokemon. The result is
-    the sparse record shape consumers of the projections expect.
-
-    Args:
-        fields (tuple of str): the fields to project in order
-        card (dict): a card in v5 format
-
-    Returns:
-        dict: the projected record with only applicable keys
-    """
-    record = {field: card.get(field) for field in fields}
-    if card["type"] == "Trainer":
-        record.pop("ex", None)
-        record.pop("mega", None)
-    return {key: value for key, value in record.items() if value is not None}
-
-
-def _is_playable_trainer(card):
-    r"""_is_playable_trainer(card) -> bool
-
-    True for Trainer items that play as Pokemon on the field: the Fossil
-    family and Old Amber. They keep their combat fields in the projections.
-    """
-    name = card["name"]
-    return name.endswith("Fossil") or name == "Old Amber"
+# The projection builders, the variant table and the per-set shard writer
+# live in :mod:`projections`. The wrapper names below are kept so callers
+# and the tests that import them keep working, but each now reads the cards
+# once and delegates to a single builder. The path constants stay importable
+# here because the tests monkeypatch them on this module.
+CORE_FIELDS = projections.CORE_FIELDS
+CORE_NO_IMAGE_FIELDS = projections.CORE_NO_IMAGE_FIELDS
+SHARD_VARIANTS = projections.SHARD_VARIANTS
+V5_CORE_CARDS_PATH = projections.V5_CORE_CARDS_PATH
+V5_CORE_NO_IMAGE_CARDS_PATH = projections.V5_CORE_NO_IMAGE_CARDS_PATH
+V5_GAMEPLAY_CARDS_PATH = projections.V5_GAMEPLAY_CARDS_PATH
+V5_GAMEPLAY_NO_IMAGE_CARDS_PATH = projections.V5_GAMEPLAY_NO_IMAGE_CARDS_PATH
+V5_COLLECTION_CARDS_PATH = projections.V5_COLLECTION_CARDS_PATH
+V5_COLLECTION_NO_IMAGE_CARDS_PATH = projections.V5_COLLECTION_NO_IMAGE_CARDS_PATH
 
 
 def build_core_cards(cards):
     r"""build_core_cards(cards) -> list of dict
 
-    Project each gameplay card onto :data:`CORE_FIELDS`, preserving the
-    field order of the full payload. Star rares and the Crown Rare are
-    cosmetic duplicates of a kept card, so they are dropped. Records are
-    sparse: a field that does not apply (a null value, or ``ex`` and
-    ``mega`` on a Trainer) is omitted. Fossil items keep their playable
-    ``stage``, ``health`` and ``points``, so those survive on them.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per kept card, in input order
+    Project each gameplay card onto :data:`CORE_FIELDS`. See
+    :func:`projections.build_core_cards` for the full contract.
     """
-    return [
-        _sparse_record(CORE_FIELDS, card)
-        for card in cards
-        if card["rarity"] in CORE_RARITIES
-    ]
+    return projections.build_core_cards(cards)
 
 
 def compile_core_database():
     r"""compile_core_database() -> int
 
-    Read every v5 card, project it onto :data:`CORE_FIELDS` and write the
-    result through :func:`write_json_pair`, which produces both
-    ``cards.core.json`` and ``cards.core.min.json``.
-
-    Returns:
-        int: the number of core records written
+    Read every v5 card and write the core payload through
+    :func:`projections.build_core_cards`.
     """
     cards = build_core_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_CORE_CARDS_PATH)
-    write_variant_shards("core", cards)
+    projections.write_json_pair(cards, projections.V5_CORE_CARDS_PATH)
+    projections.write_variant_shards("core", cards, V5_DIR)
     return len(cards)
-
-
-def _build_gameplay_records(cards, fields):
-    r"""Build gameplay records from ``cards`` onto ``fields``.
-
-    Shared by the with-image and no-image variants so the trainer and
-    Fossil branches are not duplicated. ``fields`` carries ``image`` for
-    the with-image payload and omits it for the no-image sister.
-
-    Args:
-        cards (list of dict): cards in v5 format
-        fields (tuple of str): gameplay field projection, image present
-            or absent
-
-    Returns:
-        list of dict: one sparse record per kept card, in input order
-    """
-    with_image = "image" in fields
-    records = []
-    for card in cards:
-        if card["rarity"] not in CORE_RARITIES:
-            continue
-        if card["type"] == "Trainer":
-            if _is_playable_trainer(card):
-                record = {
-                    "id": card["id"], "name": card["name"],
-                    "set_code": card["set_code"], "type": card["type"],
-                    "subtype": card["subtype"], "stage": card["stage"],
-                    "health": card["health"], "weakness": card["weakness"],
-                    "card_text": card["card_text"],
-                    "points": card["points"],
-                    "deckBuilderNr": card["deckBuilderNr"],
-                }
-            else:
-                record = {
-                    "id": card["id"], "name": card["name"],
-                    "set_code": card["set_code"], "type": card["type"],
-                    "subtype": card["subtype"],
-                    "card_text": card["card_text"],
-                    "deckBuilderNr": card["deckBuilderNr"],
-                }
-            if with_image:
-                record["image"] = card["image"]
-            records.append(record)
-        else:
-            records.append(_sparse_record(fields, card))
-    return records
 
 
 def build_gameplay_cards(cards):
     r"""build_gameplay_cards(cards) -> list of dict
 
-    Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
-    gameplay rarities. Records are sparse: a field that does not apply is
-    omitted. Trainer records are trimmed to the fields the game exposes on
-    them. A non-Fossil Trainer keeps only its identity, subtype, effect
-    text, deck number and image. A Fossil item, which plays as a 40-HP
-    Basic colourless Pokemon, additionally carries its ``stage``,
-    ``health``, ``points`` and ``weakness``. Pokemon records keep the full
-    combat projection, omitting only null values.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per kept card, in input order
+    Project each card onto :data:`GAMEPLAY_FIELDS`. See
+    :func:`projections.build_gameplay_cards` for the full contract.
     """
-    return _build_gameplay_records(cards, GAMEPLAY_FIELDS)
+    return projections.build_gameplay_cards(cards)
 
 
 def build_gameplay_no_image_cards(cards):
     r"""build_gameplay_no_image_cards(cards) -> list of dict
 
-    The no-image sister of the gameplay payload: the same records as
-    :func:`build_gameplay_cards` with the ``image`` key dropped. Kept for
-    consumers who serve images from their own CDN.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per kept card, in input order
+    The no-image sister of the gameplay payload. See
+    :func:`projections.build_gameplay_no_image_cards` for the full contract.
     """
-    return _build_gameplay_records(cards, GAMEPLAY_NO_IMAGE_FIELDS)
+    return projections.build_gameplay_no_image_cards(cards)
 
 
 def compile_gameplay_database():
     r"""compile_gameplay_database() -> int
 
-    Read every v5 card, project it onto :data:`GAMEPLAY_FIELDS` and write the
-    result through :func:`write_json_pair`, which produces both
-    ``cards.gameplay.json`` and ``cards.gameplay.min.json``.
-
-    Returns:
-        int: the number of gameplay records written
+    Read every v5 card and write the gameplay payload through
+    :func:`projections.build_gameplay_cards`.
     """
     cards = build_gameplay_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_GAMEPLAY_CARDS_PATH)
-    write_variant_shards("gameplay", cards)
+    projections.write_json_pair(cards, projections.V5_GAMEPLAY_CARDS_PATH)
+    projections.write_variant_shards("gameplay", cards, V5_DIR)
     return len(cards)
 
 
 def compile_gameplay_no_image_database():
     r"""compile_gameplay_no_image_database() -> int
 
-    Write the no-image gameplay payload (both ``cards.gameplay.no-image.json``
-    and ``cards.gameplay.no-image.min.json``) through :func:`write_json_pair`.
-
-    Returns:
-        int: the number of no-image gameplay records written
+    Write the no-image gameplay payload through
+    :func:`projections.build_gameplay_no_image_cards`.
     """
     cards = build_gameplay_no_image_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
-    write_variant_shards("gameplay.no-image", cards)
+    projections.write_json_pair(cards, projections.V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
+    projections.write_variant_shards("gameplay.no-image", cards, V5_DIR)
     return len(cards)
 
 
 def build_core_no_image_cards(cards):
     r"""build_core_no_image_cards(cards) -> list of dict
 
-    Project each kept card onto :data:`CORE_NO_IMAGE_FIELDS`, reusing the
-    core filter and the sparse projection with the ``image`` field dropped.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per kept card, in input order
+    Project each kept card onto :data:`CORE_NO_IMAGE_FIELDS`. See
+    :func:`projections.build_core_no_image_cards` for the full contract.
     """
-    return [
-        _sparse_record(CORE_NO_IMAGE_FIELDS, card)
-        for card in cards
-        if card["rarity"] in CORE_RARITIES
-    ]
+    return projections.build_core_no_image_cards(cards)
 
 
 def compile_core_no_image_database():
     r"""compile_core_no_image_database() -> int
 
-    Read every v5 card, project it onto :data:`CORE_NO_IMAGE_FIELDS` and
-    write the result through :func:`write_json_pair`, which produces both
-    ``cards.core.no-image.json`` and ``cards.core.no-image.min.json``.
-
-    Returns:
-        int: the number of no-image core records written
+    Read every v5 card and write the no-image core payload through
+    :func:`projections.build_core_no_image_cards`.
     """
     cards = build_core_no_image_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_CORE_NO_IMAGE_CARDS_PATH)
-    write_variant_shards("core.no-image", cards)
+    projections.write_json_pair(cards, projections.V5_CORE_NO_IMAGE_CARDS_PATH)
+    projections.write_variant_shards("core.no-image", cards, V5_DIR)
     return len(cards)
-
-
-COLLECTION_SOURCE_FIELDS = COLLECTION_FIELDS
 
 
 def build_collection_cards(cards):
     r"""build_collection_cards(cards) -> list of dict
 
-    Project every card onto :data:`COLLECTION_FIELDS`, keeping all 3,879
-    prints including the cosmetic rarities the gameplay projections drop.
-    Records are sparse: a field that does not apply is omitted. The trading
-    fields are copied from the card, which the transformer has already
-    derived from :data:`TRADE_RULES`.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per card, in input order
+    Project every card onto the collection fields. See
+    :func:`projections.build_collection_cards` for the full contract.
     """
-    records = []
-    for card in cards:
-        record = {field: card[field] for field in UNIVERSAL_CARD_FIELDS}
-        record.update({field: card.get(field) for field in COLLECTION_SOURCE_FIELDS if card.get(field) is not None})
-        records.append(record)
-    return records
+    return projections.build_collection_cards(cards)
 
 
 def compile_collection_database():
     r"""compile_collection_database() -> int
 
-    Write the collection payload (both ``cards.collection.json`` and
-    ``cards.collection.min.json``) through :func:`write_json_pair`.
-
-    Returns:
-        int: the number of collection records written
+    Read every v5 card and write the collection payload through
+    :func:`projections.build_collection_cards`.
     """
     cards = build_collection_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_COLLECTION_CARDS_PATH)
-    write_variant_shards("collection", cards)
+    projections.write_json_pair(cards, projections.V5_COLLECTION_CARDS_PATH)
+    projections.write_variant_shards("collection", cards, V5_DIR)
     return len(cards)
 
 
 def build_collection_no_image_cards(cards):
     r"""build_collection_no_image_cards(cards) -> list of dict
 
-    The no-image sister of the collection payload: the records that
-    :func:`build_collection_cards` produces with the ``image`` and
-    ``image_png`` keys dropped. The collection trade-rule derivation runs
-    exactly once, in :func:`build_collection_cards`, so the two payloads
-    cannot drift on tradable and sharable values.
-
-    Args:
-        cards (list of dict): cards in v5 format
-
-    Returns:
-        list of dict: one sparse record per card, in input order, with no
-        image URL keys
+    The no-image sister of the collection payload. See
+    :func:`projections.build_collection_no_image_cards` for the full contract.
     """
-    return [
-        {key: value for key, value in record.items()
-         if key not in ("image", "image_png")}
-        for record in build_collection_cards(cards)
-    ]
+    return projections.build_collection_no_image_cards(cards)
 
 
 def compile_collection_no_image_database():
     r"""compile_collection_no_image_database() -> int
 
-    Write the no-image collection payload (both
-    ``cards.collection.no-image.json`` and
-    ``cards.collection.no-image.min.json``) through :func:`write_json_pair`.
-
-    Returns:
-        int: the number of no-image collection records written
+    Write the no-image collection payload through
+    :func:`projections.build_collection_no_image_cards`.
     """
     cards = build_collection_no_image_cards(read_all_v5_cards())
-    write_json_pair(cards, V5_COLLECTION_NO_IMAGE_CARDS_PATH)
-    write_variant_shards("collection.no-image", cards)
+    projections.write_json_pair(cards, projections.V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    projections.write_variant_shards("collection.no-image", cards, V5_DIR)
     return len(cards)
-
-
-SHARD_VARIANTS = (
-    # (variant, url stem, root payload path, builder)
-    ("core", "cards_core", V5_CORE_CARDS_PATH, build_core_cards),
-    ("core.no-image", "cards_core_no_image", V5_CORE_NO_IMAGE_CARDS_PATH,
-     build_core_no_image_cards),
-    ("gameplay", "cards_gameplay", V5_GAMEPLAY_CARDS_PATH, build_gameplay_cards),
-    ("gameplay.no-image", "cards_gameplay_no_image", V5_GAMEPLAY_NO_IMAGE_CARDS_PATH,
-     build_gameplay_no_image_cards),
-    ("collection", "cards_collection", V5_COLLECTION_CARDS_PATH, build_collection_cards),
-    ("collection.no-image", "cards_collection_no_image", V5_COLLECTION_NO_IMAGE_CARDS_PATH,
-     build_collection_no_image_cards),
-)
-
-
-def shard_path(prefix, variant, minified=False):
-    r"""shard_path(prefix, variant, minified=False) -> str
-
-    Path of a per-set variant shard under ``V5_DIR``. The full per-set
-    file keeps its historical name (``{prefix}.json``); a variant shard
-    inserts the variant between prefix and extension
-    (``{prefix}.{variant}.json``). Set ``minified`` for the ``.min.json``
-    sibling.
-
-    Args:
-        prefix (str): lowercase set prefix (e.g. ``"a1"``)
-        variant (str): variant name from :data:`SHARD_VARIANTS`
-        minified (bool): whether to return the compact path
-
-    Returns:
-        str: path to the shard file
-    """
-    path = os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")
-    return minified_path(path) if minified else path
-
-
-def write_variant_shards(variant, records):
-    r"""write_variant_shards(variant, records)
-
-    Group an in-memory projected record list by ``set_code`` and write one
-    per-set shard pair per group. Called with the same projected list that
-    produced a root payload, so a shard record is byte-identical to its
-    root payload counterpart.
-
-    Args:
-        variant (str): variant name from :data:`SHARD_VARIANTS`
-        records (list of dict): projected records carrying ``set_code``
-    """
-    by_set = {}
-    for record in records:
-        by_set.setdefault(record["set_code"], []).append(record)
-    for prefix, group in by_set.items():
-        write_json_pair(group, shard_path(prefix, variant))
 
 
 def compile_v5_database():
@@ -682,12 +458,7 @@ def compile_v5_database():
     all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
     write_json_pair(all_cards, CARDS_JSON_PATH)
 
-    compile_core_database()
-    compile_gameplay_database()
-    compile_gameplay_no_image_database()
-    compile_core_no_image_database()
-    compile_collection_database()
-    compile_collection_no_image_database()
+    projections.compile_projections(all_cards, V5_DIR)
 
 
 def build_expansion_entry(prefix, expansion_name, cards):
