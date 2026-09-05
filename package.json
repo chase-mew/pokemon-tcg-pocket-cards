@@ -28,6 +28,10 @@
       "types": "./data/v4/expansions-wrapper.d.ts",
       "default": "./data/v4/expansions.min.json"
     },
+    "./v5": {
+      "types": "./data/v5/cards-wrapper.d.ts",
+      "default": "./data/v5/cards.min.json"
+    },
     "./core": {
       "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
