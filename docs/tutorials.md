@@ -56,6 +56,17 @@ If you serve card data over a narrow connection, import the core payload without
 import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
 ```
 
+To load a single expansion instead of the whole dataset, fetch a per-set shard. Each entry in the expansions index carries `cards_gameplay_url` and its `_min` sibling, so you can pull just the gameplay cards for one set at a fraction of the full download:
+
+```javascript
+const expansions = await (
+  await fetch("https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json")
+).json();
+const apex = expansions.find((entry) => entry.id === "a1");
+const cards = await (await fetch(apex.cards_gameplay_url_min)).json();
+console.log(cards.length, cards[0].name);
+```
+
 
 ## Set up the local environment
 

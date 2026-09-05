@@ -153,6 +153,47 @@ and a generated `.d.ts` behind a wrapper that also provides a default export.
 Pinned `./v5/...` entries keep their resolution when the root import moves to a
 future major; the unpinned aliases exist for consumers already importing them.
 
+## Per-set shards
+
+Every root payload is also split one file per set, so a client can fetch only
+the expansions it needs instead of the whole dataset. Each set directory
+`data/v5/<set>/` carries the full `<set>.json` pair plus six per-variant shards,
+each in pretty and minified form:
+
+| Variant | Shard files in `data/v5/<set>/` |
+| --- | --- |
+| core | `<set>.core.json` · `<set>.core.min.json` |
+| core no-image | `<set>.core.no-image.json` · `<set>.core.no-image.min.json` |
+| gameplay | `<set>.gameplay.json` · `<set>.gameplay.min.json` |
+| gameplay no-image | `<set>.gameplay.no-image.json` · `<set>.gameplay.no-image.min.json` |
+| collection | `<set>.collection.json` · `<set>.collection.min.json` |
+| collection no-image | `<set>.collection.no-image.json` · `<set>.collection.no-image.min.json` |
+
+A shard holds exactly the records its root payload assigns to that set, so the
+per-variant shard counts sum to the root total (2,822 across the core and
+gameplay families, 3,879 for collection) and a shard record is byte-identical
+to the matching record in the root payload.
+
+Every entry in the [expansions index](../data/v5/expansions.json) links its
+set's shards with six URL stems, each in `_url` and `_url_min` forms:
+`cards_core_url`, `cards_core_no_image_url`, `cards_gameplay_url`,
+`cards_gameplay_no_image_url`, `cards_collection_url` and
+`cards_collection_no_image_url`. They follow the same `refs/heads/main` pattern
+as `cards_url`, for example
+`https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.min.json`.
+
+Shard size scales with the set. Measured minified sizes for the largest and
+smallest set (a4b, 379 cards; a1a, 86 cards):
+
+| Variant | a4b (largest) | a1a (smallest) |
+| --- | --- | --- |
+| core | 120,245 B | 22,362 B |
+| core no-image | 74,355 B | 13,522 B |
+| gameplay | 198,189 B | 38,492 B |
+| gameplay no-image | 152,299 B | 29,652 B |
+| collection | 342,106 B | 65,512 B |
+| collection no-image | 242,808 B | 42,980 B |
+
 ## Field comparison across payloads
 
 | Field group | core | gameplay | collection | full |
