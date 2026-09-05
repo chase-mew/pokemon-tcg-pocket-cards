@@ -3,6 +3,7 @@
   "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.schema.json",
   "title": "Pokemon TCG Pocket Cards V5 Core Schema",
   "type": "array",
+  "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.",
   "items": {
     "type": "object",
     "properties": {
@@ -31,8 +32,8 @@
         "description": "Energy type for Pokémon. Item classification for Trainers."
       },
       "stage": {
-        "type": ["string", "null"],
-        "description": "Basic, Stage 1, or Stage 2. Null for Trainers."
+        "type": "string",
+        "description": "Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers."
       },
       "rarity": {
         "type": "string",
@@ -41,19 +42,19 @@
       },
       "ex": {
         "type": "boolean",
-        "description": "True if the card is an \"ex\" rulebox Pokémon."
+        "description": "True if the card is an \"ex\" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it."
       },
       "mega": {
         "type": "boolean",
-        "description": "True if the card is a Mega Evolution."
+        "description": "True if the card is a Mega Evolution. Present only on Pokémon; Trainer cards omit it."
       },
       "health": {
-        "type": ["integer", "null"],
-        "description": "The maximum hit points. Null for Trainers."
+        "type": "integer",
+        "description": "The maximum hit points. Present on Pokémon and on fossil items; omitted on other Trainers."
       },
       "points": {
-        "type": ["integer", "null"],
-        "description": "Points awarded to the opponent when knocked out. Null for Trainers."
+        "type": "integer",
+        "description": "Points awarded to the opponent when knocked out. Present on Pokémon and on fossil items; omitted on other Trainers."
       },
       "deckBuilderNr": {
         "type": "integer",
@@ -72,12 +73,7 @@
       "pack",
       "type",
       "subtype",
-      "stage",
       "rarity",
-      "ex",
-      "mega",
-      "health",
-      "points",
       "deckBuilderNr",
       "image"
     ],

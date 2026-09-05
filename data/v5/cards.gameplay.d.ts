@@ -5,6 +5,9 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+/**
+ * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.
+ */
 export type PokemonTCGPocketCardsV5GameplaySchema = {
   /**
    * Set prefix and padded card number (e.g., "a1-001").
@@ -27,31 +30,31 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
    */
   subtype: string;
   /**
-   * Basic, Stage 1, or Stage 2. Null for Trainers.
+   * Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  stage: string | null;
+  stage?: string;
   /**
-   * The name of the required pre-evolution Pokémon.
+   * The name of the required pre-evolution Pokémon. Present only on Stage 1 and Stage 2 cards.
    */
-  evolves_from: string | null;
+  evolves_from?: string;
   /**
-   * Tags like "ancient", "future", or "ultra_beasts". Defaults to null.
+   * Tags like "ancient", "future", or "ultra_beasts". Present only when the card carries a tag.
    */
-  special_tags: string[] | null;
+  special_tags?: string[];
   /**
-   * The maximum hit points. Null for Trainers.
+   * The maximum hit points. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  health: number | null;
+  health?: number;
   /**
-   * The energy cost to retreat. Null for Trainers.
+   * The energy cost to retreat. Present on Pokémon; omitted on Trainers.
    */
-  retreat: number | null;
+  retreat?: number;
   /**
-   * The energy type the Pokémon is weak to.
+   * The energy type the Pokémon is weak to. Present on Pokémon that list a weakness; omitted otherwise and on Trainers.
    */
-  weakness: string | null;
+  weakness?: string;
   /**
-   * Contains `exists` (boolean), `name` (string), and `effect` (string).
+   * Always present. Contains `exists` (boolean), `name` (string), and `effect` (string).
    */
   ability: {
     /**
@@ -69,7 +72,7 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
     [k: string]: unknown;
   };
   /**
-   * Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).
+   * Always present. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).
    */
   attacks: {
     "1": Attack;
@@ -77,21 +80,21 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
     [k: string]: unknown;
   };
   /**
-   * The mechanical rules text for Trainer cards.
+   * The mechanical rules text. Present on Trainer cards; omitted on Pokémon.
    */
-  card_text: string | null;
+  card_text?: string;
   /**
-   * Points awarded to the opponent when knocked out (1, 2, or 3).
+   * Points awarded to the opponent when knocked out (1, 2, or 3). Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  points: number | null;
+  points?: number;
   /**
-   * True if the card is an "ex" rulebox Pokémon.
+   * True if the card is an "ex" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it.
    */
-  ex: boolean;
+  ex?: boolean;
   /**
-   * True if the card is a Mega Evolution.
+   * True if the card is a Mega Evolution. Present only on Pokémon; Trainer cards omit it.
    */
-  mega: boolean;
+  mega?: boolean;
   /**
    * The internal integer used by the game client for deck rendering.
    */

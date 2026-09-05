@@ -3233,8 +3233,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000008
@@ -3248,8 +3246,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000009
@@ -3261,12 +3257,7 @@
     "pack": "Mewtwo",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000010
   },
   {
@@ -3276,12 +3267,7 @@
     "pack": "Charizard",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000011
   },
   {
@@ -3291,12 +3277,7 @@
     "pack": "Pikachu",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000012
   },
   {
@@ -3306,12 +3287,7 @@
     "pack": "Charizard",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000013
   },
   {
@@ -3321,12 +3297,7 @@
     "pack": "Mewtwo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000014
   },
   {
@@ -3336,12 +3307,7 @@
     "pack": "Mewtwo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000015
   },
   {
@@ -3351,12 +3317,7 @@
     "pack": "Pikachu",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000016
   },
   {
@@ -3366,12 +3327,7 @@
     "pack": "Charizard",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000017
   },
   {
@@ -3381,12 +3337,7 @@
     "pack": "Pikachu",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000018
   },
   {
@@ -4326,12 +4277,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000010
   },
   {
@@ -4341,12 +4287,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000020
   },
   {
@@ -4356,12 +4297,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000019
   },
   {
@@ -4371,12 +4307,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000022
   },
   {
@@ -4386,12 +4317,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000021
   },
   {
@@ -4401,12 +4327,7 @@
     "pack": "Mew",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000023
   },
   {
@@ -6563,8 +6484,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000026
@@ -6578,8 +6497,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000027
@@ -6591,12 +6508,7 @@
     "pack": "Dialga",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000028
   },
   {
@@ -6606,12 +6518,7 @@
     "pack": "Dialga",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000029
   },
   {
@@ -6621,12 +6528,7 @@
     "pack": "Palkia",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000030
   },
   {
@@ -6636,12 +6538,7 @@
     "pack": "Palkia",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000031
   },
   {
@@ -6651,12 +6548,7 @@
     "pack": "Palkia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000032
   },
   {
@@ -6666,12 +6558,7 @@
     "pack": "Dialga",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000033
   },
   {
@@ -6681,12 +6568,7 @@
     "pack": "Palkia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000034
   },
   {
@@ -6696,12 +6578,7 @@
     "pack": "Dialga",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000035
   },
   {
@@ -6711,12 +6588,7 @@
     "pack": "Dialga",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000036
   },
   {
@@ -6726,12 +6598,7 @@
     "pack": "Palkia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000037
   },
   {
@@ -7806,12 +7673,7 @@
     "pack": "Arceus",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000038
   },
   {
@@ -7821,12 +7683,7 @@
     "pack": "Arceus",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000039
   },
   {
@@ -7836,12 +7693,7 @@
     "pack": "Arceus",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000040
   },
   {
@@ -7851,12 +7703,7 @@
     "pack": "Arceus",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000041
   },
   {
@@ -8886,12 +8733,7 @@
     "pack": "Shining Revelry",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000042
   },
   {
@@ -8901,12 +8743,7 @@
     "pack": "Shining Revelry",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000043
   },
   {
@@ -8916,12 +8753,7 @@
     "pack": "Shining Revelry",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000044
   },
   {
@@ -8931,12 +8763,7 @@
     "pack": "Shining Revelry",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000045
   },
   {
@@ -11061,12 +10888,7 @@
     "pack": "Shared(Celestial Guardians)",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000046
   },
   {
@@ -11076,12 +10898,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000047
   },
   {
@@ -11091,12 +10908,7 @@
     "pack": "Shared(Celestial Guardians)",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000048
   },
   {
@@ -11106,12 +10918,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000049
   },
   {
@@ -11121,12 +10928,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000050
   },
   {
@@ -11136,12 +10938,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000051
   },
   {
@@ -11151,12 +10948,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000052
   },
   {
@@ -11166,12 +10958,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000053
   },
   {
@@ -11181,12 +10968,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000054
   },
   {
@@ -11196,12 +10978,7 @@
     "pack": "Lunala",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000055
   },
   {
@@ -11211,12 +10988,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000056
   },
   {
@@ -11226,12 +10998,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000057
   },
   {
@@ -11241,12 +11008,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000058
   },
   {
@@ -11256,12 +11018,7 @@
     "pack": "Solgaleo",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000059
   },
   {
@@ -12201,12 +11958,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000060
   },
   {
@@ -12216,12 +11968,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000061
   },
   {
@@ -12231,12 +11978,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000062
   },
   {
@@ -12246,12 +11988,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000063
   },
   {
@@ -12261,12 +11998,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000064
   },
   {
@@ -12276,12 +12008,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000065
   },
   {
@@ -12291,12 +12018,7 @@
     "pack": "Extradimensional Crisis",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000066
   },
   {
@@ -13281,12 +13003,7 @@
     "pack": "Eevee Grove",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000067
   },
   {
@@ -13296,12 +13013,7 @@
     "pack": "Eevee Grove",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000068
   },
   {
@@ -13311,12 +13023,7 @@
     "pack": "Eevee Grove",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000069
   },
   {
@@ -13326,12 +13033,7 @@
     "pack": "Eevee Grove",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000070
   },
   {
@@ -15591,12 +15293,7 @@
     "pack": "Lugia",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000071
   },
   {
@@ -15606,12 +15303,7 @@
     "pack": "Lugia",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000072
   },
   {
@@ -15621,12 +15313,7 @@
     "pack": "Ho-Oh",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000073
   },
   {
@@ -15636,12 +15323,7 @@
     "pack": "Ho-Oh",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000074
   },
   {
@@ -15651,12 +15333,7 @@
     "pack": "Shared(Wisdom of Sea and Sky)",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000075
   },
   {
@@ -15666,12 +15343,7 @@
     "pack": "Lugia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000076
   },
   {
@@ -15681,12 +15353,7 @@
     "pack": "Lugia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000077
   },
   {
@@ -15696,12 +15363,7 @@
     "pack": "Ho-Oh",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000078
   },
   {
@@ -15711,12 +15373,7 @@
     "pack": "Lugia",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000079
   },
   {
@@ -15726,12 +15383,7 @@
     "pack": "Ho-Oh",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000080
   },
   {
@@ -15741,12 +15393,7 @@
     "pack": "Ho-Oh",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000081
   },
   {
@@ -16746,12 +16393,7 @@
     "pack": "Secluded Springs",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000082
   },
   {
@@ -16761,12 +16403,7 @@
     "pack": "Secluded Springs",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000083
   },
   {
@@ -16776,12 +16413,7 @@
     "pack": "Secluded Springs",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000084
   },
   {
@@ -16791,12 +16423,7 @@
     "pack": "Secluded Springs",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000085
   },
   {
@@ -16806,12 +16433,7 @@
     "pack": "Secluded Springs",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000086
   },
   {
@@ -21426,12 +21048,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000067
   },
   {
@@ -21441,12 +21058,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000067
   },
   {
@@ -21456,12 +21068,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000071
   },
   {
@@ -21471,12 +21078,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000071
   },
   {
@@ -21486,12 +21088,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000010
   },
   {
@@ -21501,12 +21098,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000010
   },
   {
@@ -21516,12 +21108,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000048
   },
   {
@@ -21531,12 +21118,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000048
   },
   {
@@ -21546,12 +21128,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000028
   },
   {
@@ -21561,12 +21138,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000028
   },
   {
@@ -21576,12 +21148,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000062
   },
   {
@@ -21591,12 +21158,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000062
   },
   {
@@ -21606,12 +21168,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000029
   },
   {
@@ -21621,12 +21178,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000029
   },
   {
@@ -21636,12 +21188,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000030
   },
   {
@@ -21651,12 +21198,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000030
   },
   {
@@ -21666,12 +21208,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000051
   },
   {
@@ -21681,12 +21218,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000051
   },
   {
@@ -21696,12 +21228,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000032
   },
   {
@@ -21711,12 +21238,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000032
   },
   {
@@ -21726,12 +21248,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000011
   },
   {
@@ -21741,12 +21258,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000011
   },
   {
@@ -21756,12 +21268,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000038
   },
   {
@@ -21771,12 +21278,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000038
   },
   {
@@ -21786,12 +21288,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000077
   },
   {
@@ -21801,12 +21298,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000077
   },
   {
@@ -21816,12 +21308,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000015
   },
   {
@@ -21831,12 +21318,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000015
   },
   {
@@ -21846,12 +21328,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000078
   },
   {
@@ -21861,12 +21338,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000078
   },
   {
@@ -21876,12 +21348,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000017
   },
   {
@@ -21891,12 +21358,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000017
   },
   {
@@ -21906,12 +21368,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000042
   },
   {
@@ -21921,12 +21378,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000042
   },
   {
@@ -21936,12 +21388,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000036
   },
   {
@@ -21951,12 +21398,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000036
   },
   {
@@ -21966,12 +21408,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000037
   },
   {
@@ -21981,12 +21418,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000037
   },
   {
@@ -21996,12 +21428,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000023
   },
   {
@@ -22011,12 +21438,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000023
   },
   {
@@ -22026,12 +21448,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000059
   },
   {
@@ -22041,12 +21458,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000059
   },
   {
@@ -22056,12 +21468,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000066
   },
   {
@@ -22071,12 +21478,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000066
   },
   {
@@ -22086,12 +21488,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000044
   },
   {
@@ -22101,12 +21498,7 @@
     "pack": "Deluxe Pack: ex",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000044
   },
   {
@@ -25296,12 +24688,7 @@
     "pack": "Mega Blaziken",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000087
   },
   {
@@ -25313,8 +24700,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000088
@@ -25326,12 +24711,7 @@
     "pack": "Mega Gyarados",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000089
   },
   {
@@ -25343,8 +24723,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000090
@@ -25356,12 +24734,7 @@
     "pack": "Mega Blaziken",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000091
   },
   {
@@ -25371,12 +24744,7 @@
     "pack": "Mega Altaria",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000092
   },
   {
@@ -25386,12 +24754,7 @@
     "pack": "Mega Gyarados",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000093
   },
   {
@@ -25401,12 +24764,7 @@
     "pack": "Mega Altaria",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000094
   },
   {
@@ -25416,12 +24774,7 @@
     "pack": "Mega Gyarados",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000095
   },
   {
@@ -25431,12 +24784,7 @@
     "pack": "Mega Blaziken",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000096
   },
   {
@@ -25446,12 +24794,7 @@
     "pack": "Mega Blaziken",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000097
   },
   {
@@ -25461,12 +24804,7 @@
     "pack": "Mega Altaria",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000098
   },
   {
@@ -25476,12 +24814,7 @@
     "pack": "Mega Gyarados",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000099
   },
   {
@@ -25491,12 +24824,7 @@
     "pack": "Mega Altaria",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000100
   },
   {
@@ -26481,12 +25809,7 @@
     "pack": "Crimson Blaze",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000101
   },
   {
@@ -26496,12 +25819,7 @@
     "pack": "Crimson Blaze",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000102
   },
   {
@@ -26511,12 +25829,7 @@
     "pack": "Crimson Blaze",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000103
   },
   {
@@ -26526,12 +25839,7 @@
     "pack": "Crimson Blaze",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000104
   },
   {
@@ -28688,8 +27996,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000105
@@ -28701,12 +28007,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000106
   },
   {
@@ -28718,8 +28019,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000107
@@ -28731,12 +28030,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000108
   },
   {
@@ -28746,12 +28040,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000109
   },
   {
@@ -28761,12 +28050,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000110
   },
   {
@@ -28776,12 +28060,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000111
   },
   {
@@ -28791,12 +28070,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000112
   },
   {
@@ -28806,12 +28080,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000113
   },
   {
@@ -28821,12 +28090,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000114
   },
   {
@@ -28836,12 +28100,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000115
   },
   {
@@ -28851,12 +28110,7 @@
     "pack": "Fantastical Parade",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000116
   },
   {
@@ -30141,12 +29395,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000117
   },
   {
@@ -30156,12 +29405,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000118
   },
   {
@@ -30171,12 +29415,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000119
   },
   {
@@ -30186,12 +29425,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000042
   },
   {
@@ -30201,12 +29435,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000120
   },
   {
@@ -30216,12 +29445,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000121
   },
   {
@@ -30231,12 +29455,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000070
   },
   {
@@ -30246,12 +29465,7 @@
     "pack": "Paldean Wonders",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000122
   },
   {
@@ -31221,12 +30435,7 @@
     "pack": "Mega Shine",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000123
   },
   {
@@ -31236,12 +30445,7 @@
     "pack": "Mega Shine",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000124
   },
   {
@@ -31251,12 +30455,7 @@
     "pack": "Mega Shine",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000125
   },
   {
@@ -31266,12 +30465,7 @@
     "pack": "Mega Shine",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000126
   },
   {
@@ -31281,12 +30475,7 @@
     "pack": "Mega Shine",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000127
   },
   {
@@ -33486,12 +32675,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000128
   },
   {
@@ -33501,12 +32685,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000129
   },
   {
@@ -33516,12 +32695,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000130
   },
   {
@@ -33531,12 +32705,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000131
   },
   {
@@ -33546,12 +32715,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000132
   },
   {
@@ -33561,12 +32725,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000133
   },
   {
@@ -33576,12 +32735,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000134
   },
   {
@@ -33591,12 +32745,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000135
   },
   {
@@ -33606,12 +32755,7 @@
     "pack": "Pulsing Aura",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000136
   },
   {
@@ -34641,12 +33785,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000137
   },
   {
@@ -34656,12 +33795,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000138
   },
   {
@@ -34671,12 +33805,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000139
   },
   {
@@ -34686,12 +33815,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000140
   },
   {
@@ -34701,12 +33825,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000141
   },
   {
@@ -34716,12 +33835,7 @@
     "pack": "Paradox Drive",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000142
   },
   {
@@ -35676,12 +34790,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000143
   },
   {
@@ -35691,12 +34800,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000144
   },
   {
@@ -35706,12 +34810,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000145
   },
   {
@@ -35721,12 +34820,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000146
   },
   {
@@ -35736,12 +34830,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000147
   },
   {
@@ -35751,12 +34840,7 @@
     "pack": "Everyday Wonders",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000148
   },
   {
@@ -37926,12 +37010,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000149
   },
   {
@@ -37943,8 +37022,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000150
@@ -37958,8 +37035,6 @@
     "subtype": "Item",
     "stage": "Basic",
     "rarity": "◊",
-    "ex": false,
-    "mega": false,
     "health": 40,
     "points": 1,
     "deckBuilderNr": 1000151
@@ -37971,12 +37046,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000152
   },
   {
@@ -37986,12 +37056,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Tool",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000153
   },
   {
@@ -38001,12 +37066,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000154
   },
   {
@@ -38016,12 +37076,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000155
   },
   {
@@ -38031,12 +37086,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000156
   },
   {
@@ -38046,12 +37096,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000157
   },
   {
@@ -38061,12 +37106,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000158
   },
   {
@@ -38076,12 +37116,7 @@
     "pack": "Ruler of the Skies",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000159
   },
   {
@@ -39081,12 +38116,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000160
   },
   {
@@ -39096,12 +38126,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000161
   },
   {
@@ -39111,12 +38136,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000162
   },
   {
@@ -39126,12 +38146,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000163
   },
   {
@@ -39141,12 +38156,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000164
   },
   {
@@ -39156,12 +38166,7 @@
     "pack": "Team Rocket's Ambition",
     "type": "Trainer",
     "subtype": "Stadium",
-    "stage": null,
     "rarity": "◊◊",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000165
   },
   {
@@ -39171,12 +38176,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000001
   },
   {
@@ -39186,12 +38186,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000002
   },
   {
@@ -39201,12 +38196,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000005
   },
   {
@@ -39216,12 +38206,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000006
   },
   {
@@ -39231,12 +38216,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000003
   },
   {
@@ -39246,12 +38226,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000007
   },
   {
@@ -39261,12 +38236,7 @@
     "pack": "Shop",
     "type": "Trainer",
     "subtype": "Supporter",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000004
   },
   {
@@ -39276,12 +38246,7 @@
     "pack": "Campaign",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
     "rarity": "Promo",
-    "ex": false,
-    "mega": false,
-    "health": null,
-    "points": null,
     "deckBuilderNr": 1000006
   },
   {

@@ -21,6 +21,7 @@ def card(card_id, **overrides):
         "set_name": "Genetic Apex",
         "pack": "Mewtwo",
         "release_date": "2024-10-30",
+        "type": "Pokémon",
         "rarity": "◊",
         "alternate_versions": [],
     }

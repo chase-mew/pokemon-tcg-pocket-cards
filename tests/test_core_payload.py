@@ -1,4 +1,4 @@
-"""The core payload is a faithful gameplay-only subset of the full dataset."""
+"""The core payload is a sparse gameplay-only subset of the full dataset."""
 import json
 import os
 
@@ -14,6 +14,10 @@ def _load(path):
         return json.load(f)
 
 
+def _is_fossil(record):
+    return record["type"] == "Trainer" and record["name"].endswith("Fossil")
+
+
 def test_core_payload_covers_every_gameplay_card():
     full = _load(CARDS_JSON_PATH)
     core = _load(V5_CORE_CARDS_PATH)
@@ -21,20 +25,45 @@ def test_core_payload_covers_every_gameplay_card():
     assert {card["id"] for card in core} == kept
 
 
-def test_core_records_carry_exactly_the_core_fields():
-    core = _load(V5_CORE_CARDS_PATH)
-    for record in core[:50]:
-        assert tuple(record.keys()) == CORE_FIELDS
-
-
-def test_core_values_match_the_full_payload():
+def test_core_records_omit_inapplicable_keys():
+    """A record keeps exactly the core fields the full card fills, minus the
+    ex and mega keys Trainer cards always omit."""
     full = _load(CARDS_JSON_PATH)
     core = _load(V5_CORE_CARDS_PATH)
     by_id = {card["id"]: card for card in full}
     for record in core:
         source = by_id[record["id"]]
-        for field in CORE_FIELDS:
+        expected = {field for field in CORE_FIELDS if source.get(field) is not None}
+        if source["type"] == "Trainer":
+            expected -= {"ex", "mega"}
+        assert set(record) == expected
+
+
+def test_core_present_values_match_the_full_payload():
+    full = _load(CARDS_JSON_PATH)
+    core = _load(V5_CORE_CARDS_PATH)
+    by_id = {card["id"]: card for card in full}
+    for record in core:
+        source = by_id[record["id"]]
+        for field in record:
             assert record[field] == source.get(field)
+
+
+def test_core_records_never_carry_null_values():
+    core = _load(V5_CORE_CARDS_PATH)
+    assert not any(record[key] is None for record in core for key in record)
+
+
+def test_core_fossil_items_keep_playable_fields():
+    core = _load(V5_CORE_CARDS_PATH)
+    fossils = [record for record in core if _is_fossil(record)]
+    assert fossils
+    for record in fossils:
+        assert record["stage"] == "Basic"
+        assert record["health"] == 40
+        assert record["points"] == 1
+        assert "ex" not in record
+        assert "mega" not in record
 
 
 def test_core_payload_is_smaller_than_the_full_payload():

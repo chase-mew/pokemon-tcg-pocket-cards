@@ -5,6 +5,9 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+/**
+ * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.
+ */
 export type PokemonTCGPocketCardsV5CoreNoImageSchema = {
   /**
    * Set prefix and padded card number (e.g., "a1-001").
@@ -31,29 +34,29 @@ export type PokemonTCGPocketCardsV5CoreNoImageSchema = {
    */
   subtype: string;
   /**
-   * Basic, Stage 1, or Stage 2. Null for Trainers.
+   * Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  stage: string | null;
+  stage?: string;
   /**
    * The visual rarity indicator.
    */
   rarity: "◊" | "◊◊" | "◊◊◊" | "◊◊◊◊" | "Promo";
   /**
-   * True if the card is an "ex" rulebox Pokémon.
+   * True if the card is an "ex" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it.
    */
-  ex: boolean;
+  ex?: boolean;
   /**
-   * True if the card is a Mega Evolution.
+   * True if the card is a Mega Evolution. Present only on Pokémon; Trainer cards omit it.
    */
-  mega: boolean;
+  mega?: boolean;
   /**
-   * The maximum hit points. Null for Trainers.
+   * The maximum hit points. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  health: number | null;
+  health?: number;
   /**
-   * Points awarded to the opponent when knocked out. Null for Trainers.
+   * Points awarded to the opponent when knocked out. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
-  points: number | null;
+  points?: number;
   /**
    * The internal integer used by the game client for deck rendering.
    */

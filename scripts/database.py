@@ -270,23 +270,46 @@ CORE_FIELDS = (
 CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")
 
 
+def _sparse_record(fields, card):
+    r"""_sparse_record(fields, card) -> dict
+
+    Project ``card`` onto ``fields`` and drop what does not apply. A key
+    whose value is None is omitted, and Trainer cards always omit ``ex``
+    and ``mega`` because they are never rule-box Pokemon. The result is
+    the sparse record shape consumers of the projections expect.
+
+    Args:
+        fields (tuple of str): the fields to project in order
+        card (dict): a card in v5 format
+
+    Returns:
+        dict: the projected record with only applicable keys
+    """
+    record = {field: card.get(field) for field in fields}
+    if card["type"] == "Trainer":
+        record.pop("ex", None)
+        record.pop("mega", None)
+    return {key: value for key, value in record.items() if value is not None}
+
+
 def build_core_cards(cards):
     r"""build_core_cards(cards) -> list of dict
 
     Project each gameplay card onto :data:`CORE_FIELDS`, preserving the
     field order of the full payload. Star rares and the Crown Rare are
-    cosmetic duplicates of a kept card, so they are dropped. Cards
-    missing an optional field are filled with ``None`` so every record
-    carries every core key.
+    cosmetic duplicates of a kept card, so they are dropped. Records are
+    sparse: a field that does not apply (a null value, or ``ex`` and
+    ``mega`` on a Trainer) is omitted. Fossil items keep their playable
+    ``stage``, ``health`` and ``points``, so those survive on them.
 
     Args:
         cards (list of dict): cards in v5 format
 
     Returns:
-        list of dict: one record per kept card, in input order
+        list of dict: one sparse record per kept card, in input order
     """
     return [
-        {field: card.get(field) for field in CORE_FIELDS}
+        _sparse_record(CORE_FIELDS, card)
         for card in cards
         if card["rarity"] in CORE_RARITIES
     ]
@@ -311,17 +334,18 @@ def build_gameplay_cards(cards):
     r"""build_gameplay_cards(cards) -> list of dict
 
     Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
-    gameplay rarities. Cards missing an optional field are filled with
-    ``None`` so every record carries every gameplay key.
+    gameplay rarities. Records are sparse: a field that does not apply (a
+    null value, or ``ex`` and ``mega`` on a Trainer) is omitted. Fossil
+    items keep their playable ``stage``, ``health`` and ``points``.
 
     Args:
         cards (list of dict): cards in v5 format
 
     Returns:
-        list of dict: one record per kept card, in input order
+        list of dict: one sparse record per kept card, in input order
     """
     return [
-        {field: card.get(field) for field in GAMEPLAY_FIELDS}
+        _sparse_record(GAMEPLAY_FIELDS, card)
         for card in cards
         if card["rarity"] in CORE_RARITIES
     ]
@@ -346,17 +370,18 @@ def build_core_no_image_cards(cards):
     r"""build_core_no_image_cards(cards) -> list of dict
 
     Project each kept card onto :data:`CORE_NO_IMAGE_FIELDS`, reusing the
-    core filter and projection with the ``image`` field dropped.
+    core filter and the sparse projection with the ``image`` field dropped.
 
     Args:
         cards (list of dict): cards in v5 format
 
     Returns:
-        list of dict: one record per kept card, in input order
+        list of dict: one sparse record per kept card, in input order
     """
     return [
-        {field: record[field] for field in CORE_NO_IMAGE_FIELDS}
-        for record in build_core_cards(cards)
+        _sparse_record(CORE_NO_IMAGE_FIELDS, card)
+        for card in cards
+        if card["rarity"] in CORE_RARITIES
     ]
 
 
