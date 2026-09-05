@@ -28,6 +28,7 @@ npm install pokemon-tcg-pocket-cards
 | `pokemon-tcg-pocket-cards` | Full v5 card dataset (latest) |
 | `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
 | `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: 14 fields per card |
+| `pokemon-tcg-pocket-cards/core` | Alias of `/v5/core` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
 | `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
 | `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
