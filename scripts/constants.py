@@ -18,6 +18,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 import os
+import re
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -35,6 +36,11 @@ GITHUB_BASE_URL = (
 V5_CARDS_URL_BASE = (
     "https://raw.githubusercontent.com/chase-manning/"
     "pokemon-tcg-pocket-cards/refs/heads/main/data/v5"
+)
+LIMITLESS_HOST = re.compile(
+    r"^limitlesstcg\.com$"
+    r"|^[a-z0-9-]+\.limitlesstcg\.com$"
+    r"|^limitlesstcg\.[a-z0-9-]+\.cdn\.digitaloceanspaces\.com$"
 )
 SEREBII_BASE_URL = "https://www.serebii.net/tcgpocket/"
 FLIBUSTIER_PTCGP_DB_URL = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/cards.json"
@@ -64,9 +70,6 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # Versioned data
 DATA_DIR = os.path.join(ROOT_DIR, "data")
-V1_JSON_PATH = os.path.join(DATA_DIR, "v1", "cards.json")
-V2_JSON_PATH = os.path.join(DATA_DIR, "v2", "cards.json")
-V3_JSON_PATH = os.path.join(DATA_DIR, "v3", "cards.json")
 V4_JSON_PATH = os.path.join(DATA_DIR, "v4", "cards.json")
 V4_EXPANSIONS_JSON_PATH = os.path.join(DATA_DIR, "v4", "expansions.json")  # frozen v4-era index
 V5_DIR = os.path.join(DATA_DIR, "v5")
