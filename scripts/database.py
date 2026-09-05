@@ -28,9 +28,9 @@ import json
 import os
 import re
 from constants import (CARDS_JSON_PATH, CORE_RARITIES, EXPANSIONS_JSON_PATH, GAMEPLAY_FIELDS,
-                       GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE,
+                       GAMEPLAY_NO_IMAGE_FIELDS, GITHUB_BASE_URL, PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE,
                        V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
-                       V5_GAMEPLAY_CARDS_PATH)
+                       V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
 
@@ -330,31 +330,29 @@ def compile_core_database():
     return len(cards)
 
 
-def build_gameplay_cards(cards):
-    r"""build_gameplay_cards(cards) -> list of dict
+def _build_gameplay_records(cards, fields):
+    r"""Build gameplay records from ``cards`` onto ``fields``.
 
-    Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
-    gameplay rarities. Records are sparse: a field that does not apply is
-    omitted. Trainer records are trimmed to the fields the game exposes on
-    them. A non-Fossil Trainer keeps only its identity, subtype, effect
-    text and deck number. A Fossil item, which plays as a 40-HP Basic
-    colourless Pokemon, additionally carries its ``stage``, ``health``,
-    ``points`` and ``weakness``. Pokemon records keep the full combat
-    projection, omitting only null values.
+    Shared by the with-image and no-image variants so the trainer and
+    Fossil branches are not duplicated. ``fields`` carries ``image`` for
+    the with-image payload and omits it for the no-image sister.
 
     Args:
         cards (list of dict): cards in v5 format
+        fields (tuple of str): gameplay field projection, image present
+            or absent
 
     Returns:
         list of dict: one sparse record per kept card, in input order
     """
+    with_image = "image" in fields
     records = []
     for card in cards:
         if card["rarity"] not in CORE_RARITIES:
             continue
         if card["type"] == "Trainer":
             if card["name"].endswith("Fossil"):
-                records.append({
+                record = {
                     "id": card["id"], "name": card["name"],
                     "set_code": card["set_code"], "type": card["type"],
                     "subtype": card["subtype"], "stage": card["stage"],
@@ -362,18 +360,58 @@ def build_gameplay_cards(cards):
                     "card_text": card["card_text"],
                     "points": card["points"],
                     "deckBuilderNr": card["deckBuilderNr"],
-                })
+                }
             else:
-                records.append({
+                record = {
                     "id": card["id"], "name": card["name"],
                     "set_code": card["set_code"], "type": card["type"],
                     "subtype": card["subtype"],
                     "card_text": card["card_text"],
                     "deckBuilderNr": card["deckBuilderNr"],
-                })
+                }
+            if with_image:
+                record["image"] = card["image"]
+            records.append(record)
         else:
-            records.append(_sparse_record(GAMEPLAY_FIELDS, card))
+            records.append(_sparse_record(fields, card))
     return records
+
+
+def build_gameplay_cards(cards):
+    r"""build_gameplay_cards(cards) -> list of dict
+
+    Project each card onto :data:`GAMEPLAY_FIELDS`, keeping only the
+    gameplay rarities. Records are sparse: a field that does not apply is
+    omitted. Trainer records are trimmed to the fields the game exposes on
+    them. A non-Fossil Trainer keeps only its identity, subtype, effect
+    text, deck number and image. A Fossil item, which plays as a 40-HP
+    Basic colourless Pokemon, additionally carries its ``stage``,
+    ``health``, ``points`` and ``weakness``. Pokemon records keep the full
+    combat projection, omitting only null values.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one sparse record per kept card, in input order
+    """
+    return _build_gameplay_records(cards, GAMEPLAY_FIELDS)
+
+
+def build_gameplay_no_image_cards(cards):
+    r"""build_gameplay_no_image_cards(cards) -> list of dict
+
+    The no-image sister of the gameplay payload: the same records as
+    :func:`build_gameplay_cards` with the ``image`` key dropped. Kept for
+    consumers who serve images from their own CDN.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one sparse record per kept card, in input order
+    """
+    return _build_gameplay_records(cards, GAMEPLAY_NO_IMAGE_FIELDS)
 
 
 def compile_gameplay_database():
@@ -388,6 +426,20 @@ def compile_gameplay_database():
     """
     cards = build_gameplay_cards(read_all_v5_cards())
     write_json_pair(cards, V5_GAMEPLAY_CARDS_PATH)
+    return len(cards)
+
+
+def compile_gameplay_no_image_database():
+    r"""compile_gameplay_no_image_database() -> int
+
+    Write the no-image gameplay payload (both ``cards.gameplay.no-image.json``
+    and ``cards.gameplay.no-image.min.json``) through :func:`write_json_pair`.
+
+    Returns:
+        int: the number of no-image gameplay records written
+    """
+    cards = build_gameplay_no_image_cards(read_all_v5_cards())
+    write_json_pair(cards, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
     return len(cards)
 
 
@@ -480,6 +532,7 @@ def compile_v5_database():
 
     compile_core_database()
     compile_gameplay_database()
+    compile_gameplay_no_image_database()
     compile_core_no_image_database()
 
 

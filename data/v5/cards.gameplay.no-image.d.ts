@@ -6,9 +6,9 @@
  */
 
 /**
- * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards keep only the fields the game exposes on them. A non-Fossil Trainer keeps identity, subtype, card text and deck number; a Fossil item additionally keeps stage, health, points and weakness. Pokemon records keep the full combat projection.
+ * Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards keep only the fields the game exposes on them. A non-Fossil Trainer keeps identity, subtype, card text and deck number; a Fossil item additionally keeps stage, health, points and weakness. Pokemon records keep the full combat projection. Identical to the gameplay payload with the image URL dropped.
  */
-export type PokemonTCGPocketCardsV5GameplaySchema = {
+export type PokemonTCGPocketCardsV5GameplayNoImageSchema = {
   /**
    * Set prefix and padded card number (e.g., "a1-001").
    */
@@ -99,10 +99,6 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
    * The internal integer used by the game client for deck rendering.
    */
   deckBuilderNr: number;
-  /**
-   * URL to the WEBP version of the card image.
-   */
-  image: string;
 }[];
 
 /**

@@ -83,6 +83,8 @@ V5_CORE_NO_IMAGE_CARDS_PATH = os.path.join(V5_DIR, "cards.core.no-image.json")
 V5_CORE_NO_IMAGE_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.core.no-image.schema.json")
 V5_GAMEPLAY_CARDS_PATH = os.path.join(V5_DIR, "cards.gameplay.json")
 V5_GAMEPLAY_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.gameplay.schema.json")
+V5_GAMEPLAY_NO_IMAGE_CARDS_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.json")
+V5_GAMEPLAY_NO_IMAGE_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.schema.json")
 V4_CARDS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "cards.schema.json")
 V4_EXPANSIONS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "expansions.schema.json")
 
@@ -107,8 +109,9 @@ CORE_RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "Promo")
 GAMEPLAY_FIELDS = (
     "id", "name", "set_code", "type", "subtype", "stage", "evolves_from",
     "special_tags", "health", "retreat", "weakness", "ability", "attacks",
-    "card_text", "points", "ex", "mega", "deckBuilderNr",
+    "card_text", "points", "ex", "mega", "deckBuilderNr", "image",
 )
+GAMEPLAY_NO_IMAGE_FIELDS = tuple(field for field in GAMEPLAY_FIELDS if field != "image")
 PARALLEL_FOIL_RARITIES = ("◊", "◊◊", "◊◊◊")
 ART_STYLES = (
     "Illustration Art", "Full Art", "Special Illustration Art",

@@ -8,10 +8,10 @@ from constants import (CARDS_JSON_PATH, CORE_RARITIES, GAMEPLAY_FIELDS,
                        V5_GAMEPLAY_CARDS_SCHEMA_PATH)
 
 NON_FOSSIL_TRAINER_KEYS = {"id", "name", "set_code", "type", "subtype",
-                           "card_text", "deckBuilderNr"}
+                           "card_text", "deckBuilderNr", "image"}
 FOSSIL_TRAINER_KEYS = {"id", "name", "set_code", "type", "subtype", "stage",
                        "health", "points", "weakness", "card_text",
-                       "deckBuilderNr"}
+                       "deckBuilderNr", "image"}
 
 
 def _load(path):
@@ -31,6 +31,13 @@ def test_gameplay_covers_the_same_cards_as_core():
     assert kept_ids == {card["id"] for card in core}
     assert kept_ids == {card["id"] for card in gameplay}
     assert {card["rarity"] for card in full if card["id"] in kept_ids} == set(CORE_RARITIES)
+
+
+def test_gameplay_records_carry_image():
+    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    assert gameplay
+    assert all(record["image"].startswith("https://raw.githubusercontent.com/")
+               for record in gameplay)
 
 
 def test_gameplay_matches_its_schema():
