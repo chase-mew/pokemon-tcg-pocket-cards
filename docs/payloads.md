@@ -59,6 +59,14 @@ rares and Crown Rare are excluded because every one of them shares its
 `deckBuilderNr` with a kept card: they are cosmetic variants, not different
 game pieces. The full payload keeps all 3,879.
 
+This filter has one consequence worth stating plainly: the projections are
+not card-complete. Every `☆`, `☆☆`, `☆☆☆` and Crown Rare print is absent,
+including 417 `ex` prints and all 37 Crown Rares, so a payload is the wrong
+source for set-completion views, collectable checklists or any tool that must
+show one row per printed card. A deck tool is unaffected: for every excluded
+print, the deck-legal card with the same `deckBuilderNr` is present. Use the
+full payload when print-level completeness matters.
+
 **Sparse records.** Projection records omit any field whose value is null.
 Trainer records also omit `ex` and `mega`, and in gameplay they are
 trimmed further: a Trainer keeps only `id`, `name`, `set_code`, `type`,
