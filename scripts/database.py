@@ -24,29 +24,16 @@ new cards into existing records, syncs alternate version references
 in both directions, and maintains the expansions index.
 """
 
-import json
 import os
 import re
-from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL, PROMO_PREFIXES,
-                       V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
-from utils import set_code_to_prefix, slugify, _load_existing_json
+from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
+                       PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
+from utils import (set_code_to_prefix, slugify, _load_existing_json,
+                   minified_path, write_json_pair)
+
+import projections
 
 
-def minified_path(file_path):
-    r"""minified_path(file_path) -> str
-
-    Return the ``.min.json`` sibling of a ``.json`` path. Only the
-    suffix is swapped, so a directory containing ``.json`` in its name
-    is left alone.
-
-    Args:
-        file_path (str): a path ending in ``.json``
-
-    Returns:
-        str: the same path with a ``.min.json`` suffix
-    """
-    root, ext = os.path.splitext(file_path)
-    return f"{root}.min{ext}"
 
 
 def _set_sort_key(set_code):
@@ -83,31 +70,6 @@ def _card_number(card):
     return int(card["id"].rsplit("-", 1)[1])
 
 
-def minify_and_save(data, file_path):
-    r"""minify_and_save(data, file_path)
-
-    Write ``data`` as JSON in two files: a pretty-printed version at
-    ``file_path`` (indent of 2) and a compact version at the same path
-    with ``.json`` replaced by ``.min.json``. Both files use
-    ``ensure_ascii=False`` so non-ASCII characters like the rarity
-    symbols are preserved.
-
-    Both files are written with explicit LF newlines. Without that,
-    running the pipeline on Windows produces CRLF files and every
-    regeneration on a Linux CI runner rewrites every line of every
-    data file.
-
-    Args:
-        data: any JSON-serialisable value (list, dict, etc.)
-        file_path (str): destination path for the pretty-printed
-            file. The minified path is derived by replacing the
-            ``.json`` suffix with ``.min.json``.
-    """
-    with open(file_path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    with open(minified_path(file_path), "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
 
 
 def read_all_v5_cards():
@@ -236,7 +198,7 @@ def write_set_file(new_cards):
 
     merged, added = _merge(_load_existing_json(set_json_path), new_cards)
     merged.sort(key=_card_number)
-    minify_and_save(merged, set_json_path)
+    write_json_pair(merged, set_json_path)
     return added
 
 
@@ -257,7 +219,7 @@ def append_to_v4(new_cards):
     os.makedirs(os.path.dirname(V4_JSON_PATH), exist_ok=True)
     existing = _load_existing_json(V4_JSON_PATH) or _load_existing_json(minified_path(V4_JSON_PATH))
     merged, added = _merge(existing, new_cards)
-    minify_and_save(merged, V4_JSON_PATH)
+    write_json_pair(merged, V4_JSON_PATH)
     return added
 
 
@@ -300,7 +262,7 @@ def compile_v5_database():
 
     for prefix, cards in set_groups.items():
         cards.sort(key=_card_number)
-        minify_and_save(cards, os.path.join(V5_DIR, prefix, f"{prefix}.json"))
+        write_json_pair(cards, os.path.join(V5_DIR, prefix, f"{prefix}.json"))
         if cards:
             entry = build_expansion_entry(prefix, cards[0]["set_name"], cards)
             if prefix in by_id:
@@ -309,10 +271,12 @@ def compile_v5_database():
                 expansions.append(entry)
                 by_id[prefix] = entry
 
-    minify_and_save(expansions, EXPANSIONS_JSON_PATH)
+    write_json_pair(expansions, EXPANSIONS_JSON_PATH)
 
     all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
-    minify_and_save(all_cards, CARDS_JSON_PATH)
+    write_json_pair(all_cards, CARDS_JSON_PATH)
+
+    projections.compile_projections(all_cards, V5_DIR)
 
 
 def build_expansion_entry(prefix, expansion_name, cards):
@@ -352,15 +316,20 @@ def build_expansion_entry(prefix, expansion_name, cards):
              else [pack_entry(f"{prefix}-{slugify(name)}", name) for name in unique_packs])
 
     dates = [c["release_date"] for c in cards if c.get("release_date")]
-    return {
+    entry = {
         "id": prefix,
         "name": expansion_name,
         "release_date": min(dates) if dates else None,
         "total_cards": len(cards),
         "cards_url": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.json",
         "cards_url_min": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.min.json",
-        "packs": packs,
     }
+    for variant, url_stem, _path, _builder in projections.SHARD_VARIANTS:
+        entry[f"{url_stem}_url"] = f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.{variant}.json"
+        entry[f"{url_stem}_url_min"] = (
+            f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.{variant}.min.json")
+    entry["packs"] = packs
+    return entry
 
 
 def update_expansions(set_code, expansion_name, cards):
@@ -399,5 +368,5 @@ def update_expansions(set_code, expansion_name, cards):
     else:
         expansions.append(entry)
 
-    minify_and_save(expansions, EXPANSIONS_JSON_PATH)
+    write_json_pair(expansions, EXPANSIONS_JSON_PATH)
     return entry["packs"]

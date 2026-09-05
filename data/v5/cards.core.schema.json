@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 Core Schema",
+  "type": "array",
+  "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "pack": {
+        "type": "string",
+        "description": "The specific pack the card drops from, or \"Shared\"."
+      },
+      "type": {
+        "type": "string",
+        "description": "\"Pokémon\" or \"Trainer\"."
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Energy type for Pokémon. Item classification for Trainers."
+      },
+      "stage": {
+        "type": "string",
+        "description": "Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "rarity": {
+        "type": "string",
+        "enum": ["◊", "◊◊", "◊◊◊", "◊◊◊◊", "Promo"],
+        "description": "The visual rarity indicator."
+      },
+      "special_tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution. Present only on Pokémon; Trainer cards omit it."
+      },
+      "health": {
+        "type": "integer",
+        "description": "The maximum hit points. Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "points": {
+        "type": "integer",
+        "description": "Points awarded to the opponent when knocked out. Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "deckBuilderNr": {
+        "type": "integer",
+        "description": "The internal integer used by the game client for deck rendering."
+      },
+      "image": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the WEBP version of the card image."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "pack",
+      "type",
+      "subtype",
+      "rarity",
+      "deckBuilderNr",
+      "image"
+    ],
+    "additionalProperties": false
+  }
+}

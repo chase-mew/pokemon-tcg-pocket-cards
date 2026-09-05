@@ -1,6 +1,6 @@
 {
   "name": "pokemon-tcg-pocket-cards",
-  "version": "5.2.0",
+  "version": "5.3.0",
   "description": "JSON database and TypeScript definitions for Pokémon TCG Pocket cards",
   "author": "Leonid Dalin & Chase Manning",
   "license": "AGPL-3.0-or-later",
@@ -10,23 +10,79 @@
   },
   "exports": {
     ".": {
-      "types": "./data/v5/cards.d.ts",
+      "types": "./data/v5/cards-wrapper.d.ts",
       "default": "./data/v5/cards.min.json"
     },
     "./expansions": {
-      "types": "./data/v5/expansions.d.ts",
+      "types": "./data/v5/expansions-wrapper.d.ts",
       "default": "./data/v5/expansions.min.json"
     },
     "./v1": "./data/v1/cards.min.json",
     "./v2": "./data/v2/cards.min.json",
     "./v3": "./data/v3/cards.min.json",
     "./v4": {
-      "types": "./data/v4/cards.d.ts",
+      "types": "./data/v4/cards-wrapper.d.ts",
       "default": "./data/v4/cards.min.json"
     },
     "./v4/expansions": {
-      "types": "./data/v4/expansions.d.ts",
+      "types": "./data/v4/expansions-wrapper.d.ts",
       "default": "./data/v4/expansions.min.json"
+    },
+    "./v5": {
+      "types": "./data/v5/cards-wrapper.d.ts",
+      "default": "./data/v5/cards.min.json"
+    },
+    "./v5/core": {
+      "types": "./data/v5/cards.core-wrapper.d.ts",
+      "default": "./data/v5/cards.core.min.json"
+    },
+    "./v5/core/no-image": {
+      "types": "./data/v5/cards.core.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.core.no-image.min.json"
+    },
+    "./v5/gameplay": {
+      "types": "./data/v5/cards.gameplay-wrapper.d.ts",
+      "default": "./data/v5/cards.gameplay.min.json"
+    },
+    "./v5/gameplay/no-image": {
+      "types": "./data/v5/cards.gameplay.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.gameplay.no-image.min.json"
+    },
+    "./v5/collection": {
+      "types": "./data/v5/cards.collection-wrapper.d.ts",
+      "default": "./data/v5/cards.collection.min.json"
+    },
+    "./v5/collection/no-image": {
+      "types": "./data/v5/cards.collection.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.collection.no-image.min.json"
+    },
+    "./v5/expansions": {
+      "types": "./data/v5/expansions-wrapper.d.ts",
+      "default": "./data/v5/expansions.min.json"
+    },
+    "./core": {
+      "types": "./data/v5/cards.core-wrapper.d.ts",
+      "default": "./data/v5/cards.core.min.json"
+    },
+    "./core/no-image": {
+      "types": "./data/v5/cards.core.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.core.no-image.min.json"
+    },
+    "./gameplay": {
+      "types": "./data/v5/cards.gameplay-wrapper.d.ts",
+      "default": "./data/v5/cards.gameplay.min.json"
+    },
+    "./gameplay/no-image": {
+      "types": "./data/v5/cards.gameplay.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.gameplay.no-image.min.json"
+    },
+    "./collection": {
+      "types": "./data/v5/cards.collection-wrapper.d.ts",
+      "default": "./data/v5/cards.collection.min.json"
+    },
+    "./collection/no-image": {
+      "types": "./data/v5/cards.collection.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.collection.no-image.min.json"
     },
     "./data/*": "./data/*",
     "./package.json": "./package.json"
@@ -36,7 +92,7 @@
     "data"
   ],
   "scripts": {
-    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
+    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/cards.core.schema.json -o data/v5/cards.core.d.ts && json2ts -i data/v5/cards.core.no-image.schema.json -o data/v5/cards.core.no-image.d.ts && json2ts -i data/v5/cards.gameplay.schema.json -o data/v5/cards.gameplay.d.ts && json2ts -i data/v5/cards.gameplay.no-image.schema.json -o data/v5/cards.gameplay.no-image.d.ts && json2ts -i data/v5/cards.collection.schema.json -o data/v5/cards.collection.d.ts && json2ts -i data/v5/cards.collection.no-image.schema.json -o data/v5/cards.collection.no-image.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
   },
   "devDependencies": {
     "json-schema-to-typescript": "^15.0.4"

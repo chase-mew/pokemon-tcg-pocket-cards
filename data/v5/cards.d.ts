@@ -121,6 +121,18 @@ export type PokemonTCGPocketCardsV5Schema = {
    */
   points: number | null;
   /**
+   * True unless the rarity is non-tradable (Promo, Crown Rare, three-star).
+   */
+  tradable: boolean;
+  /**
+   * True for diamond rarities only.
+   */
+  sharable: boolean;
+  /**
+   * Trade tokens required; null for non-tradable rarities.
+   */
+  trade_cost: number | null;
+  /**
    * The internal integer used by the game client for deck rendering.
    */
   deckBuilderNr: number;

@@ -7,7 +7,8 @@ from tests.contract import CARD_KEYS
 from tests.utils import collect, report
 from constants import (ART_STYLES, ENERGY_TYPES, FIRST_RELEASE, GITHUB_BASE_URL,
                        PACK_POINTS, PNG_CARDS_DIR, PROMO_PREFIXES, RARITIES,
-                       SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR)
+                       SHINY_PACK_POINTS, STAGES, TRAINER_SUBTYPES, WEBP_CARDS_DIR,
+                       is_playable_trainer)
 
 ABILITY_KEYS = {"exists", "name", "effect"}
 ATTACK_KEYS = {"cost", "name", "damage", "effect"}
@@ -22,6 +23,7 @@ CROWN_RARITY = "Crown Rare"
 
 def is_promo(card):
     return card["set_code"] in PROMO_PREFIXES
+
 
 
 def walk(value, path=""):
@@ -208,7 +210,8 @@ class TestStageAndEvolution:
         assert not fails, report(fails)
 
     def test_trainer_stage_is_null(self, cards):
-        fails = collect(cards, lambda c: None if c["type"] != "Trainer" or c["stage"] is None
+        fails = collect(cards, lambda c: None if c["type"] != "Trainer"
+                        or (c["type"] == "Trainer" and is_playable_trainer(c["name"])) or c["stage"] is None
                         else f"trainer has stage {c['stage']!r}")
         assert not fails, report(fails)
 
@@ -312,8 +315,9 @@ class TestFlags:
 
 class TestPoints:
     def test_points_null_iff_trainer(self, cards):
-        fails = collect(cards, lambda c: None if (c["points"] is None) == (c["type"] == "Trainer")
-                        else f"points {c['points']!r} for type {c['type']}")
+        fails = collect(cards, lambda c: None if (c["points"] is None) == (
+            c["type"] == "Trainer" and not (c["type"] == "Trainer" and is_playable_trainer(c["name"])))
+            else f"points {c['points']!r} for type {c['type']}")
         assert not fails, report(fails)
 
     def test_points_match_ex_and_mega(self, cards):
@@ -436,9 +440,18 @@ class TestStats:
         assert not fails, report(fails)
 
     def test_trainers_have_no_stats(self, cards):
-        fails = collect(cards, lambda c: next(
-            (f"trainer has {f}={c[f]!r}" for f in ("health", "retreat", "weakness")
-             if c["type"] == "Trainer" and c[f] is not None), None))
+        """Retreat and weakness stay absent on trainers. Health is present
+        only on fossil items, which are playable 40-HP basics."""
+        def check(c):
+            if c["type"] != "Trainer":
+                return None
+            if (c["type"] == "Trainer" and is_playable_trainer(c["name"])):
+                combat = ("retreat",)
+            else:
+                combat = ("health", "retreat", "weakness")
+            return next((f"trainer has {f}={c[f]!r}" for f in combat
+                         if c[f] is not None), None)
+        fails = collect(cards, check)
         assert not fails, report(fails)
 
     def test_most_pokemon_have_a_weakness(self, cards):
@@ -622,3 +635,41 @@ class TestImages:
                 if (set_dir, num) not in known:
                     orphans.append(f"{set_dir}/{filename}")
         assert not orphans, f"Images with no card entry: {orphans[:20]}"
+
+
+class TestFossilTrainers:
+    def test_fossil_items_are_playable_40_hp_basics(self, cards):
+        fossils = [c for c in cards if (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
+        assert fossils
+        for c in fossils:
+            assert c["type"] == "Trainer"
+            assert c["subtype"] == "Item"
+            assert c["health"] == 40
+            assert c["points"] == 1
+            assert c["stage"] == "Basic"
+
+    def test_fossil_weakness_is_none(self, cards):
+        fossils = [c for c in cards if (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
+        assert fossils
+        for c in fossils:
+            assert c["weakness"] == "none"
+
+    def test_other_trainers_keep_null_gameplay(self, cards):
+        others = [c for c in cards if c["type"] == "Trainer" and not (c["type"] == "Trainer" and is_playable_trainer(c["name"]))]
+        assert others
+        for c in others:
+            assert c["health"] is None
+            assert c["points"] is None
+            assert c["stage"] is None
+
+
+def test_trade_fields_come_straight_from_the_table(cards):
+    """Every published trade triple equals its TRADE_RULES row, with no
+    per-rarity special case in between."""
+    from constants import TRADE_RULES
+    wrong = [
+        card["id"] for card in cards
+        if (card["tradable"], card["sharable"], card["trade_cost"])
+        != TRADE_RULES[(card["rarity"], card["shiny"], card["art_style"])]
+    ]
+    assert not wrong, f"{len(wrong)} cards disagree with the table: {wrong[:10]}"

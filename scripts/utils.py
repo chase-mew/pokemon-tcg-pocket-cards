@@ -25,6 +25,7 @@ generation, and regex compilation for tag matching. Nothing here
 makes network requests or does I/O except :func:`_load_existing_json`,
 which reads a local file.
 """
+import os
 import re
 import json
 from datetime import datetime
@@ -297,3 +298,48 @@ def compile_tag_matchers(tag_dict):
         False
     """
     return {tag: re.compile(rf"(?i)(?<![a-z0-9])(?:{'|'.join(map(re.escape, names))})(?![a-z0-9])") for tag, names in tag_dict.items()}
+
+
+def minified_path(file_path):
+    r"""minified_path(file_path) -> str
+
+    Return the ``.min.json`` sibling of a ``.json`` path. Only the
+    suffix is swapped, so a directory containing ``.json`` in its name
+    is left alone.
+
+    Args:
+        file_path (str): a path ending in ``.json``
+
+    Returns:
+        str: the same path with a ``.min.json`` suffix
+    """
+    root, ext = os.path.splitext(file_path)
+    return f"{root}.min{ext}"
+
+
+
+def write_json_pair(data, file_path):
+    r"""write_json_pair(data, file_path)
+
+    Write ``data`` as JSON in two files: a pretty-printed version at
+    ``file_path`` (indent of 2) and a compact version at the same path
+    with ``.json`` replaced by ``.min.json``. Both files use
+    ``ensure_ascii=False`` so non-ASCII characters like the rarity
+    symbols are preserved.
+
+    Both files are written with explicit LF newlines. Without that,
+    running the pipeline on Windows produces CRLF files and every
+    regeneration on a Linux CI runner rewrites every line of every
+    data file.
+
+    Args:
+        data: any JSON-serialisable value (list, dict, etc.)
+        file_path (str): destination path for the pretty-printed
+            file. The minified path is derived by replacing the
+            ``.json`` suffix with ``.min.json``.
+    """
+    with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    with open(minified_path(file_path), "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, separators=(',', ':'), ensure_ascii=False)

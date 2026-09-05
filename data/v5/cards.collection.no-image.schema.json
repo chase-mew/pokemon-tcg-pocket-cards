@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.no-image.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 Collection No Image Schema",
+  "type": "array",
+  "description": "One record per printed card (3,879), the complement of the gameplay projection, without image URLs. Records are sparse: a field is omitted when it does not apply. The trading fields tradable, sharable and trade_cost are derived from rarity, shiny and art style, so every record carries tradable and sharable while trade_cost is null for non-tradable rarities.",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "set_name": {
+        "type": "string",
+        "description": "The full name of the expansion the card belongs to."
+      },
+      "pack": {
+        "type": "string",
+        "description": "The specific pack the card drops from, or the expansion name itself."
+      },
+      "release_date": {
+        "type": "string",
+        "description": "The release date of the expansion, in ISO 8601 format."
+      },
+      "rarity": {
+        "type": "string",
+        "enum": [
+          "◊",
+          "◊◊",
+          "◊◊◊",
+          "◊◊◊◊",
+          "☆",
+          "☆☆",
+          "☆☆☆",
+          "Crown Rare",
+          "Promo"
+        ],
+        "description": "The visual rarity indicator."
+      },
+      "pack_points": {
+        "type": "integer",
+        "description": "The cost to craft the card. Omitted for promos, which cannot be crafted."
+      },
+      "art_style": {
+        "type": "string",
+        "description": "The visual treatment category (e.g., \"Full Art\", \"Shiny\", \"Illustration Art\"). Omitted when the card has none."
+      },
+      "artist": {
+        "type": "string",
+        "description": "The credited artist of the card."
+      },
+      "flavour_text": {
+        "type": "string",
+        "description": "The lore text printed on the card."
+      },
+      "alternate_versions": {
+        "type": "array",
+        "description": "Prints from other sets mapping `set_code`, `set_name`, `id`, and `rarity`.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "set_code": {
+              "type": "string",
+              "description": "The normalised lowercase set code of the alternate print."
+            },
+            "set_name": {
+              "type": "string",
+              "description": "The full name of the expansion of the alternate print."
+            },
+            "id": {
+              "type": "integer",
+              "description": "The card number within the alternate set."
+            },
+            "rarity": {
+              "type": "string",
+              "description": "The visual rarity indicator of the alternate print."
+            }
+          },
+          "required": ["set_code", "set_name", "id", "rarity"]
+        }
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution."
+      },
+      "shiny": {
+        "type": "boolean",
+        "description": "True if the card is a shiny variant."
+      },
+      "special_tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+      },
+      "tradable": {
+        "type": "boolean",
+        "description": "True if the card can be traded with other players."
+      },
+      "sharable": {
+        "type": "boolean",
+        "description": "True if the card can be sent as a wonder pick."
+      },
+      "trade_cost": {
+        "type": ["integer", "null"],
+        "description": "The number of trading tokens required to trade for the card, or null when it is not tradable."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "rarity",
+      "tradable",
+      "sharable"
+    ],
+    "additionalProperties": false
+  }
+}

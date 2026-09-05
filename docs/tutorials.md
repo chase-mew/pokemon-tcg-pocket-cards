@@ -26,6 +26,48 @@ import cards from "pokemon-tcg-pocket-cards";
 import expansions from "pokemon-tcg-pocket-cards/expansions";
 ```
 
+For a lighter download, import the core payload instead. It keeps the gameplay-essential fields (identity, set, combat stats, deck builder number, image) and drops the rest, which cuts the transfer from about 4.6 MB to about 0.9 MB:
+
+```javascript
+import core from "pokemon-tcg-pocket-cards/v5/core";
+```
+
+If you run a battle simulator, import the gameplay payload for attacks, abilities, and combat stats including the card image (about 1.6 MB):
+
+```javascript
+import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay";
+```
+
+If you serve card data over a narrow connection, import the gameplay payload without the image URL (about 1.2 MB):
+
+```javascript
+import gameplayNoImage from "pokemon-tcg-pocket-cards/v5/gameplay/no-image";
+```
+
+If you build a collection tracker or set browser, import the collection payload for one record per printed card with trading fields (about 3.0 MB):
+
+```javascript
+import collection from "pokemon-tcg-pocket-cards/v5/collection";
+```
+
+If you serve card data over a narrow connection, import the core payload without the image URL (about 0.6 MB):
+
+```javascript
+import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
+```
+
+To load a single expansion instead of the whole dataset, fetch a per-set shard. Each entry in the expansions index carries `cards_gameplay_url` and its `_min` sibling, so you can pull just the gameplay cards for one set at a fraction of the full download:
+
+```javascript
+const expansions = await (
+  await fetch("https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json")
+).json();
+const apex = expansions.find((entry) => entry.id === "a1");
+const cards = await (await fetch(apex.cards_gameplay_url_min)).json();
+console.log(cards.length, cards[0].name);
+```
+
+
 ## Set up the local environment
 
 To run the scraper yourself, you need Python 3.9+ installed on your machine.

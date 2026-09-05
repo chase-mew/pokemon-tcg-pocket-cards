@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 Gameplay Schema",
+  "type": "array",
+  "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards keep only the fields the game exposes on them. A non-Fossil Trainer keeps identity, subtype, card text and deck number; a Fossil item additionally keeps stage, health, points and weakness. Pokemon records keep the full combat projection.",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "type": {
+        "type": "string",
+        "description": "\"Pokémon\" or \"Trainer\"."
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Energy type for Pokémon. Item classification for Trainers."
+      },
+      "stage": {
+        "type": "string",
+        "description": "Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "evolves_from": {
+        "type": "string",
+        "description": "The name of the required pre-evolution Pokémon. Present only on Stage 1 and Stage 2 cards."
+      },
+      "special_tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+      },
+      "health": {
+        "type": "integer",
+        "description": "The maximum hit points. Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "retreat": {
+        "type": "integer",
+        "description": "The energy cost to retreat. Present on Pokémon; omitted on Trainers."
+      },
+      "weakness": {
+        "type": "string",
+        "description": "The energy type the Pokémon is weak to. Present on Pokémon that list a weakness and on fossil items, whose value is always \"none\"; omitted on other Trainers."
+      },
+      "ability": {
+        "type": "object",
+        "description": "Present on Pokémon; omitted on Trainers. Contains `exists` (boolean), `name` (string), and `effect` (string).",
+        "properties": {
+          "exists": {
+            "type": "boolean",
+            "description": "True if the card has an ability."
+          },
+          "name": {
+            "type": ["string", "null"],
+            "description": "The printed name of the ability."
+          },
+          "effect": {
+            "type": ["string", "null"],
+            "description": "The mechanical effect text of the ability."
+          }
+        },
+        "required": ["exists", "name", "effect"]
+      },
+      "attacks": {
+        "type": "object",
+        "description": "Present on Pokémon; omitted on Trainers. Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).",
+        "properties": {
+          "1": { "$ref": "#/definitions/attack" },
+          "2": { "$ref": "#/definitions/attack" }
+        },
+        "required": ["1", "2"]
+      },
+      "card_text": {
+        "type": "string",
+        "description": "The mechanical rules text. Present on Trainer cards; omitted on Pokémon."
+      },
+      "points": {
+        "type": "integer",
+        "description": "Points awarded to the opponent when knocked out (1, 2, or 3). Present on Pokémon and on fossil items; omitted on other Trainers."
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution. Present only on Pokémon; Trainer cards omit it."
+      },
+      "deckBuilderNr": {
+        "type": "integer",
+        "description": "The internal integer used by the game client for deck rendering."
+      },
+      "image": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the WEBP version of the card image."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "type",
+      "subtype",
+      "deckBuilderNr",
+      "image"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {
+    "attack": {
+      "type": "object",
+      "description": "A single attack on a Pokémon card.",
+      "properties": {
+        "cost": {
+          "type": ["string", "null"],
+          "description": "The energy cost symbols required to use the attack."
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "The printed name of the attack."
+        },
+        "damage": {
+          "type": ["integer", "null"],
+          "description": "The base damage value of the attack."
+        },
+        "effect": {
+          "type": ["string", "null"],
+          "description": "The additional effect text of the attack."
+        }
+      },
+      "required": ["cost", "name", "damage", "effect"]
+    }
+  }
+}

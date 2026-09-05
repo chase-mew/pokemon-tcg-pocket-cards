@@ -12,7 +12,9 @@ import jsonschema
 import pytest
 
 from constants import CARDS_SCHEMA_PATH, DATA_DIR, EXPANSIONS_SCHEMA_PATH, ROOT_DIR, V5_DIR
-from database import _set_sort_key, minified_path
+from database import _set_sort_key
+from projections import SHARD_VARIANTS
+from utils import minified_path
 from tests.contract import CARD_KEYS, V4_CARD_KEYS
 from tests.utils import _load, report
 
@@ -210,6 +212,47 @@ class TestLayout:
         stray = [p["id"] for e in expansions for p in e["packs"]
                  if not p["id"].startswith(f"{e['id']}-")]
         assert not stray, f"Pack ids not prefixed by their expansion: {stray}"
+
+
+# ---------------------------------------------------------------------------
+# Per-set shards
+# ---------------------------------------------------------------------------
+
+class TestPerSetShards:
+    def test_shard_record_counts_sum_to_payload_totals(self):
+        for variant, _url_stem, filename, _builder in SHARD_VARIANTS:
+            total = len(_load(os.path.join(V5_DIR, filename)))
+            from_shards = sum(
+                len(_load(os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")))
+                for prefix in set_dirs())
+            assert from_shards == total, f"{variant}: {from_shards} != {total}"
+
+    def test_shard_records_match_the_root_payload_records(self):
+        for variant, _url_stem, filename, _builder in SHARD_VARIANTS:
+            root = {record["id"]: record
+                    for record in _load(os.path.join(V5_DIR, filename))}
+            for prefix in set_dirs():
+                for record in _load(os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")):
+                    assert record == root[record["id"]], \
+                        f"{variant} {prefix} {record['id']} differs from its root payload record"
+
+    def test_every_index_entry_carries_all_twelve_variant_urls(self, expansions):
+        keys = [f"{url_stem}{suffix}"
+                for _variant, url_stem, _root_path, _builder in SHARD_VARIANTS
+                for suffix in ("_url", "_url_min")]
+        missing = [f"{exp['id']}: {key}" for exp in expansions for key in keys
+                   if key not in exp]
+        assert not missing, report(missing)
+
+    def test_variant_urls_resolve_to_files_on_disk(self, expansions):
+        missing = []
+        for exp in expansions:
+            for _variant, url_stem, _root_path, _builder in SHARD_VARIANTS:
+                for suffix in ("_url", "_url_min"):
+                    relative = exp[f"{url_stem}{suffix}"].split("/refs/heads/main/", 1)[1]
+                    if not os.path.exists(os.path.join(ROOT_DIR, relative)):
+                        missing.append(f"{exp['id']}: {relative}")
+        assert not missing, report(missing)
 
 
 # ---------------------------------------------------------------------------

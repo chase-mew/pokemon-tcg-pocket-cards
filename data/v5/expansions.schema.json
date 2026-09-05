@@ -34,6 +34,66 @@
         "format": "uri",
         "description": "URL to the minified card JSON for this expansion."
       },
+      "cards_core_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the core variant shard for this expansion."
+      },
+      "cards_core_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified core variant shard for this expansion."
+      },
+      "cards_core_no_image_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the core no-image variant shard for this expansion."
+      },
+      "cards_core_no_image_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified core no-image variant shard for this expansion."
+      },
+      "cards_gameplay_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the gameplay variant shard for this expansion."
+      },
+      "cards_gameplay_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified gameplay variant shard for this expansion."
+      },
+      "cards_gameplay_no_image_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the gameplay no-image variant shard for this expansion."
+      },
+      "cards_gameplay_no_image_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified gameplay no-image variant shard for this expansion."
+      },
+      "cards_collection_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the collection variant shard for this expansion."
+      },
+      "cards_collection_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified collection variant shard for this expansion."
+      },
+      "cards_collection_no_image_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the collection no-image variant shard for this expansion."
+      },
+      "cards_collection_no_image_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified collection no-image variant shard for this expansion."
+      },
       "packs": {
         "type": "array",
         "items": {
@@ -71,6 +131,18 @@
       "total_cards",
       "cards_url",
       "cards_url_min",
+      "cards_core_url",
+      "cards_core_url_min",
+      "cards_core_no_image_url",
+      "cards_core_no_image_url_min",
+      "cards_gameplay_url",
+      "cards_gameplay_url_min",
+      "cards_gameplay_no_image_url",
+      "cards_gameplay_no_image_url_min",
+      "cards_collection_url",
+      "cards_collection_url_min",
+      "cards_collection_no_image_url",
+      "cards_collection_no_image_url_min",
       "packs"
     ],
     "additionalProperties": false

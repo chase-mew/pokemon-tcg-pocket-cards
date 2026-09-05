@@ -30,7 +30,7 @@ supports two output formats: ``v5`` (the full enriched schema) and
 import re
 import requests
 from functools import lru_cache
-from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT
+from constants import (SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT, TRADE_RULES)
 from utils import set_code_to_prefix, compile_tag_matchers
 from deck_code import get_deck_builder_nr
 from art_style import ArtStyleClassifier
@@ -219,7 +219,9 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
         art_style, shiny = art_styles.classify(card)
 
         pack_points = None if set_profile.is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
-        if set_profile.is_promo: rarity = "Promo"
+        if set_profile.is_promo:
+            rarity = "Promo"
+            art_style = None
 
         pack = packs.resolve(card)
 
@@ -232,6 +234,7 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             deck_builder_nr = 0
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
         special_tags = matched_tags if matched_tags else None
+        tradable, sharable, card_trade_cost = TRADE_RULES[(rarity, shiny, art_style)]
 
         transformed.append({
             # Core identifiers
@@ -265,6 +268,11 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             "card_text": card["card_text"],
             "attacks": card["attacks"],
             "points": card["points"],
+
+            # Trade rules
+            "tradable": tradable,
+            "sharable": sharable,
+            "trade_cost": card_trade_cost,
 
             # Deck builder reference
             "deckBuilderNr": deck_builder_nr,

@@ -25,7 +25,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1-pikachu.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1-pikachu.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.collection.no-image.min.json"
   },
   {
     "id": "a1a",
@@ -41,7 +53,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a1a-mew.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a1a-mew.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1a/a1a.collection.no-image.min.json"
   },
   {
     "id": "a2",
@@ -63,7 +87,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2-palkia.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2-palkia.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2/a2.collection.no-image.min.json"
   },
   {
     "id": "a2a",
@@ -79,7 +115,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2a-arceus.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2a-arceus.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2a/a2a.collection.no-image.min.json"
   },
   {
     "id": "a2b",
@@ -95,7 +143,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a2b-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a2b-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a2b/a2b.collection.no-image.min.json"
   },
   {
     "id": "a3",
@@ -117,7 +177,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3-solgaleo.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3-solgaleo.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3/a3.collection.no-image.min.json"
   },
   {
     "id": "a3a",
@@ -133,7 +205,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3a/a3a.collection.no-image.min.json"
   },
   {
     "id": "a3b",
@@ -149,7 +233,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a3b-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a3b-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a3b/a3b.collection.no-image.min.json"
   },
   {
     "id": "a4",
@@ -171,7 +267,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4-lugia.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4-lugia.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4/a4.collection.no-image.min.json"
   },
   {
     "id": "a4a",
@@ -187,7 +295,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4a/a4a.collection.no-image.min.json"
   },
   {
     "id": "a4b",
@@ -203,7 +323,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/a4b-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/a4b-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a4b/a4b.collection.no-image.min.json"
   },
   {
     "id": "b1",
@@ -231,7 +363,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1-megagyarados.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1-megagyarados.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1/b1.collection.no-image.min.json"
   },
   {
     "id": "b1a",
@@ -247,7 +391,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b1a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b1a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b1a/b1a.collection.no-image.min.json"
   },
   {
     "id": "b2",
@@ -263,7 +419,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2/b2.collection.no-image.min.json"
   },
   {
     "id": "b2a",
@@ -279,7 +447,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2a/b2a.collection.no-image.min.json"
   },
   {
     "id": "b2b",
@@ -295,7 +475,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b2b-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b2b-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b2b/b2b.collection.no-image.min.json"
   },
   {
     "id": "b3",
@@ -311,7 +503,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3/b3.collection.no-image.min.json"
   },
   {
     "id": "b3a",
@@ -327,7 +531,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3a/b3a.collection.no-image.min.json"
   },
   {
     "id": "b3b",
@@ -343,7 +559,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b3b-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b3b-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b3b/b3b.collection.no-image.min.json"
   },
   {
     "id": "b4",
@@ -359,7 +587,19 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4/b4.collection.no-image.min.json"
   },
   {
     "id": "pa",
@@ -483,7 +723,19 @@
         "image": null,
         "image_png": null
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pa/pa.collection.no-image.min.json"
   },
   {
     "id": "pb",
@@ -499,7 +751,19 @@
         "image": null,
         "image_png": null
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.collection.no-image.min.json"
   },
   {
     "id": "b4a",
@@ -515,6 +779,18 @@
         "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4a-booster.webp",
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4a-booster.png"
       }
-    ]
+    ],
+    "cards_core_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.collection.no-image.min.json"
   }
 ]

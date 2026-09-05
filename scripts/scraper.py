@@ -31,7 +31,9 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from constants import BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES, PROMO_A_PACK_KEYWORDS, SESSION, DEFAULT_TIMEOUT, RATE_LIMIT_DELAY
+from constants import (BASE_URL, MAX_CONSECUTIVE_ERRORS, MAX_RETRIES,
+                       PROMO_A_PACK_KEYWORDS, SESSION, DEFAULT_TIMEOUT,
+                       RATE_LIMIT_DELAY, is_playable_trainer)
 from utils import clean_text, parse_release_date, parse_trainer_subtype, to_int
 
 class NotFound(Exception):
@@ -284,6 +286,11 @@ def extract_card(soup, set_profile):
     and ``weakness`` are all None. The ``card_text`` field holds the
     trainer's effect text; for Pokemon this is None.
 
+    Fossil items (Item subtype cards whose name ends in "Fossil") are the
+    exception: they are playable as a 40-HP Basic Colourless Pokemon, so
+    they carry ``hp`` 40, ``points`` 1 and ``stage`` "Basic". ``type``
+    stays "Trainer" and ``subtype`` stays "Item".
+
     Args:
         soup (BeautifulSoup): parsed HTML of the card page
         set_profile (SetProfile): the set this card belongs to.
@@ -294,7 +301,8 @@ def extract_card(soup, set_profile):
 
         - ``number`` (str): card number within the set
         - ``name`` (str): card name
-        - ``hp`` (int or None): hit points, or None for trainers
+        - ``hp`` (int or None): hit points, or None for other trainers
+          (fossil items carry 40)
         - ``type`` (str): ``"Pokemon"`` or ``"Trainer"``
         - ``subtype`` (str or None): energy type for Pokemon,
           trainer subtype for trainers
@@ -309,11 +317,12 @@ def extract_card(soup, set_profile):
         - ``ex`` (bool): whether the card is a Pokemon ex
         - ``mega`` (bool): whether the card is a Mega Evolution
         - ``points`` (int or None): prize points when knocked out
-          (1, 2, or 3). None for trainers.
+          (1, 2, or 3). None for other trainers; fossil items award 1.
         - ``pack`` (str): pack the card appears in
         - ``artist`` (str or None): illustrator name
         - ``stage`` (str or None): ``"Basic"``, ``"Stage 1"``,
-          ``"Stage 2"``, or None for trainers
+          ``"Stage 2"``, or None for other trainers. Fossil items are
+          ``"Basic"``.
         - ``evolves_from`` (str or None): name of the pre-evolution
         - ``retreat`` (int or None): retreat cost, None for trainers
         - ``weakness`` (str or None): weakness type, None for trainers
@@ -340,6 +349,7 @@ def extract_card(soup, set_profile):
 
     type_text_raw = body.find("p", class_="card-text-type").get_text(" ", strip=True)
     is_trainer = type_text_raw.startswith("Trainer")
+    is_fossil = is_trainer and is_playable_trainer(name)
 
     # card body only: identical between a print and its parallel foil, unlike the full page
     raw_text = clean_text(body.get_text(" ", strip=True))
@@ -358,6 +368,9 @@ def extract_card(soup, set_profile):
     rarity, alt_versions = _parse_prints(soup, set_profile.code)
     stage, evolves_from, retreat, weakness = (
         (None, None, None, None) if is_trainer else _parse_pokemon_stats(type_text_raw, raw_text))
+    if is_fossil:
+        stage = "Basic"
+        weakness = "none"
 
     ex = "ex" in name.split(" ")
     mega = not is_trainer and bool(
@@ -366,7 +379,7 @@ def extract_card(soup, set_profile):
     return {
         "number": card_number,
         "name": name,
-        "hp": None if is_trainer else to_int(hp_text),
+        "hp": 40 if is_fossil else None if is_trainer else to_int(hp_text),
         "type": "Trainer" if is_trainer else "Pokémon",
         "subtype": parse_trainer_subtype(type_text_raw) if is_trainer else energy_type,
         "card_text": card_text,
@@ -376,7 +389,7 @@ def extract_card(soup, set_profile):
         "alternate_versions": alt_versions,
         "ex": ex,
         "mega": mega,
-        "points": None if is_trainer else (3 if mega and ex else 2 if ex else 1),
+        "points": 1 if is_fossil else None if is_trainer else (3 if mega and ex else 2 if ex else 1),
         "pack": _parse_pack(soup, set_profile),
         "artist": clean_text(artist_div.find("a").text) if artist_div and artist_div.find("a") else None,
         "stage": stage,
