@@ -21,19 +21,6 @@ Raw JSON (no npm) works too: swap the import for the matching file under
 
 ## What each payload contains
 
-### core: the flat summary (14 fields)
-
-One flat record per card: `id`, `name`, `set_code`, `pack`, `type`, `subtype`,
-`stage`, `rarity`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
-No nested objects, images included, collection metadata absent. The right
-default when you want most of the dataset at a fraction of the full size.
-
-### core no-image: core minus `image` (13 fields)
-
-Identical to core with the image URL dropped. Use it when you derive image
-paths yourself (per-set image shards, your own storage) and want the smallest
-download that still describes every card.
-
 ### gameplay: the combat model (18 fields, deeper records)
 
 Everything a simulator needs: identity (`id`, `name`, `deckBuilderNr`), rules
@@ -41,7 +28,26 @@ Everything a simulator needs: identity (`id`, `name`, `deckBuilderNr`), rules
 and combat (`health`, `retreat`, `weakness`, `ability`, `attacks`,
 `card_text`, `points`). `ability` and `attacks` are nested objects, which is
 why this file is larger than core despite omitting `rarity`, `pack` and
-images. Rarity still filters the card range (see below).
+images. Rarity still filters the card range (see below). Schema:
+[cards.gameplay.schema.json](../data/v5/cards.gameplay.schema.json) ·
+[types](../data/v5/cards.gameplay.d.ts)
+
+### core: the flat summary (14 fields)
+
+One flat record per card: `id`, `name`, `set_code`, `pack`, `type`, `subtype`,
+`stage`, `rarity`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
+No nested objects, images included, collection metadata absent. The right
+default when you want most of the dataset at a fraction of the full size.
+Schema: [cards.core.schema.json](../data/v5/cards.core.schema.json) ·
+[types](../data/v5/cards.core.d.ts)
+
+### core no-image: core minus `image` (13 fields)
+
+Identical to core with the image URL dropped. Use it when you derive image
+paths yourself (per-set image shards, your own storage) and want the smallest
+download that still describes every card. Schema:
+[cards.core.no-image.schema.json](../data/v5/cards.core.no-image.schema.json) ·
+[types](../data/v5/cards.core.no-image.d.ts)
 
 ### full: everything the scraper extracts (30 fields)
 
@@ -49,7 +55,9 @@ The complete dataset: collection metadata (`set_name`, `pack`, `release_date`,
 `pack_points`, `rarity`, `art_style`, `artist`, `flavour_text`,
 `alternate_versions`), images in both formats, and every gameplay field.
 Records keep all 30 keys with `null` for fields that do not apply. Licensed
-AGPL-3.0-or-later like the rest of version 5.
+AGPL-3.0-or-later like the rest of version 5. Schema:
+[cards.schema.json](../data/v5/cards.schema.json) ·
+[types](../data/v5/cards.d.ts)
 
 ## Rules the projections follow
 
@@ -68,10 +76,14 @@ print, the deck-legal card with the same `deckBuilderNr` is present. Use the
 full payload when print-level completeness matters.
 
 **Sparse records.** Projection records omit any field whose value is null.
-Trainer records also omit `ex` and `mega`, and in gameplay they are
-trimmed further: a Trainer keeps only `id`, `name`, `set_code`, `type`,
-`subtype`, `card_text` and `deckBuilderNr`. Treat an absent key as "does not
-apply", not as missing data. The full payload keeps every key with nulls.
+Trainer records also omit `ex` and `mega`, and in gameplay they are trimmed
+further: a non-Fossil Trainer keeps only `id`, `name`, `set_code`, `type`,
+`subtype`, `card_text` and `deckBuilderNr` (Fossils are the exception below).
+An absent key means the source value was null or the field was trimmed, and a
+few absences carry meaning rather than absence of data: a Fossil omits
+`retreat` because it cannot retreat, not because retreat does not apply. The
+schema for each payload is the authoritative field list, linked from each
+section below. The full payload keeps every key with nulls.
 
 **Fossil exception.** Fossil trainers (Helix, Dome, Skull, Armor, Plume,
 Cover, Jaw, Sail, Claw, Root) play as 40-HP Basic colourless Pokémon, so they
