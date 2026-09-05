@@ -32,10 +32,22 @@ For a lighter download, import the core payload instead. It keeps the gameplay-e
 import core from "pokemon-tcg-pocket-cards/v5/core";
 ```
 
-If you run a battle simulator, import the gameplay payload for attacks, abilities, and combat stats without images or collection metadata (about 1.3 MB):
+If you run a battle simulator, import the gameplay payload for attacks, abilities, and combat stats including the card image (about 1.6 MB):
 
 ```javascript
 import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay";
+```
+
+If you serve card data over a narrow connection, import the gameplay payload without the image URL (about 1.2 MB):
+
+```javascript
+import gameplayNoImage from "pokemon-tcg-pocket-cards/v5/gameplay/no-image";
+```
+
+If you build a collection tracker or set browser, import the collection payload for one record per printed card with trading fields (about 3.0 MB):
+
+```javascript
+import collection from "pokemon-tcg-pocket-cards/v5/collection";
 ```
 
 If you serve card data over a narrow connection, import the core payload without the image URL (about 0.6 MB):

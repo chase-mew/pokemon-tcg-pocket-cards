@@ -15,7 +15,9 @@ You can pull the raw JSON directly as an API:
 - Full dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
 - Core payload: **[data/v5/cards.core.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.min.json))
 - Gameplay payload: **[data/v5/cards.gameplay.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.min.json))
+- Gameplay no-image payload: **[data/v5/cards.gameplay.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.min.json))
 - Core no-image payload: **[data/v5/cards.core.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.min.json))
+- Collection payload: **[data/v5/cards.collection.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.min.json))
 - Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
 
 Or install it from npm, which ships the minified data plus TypeScript definitions:
@@ -36,6 +38,10 @@ npm install pokemon-tcg-pocket-cards
 | `pokemon-tcg-pocket-cards/core/no-image` | Alias of `/v5/core/no-image` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay data for simulators: attacks, abilities, combat stats; no images or collection metadata |
 | `pokemon-tcg-pocket-cards/gameplay` | Alias of `/v5/gameplay` for existing consumers |
+| `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | Gameplay data without the image URL |
+| `pokemon-tcg-pocket-cards/gameplay/no-image` | Alias of `/v5/gameplay/no-image` for existing consumers |
+| `pokemon-tcg-pocket-cards/v5/collection` | Collection view: one record per printed card, trading fields derived |
+| `pokemon-tcg-pocket-cards/collection` | Alias of `/v5/collection` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
 | `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
 | `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
@@ -54,7 +60,7 @@ console.log(cards[0].attacks);
 // Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
 
-// Gameplay payload: combat data for simulators, about 1.2 MB minified.
+// Gameplay payload: combat data for simulators, about 1.6 MB minified.
 console.log(gameplay[0].attacks);
 
 // Core no-image: the core payload minus image URLs, about 0.6 MB minified.
@@ -116,26 +122,18 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](data/v4/cards.json)**     | **[🟦 V5 (core)](data/v5/cards.core.json)**                        | **[💚 V5 (full)](data/v5/cards.json)** (latest)                                 |
-|------------------------------------|---------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Missing values                     | Empty strings ("")        | Omitted (sparse)                 | null                                                         |
-| Image formats                      | PNG only                  | WEBP only                        | WEBP (default) and PNG                                       |
-| Data structure                     | Flat                      | Flat, sparse records            | Mostly flat, with nested `ability` and `attacks` fields      |
-| Booleans                           | Strings (`"Yes"`/`"No"`)   | Native booleans (`true`/`false`) | Native booleans (`true`/`false`)                             |
-| Set mapping                        | Pack name                 | Set code and pack name           | Set name, ID and pack name                                   |
-| Combat stats                       | Health only               | Health and points                | Health, retreat cost, weakness                               |
-| Attack data                        | ❌                         | ❌                                | ✅ Structured (cost, name, damage, effect)                    |
-| Abilities                          | ❌                         | ❌                                | ✅ Structured (exists, name, effect)                          |
-| Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, rarity, ex, mega | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
-| Ex, Shiny, or Mega                 | ⚠️ Ex only, as strings    | ✅ Ex and Mega (`true`/`false`); shiny dropped                        | ✅ Native booleans (`true`/`false`)                                  |
-| Special tags                       | ❌                         | ❌                                | Ancient, future, and ultra beasts                            |
-| Deck builder                       | ❌                         | ✅ Internal asset ID (`deckBuilderNr`) | ✅ Internal asset ID (`deckBuilderNr`)                        |
-| Alternate prints                   | ⚠️ Exists, but as individual cards | ❌                                | ✅ Array of alternative set and rarity versions on each card  |
-| Release date                       | ❌                         | ❌                                | ✅ ISO release date                                           |
-| Flavour text                       | ❌                         | ❌                                | ✅ Raw text string                                            |
-| Language support                   | English only              | English only                     | English only                                                 |
-| Pack drop probabilities            | ❌                         | ❌                                | ❌                                                            |
-| Payload size (minified)            | [~1 MB](data/v4/cards.min.json)                     | [~0.9 MB](data/v5/cards.core.min.json)           | [~4.6 MB](data/v5/cards.min.json)                            |
+The full per-payload field comparison lives in
+[docs/payloads.md](docs/payloads.md#field-comparison-across-payloads). In
+short, all v5 projections share the same card range (2,822 gameplay-rarity
+cards); full and collection additionally keep all 3,879 printed cards.
+
+| Payload | Minified size | Purpose |
+| --- | --- | --- |
+| core | ~0.96 MB | Slim summary per gameplay card, webp image included |
+| core no-image | ~0.59 MB | Core with the image URL dropped |
+| gameplay | ~1.61 MB | Combat model: attacks, abilities, combat stats |
+| collection | ~2.99 MB | One record per printed card, trading fields derived |
+| full | ~4.58 MB | Everything the scraper extracts, all 3,879 cards |
 
 ### 💼 Support schedule
 

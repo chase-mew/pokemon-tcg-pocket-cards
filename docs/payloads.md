@@ -11,8 +11,9 @@ how much bandwidth the download costs. Every file exists as a readable
 | --- | --- | --- | --- |
 | A web app that shows cards and needs images | **core** | `pokemon-tcg-pocket-cards/v5/core` | ~0.96 MB |
 | The same, with images served from your own CDN | **core no-image** | `pokemon-tcg-pocket-cards/v5/core/no-image` | ~0.59 MB |
-| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.24 MB |
-| A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | *(planned, see below)* |
+| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.61 MB |
+| The same, with images served from your own CDN | **gameplay no-image** | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | ~1.24 MB |
+| A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | ~2.99 MB |
 | Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~4.58 MB |
 | Can't be bothered to update right now (or ever) | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
 
@@ -22,7 +23,7 @@ Raw JSON (no npm) works too: swap the import for the matching file under
 
 ## What each payload contains
 
-### gameplay: the combat model (18 fields, deeper records)
+### gameplay: the combat model (19 fields, deeper records)
 
 Everything a simulator needs: identity (`id`, `name`, `deckBuilderNr`), rules
 (`type`, `subtype`, `stage`, `evolves_from`, `special_tags`, `ex`, `mega`),
@@ -31,7 +32,15 @@ and combat (`health`, `retreat`, `weakness`, `ability`, `attacks`,
 why this file is larger than core despite omitting `rarity`, `pack` and
 images. Rarity still filters the card range (see below). Schema:
 [cards.gameplay.schema.json](../data/v5/cards.gameplay.schema.json) ·
-[types](../data/v5/cards.gameplay.d.ts)
+[types](../data/v5/cards.gameplay.d.ts). Minified 1,609,548 bytes with
+`image`; the no-image sister below is 1,244,287 bytes.
+
+### gameplay no-image: gameplay minus `image` (18 fields)
+
+The same combat records with the image URL dropped, for simulators that serve
+artwork themselves. Minified 1,244,287 bytes. Schema:
+[cards.gameplay.no-image.schema.json](../data/v5/cards.gameplay.no-image.schema.json) ·
+[types](../data/v5/cards.gameplay.no-image.d.ts)
 
 ### core: the flat summary (14 fields)
 
@@ -58,12 +67,10 @@ Rare, which the other projections exclude): `id`, `name`, `set_code`,
 `artist`, `flavour_text`, `alternate_versions`, `image`, `image_png`, the
 collectable traits `ex`, `mega`, `shiny`, `special_tags`, plus the trading
 fields `tradable`, `sharable` and `trade_cost`. It carries no gameplay data:
-pair it with gameplay or core when a tool needs both. Schema:
+pair it with gameplay or core when a tool needs both. Minified 2,989,177
+bytes. Schema:
 [cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
 [types](../data/v5/cards.collection.d.ts)
-
-A `collection/no-image` sister drops `image` and `image_png` (14 remaining
-fields) for trackers that derive image paths themselves.
 
 Trading fields (derived from rarity):
 
@@ -134,6 +141,10 @@ and a generated `.d.ts` behind a wrapper that also provides a default export.
 | `pokemon-tcg-pocket-cards/core/no-image` | alias of `/v5/core/no-image` |
 | `pokemon-tcg-pocket-cards/v5/gameplay` | gameplay |
 | `pokemon-tcg-pocket-cards/gameplay` | alias of `/v5/gameplay` |
+| `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | gameplay no-image |
+| `pokemon-tcg-pocket-cards/gameplay/no-image` | alias of `/v5/gameplay/no-image` |
+| `pokemon-tcg-pocket-cards/v5/collection` | collection |
+| `pokemon-tcg-pocket-cards/collection` | alias of `/v5/collection` |
 | `pokemon-tcg-pocket-cards/expansions` | expansions index (latest) |
 | `pokemon-tcg-pocket-cards/v5/expansions` | expansions index, pinned |
 | `pokemon-tcg-pocket-cards/v4`, `/v4/expansions` | legacy v4 cards and index |
@@ -144,21 +155,19 @@ future major; the unpinned aliases exist for consumers already importing them.
 
 ## Field comparison across payloads
 
-The full schema comparison lives in the
-[README](../README.md#-schema-comparison). The short version:
-
-| Field group | core | gameplay | full |
-| --- | :-: | :-: | :-: |
-| Identity (`id`, `name`, `deckBuilderNr`) | ✅ | ✅ | ✅ |
-| Set context (`set_code`; full adds `set_name`, `pack`, `release_date`) | set_code only | set_code only | ✅ |
-| Rules (`type`, `subtype`, `stage`, `evolves_from`, `ex`, `mega`, `special_tags`) | partial (no `evolves_from`, `special_tags`) | ✅ | ✅ |
-| Combat (`health`, `points`, `retreat`, `weakness`) | partial (no `retreat`, `weakness`) | ✅ | ✅ |
-| Attacks and abilities | ❌ | ✅ nested | ✅ nested |
-| Rules text (`card_text`) | ❌ | ✅ | ✅ |
-| Rarity and collection metadata | ❌ | ❌ | ✅ |
-| Images | ✅ webp | ❌ | ✅ webp + png |
-| Flavour text, artist, alternate prints | ❌ | ❌ | ✅ |
+| Field group | core | gameplay | collection | full |
+| --- | :-: | :-: | :-: | :-: |
+| Identity (`id`, `name`, `deckBuilderNr`) | ✅ | ✅ | id, name only | ✅ |
+| Set context (`set_code`; full adds `set_name`, `pack`, `release_date`) | set_code only | set_code only | ✅ | ✅ |
+| Rules (`type`, `subtype`, `stage`, `evolves_from`, `ex`, `mega`, `special_tags`) | partial (no `evolves_from`, `special_tags`) | ✅ | ex, mega, `special_tags` only | ✅ |
+| Combat (`health`, `points`, `retreat`, `weakness`) | partial (no `retreat`, `weakness`) | ✅ | ❌ | ✅ |
+| Attacks and abilities | ❌ | ✅ nested | ❌ | ✅ nested |
+| Rules text (`card_text`) | ❌ | ✅ | ❌ | ✅ |
+| Rarity and collection metadata | ❌ | ❌ | ✅ | ✅ |
+| Trading fields (`tradable`, `sharable`, `trade_cost`) | ❌ | ❌ | ✅ | ❌ |
+| Images | ✅ webp | ✅ webp | ✅ webp + png | ✅ webp + png |
+| Flavour text, artist, alternate prints | ❌ | ❌ | ✅ | ✅ |
 
 Every gameplay-rarity card appears in each payload exactly once; the columns
-differ only in fields, never in card coverage (the full payload adds the
-cosmetic rarities on top)
+differ only in fields, never in card coverage (the full and collection
+payloads add the cosmetic rarities on top)
