@@ -87,6 +87,8 @@ V5_GAMEPLAY_NO_IMAGE_CARDS_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.
 V5_GAMEPLAY_NO_IMAGE_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.gameplay.no-image.schema.json")
 V5_COLLECTION_CARDS_PATH = os.path.join(V5_DIR, "cards.collection.json")
 V5_COLLECTION_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.collection.schema.json")
+V5_COLLECTION_NO_IMAGE_CARDS_PATH = os.path.join(V5_DIR, "cards.collection.no-image.json")
+V5_COLLECTION_NO_IMAGE_CARDS_SCHEMA_PATH = os.path.join(V5_DIR, "cards.collection.no-image.schema.json")
 V4_CARDS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "cards.schema.json")
 V4_EXPANSIONS_SCHEMA_PATH = os.path.join(DATA_DIR, "v4", "expansions.schema.json")
 
@@ -120,6 +122,8 @@ COLLECTION_FIELDS = (
     "image", "image_png", "ex", "mega", "shiny", "special_tags",
     "tradable", "sharable", "trade_cost",
 )
+COLLECTION_NO_IMAGE_FIELDS = tuple(field for field in COLLECTION_FIELDS
+                                   if field not in ("image", "image_png"))
 UNIVERSAL_CARD_FIELDS = ("id", "name", "set_code", "rarity")
 TRADE_RULES = {
     ("◊", False, None): (True, True, 0),

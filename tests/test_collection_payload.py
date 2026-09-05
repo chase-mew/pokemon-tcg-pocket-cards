@@ -5,7 +5,9 @@ import json
 import jsonschema
 
 from constants import (CARDS_JSON_PATH, TRADE_RULES, V5_COLLECTION_CARDS_PATH,
-                       V5_COLLECTION_CARDS_SCHEMA_PATH)
+                       V5_COLLECTION_CARDS_SCHEMA_PATH,
+                       V5_COLLECTION_NO_IMAGE_CARDS_PATH,
+                       V5_COLLECTION_NO_IMAGE_CARDS_SCHEMA_PATH)
 
 GAMEPLAY_ONLY_FIELDS = {"attacks", "ability", "health"}
 
@@ -99,3 +101,35 @@ def test_collection_matches_its_schema():
     collection = _load(V5_COLLECTION_CARDS_PATH)
     schema = _load(V5_COLLECTION_CARDS_SCHEMA_PATH)
     jsonschema.validate(instance=collection, schema=schema)
+
+
+def test_collection_no_image_has_one_record_per_printed_card():
+    full = _load(CARDS_JSON_PATH)
+    collection = _load(V5_COLLECTION_CARDS_PATH)
+    no_image = _load(V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    assert len(full) == 3879
+    assert len(no_image) == 3879
+    assert len(collection) == len(no_image)
+    assert {card["id"] for card in collection} == {card["id"] for card in no_image}
+
+
+def test_collection_no_image_records_carry_no_image_urls():
+    no_image = _load(V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    assert no_image
+    for record in no_image:
+        assert "image" not in record
+        assert "image_png" not in record
+
+
+def test_collection_no_image_records_carry_trading_fields():
+    no_image = _load(V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    for record in no_image:
+        assert "tradable" in record
+        assert "sharable" in record
+        assert "trade_cost" in record
+
+
+def test_collection_no_image_matches_its_schema():
+    no_image = _load(V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    schema = _load(V5_COLLECTION_NO_IMAGE_CARDS_SCHEMA_PATH)
+    jsonschema.validate(instance=no_image, schema=schema)

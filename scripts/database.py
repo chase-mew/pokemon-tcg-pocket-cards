@@ -32,7 +32,8 @@ from constants import (CARDS_JSON_PATH, COLLECTION_FIELDS, CORE_RARITIES,
                        GAMEPLAY_NO_IMAGE_FIELDS, GITHUB_BASE_URL, PROMO_PREFIXES, TRADE_RULES,
                        UNIVERSAL_CARD_FIELDS,
                        V4_JSON_PATH, V5_CARDS_URL_BASE, V5_COLLECTION_CARDS_PATH,
-                       V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
+                       V5_COLLECTION_NO_IMAGE_CARDS_PATH, V5_CORE_CARDS_PATH,
+                       V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
                        V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
 from utils import set_code_to_prefix, slugify, _load_existing_json
 
@@ -330,6 +331,7 @@ def compile_core_database():
     """
     cards = build_core_cards(read_all_v5_cards())
     write_json_pair(cards, V5_CORE_CARDS_PATH)
+    write_variant_shards("core", cards)
     return len(cards)
 
 
@@ -429,6 +431,7 @@ def compile_gameplay_database():
     """
     cards = build_gameplay_cards(read_all_v5_cards())
     write_json_pair(cards, V5_GAMEPLAY_CARDS_PATH)
+    write_variant_shards("gameplay", cards)
     return len(cards)
 
 
@@ -443,6 +446,7 @@ def compile_gameplay_no_image_database():
     """
     cards = build_gameplay_no_image_cards(read_all_v5_cards())
     write_json_pair(cards, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
+    write_variant_shards("gameplay.no-image", cards)
     return len(cards)
 
 
@@ -477,6 +481,7 @@ def compile_core_no_image_database():
     """
     cards = build_core_no_image_cards(read_all_v5_cards())
     write_json_pair(cards, V5_CORE_NO_IMAGE_CARDS_PATH)
+    write_variant_shards("core.no-image", cards)
     return len(cards)
 
 
@@ -522,7 +527,101 @@ def compile_collection_database():
     """
     cards = build_collection_cards(read_all_v5_cards())
     write_json_pair(cards, V5_COLLECTION_CARDS_PATH)
+    write_variant_shards("collection", cards)
     return len(cards)
+
+
+def build_collection_no_image_cards(cards):
+    r"""build_collection_no_image_cards(cards) -> list of dict
+
+    The no-image sister of the collection payload: the records that
+    :func:`build_collection_cards` produces with the ``image`` and
+    ``image_png`` keys dropped. The collection trade-rule derivation runs
+    exactly once, in :func:`build_collection_cards`, so the two payloads
+    cannot drift on tradable and sharable values.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one sparse record per card, in input order, with no
+        image URL keys
+    """
+    return [
+        {key: value for key, value in record.items()
+         if key not in ("image", "image_png")}
+        for record in build_collection_cards(cards)
+    ]
+
+
+def compile_collection_no_image_database():
+    r"""compile_collection_no_image_database() -> int
+
+    Write the no-image collection payload (both
+    ``cards.collection.no-image.json`` and
+    ``cards.collection.no-image.min.json``) through :func:`write_json_pair`.
+
+    Returns:
+        int: the number of no-image collection records written
+    """
+    cards = build_collection_no_image_cards(read_all_v5_cards())
+    write_json_pair(cards, V5_COLLECTION_NO_IMAGE_CARDS_PATH)
+    write_variant_shards("collection.no-image", cards)
+    return len(cards)
+
+
+SHARD_VARIANTS = (
+    # (variant, url stem, root payload path, builder)
+    ("core", "cards_core", V5_CORE_CARDS_PATH, build_core_cards),
+    ("core.no-image", "cards_core_no_image", V5_CORE_NO_IMAGE_CARDS_PATH,
+     build_core_no_image_cards),
+    ("gameplay", "cards_gameplay", V5_GAMEPLAY_CARDS_PATH, build_gameplay_cards),
+    ("gameplay.no-image", "cards_gameplay_no_image", V5_GAMEPLAY_NO_IMAGE_CARDS_PATH,
+     build_gameplay_no_image_cards),
+    ("collection", "cards_collection", V5_COLLECTION_CARDS_PATH, build_collection_cards),
+    ("collection.no-image", "cards_collection_no_image", V5_COLLECTION_NO_IMAGE_CARDS_PATH,
+     build_collection_no_image_cards),
+)
+
+
+def shard_path(prefix, variant, minified=False):
+    r"""shard_path(prefix, variant, minified=False) -> str
+
+    Path of a per-set variant shard under ``V5_DIR``. The full per-set
+    file keeps its historical name (``{prefix}.json``); a variant shard
+    inserts the variant between prefix and extension
+    (``{prefix}.{variant}.json``). Set ``minified`` for the ``.min.json``
+    sibling.
+
+    Args:
+        prefix (str): lowercase set prefix (e.g. ``"a1"``)
+        variant (str): variant name from :data:`SHARD_VARIANTS`
+        minified (bool): whether to return the compact path
+
+    Returns:
+        str: path to the shard file
+    """
+    path = os.path.join(V5_DIR, prefix, f"{prefix}.{variant}.json")
+    return minified_path(path) if minified else path
+
+
+def write_variant_shards(variant, records):
+    r"""write_variant_shards(variant, records)
+
+    Group an in-memory projected record list by ``set_code`` and write one
+    per-set shard pair per group. Called with the same projected list that
+    produced a root payload, so a shard record is byte-identical to its
+    root payload counterpart.
+
+    Args:
+        variant (str): variant name from :data:`SHARD_VARIANTS`
+        records (list of dict): projected records carrying ``set_code``
+    """
+    by_set = {}
+    for record in records:
+        by_set.setdefault(record["set_code"], []).append(record)
+    for prefix, group in by_set.items():
+        write_json_pair(group, shard_path(prefix, variant))
 
 
 def compile_v5_database():
@@ -583,6 +682,7 @@ def compile_v5_database():
     compile_gameplay_no_image_database()
     compile_core_no_image_database()
     compile_collection_database()
+    compile_collection_no_image_database()
 
 
 def build_expansion_entry(prefix, expansion_name, cards):
@@ -622,15 +722,20 @@ def build_expansion_entry(prefix, expansion_name, cards):
              else [pack_entry(f"{prefix}-{slugify(name)}", name) for name in unique_packs])
 
     dates = [c["release_date"] for c in cards if c.get("release_date")]
-    return {
+    entry = {
         "id": prefix,
         "name": expansion_name,
         "release_date": min(dates) if dates else None,
         "total_cards": len(cards),
         "cards_url": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.json",
         "cards_url_min": f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.min.json",
-        "packs": packs,
     }
+    for variant, url_stem, _path, _builder in SHARD_VARIANTS:
+        entry[f"{url_stem}_url"] = f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.{variant}.json"
+        entry[f"{url_stem}_url_min"] = (
+            f"{V5_CARDS_URL_BASE}/{prefix}/{prefix}.{variant}.min.json")
+    entry["packs"] = packs
+    return entry
 
 
 def update_expansions(set_code, expansion_name, cards):
