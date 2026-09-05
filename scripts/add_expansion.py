@@ -79,7 +79,7 @@ def validate_schema(instance, schema_path=None, label="cards"):
 
     if not os.path.exists(schema_path):
         raise FileNotFoundError(
-            f"Required V5 schema not found: {schema_path}"
+            f"Required schema not found ({label}): {schema_path}"
         )
 
     with open(schema_path, "r", encoding="utf-8") as f:
