@@ -33,73 +33,8 @@ from constants import (COLLECTION_FIELDS, CORE_RARITIES, GAMEPLAY_FIELDS,
                        V5_COLLECTION_CARDS_PATH, V5_COLLECTION_NO_IMAGE_CARDS_PATH,
                        V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
                        V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
-from utils import _load_existing_json, slugify
-
-
-def read_all_v5_cards():
-    r"""read_all_v5_cards() -> list of dict
-
-    Read every card from every set stored under ``V5_DIR``. Each
-    subdirectory of ``V5_DIR`` is named after a set prefix (e.g.
-    ``a1``, ``pa``). The JSON file inside has the same name as the
-    directory (e.g. ``a1/a1.json``). Cards from all sets are collected
-    into a single flat list.
-
-    Returns:
-        list of dict: all cards across all sets. Each dict is the
-        card in v5 format as written by :func:`write_set_file` or
-        :func:`compile_v5_database`.
-    """
-    cards = []
-    for item in os.listdir(V5_DIR):
-        set_dir = os.path.join(V5_DIR, item)
-        if os.path.isdir(set_dir):
-            cards.extend(_load_existing_json(os.path.join(set_dir, f"{item}.json")))
-    return cards
-
-
-def minified_path(file_path):
-    r"""minified_path(file_path) -> str
-
-    Return the ``.min.json`` sibling of a ``.json`` path. Only the
-    suffix is swapped, so a directory containing ``.json`` in its name
-    is left alone.
-
-    Args:
-        file_path (str): a path ending in ``.json``
-
-    Returns:
-        str: the same path with a ``.min.json`` suffix
-    """
-    root, ext = os.path.splitext(file_path)
-    return f"{root}.min{ext}"
-
-
-def write_json_pair(data, file_path):
-    r"""write_json_pair(data, file_path)
-
-    Write ``data`` as JSON in two files: a pretty-printed version at
-    ``file_path`` (indent of 2) and a compact version at the same path
-    with ``.json`` replaced by ``.min.json``. Both files use
-    ``ensure_ascii=False`` so non-ASCII characters like the rarity
-    symbols are preserved.
-
-    Both files are written with explicit LF newlines. Without that,
-    running the pipeline on Windows produces CRLF files and every
-    regeneration on a Linux CI runner rewrites every line of every
-    data file.
-
-    Args:
-        data: any JSON-serialisable value (list, dict, etc.)
-        file_path (str): destination path for the pretty-printed
-            file. The minified path is derived by replacing the
-            ``.json`` suffix with ``.min.json``.
-    """
-    with open(file_path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    with open(minified_path(file_path), "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
+from utils import (_load_existing_json, slugify, minified_path,
+                   write_json_pair)
 
 
 CORE_FIELDS = (

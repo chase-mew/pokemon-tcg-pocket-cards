@@ -29,26 +29,12 @@ import re
 import json
 from constants import (CARDS_JSON_PATH, EXPANSIONS_JSON_PATH, GITHUB_BASE_URL,
                        PROMO_PREFIXES, V4_JSON_PATH, V5_CARDS_URL_BASE, V5_DIR)
-from utils import set_code_to_prefix, slugify, _load_existing_json
+from utils import (set_code_to_prefix, slugify, _load_existing_json,
+                   minified_path, write_json_pair)
 
 import projections
 
 
-def minified_path(file_path):
-    r"""minified_path(file_path) -> str
-
-    Return the ``.min.json`` sibling of a ``.json`` path. Only the
-    suffix is swapped, so a directory containing ``.json`` in its name
-    is left alone.
-
-    Args:
-        file_path (str): a path ending in ``.json``
-
-    Returns:
-        str: the same path with a ``.min.json`` suffix
-    """
-    root, ext = os.path.splitext(file_path)
-    return f"{root}.min{ext}"
 
 
 def _set_sort_key(set_code):
@@ -85,31 +71,6 @@ def _card_number(card):
     return int(card["id"].rsplit("-", 1)[1])
 
 
-def write_json_pair(data, file_path):
-    r"""write_json_pair(data, file_path)
-
-    Write ``data`` as JSON in two files: a pretty-printed version at
-    ``file_path`` (indent of 2) and a compact version at the same path
-    with ``.json`` replaced by ``.min.json``. Both files use
-    ``ensure_ascii=False`` so non-ASCII characters like the rarity
-    symbols are preserved.
-
-    Both files are written with explicit LF newlines. Without that,
-    running the pipeline on Windows produces CRLF files and every
-    regeneration on a Linux CI runner rewrites every line of every
-    data file.
-
-    Args:
-        data: any JSON-serialisable value (list, dict, etc.)
-        file_path (str): destination path for the pretty-printed
-            file. The minified path is derived by replacing the
-            ``.json`` suffix with ``.min.json``.
-    """
-    with open(file_path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-    with open(minified_path(file_path), "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
 
 
 def read_all_v5_cards():

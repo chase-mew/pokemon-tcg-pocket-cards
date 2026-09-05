@@ -10,12 +10,14 @@ import os
 import pytest
 
 import projections as P
+import database
+from utils import minified_path
 from constants import V5_DIR
 
 
 @pytest.fixture(scope="module")
 def cards():
-    return P.read_all_v5_cards()
+    return database.read_all_v5_cards()
 
 
 def _pretty(records):
@@ -31,7 +33,7 @@ def test_root_payloads_match_a_fresh_build(cards):
     for _variant, _url_stem, root_path, build in P.SHARD_VARIANTS:
         records = build(cards)
         for path, dumped in ((root_path, _pretty(records)),
-                             (P.minified_path(root_path), _minified(records))):
+                             (minified_path(root_path), _minified(records))):
             with open(path, "r", encoding="utf-8") as f:
                 if f.read() != dumped:
                     stale.append(os.path.basename(path))

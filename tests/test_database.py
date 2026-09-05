@@ -8,8 +8,11 @@ import json
 import pytest
 
 import database
+import projections
+import utils
+from utils import minified_path, write_json_pair
 from database import (_card_number, _set_sort_key, append_to_v4, build_expansion_entry,
-                      compile_v5_database, minified_path, write_json_pair, read_all_v5_cards,
+                      compile_v5_database, read_all_v5_cards,
                       sync_alternate_versions, update_expansions, write_set_file)
 
 
@@ -295,9 +298,15 @@ class TestCompileV5Database:
 class TestCompileWritesTheIndexOnce:
     def test_index_is_written_a_single_time(self, populated, monkeypatch):
         writes = []
-        original = database.write_json_pair
-        monkeypatch.setattr(database, "write_json_pair",
-                            lambda d, p: (writes.append(p), original(d, p))[1])
+        original = utils.write_json_pair
+
+        def counting(data, path):
+            writes.append(path)
+            return original(data, path)
+
+        monkeypatch.setattr(utils, "write_json_pair", counting)
+        monkeypatch.setattr(database, "write_json_pair", counting)
+        monkeypatch.setattr(projections, "write_json_pair", counting)
         database.compile_v5_database()
         index_writes = [p for p in writes if p.endswith("expansions.json")]
         assert len(index_writes) == 1, f"index rewritten {len(index_writes)}x"
