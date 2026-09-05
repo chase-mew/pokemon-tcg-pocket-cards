@@ -100,7 +100,7 @@ python3 scripts/add_expansion.py PB
 
 ## 📊 Schema comparison
 
-| **Feature**                        | **[💛 V4](data/v4/cards.min.json)** | **[🟦 V5 (core)](data/v5/cards.core.json)**                        | **[💚 V5 (full)](data/v5/cards.json)** (latest)                                 |
+| **Feature**                        | **[💛 V4](data/v4/cards.json)**     | **[🟦 V5 (core)](data/v5/cards.core.json)**                        | **[💚 V5 (full)](data/v5/cards.json)** (latest)                                 |
 |------------------------------------|---------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | Missing values                     | Empty strings ("")        | null                             | null                                                         |
 | Image formats                      | PNG only                  | WEBP only                        | WEBP (default) and PNG                                       |
@@ -111,7 +111,7 @@ python3 scripts/add_expansion.py PB
 | Attack data                        | ❌                         | ❌                                | ✅ Structured (cost, name, damage, effect)                    |
 | Abilities                          | ❌                         | ❌                                | ✅ Structured (exists, name, effect)                          |
 | Game metadata                      | Rarity string, ex, artist | Type/subtype, stage, rarity, ex, mega | Type/subtype, stage, evolves_from, rarity, pack_points, ex, points, artstyle, artist |
-| Shiny or Mega                      | ❌                         | ✅ Mega (`true`/`false`); shiny dropped | ✅ Native booleans (`true`/`false`)                           |
+| Ex, Shiny, or Mega                 | ⚠️ Ex only, as strings    | ✅ Ex and Mega (`true`/`false`); shiny dropped                        | ✅ Native booleans (`true`/`false`)                                  |
 | Special tags                       | ❌                         | ❌                                | Ancient, future, and ultra beasts                            |
 | Deck builder                       | ❌                         | ✅ Internal asset ID (`deckBuilderNr`) | ✅ Internal asset ID (`deckBuilderNr`)                        |
 | Alternate prints                   | ⚠️ Exists, but as individual cards | ❌                                | ✅ Array of alternative set and rarity versions on each card  |
@@ -119,7 +119,7 @@ python3 scripts/add_expansion.py PB
 | Flavour text                       | ❌                         | ❌                                | ✅ Raw text string                                            |
 | Language support                   | English only              | English only                     | English only                                                 |
 | Pack drop probabilities            | ❌                         | ❌                                | ❌                                                            |
-| Payload size (minified)            | ~1 MB                     | ~0.9 MB                          | ~4.4 MB                                                      |
+| Payload size (minified)            | [~1 MB](data/v4/cards.min.json)                     | [~0.9 MB](data/v5/cards.core.min.json)           | [~4.4 MB](data/v5/cards.min.json)                            |
 
 ### 💼 Support schedule
 
