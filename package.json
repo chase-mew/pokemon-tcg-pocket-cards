@@ -10,22 +10,22 @@
   },
   "exports": {
     ".": {
-      "types": "./data/v5/cards.d.ts",
+      "types": "./data/v5/cards-wrapper.d.ts",
       "default": "./data/v5/cards.min.json"
     },
     "./expansions": {
-      "types": "./data/v5/expansions.d.ts",
+      "types": "./data/v5/expansions-wrapper.d.ts",
       "default": "./data/v5/expansions.min.json"
     },
     "./v1": "./data/v1/cards.min.json",
     "./v2": "./data/v2/cards.min.json",
     "./v3": "./data/v3/cards.min.json",
     "./v4": {
-      "types": "./data/v4/cards.d.ts",
+      "types": "./data/v4/cards-wrapper.d.ts",
       "default": "./data/v4/cards.min.json"
     },
     "./v4/expansions": {
-      "types": "./data/v4/expansions.d.ts",
+      "types": "./data/v4/expansions-wrapper.d.ts",
       "default": "./data/v4/expansions.min.json"
     },
     "./core": {
