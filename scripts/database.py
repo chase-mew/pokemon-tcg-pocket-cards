@@ -81,13 +81,18 @@ def read_all_v5_cards():
     directory (e.g. ``a1/a1.json``). Cards from all sets are collected
     into a single flat list.
 
+    Directories are walked in sorted order. Filesystem order varies by
+    platform, and the published payloads are built from this list, so an
+    unsorted walk would rewrite every payload on a machine whose
+    directory order differs from the one that last wrote them.
+
     Returns:
         list of dict: all cards across all sets. Each dict is the
         card in v5 format as written by :func:`write_set_file` or
         :func:`compile_v5_database`.
     """
     cards = []
-    for item in os.listdir(V5_DIR):
+    for item in sorted(os.listdir(V5_DIR)):
         set_dir = os.path.join(V5_DIR, item)
         if os.path.isdir(set_dir):
             cards.extend(_load_existing_json(os.path.join(set_dir, f"{item}.json")))

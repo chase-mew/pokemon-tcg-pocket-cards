@@ -20,6 +20,13 @@ def cards():
     return database.read_all_v5_cards()
 
 
+def test_read_order_is_stable_across_filesystems():
+    """The payloads are built from this list, so its order must not
+    depend on the filesystem. Sorted is the order the data ships in."""
+    order = [card["set_code"] for card in database.read_all_v5_cards()]
+    assert order == sorted(order), "read_all_v5_cards returned filesystem order"
+
+
 def _pretty(records):
     return json.dumps(records, indent=2, ensure_ascii=False)
 
