@@ -36,6 +36,10 @@
       "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
     },
+    "./v5/expansions": {
+      "types": "./data/v5/expansions-wrapper.d.ts",
+      "default": "./data/v5/expansions.min.json"
+    },
     "./data/*": "./data/*",
     "./package.json": "./package.json"
   },
