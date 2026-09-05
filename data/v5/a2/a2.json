@@ -7756,7 +7756,7 @@
     "release_date": "2025-01-29",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "rarity": "◊",
     "pack_points": 35,
@@ -7765,7 +7765,7 @@
     "shiny": false,
     "special_tags": null,
     "art_style": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -7788,7 +7788,7 @@
         "effect": null
       }
     },
-    "points": null,
+    "points": 1,
     "deckBuilderNr": 1000026,
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/144.webp",
@@ -7805,7 +7805,7 @@
     "release_date": "2025-01-29",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "rarity": "◊",
     "pack_points": 35,
@@ -7814,7 +7814,7 @@
     "shiny": false,
     "special_tags": null,
     "art_style": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -7837,7 +7837,7 @@
         "effect": null
       }
     },
-    "points": null,
+    "points": 1,
     "deckBuilderNr": 1000027,
     "artist": "Toyste Beach",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2/145.webp",

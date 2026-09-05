@@ -11117,7 +11117,7 @@
     "release_date": "2025-10-30",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "rarity": "◊",
     "pack_points": 35,
@@ -11126,7 +11126,7 @@
     "shiny": false,
     "special_tags": null,
     "art_style": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -11149,7 +11149,7 @@
         "effect": null
       }
     },
-    "points": null,
+    "points": 1,
     "deckBuilderNr": 1000088,
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/214.webp",
@@ -11215,7 +11215,7 @@
     "release_date": "2025-10-30",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "rarity": "◊",
     "pack_points": 35,
@@ -11224,7 +11224,7 @@
     "shiny": false,
     "special_tags": null,
     "art_style": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -11247,7 +11247,7 @@
         "effect": null
       }
     },
-    "points": null,
+    "points": 1,
     "deckBuilderNr": 1000090,
     "artist": "Ryo Ueda",
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/216.webp",

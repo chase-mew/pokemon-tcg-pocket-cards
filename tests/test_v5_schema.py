@@ -24,6 +24,11 @@ def is_promo(card):
     return card["set_code"] in PROMO_PREFIXES
 
 
+def is_fossil(card):
+    """A fossil item: a playable Item-subtype trainer whose name ends in Fossil."""
+    return card["type"] == "Trainer" and card["name"].endswith("Fossil")
+
+
 def walk(value, path=""):
     """Yield (path, scalar) for every leaf in a nested dict/list."""
     if isinstance(value, dict):
@@ -208,7 +213,8 @@ class TestStageAndEvolution:
         assert not fails, report(fails)
 
     def test_trainer_stage_is_null(self, cards):
-        fails = collect(cards, lambda c: None if c["type"] != "Trainer" or c["stage"] is None
+        fails = collect(cards, lambda c: None if c["type"] != "Trainer"
+                        or is_fossil(c) or c["stage"] is None
                         else f"trainer has stage {c['stage']!r}")
         assert not fails, report(fails)
 
@@ -312,8 +318,9 @@ class TestFlags:
 
 class TestPoints:
     def test_points_null_iff_trainer(self, cards):
-        fails = collect(cards, lambda c: None if (c["points"] is None) == (c["type"] == "Trainer")
-                        else f"points {c['points']!r} for type {c['type']}")
+        fails = collect(cards, lambda c: None if (c["points"] is None) == (
+            c["type"] == "Trainer" and not is_fossil(c))
+            else f"points {c['points']!r} for type {c['type']}")
         assert not fails, report(fails)
 
     def test_points_match_ex_and_mega(self, cards):
@@ -436,9 +443,18 @@ class TestStats:
         assert not fails, report(fails)
 
     def test_trainers_have_no_stats(self, cards):
-        fails = collect(cards, lambda c: next(
-            (f"trainer has {f}={c[f]!r}" for f in ("health", "retreat", "weakness")
-             if c["type"] == "Trainer" and c[f] is not None), None))
+        """Retreat and weakness stay absent on trainers. Health is present
+        only on fossil items, which are playable 40-HP basics."""
+        def check(c):
+            if c["type"] != "Trainer":
+                return None
+            if is_fossil(c):
+                combat = ("retreat", "weakness")
+            else:
+                combat = ("health", "retreat", "weakness")
+            return next((f"trainer has {f}={c[f]!r}" for f in combat
+                         if c[f] is not None), None)
+        fails = collect(cards, check)
         assert not fails, report(fails)
 
     def test_most_pokemon_have_a_weakness(self, cards):
@@ -622,3 +638,23 @@ class TestImages:
                 if (set_dir, num) not in known:
                     orphans.append(f"{set_dir}/{filename}")
         assert not orphans, f"Images with no card entry: {orphans[:20]}"
+
+
+class TestFossilTrainers:
+    def test_fossil_items_are_playable_40_hp_basics(self, cards):
+        fossils = [c for c in cards if is_fossil(c)]
+        assert fossils
+        for c in fossils:
+            assert c["type"] == "Trainer"
+            assert c["subtype"] == "Item"
+            assert c["health"] == 40
+            assert c["points"] == 1
+            assert c["stage"] == "Basic"
+
+    def test_other_trainers_keep_null_gameplay(self, cards):
+        others = [c for c in cards if c["type"] == "Trainer" and not is_fossil(c)]
+        assert others
+        for c in others:
+            assert c["health"] is None
+            assert c["points"] is None
+            assert c["stage"] is None

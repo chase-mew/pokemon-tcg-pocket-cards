@@ -7960,10 +7960,10 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -7986,7 +7986,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000008
@@ -7997,10 +7997,10 @@
     "set_code": "a1",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -8023,7 +8023,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000009
@@ -16174,10 +16174,10 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -16200,7 +16200,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000026
@@ -16211,10 +16211,10 @@
     "set_code": "a2",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -16237,7 +16237,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000027
@@ -62474,10 +62474,10 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -62500,7 +62500,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000088
@@ -62548,10 +62548,10 @@
     "set_code": "b1",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -62574,7 +62574,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000090
@@ -70805,10 +70805,10 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -70831,7 +70831,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000105
@@ -70879,10 +70879,10 @@
     "set_code": "b2",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -70905,7 +70905,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000107
@@ -93694,10 +93694,10 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -93720,7 +93720,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000150
@@ -93731,10 +93731,10 @@
     "set_code": "b4",
     "type": "Trainer",
     "subtype": "Item",
-    "stage": null,
+    "stage": "Basic",
     "evolves_from": null,
     "special_tags": null,
-    "health": null,
+    "health": 40,
     "retreat": null,
     "weakness": null,
     "ability": {
@@ -93757,7 +93757,7 @@
       }
     },
     "card_text": "Play this card as if it were a 40-HP Basic [ C ] Pokémon. At any time during your turn, you may discard this card from play. This card can't retreat.",
-    "points": null,
+    "points": 1,
     "ex": false,
     "mega": false,
     "deckBuilderNr": 1000151
