@@ -265,7 +265,7 @@ def append_to_v4(new_cards):
 
 CORE_FIELDS = (
     "id", "name", "set_code", "pack", "type", "subtype", "stage",
-    "rarity", "ex", "mega", "health", "points", "deckBuilderNr", "image",
+    "rarity", "special_tags", "ex", "mega", "health", "points", "deckBuilderNr", "image",
 )
 CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")
 

@@ -93,3 +93,17 @@ def test_core_payload_drops_no_unique_gameplay_cards():
     assert excluded
     for card in excluded:
         assert card["deckBuilderNr"] in kept_builder_numbers
+
+
+def test_core_tagged_card_carries_special_tags():
+    core = _load(V5_CORE_CARDS_PATH)
+    record = next(r for r in core if r["id"] == "a3-088")
+    assert record["special_tags"] == ["ultra_beasts"]
+
+
+def test_core_untagged_records_omit_special_tags():
+    core = _load(V5_CORE_CARDS_PATH)
+    untagged = [r for r in core if "special_tags" not in r]
+    assert untagged
+    for record in untagged:
+        assert "special_tags" not in record

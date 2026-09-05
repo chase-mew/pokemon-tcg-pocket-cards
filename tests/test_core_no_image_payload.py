@@ -51,3 +51,9 @@ def test_no_image_trainer_records_omit_ex_and_mega():
                 assert "stage" not in record
                 assert "health" not in record
                 assert "points" not in record
+
+
+def test_no_image_tagged_card_carries_special_tags():
+    no_image = _load(V5_CORE_NO_IMAGE_CARDS_PATH)
+    record = next(r for r in no_image if r["id"] == "a3-088")
+    assert record["special_tags"] == ["ultra_beasts"]

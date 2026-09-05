@@ -42,6 +42,10 @@ export type PokemonTCGPocketCardsV5CoreNoImageSchema = {
    */
   rarity: "◊" | "◊◊" | "◊◊◊" | "◊◊◊◊" | "Promo";
   /**
+   * Tags like "ancient", "future", or "ultra_beasts". Present only when the card carries a tag.
+   */
+  special_tags?: string[];
+  /**
    * True if the card is an "ex" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it.
    */
   ex?: boolean;

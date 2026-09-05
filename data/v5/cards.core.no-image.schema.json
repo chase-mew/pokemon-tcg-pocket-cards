@@ -46,6 +46,11 @@
         ],
         "description": "The visual rarity indicator."
       },
+      "special_tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+      },
       "ex": {
         "type": "boolean",
         "description": "True if the card is an \"ex\" rulebox Pokémon. Present only on Pokémon; Trainer cards omit it."

@@ -10763,6 +10763,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -11861,6 +11864,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 140,
@@ -11877,6 +11883,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -11893,6 +11902,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -11909,6 +11921,9 @@
     "subtype": "Fire",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -12085,6 +12100,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -12437,6 +12455,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -12453,6 +12474,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 170,
@@ -12469,6 +12493,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -12485,6 +12512,9 @@
     "subtype": "Darkness",
     "stage": "Stage 1",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -12613,6 +12643,9 @@
     "subtype": "Metal",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -12757,6 +12790,9 @@
     "subtype": "Colorless",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -12838,6 +12874,9 @@
     "type": "Trainer",
     "subtype": "Supporter",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "deckBuilderNr": 1000066,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a3a/069.webp"
   },
@@ -18254,6 +18293,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 140,
@@ -18270,6 +18312,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -18286,6 +18331,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -18302,6 +18350,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -18318,6 +18369,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -21486,6 +21540,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -21502,6 +21559,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -21518,6 +21578,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 170,
@@ -22414,6 +22477,9 @@
     "subtype": "Colorless",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -22430,6 +22496,9 @@
     "subtype": "Colorless",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -22939,6 +23008,9 @@
     "type": "Trainer",
     "subtype": "Supporter",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "deckBuilderNr": 1000066,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4b/350.webp"
   },
@@ -22950,6 +23022,9 @@
     "type": "Trainer",
     "subtype": "Supporter",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "deckBuilderNr": 1000066,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4b/351.webp"
   },
@@ -27828,6 +27903,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -27972,6 +28050,9 @@
     "subtype": "Fire",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 140,
@@ -29348,6 +29429,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 150,
@@ -30750,6 +30834,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -31038,6 +31125,9 @@
     "subtype": "Fighting",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -32246,6 +32336,9 @@
     "subtype": "Metal",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -35040,6 +35133,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35056,6 +35152,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -35072,6 +35171,9 @@
     "subtype": "Fire",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 90,
@@ -35200,6 +35302,9 @@
     "subtype": "Water",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": true,
     "mega": false,
     "health": 130,
@@ -35264,6 +35369,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -35280,6 +35388,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -35296,6 +35407,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": true,
     "mega": false,
     "health": 140,
@@ -35392,6 +35506,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -35408,6 +35525,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": true,
     "mega": false,
     "health": 130,
@@ -35424,6 +35544,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35440,6 +35563,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 90,
@@ -35456,6 +35582,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -35472,6 +35601,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35536,6 +35668,9 @@
     "subtype": "Fighting",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 120,
@@ -35552,6 +35687,9 @@
     "subtype": "Fighting",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35568,6 +35706,9 @@
     "subtype": "Fighting",
     "stage": "Basic",
     "rarity": "◊◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": true,
     "mega": false,
     "health": 150,
@@ -35728,6 +35869,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35744,6 +35888,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35808,6 +35955,9 @@
     "subtype": "Metal",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -35840,6 +35990,9 @@
     "subtype": "Dragon",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -35856,6 +36009,9 @@
     "subtype": "Dragon",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -35872,6 +36028,9 @@
     "subtype": "Dragon",
     "stage": "Basic",
     "rarity": "◊◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 130,
@@ -36128,6 +36287,9 @@
     "type": "Trainer",
     "subtype": "Supporter",
     "rarity": "◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "deckBuilderNr": 1000140,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/072.webp"
   },
@@ -36139,6 +36301,9 @@
     "type": "Trainer",
     "subtype": "Supporter",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "deckBuilderNr": 1000141,
     "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/073.webp"
   },
@@ -36466,6 +36631,9 @@
     "subtype": "Water",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "future"
+    ],
     "ex": false,
     "mega": false,
     "health": 80,
@@ -36706,6 +36874,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ancient"
+    ],
     "ex": false,
     "mega": false,
     "health": 80,
@@ -37476,6 +37647,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "◊◊",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 70,
@@ -41933,6 +42107,9 @@
     "subtype": "Grass",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
@@ -41949,6 +42126,9 @@
     "subtype": "Fire",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -41965,6 +42145,9 @@
     "subtype": "Lightning",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 100,
@@ -41981,6 +42164,9 @@
     "subtype": "Psychic",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -41997,6 +42183,9 @@
     "subtype": "Metal",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -42013,6 +42202,9 @@
     "subtype": "Metal",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 110,
@@ -42029,6 +42221,9 @@
     "subtype": "Dragon",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": true,
     "mega": false,
     "health": 150,
@@ -42045,6 +42240,9 @@
     "subtype": "Darkness",
     "stage": "Basic",
     "rarity": "Promo",
+    "special_tags": [
+      "ultra_beasts"
+    ],
     "ex": false,
     "mega": false,
     "health": 60,
