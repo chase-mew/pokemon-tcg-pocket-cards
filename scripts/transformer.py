@@ -30,10 +30,11 @@ supports two output formats: ``v5`` (the full enriched schema) and
 import re
 import requests
 from functools import lru_cache
-from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, PROMO_CARDS_PER_VOLUME, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT
+from constants import SESSION, FLIBUSTIER_PTCGP_DB_URL, GITHUB_BASE_URL, PACK_POINTS, SHINY_PACK_POINTS, TAG_DEFINITIONS, DEFAULT_TIMEOUT
 from utils import set_code_to_prefix, compile_tag_matchers
 from deck_code import get_deck_builder_nr
 from art_style import ArtStyleClassifier
+from pack_resolver import PackResolver
 
 @lru_cache(maxsize=1)
 def fetch_datamine_lookup():
@@ -205,7 +206,7 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
         gives a first card with ``id`` ``"a1-001"`` and ``name`` ``"Bulbasaur"``.
     """
     specific_packs = {c["pack"] for c in raw_cards if c["pack"] != "Every pack"}
-    promo_volume, promo_volume_count = 1, 0
+    packs = PackResolver(set_profile, expansion_name, specific_packs)
     art_styles = ArtStyleClassifier()
     datamine_lookup = fetch_datamine_lookup()
     tag_matchers = compile_tag_matchers(TAG_DEFINITIONS)
@@ -220,18 +221,7 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
         pack_points = None if set_profile.is_promo else (SHINY_PACK_POINTS if shiny else PACK_POINTS).get(rarity)
         if set_profile.is_promo: rarity = "Promo"
 
-        pack = card["pack"]
-        if set_profile.is_promo_a:
-            if pack == "Promo pack":
-                promo_volume_count += 1
-                if promo_volume_count > PROMO_CARDS_PER_VOLUME:
-                    promo_volume, promo_volume_count = promo_volume + 1, 1
-                pack = f"Promo V{promo_volume}"
-            elif pack == "Every pack":
-                pack = expansion_name
-        elif set_profile.is_promo: pack = expansion_name
-        elif pack == "Every pack": pack = f"Shared({expansion_name})" if specific_packs else expansion_name
-        elif pack.endswith(" pack"): pack = pack[:-5].strip()
+        pack = packs.resolve(card)
 
         try:
             deck_builder_nr = datamine_lookup.get((set_profile.prefix.lower(), int(re.sub(r"\D", "", card["number"]))))
