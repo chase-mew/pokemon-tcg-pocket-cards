@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 Core No Image Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "pack": {
+        "type": "string",
+        "description": "The specific pack the card drops from, or \"Shared\"."
+      },
+      "type": {
+        "type": "string",
+        "description": "\"Pokémon\" or \"Trainer\"."
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Energy type for Pokémon. Item classification for Trainers."
+      },
+      "stage": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Basic, Stage 1, or Stage 2. Null for Trainers."
+      },
+      "rarity": {
+        "type": "string",
+        "enum": [
+          "◊",
+          "◊◊",
+          "◊◊◊",
+          "◊◊◊◊",
+          "Promo"
+        ],
+        "description": "The visual rarity indicator."
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution."
+      },
+      "health": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "The maximum hit points. Null for Trainers."
+      },
+      "points": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Points awarded to the opponent when knocked out. Null for Trainers."
+      },
+      "deckBuilderNr": {
+        "type": "integer",
+        "description": "The internal integer used by the game client for deck rendering."
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "set_code",
+      "pack",
+      "type",
+      "subtype",
+      "stage",
+      "rarity",
+      "ex",
+      "mega",
+      "health",
+      "points",
+      "deckBuilderNr"
+    ],
+    "additionalProperties": false
+  }
+}

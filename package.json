@@ -36,6 +36,10 @@
       "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
     },
+    "./v5/core/no-image": {
+      "types": "./data/v5/cards.core.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.core.no-image.min.json"
+    },
     "./v5/gameplay": {
       "types": "./data/v5/cards.gameplay-wrapper.d.ts",
       "default": "./data/v5/cards.gameplay.min.json"
@@ -47,6 +51,10 @@
     "./core": {
       "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
+    },
+    "./core/no-image": {
+      "types": "./data/v5/cards.core.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.core.no-image.min.json"
     },
     "./gameplay": {
       "types": "./data/v5/cards.gameplay-wrapper.d.ts",
@@ -60,7 +68,7 @@
     "data"
   ],
   "scripts": {
-    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/cards.core.schema.json -o data/v5/cards.core.d.ts && json2ts -i data/v5/cards.gameplay.schema.json -o data/v5/cards.gameplay.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
+    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/cards.core.schema.json -o data/v5/cards.core.d.ts && json2ts -i data/v5/cards.core.no-image.schema.json -o data/v5/cards.core.no-image.d.ts && json2ts -i data/v5/cards.gameplay.schema.json -o data/v5/cards.gameplay.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
   },
   "devDependencies": {
     "json-schema-to-typescript": "^15.0.4"
