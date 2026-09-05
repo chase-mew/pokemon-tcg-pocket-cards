@@ -30,9 +30,9 @@ npm install pokemon-tcg-pocket-cards
 | --- | --- |
 | `pokemon-tcg-pocket-cards` | Full v5 card dataset (latest) |
 | `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
-| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: diamonds and promos only, 14 fields per card |
+| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: diamonds and promos only, sparse records |
 | `pokemon-tcg-pocket-cards/core` | Alias of `/v5/core` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/core/no-image` | Core payload without the image URL, 13 fields per card |
+| `pokemon-tcg-pocket-cards/v5/core/no-image` | Core payload without the image URL |
 | `pokemon-tcg-pocket-cards/core/no-image` | Alias of `/v5/core/no-image` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay data for simulators: attacks, abilities, combat stats; no images or collection metadata |
 | `pokemon-tcg-pocket-cards/gameplay` | Alias of `/v5/gameplay` for existing consumers |
@@ -54,7 +54,7 @@ console.log(cards[0].attacks);
 // Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
 
-// Gameplay payload: combat data for simulators, about 1.4 MB minified.
+// Gameplay payload: combat data for simulators, about 1.3 MB minified.
 console.log(gameplay[0].attacks);
 
 // Core no-image: the core payload minus image URLs, about 0.6 MB minified.
@@ -116,9 +116,9 @@ python3 scripts/add_expansion.py PB
 
 | **Feature**                        | **[💛 V4](data/v4/cards.json)**     | **[🟦 V5 (core)](data/v5/cards.core.json)**                        | **[💚 V5 (full)](data/v5/cards.json)** (latest)                                 |
 |------------------------------------|---------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Missing values                     | Empty strings ("")        | null                             | null                                                         |
+| Missing values                     | Empty strings ("")        | Omitted (sparse)                 | null                                                         |
 | Image formats                      | PNG only                  | WEBP only                        | WEBP (default) and PNG                                       |
-| Data structure                     | Flat                      | Flat, 14 fields per card         | Mostly flat, with nested `ability` and `attacks` fields      |
+| Data structure                     | Flat                      | Flat, sparse records            | Mostly flat, with nested `ability` and `attacks` fields      |
 | Booleans                           | Strings (`"Yes"`/`"No"`)   | Native booleans (`true`/`false`) | Native booleans (`true`/`false`)                             |
 | Set mapping                        | Pack name                 | Set code and pack name           | Set name, ID and pack name                                   |
 | Combat stats                       | Health only               | Health and points                | Health, retreat cost, weakness                               |
@@ -133,7 +133,7 @@ python3 scripts/add_expansion.py PB
 | Flavour text                       | ❌                         | ❌                                | ✅ Raw text string                                            |
 | Language support                   | English only              | English only                     | English only                                                 |
 | Pack drop probabilities            | ❌                         | ❌                                | ❌                                                            |
-| Payload size (minified)            | [~1 MB](data/v4/cards.min.json)                     | [~0.9 MB](data/v5/cards.core.min.json)           | [~4.4 MB](data/v5/cards.min.json)                            |
+| Payload size (minified)            | [~1 MB](data/v4/cards.min.json)                     | [~0.9 MB](data/v5/cards.core.min.json)           | [~4.6 MB](data/v5/cards.min.json)                            |
 
 ### 💼 Support schedule
 

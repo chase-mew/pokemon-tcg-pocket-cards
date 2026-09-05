@@ -47,7 +47,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 
 ## V5 core schema
 
-The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: 14 fields per card, no nested objects, and only the gameplay rarities (diamonds and promos). Star rares and the Crown Rare are cosmetic duplicates that share a `deckBuilderNr` with a kept card, so they are dropped. The payload is about 0.9 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema
+The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: only the gameplay rarities (diamonds and promos) and no nested objects. Star rares and the Crown Rare are cosmetic duplicates that share a `deckBuilderNr` with a kept card, so they are dropped. Records are sparse: a field that does not apply is omitted, so a null value never appears and Trainer cards always drop the `ex` and `mega` keys. Fossil items are the exception to that trainer rule, because they are playable 40-HP Basic Pokemon, so they keep `stage`, `health` and `points`. Consumers must treat an absent key as not applicable. The payload is about 0.9 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema where a field is present
 
 | Field           | Type            | Description                                                        |
 |:----------------|:----------------|:-------------------------------------------------------------------|
@@ -66,11 +66,11 @@ The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of t
 | `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.   |
 | `image`         | string          | URL to the WebP version of the card image.                         |
 
-The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 2,822 records, leaving 13 fields per card at about 0.6 MB minified. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image`.
+The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 2,822 records, at about 0.6 MB minified. Records are sparse exactly as in the core payload, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image` where a field is present
 
 ## V5 gameplay schema
 
-The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 2,822 records) and is about 1.4 MB minified against 0.9 MB for the core payload and 4.4 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order is fixed and matches the full schema where the field appears.
+The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 2,822 records) and is about 1.3 MB minified against 0.9 MB for the core payload and 4.6 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Records are sparse: null values are omitted and Trainer cards drop the `ex` and `mega` keys, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order matches the full schema where the field appears
 
 | Field           | Type            | Description                                                       |
 |:----------------|:----------------|:------------------------------------------------------------------|
