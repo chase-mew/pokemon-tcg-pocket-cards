@@ -59,8 +59,8 @@ Every dataset now lives under [data/](data/). If you link to a raw file at the r
 |------------------------|------------------------------------------------------------------------|
 | `/v1.json`             | [data/v1/cards.json](data/v1/cards.json) ([minified](data/v1/cards.min.json))   |
 | `/v2.json`             | [data/v2/cards.json](data/v2/cards.json) ([minified](data/v2/cards.min.json))   |
+| `/v3.json`             | [data/v3/cards.json](data/v3/cards.json) ([minified](data/v3/cards.min.json))   |
 | `/v4.json`             | [data/v4/cards.json](data/v4/cards.json) ([minified](data/v4/cards.min.json))   |
-| `/expansions.json`     | [data/v4/expansions.json](data/v4/expansions.json) (frozen v4-era index)        |
 
 ## ⚡ Adding a new expansion
 
@@ -123,8 +123,8 @@ python3 scripts/add_expansion.py PB
 
 ### 💼 Support schedule
 
-**[💚 V5](data/v5/cards.json) is the actively maintained data model.**
-[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion). Support beyond that point is undetermined, with the "C" block as the minimum.
+[💚 V5](data/v5/cards.json) is the actively maintained data model.
+[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion).
 Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
 
 ## 🤝 Contributing
@@ -150,7 +150,7 @@ Submit a pull request to list your project here if you build something with this
 Card data is scraped from **[Limitless TCG](https://pocket.limitlesstcg.com/cards).**
 Deck builder numbers are derived using game asset mappings from the community **[pokemon-tcg-pocket-database](https://github.com/flibustier/pokemon-tcg-pocket-database)**, provided under the MIT License, Copyright (c) 2025 **[Jon (flibustier)](https://github.com/flibustier)**.
 
-## 📜 License
+## 📜 Licence
 
 - **💚 Version 5** (**[cards.json](data/v5/cards.json)**), **[expansions.json](data/v5/expansions.json)**, and code additions created for **version 5 or later** are licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html#license-text) (`AGPL-3.0-or-later`).
 See **[LICENSE](LICENSE)** for the full license text.

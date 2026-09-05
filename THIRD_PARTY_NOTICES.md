@@ -21,9 +21,9 @@ state which applies to them in their header.
 ## Pokémon TCG Pocket
 
 Pokémon, Pokémon TCG Pocket and all related names and artwork are trademarks and
-copyrights of Nintendo, Creatures and GAME FREAK. This project is unofficial and
-not affiliated with them. Card and pack artwork is reproduced here for reference
-alongside the card data.
+copyrights of Nintendo, Creatures Inc., GAME FREAK Inc. and DeNA. This project is
+unofficial and not affiliated with them. Card and pack artwork is reproduced here
+for reference alongside the card data.
 
 ## Deck share encoding
 
@@ -49,7 +49,7 @@ https://github.com/flibustier/pokemon-tcg-pocket-database
 This repository began as the work of Chase Manning. Everything written before
 version 5 remains under the MIT License, Copyright (c) 2024 Chase Manning.
 
-https://github.com/chase-manning
+https://github.com/chase-mew
 
 ## Card data source
 
