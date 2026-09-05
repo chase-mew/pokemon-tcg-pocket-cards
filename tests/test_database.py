@@ -9,7 +9,7 @@ import pytest
 
 import database
 from database import (_card_number, _set_sort_key, append_to_v4, build_expansion_entry,
-                      compile_v5_database, minified_path, minify_and_save, read_all_v5_cards,
+                      compile_v5_database, minified_path, write_json_pair, read_all_v5_cards,
                       sync_alternate_versions, update_expansions, write_set_file)
 
 
@@ -49,26 +49,26 @@ def v5_dir(tmp_path, monkeypatch):
 # Writing
 # ---------------------------------------------------------------------------
 
-class TestMinifyAndSave:
+class TestWriteJsonPair:
     def test_writes_both_files_with_the_same_content(self, tmp_path):
         path = tmp_path / "a1.json"
-        minify_and_save([{"id": "a1-001"}], str(path))
+        write_json_pair([{"id": "a1-001"}], str(path))
         assert read(path) == read(minified_path(str(path)))
 
     def test_pretty_file_is_indented_and_minified_file_is_not(self, tmp_path):
         path = tmp_path / "a1.json"
-        minify_and_save([{"id": "a1-001"}], str(path))
+        write_json_pair([{"id": "a1-001"}], str(path))
         assert "\n  " in path.read_text(encoding="utf-8")
         assert ", " not in (tmp_path / "a1.min.json").read_text(encoding="utf-8")
 
     def test_line_endings_are_lf_on_every_platform(self, tmp_path):
         path = tmp_path / "a1.json"
-        minify_and_save([{"id": "a1-001"}, {"id": "a1-002"}], str(path))
+        write_json_pair([{"id": "a1-001"}, {"id": "a1-002"}], str(path))
         assert b"\r\n" not in path.read_bytes()
 
     def test_non_ascii_survives_the_round_trip(self, tmp_path):
         path = tmp_path / "a1.json"
-        minify_and_save([{"rarity": "◊◊", "type": "Pokémon"}], str(path))
+        write_json_pair([{"rarity": "◊◊", "type": "Pokémon"}], str(path))
         assert "◊◊" in path.read_text(encoding="utf-8")
         assert read(path)[0]["type"] == "Pokémon"
 
@@ -290,8 +290,8 @@ class TestCompileV5Database:
 class TestCompileWritesTheIndexOnce:
     def test_index_is_written_a_single_time(self, populated, monkeypatch):
         writes = []
-        original = database.minify_and_save
-        monkeypatch.setattr(database, "minify_and_save",
+        original = database.write_json_pair
+        monkeypatch.setattr(database, "write_json_pair",
                             lambda d, p: (writes.append(p), original(d, p))[1])
         database.compile_v5_database()
         index_writes = [p for p in writes if p.endswith("expansions.json")]

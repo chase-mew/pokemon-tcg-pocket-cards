@@ -83,8 +83,8 @@ def _card_number(card):
     return int(card["id"].rsplit("-", 1)[1])
 
 
-def minify_and_save(data, file_path):
-    r"""minify_and_save(data, file_path)
+def write_json_pair(data, file_path):
+    r"""write_json_pair(data, file_path)
 
     Write ``data`` as JSON in two files: a pretty-printed version at
     ``file_path`` (indent of 2) and a compact version at the same path
@@ -236,7 +236,7 @@ def write_set_file(new_cards):
 
     merged, added = _merge(_load_existing_json(set_json_path), new_cards)
     merged.sort(key=_card_number)
-    minify_and_save(merged, set_json_path)
+    write_json_pair(merged, set_json_path)
     return added
 
 
@@ -257,7 +257,7 @@ def append_to_v4(new_cards):
     os.makedirs(os.path.dirname(V4_JSON_PATH), exist_ok=True)
     existing = _load_existing_json(V4_JSON_PATH) or _load_existing_json(minified_path(V4_JSON_PATH))
     merged, added = _merge(existing, new_cards)
-    minify_and_save(merged, V4_JSON_PATH)
+    write_json_pair(merged, V4_JSON_PATH)
     return added
 
 
@@ -300,7 +300,7 @@ def compile_v5_database():
 
     for prefix, cards in set_groups.items():
         cards.sort(key=_card_number)
-        minify_and_save(cards, os.path.join(V5_DIR, prefix, f"{prefix}.json"))
+        write_json_pair(cards, os.path.join(V5_DIR, prefix, f"{prefix}.json"))
         if cards:
             entry = build_expansion_entry(prefix, cards[0]["set_name"], cards)
             if prefix in by_id:
@@ -309,10 +309,10 @@ def compile_v5_database():
                 expansions.append(entry)
                 by_id[prefix] = entry
 
-    minify_and_save(expansions, EXPANSIONS_JSON_PATH)
+    write_json_pair(expansions, EXPANSIONS_JSON_PATH)
 
     all_cards.sort(key=lambda c: (_set_sort_key(c["set_code"]), _card_number(c)))
-    minify_and_save(all_cards, CARDS_JSON_PATH)
+    write_json_pair(all_cards, CARDS_JSON_PATH)
 
 
 def build_expansion_entry(prefix, expansion_name, cards):
@@ -399,5 +399,5 @@ def update_expansions(set_code, expansion_name, cards):
     else:
         expansions.append(entry)
 
-    minify_and_save(expansions, EXPANSIONS_JSON_PATH)
+    write_json_pair(expansions, EXPANSIONS_JSON_PATH)
     return entry["packs"]
