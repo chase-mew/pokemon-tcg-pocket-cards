@@ -32,13 +32,13 @@ and combat (`health`, `retreat`, `weakness`, `ability`, `attacks`,
 why this file is larger than core despite omitting `rarity`, `pack` and
 images. Rarity still filters the card range (see below). Schema:
 [cards.gameplay.schema.json](../data/v5/cards.gameplay.schema.json) ·
-[types](../data/v5/cards.gameplay.d.ts). Minified 1,609,548 bytes with
-`image`; the no-image sister below is 1,244,287 bytes.
+[types](../data/v5/cards.gameplay.d.ts). Minified about 1.61 MB with
+`image`; the no-image sister below is about 1.24 MB.
 
 ### gameplay no-image: gameplay minus `image` (18 fields)
 
 The same combat records with the image URL dropped, for simulators that serve
-artwork themselves. Minified 1,244,287 bytes. Schema:
+artwork themselves. Minified about 1.24 MB. Schema:
 [cards.gameplay.no-image.schema.json](../data/v5/cards.gameplay.no-image.schema.json) ·
 [types](../data/v5/cards.gameplay.no-image.d.ts)
 
@@ -67,8 +67,8 @@ Rare, which the other projections exclude): `id`, `name`, `set_code`,
 `artist`, `flavour_text`, `alternate_versions`, `image`, `image_png`, the
 collectable traits `ex`, `mega`, `shiny`, `special_tags`, plus the trading
 fields `tradable`, `sharable` and `trade_cost`. It carries no gameplay data:
-pair it with gameplay or core when a tool needs both. Minified 2,989,177
-bytes. Schema:
+pair it with gameplay or core when a tool needs both. Minified about
+2.99 MB. Schema:
 [cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
 [types](../data/v5/cards.collection.d.ts)
 
@@ -117,9 +117,11 @@ further: a non-Fossil Trainer keeps only `id`, `name`, `set_code`, `type`,
 `subtype`, `card_text` and `deckBuilderNr` (Fossils are the exception below).
 An absent key means the source value was null or the field was trimmed, and a
 few absences carry meaning rather than absence of data: a Fossil omits
-`retreat` because it cannot retreat, not because retreat does not apply. The
-schema for each payload is the authoritative field list, linked from each
-section below. The full payload keeps every key with nulls.
+`retreat` because it cannot retreat, not because retreat does not apply. One
+field runs the other way: `trade_cost` is kept as an explicit `null` on the
+prints that cannot be traded, so "not tradable" reads differently from "no
+price listed". The schema for each payload is the authoritative field list,
+linked from each section below. The full payload keeps every key with nulls.
 
 **Fossil exception.** Fossil trainers (Helix, Dome, Skull, Armor, Plume,
 Cover, Jaw, Sail, Claw, Root) play as 40-HP Basic colourless Pokémon, so they
@@ -187,10 +189,10 @@ smallest set (a4b, 379 cards; a1a, 86 cards):
 
 | Variant | a4b (largest) | a1a (smallest) |
 | --- | --- | --- |
-| core | 120,245 B | 22,362 B |
-| core no-image | 74,355 B | 13,522 B |
-| gameplay | 198,189 B | 38,492 B |
-| gameplay no-image | 152,299 B | 29,652 B |
+| core | 120,323 B | 22,401 B |
+| core no-image | 74,433 B | 13,561 B |
+| gameplay | 198,303 B | 38,549 B |
+| gameplay no-image | 152,413 B | 29,709 B |
 | collection | 342,106 B | 65,512 B |
 | collection no-image | 242,808 B | 42,980 B |
 

@@ -30,8 +30,8 @@ re-reading the disk per variant.
 import json
 import os
 
-from constants import (CORE_RARITIES, GAMEPLAY_FIELDS,
-                       GAMEPLAY_NO_IMAGE_FIELDS, UNIVERSAL_CARD_FIELDS,
+from constants import (COLLECTION_FIELDS, CORE_RARITIES, GAMEPLAY_FIELDS,
+                       GAMEPLAY_NO_IMAGE_FIELDS,
                        V5_COLLECTION_CARDS_PATH, V5_COLLECTION_NO_IMAGE_CARDS_PATH,
                        V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH, V5_DIR,
                        V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
@@ -111,8 +111,8 @@ CORE_FIELDS = (
 CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")
 
 
-def _sparse_record(fields, card):
-    r"""_sparse_record(fields, card) -> dict
+def _sparse_record(fields, card, always=()):
+    r"""_sparse_record(fields, card, always=()) -> dict
 
     Project ``card`` onto ``fields`` and drop what does not apply. A key
     whose value is None is omitted, and Trainer cards always omit ``ex``
@@ -122,6 +122,7 @@ def _sparse_record(fields, card):
     Args:
         fields (tuple of str): the fields to project in order
         card (dict): a card in v5 format
+        always (tuple of str): keys kept even when their value is None
 
     Returns:
         dict: the projected record with only applicable keys
@@ -130,7 +131,8 @@ def _sparse_record(fields, card):
     if card["type"] == "Trainer":
         record.pop("ex", None)
         record.pop("mega", None)
-    return {key: value for key, value in record.items() if value is not None}
+    return {key: value for key, value in record.items()
+            if value is not None or key in always}
 
 
 def _is_playable_trainer(card):
@@ -268,11 +270,7 @@ def build_core_no_image_cards(cards):
     ]
 
 
-COLLECTION_SOURCE_FIELDS = (
-    "set_name", "pack", "release_date", "rarity", "pack_points", "art_style",
-    "artist", "flavour_text", "alternate_versions", "image", "image_png",
-    "ex", "mega", "shiny", "special_tags", "tradable", "sharable", "trade_cost",
-)
+COLLECTION_ALWAYS_PRESENT = ("id", "name", "set_code", "rarity", "trade_cost")
 
 
 def build_collection_cards(cards):
@@ -280,9 +278,13 @@ def build_collection_cards(cards):
 
     Project every card onto :data:`COLLECTION_FIELDS`, keeping all 3,879
     prints including the cosmetic rarities the gameplay projections drop.
-    Records are sparse: a field that does not apply is omitted. The trading
-    fields are copied from the card, which the transformer has already
-    derived from :data:`TRADE_RULES`.
+    Records are sparse: a field whose value is None is omitted, except the
+    four in :data:`COLLECTION_ALWAYS_PRESENT`, which the schema requires.
+    Key order follows ``COLLECTION_FIELDS``, which is the schema's order.
+
+    The trading fields are copied from the card. The transformer derives
+    them from :data:`TRADE_RULES` during the scrape, so they are source
+    data here rather than something this function computes.
 
     Args:
         cards (list of dict): cards in v5 format
@@ -290,12 +292,11 @@ def build_collection_cards(cards):
     Returns:
         list of dict: one sparse record per card, in input order
     """
-    records = []
-    for card in cards:
-        record = {field: card[field] for field in UNIVERSAL_CARD_FIELDS}
-        record.update({field: card.get(field) for field in COLLECTION_SOURCE_FIELDS if card.get(field) is not None})
-        records.append(record)
-    return records
+    return [
+        {field: card.get(field) for field in COLLECTION_FIELDS
+         if field in COLLECTION_ALWAYS_PRESENT or card.get(field) is not None}
+        for card in cards
+    ]
 
 
 def build_collection_no_image_cards(cards):

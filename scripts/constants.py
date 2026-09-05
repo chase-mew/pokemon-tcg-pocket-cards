@@ -122,7 +122,6 @@ COLLECTION_FIELDS = (
     "image", "image_png", "ex", "mega", "shiny", "special_tags",
     "tradable", "sharable", "trade_cost",
 )
-UNIVERSAL_CARD_FIELDS = ("id", "name", "set_code", "rarity")
 TRADE_RULES = {
     ("◊", False, None): (True, True, 0),
     ("◊", False, "Parallel Foil"): (True, True, 0),
