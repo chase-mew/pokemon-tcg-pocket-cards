@@ -70,9 +70,6 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 
 # Versioned data
 DATA_DIR = os.path.join(ROOT_DIR, "data")
-V1_JSON_PATH = os.path.join(DATA_DIR, "v1", "cards.json")
-V2_JSON_PATH = os.path.join(DATA_DIR, "v2", "cards.json")
-V3_JSON_PATH = os.path.join(DATA_DIR, "v3", "cards.json")
 V4_JSON_PATH = os.path.join(DATA_DIR, "v4", "cards.json")
 V4_EXPANSIONS_JSON_PATH = os.path.join(DATA_DIR, "v4", "expansions.json")  # frozen v4-era index
 V5_DIR = os.path.join(DATA_DIR, "v5")
