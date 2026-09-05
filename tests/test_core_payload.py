@@ -2,7 +2,10 @@
 import json
 import os
 
-from constants import CARDS_JSON_PATH, V5_CORE_CARDS_PATH
+import jsonschema
+
+from constants import (CARDS_JSON_PATH, V5_CORE_CARDS_PATH,
+                       V5_CORE_CARDS_SCHEMA_PATH)
 from database import CORE_FIELDS
 
 
@@ -37,3 +40,9 @@ def test_core_payload_is_smaller_than_the_full_payload():
     full_size = os.path.getsize(CARDS_JSON_PATH.replace(".json", ".min.json"))
     core_size = os.path.getsize(V5_CORE_CARDS_PATH.replace(".json", ".min.json"))
     assert core_size < full_size * 0.4
+
+
+def test_core_payload_matches_its_schema():
+    core = _load(V5_CORE_CARDS_PATH)
+    schema = _load(V5_CORE_CARDS_SCHEMA_PATH)
+    jsonschema.validate(instance=core, schema=schema)
