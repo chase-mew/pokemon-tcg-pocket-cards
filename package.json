@@ -29,7 +29,7 @@
       "default": "./data/v4/expansions.min.json"
     },
     "./core": {
-      "types": "./data/v5/cards.core.d.ts",
+      "types": "./data/v5/cards.core-wrapper.d.ts",
       "default": "./data/v5/cards.core.min.json"
     },
     "./data/*": "./data/*",
