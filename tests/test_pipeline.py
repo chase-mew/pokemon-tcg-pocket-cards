@@ -230,3 +230,20 @@ class TestStripSourceUrls:
         cards = [{"id": "a1-001", "source_url": "https://x/1.webp"}, {"id": "a1-002"}]
         strip_source_urls(cards)
         assert cards == [{"id": "a1-001"}, {"id": "a1-002"}]
+
+
+class TestLimitlessHostAllowlist:
+    @pytest.mark.parametrize("host, accepted", [
+        ("limitlesstcg.com", True),
+        ("cdn.limitlesstcg.com", True),
+        ("limitlesstcg.nyc3.cdn.digitaloceanspaces.com", True),
+        ("limitlesstcg.tor1.cdn.digitaloceanspaces.com", True),
+        ("limitlesstcg.com.evil.com", False),
+        ("evil-limitlesstcg.com", False),
+        ("evil.limitlesstcg.nyc3.cdn.digitaloceanspaces.com", False),
+        ("attacker.nyc3.cdn.digitaloceanspaces.com", False),
+        ("limitlesstcg.nyc3.cdn.digitaloceanspaces.com.evil.com", False),
+    ])
+    def test_host_allowlist(self, host, accepted):
+        from constants import LIMITLESS_HOST
+        assert bool(LIMITLESS_HOST.match(host)) is accepted

@@ -26,24 +26,12 @@ Both functions skip files that already exist on disk.
 
 import io
 import os
-import re
 import time
 from PIL import Image
 from tqdm import tqdm
-from constants import WEBP_CARDS_DIR, PNG_CARDS_DIR, WEBP_PACKS_DIR, PNG_PACKS_DIR, SEREBII_BASE_URL, SESSION, RATE_LIMIT_DELAY, IMAGE_TIMEOUT, DEFAULT_TIMEOUT
+from constants import WEBP_CARDS_DIR, PNG_CARDS_DIR, WEBP_PACKS_DIR, PNG_PACKS_DIR, SEREBII_BASE_URL, SESSION, RATE_LIMIT_DELAY, IMAGE_TIMEOUT, DEFAULT_TIMEOUT, LIMITLESS_HOST
 from urllib.parse import urlsplit
 from utils import serebii_slug
-
-# Limitless serves artwork from its own CDN, not from limitlesstcg.com.
-# The host is either the bare domain, a subdomain of it, or one of its
-# DigitalOcean Spaces endpoints, which keep limitlesstcg as the first
-# label. Anchored at both ends so a lookalike host such as
-# limitlesstcg.com.evil.com cannot pass.
-_LIMITLESS_HOST = re.compile(
-    r"^limitlesstcg\.com$"
-    r"|^[a-z0-9-]+\.limitlesstcg\.com$"
-    r"|^limitlesstcg\.(nyc3|sfo3|ams3|fra1|sgp1|blr1)\.cdn\.digitaloceanspaces\.com$"
-)
 
 def download_images(cards, prefix):
     r"""download_images(cards, prefix)
@@ -97,7 +85,7 @@ def download_images(cards, prefix):
                     parsed_url is None
                     or parsed_url.scheme != "https"
                     or not hostname
-                    or not _LIMITLESS_HOST.match(hostname.lower())
+                    or not LIMITLESS_HOST.match(hostname.lower())
             ):
                 raise RuntimeError(f"Missing or invalid source_url for {card['id']}")
             try:
