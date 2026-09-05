@@ -12701,7 +12701,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -12753,7 +12753,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -31046,7 +31046,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -31098,7 +31098,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -136254,7 +136254,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -136358,7 +136358,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -157962,7 +157962,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -158066,7 +158066,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -212267,7 +212267,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,
@@ -212319,7 +212319,7 @@
     "art_style": null,
     "health": 40,
     "retreat": null,
-    "weakness": null,
+    "weakness": "none",
     "ability": {
       "exists": false,
       "name": null,

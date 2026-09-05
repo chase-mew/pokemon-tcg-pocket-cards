@@ -368,6 +368,7 @@ def extract_card(soup, set_profile):
         (None, None, None, None) if is_trainer else _parse_pokemon_stats(type_text_raw, raw_text))
     if is_fossil:
         stage = "Basic"
+        weakness = "none"
 
     ex = "ex" in name.split(" ")
     mega = not is_trainer and bool(

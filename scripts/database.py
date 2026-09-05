@@ -371,7 +371,7 @@ def _build_gameplay_records(cards, fields):
                     "id": card["id"], "name": card["name"],
                     "set_code": card["set_code"], "type": card["type"],
                     "subtype": card["subtype"], "stage": card["stage"],
-                    "health": card["health"], "weakness": "none",
+                    "health": card["health"], "weakness": card["weakness"],
                     "card_text": card["card_text"],
                     "points": card["points"],
                     "deckBuilderNr": card["deckBuilderNr"],

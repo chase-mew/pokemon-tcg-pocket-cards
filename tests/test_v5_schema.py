@@ -651,6 +651,12 @@ class TestFossilTrainers:
             assert c["points"] == 1
             assert c["stage"] == "Basic"
 
+    def test_fossil_weakness_is_none(self, cards):
+        fossils = [c for c in cards if is_fossil(c)]
+        assert fossils
+        for c in fossils:
+            assert c["weakness"] == "none"
+
     def test_other_trainers_keep_null_gameplay(self, cards):
         others = [c for c in cards if c["type"] == "Trainer" and not is_fossil(c)]
         assert others
