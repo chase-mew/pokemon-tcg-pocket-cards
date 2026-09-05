@@ -63,6 +63,8 @@ console.log(coreNoImage[0].deckBuilderNr);
 
 The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule
 
+For a guide to choosing between the files, see [docs/payloads.md](docs/payloads.md)
+
 Open a pull request if you find missing cards or errors.
 
 ### 📦 Moved files
