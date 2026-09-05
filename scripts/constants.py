@@ -135,6 +135,9 @@ TRADE_RULES = {
     ("☆☆", False, "Full Art"): (True, False, 25000),
     ("☆☆", False, "Special Illustration Art"): (True, False, 25000),
     ("☆☆", True, "Shiny Full Art"): (True, False, 30000),
+    # No print today carries a star rarity without an art style, so these
+    # two rows are speculative; they are kept so a future print missing
+    # its art style resolves instead of raising.
     ("☆☆", False, None): (True, False, 25000),
     ("☆", False, None): (True, False, 4000),
     ("☆☆☆", False, "Immersive Art"): (False, False, None),

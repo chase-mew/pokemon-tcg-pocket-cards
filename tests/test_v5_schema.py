@@ -661,3 +661,15 @@ class TestFossilTrainers:
             assert c["health"] is None
             assert c["points"] is None
             assert c["stage"] is None
+
+
+def test_trade_fields_come_straight_from_the_table(cards):
+    """Every published trade triple equals its TRADE_RULES row, with no
+    per-rarity special case in between."""
+    from constants import TRADE_RULES
+    wrong = [
+        card["id"] for card in cards
+        if (card["tradable"], card["sharable"], card["trade_cost"])
+        != TRADE_RULES[(card["rarity"], card["shiny"], card["art_style"])]
+    ]
+    assert not wrong, f"{len(wrong)} cards disagree with the table: {wrong[:10]}"
