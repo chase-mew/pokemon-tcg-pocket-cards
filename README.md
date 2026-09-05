@@ -24,7 +24,7 @@ Or install it from npm, which ships the minified data plus TypeScript definition
 npm install pokemon-tcg-pocket-cards
 ```
 
-### 📥 npm entry points
+## 📥 npm entry points
 
 | Import | Contents |
 | --- | --- |
