@@ -44,12 +44,6 @@ def v5_dir(tmp_path, monkeypatch):
     root.mkdir()
     monkeypatch.setattr(database, "V5_DIR", str(root))
     monkeypatch.setattr(database, "CARDS_JSON_PATH", str(root / "cards.json"))
-    monkeypatch.setattr(database, "V5_CORE_CARDS_PATH", str(root / "cards.core.json"))
-    monkeypatch.setattr(database, "V5_CORE_NO_IMAGE_CARDS_PATH", str(root / "cards.core.no-image.json"))
-    monkeypatch.setattr(database, "V5_GAMEPLAY_CARDS_PATH", str(root / "cards.gameplay.json"))
-    monkeypatch.setattr(database, "V5_GAMEPLAY_NO_IMAGE_CARDS_PATH", str(root / "cards.gameplay.no-image.json"))
-    monkeypatch.setattr(database, "V5_COLLECTION_CARDS_PATH", str(root / "cards.collection.json"))
-    monkeypatch.setattr(database, "V5_COLLECTION_NO_IMAGE_CARDS_PATH", str(root / "cards.collection.no-image.json"))
     monkeypatch.setattr(database, "EXPANSIONS_JSON_PATH", str(root / "expansions.json"))
     monkeypatch.setattr(database, "V4_JSON_PATH", str(tmp_path / "v4" / "cards.json"))
     return root
