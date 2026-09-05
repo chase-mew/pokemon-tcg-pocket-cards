@@ -45,7 +45,7 @@ import json
 import argparse
 import sys
 
-from constants import CARDS_SCHEMA_PATH, EXPANSIONS_JSON_PATH, EXPANSIONS_SCHEMA_PATH
+from constants import CARDS_SCHEMA_PATH, EXPANSIONS_JSON_PATH, EXPANSIONS_SCHEMA_PATH, V4_CARDS_SCHEMA_PATH
 from database import append_to_v4, compile_v5_database, update_expansions, write_set_file
 from downloader import download_images, download_pack_images
 from scraper import discover_set, scrape_cards, get_all_set_codes
@@ -79,7 +79,7 @@ def validate_schema(instance, schema_path=None, label="cards"):
 
     if not os.path.exists(schema_path):
         raise FileNotFoundError(
-            f"Required V5 schema not found: {schema_path}"
+            f"Required schema not found ({label}): {schema_path}"
         )
 
     with open(schema_path, "r", encoding="utf-8") as f:
@@ -224,7 +224,9 @@ def process_single_set(set_profile, args):
     # Step 5 ----------------------------------------------------------------
     print(f"\n[5/6] Updating database files...")
     if args.mode == "v4":
-        added, expansion_packs = append_to_v4(downgrade_to_v4(cards)), None
+        v4_cards = downgrade_to_v4(cards)
+        validate_schema(v4_cards, V4_CARDS_SCHEMA_PATH, "v4 cards")
+        added, expansion_packs = append_to_v4(v4_cards), None
     else:
         validate_schema(cards)
         added = write_set_file(cards)

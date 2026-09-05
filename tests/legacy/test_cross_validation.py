@@ -6,6 +6,8 @@ second opinion on the same data, not as v4 coverage.
 """
 from collections import defaultdict
 
+import pytest
+
 PROMO_EXPANSION_ID = "promo"
 PROMO_CARD_PREFIXES = {"pa", "pb"}
 
