@@ -210,16 +210,3 @@ PROMO_A_PACK_KEYWORDS = [
     "Wonder Pick",
 ]
 PROMO_CARDS_PER_VOLUME = 5
-
-NON_TRADABLE_RARITIES = ("☆☆☆", "Crown Rare", "Promo")
-SHARABLE_RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊")
-
-
-def trade_cost(rarity, shiny, art_style):
-    r"""trade_cost(rarity, shiny, art_style) -> int or None
-
-    Trading tokens for one card print, from the community trade rules.
-    Unknown combinations raise: a future rarity must fail the build
-    rather than silently carry a wrong price.
-    """
-    return TRADE_RULES[(rarity, shiny, art_style)][2]
