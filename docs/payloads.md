@@ -62,6 +62,9 @@ pair it with gameplay or core when a tool needs both. Schema:
 [cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
 [types](../data/v5/cards.collection.d.ts)
 
+A `collection/no-image` sister drops `image` and `image_png` (14 remaining
+fields) for trackers that derive image paths themselves.
+
 Trading fields (derived from rarity):
 
 | Rarity | `tradable` | `sharable` | `trade_cost` |
