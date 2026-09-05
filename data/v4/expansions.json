@@ -298,5 +298,17 @@
         "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4-booster.png"
       }
     ]
+  },
+  {
+    "id": "b4a",
+    "name": "Team Rocket's Ambition",
+    "packs": [
+      {
+        "id": "b4a-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4a-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4a-booster.png"
+      }
+    ]
   }
 ]

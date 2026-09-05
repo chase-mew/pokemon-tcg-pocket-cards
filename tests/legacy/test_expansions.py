@@ -137,7 +137,6 @@ class TestPackImages:
                         f"Pack {pack['id']} image filename '{filename}' doesn't match pack ID"
                     )
 
-    @pytest.mark.xfail(strict=True, reason="a4-ho-oh pack id has no image file; fixed in task 2")
     def test_pack_image_file_exists(self, expansions):
         missing = []
         for exp in expansions:
