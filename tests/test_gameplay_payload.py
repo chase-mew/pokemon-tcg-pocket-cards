@@ -4,9 +4,9 @@ import json
 import jsonschema
 
 from tests.contract import GAMEPLAY_KEYS
-from constants import (CARDS_JSON_PATH, CORE_RARITIES,
-                       V5_CORE_CARDS_PATH, V5_GAMEPLAY_CARDS_PATH,
-                       V5_GAMEPLAY_CARDS_SCHEMA_PATH, is_playable_trainer)
+from constants import (
+    CARDS_JSON_PATH, CORE_RARITIES, V5_GAMEPLAY_CARDS_SCHEMA_PATH, is_playable_trainer)
+import projections as P
 
 _TRAINER_DROPPED = {"stage", "health", "points", "weakness", "retreat",
                     "evolves_from", "ability", "attacks", "ex", "mega",
@@ -24,8 +24,8 @@ def _load(path):
 
 def test_gameplay_covers_the_same_cards_as_core():
     full = _load(CARDS_JSON_PATH)
-    core = _load(V5_CORE_CARDS_PATH)
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    core = _load(P.V5_CORE_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     kept_ids = {card["id"] for card in full if card["rarity"] in CORE_RARITIES}
     assert kept_ids == {card["id"] for card in core}
     assert kept_ids == {card["id"] for card in gameplay}
@@ -33,14 +33,14 @@ def test_gameplay_covers_the_same_cards_as_core():
 
 
 def test_gameplay_records_carry_image():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     assert gameplay
     assert all(record["image"].startswith("https://raw.githubusercontent.com/")
                for record in gameplay)
 
 
 def test_gameplay_matches_its_schema():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     schema = _load(V5_GAMEPLAY_CARDS_SCHEMA_PATH)
     jsonschema.validate(instance=gameplay, schema=schema)
 
@@ -48,7 +48,7 @@ def test_gameplay_matches_its_schema():
 def test_gameplay_pokemon_records_match_source_projection():
     """Pokemon records keep the full combat projection, omitting only nulls."""
     full = _load(CARDS_JSON_PATH)
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     by_id = {card["id"]: card for card in full}
     for record in gameplay:
         if record["type"] == "Trainer":
@@ -59,7 +59,7 @@ def test_gameplay_pokemon_records_match_source_projection():
 
 
 def test_gameplay_trainer_records_omit_combat_keys():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     for record in gameplay:
         if record["type"] != "Trainer":
             continue
@@ -82,14 +82,14 @@ def test_gameplay_trainer_records_omit_combat_keys():
 
 
 def test_gameplay_non_fossil_trainer_keeps_only_scalar_keys():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     sabrina = next(record for record in gameplay if record["id"] == "a1-225")
     assert sabrina["name"] == "Sabrina"
     assert set(sabrina) == NON_FOSSIL_TRAINER_KEYS
 
 
 def test_gameplay_fossil_trainer_keeps_combat_keys():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     helix = next(record for record in gameplay if record["id"] == "a1-216")
     assert helix["name"] == "Helix Fossil"
     assert set(helix) == FOSSIL_TRAINER_KEYS
@@ -100,7 +100,7 @@ def test_gameplay_fossil_trainer_keeps_combat_keys():
 
 
 def test_gameplay_trainer_shapes_follow_trim_rule():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     for record in gameplay:
         if record["type"] != "Trainer":
             continue
@@ -112,7 +112,7 @@ def test_gameplay_trainer_shapes_follow_trim_rule():
 
 
 def test_gameplay_schema_accepts_trimmed_trainer_records():
-    gameplay = _load(V5_GAMEPLAY_CARDS_PATH)
+    gameplay = _load(P.V5_GAMEPLAY_CARDS_PATH)
     schema = _load(V5_GAMEPLAY_CARDS_SCHEMA_PATH)
     for record in gameplay:
         if record["type"] == "Trainer":

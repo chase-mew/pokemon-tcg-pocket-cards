@@ -156,6 +156,36 @@ def strip_source_urls(cards):
         card.pop("source_url", None)
 
 
+def _trade_rule(rarity, shiny, art_style, card):
+    r"""_trade_rule(rarity, shiny, art_style, card) -> tuple
+
+    Look a card up in :data:`TRADE_RULES`. An unknown combination raises
+    with the card identified, so a new rarity fails the scrape naming
+    the print that caused it rather than with a bare KeyError carrying
+    only the tuple.
+
+    Args:
+        rarity (str): the card's rarity
+        shiny (bool): whether the classifier marked it shiny
+        art_style (str | None): the card's art style
+        card (dict): the raw card, used only to name it on failure
+
+    Returns:
+        tuple: ``(tradable, sharable, trade_cost)``
+
+    Raises:
+        KeyError: the combination is not in ``TRADE_RULES``
+    """
+    key = (rarity, shiny, art_style)
+    try:
+        return TRADE_RULES[key]
+    except KeyError:
+        raise KeyError(
+            f"no trade rule for {key} "
+            f"(card {card.get('name')!r}, number {card.get('number')!r})"
+        ) from None
+
+
 def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
     r"""transform_cards(raw_cards, set_profile, expansion_name, release_date=None) -> list of dict
 
@@ -222,6 +252,7 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
         if set_profile.is_promo:
             rarity = "Promo"
             art_style = None
+            shiny = False
 
         pack = packs.resolve(card)
 
@@ -234,7 +265,8 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             deck_builder_nr = 0
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
         special_tags = matched_tags if matched_tags else None
-        tradable, sharable, card_trade_cost = TRADE_RULES[(rarity, shiny, art_style)]
+        tradable, sharable, card_trade_cost = _trade_rule(
+            rarity, shiny, art_style, card)
 
         transformed.append({
             # Core identifiers

@@ -28,10 +28,7 @@ is the only caller.
 import os
 
 from constants import (COLLECTION_FIELDS, CORE_RARITIES, GAMEPLAY_FIELDS,
-                       GAMEPLAY_NO_IMAGE_FIELDS, is_playable_trainer,
-                       V5_COLLECTION_CARDS_PATH, V5_COLLECTION_NO_IMAGE_CARDS_PATH,
-                       V5_CORE_CARDS_PATH, V5_CORE_NO_IMAGE_CARDS_PATH,
-                       V5_GAMEPLAY_CARDS_PATH, V5_GAMEPLAY_NO_IMAGE_CARDS_PATH)
+                       GAMEPLAY_NO_IMAGE_FIELDS, V5_DIR, is_playable_trainer)
 from utils import minified_path, write_json_pair
 
 
@@ -260,6 +257,21 @@ SHARD_VARIANTS = (
     ("collection.no-image", "cards_collection_no_image",
      "cards.collection.no-image.json", build_collection_no_image_cards),
 )
+
+#: Maps a variant to the absolute path of its root payload. Derived from
+#: :data:`SHARD_VARIANTS` so the filename is stated once; the tests read
+#: the paths from here rather than from ``constants``.
+ROOT_PATHS = {variant: os.path.join(V5_DIR, filename)
+              for variant, _url_stem, filename, _builder in SHARD_VARIANTS}
+
+# The six names the tests import. Built from ROOT_PATHS so the filename
+# is stated once, in the table.
+V5_CORE_CARDS_PATH = ROOT_PATHS["core"]
+V5_CORE_NO_IMAGE_CARDS_PATH = ROOT_PATHS["core.no-image"]
+V5_GAMEPLAY_CARDS_PATH = ROOT_PATHS["gameplay"]
+V5_GAMEPLAY_NO_IMAGE_CARDS_PATH = ROOT_PATHS["gameplay.no-image"]
+V5_COLLECTION_CARDS_PATH = ROOT_PATHS["collection"]
+V5_COLLECTION_NO_IMAGE_CARDS_PATH = ROOT_PATHS["collection.no-image"]
 
 
 def shard_path(prefix, variant, v5_dir, minified=False):

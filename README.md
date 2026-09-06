@@ -43,6 +43,8 @@ npm install pokemon-tcg-pocket-cards
 | `pokemon-tcg-pocket-cards/gameplay/no-image` | Alias of `/v5/gameplay/no-image` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/collection` | Collection view: one record per printed card, trading fields derived |
 | `pokemon-tcg-pocket-cards/collection` | Alias of `/v5/collection` for existing consumers |
+| `pokemon-tcg-pocket-cards/v5/collection/no-image` | Collection view without the image URL |
+| `pokemon-tcg-pocket-cards/collection/no-image` | Alias of `/v5/collection/no-image` for existing consumers |
 | `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
 | `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
 | `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
@@ -85,6 +87,29 @@ Every dataset now lives under [data/](data/). If you link to a raw file at the r
 | `/v3.json`             | [data/v3/cards.json](data/v3/cards.json) ([minified](data/v3/cards.min.json))   |
 | `/v4.json`             | [data/v4/cards.json](data/v4/cards.json) ([minified](data/v4/cards.min.json))   |
 
+## 📊 Schema comparison
+
+The full per-payload field comparison lives in
+[docs/payloads.md](docs/payloads.md#field-comparison-across-payloads). In
+short, all v5 projections share the same card range (2,822 gameplay-rarity
+cards); full and collection additionally keep all 3,879 printed cards.
+
+| Payload | Minified size | Purpose |
+| --- | --- | --- |
+| core | 0.96 MB | Slim summary per gameplay card, webp image included |
+| core no-image | 0.59 MB | Core with the image URL dropped |
+| gameplay | 1.61 MB | Combat model: attacks, abilities, combat stats |
+| gameplay no-image | 1.24 MB | Gameplay with the image URL dropped |
+| collection | 2.99 MB | One record per printed card, trading fields derived |
+| collection no-image | 1.98 MB | Collection with the image URL dropped |
+| full | 4.77 MB | Everything the scraper extracts, all 3,879 cards, trading fields included |
+
+### 💼 Support schedule
+
+[💚 V5](data/v5/cards.json) is the actively maintained data model.
+[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion).
+Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
+
 ## ⚡ Adding a new expansion
 
 When a new expansion drops, run the script to scrape card data, download card art, and update the JSON files.
@@ -120,27 +145,6 @@ python3 scripts/add_expansion.py PB
 - Pass `--name "Custom Name"` to override the expansion name.
 - Pass `--skip-images` to skip downloading images.
 - Pass `--mode v4` to format the output for the legacy schema.
-
-## 📊 Schema comparison
-
-The full per-payload field comparison lives in
-[docs/payloads.md](docs/payloads.md#field-comparison-across-payloads). In
-short, all v5 projections share the same card range (2,822 gameplay-rarity
-cards); full and collection additionally keep all 3,879 printed cards.
-
-| Payload | Minified size | Purpose |
-| --- | --- | --- |
-| core | ~0.96 MB | Slim summary per gameplay card, webp image included |
-| core no-image | ~0.59 MB | Core with the image URL dropped |
-| gameplay | ~1.61 MB | Combat model: attacks, abilities, combat stats |
-| collection | ~2.99 MB | One record per printed card, trading fields derived |
-| full | ~4.58 MB | Everything the scraper extracts, all 3,879 cards |
-
-### 💼 Support schedule
-
-[💚 V5](data/v5/cards.json) is the actively maintained data model.
-[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion).
-Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
 
 ## 🤝 Contributing
 
